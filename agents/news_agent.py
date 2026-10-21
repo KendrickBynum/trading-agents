@@ -38,7 +38,8 @@ def keyword_score(article: dict, watchlist: set[str]) -> dict:
     pos = sum(1 for w in POSITIVE if w in text)
     neg = sum(1 for w in NEGATIVE if w in text)
     macro = sum(1 for w in MACRO_RISK if w in text)
-    s = 0.0 if pos + neg == 0 else (pos - neg) / (pos + neg)
+    # damped so a single keyword can't produce an extreme score
+    s = 0.0 if pos + neg == 0 else (pos - neg) / (pos + neg + 2)
     impacts = [{"ticker": t, "sentiment": round(s, 2), "confidence": 0.3, "reason": "keyword match"}
                for t in article.get("symbols", []) if t in watchlist and s != 0]
     return {"id": str(article["id"]), "market_risk": min(1.0, 0.2 * macro), "impacts": impacts}
@@ -76,7 +77,7 @@ def claude_score(batch: list[dict], watchlist: set[str], model: str) -> list[dic
 def aggregate(articles: list[dict], watchlist: list[str], now: dt.datetime, half_life_h: float) -> dict:
     """Combine scored articles into one score per ticker, weighting recent and
     high-confidence stories more. Pure function (unit-tested)."""
-    acc = {t: {"num": 0.0, "den": 0.0, "count": 0, "headlines": []} for t in watchlist}
+    acc = {t: {"num": 0.0, "den": 0.0, "count": 0, "ai": 0, "headlines": []} for t in watchlist}
     risk_num = risk_den = 0.0
     for a in articles:
         age_h = max(0.0, (now - parse_time(a["created_at"])).total_seconds() / 3600)
@@ -90,13 +91,15 @@ def aggregate(articles: list[dict], watchlist: list[str], now: dt.datetime, half
             acc[t]["num"] += w * i["confidence"] * i["sentiment"]
             acc[t]["den"] += w * i["confidence"]
             acc[t]["count"] += 1
+            if a.get("scorer") == "claude":
+                acc[t]["ai"] += 1
             acc[t]["headlines"].append({"headline": a["headline"], "url": a.get("url"), "time": a["created_at"],
                                         "sentiment": i["sentiment"], "reason": i.get("reason", "")})
     tickers = {}
     for t, v in acc.items():
         score = v["num"] / v["den"] if v["den"] > 0 else 0.0
         heads = sorted(v["headlines"], key=lambda h: h["time"], reverse=True)[:5]
-        tickers[t] = {"score": round(score, 3), "articles": v["count"], "headlines": heads}
+        tickers[t] = {"score": round(score, 3), "articles": v["count"], "ai_articles": v["ai"], "headlines": heads}
     return {"generated_at": now.isoformat(),
             "market_risk": round(risk_num / risk_den, 3) if risk_den else 0.0,
             "tickers": tickers}
@@ -114,34 +117,47 @@ def main() -> int:
     raw = alpaca.news(watchlist, start)
     print(f"Fetched {len(raw)} articles")
 
+    use_claude = bool(os.environ.get("ANTHROPIC_API_KEY"))
     store = read_json("articles.json", [])
+    if use_claude:  # retry articles that earlier fell back to keyword scoring
+        store = [a for a in store if a.get("scorer") == "claude"]
     known = {a["id"] for a in store}
     new = [a for a in raw if str(a["id"]) not in known]
-    print(f"{len(new)} new articles to read")
-
-    use_claude = bool(os.environ.get("ANTHROPIC_API_KEY"))
+    print(f"{len(new)} articles to read")
     scores: dict[str, dict] = {}
+    scorer_of: dict[str, str] = {}
+    claude_ok = use_claude
     bs = ncfg.get("batch_size", 12)
     for i in range(0, len(new), bs):
         batch = new[i:i + bs]
-        try:
-            res = claude_score(batch, wl, ncfg["model"]) if use_claude else [keyword_score(a, wl) for a in batch]
-        except Exception as e:  # never let one bad batch stop the run
-            print(f"Claude scoring failed ({e}); using keyword scorer for this batch", file=sys.stderr)
+        res, used = None, "keywords"
+        if claude_ok:
+            try:
+                res, used = claude_score(batch, wl, ncfg["model"]), "claude"
+            except Exception as e:  # never let one bad batch stop the run
+                print(f"::warning::Claude could not read the news: {e}", file=sys.stderr)
+                if "400" in str(e) or "401" in str(e) or "credit" in str(e).lower():
+                    claude_ok = False  # account/key problem: don't keep retrying this run
+        if res is None:
             res = [keyword_score(a, wl) for a in batch]
-        scores.update({r["id"]: r for r in res})
+        for r in res:
+            scores[r["id"]] = r
+        for a in batch:
+            scorer_of[str(a["id"])] = used
 
     for a in new:
         r = scores.get(str(a["id"]), {"market_risk": 0, "impacts": []})
         store.append({"id": str(a["id"]), "created_at": a["created_at"], "headline": a.get("headline", ""),
                       "url": a.get("url"), "source": a.get("source"), "market_risk": r["market_risk"],
-                      "impacts": r["impacts"], "scorer": "claude" if use_claude else "keywords"})
+                      "impacts": r["impacts"], "scorer": scorer_of.get(str(a["id"]), "keywords")})
 
     store = [a for a in store if parse_time(a["created_at"]) >= start]
     write_json("articles.json", store)
 
     signals = aggregate(store, watchlist, now, ncfg["half_life_hours"])
-    signals["scorer"] = "claude" if use_claude else "keywords"
+    n_ai = sum(1 for a in store if a.get("scorer") == "claude")
+    signals["scorer"] = "claude" if n_ai and n_ai == len(store) else ("mixed" if n_ai else "keywords")
+    signals["ai_coverage"] = round(n_ai / len(store), 3) if store else 0.0
     write_json("signals.json", signals)
     top = sorted(signals["tickers"].items(), key=lambda kv: kv[1]["score"], reverse=True)
     print("Signals:", ", ".join(f"{t} {v['score']:+.2f} ({v['articles']})" for t, v in top))

@@ -42,3 +42,4 @@ risk:
   daily_loss_limit_pct: 0.03  # no new buys after the account is down 3% today
   max_market_risk: 0.70     # no new buys if news agent rates market risk above this
   max_signal_age_hours: 3   # don't buy on stale news signals
+  allow_keyword_trades: false  # if Claude can't read the news, don't trade on keyword guesses

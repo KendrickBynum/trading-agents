@@ -21,7 +21,8 @@ CFG = {
 
 def sig(**tickers):
     return {"generated_at": NOW.isoformat(), "market_risk": 0.1,
-            "tickers": {t: {"score": s, "articles": n} for t, (s, n) in tickers.items()}}
+            "scorer": "claude",
+            "tickers": {t: {"score": s, "articles": n, "ai_articles": n} for t, (s, n) in tickers.items()}}
 
 
 def pos(symbol, plpc, value=10000):
@@ -89,10 +90,28 @@ def test_aggregate_weights_recent_news_more():
     assert out["tickers"]["AAPL"]["score"] > 0.5
     assert out["tickers"]["AAPL"]["articles"] == 2
     assert out["tickers"]["AAPL"]["headlines"][0]["headline"] == "new"
-    assert out["tickers"]["MSFT"] == {"score": 0.0, "articles": 0, "headlines": []}
+    assert out["tickers"]["MSFT"] == {"score": 0.0, "articles": 0, "ai_articles": 0, "headlines": []}
 
 
 def test_keyword_fallback():
     r = keyword_score({"id": 1, "headline": "Apple beats estimates, shares surge", "symbols": ["AAPL", "ZZZ"]},
                       {"AAPL"})
     assert r["impacts"][0]["ticker"] == "AAPL" and r["impacts"][0]["sentiment"] > 0
+
+
+def test_keyword_only_news_never_trades():
+    s = sig(AAPL=(0.9, 4), MSFT=(-0.9, 4))
+    s["scorer"] = "keywords"
+    for v in s["tickers"].values():
+        v["ai_articles"] = 0
+    acts, halts = decide([pos("MSFT", 0.0)], s, 1e5, 1e5, 0, CFG, set(), NOW)
+    assert acts == []  # no buy on AAPL, no news-based sell on MSFT
+    assert any("Claude" in h for h in halts)
+    # stop-loss still works without Claude
+    acts, _ = decide([pos("MSFT", -0.08)], s, 1e5, 1e5, 0, CFG, set(), NOW)
+    assert acts[0]["action"] == "sell" and "stop loss" in acts[0]["reason"]
+
+
+def test_keyword_scores_are_damped():
+    r = keyword_score({"id": 1, "headline": "Apple shares surge", "symbols": ["AAPL"]}, {"AAPL"})
+    assert 0 < r["impacts"][0]["sentiment"] < 0.5

@@ -15,6 +15,9 @@ def decide(positions: list[dict], signals: dict, equity: float, cash: float, day
     watch = {s.upper() for s in cfg["watchlist"]}
     tickers = signals.get("tickers", {})
     actions, halts = [], []
+    # Only news Claude actually read can trigger trades, unless explicitly allowed.
+    key = "articles" if risk.get("allow_keyword_trades") else "ai_articles"
+    n_art = lambda v: v.get(key, 0)
 
     held = [p for p in positions if p["symbol"] in watch]
 
@@ -34,7 +37,7 @@ def decide(positions: list[dict], signals: dict, equity: float, cash: float, day
             reason = f"stop loss ({plpc:+.1%})"
         elif plpc >= risk["take_profit_pct"]:
             reason = f"take profit ({plpc:+.1%})"
-        elif sig.get("articles", 0) >= risk["min_articles"] and sig.get("score", 0) <= risk["sell_threshold"]:
+        elif n_art(sig) >= risk["min_articles"] and sig.get("score", 0) <= risk["sell_threshold"]:
             reason = f"negative news ({sig['score']:+.2f})"
         if reason and sym not in pending:
             actions.append({"action": "sell", "symbol": sym, "reason": reason})
@@ -50,6 +53,8 @@ def decide(positions: list[dict], signals: dict, equity: float, cash: float, day
         halts.append("No news signals yet")
     elif (now - parse_time(gen)).total_seconds() / 3600 > risk["max_signal_age_hours"]:
         halts.append("News signals are stale")
+    if not risk.get("allow_keyword_trades") and signals.get("scorer") == "keywords":
+        halts.append("Claude could not read the news (check Anthropic API credits)")
     if halts:
         return actions, halts
 
@@ -60,7 +65,7 @@ def decide(positions: list[dict], signals: dict, equity: float, cash: float, day
     candidates = sorted(
         ((s, v) for s, v in tickers.items()
          if s in watch and s not in held_syms and s not in pending
-         and v.get("articles", 0) >= risk["min_articles"] and v.get("score", 0) >= risk["buy_threshold"]),
+         and n_art(v) >= risk["min_articles"] and v.get("score", 0) >= risk["buy_threshold"]),
         key=lambda kv: kv[1]["score"], reverse=True)
     for sym, v in candidates:
         if slots <= 0:
