@@ -1,0 +1,60 @@
+name: trading-agents
+
+on:
+  schedule:
+    # Hourly on weekdays across US market hours (UTC). Covers both daylight
+    # and standard time; the trader checks Alpaca's clock and only trades
+    # while the market is open. Closed-market runs just record P&L.
+    - cron: "15 13-20 * * 1-5"
+    - cron: "20 21 * * 1-5"   # end-of-day P&L snapshot
+  workflow_dispatch:           # "Run workflow" button for manual runs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trading-agents
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: News agent
+        continue-on-error: true   # trader still manages stop-losses if news fails
+        working-directory: agents
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python news_agent.py
+
+      - name: Trading agent
+        working-directory: agents
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          KILL_SWITCH: ${{ vars.KILL_SWITCH }}
+          LIVE_TRADING: ${{ vars.LIVE_TRADING }}
+        run: python trader_agent.py
+
+      - name: Save results for the dashboard
+        if: always()
+        run: |
+          git config user.name "trading-agents-bot"
+          git config user.email "trading-agents-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && exit 0
+          git commit -m "agents: run $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase
+          git push

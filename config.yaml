@@ -1,0 +1,44 @@
+# ------------------------------------------------------------------
+# Trading agents configuration
+# Edit this file (even from the GitHub mobile app) to change behavior.
+# Changes take effect on the next scheduled run.
+# ------------------------------------------------------------------
+
+# Emergency stop. Set to true to stop ALL new trades immediately.
+# Set liquidate_on_kill to true as well to sell every watchlist position.
+kill_switch: false
+liquidate_on_kill: false
+
+# Symbols the agents are allowed to read about and trade.
+# This is an example list of large, liquid names - replace it with your own.
+# The trader never touches positions outside this list.
+watchlist:
+  - SPY
+  - QQQ
+  - AAPL
+  - MSFT
+  - NVDA
+  - AMZN
+  - GOOGL
+  - META
+  - JPM
+  - XOM
+
+news:
+  lookback_hours: 24        # how far back news counts toward a signal
+  half_life_hours: 8        # older news counts less; weight halves every N hours
+  model: claude-haiku-5-5   # Claude model used to read news (needs ANTHROPIC_API_KEY)
+  batch_size: 12            # articles per Claude request
+
+risk:
+  buy_threshold: 0.45       # news score (-1..1) needed to open a position
+  sell_threshold: -0.30     # news score at/below which a held position is sold
+  min_articles: 2           # ignore signals built on fewer articles than this
+  max_positions: 6          # max simultaneous positions
+  max_position_pct: 0.10    # max % of equity in any single new position
+  min_cash_pct: 0.20        # always keep at least this % of equity in cash
+  stop_loss_pct: 0.05       # sell if a position is down 5%
+  take_profit_pct: 0.10     # sell if a position is up 10%
+  daily_loss_limit_pct: 0.03  # no new buys after the account is down 3% today
+  max_market_risk: 0.70     # no new buys if news agent rates market risk above this
+  max_signal_age_hours: 3   # don't buy on stale news signals

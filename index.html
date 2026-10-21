@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trading Agents</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #16181d; --muted: #6b7280; --line: #e5e7eb;
+    --up: #0f8a5f; --down: #c2412d; --accent: #3b5bdb; --warn-bg: #fff4e5; --warn: #8a4b00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1013; --card: #171a1f; --text: #e8eaed; --muted: #9aa0a6; --line: #2a2f36;
+      --up: #34c38f; --down: #ff6b57; --accent: #7c93ff; --warn-bg: #2d2210; --warn: #f5b454;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; }
+  h1 { font-size: 22px; margin: 0; }
+  h2 { font-size: 15px; margin: 0 0 12px; color: var(--muted); font-weight: 600;
+       text-transform: uppercase; letter-spacing: .04em; }
+  .meta { color: var(--muted); font-size: 13px; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600;
+           background: var(--accent); color: #fff; margin-left: 8px; vertical-align: middle; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 20px 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+  .stat .label { color: var(--muted); font-size: 13px; }
+  .stat .value { font-size: 24px; font-weight: 650; margin-top: 4px; font-variant-numeric: tabular-nums; }
+  .stat .sub { font-size: 13px; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .up { color: var(--up); } .down { color: var(--down); }
+  .alert { background: var(--warn-bg); color: var(--warn); border-radius: 10px; padding: 10px 14px; margin-top: 16px; font-size: 14px; }
+  section { margin-top: 16px; }
+  .chart-wrap { position: relative; height: 280px; }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th { color: var(--muted); font-weight: 600; font-size: 13px; }
+  td.num, th.num { text-align: right; }
+  td.wrap { white-space: normal; min-width: 220px; }
+  a { color: var(--accent); text-decoration: none; }
+  .empty { color: var(--muted); padding: 8px 0; }
+  .bar { display: inline-block; height: 8px; border-radius: 4px; vertical-align: middle; }
+  .two { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 900px) { .two { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Trading Agents <span id="mode" class="badge">PAPER</span></h1>
+    <div class="meta" id="lastRun">Loading…</div>
+  </header>
+
+  <div id="alerts"></div>
+
+  <div class="grid">
+    <div class="card stat"><div class="label">Account value</div><div class="value" id="equity">–</div><div class="sub meta" id="cash"></div></div>
+    <div class="card stat"><div class="label">Today</div><div class="value" id="day">–</div><div class="sub" id="dayPct"></div></div>
+    <div class="card stat"><div class="label">Since start</div><div class="value" id="total">–</div><div class="sub" id="totalPct"></div></div>
+    <div class="card stat"><div class="label">Market risk (news)</div><div class="value" id="risk">–</div><div class="sub meta" id="sigAt"></div></div>
+  </div>
+
+  <section class="card">
+    <h2>Account value over time</h2>
+    <div class="chart-wrap"><canvas id="chart"></canvas></div>
+  </section>
+
+  <div class="two">
+    <section class="card">
+      <h2>Open positions</h2>
+      <div class="table-wrap" id="positions"></div>
+    </section>
+    <section class="card">
+      <h2>News signals</h2>
+      <div class="table-wrap" id="signals"></div>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>Recent trades</h2>
+    <div class="table-wrap" id="trades"></div>
+  </section>
+
+  <section class="card">
+    <h2>Latest headlines driving signals</h2>
+    <div class="table-wrap" id="headlines"></div>
+  </section>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+const money = v => (v < 0 ? "-$" : "$") + Math.abs(v).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const signed = v => (v >= 0 ? "+" : "") + money(v);
+const pct = v => (v >= 0 ? "+" : "") + (v * 100).toFixed(2) + "%";
+const cls = v => v > 0 ? "up" : v < 0 ? "down" : "";
+const when = s => s ? new Date(s).toLocaleString(undefined, {month: "short", day: "numeric", hour: "numeric", minute: "2-digit"}) : "–";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+async function load(name, fallback) {
+  try {
+    const r = await fetch(`data/${name}?t=${Date.now()}`);
+    if (!r.ok) return fallback;
+    return await r.json();
+  } catch { return fallback; }
+}
+
+function table(el, cols, rows, emptyMsg) {
+  if (!rows.length) { el.innerHTML = `<div class="empty">${emptyMsg}</div>`; return; }
+  el.innerHTML = `<table><thead><tr>${cols.map(c => `<th class="${c.num ? "num" : ""}">${c.h}</th>`).join("")}</tr></thead>
+    <tbody>${rows.map(r => `<tr>${cols.map(c => `<td class="${c.num ? "num" : ""} ${c.wrap ? "wrap" : ""}">${c.f(r)}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+}
+
+let chart;
+async function render() {
+  const [status, equity, trades, signals] = await Promise.all([
+    load("status.json", null), load("equity.json", []), load("trades.json", []), load("signals.json", null)]);
+
+  if (!status) {
+    $("lastRun").textContent = "No runs yet — trigger the workflow from the Actions tab.";
+    return;
+  }
+  $("mode").textContent = status.paper ? "PAPER" : "LIVE";
+  $("mode").style.background = status.paper ? "var(--accent)" : "var(--down)";
+  $("lastRun").textContent = `Last run ${when(status.last_run)} · market ${status.market_open ? "open" : "closed"}`;
+
+  $("equity").textContent = money(status.equity);
+  $("cash").textContent = `Cash ${money(status.cash)}`;
+  $("day").textContent = signed(status.day_pnl); $("day").className = "value " + cls(status.day_pnl);
+  $("dayPct").textContent = pct(status.day_pnl_pct); $("dayPct").className = "sub " + cls(status.day_pnl_pct);
+  $("total").textContent = signed(status.total_pnl); $("total").className = "value " + cls(status.total_pnl);
+  $("totalPct").textContent = `${pct(status.total_pnl_pct)} from ${money(status.starting_equity)}`;
+  $("totalPct").className = "sub " + cls(status.total_pnl_pct);
+  $("risk").textContent = status.market_risk == null ? "–" : status.market_risk.toFixed(2);
+  $("sigAt").textContent = `News read ${when(status.signals_at)}`;
+
+  const halts = (status.halts || []).filter(h => h !== "Market closed");
+  $("alerts").innerHTML = halts.length ? `<div class="alert"><strong>New buys paused:</strong> ${halts.map(esc).join(" · ")}</div>` : "";
+
+  // equity chart
+  const css = getComputedStyle(document.documentElement);
+  const line = css.getPropertyValue("--accent").trim(), grid = css.getPropertyValue("--line").trim(),
+        muted = css.getPropertyValue("--muted").trim();
+  const data = equity.map(e => ({x: new Date(e.time), y: e.equity}));
+  const labels = data.map(d => d.x.toLocaleDateString(undefined, {month: "short", day: "numeric"}) + " " +
+                                d.x.toLocaleTimeString(undefined, {hour: "numeric"}));
+  chart?.destroy();
+  chart = new Chart($("chart"), {
+    type: "line",
+    data: {labels, datasets: [{data: data.map(d => d.y), borderColor: line, backgroundColor: line + "22",
+            fill: true, tension: .25, pointRadius: 0, borderWidth: 2}]},
+    options: {maintainAspectRatio: false, plugins: {legend: {display: false},
+              tooltip: {callbacks: {label: c => money(c.parsed.y)}}},
+              scales: {x: {ticks: {color: muted, maxTicksLimit: 8}, grid: {display: false}},
+                       y: {ticks: {color: muted, callback: v => money(v)}, grid: {color: grid}}}}
+  });
+
+  table($("positions"), [
+    {h: "Symbol", f: p => `<strong>${esc(p.symbol)}</strong>`},
+    {h: "Value", num: 1, f: p => money(p.value)},
+    {h: "Entry", num: 1, f: p => money(p.avg_entry)},
+    {h: "Price", num: 1, f: p => money(p.price)},
+    {h: "P&L", num: 1, f: p => `<span class="${cls(p.pl)}">${signed(p.pl)} (${pct(p.pl_pct)})</span>`},
+  ], status.positions || [], "No open positions.");
+
+  const sigRows = signals ? Object.entries(signals.tickers).map(([t, v]) => ({t, ...v}))
+                     .sort((a, b) => b.score - a.score) : [];
+  table($("signals"), [
+    {h: "Symbol", f: r => `<strong>${esc(r.t)}</strong>`},
+    {h: "Score", num: 1, f: r => `<span class="${cls(r.score)}">${r.score >= 0 ? "+" : ""}${r.score.toFixed(2)}</span>`},
+    {h: "", f: r => `<span class="bar" style="width:${Math.round(Math.abs(r.score) * 60)}px;background:var(${r.score >= 0 ? "--up" : "--down"})"></span>`},
+    {h: "Articles", num: 1, f: r => r.articles},
+  ], sigRows, "No signals yet.");
+
+  table($("trades"), [
+    {h: "Time", f: t => when(t.time)},
+    {h: "Side", f: t => `<span class="${t.side === "buy" ? "up" : "down"}">${t.side.toUpperCase()}</span>`},
+    {h: "Symbol", f: t => `<strong>${esc(t.symbol)}</strong>`},
+    {h: "Amount", num: 1, f: t => t.notional != null ? money(t.notional) : "–"},
+    {h: "Realized P&L", num: 1, f: t => t.realized_pl != null ? `<span class="${cls(t.realized_pl)}">${signed(t.realized_pl)}</span>` : "–"},
+    {h: "Why", wrap: 1, f: t => esc(t.reason) + (t.status === "error" ? ` <span class="down">(failed)</span>` : "")},
+  ], trades.slice().reverse().slice(0, 50), "No trades yet.");
+
+  const heads = sigRows.flatMap(r => (r.headlines || []).map(h => ({...h, t: r.t})))
+                       .sort((a, b) => b.time.localeCompare(a.time)).slice(0, 25);
+  table($("headlines"), [
+    {h: "Time", f: h => when(h.time)},
+    {h: "Symbol", f: h => esc(h.t)},
+    {h: "Impact", num: 1, f: h => `<span class="${cls(h.sentiment)}">${h.sentiment >= 0 ? "+" : ""}${h.sentiment.toFixed(2)}</span>`},
+    {h: "Headline", wrap: 1, f: h => h.url ? `<a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.headline)}</a>` : esc(h.headline)},
+    {h: "Reason", wrap: 1, f: h => esc(h.reason)},
+  ], heads, "No headlines yet.");
+}
+
+render();
+setInterval(render, 5 * 60 * 1000);  // refresh every 5 minutes
+</script>
+</body>
+</html>
