@@ -2548,5 +2548,49 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "101153555",
+    "created_at": "2026-10-21T23:01:29Z",
+    "headline": "3M and Amazon Web Services Announce Strategic Collaboration on Optical Connectivity",
+    "url": "https://www.prnewswire.com/news-releases/3m-and-aws-collaborate-to-advance-optical-connectivity-innovation-302915596.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "AWS-3M optical connectivity partnership, modest infrastructure positive, likely small impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62515178",
+    "created_at": "2026-10-21T23:00:11Z",
+    "headline": "Kevin O\u2019Leary Says Tesla-SpaceX Merger Is Inevitable After Flying Roadster Demo \u2014  \u2018If You Own Tesla, You\u2019re Gonna Own New Company\u2019",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62515178/kevin-oleary-tesla-spacex-merger",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62514401",
+    "created_at": "2026-10-21T21:37:41Z",
+    "headline": "Meta Platforms Q3 2026 Earnings Call Transcript",
+    "url": "https://www.benzinga.com/news/26/10/62514401/meta-platforms-q3-2026-earnings-call-transcript",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Earnings call transcript only; no results content, stock reaction unclear"
+      }
+    ],
+    "scorer": "claude"
   }
 ]

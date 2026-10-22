@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T21:41:09.312993+00:00",
-  "market_risk": 0.088,
+  "generated_at": "2026-10-22T00:03:07.942565+00:00",
+  "market_risk": 0.086,
   "tickers": {
     "SPY": {
       "score": 0.004,
@@ -213,10 +213,17 @@
       ]
     },
     "AMZN": {
-      "score": 0.093,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": 0.103,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "3M and Amazon Web Services Announce Strategic Collaboration on Optical Connectivity",
+          "url": "https://www.prnewswire.com/news-releases/3m-and-aws-collaborate-to-advance-optical-connectivity-innovation-302915596.html",
+          "time": "2026-10-21T23:01:29Z",
+          "sentiment": 0.15,
+          "reason": "AWS-3M optical connectivity partnership, modest infrastructure positive, likely small impact"
+        },
         {
           "headline": "Amazon's Blink Brand Launches Five New Security Cameras",
           "url": "https://www.moomoo.com/stock/AMZN-US/news?chain_id=Name1K9-3FXPhg.1ldg040&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A39,%22f%22%3A%22www.moomoo.com%2Fus%2Flearn%2Fcommon-mistakes-to-avoid-when-investing-in-etfs%22%7D",
@@ -244,13 +251,6 @@
           "time": "2026-10-21T18:06:30Z",
           "sentiment": -0.15,
           "reason": "Stranded server racks suggest capex inefficiency and power constraints"
-        },
-        {
-          "headline": "SpaceX Jumps 10%, Nasdaq 100 Rises as AI Trade Returns: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62504696/spacex-jumps-nasdaq-100-ai-trade-netflix-att-stock-market-today",
-          "time": "2026-10-21T17:02:19Z",
-          "sentiment": 0.1,
-          "reason": "Modest lift from Nasdaq 100 AI-trade rally"
         }
       ]
     },
@@ -297,10 +297,17 @@
       ]
     },
     "META": {
-      "score": 0.18,
-      "articles": 36,
-      "ai_articles": 36,
+      "score": 0.177,
+      "articles": 37,
+      "ai_articles": 37,
       "headlines": [
+        {
+          "headline": "Meta Platforms Q3 2026 Earnings Call Transcript",
+          "url": "https://www.benzinga.com/news/26/10/62514401/meta-platforms-q3-2026-earnings-call-transcript",
+          "time": "2026-10-21T21:37:41Z",
+          "sentiment": 0.0,
+          "reason": "Earnings call transcript only; no results content, stock reaction unclear"
+        },
         {
           "headline": "Meta Platforms CEO Says Co To Work On Muse Monetization Sooner Than Normal Playbook;  Reason We're Not Charging Everyone For Muse Is That We Want To Establish A Network Of People And Businesses Using It At Scale",
           "url": "https://www.benzinga.com/news/26/10/62514334/meta-platforms-ceo-says-co-work-muse-monetization-sooner-normal-playbook-reason-we-re-not-charging-e",
@@ -328,13 +335,6 @@
           "time": "2026-10-21T21:00:12Z",
           "sentiment": 0.05,
           "reason": "Video feature adoption up, but rising serving costs offset benefit"
-        },
-        {
-          "headline": "Meta CFO Says In Conference Call Instagram Global Time Spent Per User Hit Record In Q3, Up Double Digits Year-Over-Year; Facebook Reels Time Spent At Record Highs",
-          "url": "https://www.benzinga.com/content/62513114/meta-cfo-says-conference-call-instagram-global-time-spent-user-hit-record-q3-double-digits-year-over",
-          "time": "2026-10-21T20:49:47Z",
-          "sentiment": 0.4,
-          "reason": "Record Instagram and Reels engagement supports ad revenue outlook"
         }
       ]
     },
