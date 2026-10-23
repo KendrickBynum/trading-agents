@@ -1,283 +1,5 @@
 [
   {
-    "id": "62548583",
-    "created_at": "2026-10-22T21:15:12Z",
-    "headline": "Bill Ackman Says Meta Can Finance 'Whatever They Want,' Points to $82 Billion Cash",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62548583/meta-ai-spending-bill-ackman-cash",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.2,
-        "confidence": 0.2,
-        "reason": "Ackman's endorsement of Meta's cash position and AI funding capacity"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62547318",
-    "created_at": "2026-10-22T20:32:36Z",
-    "headline": "SCHD ETF Hits Record High as Inflows Rise While Tech Stocks and Treasury Yields Slip",
-    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62547318/schd-etf-hits-record-high-as-inflows-rise-while-tech-stocks-and-treasury-yields-slip",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Tech stocks slipping; mild drag on Nasdaq-100 sentiment"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Rotation into dividend ETFs; broad market effect unclear"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "102037915",
-    "created_at": "2026-10-22T20:31:34Z",
-    "headline": "JPMorganChase Announces $10 Million Loan to Support Atlanta Small Businesses",
-    "url": "https://metroatlantaceo.com/news/2026/10/jpmorganchase-expands-support-atlanta-small-businesses-through-hiring-coaching-and-10m-loan-access-capital-entrepreneurs/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "102037911",
-    "created_at": "2026-10-22T20:31:20Z",
-    "headline": "Merck Collaborates with NVIDIA, Microsoft, and Dawn Health on Patient Support Model",
-    "url": "https://www.businesswirechina.com/en/news/64377.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Minor partnership announcement in healthcare; immaterial to revenue"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62546901",
-    "created_at": "2026-10-22T20:21:48Z",
-    "headline": "'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC",
-    "url": "https://www.benzinga.com/news/26/10/62546901/openai-nears-30-billion-funding-round-1-25-trillion-valuation-led-uae-investors-cnbc",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "OpenAI's high valuation supports Microsoft's OpenAI stake; indirect"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62546804",
-    "created_at": "2026-10-22T20:19:35Z",
-    "headline": "Meta\u2019s Muse Downloads Top 10 Million, Join Elite Company: Here\u2019s the 2 Non-Game Apps to Hit Same Milestone",
-    "url": "https://www.benzinga.com/news/social-media/26/10/62546804/metas-muse-downloads-top-10-million-join-elite-company-heres-the-2-non-game-apps-to-hit-same-milestone",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.1,
-        "confidence": 0.25,
-        "reason": "Muse app milestone is positive but growth may be slowing"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62546738",
-    "created_at": "2026-10-22T20:18:29Z",
-    "headline": "Walmart\u2019s Best Month Since 1999 Leads a Record Staples Rally: Is This a Warning Sign?",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62546738/walmart-stock-best-month-since-1999-record-staples-rally",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Defensive staples rally may signal weaker broader market ahead"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62546332",
-    "created_at": "2026-10-22T20:12:46Z",
-    "headline": "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62546332/michael-burry-shares-chilling-song-on-ai-watching-trillion-dollar-monuments-become-obsolete",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "Burry's bearish AI-spending commentary; opinion piece, limited direct impact"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Bearish AI infrastructure commentary; opinion, not new fundamentals"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Bearish AI data center commentary; opinion, not new fundamentals"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Bearish AI data center commentary; opinion, not new fundamentals"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Bearish AI data center commentary; opinion, not new fundamentals"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62545840",
-    "created_at": "2026-10-22T20:07:14Z",
-    "headline": "Nvidia's AI Warning, $111 Oil: Why SOXL Just Suffered a Brutal 20% Wipeout",
-    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62545840/nvidias-ai-warning-111-oil-why-soxl-just-suffered-a-brutal-20-wipeout",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.5,
-        "confidence": 0.5,
-        "reason": "CEO AI warning and chip selloff; SOXL down 20%"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.4,
-        "confidence": 0.4,
-        "reason": "Chip-led selloff and oil spike pressure Nasdaq-100"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.35,
-        "reason": "Oil surge and chip weakness raise broad market risk"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Oil at $111 supports upstream producer earnings"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62545365",
-    "created_at": "2026-10-22T20:03:40Z",
-    "headline": "Ten-Year Treasury Yields Fall Below 5%: These 10 Real-Estate Stocks Are Rallying Sharply",
-    "url": "https://www.benzinga.com/real-estate/26/10/62545365/10-year-treasury-yield-falls-homebuilder-real-estate-stocks-rally",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Falling 10-year yields generally supportive for growth and tech valuations"
-      },
-      {
-        "ticker": "META",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Lower yields modestly supportive for growth names"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62544136",
-    "created_at": "2026-10-22T19:40:37Z",
-    "headline": "UBS Maintains Buy on Meta Platforms, Raises Price Target to $892",
-    "url": "https://www.benzinga.com/news/26/10/62544136/ubs-maintains-buy-meta-platforms-raises-price-target-892",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "UBS reiterates Buy and raises price target to $892"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62544124",
-    "created_at": "2026-10-22T19:40:30Z",
-    "headline": "OpenAI Makes The Decisions API Generally Available",
-    "url": "https://www.benzinga.com/news/26/10/62544124/openai-makes-decisions-api-generally-available",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "API general availability is routine product news for OpenAI, indirect for MSFT"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62544017",
-    "created_at": "2026-10-22T19:38:07Z",
-    "headline": "Adjusting Imports Of Wind Turbines And Their Parts And Components Into The United States",
-    "url": "https://www.benzinga.com/government/26/10/62544017/adjusting-imports-wind-turbines-and-their-parts-and-components-united-states",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62543931",
-    "created_at": "2026-10-22T19:36:24Z",
-    "headline": "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Q3 earnings miss and elevated 2027 capex concerns, though targets raised"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "102311876",
     "created_at": "2026-10-22T23:01:40Z",
     "headline": "ExxonMobil Joliet Refinery Experiences Operational Disruption",
@@ -1932,6 +1654,90 @@
         "sentiment": 0.2,
         "confidence": 0.35,
         "reason": "Foldable iPhone launch could drive upgrade interest, though likely anticipated"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62575914",
+    "created_at": "2026-10-23T20:59:49Z",
+    "headline": "'Meta acquires AI data platform Sundial'- Axios",
+    "url": "https://www.benzinga.com/news/26/10/62575914/meta-acquires-ai-data-platform-sundial-axios",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Acquisition of AI data platform may modestly strengthen META's AI capabilities"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "103039878",
+    "created_at": "2026-10-23T20:31:32Z",
+    "headline": "ExxonMobil's Joliet Refinery Expected to Resume Operations Next Week",
+    "url": "https://www.moomoo.com/options/XOM261023C182500-US/news",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Routine refinery restart; supply impact small and likely expected"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62573841",
+    "created_at": "2026-10-23T19:51:16Z",
+    "headline": "NHTSA Proposes Updating Vehicle Lighting Standard, Federal Motor Vehicle Safety Standards No. 108, To Accommodate Automated Driving Systems And Modernize Headlamp Requirements; NHTSA Says The Changes Are Intended To Eliminate Unnecessary Regulatory Barriers, Reduce Costs, And Enable Innovation Without Compromising Vehicle Safety",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62573841/nhtsa-proposes-updating-vehicle-lighting-standard-federal-motor-vehicle-safety-standards-no-108-acco",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "Proposed rule eases automated driving barriers; indirect and long-term"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "Proposed rule eases automated driving barriers; indirect and long-term"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62573550",
+    "created_at": "2026-10-23T19:41:58Z",
+    "headline": "Palmer Luckey's New Defense Startup Is Cloning War Dogs",
+    "url": "https://www.benzinga.com/markets/private-markets/26/10/62573550/palmer-luckeys-new-defense-startup-is-cloning-war-dogs",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62573523",
+    "created_at": "2026-10-23T19:41:42Z",
+    "headline": "President Donald J. Trump Further Modifies Canadian Products Subject To Tariffs Under Section 338; Removing Certain Products Such As Plywood Sheets, Some Paper Products, Certain Machinery And Refrigeration Equipment, And Certain Packing Crates And Boxes; Replacing Those Products With Certain Valves, Carpets, Waste Products, And Others; Product Additions And Removals Will Take Effect On October 30, 2026",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62573523/president-donald-j-trump-further-modifies-canadian-products-subject-tariffs-under-section-338-removi",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Expanded Canadian tariff modifications add mild trade-tension risk"
       }
     ],
     "scorer": "claude"

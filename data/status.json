@@ -1,28 +1,30 @@
 {
-  "last_run": "2026-10-23T19:35:25.074789+00:00",
+  "last_run": "2026-10-23T21:23:21.779636+00:00",
   "paper": true,
-  "market_open": true,
+  "market_open": false,
   "next_open": "2026-10-26T09:30:00-04:00",
-  "equity": 99982.56,
+  "equity": 99988.01,
   "cash": 90000.01,
-  "day_pnl": -17.44,
-  "day_pnl_pct": -0.00017,
+  "day_pnl": -11.99,
+  "day_pnl_pct": -0.00012,
   "starting_equity": 100000.0,
-  "total_pnl": -17.44,
-  "total_pnl_pct": -0.00017,
-  "halts": [],
+  "total_pnl": -11.99,
+  "total_pnl_pct": -0.00012,
+  "halts": [
+    "Market closed"
+  ],
   "last_actions": [],
-  "market_risk": 0.139,
-  "signals_at": "2026-10-23T19:35:17.859940+00:00",
+  "market_risk": 0.133,
+  "signals_at": "2026-10-23T21:23:16.553503+00:00",
   "positions": [
     {
       "symbol": "XOM",
       "qty": 54.504769172,
       "avg_entry": 183.47,
-      "price": 183.15,
-      "value": 9982.548474,
-      "pl": -17.441526,
-      "pl_pct": -0.00174
+      "price": 183.25,
+      "value": 9987.998951,
+      "pl": -11.991049,
+      "pl_pct": -0.0012
     }
   ]
 }

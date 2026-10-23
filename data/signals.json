@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-23T19:35:17.859940+00:00",
-  "market_risk": 0.139,
+  "generated_at": "2026-10-23T21:23:16.553503+00:00",
+  "market_risk": 0.133,
   "tickers": {
     "SPY": {
-      "score": -0.205,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.202,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "'U.S. Notifies Iraq of Iran Strike; PM Warns Armed Groups' - Channel 8",
@@ -45,9 +45,9 @@
       ]
     },
     "QQQ": {
-      "score": -0.27,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.277,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Oil Tops $100 on Iran Fears, Energy ETF XLE Hits New Record: Stock Market Today",
@@ -108,9 +108,9 @@
       ]
     },
     "MSFT": {
-      "score": -0.114,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Texas Attorney General Paxton Sues OpenAI, CEO Altman Over Alleged Imposition Of Negative Side Effects On Clients",
@@ -118,20 +118,13 @@
           "time": "2026-10-23T19:23:56Z",
           "sentiment": -0.15,
           "reason": "State AG lawsuit against OpenAI, a key Microsoft partner; limited direct exposure"
-        },
-        {
-          "headline": "'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC",
-          "url": "https://www.benzinga.com/news/26/10/62546901/openai-nears-30-billion-funding-round-1-25-trillion-valuation-led-uae-investors-cnbc",
-          "time": "2026-10-22T20:21:48Z",
-          "sentiment": 0.15,
-          "reason": "OpenAI's high valuation supports Microsoft's OpenAI stake; indirect"
         }
       ]
     },
     "NVDA": {
-      "score": -0.192,
-      "articles": 14,
-      "ai_articles": 14,
+      "score": -0.185,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
         {
           "headline": "Amazon CEO Andy Jassy Says AI Inference Is Still 10 Times Too Expensive, Claims Amazon Chips Offer Answer",
@@ -227,10 +220,17 @@
       ]
     },
     "META": {
-      "score": -0.18,
-      "articles": 15,
-      "ai_articles": 15,
+      "score": -0.153,
+      "articles": 13,
+      "ai_articles": 13,
       "headlines": [
+        {
+          "headline": "'Meta acquires AI data platform Sundial'- Axios",
+          "url": "https://www.benzinga.com/news/26/10/62575914/meta-acquires-ai-data-platform-sundial-axios",
+          "time": "2026-10-23T20:59:49Z",
+          "sentiment": 0.2,
+          "reason": "Acquisition of AI data platform may modestly strengthen META's AI capabilities"
+        },
         {
           "headline": "Rhode Island Files Lawsuit Against Meta Over Scam Ads",
           "url": "https://www.pymnts.com/legal/2026/rhode-island-lawsuit-claims-meta-knowingly-profits-from-financial-scam-ads/",
@@ -258,13 +258,6 @@
           "time": "2026-10-23T15:58:47Z",
           "sentiment": -0.3,
           "reason": "Senator's criticism raises regulatory risk over Meta's creator terms"
-        },
-        {
-          "headline": "Meta's Q3 FCF Turns Negative On AI Spend\u2014Q4 Capex Implied At $49B-59B",
-          "url": "https://www.benzinga.com/opinion/26/10/62565283/metas-q3-fcf-turns-negative-on-ai-spend-q4-capex-implied-at-49b-59b",
-          "time": "2026-10-23T15:49:07Z",
-          "sentiment": -0.4,
-          "reason": "Q3 free cash flow turned negative; implied Q4 capex of $49-59B"
         }
       ]
     },
@@ -275,9 +268,9 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.454,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.465,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Oil Tops $100 on Iran Fears, Energy ETF XLE Hits New Record: Stock Market Today",
@@ -292,13 +285,6 @@
           "time": "2026-10-23T15:00:13Z",
           "sentiment": 0.4,
           "reason": "Talk of seizing Iranian oil supports oil producers"
-        },
-        {
-          "headline": "Nvidia's AI Warning, $111 Oil: Why SOXL Just Suffered a Brutal 20% Wipeout",
-          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62545840/nvidias-ai-warning-111-oil-why-soxl-just-suffered-a-brutal-20-wipeout",
-          "time": "2026-10-22T20:07:14Z",
-          "sentiment": 0.3,
-          "reason": "Oil at $111 supports upstream producer earnings"
         }
       ]
     }
