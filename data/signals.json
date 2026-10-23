@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-23T00:01:40.955506+00:00",
-  "market_risk": 0.129,
+  "generated_at": "2026-10-23T05:13:53.610963+00:00",
+  "market_risk": 0.137,
   "tickers": {
     "SPY": {
-      "score": -0.18,
-      "articles": 15,
-      "ai_articles": 15,
+      "score": -0.24,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
-          "headline": "SCHD ETF Hits Record High as Inflows Rise While Tech Stocks and Treasury Yields Slip",
-          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62547318/schd-etf-hits-record-high-as-inflows-rise-while-tech-stocks-and-treasury-yields-slip",
-          "time": "2026-10-22T20:32:36Z",
-          "sentiment": 0.0,
-          "reason": "Rotation into dividend ETFs; broad market effect unclear"
+          "headline": "Peter Schiff Warns Stock Market Crash Before Midterms 'Is Not Outside the Realm of Possibility' \u2014 'This Is October'",
+          "url": "https://www.benzinga.com/markets/economic-data/26/10/62550388/peter-schiff-october-stock-market-crash-warning-midterms",
+          "time": "2026-10-23T02:32:48Z",
+          "sentiment": -0.2,
+          "reason": "Crash warning citing inflation, weak economy, and AI financing costs"
         },
         {
           "headline": "Walmart\u2019s Best Month Since 1999 Leads a Record Staples Rally: Is This a Warning Sign?",
@@ -45,16 +45,16 @@
       ]
     },
     "QQQ": {
-      "score": -0.259,
+      "score": -0.26,
       "articles": 8,
       "ai_articles": 8,
       "headlines": [
         {
-          "headline": "SCHD ETF Hits Record High as Inflows Rise While Tech Stocks and Treasury Yields Slip",
-          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62547318/schd-etf-hits-record-high-as-inflows-rise-while-tech-stocks-and-treasury-yields-slip",
-          "time": "2026-10-22T20:32:36Z",
-          "sentiment": -0.1,
-          "reason": "Tech stocks slipping; mild drag on Nasdaq-100 sentiment"
+          "headline": "Peter Schiff Warns Stock Market Crash Before Midterms 'Is Not Outside the Realm of Possibility' \u2014 'This Is October'",
+          "url": "https://www.benzinga.com/markets/economic-data/26/10/62550388/peter-schiff-october-stock-market-crash-warning-midterms",
+          "time": "2026-10-23T02:32:48Z",
+          "sentiment": -0.2,
+          "reason": "Crash warning citing inflation, weak economy, and AI financing costs"
         },
         {
           "headline": "Nvidia's AI Warning, $111 Oil: Why SOXL Just Suffered a Brutal 20% Wipeout",
@@ -87,24 +87,10 @@
       ]
     },
     "AAPL": {
-      "score": -0.029,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
-        {
-          "headline": "Apple Reportedly Testing Second-Generation iPhone Duo Prototypes",
-          "url": "https://appleosophy.com/wire/52venfd/",
-          "time": "2026-10-22T19:01:30Z",
-          "sentiment": 0.05,
-          "reason": "Unconfirmed report of prototype testing; routine product development"
-        },
-        {
-          "headline": "Investigating Apple's Standing In Technology Hardware, Storage &amp; Peripherals Industry Compared To Competitors",
-          "url": "https://www.benzinga.com/news/26/10/62518613/investigating-apple-s-standing-technology-hardware-storage-amp-peripherals-industry-compared-competi",
-          "time": "2026-10-22T09:58:59Z",
-          "sentiment": 0.0,
-          "reason": "Generic peer comparison article with no new information"
-        },
         {
           "headline": "Reported Earlier, Australian Court Orders Apple To Allow Alternative App Distribution, Payments For Australian Users From March 1, 2027; Rejects Epic\u2019s Global Relief",
           "url": "https://www.benzinga.com/quote/EWA",
@@ -115,9 +101,9 @@
       ]
     },
     "MSFT": {
-      "score": 0.034,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC",
@@ -125,49 +111,14 @@
           "time": "2026-10-22T20:21:48Z",
           "sentiment": 0.15,
           "reason": "OpenAI's high valuation supports Microsoft's OpenAI stake; indirect"
-        },
-        {
-          "headline": "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62546332/michael-burry-shares-chilling-song-on-ai-watching-trillion-dollar-monuments-become-obsolete",
-          "time": "2026-10-22T20:12:46Z",
-          "sentiment": -0.1,
-          "reason": "Bearish AI infrastructure commentary; opinion, not new fundamentals"
-        },
-        {
-          "headline": "OpenAI Makes The Decisions API Generally Available",
-          "url": "https://www.benzinga.com/news/26/10/62544124/openai-makes-decisions-api-generally-available",
-          "time": "2026-10-22T19:40:30Z",
-          "sentiment": 0.05,
-          "reason": "API general availability is routine product news for OpenAI, indirect for MSFT"
-        },
-        {
-          "headline": "Is A War Imminent? Concerns Overshadow Strong Meta, Tesla Earnings",
-          "url": "https://www.benzinga.com/opinion/26/10/62537507/is-a-war-imminent-concerns-overshadow-strong-meta-tesla-earnings",
-          "time": "2026-10-22T16:54:23Z",
-          "sentiment": -0.1,
-          "reason": "Mild exposure to broad risk-off tech selling"
-        },
-        {
-          "headline": "Microsoft and Boehringer Ingelheim Announce Strategic AI Collaboration",
-          "url": "https://www.globenewswire.com/news-release/2026/10/22/3386225/0/en/boehringer-ingelheim-and-microsoft-partner-to-drive-patient-centric-and-ai-backed-clinical-development.html",
-          "time": "2026-10-22T15:01:40Z",
-          "sentiment": 0.1,
-          "reason": "Routine AI partnership with pharma firm; limited financial impact"
         }
       ]
     },
     "NVDA": {
-      "score": -0.02,
-      "articles": 34,
-      "ai_articles": 34,
+      "score": -0.043,
+      "articles": 16,
+      "ai_articles": 16,
       "headlines": [
-        {
-          "headline": "Merck Collaborates with NVIDIA, Microsoft, and Dawn Health on Patient Support Model",
-          "url": "https://www.businesswirechina.com/en/news/64377.html",
-          "time": "2026-10-22T20:31:20Z",
-          "sentiment": 0.05,
-          "reason": "Minor partnership announcement in healthcare; immaterial to revenue"
-        },
         {
           "headline": "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'",
           "url": "https://www.benzinga.com/markets/tech/26/10/62546332/michael-burry-shares-chilling-song-on-ai-watching-trillion-dollar-monuments-become-obsolete",
@@ -183,32 +134,39 @@
           "reason": "CEO AI warning and chip selloff; SOXL down 20%"
         },
         {
-          "headline": "Nutanix Announces Collaboration with NVIDIA, Supermicro, and Netris to Simplify AI Infrastructure",
-          "url": "https://gecnewswire.com/nutanix-partners-with-nvidia-supermicro-and-netris-to-speed-up-ai/",
-          "time": "2026-10-22T19:01:38Z",
-          "sentiment": 0.1,
-          "reason": "Partnership on AI infrastructure deployment; minor commercial relevance"
-        },
-        {
           "headline": "Meta Bulls Beware: Bond Market Sends Its Loudest Warning on Zuckerberg's Borrowing Binge",
           "url": "https://www.benzinga.com/markets/tech/26/10/62541680/meta-bulls-beware-bond-market-sends-its-loudest-warning-on-zuckerbergs-borrowing-binge",
           "time": "2026-10-22T18:30:02Z",
           "sentiment": -0.2,
           "reason": "AI spending concerns could weigh on demand sentiment"
+        },
+        {
+          "headline": "Blackstone CEO Sounds Alarm on AI Supply Crunch: 'Seldom in My Career Have I Seen' Anything Like It",
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62541272/blackstone-ceo-sounds-alarm-on-ai-supply-crunch-seldom-in-my-career-have-i-seen-anything-like-it",
+          "time": "2026-10-22T18:18:40Z",
+          "sentiment": 0.3,
+          "reason": "Blackstone reports AI infrastructure demand exceeding available supply"
+        },
+        {
+          "headline": "CoreWeave Debt Stress Mounts: Bond Yield Hits Record as Stock Suffers $44 Billion Wipeout",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62541064/coreweave-debt-stress-mounts-bond-yield-hits-record-as-stock-suffers-44-billion-wipeout",
+          "time": "2026-10-22T18:13:06Z",
+          "sentiment": -0.3,
+          "reason": "CoreWeave debt stress and AI jitters may weigh on GPU demand sentiment"
         }
       ]
     },
     "AMZN": {
-      "score": -0.027,
-      "articles": 12,
-      "ai_articles": 12,
+      "score": -0.119,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
-          "headline": "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62546332/michael-burry-shares-chilling-song-on-ai-watching-trillion-dollar-monuments-become-obsolete",
-          "time": "2026-10-22T20:12:46Z",
-          "sentiment": -0.1,
-          "reason": "Bearish AI data center commentary; opinion, not new fundamentals"
+          "headline": "Former Fed Adviser Danielle DiMartino Booth Warns Recession May Already Be Here: Treasury Rally Signals \u2018Far More Consequential\u2019 Shift",
+          "url": "https://www.benzinga.com/markets/economic-data/26/10/62550709/former-fed-insider-warns-recession-underway-treasury-rally",
+          "time": "2026-10-23T04:55:07Z",
+          "sentiment": -0.2,
+          "reason": "Recession warning and AI-spender credit stress weigh on sentiment"
         },
         {
           "headline": "Amazon Expands 'Amazon Quick' AI Platform with PwC Partnership",
@@ -225,68 +183,40 @@
           "reason": "Tech selloff and AI capex worries weigh on hyperscaler peers"
         },
         {
-          "headline": "Is A War Imminent? Concerns Overshadow Strong Meta, Tesla Earnings",
-          "url": "https://www.benzinga.com/opinion/26/10/62537507/is-a-war-imminent-concerns-overshadow-strong-meta-tesla-earnings",
-          "time": "2026-10-22T16:54:23Z",
-          "sentiment": -0.1,
-          "reason": "Mild exposure to broad risk-off tech selling"
-        },
-        {
-          "headline": "Blackstone CEO Dismisses AI Bubble Fears: 'Critical Scarcity of Supply Has Intensified'",
-          "url": "https://www.benzinga.com/news/26/10/62534753/billionaire-dismisses-ai-bubble-constrained-market",
-          "time": "2026-10-22T15:57:31Z",
-          "sentiment": 0.1,
-          "reason": "Blackstone CEO dismisses AI bubble fears; general commentary only"
+          "headline": "Anthropic Could Take Major IPO Step as Soon as Friday: What Investors Need to Know",
+          "url": "https://www.benzinga.com/markets/ipos/26/10/62517881/anthropic-could-take-major-ipo-step-as-soon-as-friday-what-investors-need-to-know",
+          "time": "2026-10-22T08:40:50Z",
+          "sentiment": 0.15,
+          "reason": "Possible Anthropic IPO may lift value of Amazon's stake"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.017,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
-          "headline": "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62546332/michael-burry-shares-chilling-song-on-ai-watching-trillion-dollar-monuments-become-obsolete",
-          "time": "2026-10-22T20:12:46Z",
-          "sentiment": -0.1,
-          "reason": "Bearish AI data center commentary; opinion, not new fundamentals"
-        },
-        {
-          "headline": "Eric Schmidt Rejects AI Bubble Fears, Says Anthropic Is Growing Twice as Fast as Google Did",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62531967/eric-schmidt-ai-bubble-anthropic-growth",
-          "time": "2026-10-22T15:04:10Z",
-          "sentiment": 0.1,
-          "reason": "Executive commentary on AI demand; indirect and largely priced in"
-        },
-        {
-          "headline": "Top Economists Warn California\u2019s Billionaire Tax Could Backfire, Wealthy Residents Leaving Could Cost the State $39 Billion More Than It Collects: 'Will Not Fulfill the Primary Functions'",
-          "url": "https://www.benzinga.com/news/politics/26/10/62526254/top-economists-warn-californias-billionaire-tax-could-backfire-wealthy-residents-leaving-could-cost-the-state-39-billion-more-than-it-collects-will-not-fulfill-the-primary-functions",
-          "time": "2026-10-22T13:26:51Z",
-          "sentiment": -0.05,
-          "reason": "State tax debate, indirect and unlikely to move shares"
-        },
-        {
-          "headline": "Google CEO Says Fully Self-Improving AI Is Still a Long Way Off",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62525802/google-self-improving-ai-rsi-pichai",
-          "time": "2026-10-22T13:14:49Z",
-          "sentiment": 0.0,
-          "reason": "Executive commentary on AI timeline, no near-term change"
-        },
-        {
-          "headline": "Citizens Maintains Market Outperform on Alphabet, Lowers Price Target to $450",
-          "url": "https://www.benzinga.com/news/26/10/62524223/citizens-maintains-market-outperform-alphabet-lowers-price-target-450",
-          "time": "2026-10-22T12:41:12Z",
-          "sentiment": -0.1,
-          "reason": "Price target lowered to $450, rating still positive"
+          "headline": "Anthropic Could Take Major IPO Step as Soon as Friday: What Investors Need to Know",
+          "url": "https://www.benzinga.com/markets/ipos/26/10/62517881/anthropic-could-take-major-ipo-step-as-soon-as-friday-what-investors-need-to-know",
+          "time": "2026-10-22T08:40:50Z",
+          "sentiment": 0.15,
+          "reason": "Possible Anthropic IPO may lift value of Google's stake"
         }
       ]
     },
     "META": {
-      "score": 0.013,
-      "articles": 52,
-      "ai_articles": 52,
+      "score": 0.001,
+      "articles": 35,
+      "ai_articles": 35,
       "headlines": [
+        {
+          "headline": "Former Fed Adviser Danielle DiMartino Booth Warns Recession May Already Be Here: Treasury Rally Signals \u2018Far More Consequential\u2019 Shift",
+          "url": "https://www.benzinga.com/markets/economic-data/26/10/62550709/former-fed-insider-warns-recession-underway-treasury-rally",
+          "time": "2026-10-23T04:55:07Z",
+          "sentiment": -0.2,
+          "reason": "Recession warning and AI-spender credit stress weigh on sentiment"
+        },
         {
           "headline": "Bill Ackman Says Meta Can Finance 'Whatever They Want,' Points to $82 Billion Cash",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62548583/meta-ai-spending-bill-ackman-cash",
@@ -295,82 +225,47 @@
           "reason": "Ackman's endorsement of Meta's cash position and AI funding capacity"
         },
         {
-          "headline": "Meta\u2019s Muse Downloads Top 10 Million, Join Elite Company: Here\u2019s the 2 Non-Game Apps to Hit Same Milestone",
-          "url": "https://www.benzinga.com/news/social-media/26/10/62546804/metas-muse-downloads-top-10-million-join-elite-company-heres-the-2-non-game-apps-to-hit-same-milestone",
-          "time": "2026-10-22T20:19:35Z",
-          "sentiment": 0.1,
-          "reason": "Muse app milestone is positive but growth may be slowing"
-        },
-        {
-          "headline": "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62546332/michael-burry-shares-chilling-song-on-ai-watching-trillion-dollar-monuments-become-obsolete",
-          "time": "2026-10-22T20:12:46Z",
-          "sentiment": -0.1,
-          "reason": "Bearish AI data center commentary; opinion, not new fundamentals"
-        },
-        {
-          "headline": "Ten-Year Treasury Yields Fall Below 5%: These 10 Real-Estate Stocks Are Rallying Sharply",
-          "url": "https://www.benzinga.com/real-estate/26/10/62545365/10-year-treasury-yield-falls-homebuilder-real-estate-stocks-rally",
-          "time": "2026-10-22T20:03:40Z",
-          "sentiment": 0.05,
-          "reason": "Lower yields modestly supportive for growth names"
-        },
-        {
           "headline": "UBS Maintains Buy on Meta Platforms, Raises Price Target to $892",
           "url": "https://www.benzinga.com/news/26/10/62544136/ubs-maintains-buy-meta-platforms-raises-price-target-892",
           "time": "2026-10-22T19:40:37Z",
           "sentiment": 0.4,
           "reason": "UBS reiterates Buy and raises price target to $892"
+        },
+        {
+          "headline": "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "time": "2026-10-22T19:36:24Z",
+          "sentiment": -0.3,
+          "reason": "Q3 earnings miss and elevated 2027 capex concerns, though targets raised"
+        },
+        {
+          "headline": "Citigroup Maintains Buy on Meta Platforms, Raises Price Target to $905",
+          "url": "https://www.benzinga.com/news/26/10/62543030/citigroup-maintains-buy-meta-platforms-raises-price-target-905",
+          "time": "2026-10-22T19:11:20Z",
+          "sentiment": 0.3,
+          "reason": "Citigroup maintains Buy and raises price target to $905"
         }
       ]
     },
     "JPM": {
-      "score": -0.023,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
-        {
-          "headline": "J.P. Morgan Asset Management Launches Tokenized Money Market Funds on Solana",
-          "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html",
-          "time": "2026-10-22T18:01:28Z",
-          "sentiment": 0.1,
-          "reason": "Tokenized fund expansion is incremental product news with limited price impact"
-        },
-        {
-          "headline": "TerraPay Integrates with Kinexys by J.P. Morgan",
-          "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69904400-terrapay-verify-integrates-with-kinexys-by-j-p-morgan-s-liink-network-for-global-payee-verification-008.htm",
-          "time": "2026-10-22T15:01:47Z",
-          "sentiment": 0.05,
-          "reason": "Minor partner integration for Kinexys; immaterial to earnings"
-        },
         {
           "headline": "'Unvetted AI Agents Are Accessing U.S. Bank Accounts' - Axios",
           "url": "https://www.benzinga.com/news/26/10/62528737/unvetted-ai-agents-are-accessing-u-s-bank-accounts-axios",
           "time": "2026-10-22T14:08:51Z",
           "sentiment": -0.2,
           "reason": "Unvetted AI agents accessing bank accounts raises security and regulatory risk"
-        },
-        {
-          "headline": "Axios Reported Morgan Stanley, Bank Of America, JPMorgan, Wells Fargo, Other Major U.S. Banks Race To Block Unauthorized Third-Party AI Agents Accessing Customer Accounts, Some Acting Independently Of User Instructions",
-          "url": "https://www.benzinga.com/news/26/10/62518341/axios-reported-morgan-stanley-bank-america-jpmorgan-wells-fargo-other-major-u-s-banks-race-block-una",
-          "time": "2026-10-22T09:37:21Z",
-          "sentiment": -0.1,
-          "reason": "Banks blocking unauthorized AI agents signals security and compliance costs"
         }
       ]
     },
     "XOM": {
-      "score": 0.091,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": 0.154,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
-        {
-          "headline": "ExxonMobil Joliet Refinery Experiences Operational Disruption",
-          "url": "https://dailycallernewsfoundation.org/2026/10/22/exxonmobil-joliet-refinery-gas-prices-michigan-ohio-indiana-tom-kloza/",
-          "time": "2026-10-22T23:01:40Z",
-          "sentiment": -0.1,
-          "reason": "Refinery unit outage may reduce throughput; regional impact likely small and brief"
-        },
         {
           "headline": "Nvidia's AI Warning, $111 Oil: Why SOXL Just Suffered a Brutal 20% Wipeout",
           "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62545840/nvidias-ai-warning-111-oil-why-soxl-just-suffered-a-brutal-20-wipeout",
@@ -386,18 +281,25 @@
           "reason": "Renewed Iran strikes could disrupt oil supply and lift prices"
         },
         {
-          "headline": "'Israeli Senior Officers Says No Reason To Strike Iran Before U.S. Elections' - Ynet Global",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62537860/israeli-senior-officers-says-no-reason-strike-iran-u-s-elections-ynet-global",
-          "time": "2026-10-22T17:02:08Z",
-          "sentiment": -0.1,
-          "reason": "Lower near-term war risk trims oil supply premium"
-        },
-        {
           "headline": "Is A War Imminent? Concerns Overshadow Strong Meta, Tesla Earnings",
           "url": "https://www.benzinga.com/opinion/26/10/62537507/is-a-war-imminent-concerns-overshadow-strong-meta-tesla-earnings",
           "time": "2026-10-22T16:54:23Z",
           "sentiment": 0.2,
           "reason": "Rising oil prices on war fears benefit energy producers"
+        },
+        {
+          "headline": "'Qatar Scours for More LNG to Boost Supply Outside Middle East' - Bloomberg Exclusive",
+          "url": "https://www.benzinga.com/news/26/10/62536494/qatar-scours-more-lng-boost-supply-outside-middle-east-bloomberg-exclusive",
+          "time": "2026-10-22T16:33:47Z",
+          "sentiment": 0.2,
+          "reason": "Qatar LNG sourcing shift signals Middle East supply concerns"
+        },
+        {
+          "headline": "President Trump Posts On Truth Social \"Iran is doing everything they can to drive up the price of Oil prior to the U.S. Midterm Election. They are even making up fake hits, mines, and everything else, because more Oil is coming through the Hormuz Strait now than it did even prior to the beginning of the Conflict....\"",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62533927/president-trump-posts-truth-social-iran-doing-everything-they-can-drive-price-oil-prior-u-s-midterm-",
+          "time": "2026-10-22T15:42:30Z",
+          "sentiment": -0.3,
+          "reason": "Trump says Hormuz oil flows are high and blames Iran for price spikes"
         }
       ]
     }

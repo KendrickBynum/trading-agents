@@ -2060,104 +2060,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62516175",
-    "created_at": "2026-10-22T04:20:38Z",
-    "headline": "Mark Zuckerberg Says Muse Could Out-Earn Facebook, Instagram Per User, But Analyst Warns It\u2019s 'Losing' More Money Than Any Other Product Meta Has Launched",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62516175/meta-muse-ai-revenue-costs-analyst",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Analyst flags Muse losses rising faster than any prior Meta product"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62516100",
-    "created_at": "2026-10-22T03:52:08Z",
-    "headline": "Mark Zuckerberg Keeps Control as Meta Adds Class C Stock \u2014 Analyst Sees \u2018More Capex Coming\u2019 for AI",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62516100/meta-non-voting-stock-split-zuckerberg-keeps-control-ai-buildout",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Non-voting stock issuance signals heavier AI capex and possible dilution"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62515868",
-    "created_at": "2026-10-22T02:10:19Z",
-    "headline": "Bitcoin, Ethereum, XRP, Dogecoin Rise as Scott Bessent Compares GENIUS Act to Lincoln's Currency Milestone: Analyst Notes BTC's Sentiment- Defying Move",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62515868/bitcoin-ethereum-xrp-dogecoin-crypto-genius-act",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "101255538",
-    "created_at": "2026-10-22T02:01:35Z",
-    "headline": "Meta Announces Establishment of New Class C Common Stock",
-    "url": "https://www.manilatimes.net/2026/10/22/business/foreign-business/meta-beats-expectations-but-legal-penalties-hit-profit-amid-ai-race/2451354",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "New non-voting Class C stock to fund AI; dilution and governance concern"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "101255536",
-    "created_at": "2026-10-22T02:01:32Z",
-    "headline": "Tavant Launches Accelerator for Microsoft Fabric on Microsoft Marketplace",
-    "url": "https://ittech-pulse.com/news/tavant-microsoft-fabric-accelerator-marketplace-launch/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "101255534",
-    "created_at": "2026-10-22T02:01:26Z",
-    "headline": "AWS Executive Reports European Startup Concerns Over Regional Scaling",
-    "url": "https://www.pymnts.com/startups/2026/aws-executive-says-40-of-european-startups-consider-leaving-region-to-scale/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "AWS executive cites European startup flight risk; minor, indirect demand concern"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62515722",
-    "created_at": "2026-10-22T01:17:44Z",
-    "headline": "Meta, IBM, Texas Instruments, LAM Research and Tesla: Why These 5 Stocks Are on Investors' Radars Today",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62515722/meta-ibm-texas-instruments-lam-research-and-tesla-why-these-5-stocks-are-on-investors-radars-today",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "62548583",
     "created_at": "2026-10-22T21:15:12Z",
     "headline": "Bill Ackman Says Meta Can Finance 'Whatever They Want,' Points to $82 Billion Cash",
@@ -2694,6 +2596,79 @@
         "sentiment": -0.1,
         "confidence": 0.3,
         "reason": "Refinery unit outage may reduce throughput; regional impact likely small and brief"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62550709",
+    "created_at": "2026-10-23T04:55:07Z",
+    "headline": "Former Fed Adviser Danielle DiMartino Booth Warns Recession May Already Be Here: Treasury Rally Signals \u2018Far More Consequential\u2019 Shift",
+    "url": "https://www.benzinga.com/markets/economic-data/26/10/62550709/former-fed-insider-warns-recession-underway-treasury-rally",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Recession warning and AI-spender credit stress weigh on sentiment"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Recession warning and AI-spender credit stress weigh on sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62550649",
+    "created_at": "2026-10-23T04:26:05Z",
+    "headline": "Crown Castle Stock Jumps as SpaceX Eyes 80,000 Cell Sites for Wireless Network: \u2018We\u2019re Talking to All Parties\u2019",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62550649/crown-castle-shares-surge-spacex-cell-site-talks",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62550501",
+    "created_at": "2026-10-23T03:27:59Z",
+    "headline": "Ro Khanna Says Zuckerberg\u2019s California Deal Undercuts Billionaire Tax Exodus Warnings: \u2018Gavin, Can You and Sergey Brin Stop...\u2019",
+    "url": "https://www.benzinga.com/news/politics/26/10/62550501/khanna-zuckerberg-california-billionaire-tax",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Political commentary on billionaire tax; little direct financial effect"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62550388",
+    "created_at": "2026-10-23T02:32:48Z",
+    "headline": "Peter Schiff Warns Stock Market Crash Before Midterms 'Is Not Outside the Realm of Possibility' \u2014 'This Is October'",
+    "url": "https://www.benzinga.com/markets/economic-data/26/10/62550388/peter-schiff-october-stock-market-crash-warning-midterms",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Crash warning citing inflation, weak economy, and AI financing costs"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Crash warning citing inflation, weak economy, and AI financing costs"
       }
     ],
     "scorer": "claude"
