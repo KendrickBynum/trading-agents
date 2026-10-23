@@ -74,9 +74,12 @@ def claude_score(batch: list[dict], watchlist: set[str], model: str) -> list[dic
     return clean
 
 
-def aggregate(articles: list[dict], watchlist: list[str], now: dt.datetime, half_life_h: float) -> dict:
+def aggregate(articles: list[dict], watchlist: list[str], now: dt.datetime, half_life_h: float,
+              neutral_cutoff: float = 0.0) -> dict:
     """Combine scored articles into one score per ticker, weighting recent and
-    high-confidence stories more. Pure function (unit-tested)."""
+    high-confidence stories more. Stories Claude rated near-neutral (below
+    neutral_cutoff) are left out so routine news doesn't water down real
+    signals. Pure function (unit-tested)."""
     acc = {t: {"num": 0.0, "den": 0.0, "count": 0, "ai": 0, "headlines": []} for t in watchlist}
     risk_num = risk_den = 0.0
     for a in articles:
@@ -86,7 +89,7 @@ def aggregate(articles: list[dict], watchlist: list[str], now: dt.datetime, half
         risk_den += w
         for i in a.get("impacts", []):
             t = i["ticker"]
-            if t not in acc:
+            if t not in acc or abs(i["sentiment"]) < neutral_cutoff:
                 continue
             acc[t]["num"] += w * i["confidence"] * i["sentiment"]
             acc[t]["den"] += w * i["confidence"]
@@ -154,7 +157,8 @@ def main() -> int:
     store = [a for a in store if parse_time(a["created_at"]) >= start]
     write_json("articles.json", store)
 
-    signals = aggregate(store, watchlist, now, ncfg["half_life_hours"])
+    signals = aggregate(store, watchlist, now, ncfg["half_life_hours"],
+                        ncfg.get("neutral_cutoff", 0.0))
     n_ai = sum(1 for a in store if a.get("scorer") == "claude")
     signals["scorer"] = "claude" if n_ai and n_ai == len(store) else ("mixed" if n_ai else "keywords")
     signals["ai_coverage"] = round(n_ai / len(store), 3) if store else 0.0

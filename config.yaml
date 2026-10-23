@@ -27,11 +27,12 @@ watchlist:
 news:
   lookback_hours: 24        # how far back news counts toward a signal
   half_life_hours: 8        # older news counts less; weight halves every N hours
+  neutral_cutoff: 0.15      # ignore stories Claude rates between -0.15 and +0.15 (routine news)
   model: claude-haiku-5-5   # Claude model used to read news (needs ANTHROPIC_API_KEY)
   batch_size: 12            # articles per Claude request
 
 risk:
-  buy_threshold: 0.45       # news score (-1..1) needed to open a position
+  buy_threshold: 0.25       # news score (-1..1) needed to open a position (was 0.45)
   sell_threshold: -0.30     # news score at/below which a held position is sold
   min_articles: 2           # ignore signals built on fewer articles than this
   max_positions: 6          # max simultaneous positions

@@ -115,3 +115,12 @@ def test_keyword_only_news_never_trades():
 def test_keyword_scores_are_damped():
     r = keyword_score({"id": 1, "headline": "Apple shares surge", "symbols": ["AAPL"]}, {"AAPL"})
     assert 0 < r["impacts"][0]["sentiment"] < 0.5
+
+
+def test_neutral_news_does_not_dilute():
+    mk = lambda h, s: {"created_at": NOW.isoformat(), "headline": h, "market_risk": 0,
+                       "impacts": [{"ticker": "AAPL", "sentiment": s, "confidence": 0.8}]}
+    arts = [mk("big news", 0.7)] + [mk(f"routine {i}", 0.05) for i in range(8)]
+    diluted = aggregate(arts, ["AAPL"], NOW, 8)["tickers"]["AAPL"]
+    clean = aggregate(arts, ["AAPL"], NOW, 8, neutral_cutoff=0.15)["tickers"]["AAPL"]
+    assert diluted["score"] < 0.15 and clean["score"] == 0.7 and clean["articles"] == 1
