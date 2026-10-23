@@ -1,22 +1,5 @@
 [
   {
-    "id": "102311876",
-    "created_at": "2026-10-22T23:01:40Z",
-    "headline": "ExxonMobil Joliet Refinery Experiences Operational Disruption",
-    "url": "https://dailycallernewsfoundation.org/2026/10/22/exxonmobil-joliet-refinery-gas-prices-michigan-ohio-indiana-tom-kloza/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Refinery unit outage may reduce throughput; regional impact likely small and brief"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62550709",
     "created_at": "2026-10-23T04:55:07Z",
     "headline": "Former Fed Adviser Danielle DiMartino Booth Warns Recession May Already Be Here: Treasury Rally Signals \u2018Far More Consequential\u2019 Shift",
@@ -1740,6 +1723,33 @@
         "reason": "Expanded Canadian tariff modifications add mild trade-tension risk"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "103115567",
+    "created_at": "2026-10-23T21:31:54Z",
+    "headline": "Simfabric Signs Agreement with Apple for iPhone Duo App Development",
+    "url": "https://www.moomoo.com/stock/AAPL-US/news?chain_id=Name1K9-3FXPhg.1l7q280&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Ftw-prepaid-%E8%A2%AB%E5%8A%A8%E6%94%B6%E5%85%A5-104392995%2Fpost%2Fall%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Small third-party app development deal; minimal impact on Apple"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62576407",
+    "created_at": "2026-10-23T21:30:14Z",
+    "headline": "Here\u2019s How Much You Would Have Made Owning Apple Stock In The Last 15 Years",
+    "url": "https://www.benzinga.com/news/26/10/62576407/here-s-how-much-you-would-have-made-owning-apple-stock-last-15-years",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
