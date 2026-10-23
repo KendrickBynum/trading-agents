@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-23T14:35:29.493906+00:00",
+  "last_run": "2026-10-23T15:35:28.766459+00:00",
   "paper": true,
   "market_open": true,
   "next_open": "2026-10-26T09:30:00-04:00",
@@ -11,8 +11,19 @@
   "total_pnl": 0.0,
   "total_pnl_pct": 0.0,
   "halts": [],
-  "last_actions": [],
-  "market_risk": 0.134,
-  "signals_at": "2026-10-23T14:35:17.074183+00:00",
+  "last_actions": [
+    {
+      "time": "2026-10-23T15:35:28.766459+00:00",
+      "symbol": "XOM",
+      "side": "buy",
+      "reason": "positive news (+0.30, 6 articles)",
+      "news_score": 0.3,
+      "notional": 10000.0,
+      "status": "submitted",
+      "order_id": "872c9b5b-d439-461c-9bd3-eb6f517bd0ae"
+    }
+  ],
+  "market_risk": 0.146,
+  "signals_at": "2026-10-23T15:35:17.986617+00:00",
   "positions": []
 }
