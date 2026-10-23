@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T17:52:34.115941+00:00",
-  "market_risk": 0.147,
+  "generated_at": "2026-10-23T18:35:24.641290+00:00",
+  "market_risk": 0.143,
   "tickers": {
     "SPY": {
       "score": -0.205,
@@ -115,10 +115,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.19,
-      "articles": 16,
-      "ai_articles": 16,
+      "score": -0.192,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "Amazon CEO Andy Jassy Says AI Inference Is Still 10 Times Too Expensive, Claims Amazon Chips Offer Answer",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62571409/amazon-ai-inference-cost-trainium-jassy",
+          "time": "2026-10-23T18:28:24Z",
+          "sentiment": -0.15,
+          "reason": "Amazon's in-house chip push may pressure NVIDIA's AI accelerator share"
+        },
         {
           "headline": "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says",
           "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62569298/nvidia-stock-slower-growth-stock-outlook",
@@ -146,21 +153,21 @@
           "time": "2026-10-23T14:58:27Z",
           "sentiment": -0.2,
           "reason": "Korean chip selloff and capitulation signal ahead of SK Hynix earnings"
-        },
-        {
-          "headline": "EXCLUSIVE: Paul Kedrosky Warns AI Data Center Boom Could Fail Even as AI Adoption Soars",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62562607/ai-data-center-boom-paul-kedrosky",
-          "time": "2026-10-23T14:46:34Z",
-          "sentiment": -0.25,
-          "reason": "Warning of AI data center overbuild threatens GPU demand outlook"
         }
       ]
     },
     "AMZN": {
-      "score": 0.002,
+      "score": 0.079,
       "articles": 4,
       "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Amazon CEO Andy Jassy Says AI Inference Is Still 10 Times Too Expensive, Claims Amazon Chips Offer Answer",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62571409/amazon-ai-inference-cost-trainium-jassy",
+          "time": "2026-10-23T18:28:24Z",
+          "sentiment": 0.2,
+          "reason": "Jassy highlights Trainium chips as a path to cheaper AI inference"
+        },
         {
           "headline": "Nvidia Analyst Warns 45% of AI Data Center Capacity Planned for 2027 May Not Get Built",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62567597/ai-data-center-capacity-nvidia-45-percent",
@@ -181,13 +188,6 @@
           "time": "2026-10-23T04:55:07Z",
           "sentiment": -0.2,
           "reason": "Recession warning and AI-spender credit stress weigh on sentiment"
-        },
-        {
-          "headline": "Amazon Expands 'Amazon Quick' AI Platform with PwC Partnership",
-          "url": "https://www.pymnts.com/news/retail/2026/walmart-and-amazon-expand-ai-agents-roles-in-shopping-and-work/",
-          "time": "2026-10-22T18:01:38Z",
-          "sentiment": 0.2,
-          "reason": "Enterprise AI platform expansion with PwC partnership, modestly positive"
         }
       ]
     },
@@ -213,9 +213,9 @@
       ]
     },
     "META": {
-      "score": -0.162,
-      "articles": 17,
-      "ai_articles": 17,
+      "score": -0.154,
+      "articles": 16,
+      "ai_articles": 16,
       "headlines": [
         {
           "headline": "'Meta's Muse AI To Counter China Models With Subscribers, Not Ads; Meta Plans To Offer Paid Enterprise Services, Will Take Commissions From Sellers On Purchases Made Using Agents, Alexandr Wang Says' - Nikkei Asia",
