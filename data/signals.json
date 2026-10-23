@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-23T13:35:17.793940+00:00",
-  "market_risk": 0.152,
+  "generated_at": "2026-10-23T14:35:17.074183+00:00",
+  "market_risk": 0.134,
   "tickers": {
     "SPY": {
-      "score": -0.237,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.148,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "'Netanyahu says army prepared for \u2018large-scale operation\u2019 in West Bank' - Al Jazeera",
+          "url": "https://www.benzinga.com/news/26/10/62560535/netanyahu-says-army-prepared-large-scale-operation-west-bank-al-jazeera",
+          "time": "2026-10-23T14:07:39Z",
+          "sentiment": -0.2,
+          "reason": "Possible large-scale West Bank operation raises geopolitical risk"
+        },
+        {
+          "headline": "USA S&P Global Manufacturing PMI For October 56.0 Vs 55.4 Est",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-10-23T13:45:22Z",
+          "sentiment": 0.2,
+          "reason": "Manufacturing PMI beat estimates, signaling stronger industrial activity"
+        },
         {
           "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Fall Ahead of Global PMI Data\u2014Western Digital, Newmont, Crown Castle in Focus (UPDATED)",
           "url": "https://www.benzinga.com/markets/equities/26/10/62553473/stock-market-today-sp-500-nasdaq-100-futures-mixed-ahead-of-global-pmi-data-western-digital-newmont-crown-castle-in-focus",
@@ -27,20 +41,6 @@
           "time": "2026-10-23T02:32:48Z",
           "sentiment": -0.2,
           "reason": "Crash warning citing inflation, weak economy, and AI financing costs"
-        },
-        {
-          "headline": "Walmart\u2019s Best Month Since 1999 Leads a Record Staples Rally: Is This a Warning Sign?",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62546738/walmart-stock-best-month-since-1999-record-staples-rally",
-          "time": "2026-10-22T20:18:29Z",
-          "sentiment": -0.2,
-          "reason": "Defensive staples rally may signal weaker broader market ahead"
-        },
-        {
-          "headline": "Nvidia's AI Warning, $111 Oil: Why SOXL Just Suffered a Brutal 20% Wipeout",
-          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62545840/nvidias-ai-warning-111-oil-why-soxl-just-suffered-a-brutal-20-wipeout",
-          "time": "2026-10-22T20:07:14Z",
-          "sentiment": -0.3,
-          "reason": "Oil surge and chip weakness raise broad market risk"
         }
       ]
     },
@@ -192,10 +192,17 @@
       ]
     },
     "GOOGL": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.219,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Google Cloud Revenue Surges: Alphabet Focuses on $100 Billion TPU Opportunity Ahead of Q3 Earnings",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62561452/google-cloud-revenue-surges-alphabet-focuses-on-100-billion-tpu-opportunity-ahead-of-q3-earnings",
+          "time": "2026-10-23T14:25:04Z",
+          "sentiment": 0.4,
+          "reason": "Cloud revenue surge and TPU opportunity ahead of earnings"
+        },
         {
           "headline": "Meta, Nvidia Lead Tech Sell-Off as AI Spending Fears Rattle Wall Street, But Gene Munster Sides With Musk, Zuckerberg and Huang: \u2018We\u2019re Still Early'",
           "url": "https://www.benzinga.com/markets/tech/26/10/62551736/meta-nvidia-lead-tech-sell-off-as-ai-spending-fears-rattle-wall-street-but-gene-munster-sides-with-musk-zuckerberg-and-huang-were-still-early",
@@ -206,9 +213,9 @@
       ]
     },
     "META": {
-      "score": -0.118,
-      "articles": 25,
-      "ai_articles": 25,
+      "score": -0.129,
+      "articles": 24,
+      "ai_articles": 24,
       "headlines": [
         {
           "headline": "The Average Stock Is Beating the S&P 500 by the Most Since April 2009: Is the Rotation Now Over?",
@@ -248,18 +255,10 @@
       ]
     },
     "JPM": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "'Unvetted AI Agents Are Accessing U.S. Bank Accounts' - Axios",
-          "url": "https://www.benzinga.com/news/26/10/62528737/unvetted-ai-agents-are-accessing-u-s-bank-accounts-axios",
-          "time": "2026-10-22T14:08:51Z",
-          "sentiment": -0.2,
-          "reason": "Unvetted AI agents accessing bank accounts raises security and regulatory risk"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "XOM": {
       "score": 0.154,

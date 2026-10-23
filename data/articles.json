@@ -697,151 +697,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62530171",
-    "created_at": "2026-10-22T14:33:42Z",
-    "headline": "USA Natural Gas Storage 77B Vs 80B Est.",
-    "url": "https://www.benzinga.com/quote/UNG",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62529943",
-    "created_at": "2026-10-22T14:30:00Z",
-    "headline": "Bitcoin \u2018Goes to Zero\u2019 After a Hack, Chamath Palihapitiya Predicts",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62529943/bitcoin-goes-to-zero-after-a-hack-chamath-predicts",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62529878",
-    "created_at": "2026-10-22T14:29:09Z",
-    "headline": "Nvidia CEO Jensen Huang Says US Must Take China \u2018Seriously,\u2019 Warns Against Underestimating Its AI and Chipmaking Prowess: \u2018If There's One Country That Could Manufacture Things at Scale\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62529878/nvidia-ceo-jensen-huang-says-us-must-take-china-seriously-warns-against-underestimating-its-ai-and-chipmaking-prowess-if-theres-one-country-that-could-manufacture-things",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Commentary on China chip competition, largely already known"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62529554",
-    "created_at": "2026-10-22T14:23:06Z",
-    "headline": "Comcast Calls Rival Broadband Pricing 'Irrational' As Competition Heats Up",
-    "url": "https://www.benzinga.com/markets/earnings/26/10/62529554/comcast-calls-rival-broadband-pricing-irrational-as-competition-heats-up",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62529457",
-    "created_at": "2026-10-22T14:21:26Z",
-    "headline": "Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It'",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62529457/jensen-huang-ai-safety-openshell",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62528737",
-    "created_at": "2026-10-22T14:08:51Z",
-    "headline": "'Unvetted AI Agents Are Accessing U.S. Bank Accounts' - Axios",
-    "url": "https://www.benzinga.com/news/26/10/62528737/unvetted-ai-agents-are-accessing-u-s-bank-accounts-axios",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Unvetted AI agents accessing bank accounts raises security and regulatory risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62528334",
-    "created_at": "2026-10-22T14:00:45Z",
-    "headline": "Here\u2019s How Much You Would Have Made Owning Amazon.com Stock In The Last 10 Years",
-    "url": "https://www.benzinga.com/news/26/10/62528334/here-s-how-much-you-would-have-made-owning-amazon-com-stock-last-10-years",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62528293",
-    "created_at": "2026-10-22T14:00:09Z",
-    "headline": "US Leading Index (MoM) For September 0.0% Vs -0.1% Est.",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Leading index slightly better than expected, mild macro support"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62528054",
-    "created_at": "2026-10-22T13:55:56Z",
-    "headline": "'Nippon Steel To Spend $3B On U.S. Steel Plant To Update 90-Year-Old Hardware; New Hot Roller At Mon Valley Works Will Feature Japanese Company's Latest Tech' - Nikkei Asia",
-    "url": "https://www.benzinga.com/news/26/10/62528054/nippon-steel-spend-3b-u-s-steel-plant-update-90-year-old-hardware-new-hot-roller-mon-valley-works-wi",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62527843",
-    "created_at": "2026-10-22T13:52:27Z",
-    "headline": "JP Morgan Maintains Overweight on Meta Platforms, Raises Price Target to $940",
-    "url": "https://www.benzinga.com/news/26/10/62527843/jp-morgan-maintains-overweight-meta-platforms-raises-price-target-940",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "JPMorgan raises target to $940 on overweight rating"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62526915",
-    "created_at": "2026-10-22T13:39:50Z",
-    "headline": "'Shell And Exxon\u2019s $8B UK Chemicals Unit Put Up For Sale' - Financial Times",
-    "url": "https://www.benzinga.com/news/26/10/62526915/shell-and-exxon-s-8b-uk-chemicals-unit-put-sale-financial-times",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.0,
-        "confidence": 0.15,
-        "reason": "Routine chemicals unit divestiture, small relative to Exxon"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62548583",
     "created_at": "2026-10-22T21:15:12Z",
     "headline": "Bill Ackman Says Meta Can Finance 'Whatever They Want,' Points to $82 Billion Cash",
@@ -2091,6 +1946,235 @@
         "sentiment": -0.3,
         "confidence": 0.5,
         "reason": "Broad risk-off with Nasdaq drop; Dow edged higher"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62561452",
+    "created_at": "2026-10-23T14:25:04Z",
+    "headline": "Google Cloud Revenue Surges: Alphabet Focuses on $100 Billion TPU Opportunity Ahead of Q3 Earnings",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62561452/google-cloud-revenue-surges-alphabet-focuses-on-100-billion-tpu-opportunity-ahead-of-q3-earnings",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Cloud revenue surge and TPU opportunity ahead of earnings"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62560606",
+    "created_at": "2026-10-23T14:09:40Z",
+    "headline": "Energy Department Authorizes Strategic Petroleum Reserve Exchange To Support Fuel Supply Stability",
+    "url": "https://www.benzinga.com/government/26/10/62560606/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply-stability",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "SPR exchange may add supply and ease oil prices"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62560535",
+    "created_at": "2026-10-23T14:07:39Z",
+    "headline": "'Netanyahu says army prepared for \u2018large-scale operation\u2019 in West Bank' - Al Jazeera",
+    "url": "https://www.benzinga.com/news/26/10/62560535/netanyahu-says-army-prepared-large-scale-operation-west-bank-al-jazeera",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Possible large-scale West Bank operation raises geopolitical risk"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Middle East escalation may lift oil risk premium"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62560416",
+    "created_at": "2026-10-23T14:05:25Z",
+    "headline": "Bill Ackman Lost $400 Million on Netflix. Now He Sees 20%-Plus Annual Returns",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62560416/bill-ackman-netflix-20-percent-returns",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62560153",
+    "created_at": "2026-10-23T14:00:38Z",
+    "headline": "Tesla Wants To Learn the Roads With AI \u2014 Google Maps, Take Note",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62560153/tesla-ai-mapping-navigation",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Tesla AI mapping could compete with Google Maps"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62560102",
+    "created_at": "2026-10-23T14:00:16Z",
+    "headline": "Michigan Consumer Sentiment For October\u00a048.0 Vs 46.3 Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Consumer sentiment beat estimates, modestly supportive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62560088",
+    "created_at": "2026-10-23T14:00:07Z",
+    "headline": "Michigan Consumer Expectations For October\u00a048.8 Vs 47.3 Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Consumer expectations beat estimates, modestly supportive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62559987",
+    "created_at": "2026-10-23T13:58:24Z",
+    "headline": "Chinese Fast Fashion Platform Shein To Pay $100M In U.S. FTC Probe Settlement",
+    "url": "https://www.benzinga.com/government/26/10/62559987/chinese-fast-fashion-platform-shein-pay-100m-u-s-ftc-probe-settlement",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62559686",
+    "created_at": "2026-10-23T13:52:15Z",
+    "headline": "Microsoft's Earnings Are Days Away: Here\u2019s What Investors Need to Know",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62559686/microsofts-earnings-are-days-away-heres-what-investors-need-to-know",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.3,
+        "reason": "Earnings preview; expectations largely known, mildly neutral"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62558931",
+    "created_at": "2026-10-23T13:43:36Z",
+    "headline": "Anthropic Announces Co. Investigates Certain Behaviors From Claude Mythos 5 Further, To Understand What They Reveal About Model\u2019s Alignment; Claude Opus 5.5, Claude Mythos 5.1 Fall Short Of Consistently Stopping Attacks Underway, But Internal Research Model Does So Consistently; Mythos 5 Attempted To Submit Malicious Code To Repository; Recent Incidents Motivated Changes To How Co. Is Training & Monitoring Alignment Of Its Models",
+    "url": "https://www.benzinga.com/news/26/10/62558931/anthropic-announces-we-investigate-certain-behaviors-from-claude-mythos-5-further-to-understand-what-they-reveal-about-models-alignment-claude-opus-5-5-claude-mythos-5-1-fall-short-of-cons",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Anthropic model misalignment incidents may weigh on AI partner sentiment"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Anthropic model misalignment incidents may weigh on AI partner sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62559333",
+    "created_at": "2026-10-23T13:46:42Z",
+    "headline": "Trump Administration's $8B In Diesel Aid For Farmers Will Not Arrive Before Nov. 3 Election",
+    "url": "https://www.benzinga.com/government/26/10/62559333/trump-administration-s-8b-diesel-aid-farmers-will-not-arrive-nov-3-election",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62559134",
+    "created_at": "2026-10-23T13:45:32Z",
+    "headline": "USA S&P Global Composite PMI For October\u00a057.6 Vs 58.4 Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.3,
+        "reason": "Composite PMI slipped below prior and consensus, still expansionary"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62559116",
+    "created_at": "2026-10-23T13:45:22Z",
+    "headline": "USA S&P Global Manufacturing PMI For October 56.0 Vs 55.4 Est",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Manufacturing PMI beat estimates, signaling stronger industrial activity"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62559098",
+    "created_at": "2026-10-23T13:45:10Z",
+    "headline": "USA S&P Global Services PMI For October\u00a0 57.9 Vs 57.9 Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Services PMI matched estimates, so little new information"
       }
     ],
     "scorer": "claude"
