@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T21:33:45.725185+00:00",
-  "market_risk": 0.13,
+  "generated_at": "2026-10-23T00:01:40.955506+00:00",
+  "market_risk": 0.129,
   "tickers": {
     "SPY": {
       "score": -0.18,
@@ -199,9 +199,9 @@
       ]
     },
     "AMZN": {
-      "score": -0.022,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": -0.027,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
         {
           "headline": "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'",
@@ -284,8 +284,8 @@
     },
     "META": {
       "score": 0.013,
-      "articles": 53,
-      "ai_articles": 53,
+      "articles": 52,
+      "ai_articles": 52,
       "headlines": [
         {
           "headline": "Bill Ackman Says Meta Can Finance 'Whatever They Want,' Points to $82 Billion Cash",
@@ -360,10 +360,17 @@
       ]
     },
     "XOM": {
-      "score": 0.125,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.091,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "ExxonMobil Joliet Refinery Experiences Operational Disruption",
+          "url": "https://dailycallernewsfoundation.org/2026/10/22/exxonmobil-joliet-refinery-gas-prices-michigan-ohio-indiana-tom-kloza/",
+          "time": "2026-10-22T23:01:40Z",
+          "sentiment": -0.1,
+          "reason": "Refinery unit outage may reduce throughput; regional impact likely small and brief"
+        },
         {
           "headline": "Nvidia's AI Warning, $111 Oil: Why SOXL Just Suffered a Brutal 20% Wipeout",
           "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62545840/nvidias-ai-warning-111-oil-why-soxl-just-suffered-a-brutal-20-wipeout",
@@ -391,13 +398,6 @@
           "time": "2026-10-22T16:54:23Z",
           "sentiment": 0.2,
           "reason": "Rising oil prices on war fears benefit energy producers"
-        },
-        {
-          "headline": "'Qatar Scours for More LNG to Boost Supply Outside Middle East' - Bloomberg Exclusive",
-          "url": "https://www.benzinga.com/news/26/10/62536494/qatar-scours-more-lng-boost-supply-outside-middle-east-bloomberg-exclusive",
-          "time": "2026-10-22T16:33:47Z",
-          "sentiment": 0.2,
-          "reason": "Qatar LNG sourcing shift signals Middle East supply concerns"
         }
       ]
     }
