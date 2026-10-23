@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T15:35:17.986617+00:00",
-  "market_risk": 0.146,
+  "generated_at": "2026-10-23T16:35:17.864287+00:00",
+  "market_risk": 0.14,
   "tickers": {
     "SPY": {
       "score": -0.148,
@@ -115,10 +115,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.226,
+      "score": -0.182,
       "articles": 15,
       "ai_articles": 15,
       "headlines": [
+        {
+          "headline": "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62564739/blackstone-coreweave-ai-lending-boom",
+          "time": "2026-10-23T15:36:27Z",
+          "sentiment": 0.2,
+          "reason": "Chip-backed AI financing boom supports continued GPU infrastructure demand"
+        },
         {
           "headline": "EXCLUSIVE: Korea's Chip Selloff Flashes Rare 'Capitulation' Signal Ahead of SK Hynix Earnings, Analyst Says",
           "url": "https://www.benzinga.com/markets/asia/26/10/62563168/korea-capitulation-signal-ewy-sk-hynix-earnings-leinweber-exclusive",
@@ -146,13 +153,6 @@
           "time": "2026-10-23T11:00:19Z",
           "sentiment": -0.5,
           "reason": "US chip curbs remove China revenue; competitive substitution risk"
-        },
-        {
-          "headline": "Stellantis, Nvidia And AI Mobility Company Wayve Partner With French Government To Advance Deployment Of Autonomous Vehicles In France And Accelerating Their Development Across The EU",
-          "url": "https://www.benzinga.com/news/26/10/62553743/stellantis-nvidia-and-ai-mobility-company-wayve-partner-french-government-advance-deployment-autonom",
-          "time": "2026-10-23T10:38:41Z",
-          "sentiment": 0.15,
-          "reason": "Partnership expanding Nvidia autonomous vehicle presence in EU"
         }
       ]
     },
@@ -213,10 +213,24 @@
       ]
     },
     "META": {
-      "score": -0.138,
-      "articles": 20,
-      "ai_articles": 20,
+      "score": -0.204,
+      "articles": 18,
+      "ai_articles": 18,
       "headlines": [
+        {
+          "headline": "Republican Senator Blackburn Raises Concerns About Facebook-parent Meta Plan To Update Commercial Terms, Saying It Could 'Exploit American Creators And Businesses'",
+          "url": "https://www.benzinga.com/news/26/10/62565688/republican-senator-blackburn-raises-concerns-about-facebook-parent-meta-plan-update-commercial-terms",
+          "time": "2026-10-23T15:58:47Z",
+          "sentiment": -0.3,
+          "reason": "Senator's criticism raises regulatory risk over Meta's creator terms"
+        },
+        {
+          "headline": "Meta's Q3 FCF Turns Negative On AI Spend\u2014Q4 Capex Implied At $49B-59B",
+          "url": "https://www.benzinga.com/opinion/26/10/62565283/metas-q3-fcf-turns-negative-on-ai-spend-q4-capex-implied-at-49b-59b",
+          "time": "2026-10-23T15:49:07Z",
+          "sentiment": -0.4,
+          "reason": "Q3 free cash flow turned negative; implied Q4 capex of $49-59B"
+        },
         {
           "headline": "EXCLUSIVE: Paul Kedrosky Warns AI Data Center Boom Could Fail Even as AI Adoption Soars",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62562607/ai-data-center-boom-paul-kedrosky",
@@ -237,20 +251,6 @@
           "time": "2026-10-23T10:31:37Z",
           "sentiment": 0.3,
           "reason": "Analyst price target raised substantially to $816"
-        },
-        {
-          "headline": "Meta's AI Revolution Has Wall Street Excited \u2014 And Worried About The Bill",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62552623/metas-ai-revolution-has-wall-street-excited-and-worried-about-the-bill",
-          "time": "2026-10-23T09:41:20Z",
-          "sentiment": -0.3,
-          "reason": "Premarket dip on heavy 2026 AI spending concerns"
-        },
-        {
-          "headline": "Meta, Nvidia Lead Tech Sell-Off as AI Spending Fears Rattle Wall Street, But Gene Munster Sides With Musk, Zuckerberg and Huang: \u2018We\u2019re Still Early'",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62551736/meta-nvidia-lead-tech-sell-off-as-ai-spending-fears-rattle-wall-street-but-gene-munster-sides-with-musk-zuckerberg-and-huang-were-still-early",
-          "time": "2026-10-23T07:19:22Z",
-          "sentiment": -0.3,
-          "reason": "Led tech sell-off on AI spending fears"
         }
       ]
     },
@@ -261,9 +261,9 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.3,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.361,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "President Trump Says We Could End Iran War Very Quickly; Do We Want To Finish It Or Let It Wither Is The Question; We Could Take All Of The Oil In Iran",
@@ -292,13 +292,6 @@
           "time": "2026-10-22T16:54:23Z",
           "sentiment": 0.2,
           "reason": "Rising oil prices on war fears benefit energy producers"
-        },
-        {
-          "headline": "'Qatar Scours for More LNG to Boost Supply Outside Middle East' - Bloomberg Exclusive",
-          "url": "https://www.benzinga.com/news/26/10/62536494/qatar-scours-more-lng-boost-supply-outside-middle-east-bloomberg-exclusive",
-          "time": "2026-10-22T16:33:47Z",
-          "sentiment": 0.2,
-          "reason": "Qatar LNG sourcing shift signals Middle East supply concerns"
         }
       ]
     }
