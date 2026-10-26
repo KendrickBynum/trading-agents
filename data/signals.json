@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T17:35:18.250749+00:00",
-  "market_risk": 0.094,
+  "generated_at": "2026-10-26T18:35:17.056691+00:00",
+  "market_risk": 0.087,
   "tickers": {
     "SPY": {
       "score": 0.024,
@@ -73,10 +73,24 @@
       ]
     },
     "AAPL": {
-      "score": 0.095,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.171,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "'Apple Responds to iPhone Duo Display Cracking Reports' - MacRumors",
+          "url": "https://www.benzinga.com/news/26/10/62599061/apple-responds-iphone-duo-display-cracking-reports-macrumors",
+          "time": "2026-10-26T17:33:41Z",
+          "sentiment": -0.2,
+          "reason": "Display cracking reports; Apple responded, so impact likely limited"
+        },
+        {
+          "headline": "Apple\u2019s iPhone Duo Buyers Face a Wait That Could Stretch Into January",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62599048/apples-iphone-duo-buyers-face-a-wait-that-could-stretch-into-january",
+          "time": "2026-10-26T17:33:06Z",
+          "sentiment": 0.5,
+          "reason": "Strong iPhone Duo demand with 79-day waits; BofA reiterates Buy"
+        },
         {
           "headline": "'Apple\u2019s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking' - Bloomberg",
           "url": "https://www.benzinga.com/news/26/10/62597788/apple-s-foldable-iphone-duo-draws-early-complaints-screen-cracking-bloomberg",
@@ -101,10 +115,24 @@
       ]
     },
     "MSFT": {
-      "score": 0.136,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.235,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Microsoft\u2019s Copilot, Azure Demand Signals Stronger AI Monetization: Analyst",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62600012/microsofts-copilot-azure-demand-signals-stronger-ai-monetization-analyst",
+          "time": "2026-10-26T17:58:56Z",
+          "sentiment": 0.4,
+          "reason": "Analyst cites accelerating Azure growth and Copilot monetization"
+        },
+        {
+          "headline": "Oppenheimer Maintains Outperform on Microsoft, Raises Price Target to $625",
+          "url": "https://www.benzinga.com/news/26/10/62599445/oppenheimer-maintains-outperform-microsoft-raises-price-target-625",
+          "time": "2026-10-26T17:45:27Z",
+          "sentiment": 0.35,
+          "reason": "Oppenheimer maintains Outperform, raises target to $625"
+        },
         {
           "headline": "Microsoft's AI Data Center Misfire Exposes a Brutal Reality: Billions Can't Buy Time",
           "url": "https://www.benzinga.com/markets/tech/26/10/62596402/microsoft-ai-data-center-misfire-exposes-brutal-reality",
@@ -125,20 +153,6 @@
           "time": "2026-10-26T14:46:02Z",
           "sentiment": 0.3,
           "reason": "Analyst reiterates Buy with raised $600 price target"
-        },
-        {
-          "headline": "Scotiabank Maintains Sector Outperform on Microsoft, Raises Price Target to $625",
-          "url": "https://www.benzinga.com/news/26/10/62589048/scotiabank-maintains-sector-outperform-microsoft-raises-price-target-625",
-          "time": "2026-10-26T13:23:05Z",
-          "sentiment": 0.3,
-          "reason": "Scotiabank reiterates outperform and raises price target"
-        },
-        {
-          "headline": "A $1 Trillion Depreciation Bomb Is Ticking Beneath the AI Market",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62580225/a-1-trillion-depreciation-bomb-is-ticking-beneath-the-ai-market",
-          "time": "2026-10-25T19:45:14Z",
-          "sentiment": -0.15,
-          "reason": "Depreciation accounting concerns may pressure hyperscaler earnings quality views"
         }
       ]
     },
@@ -227,10 +241,17 @@
       ]
     },
     "GOOGL": {
-      "score": 0.214,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.101,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Michael Burry Eyes the Exit on Walmart, Alphabet and Valero",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62600475/michael-burry-eyes-the-exit-on-walmart-alphabet-and-valero",
+          "time": "2026-10-26T18:10:47Z",
+          "sentiment": -0.2,
+          "reason": "Prominent investor may trim stake over valuation concerns"
+        },
         {
           "headline": "Anthropic Booked $41 Million in 2023 \u2014 And $16.3 Billion in the First Half of 2026",
           "url": "https://www.benzinga.com/markets/tech/26/10/62596188/anthropic-booked-41-million-in-2023-and-16-3-billion-in-the-first-half-of-2026",
@@ -262,10 +283,17 @@
       ]
     },
     "META": {
-      "score": -0.315,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.209,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Meta's $95 Billion AI Push Could Accelerate New Product Launches, Analyst Says",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62599504/metas-95-billion-ai-push-could-accelerate-new-product-launches-analyst-says",
+          "time": "2026-10-26T17:47:06Z",
+          "sentiment": 0.3,
+          "reason": "Analyst Outperform with $940 target on AI expansion plans"
+        },
         {
           "headline": "Meta Seeks About $95 Billion for AI Buildout as Nvidia, AMD and Broadcom Consider Investing in Their Own Customer",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62594709/meta-95-billion-ai-expansion-chipmaker-investments",
@@ -293,21 +321,22 @@
           "time": "2026-10-26T11:31:41Z",
           "sentiment": -0.5,
           "reason": "Large equity offering and dilution, about $95B total, pressures shares"
-        },
-        {
-          "headline": "Meta Launches Offering Of 250M Depositary Shares And $22.5B Offering Of Class A Common Stock In Connection With Forward Sale Agreements; Total Value Of Offering Seen At $95B",
-          "url": "https://www.benzinga.com/news/26/10/62584750/meta-launches-offering-of-250m-depositary-shares-and-22-5b-offering-of-class-a-common-stock-in-connection-with-forward-sale-agreements",
-          "time": "2026-10-26T11:01:06Z",
-          "sentiment": -0.5,
-          "reason": "Duplicate report: $22.5B stock offering and forward sales, dilution risk"
         }
       ]
     },
     "JPM": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "JPMorgan Chase and other banks reportedly nearing $10 billion loan deal for Saudi Aramco",
+          "url": "https://www.moomoo.com/news/post/1002365561/market-chatter-saudi-aramco-nears-10-billion-loan-with-global",
+          "time": "2026-10-26T18:01:47Z",
+          "sentiment": 0.2,
+          "reason": "Reported lead role in $10B Saudi Aramco credit facility"
+        }
+      ]
     },
     "XOM": {
       "score": 0.4,
