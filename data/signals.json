@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T15:35:16.921616+00:00",
-  "market_risk": 0.104,
+  "generated_at": "2026-10-26T16:35:18.933187+00:00",
+  "market_risk": 0.093,
   "tickers": {
     "SPY": {
       "score": 0.024,
@@ -87,10 +87,24 @@
       ]
     },
     "MSFT": {
-      "score": 0.276,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.136,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Microsoft's AI Data Center Misfire Exposes a Brutal Reality: Billions Can't Buy Time",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62596402/microsoft-ai-data-center-misfire-exposes-brutal-reality",
+          "time": "2026-10-26T16:19:59Z",
+          "sentiment": -0.2,
+          "reason": "UK AI data center delayed by grid power access bottleneck"
+        },
+        {
+          "headline": "'Microsoft is offering buyouts to around 60,000 employees' - Business Insider",
+          "url": "https://www.benzinga.com/news/26/10/62594428/microsoft-offering-buyouts-around-60-000-employees-business-insider",
+          "time": "2026-10-26T15:33:30Z",
+          "sentiment": 0.2,
+          "reason": "Voluntary buyouts suggest cost cutting, possibly margin-supportive; impact unclear."
+        },
         {
           "headline": "Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $600",
           "url": "https://www.benzinga.com/news/26/10/62592437/truist-securities-reiterates-buy-microsoft-raises-price-target-600",
@@ -157,10 +171,24 @@
       ]
     },
     "AMZN": {
-      "score": 0.222,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.274,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Anthropic Booked $41 Million in 2023 \u2014 And $16.3 Billion in the First Half of 2026",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62596188/anthropic-booked-41-million-in-2023-and-16-3-billion-in-the-first-half-of-2026",
+          "time": "2026-10-26T16:14:03Z",
+          "sentiment": 0.3,
+          "reason": "Anthropic revenue surge supports AWS partner and investment value"
+        },
+        {
+          "headline": "Amazon Q3 Preview: Analyst Expects AWS Growth To Outperform, Drive Upside",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62596000/amazon-q3-preview-analyst-expects-aws-growth-to-outperform-drive-upside",
+          "time": "2026-10-26T16:09:22Z",
+          "sentiment": 0.4,
+          "reason": "Analyst expects AWS growth beat and upbeat Q4 guidance"
+        },
         {
           "headline": "Verizon Signs $2 Billion AI Infrastructure Agreement with AWS",
           "url": "https://telcomagazine.com/news/verizon-inks-us-2bn-aws-ai-deal-and-posts-406k-q3-adds",
@@ -181,28 +209,21 @@
           "time": "2026-10-26T11:54:30Z",
           "sentiment": 0.15,
           "reason": "Anthropic S-1 may lift value of Amazon's Anthropic stake"
-        },
-        {
-          "headline": "Amazon Web Services Commits Multi-Billion Dollar Investment to AI Infrastructure",
-          "url": "https://aimagazine.com/news/can-ai-deliver-6tn-bains-anne-hoecker-on-the-4-2tn-gap",
-          "time": "2026-10-26T11:31:40Z",
-          "sentiment": 0.2,
-          "reason": "Multi-billion AWS AI infrastructure investment supports growth outlook"
-        },
-        {
-          "headline": "Verizon and Amazon Web Services Expand Strategic Partnership With $2B+ AI Infrastructure Deal",
-          "url": "https://www.benzinga.com/news/26/10/62584854/verizon-and-amazon-web-services-expand-strategic-partnership-2b-ai-infrastructure-deal",
-          "time": "2026-10-26T11:06:17Z",
-          "sentiment": 0.3,
-          "reason": "Verizon expands $2B+ AWS AI infrastructure deal"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.151,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.214,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Anthropic Booked $41 Million in 2023 \u2014 And $16.3 Billion in the First Half of 2026",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62596188/anthropic-booked-41-million-in-2023-and-16-3-billion-in-the-first-half-of-2026",
+          "time": "2026-10-26T16:14:03Z",
+          "sentiment": 0.3,
+          "reason": "Anthropic revenue surge supports Google's stake value"
+        },
         {
           "headline": "Anthropic Files For Initial Public Offering On NASDAQ Under Ticker \"ANT\"",
           "url": "https://www.benzinga.com/news/26/10/62588338/anthropic-files-initial-public-offering-nasdaq-under-ticker-ant",
@@ -227,10 +248,17 @@
       ]
     },
     "META": {
-      "score": -0.336,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.315,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Meta Seeks About $95 Billion for AI Buildout as Nvidia, AMD and Broadcom Consider Investing in Their Own Customer",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62594709/meta-95-billion-ai-expansion-chipmaker-investments",
+          "time": "2026-10-26T15:41:52Z",
+          "sentiment": -0.2,
+          "reason": "$95B raise for AI buildout raises dilution and debt concerns"
+        },
         {
           "headline": "NVIDIA Expresses Interest in Meta Platforms Equity Offering",
           "url": "https://www.morningstar.com/news/marketwatch/2026102637/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering",
@@ -258,13 +286,6 @@
           "time": "2026-10-26T11:01:06Z",
           "sentiment": -0.5,
           "reason": "Duplicate report: $22.5B stock offering and forward sales, dilution risk"
-        },
-        {
-          "headline": "Phillip Securities Adjusts Price Target on Meta Platforms to $780 From $750",
-          "url": "https://www.marketscreener.com/news/phillip-securities-adjusts-price-target-on-meta-platforms-to-780-from-750-ce785cdcd88ff627",
-          "time": "2026-10-26T10:31:34Z",
-          "sentiment": 0.3,
-          "reason": "Phillip Securities raises price target to $780 from $750"
         }
       ]
     },
