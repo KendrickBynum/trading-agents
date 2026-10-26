@@ -844,5 +844,165 @@
     "market_risk": 0.15,
     "impacts": [],
     "scorer": "claude"
+  },
+  {
+    "id": "62591791",
+    "created_at": "2026-10-26T14:30:24Z",
+    "headline": "Dallas Fed Mfg Business Index For October 13.4 Vs 9.8 Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Dallas Fed manufacturing index rose well above prior reading"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62591712",
+    "created_at": "2026-10-26T14:28:37Z",
+    "headline": "\u2018Hire the Robot, Fire the Human And Don't Look Back\u2019: Bill Gates\u2019s Chilling Warning of a Jobs Crisis Governments Aren't Ready For",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62591712/bill-gates-ai-warning-job-crisis",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.15,
+        "reason": "Opinion piece on AI job displacement and possible AI taxes"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62590701",
+    "created_at": "2026-10-26T14:06:47Z",
+    "headline": "Honeywell Teams up With NVIDIA, Dell To Chase Massive Oil Refinery Savings",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62590701/honeywell-teams-up-with-nvidia-dell-to-chase-massive-oil-refinery-savings",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Partnership with Honeywell and Dell for refinery AI software"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62590246",
+    "created_at": "2026-10-26T14:00:41Z",
+    "headline": "'Saudi Aramco Nears Signing of $10 Billion Loan with Global Banks' - Bloomberg Exclusive",
+    "url": "https://www.benzinga.com/news/26/10/62590246/saudi-aramco-nears-signing-10-billion-loan-global-banks-bloomberg-exclusive",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Global banks nearing $10B loan to Saudi Aramco"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine syndicated loan, minimal market impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62590175",
+    "created_at": "2026-10-26T13:59:38Z",
+    "headline": "Anthropic Says Expect Our Revenue Growth Rate To Decline Over Time And To Fluctuate From Period To Period; Class T Stock Will Not Vote On Election Or Removal Of Directors Elected By Holders Of Our Class A Stock And Class F Stock; On Sept 17, Effected 10-for-1 Stock Split Of Authorized, Issued, & Outstanding Shares Of Class A Stock & Class N Stock",
+    "url": "https://www.benzinga.com/quote/AMZN",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Anthropic filing: record top-customer revenue, but growth expected to slow"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Anthropic filing: record top-customer revenue, but growth expected to slow"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62590142",
+    "created_at": "2026-10-26T13:58:32Z",
+    "headline": "Anthropic Says As Of June 30, 2026, Our Total Indebtedness Was $6.2B; For The Three Months Ended Sept 30, Revenue From Each Of Our Top Five Customers Reached A Record High; Model Versions Released In Six Months Ended Sept 30 Accounted For Over 80% Of Revenue For Three Months Ended Sept 30",
+    "url": "https://www.benzinga.com/quote/AMZN",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Anthropic revenue record among top customers; $6.2B debt noted"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Anthropic revenue record among top customers; $6.2B debt noted"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62590118",
+    "created_at": "2026-10-26T13:57:44Z",
+    "headline": "Anthropic Says Top Five Customers Represented About 25% Of Revenue For The Nine Months Ended September 30; No Single Customer Represented More Than 10% Of Our Revenue For The Nine Months Ended September 30; Anticipate That We Will Continue To Derive Significant Portion Of Revenue From Limited Number Of Customers For Foreseeable Future",
+    "url": "https://www.benzinga.com/quote/AMZN",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Customer concentration disclosure, largely expected and neutral"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Customer concentration disclosure, largely expected and neutral"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62589765",
+    "created_at": "2026-10-26T13:43:12Z",
+    "headline": "SpaceX Signs $40 Billion Apollo AI Chip Deal as Debt Market Concerns Mount",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62589765/spacex-apollo-40-billion-ai-chip-financing",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "$40B AI chip deal supports demand, offset by debt concerns"
+      }
+    ],
+    "scorer": "claude"
   }
 ]

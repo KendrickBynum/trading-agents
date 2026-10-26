@@ -1,39 +1,37 @@
 {
-  "last_run": "2026-10-26T13:36:00.542790+00:00",
+  "last_run": "2026-10-26T14:35:28.381468+00:00",
   "paper": true,
   "market_open": true,
   "next_open": "2026-10-27T09:30:00-04:00",
-  "equity": 99938.13,
-  "cash": 90000.0,
-  "day_pnl": -47.69,
-  "day_pnl_pct": -0.00048,
+  "equity": 99978.64,
+  "cash": 80006.2,
+  "day_pnl": -7.18,
+  "day_pnl_pct": -7e-05,
   "starting_equity": 100000.0,
-  "total_pnl": -61.87,
-  "total_pnl_pct": -0.00062,
+  "total_pnl": -21.36,
+  "total_pnl_pct": -0.00021,
   "halts": [],
-  "last_actions": [
-    {
-      "time": "2026-10-26T13:36:00.542790+00:00",
-      "symbol": "AAPL",
-      "side": "buy",
-      "reason": "positive news (+0.30, 2 articles)",
-      "news_score": 0.298,
-      "notional": 9993.81,
-      "status": "submitted",
-      "order_id": "d12b6c90-1a5b-4012-8414-39e7f3714c57"
-    }
-  ],
-  "market_risk": 0.114,
-  "signals_at": "2026-10-26T13:35:20.612654+00:00",
+  "last_actions": [],
+  "market_risk": 0.105,
+  "signals_at": "2026-10-26T14:35:19.713367+00:00",
   "positions": [
+    {
+      "symbol": "AAPL",
+      "qty": 29.032810229,
+      "avg_entry": 344.224342,
+      "price": 345.31,
+      "value": 10025.3197,
+      "pl": 31.519703,
+      "pl_pct": 0.00315
+    },
     {
       "symbol": "XOM",
       "qty": 54.504769172,
       "avg_entry": 183.47,
-      "price": 182.335,
-      "value": 9938.127087,
-      "pl": -61.862913,
-      "pl_pct": -0.00619
+      "price": 182.5,
+      "value": 9947.120374,
+      "pl": -52.869626,
+      "pl_pct": -0.00529
     }
   ]
 }
