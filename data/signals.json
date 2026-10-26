@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T18:35:17.056691+00:00",
-  "market_risk": 0.087,
+  "generated_at": "2026-10-26T19:17:01.805162+00:00",
+  "market_risk": 0.086,
   "tickers": {
     "SPY": {
       "score": 0.024,
@@ -199,10 +199,17 @@
       ]
     },
     "AMZN": {
-      "score": 0.274,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.279,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "UBS Maintains Buy on Amazon.com, Raises Price Target to $348",
+          "url": "https://www.benzinga.com/news/26/10/62601686/ubs-maintains-buy-amazon-com-raises-price-target-348",
+          "time": "2026-10-26T18:54:31Z",
+          "sentiment": 0.3,
+          "reason": "UBS reiterates Buy and raises price target to $348"
+        },
         {
           "headline": "Anthropic Booked $41 Million in 2023 \u2014 And $16.3 Billion in the First Half of 2026",
           "url": "https://www.benzinga.com/markets/tech/26/10/62596188/anthropic-booked-41-million-in-2023-and-16-3-billion-in-the-first-half-of-2026",
@@ -230,13 +237,6 @@
           "time": "2026-10-26T13:05:38Z",
           "sentiment": 0.2,
           "reason": "Anthropic IPO filing boosts value of AMZN's stake"
-        },
-        {
-          "headline": "Anthropic To Release S-1 At 9 am Est",
-          "url": "https://www.benzinga.com/news/26/10/62585870/anthropic-release-s-1-9-am-est",
-          "time": "2026-10-26T11:54:30Z",
-          "sentiment": 0.15,
-          "reason": "Anthropic S-1 may lift value of Amazon's Anthropic stake"
         }
       ]
     },

@@ -1639,5 +1639,56 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "62602063",
+    "created_at": "2026-10-26T19:07:51Z",
+    "headline": "Anthropic IPO Filing Reveals AI Boom\u2019s Next Test: 7 ETFs With Pre-Launch Exposure",
+    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62602063/anthropic-ipo-filing-reveals-ai-booms-next-test-7-etfs-with-pre-launch-exposure",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Anthropic IPO signals AI demand, but article centers on ETFs, not NVDA"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62601686",
+    "created_at": "2026-10-26T18:54:31Z",
+    "headline": "UBS Maintains Buy on Amazon.com, Raises Price Target to $348",
+    "url": "https://www.benzinga.com/news/26/10/62601686/ubs-maintains-buy-amazon-com-raises-price-target-348",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "UBS reiterates Buy and raises price target to $348"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62601321",
+    "created_at": "2026-10-26T18:41:07Z",
+    "headline": "Siri AI Is Available In More Languages Starting Today; Expanding To More People Around World, With Availability In French, Japanese, Korean, Portuguese, And Spanish Languages; Siri AI Currently Unavailable In EU; Working With EU On Path Forward",
+    "url": "https://www.benzinga.com/news/26/10/62601321/siri-ai-available-more-languages-starting-today-expanding-more-people-around-world-availability-fren",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Siri AI language expansion is incremental; EU unavailability limits upside"
+      }
+    ],
+    "scorer": "claude"
   }
 ]
