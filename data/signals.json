@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-26T19:35:20.565284+00:00",
-  "market_risk": 0.086,
+  "generated_at": "2026-10-26T23:51:18.312830+00:00",
+  "market_risk": 0.095,
   "tickers": {
     "SPY": {
-      "score": 0.08,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.034,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Trump Approval Hits Record Lows, 75% Say Economy \u2018Not So Good\u2019 or \u2018Poor\u2019",
+          "url": "https://www.benzinga.com/news/politics/26/10/62607697/trump-approval-hits-record-lows-75-say-economy-not-so-good-or-poor",
+          "time": "2026-10-26T22:42:28Z",
+          "sentiment": -0.2,
+          "reason": "Weak economic sentiment and political instability may weigh on markets"
+        },
+        {
+          "headline": "Iranian State TV Reports Iran Is Open To A Shorter U.S. Proposal Timeline If Conditions Are Met",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62602974/iranian-state-tv-reports-iran-open-shorter-u-s-proposal-timeline-if-conditions-are-met",
+          "time": "2026-10-26T19:42:14Z",
+          "sentiment": 0.15,
+          "reason": "Possible US-Iran diplomatic progress reduces geopolitical tension"
+        },
         {
           "headline": "'U.S., Canada Working On Deal To Ease U.S. Tariffs On Canadian Steel And Auto Imports' - Reuters Exclusive",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62602582/u-s-canada-working-deal-ease-u-s-tariffs-canadian-steel-and-auto-imports-reuters-exclusive",
@@ -27,20 +41,6 @@
           "time": "2026-10-26T12:58:39Z",
           "sentiment": -0.4,
           "reason": "Oil spike risk from widening Iran conflict hurts broad market"
-        },
-        {
-          "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After Trump Rules Out Iran Strike \u2014 ITUB, NON, CLS in Focus (UPDATED)",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62583105/stock-market-today-dow-jones-sp-500-futures-rise-after-trump-rules-out-iran-strike-itub-non-cls-in-focus",
-          "time": "2026-10-26T12:31:16Z",
-          "sentiment": 0.4,
-          "reason": "Futures rise as Trump rules out Iran strike, easing geopolitical risk"
-        },
-        {
-          "headline": "Michael Burry Backs Ken Griffin on AI Bubble Concerns, Says GPU Overcapacity Warning Is Obvious to Anyone With a \u2018Working Brain Cell\u2019",
-          "url": "https://www.benzinga.com/markets/market-summary/26/10/62582578/michael-burry-backs-ken-griffin-on-ai-bubble-concerns-says-gpu-overcapacity-warning-is-obvious-to-anyone-with-a-working-brain-cell",
-          "time": "2026-10-26T08:15:18Z",
-          "sentiment": -0.15,
-          "reason": "AI bubble warnings could weigh on broad market sentiment"
         }
       ]
     },
@@ -122,10 +122,24 @@
       ]
     },
     "MSFT": {
-      "score": 0.235,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.202,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Microsoft Announces Voluntary Buyout Program for 60,000 Employees",
+          "url": "https://www.barchart.com/story/news/8459083/microsoft-offers-a-quarter-of-its-global-workforce-voluntary-buyouts-as-ai-spending-accelerates",
+          "time": "2026-10-26T20:31:25Z",
+          "sentiment": 0.3,
+          "reason": "Large buyout signals cost discipline and AI-focused restructuring"
+        },
+        {
+          "headline": "CoreWeave Debt Fears Hit a Record \u2014 Some Are Whispering 'Lehman'",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
+          "time": "2026-10-26T19:58:10Z",
+          "sentiment": -0.2,
+          "reason": "CoreWeave credit stress raises AI capex and counterparty concerns"
+        },
         {
           "headline": "Microsoft\u2019s Copilot, Azure Demand Signals Stronger AI Monetization: Analyst",
           "url": "https://www.benzinga.com/markets/tech/26/10/62600012/microsofts-copilot-azure-demand-signals-stronger-ai-monetization-analyst",
@@ -146,28 +160,21 @@
           "time": "2026-10-26T16:19:59Z",
           "sentiment": -0.2,
           "reason": "UK AI data center delayed by grid power access bottleneck"
-        },
-        {
-          "headline": "'Microsoft is offering buyouts to around 60,000 employees' - Business Insider",
-          "url": "https://www.benzinga.com/news/26/10/62594428/microsoft-offering-buyouts-around-60-000-employees-business-insider",
-          "time": "2026-10-26T15:33:30Z",
-          "sentiment": 0.2,
-          "reason": "Voluntary buyouts suggest cost cutting, possibly margin-supportive; impact unclear."
-        },
-        {
-          "headline": "Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $600",
-          "url": "https://www.benzinga.com/news/26/10/62592437/truist-securities-reiterates-buy-microsoft-raises-price-target-600",
-          "time": "2026-10-26T14:46:02Z",
-          "sentiment": 0.3,
-          "reason": "Analyst reiterates Buy with raised $600 price target"
         }
       ]
     },
     "NVDA": {
-      "score": 0.052,
+      "score": -0.028,
       "articles": 9,
       "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "CoreWeave Debt Fears Hit a Record \u2014 Some Are Whispering 'Lehman'",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
+          "time": "2026-10-26T19:58:10Z",
+          "sentiment": -0.4,
+          "reason": "Neocloud debt stress threatens AI infrastructure demand for GPUs"
+        },
         {
           "headline": "Nasdaq 100 Rallies on Chip Rebound; Brazil ETF Sinks 21%: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
@@ -195,21 +202,28 @@
           "time": "2026-10-26T13:24:21Z",
           "sentiment": 0.15,
           "reason": "CrowdStrike Nvidia partnership expansion is a mild positive"
-        },
-        {
-          "headline": "Zuckerberg Is Raising the Stakes: Meta Plans $95 Billion Funding Push to Fuel AI Dreams",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62588078/zuckerberg-is-raising-the-stakes-meta-plans-95-billion-funding-push-to-fuel-ai-dreams",
-          "time": "2026-10-26T13:00:26Z",
-          "sentiment": 0.3,
-          "reason": "Up to $145B Meta capex supports AI chip demand"
         }
       ]
     },
     "AMZN": {
-      "score": 0.279,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.226,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Bank Of America, Blackstone, Citi, Morgan Stanley Announce $63B Transaction For Deployment Of AI Compute Through Broadcom's Technology For Anthropic",
+          "url": "https://www.benzinga.com/news/26/10/62605221/bank-america-blackstone-citi-morgan-stanley-announce-63b-transaction-deployment-ai-compute-through-b",
+          "time": "2026-10-26T20:26:29Z",
+          "sentiment": 0.15,
+          "reason": "Large AI compute financing supports Anthropic, an Amazon partner"
+        },
+        {
+          "headline": "CoreWeave Debt Fears Hit a Record \u2014 Some Are Whispering 'Lehman'",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
+          "time": "2026-10-26T19:58:10Z",
+          "sentiment": -0.15,
+          "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
+        },
         {
           "headline": "UBS Maintains Buy on Amazon.com, Raises Price Target to $348",
           "url": "https://www.benzinga.com/news/26/10/62601686/ubs-maintains-buy-amazon-com-raises-price-target-348",
@@ -230,28 +244,28 @@
           "time": "2026-10-26T16:09:22Z",
           "sentiment": 0.4,
           "reason": "Analyst expects AWS growth beat and upbeat Q4 guidance"
-        },
-        {
-          "headline": "Verizon Signs $2 Billion AI Infrastructure Agreement with AWS",
-          "url": "https://telcomagazine.com/news/verizon-inks-us-2bn-aws-ai-deal-and-posts-406k-q3-adds",
-          "time": "2026-10-26T13:31:33Z",
-          "sentiment": 0.3,
-          "reason": "Verizon $2B AWS AI infrastructure deal is a meaningful win"
-        },
-        {
-          "headline": "Anthropic Files For Initial Public Offering On NASDAQ Under Ticker \"ANT\"",
-          "url": "https://www.benzinga.com/news/26/10/62588338/anthropic-files-initial-public-offering-nasdaq-under-ticker-ant",
-          "time": "2026-10-26T13:05:38Z",
-          "sentiment": 0.2,
-          "reason": "Anthropic IPO filing boosts value of AMZN's stake"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.101,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.074,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Bank Of America, Blackstone, Citi, Morgan Stanley Announce $63B Transaction For Deployment Of AI Compute Through Broadcom's Technology For Anthropic",
+          "url": "https://www.benzinga.com/news/26/10/62605221/bank-america-blackstone-citi-morgan-stanley-announce-63b-transaction-deployment-ai-compute-through-b",
+          "time": "2026-10-26T20:26:29Z",
+          "sentiment": 0.15,
+          "reason": "Large AI compute financing supports Anthropic, a Google partner"
+        },
+        {
+          "headline": "CoreWeave Debt Fears Hit a Record \u2014 Some Are Whispering 'Lehman'",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
+          "time": "2026-10-26T19:58:10Z",
+          "sentiment": -0.15,
+          "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
+        },
         {
           "headline": "Michael Burry Eyes the Exit on Walmart, Alphabet and Valero",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62600475/michael-burry-eyes-the-exit-on-walmart-alphabet-and-valero",
@@ -272,28 +286,21 @@
           "time": "2026-10-26T13:05:38Z",
           "sentiment": 0.2,
           "reason": "Anthropic IPO filing boosts value of GOOGL's stake"
-        },
-        {
-          "headline": "Anthropic To Release S-1 At 9 am Est",
-          "url": "https://www.benzinga.com/news/26/10/62585870/anthropic-release-s-1-9-am-est",
-          "time": "2026-10-26T11:54:30Z",
-          "sentiment": 0.15,
-          "reason": "Anthropic S-1 may lift value of Google's Anthropic stake"
-        },
-        {
-          "headline": "A $1 Trillion Depreciation Bomb Is Ticking Beneath the AI Market",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62580225/a-1-trillion-depreciation-bomb-is-ticking-beneath-the-ai-market",
-          "time": "2026-10-25T19:45:14Z",
-          "sentiment": -0.15,
-          "reason": "Depreciation accounting concerns may pressure hyperscaler earnings quality views"
         }
       ]
     },
     "META": {
-      "score": -0.209,
+      "score": -0.204,
       "articles": 8,
       "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "CoreWeave Debt Fears Hit a Record \u2014 Some Are Whispering 'Lehman'",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
+          "time": "2026-10-26T19:58:10Z",
+          "sentiment": -0.15,
+          "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
+        },
         {
           "headline": "Meta's $95 Billion AI Push Could Accelerate New Product Launches, Analyst Says",
           "url": "https://www.benzinga.com/markets/tech/26/10/62599504/metas-95-billion-ai-push-could-accelerate-new-product-launches-analyst-says",
@@ -321,13 +328,6 @@
           "time": "2026-10-26T13:00:26Z",
           "sentiment": -0.4,
           "reason": "$35B stock offering dilutes shares and signals heavy capex burden"
-        },
-        {
-          "headline": "Meta Announces Public Offerings of Depositary Shares and Class A Common Stock",
-          "url": "https://www.morningstar.com/news/pr-newswire/20261026sf80662/meta-announces-launch-of-offering-of-depositary-shares-representing-series-a-mandatory-convertible-preferred-stock-and-offering-of-class-a-common-stock-in-connection-with-forward-sale-agreements",
-          "time": "2026-10-26T11:31:41Z",
-          "sentiment": -0.5,
-          "reason": "Large equity offering and dilution, about $95B total, pressures shares"
         }
       ]
     },

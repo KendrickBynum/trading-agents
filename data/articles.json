@@ -768,64 +768,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62580379",
-    "created_at": "2026-10-25T20:47:21Z",
-    "headline": "CoreWeave Stock at Risk of Falling Below $50 as AI Bubble Index Jumps to 74",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62580379/coreweave-stock-at-risk-of-falling-below-50-as-ai-bubble-index-jumps-to-74",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "CoreWeave slide and rising AI bubble index may signal weaker AI infrastructure sentiment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62580225",
-    "created_at": "2026-10-25T19:45:14Z",
-    "headline": "A $1 Trillion Depreciation Bomb Is Ticking Beneath the AI Market",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62580225/a-1-trillion-depreciation-bomb-is-ticking-beneath-the-ai-market",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Depreciation accounting concerns could weigh on AI capex sentiment"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "Depreciation accounting concerns may pressure hyperscaler earnings quality views"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "Depreciation accounting concerns may pressure hyperscaler earnings quality views"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "Depreciation accounting concerns may pressure hyperscaler earnings quality views"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "Depreciation accounting concerns may pressure hyperscaler earnings quality views"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62591791",
     "created_at": "2026-10-26T14:30:24Z",
     "headline": "Dallas Fed Mfg Business Index For October 13.4 Vs 9.8 Prior",
@@ -1704,6 +1646,218 @@
         "sentiment": 0.2,
         "confidence": 0.4,
         "reason": "Tariff easing on Canadian steel and autos modestly reduces trade-war risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104594687",
+    "created_at": "2026-10-26T23:01:32Z",
+    "headline": "JPMorgan Chase Reports Change in Major Holding in Vonovia SE",
+    "url": "https://www.eqs-news.com/news/voting-rights/jpmorgan-chase-co-wilmington-delaware-united-states-of-america-usa/3e391544-2ac4-42a9-8fe2-0ef3f86155b2_en",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine ownership disclosure in a European real estate company"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104594683",
+    "created_at": "2026-10-26T23:01:26Z",
+    "headline": "Verosoft Launches AI Orchestration Platform Built on Microsoft Dynamics 365",
+    "url": "https://www.prnewswire.com/in/news-releases/verosoft-launches-verovia-to-turn-ai-into-industrial-value-302918490.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Third-party product launch on Dynamics 365, minor ecosystem news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104594682",
+    "created_at": "2026-10-26T23:01:26Z",
+    "headline": "Semperis Expands Security Collaboration with Microsoft",
+    "url": "https://www.prnewswire.com/news-releases/semperis-deepens-microsoft-security-collaboration-integrating-the-lightning-platform-with-microsoft-sentinel-and-security-copilot-302919004.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Partner integration with Sentinel and Security Copilot, incremental"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104594681",
+    "created_at": "2026-10-26T23:01:23Z",
+    "headline": "Amazon Business to Host Annual 'Reshape 2026' Conference",
+    "url": "https://procurementmag.com/news/amazon-business-reshape-2026-what-cpos-need-to-know",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine business conference announcement, no financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62607697",
+    "created_at": "2026-10-26T22:42:28Z",
+    "headline": "Trump Approval Hits Record Lows, 75% Say Economy \u2018Not So Good\u2019 or \u2018Poor\u2019",
+    "url": "https://www.benzinga.com/news/politics/26/10/62607697/trump-approval-hits-record-lows-75-say-economy-not-so-good-or-poor",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Weak economic sentiment and political instability may weigh on markets"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104391949",
+    "created_at": "2026-10-26T20:31:25Z",
+    "headline": "Microsoft Announces Voluntary Buyout Program for 60,000 Employees",
+    "url": "https://www.barchart.com/story/news/8459083/microsoft-offers-a-quarter-of-its-global-workforce-voluntary-buyouts-as-ai-spending-accelerates",
+    "source": "fiscal.ai",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.45,
+        "reason": "Large buyout signals cost discipline and AI-focused restructuring"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62605221",
+    "created_at": "2026-10-26T20:26:29Z",
+    "headline": "Bank Of America, Blackstone, Citi, Morgan Stanley Announce $63B Transaction For Deployment Of AI Compute Through Broadcom's Technology For Anthropic",
+    "url": "https://www.benzinga.com/news/26/10/62605221/bank-america-blackstone-citi-morgan-stanley-announce-63b-transaction-deployment-ai-compute-through-b",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Large AI compute financing supports Anthropic, an Amazon partner"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Large AI compute financing supports Anthropic, a Google partner"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62603452",
+    "created_at": "2026-10-26T19:58:10Z",
+    "headline": "CoreWeave Debt Fears Hit a Record \u2014 Some Are Whispering 'Lehman'",
+    "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
+    "source": "benzinga",
+    "market_risk": 0.45,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.4,
+        "reason": "Neocloud debt stress threatens AI infrastructure demand for GPUs"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "CoreWeave credit stress raises AI capex and counterparty concerns"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.15,
+        "confidence": 0.25,
+        "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.15,
+        "confidence": 0.25,
+        "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.15,
+        "confidence": 0.25,
+        "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62603174",
+    "created_at": "2026-10-26T19:49:35Z",
+    "headline": "If This Sector Breaks, \u2018So Does the Market\u2019: Jay Woods Says This Chart is 'Most Important in the World'",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62603174/if-this-sector-breaks-so-does-the-market-jay-woods-says-this-chart-is-most-important-in-the-world",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Opinion piece on semiconductor sector, no new fundamental information"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Commentary warning of semiconductor-driven market risk, not new data"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62602974",
+    "created_at": "2026-10-26T19:42:14Z",
+    "headline": "Iranian State TV Reports Iran Is Open To A Shorter U.S. Proposal Timeline If Conditions Are Met",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62602974/iranian-state-tv-reports-iran-open-shorter-u-s-proposal-timeline-if-conditions-are-met",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Possible US-Iran diplomatic progress reduces geopolitical tension"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": -0.1,
+        "confidence": 0.25,
+        "reason": "Easing Iran tensions could reduce oil risk premium"
       }
     ],
     "scorer": "claude"
