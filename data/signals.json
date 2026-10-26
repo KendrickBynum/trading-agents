@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T14:35:19.713367+00:00",
-  "market_risk": 0.105,
+  "generated_at": "2026-10-26T15:35:16.921616+00:00",
+  "market_risk": 0.104,
   "tickers": {
     "SPY": {
       "score": 0.024,
@@ -87,10 +87,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.246,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.276,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $600",
+          "url": "https://www.benzinga.com/news/26/10/62592437/truist-securities-reiterates-buy-microsoft-raises-price-target-600",
+          "time": "2026-10-26T14:46:02Z",
+          "sentiment": 0.3,
+          "reason": "Analyst reiterates Buy with raised $600 price target"
+        },
         {
           "headline": "Scotiabank Maintains Sector Outperform on Microsoft, Raises Price Target to $625",
           "url": "https://www.benzinga.com/news/26/10/62589048/scotiabank-maintains-sector-outperform-microsoft-raises-price-target-625",
@@ -108,10 +115,17 @@
       ]
     },
     "NVDA": {
-      "score": 0.045,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.079,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Nvidia Is Now Cheaper Than the Average S&P 500 Stock: Wall Street Still Sees Record Profits",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62592421/nvidia-stock-discount-sp-500-since-2015",
+          "time": "2026-10-26T14:45:34Z",
+          "sentiment": 0.2,
+          "reason": "Valuation discount to S&P 500 amid strong expected profit growth"
+        },
         {
           "headline": "CrowdStrike Stock Rose Friday Amid Cyber Rally. Here's a Look at the Week",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62589099/crowdstrike-stock-rose-friday-amid-cyber-rally-heres-a-look-at-the-week",
@@ -139,13 +153,6 @@
           "time": "2026-10-26T10:31:21Z",
           "sentiment": 0.2,
           "reason": "New NVIDIA-based AI factory startup with about $1B in orders"
-        },
-        {
-          "headline": "IREN, CRWV, NBIS, APLD Stocks Fall Pre-Market as Analyst Echoes Elon Musk\u2019s Neocloud Debt Warning: \u2018Putting GPUs as Collateral Isn\u2019t Enough Anymore'",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62583711/iren-crwv-nbis-apld-stocks-fall-pre-market-as-analyst-echoes-elon-musks-neocloud-debt-warning-putting-gpus-as-collateral-isnt-enough-anymore",
-          "time": "2026-10-26T10:14:13Z",
-          "sentiment": -0.3,
-          "reason": "AI neocloud selloff and financing concerns could pressure GPU demand sentiment"
         }
       ]
     },
@@ -220,10 +227,17 @@
       ]
     },
     "META": {
-      "score": -0.345,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.336,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "NVIDIA Expresses Interest in Meta Platforms Equity Offering",
+          "url": "https://www.morningstar.com/news/marketwatch/2026102637/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering",
+          "time": "2026-10-26T15:01:37Z",
+          "sentiment": -0.3,
+          "reason": "$35B equity offering implies material share dilution"
+        },
         {
           "headline": "Zuckerberg Is Raising the Stakes: Meta Plans $95 Billion Funding Push to Fuel AI Dreams",
           "url": "https://www.benzinga.com/markets/tech/26/10/62588078/zuckerberg-is-raising-the-stakes-meta-plans-95-billion-funding-push-to-fuel-ai-dreams",
@@ -251,13 +265,6 @@
           "time": "2026-10-26T10:31:34Z",
           "sentiment": 0.3,
           "reason": "Phillip Securities raises price target to $780 from $750"
-        },
-        {
-          "headline": "A $1 Trillion Depreciation Bomb Is Ticking Beneath the AI Market",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62580225/a-1-trillion-depreciation-bomb-is-ticking-beneath-the-ai-market",
-          "time": "2026-10-25T19:45:14Z",
-          "sentiment": -0.15,
-          "reason": "Depreciation accounting concerns may pressure hyperscaler earnings quality views"
         }
       ]
     },

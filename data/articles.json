@@ -1004,5 +1004,101 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "62593281",
+    "created_at": "2026-10-26T15:04:48Z",
+    "headline": "'SpaceX Is the New Neocloud' \u2014 So Why Pay $63 for Every $1 of Sales?",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62593281/spacex-stock-neocloud-valuation",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "104035523",
+    "created_at": "2026-10-26T15:01:37Z",
+    "headline": "NVIDIA Expresses Interest in Meta Platforms Equity Offering",
+    "url": "https://www.morningstar.com/news/marketwatch/2026102637/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "$35B equity offering implies material share dilution"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Up to $5B strategic investment interest; modest, uncertain impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62593015",
+    "created_at": "2026-10-26T15:00:28Z",
+    "headline": "Growth Leads Sectors In Monday Trading As Defensives Trail",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62593015/growth-leads-sectors-in-monday-trading-as-defensives-trail",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Growth sectors leading Monday session; routine market recap"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Seven of eleven sectors higher; routine market recap"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62592437",
+    "created_at": "2026-10-26T14:46:02Z",
+    "headline": "Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $600",
+    "url": "https://www.benzinga.com/news/26/10/62592437/truist-securities-reiterates-buy-microsoft-raises-price-target-600",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.5,
+        "reason": "Analyst reiterates Buy with raised $600 price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62592421",
+    "created_at": "2026-10-26T14:45:34Z",
+    "headline": "Nvidia Is Now Cheaper Than the Average S&P 500 Stock: Wall Street Still Sees Record Profits",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62592421/nvidia-stock-discount-sp-500-since-2015",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Valuation discount to S&P 500 amid strong expected profit growth"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Stock-specific valuation comparison; minimal index impact"
+      }
+    ],
+    "scorer": "claude"
   }
 ]
