@@ -1293,5 +1293,122 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "62598577",
+    "created_at": "2026-10-26T17:17:02Z",
+    "headline": "Neoclouds Face Guppy-Level Death; 36% Of S&P 500 Earnings This Week; Brazil Stocks Plunge On Election Outcome",
+    "url": "https://www.benzinga.com/opinion/26/10/62598577/neoclouds-face-guppy-level-death-36-of-sp500-earnings-this-week-brazil-stocks-plunge-on-election-outcome",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Neocloud weakness may signal softer AI infrastructure demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62598326",
+    "created_at": "2026-10-26T17:09:01Z",
+    "headline": "Nasdaq 100 Rallies on Chip Rebound; Brazil ETF Sinks 21%: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Nasdaq 100 gains 1.2% on chipmaker rebound"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Chip sector rebound lifts semiconductor leader"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Broad tech strength supports large-cap software names"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62597989",
+    "created_at": "2026-10-26T17:00:58Z",
+    "headline": "CNBC Halftime Report Final Trades: eBay, ExxonMobil, Leidos Holdings, Global X Data Center & Digital Infrastructure ETF",
+    "url": "https://www.benzinga.com/quote/DTCR",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62597959",
+    "created_at": "2026-10-26T17:00:28Z",
+    "headline": "Elon Musk Says Happiness Peaks Fast Once You're a Billionaire \u2014 'You Hit That Saturation Point Pretty Fast'",
+    "url": "https://www.benzinga.com/news/space/26/10/62597959/elon-musk-says-happiness-peaks-fast-once-youre-a-billionaire-you-hit-that-saturation-point-pretty-fast",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62597871",
+    "created_at": "2026-10-26T16:57:01Z",
+    "headline": "Nvidia's AI Safety Push Could Slow Things Down by 25%, Analyst Warns",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62597871/nvidia-ai-safety-speed-cost",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Analyst warns AI safety measures could slow runtime 25%"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62597788",
+    "created_at": "2026-10-26T16:54:26Z",
+    "headline": "'Apple\u2019s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking' - Bloomberg",
+    "url": "https://www.benzinga.com/news/26/10/62597788/apple-s-foldable-iphone-duo-draws-early-complaints-screen-cracking-bloomberg",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Early screen-cracking complaints on foldable iPhone"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62596945",
+    "created_at": "2026-10-26T16:34:46Z",
+    "headline": "Microsoft Stock Is Trending: What's Going On?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62596945/microsoft-stock-is-trending-whats-going-on",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Voluntary buyout offer to 60,000 employees may cut costs"
+      }
+    ],
+    "scorer": "claude"
   }
 ]

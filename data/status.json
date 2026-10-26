@@ -1,57 +1,55 @@
 {
-  "last_run": "2026-10-26T16:35:30.485332+00:00",
+  "last_run": "2026-10-26T17:35:25.848461+00:00",
   "paper": true,
   "market_open": true,
   "next_open": "2026-10-27T09:30:00-04:00",
-  "equity": 100046.78,
-  "cash": 70000.3,
-  "day_pnl": 60.96,
-  "day_pnl_pct": 0.00061,
+  "equity": 100072.15,
+  "cash": 59995.63,
+  "day_pnl": 86.33,
+  "day_pnl_pct": 0.00086,
   "starting_equity": 100000.0,
-  "total_pnl": 46.78,
-  "total_pnl_pct": 0.00047,
+  "total_pnl": 72.15,
+  "total_pnl_pct": 0.00072,
   "halts": [],
-  "last_actions": [
-    {
-      "time": "2026-10-26T16:35:30.485332+00:00",
-      "symbol": "AMZN",
-      "side": "buy",
-      "reason": "positive news (+0.27, 8 articles)",
-      "news_score": 0.274,
-      "notional": 10004.68,
-      "status": "submitted",
-      "order_id": "3ec09246-bcf7-4f76-9c69-781dba300be4"
-    }
-  ],
-  "market_risk": 0.093,
-  "signals_at": "2026-10-26T16:35:18.933187+00:00",
+  "last_actions": [],
+  "market_risk": 0.094,
+  "signals_at": "2026-10-26T17:35:18.250749+00:00",
   "positions": [
     {
       "symbol": "AAPL",
       "qty": 29.032810229,
       "avg_entry": 344.224342,
-      "price": 344.53,
-      "value": 10002.674108,
-      "pl": 8.874111,
-      "pl_pct": 0.00089
+      "price": 343.355,
+      "value": 9968.560556,
+      "pl": -25.239441,
+      "pl_pct": -0.00253
+    },
+    {
+      "symbol": "AMZN",
+      "qty": 40.197155369,
+      "avg_entry": 248.89,
+      "price": 249.8799,
+      "value": 10044.461164,
+      "pl": 39.791164,
+      "pl_pct": 0.00398
     },
     {
       "symbol": "MSFT",
       "qty": 18.901462198,
       "avg_entry": 529.371744,
-      "price": 530.08,
-      "value": 10019.287082,
-      "pl": 13.387074,
-      "pl_pct": 0.00134
+      "price": 530.545,
+      "value": 10028.076262,
+      "pl": 22.176254,
+      "pl_pct": 0.00222
     },
     {
       "symbol": "XOM",
       "qty": 54.504769172,
       "avg_entry": 183.47,
-      "price": 183.92,
-      "value": 10024.517146,
-      "pl": 24.527146,
-      "pl_pct": 0.00245
+      "price": 184.12,
+      "value": 10035.4181,
+      "pl": 35.4281,
+      "pl_pct": 0.00354
     }
   ]
 }

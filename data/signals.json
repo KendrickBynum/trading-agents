@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T16:35:18.933187+00:00",
-  "market_risk": 0.093,
+  "generated_at": "2026-10-26T17:35:18.250749+00:00",
+  "market_risk": 0.094,
   "tickers": {
     "SPY": {
       "score": 0.024,
@@ -38,10 +38,17 @@
       ]
     },
     "QQQ": {
-      "score": -0.04,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.126,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Rallies on Chip Rebound; Brazil ETF Sinks 21%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
+          "time": "2026-10-26T17:09:01Z",
+          "sentiment": 0.4,
+          "reason": "Nasdaq 100 gains 1.2% on chipmaker rebound"
+        },
         {
           "headline": "Top Economist Warns 'Oil at 150' Could Deal a 'Significant Blow' to the Global Economy if Iran Conflict Widens: 'We Don't Have These Two Other Things That We Had Before...'",
           "url": "https://www.benzinga.com/markets/commodities/26/10/62587938/top-economist-warns-oil-at-150-could-deal-a-significant-blow-to-the-global-economy-if-iran-conflict-widens-we-dont-have-these-two-other-things-that-we-had-before",
@@ -66,10 +73,17 @@
       ]
     },
     "AAPL": {
-      "score": 0.298,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.095,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "'Apple\u2019s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking' - Bloomberg",
+          "url": "https://www.benzinga.com/news/26/10/62597788/apple-s-foldable-iphone-duo-draws-early-complaints-screen-cracking-bloomberg",
+          "time": "2026-10-26T16:54:26Z",
+          "sentiment": -0.2,
+          "reason": "Early screen-cracking complaints on foldable iPhone"
+        },
         {
           "headline": "Apple's $2,000 Foldable iPhone Sparks Buying Frenzy",
           "url": "https://www.benzinga.com/markets/tech/26/10/62583947/apples-2000-foldable-iphone-sparks-buying-frenzy",
@@ -129,10 +143,24 @@
       ]
     },
     "NVDA": {
-      "score": 0.079,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.052,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Rallies on Chip Rebound; Brazil ETF Sinks 21%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
+          "time": "2026-10-26T17:09:01Z",
+          "sentiment": 0.3,
+          "reason": "Chip sector rebound lifts semiconductor leader"
+        },
+        {
+          "headline": "Nvidia's AI Safety Push Could Slow Things Down by 25%, Analyst Warns",
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62597871/nvidia-ai-safety-speed-cost",
+          "time": "2026-10-26T16:57:01Z",
+          "sentiment": -0.3,
+          "reason": "Analyst warns AI safety measures could slow runtime 25%"
+        },
         {
           "headline": "Nvidia Is Now Cheaper Than the Average S&P 500 Stock: Wall Street Still Sees Record Profits",
           "url": "https://www.benzinga.com/markets/tech/26/10/62592421/nvidia-stock-discount-sp-500-since-2015",
@@ -153,20 +181,6 @@
           "time": "2026-10-26T13:00:26Z",
           "sentiment": 0.3,
           "reason": "Up to $145B Meta capex supports AI chip demand"
-        },
-        {
-          "headline": "SKHY, BABA in the Crosshairs: Goldman Slashes KOSPI Ahead of Earnings, Morgan Stanley Warns on China AI",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62586262/skhy-baba-in-the-crosshairs-goldman-slashes-kospi-ahead-of-earnings-morgan-stanley-warns-on-china-ai",
-          "time": "2026-10-26T12:03:57Z",
-          "sentiment": -0.15,
-          "reason": "Goldman cuts KOSPI target and Morgan Stanley warns on China AI"
-        },
-        {
-          "headline": "SWI Compute Launches to Build NVIDIA AI Factories",
-          "url": "https://www.prnewswire.com/news-releases/swi-compute-emerges-from-stealth-to-turn-gigawatts-of-power-into-nvidia-ai-factories-starting-in-europe-302918805.html",
-          "time": "2026-10-26T10:31:21Z",
-          "sentiment": 0.2,
-          "reason": "New NVIDIA-based AI factory startup with about $1B in orders"
         }
       ]
     },
