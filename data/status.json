@@ -1,57 +1,55 @@
 {
-  "last_run": "2026-10-27T00:34:54.688924+00:00",
+  "last_run": "2026-10-27T13:35:55.798335+00:00",
   "paper": true,
-  "market_open": false,
-  "next_open": "2026-10-27T09:30:00-04:00",
-  "equity": 100096.04,
-  "cash": 59995.63,
-  "day_pnl": 110.22,
-  "day_pnl_pct": 0.0011,
+  "market_open": true,
+  "next_open": "2026-10-28T09:30:00-04:00",
+  "equity": 100151.56,
+  "cash": 59995.62,
+  "day_pnl": 33.33,
+  "day_pnl_pct": 0.00033,
   "starting_equity": 100000.0,
-  "total_pnl": 96.04,
-  "total_pnl_pct": 0.00096,
-  "halts": [
-    "Market closed"
-  ],
+  "total_pnl": 151.56,
+  "total_pnl_pct": 0.00152,
+  "halts": [],
   "last_actions": [],
-  "market_risk": 0.095,
-  "signals_at": "2026-10-27T00:34:53.920375+00:00",
+  "market_risk": 0.106,
+  "signals_at": "2026-10-27T13:35:20.556063+00:00",
   "positions": [
     {
       "symbol": "AAPL",
       "qty": 29.032810229,
       "avg_entry": 344.224342,
-      "price": 343.38,
-      "value": 9969.286376,
-      "pl": -24.513621,
-      "pl_pct": -0.00245
+      "price": 344.13,
+      "value": 9991.060984,
+      "pl": -2.739013,
+      "pl_pct": -0.00027
     },
     {
       "symbol": "AMZN",
       "qty": 40.197155369,
       "avg_entry": 248.89,
-      "price": 249.75,
-      "value": 10039.239553,
-      "pl": 34.569553,
-      "pl_pct": 0.00346
+      "price": 250.62,
+      "value": 10074.211079,
+      "pl": 69.541079,
+      "pl_pct": 0.00695
     },
     {
       "symbol": "MSFT",
       "qty": 18.901462198,
       "avg_entry": 529.371744,
-      "price": 532.22,
-      "value": 10059.736211,
-      "pl": 53.836203,
-      "pl_pct": 0.00538
+      "price": 532.17,
+      "value": 10058.791138,
+      "pl": 52.89113,
+      "pl_pct": 0.00529
     },
     {
       "symbol": "XOM",
       "qty": 54.504769172,
       "avg_entry": 183.47,
-      "price": 184.06,
-      "value": 10032.147814,
-      "pl": 32.157814,
-      "pl_pct": 0.00322
+      "price": 184.055,
+      "value": 10031.87529,
+      "pl": 31.88529,
+      "pl_pct": 0.00319
     }
   ]
 }

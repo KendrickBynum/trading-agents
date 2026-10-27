@@ -1,773 +1,5 @@
 [
   {
-    "id": "103956966",
-    "created_at": "2026-10-26T13:31:33Z",
-    "headline": "Verizon Signs $2 Billion AI Infrastructure Agreement with AWS",
-    "url": "https://telcomagazine.com/news/verizon-inks-us-2bn-aws-ai-deal-and-posts-406k-q3-adds",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Verizon $2B AWS AI infrastructure deal is a meaningful win"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103956965",
-    "created_at": "2026-10-26T13:31:31Z",
-    "headline": "Apple Unveils Redesigned iPad mini With OLED Display",
-    "url": "https://appleosophy.com/wire/her2oh9/",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Routine iPad mini refresh; largely expected product cycle news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62589212",
-    "created_at": "2026-10-26T13:29:08Z",
-    "headline": "Anthropic Says As Of Sept 30, About 250 Customers With $10M Or More Of Revenue On A TTM Basis; In Q3, Recognized $2B Within Other Operating And Administrative Expense",
-    "url": "https://www.benzinga.com/quote/AMZN",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Anthropic customer growth is positive for its cloud backers"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Anthropic customer growth is positive for its cloud backers"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62589185",
-    "created_at": "2026-10-26T13:28:36Z",
-    "headline": "Anthropic Says Dario Amodei Owns 240.6M Class A Shares Before Offering; Total 245.3M Including 4.6M Shares Subject To Voting Proxies; Daniela Amodei Beneficially Owned 241.4M Class A Shares Before Offering",
-    "url": "https://www.benzinga.com/quote/AMZN",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62589172",
-    "created_at": "2026-10-26T13:27:55Z",
-    "headline": "Anthropic Says For Year Ended December 31, 2025, Expenses Related To Our Donation Matching Program Were $541M; Our Rent Payments Over The Life Of Leases Under Broadcom Lease Arrangements Equal To Aggregate Of About $161.2B Excluding Interest",
-    "url": "https://www.benzinga.com/news/26/10/62589172/anthropic-says-year-ended-december-31-2025-expenses-related-our-donation-matching-program-were-541m-",
-    "source": "benzinga",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.0,
-        "confidence": 0.15,
-        "reason": "Large Anthropic lease obligations are mostly not direct parent exposure"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.0,
-        "confidence": 0.15,
-        "reason": "Large Anthropic lease obligations are mostly not direct parent exposure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62589099",
-    "created_at": "2026-10-26T13:24:21Z",
-    "headline": "CrowdStrike Stock Rose Friday Amid Cyber Rally. Here's a Look at the Week",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62589099/crowdstrike-stock-rose-friday-amid-cyber-rally-heres-a-look-at-the-week",
-    "source": "benzinga",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "CrowdStrike Nvidia partnership expansion is a mild positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62589060",
-    "created_at": "2026-10-26T13:23:09Z",
-    "headline": "'Anthropic Targets IPO Week Of November 16' - WSJ Live",
-    "url": "https://www.benzinga.com/news/26/10/62589060/anthropic-targets-ipo-week-november-16-wsj-live",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Anthropic IPO timing lifts value of large AMZN stake"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Anthropic IPO timing lifts value of large GOOGL stake"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Anthropic IPO is a weak indirect positive for MSFT"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62589048",
-    "created_at": "2026-10-26T13:23:05Z",
-    "headline": "Scotiabank Maintains Sector Outperform on Microsoft, Raises Price Target to $625",
-    "url": "https://www.benzinga.com/news/26/10/62589048/scotiabank-maintains-sector-outperform-microsoft-raises-price-target-625",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Scotiabank reiterates outperform and raises price target"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62588414",
-    "created_at": "2026-10-26T13:06:58Z",
-    "headline": "Apple Unveils All-New iPad mini With 8.5-Inch OLED Display, A20 Pro Chip, Apple Intelligence",
-    "url": "https://www.benzinga.com/news/26/10/62588414/apple-unveils-all-new-ipad-mini-8-5-inch-oled-display-a20-pro-chip-apple-intelligence",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Routine iPad mini refresh; largely expected product cycle news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62588338",
-    "created_at": "2026-10-26T13:05:38Z",
-    "headline": "Anthropic Files For Initial Public Offering On NASDAQ Under Ticker \"ANT\"",
-    "url": "https://www.benzinga.com/news/26/10/62588338/anthropic-files-initial-public-offering-nasdaq-under-ticker-ant",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.2,
-        "confidence": 0.35,
-        "reason": "Anthropic IPO filing boosts value of AMZN's stake"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.2,
-        "confidence": 0.35,
-        "reason": "Anthropic IPO filing boosts value of GOOGL's stake"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.25,
-        "reason": "Anthropic IPO is a weak indirect positive for MSFT"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62588078",
-    "created_at": "2026-10-26T13:00:26Z",
-    "headline": "Zuckerberg Is Raising the Stakes: Meta Plans $95 Billion Funding Push to Fuel AI Dreams",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62588078/zuckerberg-is-raising-the-stakes-meta-plans-95-billion-funding-push-to-fuel-ai-dreams",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.4,
-        "confidence": 0.6,
-        "reason": "$35B stock offering dilutes shares and signals heavy capex burden"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Up to $145B Meta capex supports AI chip demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62587938",
-    "created_at": "2026-10-26T12:58:39Z",
-    "headline": "Top Economist Warns 'Oil at 150' Could Deal a 'Significant Blow' to the Global Economy if Iran Conflict Widens: 'We Don't Have These Two Other Things That We Had Before...'",
-    "url": "https://www.benzinga.com/markets/commodities/26/10/62587938/top-economist-warns-oil-at-150-could-deal-a-significant-blow-to-the-global-economy-if-iran-conflict-widens-we-dont-have-these-two-other-things-that-we-had-before",
-    "source": "benzinga",
-    "market_risk": 0.45,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Oil spike risk from widening Iran conflict hurts broad market"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Oil spike risk from widening Iran conflict hurts growth stocks"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Higher crude prices from Middle East escalation benefit oil producers"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62587486",
-    "created_at": "2026-10-26T12:41:50Z",
-    "headline": "'Democrats lay groundwork to probe Trump's diesel deal' - Axios Exclusive",
-    "url": "https://www.benzinga.com/news/26/10/62587486/democrats-lay-groundwork-to-probe-trumps-diesel-deal-axios-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62587134",
-    "created_at": "2026-10-26T12:32:41Z",
-    "headline": "Chicago Fed National Activity Revises Prior From -0.04 To -0.08",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62583105",
-    "created_at": "2026-10-26T12:31:16Z",
-    "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After Trump Rules Out Iran Strike \u2014 ITUB, NON, CLS in Focus (UPDATED)",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62583105/stock-market-today-dow-jones-sp-500-futures-rise-after-trump-rules-out-iran-strike-itub-non-cls-in-focus",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Futures rise as Trump rules out Iran strike, easing geopolitical risk"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Nasdaq 100 futures rise on Iran de-escalation"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62587015",
-    "created_at": "2026-10-26T12:30:21Z",
-    "headline": "Chicago Fed National Activity 0.07 Vs -0.08 Prior",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62586852",
-    "created_at": "2026-10-26T12:19:57Z",
-    "headline": "\u2018Best Midterm Strategy\u2019 for Stocks? Turn Off the TV and Buy on Election Day, Says Analyst \u2014What 75 Years of S&P 500 History Reveals",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62586852/best-midterm-strategy-for-stocks-turn-off-the-tv-and-buy-on-election-day-says-analyst-what-75-years-of-sp-500-history-reveals",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62586262",
-    "created_at": "2026-10-26T12:03:57Z",
-    "headline": "SKHY, BABA in the Crosshairs: Goldman Slashes KOSPI Ahead of Earnings, Morgan Stanley Warns on China AI",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62586262/skhy-baba-in-the-crosshairs-goldman-slashes-kospi-ahead-of-earnings-morgan-stanley-warns-on-china-ai",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Goldman cuts KOSPI target and Morgan Stanley warns on China AI"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103910636",
-    "created_at": "2026-10-26T12:01:28Z",
-    "headline": "Honeywell Launches Forge Plant Cognition Platform Powered by NVIDIA AI",
-    "url": "https://investingnews.com/honeywell-technologies-launches-forge-plant-cognition-with-dangote-built-with-nvidia-ai-and-dell-technologies-capabilities/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Honeywell partnership on NVIDIA AI platform; incremental, likely priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62585870",
-    "created_at": "2026-10-26T11:54:30Z",
-    "headline": "Anthropic To Release S-1 At 9 am Est",
-    "url": "https://www.benzinga.com/news/26/10/62585870/anthropic-release-s-1-9-am-est",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.15,
-        "confidence": 0.35,
-        "reason": "Anthropic S-1 may lift value of Amazon's Anthropic stake"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.15,
-        "confidence": 0.35,
-        "reason": "Anthropic S-1 may lift value of Google's Anthropic stake"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103899069",
-    "created_at": "2026-10-26T11:31:41Z",
-    "headline": "Meta Announces Public Offerings of Depositary Shares and Class A Common Stock",
-    "url": "https://www.morningstar.com/news/pr-newswire/20261026sf80662/meta-announces-launch-of-offering-of-depositary-shares-representing-series-a-mandatory-convertible-preferred-stock-and-offering-of-class-a-common-stock-in-connection-with-forward-sale-agreements",
-    "source": "fiscal.ai",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.5,
-        "confidence": 0.7,
-        "reason": "Large equity offering and dilution, about $95B total, pressures shares"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103899068",
-    "created_at": "2026-10-26T11:31:40Z",
-    "headline": "Amazon Web Services Commits Multi-Billion Dollar Investment to AI Infrastructure",
-    "url": "https://aimagazine.com/news/can-ai-deliver-6tn-bains-anne-hoecker-on-the-4-2tn-gap",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Multi-billion AWS AI infrastructure investment supports growth outlook"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103899065",
-    "created_at": "2026-10-26T11:31:38Z",
-    "headline": "J.P. Morgan Asset Management Announces October 2026 ETF Distributions",
-    "url": "https://www.globenewswire.com/news-release/2026/10/26/3387953/0/fr/jpmorgan-annonce-des-distributions-en-esp%C3%A8ces-pour-les-fnb-jpmorgan.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62584750",
-    "created_at": "2026-10-26T11:01:06Z",
-    "headline": "Meta Launches Offering Of 250M Depositary Shares And $22.5B Offering Of Class A Common Stock In Connection With Forward Sale Agreements; Total Value Of Offering Seen At $95B",
-    "url": "https://www.benzinga.com/news/26/10/62584750/meta-launches-offering-of-250m-depositary-shares-and-22-5b-offering-of-class-a-common-stock-in-connection-with-forward-sale-agreements",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.5,
-        "confidence": 0.7,
-        "reason": "Duplicate report: $22.5B stock offering and forward sales, dilution risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62585277",
-    "created_at": "2026-10-26T11:17:30Z",
-    "headline": "UPDATE: Meta Announces That Nvidia, Advanced Micro Devices And Broadcom Have Each Indicated An Interest In Purchasing Up To $5B Of Shares In The Common Stock Offering",
-    "url": "https://www.benzinga.com/news/26/10/62585277/update-meta-announces-nvidia-advanced-micro-devices-and-broadcom-have-each-indicated-interest-purcha",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.4,
-        "reason": "Common stock offering signals dilution, partly offset by strong anchor interest"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Indicated interest in buying up to $5B of Meta shares"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62584938",
-    "created_at": "2026-10-26T11:08:37Z",
-    "headline": "Jamie Dimon Warns AI Agents Could Be \u2018Treacherous\u2019 for Banks, but Researcher Says There May Be Another Reason to Worry",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62584938/jamie-dimon-warns-ai-agents-treacherous-banks-researcher-another-reason-to-worry",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Dimon warns of AI agent security risks; largely cautionary commentary"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62584854",
-    "created_at": "2026-10-26T11:06:17Z",
-    "headline": "Verizon and Amazon Web Services Expand Strategic Partnership With $2B+ AI Infrastructure Deal",
-    "url": "https://www.benzinga.com/news/26/10/62584854/verizon-and-amazon-web-services-expand-strategic-partnership-2b-ai-infrastructure-deal",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Verizon expands $2B+ AWS AI infrastructure deal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62584475",
-    "created_at": "2026-10-26T10:50:47Z",
-    "headline": "Trump Says Canada Is \u2018Willing to Give Us Anything\u2019 as Michigan GOP Rep Raises Alarm Over Auto Tariffs \u2014 Predicts Quick End to Trade Fight",
-    "url": "https://www.benzinga.com/markets/economic-data/26/10/62584475/trump-says-canada-is-willing-to-give-us-anything-as-michigan-gop-rep-raises-alarm-over-auto-tariffs-predicts-quick-end-to-trade-fight",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Trump predicts quick end to Canada trade fight; tariff risk persists"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Trump predicts quick end to Canada trade fight; tariff risk persists"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62584279",
-    "created_at": "2026-10-26T10:44:39Z",
-    "headline": "Meta Files Prospectus To Sell Mixed Securities Shelf; Size Not Disclosed",
-    "url": "https://www.benzinga.com/news/26/10/62584279/meta-files-prospectus-sell-mixed-securities-shelf-size-not-disclosed",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Shelf registration signals potential future equity dilution"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103881977",
-    "created_at": "2026-10-26T10:31:34Z",
-    "headline": "Jefferies Raises Apple Price Target",
-    "url": "https://www.marketscreener.com/news/jefferies-raises-apple-price-target-to-270-62-from-263-66-ce785cdcd88df125",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Price target raise but still Sell rating; minimal signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103881976",
-    "created_at": "2026-10-26T10:31:34Z",
-    "headline": "Phillip Securities Adjusts Price Target on Meta Platforms to $780 From $750",
-    "url": "https://www.marketscreener.com/news/phillip-securities-adjusts-price-target-on-meta-platforms-to-780-from-750-ce785cdcd88ff627",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Phillip Securities raises price target to $780 from $750"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103881971",
-    "created_at": "2026-10-26T10:31:27Z",
-    "headline": "fileAI Enters Strategic Collaboration with Amazon Web Services",
-    "url": "https://www.prnewswire.com/apac/news-releases/fileai-signs-strategic-collaboration-agreement-with-aws-to-accelerate-rollout-of-outcome-driven-ai-agents-for-bfsi-leaders-302917897.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Small-company AI collaboration with AWS; limited financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103881970",
-    "created_at": "2026-10-26T10:31:23Z",
-    "headline": "Seagate Expands High-Capacity Storage Interoperability Validated by Microsoft Azure",
-    "url": "https://www.businesswire.com/newsroom",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Seagate storage validated by Azure; routine vendor news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "103881969",
-    "created_at": "2026-10-26T10:31:21Z",
-    "headline": "SWI Compute Launches to Build NVIDIA AI Factories",
-    "url": "https://www.prnewswire.com/news-releases/swi-compute-emerges-from-stealth-to-turn-gigawatts-of-power-into-nvidia-ai-factories-starting-in-europe-302918805.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.2,
-        "confidence": 0.35,
-        "reason": "New NVIDIA-based AI factory startup with about $1B in orders"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62584013",
-    "created_at": "2026-10-26T10:30:19Z",
-    "headline": "Traders Are Pricing a 11% Swing In Intel Ahead of Earnings",
-    "url": "https://www.benzinga.com/markets/options/26/10/62584013/traders-are-pricing-a-11-swing-in-intel-ahead-of-earnings",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62583947",
-    "created_at": "2026-10-26T10:24:58Z",
-    "headline": "Apple's $2,000 Foldable iPhone Sparks Buying Frenzy",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62583947/apples-2000-foldable-iphone-sparks-buying-frenzy",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.35,
-        "confidence": 0.5,
-        "reason": "Foldable iPhone Duo selling out; strong demand despite discounts"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62583711",
-    "created_at": "2026-10-26T10:14:13Z",
-    "headline": "IREN, CRWV, NBIS, APLD Stocks Fall Pre-Market as Analyst Echoes Elon Musk\u2019s Neocloud Debt Warning: \u2018Putting GPUs as Collateral Isn\u2019t Enough Anymore'",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62583711/iren-crwv-nbis-apld-stocks-fall-pre-market-as-analyst-echoes-elon-musks-neocloud-debt-warning-putting-gpus-as-collateral-isnt-enough-anymore",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "AI neocloud selloff and financing concerns could pressure GPU demand sentiment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62583600",
-    "created_at": "2026-10-26T10:08:21Z",
-    "headline": "Apollo's Torsten Slok Warns AI Gains Are Concentrated in Mag 7 as S&P 493 Sees \u2018No Signs\u2019 of Productivity Boost: 'Zero Financial Payoff'",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62583600/apollos-torsten-slok-warns-ai-gains-are-concentrated-in-mag-7-as-sp-493-sees-no-signs-of-productivity-boost-zero-financial-payoff",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62582768",
-    "created_at": "2026-10-26T08:56:10Z",
-    "headline": "Apple's Design Team Didn't Want Touchscreen Macs, But Tim Cook and John Ternus Had Other Ideas: Report",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62582768/apple-touchscreen-macbook-pro-2",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Reported touchscreen MacBook Pro launch could be a product catalyst"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62582578",
-    "created_at": "2026-10-26T08:15:18Z",
-    "headline": "Michael Burry Backs Ken Griffin on AI Bubble Concerns, Says GPU Overcapacity Warning Is Obvious to Anyone With a \u2018Working Brain Cell\u2019",
-    "url": "https://www.benzinga.com/markets/market-summary/26/10/62582578/michael-burry-backs-ken-griffin-on-ai-bubble-concerns-says-gpu-overcapacity-warning-is-obvious-to-anyone-with-a-working-brain-cell",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Prominent AI bubble and GPU overcapacity warnings weigh on tech sentiment"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "AI bubble warnings could weigh on broad market sentiment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62581823",
-    "created_at": "2026-10-26T06:19:52Z",
-    "headline": "Trump Said the 'Quiet Part' Out Loud on Gas Prices, Says Bernie Sanders: His Billionaire Friends Getting Rich Matters More Than Your Pump Costs",
-    "url": "https://www.benzinga.com/news/politics/26/10/62581823/bernie-sanders-trump-gas-oil",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Elevated oil prices tied to Iran war support upstream earnings, but political noise"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62581682",
-    "created_at": "2026-10-26T05:52:05Z",
-    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62581682/stock-market-will-sp-500-open-up-or-down-today-65",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62581671",
-    "created_at": "2026-10-26T05:51:31Z",
-    "headline": "Reported Earlier, 'Anthropic Model Accessed Voter Information' - Axios",
-    "url": "https://www.benzinga.com/news/26/10/62581671/reported-earlier-anthropic-model-accessed-voter-information-axios",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Anthropic voter-data access report may raise regulatory and reputational risk"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Anthropic voter-data access report may raise regulatory and reputational risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62581503",
-    "created_at": "2026-10-26T04:44:22Z",
-    "headline": "Gavin Newsom, Pete Buttigieg Slam Trump Over Gas Prices, Big Oil\u2014Analyst Says Diesel Is $2.72/Gallon Higher",
-    "url": "https://www.benzinga.com/news/politics/26/10/62581503/gavin-newsom-pete-buttigieg-slam-trump-over-gas-prices-big-oil-analyst-says-diesel-is-2-72-gallon-higher",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "62591791",
     "created_at": "2026-10-26T14:30:24Z",
     "headline": "Dallas Fed Mfg Business Index For October 13.4 Vs 9.8 Prior",
@@ -1860,6 +1092,942 @@
         "reason": "Easing Iran tensions could reduce oil risk premium"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62619405",
+    "created_at": "2026-10-27T13:32:21Z",
+    "headline": "Michael Burry: Today's Market Mirrors the Eve of the Dot-Com Crash",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62619405/michael-burry-todays-market-mirrors-the-eve-of-the-dot-com-crash",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.3,
+        "confidence": 0.3,
+        "reason": "Burry bearish comparison to 2000 bubble; opinion, not new data"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.3,
+        "reason": "Burry bearish comparison to 2000 bubble; opinion, not new data"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104835650",
+    "created_at": "2026-10-27T13:31:42Z",
+    "headline": "NVIDIA Omniverse DSX Blueprint Used in Digital Twin Pilot by Schneider Electric and Partners",
+    "url": "https://www.globenewswire.com/news-release/2026/10/27/3388947/0/en/schneider-electric-nscale-and-start-campus-bring-the-nvidia-omniverse-dsx-blueprint-into-a-live-ai-factory-environment.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Partner pilot of Omniverse blueprint; incremental, minor revenue relevance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104835644",
+    "created_at": "2026-10-27T13:31:37Z",
+    "headline": "Apple Updates iMac and 14-inch MacBook Pro with M6 and N1 Chips",
+    "url": "https://appleosophy.com/wire/fslgb0p/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Routine hardware refresh; modest expected impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104835640",
+    "created_at": "2026-10-27T13:31:31Z",
+    "headline": "Amazon Business Announces New AI-Powered Capabilities for Procurement Assistant",
+    "url": "https://procurementmag.com/news/amazon-business-assistant-gets-ai-upgrade-for-procurement",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "Incremental AI feature for business procurement; minor impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62619038",
+    "created_at": "2026-10-27T13:22:45Z",
+    "headline": "AMD Expands Strategic Partnership With Meta To Deploy Its Helios Rackscale Solutions, EPYC Processors And Technologies Providing Day-0 Support For Meta Models; AMD To Invest $1B In The META Equity Offering",
+    "url": "https://www.benzinga.com/news/26/10/62619038/amd-expands-strategic-partnership-meta-deploy-its-helios-rackscale-solutions-epyc-processors-and-tec",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Expanded AMD partnership and deployment; but AMD investing in Meta equity offering"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62618447",
+    "created_at": "2026-10-27T13:07:44Z",
+    "headline": "Apple Rolls Out New 14-Inch MacBook Pro, iMac With M6,",
+    "url": "https://www.benzinga.com/m/26/10/62618447/apple-rolls-out-new-14-inch-macbook-pro-imac-m6",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Duplicate of routine MacBook/iMac refresh; negligible impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62617346",
+    "created_at": "2026-10-27T12:46:40Z",
+    "headline": "Tom Lee\u2019s Top 6 Reasons for \u2018Conviction About the AI Trade\u2019: \u2018I\u2019m Buying This AI Dip\u2019",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62617346/tom-lees-top-6-reasons-for-conviction-about-the-ai-trade-im-buying-this-ai-dip",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Bullish strategist view on AI dip; opinion, largely priced in"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Bullish strategist view on AI dip; opinion, largely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62610784",
+    "created_at": "2026-10-27T12:45:13Z",
+    "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 10 Futures Gain as Fed Begins Its Two-Day Meet\u2014 Novartis, HSBC, Welltower in Focus (UPDATED)",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62610784/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-fed-begins-its-two-day-meet-nvs-hsbc-well-in-focus",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Mixed futures ahead of Fed meeting; no clear direction"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Mixed futures ahead of Fed meeting; no clear direction"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62617245",
+    "created_at": "2026-10-27T12:44:14Z",
+    "headline": "This Midterm\u2019s Stock-Market Pattern Hasn\u2019t Failed Since 1950, and It Kicks Off This Week",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62617245/sp-500-midterm-stock-market-pattern-since-1950",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Historical midterm seasonality favors gains; well-known pattern"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62617232",
+    "created_at": "2026-10-27T12:43:43Z",
+    "headline": "Redbook Retail Sales Index For October 2026 Vs October 2025: 9.6% YoY",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Strong retail sales YoY; modest positive macro signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62617210",
+    "created_at": "2026-10-27T12:43:18Z",
+    "headline": "Redbook Retail Sales Index Up 9.3% YoY For Week Ended 10/24/26",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Strong weekly retail sales; modest positive macro signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62617136",
+    "created_at": "2026-10-27T12:41:16Z",
+    "headline": "Jim Cramer Says In Social Media Post 'If Jensen thinks that CoreWeave is money good he should buy up their their 15% debt'",
+    "url": "https://www.benzinga.com/news/26/10/62617136/jim-cramer-says-social-media-post-if-jensen-thinks-coreweave-money-good-he-should-buy-their-their-15",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Cramer questions CoreWeave debt; signals AI-financing credit concerns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62617121",
+    "created_at": "2026-10-27T12:41:00Z",
+    "headline": "PayPal Cuts Thousands of Jobs, Bets on AI and Lifts Profit Outlook",
+    "url": "https://www.benzinga.com/markets/earnings/26/10/62617121/paypal-cuts-thousands-of-jobs-bets-on-ai-and-lifts-profit-outlook",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62617099",
+    "created_at": "2026-10-27T12:40:42Z",
+    "headline": "ExxonMobil, Leidos, eBay and More: CNBC\u2019s \u2018Final Trades\u2019",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62617099/exxonmobil-leidos-ebay-and-more-cnbcs-final-trades",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.2,
+        "reason": "Traders picked Exxon; earnings upcoming but no concrete news yet"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62616554",
+    "created_at": "2026-10-27T12:30:53Z",
+    "headline": "USA Core Durable Goods Orders (MoM) For September 0.5% Vs 0.6% Est.; 0.3% Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Core durable goods slightly missed estimates"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62616530",
+    "created_at": "2026-10-27T12:30:42Z",
+    "headline": "Goods Orders Non Defense Ex Air For Sept. 0.5% Vs 0.7% Expected",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Non-defense capital goods orders missed expectations"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62616516",
+    "created_at": "2026-10-27T12:30:37Z",
+    "headline": "USA Durable Goods Orders (MoM) For Sept Revises Prior From 0.0% To 0.1%",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Prior durable goods revision, minimal market impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62616471",
+    "created_at": "2026-10-27T12:30:12Z",
+    "headline": "Durables Excluding Defense 2.2%",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Durables excluding defense figure, minimal directional signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62616469",
+    "created_at": "2026-10-27T12:30:09Z",
+    "headline": "USA Durable Goods Orders (MoM) For Sept 1.8% Vs. 2.0% Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Headline durable goods orders missed estimates"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62616100",
+    "created_at": "2026-10-27T12:17:54Z",
+    "headline": "ADP Employment Change Weekly 16.80K Vs 18.50K Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.1,
+        "reason": "Weekly ADP employment figure weaker than prior"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62615898",
+    "created_at": "2026-10-27T12:11:35Z",
+    "headline": "Amkor Technology Stock Is Gaining Tuesday: What's Going On?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62615898/amkor-technology-stock-is-gaining-tuesday-whats-going-on",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.1,
+        "reason": "Amkor gains on computing revenue; indirect sector sympathy"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104774766",
+    "created_at": "2026-10-27T12:01:46Z",
+    "headline": "New Street Research Adjusts Meta Platforms Price Target",
+    "url": "https://www.marketscreener.com/news/new-street-adjusts-price-target-on-meta-platforms-to-775-from-700-ce785cddd88ef720",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.4,
+        "confidence": 0.4,
+        "reason": "Analyst raises Meta price target to $775 from $700"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104774751",
+    "created_at": "2026-10-27T12:01:26Z",
+    "headline": "MT Newswires Integrates Real-Time Financial News into Microsoft Copilot",
+    "url": "https://www.globenewswire.com/news-release/2026/10/27/3388818/0/en/global-financial-news-from-mt-newswires-now-live-in-microsoft-copilot.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "104760310",
+    "created_at": "2026-10-27T11:32:05Z",
+    "headline": "Goldman Sachs Adjusts Price Target on Apple",
+    "url": "https://www.marketscreener.com/news/apple-iphone-18-pro-sales-rise-3-1-in-mixed-start-counterpoint-says-ce785cddd88ef624",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.35,
+        "confidence": 0.4,
+        "reason": "Goldman raises Apple price target to $390 from $360"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62613780",
+    "created_at": "2026-10-27T11:10:14Z",
+    "headline": "Alphabet Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62613780/alphabet-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Earnings preview with mostly bullish analyst revisions; largely expected"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62612678",
+    "created_at": "2026-10-27T10:40:26Z",
+    "headline": "NVIDIA Commits $3 Billion to Meta, Expands Muse Partnership",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62612678/nvidia-commits-3-billion-to-meta-expands-muse-partnership",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Expanded Meta AI partnership and $3B investment supports AI demand"
+      },
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "NVIDIA partnership and $3B investment support Meta AI infrastructure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104738270",
+    "created_at": "2026-10-27T10:31:35Z",
+    "headline": "NVIDIA and Meta Expand AI Partnership and Announce $3 Billion Investment",
+    "url": "https://www.tmcnet.com/usubmit/-nvidia-meta-expand-collaboration-muse-muse-family-models-/2026/10/27/10469964.htm",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Duplicate report of NVIDIA-Meta partnership and $3B investment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104738267",
+    "created_at": "2026-10-27T10:31:31Z",
+    "headline": "JPMorgan Asset Management Targets $600 Billion in Asia-Pacific Assets by 2030",
+    "url": "https://www.morningstar.com/news/dow-jones/202610271671/jpmorgan-asset-management-on-fast-track-toward-doubling-asia-assets-to-600-billion",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Asset management growth target; long-term, minimal near-term impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104738266",
+    "created_at": "2026-10-27T10:31:31Z",
+    "headline": "JPMorgan Chase Discloses Increased Holding in Yellow Cake PLC",
+    "url": "https://www.investegate.co.uk/announcement/rns/yellow-cake--yca/tr-1-notification-of-major-holdings/9842357",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "104738263",
+    "created_at": "2026-10-27T10:31:27Z",
+    "headline": "Apple Initiates Replacement Program for iPhone Duo Units with Display Issues",
+    "url": "https://www.marketscreener.com/news/apple-to-replace-iphone-duo-units-with-display-issues-ce785cddd88afe2c",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Replacement program for display defects signals product quality and cost risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104738262",
+    "created_at": "2026-10-27T10:31:26Z",
+    "headline": "Meta Prices Upsized $25 Billion Common Stock Offering and Depositary Shares",
+    "url": "https://investingnews.com/meta-announces-pricing-of-offering-of-depositary-shares-representing-series-a-mandatory-convertible-preferred-stock-and-offering-of-class-a-common-stock-in-connection-with-forward-sale-agreements/",
+    "source": "fiscal.ai",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.35,
+        "confidence": 0.5,
+        "reason": "Upsized $25B stock offering creates dilution and near-term selling pressure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62612074",
+    "created_at": "2026-10-27T10:20:18Z",
+    "headline": "Microsoft Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62612074/microsoft-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-4",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Earnings preview with bullish analyst ratings; largely expected"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62611819",
+    "created_at": "2026-10-27T10:11:05Z",
+    "headline": "China\u2019s AI Stock Rout Scary, but Crypto Punters Aren\u2019t Calling a US Bubble Burst Yet",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62611819/ai-bubble-burst-polymarket-prediction-market-china-selloff",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.25,
+        "confidence": 0.4,
+        "reason": "China AI stock rout raises sector sentiment risk, though no US crash signaled"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62611704",
+    "created_at": "2026-10-27T10:07:52Z",
+    "headline": "Anthropic Could Defy the AI Spending Curse: Analysts See Early Profit Signs and Massive Cash Cushion",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62611704/anthropic-could-defy-the-ai-spending-curse-analysts-see-early-profit-signs-and-massive-cash-cushion",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.2,
+        "confidence": 0.35,
+        "reason": "Anthropic IPO strength benefits Amazon as an Anthropic investor"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.2,
+        "confidence": 0.35,
+        "reason": "Anthropic IPO strength benefits Alphabet as an Anthropic investor"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Anthropic's enterprise growth may benefit Microsoft's AI ecosystem"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62611123",
+    "created_at": "2026-10-27T10:00:17Z",
+    "headline": "Bill Gates Says 'None of the Things That Human Labor Provides Will Be Necessary' \u2014 Robots Will Build Houses, Grow Food, Do Surgery If We Don't Slow Down",
+    "url": "https://www.benzinga.com/news/gaming/26/10/62611123/bill-gates-says-none-of-the-things-that-human-labor-provides-will-be-necessary-robots-will-build-houses-grow-food-do-surgery-if-we-dont-slow-down",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62610933",
+    "created_at": "2026-10-27T09:45:11Z",
+    "headline": "'I No Longer Believe That': Satya Nadella Says He Was Wrong About AI Alignment \u2014 Microsoft CEO Warns Keeping Future AI Systems Safe May Be a \u2018Harder, Different Problem\u2019",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62610933/i-no-longer-believe-that-satya-nadella-says-he-was-wrong-about-ai-alignment-microsoft-ceo-warns-keeping-future-ai-systems-safe-may-be-a-harder-different-problem",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "CEO AI safety caution is generic commentary with minimal price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62610699",
+    "created_at": "2026-10-27T09:21:37Z",
+    "headline": "Dan Ives Says Anthropic Could Eventually Be Worth $3 Trillion Despite Its $80.7 Billion Loss \u2014 Insists AI Revolution Is Only in Its \u2018Third Inning\u2019",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62610699/dan-ives-says-anthropic-could-eventually-be-worth-3-trillion-despite-its-80-7-billion-loss-insists-ai-revolution-is-only-in-its-third-inning",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62610448",
+    "created_at": "2026-10-27T08:57:52Z",
+    "headline": "US 'Flashing the Same Warning Signs,' Wall Street Commentator Warns as China\u2019s AI Stock Crash Wipes Out $480 Billion in Under Four Months",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62610448/china-ai-crash-raises-bubble-fears-us-stocks-warning-signs",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "China AI selloff and bubble warnings could spill over to Nasdaq tech"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Bubble-sign warnings raise broad market downside risk"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "AI stock crash fears may weigh on AI-exposed megacaps"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62610386",
+    "created_at": "2026-10-27T08:44:54Z",
+    "headline": "'We're Trading Them Like Baseball Cards': Mark Cuban Warns \u2018Everything\u2019s a Meme Stock\u2019 as AAPL, GOOGL and MU Fuel Market Bubble Fears",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62610386/mark-cuban-warns-everything-meme-stock-aapl-googl-mu-ai-bubble-baseball-cards",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.1,
+        "confidence": 0.25,
+        "reason": "Meme-stock bubble warning is generic sentiment, not fundamental"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.25,
+        "reason": "Meme-stock bubble warning is generic sentiment, not fundamental"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Bubble commentary is generic, limited direct impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62610077",
+    "created_at": "2026-10-27T08:03:30Z",
+    "headline": "Elizabeth Warren Sees 2008-Style Warning Signs in AI Boom \u2014 \u2018Trump\u2019s Regulators Are Choosing to Look the Other Way\u2019",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62610077/elizabeth-warren-warns-ai-bubble",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Political crisis warning about AI debt, largely unactionable"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Political crisis warning about AI debt, largely unactionable"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Political crisis warning about AI debt, largely unactionable"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Political crisis warning about AI debt, largely unactionable"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62610060",
+    "created_at": "2026-10-27T08:01:22Z",
+    "headline": "\u2018Where Are The Cybercabs?\u2019 Tesla Investor Ross Gerber Takes Aim at Elon Musk as Amazon\u2019s Zoox Eyes Expansion With Santa Monica Deal for 150 Robotaxis",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62610060/where-are-the-cybercabs-tesla-ross-gerber-takes-aim-elon-musk-amazon-zoox-deal",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Zoox robotaxi deal expands Amazon autonomous-vehicle footprint"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62609946",
+    "created_at": "2026-10-27T07:48:01Z",
+    "headline": "Anthropic\u2019s IPO Filing Reveals Over $500 Billion AI Compute Spending Across AMZN, GOOGL, MSFT, AVGO and SPCX: Top Analyst Says It Has \u2018Barely Started\u2019",
+    "url": "https://www.benzinga.com/markets/ipos/26/10/62609946/anthropics-ipo-filing-reveals-over-500-billion-ai-compute-spending-across-amzn-googl-msft-avgo-and-spcx-top-analyst-says-it-has-barely-started",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.4,
+        "confidence": 0.45,
+        "reason": "Anthropic compute commitments boost AWS cloud revenue outlook"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.4,
+        "confidence": 0.45,
+        "reason": "Anthropic compute commitments boost Google Cloud revenue outlook"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Anthropic compute spending benefits Azure cloud demand"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Large AI compute spending supports accelerator demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62609196",
+    "created_at": "2026-10-27T06:04:37Z",
+    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62609196/stock-market-will-sp-500-open-up-or-down-today-66",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Futures point higher with 67% odds of up open"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Futures point higher with 67% odds of up open"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62609122",
+    "created_at": "2026-10-27T05:59:41Z",
+    "headline": "Trump's Oil Holdings Could Top $81 Million, New Report Says \u2014 Gavin Newsom Says President Swore \u2018Oath\u2019 to Big Oil",
+    "url": "https://www.benzinga.com/news/politics/26/10/62609122/trumps-oil-investments-top-81-million-new-report-says-gavin-newsom-warns-president-swore-oath-to-big-oil-stocks-have-gone-up-43",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62609103",
+    "created_at": "2026-10-27T05:56:31Z",
+    "headline": "NVIDIA And Meta To Expand Muse Model Collaboration On Inference And Training Performance; NVIDIA To Invest $3B In Meta\u2019s Equity Offering",
+    "url": "https://www.benzinga.com/news/26/10/62609103/nvidia-and-meta-expand-muse-model-collaboration-inference-and-training-performance-nvidia-invest-3b-",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "$3B investment in Meta and expanded inference collaboration"
+      },
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Partnership on training performance offset by equity dilution"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62608952",
+    "created_at": "2026-10-27T05:19:35Z",
+    "headline": "Meta Prices 250M Depositary Shares At $50 Of 6.50% Series A Mandatory Convertible Preferred And 40M Class A Shares At $625 Under Forward Sale Agreements; Common Offering Upsized To $25B From $22.5B",
+    "url": "https://www.benzinga.com/news/26/10/62608952/meta-prices-250m-depositary-shares-50-6-50-series-mandatory-convertible-preferred-and-40m-class-shar",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.4,
+        "confidence": 0.6,
+        "reason": "Upsized $25B common offering and convertibles dilute shareholders"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62608801",
+    "created_at": "2026-10-27T04:12:27Z",
+    "headline": "\u2018Aware of an Issue\u2019: Apple Offers Replacements for iPhone Duo Display Defects After Users Report Cracks Near Hinge",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62608801/apple-iphone-duo-display-defects-hinge-cracks-replacements",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "iPhone Duo display defects and replacement program hurt product confidence"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62608535",
+    "created_at": "2026-10-27T02:13:00Z",
+    "headline": "Chuck Schumer Says Americans Paid \u2018Billions More for Gas\u2019 as Trump Profited From Oil Stocks; White House Insists Low Prices Are \u2018Priority\u2019",
+    "url": "https://www.benzinga.com/markets/economic-data/26/10/62608535/schumer-trump-oil-stocks-gas-prices-obscene-hold-trump-accountable",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "104684298",
+    "created_at": "2026-10-27T02:01:34Z",
+    "headline": "Narmi Expands Model Context Protocol Capabilities to Microsoft 365 Copilot",
+    "url": "https://www.newscom.com/accesswire?p_p_id=listenersearchresults_WAR_searchportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=2&_listenersearchresults_WAR_searchportlet_pageNumber=1&_listenersearchresults_WAR_searchportlet_photoSets=true&_listenersearchresults_WAR_searchportlet_excludeRestricted=true&_listenersearchresults_WAR_searchportlet_struts.portlet.action=%2Fview%2FshowDetail&_listenersearchresults_WAR_searchportlet_tagId=awire236975",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Third-party MCP integration into Copilot is a minor ecosystem positive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104684290",
+    "created_at": "2026-10-27T02:01:21Z",
+    "headline": "Amazon Business Expands Business Prime Benefits for SMBs",
+    "url": "https://procurementmag.com/news/amazon-business-leaders-on-ai-esg-and-smarter-buying",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Routine SMB partner program expansion with negligible near-term impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "104684289",
+    "created_at": "2026-10-27T02:01:18Z",
+    "headline": "Reports of Potential NVIDIA Interest in Ambarella Acquisition",
+    "url": "https://www.barchart.com/story/news/8459384/nvidia-just-gave-a-huge-catalyst-to-this-ai-stock-how-to-play-amba-stock-here",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Unconfirmed acquisition report; target is not on the watchlist"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62608353",
+    "created_at": "2026-10-27T01:09:11Z",
+    "headline": "Tesla, Celestica, Nu Holdings, XP Inc. and Microsoft: Why These 5 Stocks Are on Investors' Radars Today",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62608353/tesla-celestica-nu-holdings-xp-inc-and-microsoft-why-these-5-stocks-are-on-investors-radars-today",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
