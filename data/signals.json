@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T15:35:18.609377+00:00",
-  "market_risk": 0.092,
+  "generated_at": "2026-10-27T16:35:16.936039+00:00",
+  "market_risk": 0.095,
   "tickers": {
     "SPY": {
       "score": 0.052,
@@ -129,9 +129,9 @@
       ]
     },
     "MSFT": {
-      "score": 0.202,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.222,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "Microsoft Q1 Preview: AI, Cloud Key As Company Eyes 15th Straight Double Beat",
@@ -171,10 +171,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.088,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.02,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "Nvidia, Oracle Intend To Expand Oracle Cloud Infrastructure Superclusters With Nvidia Vera Rubin NVL72 Systems",
+          "url": "https://www.benzinga.com/news/26/10/62626698/nvidia-oracle-intend-expand-oracle-cloud-infrastructure-superclusters-nvidia-vera-rubin-nvl72-system",
+          "time": "2026-10-27T16:02:47Z",
+          "sentiment": 0.3,
+          "reason": "Expanded Vera Rubin NVL72 superclusters signal continued strong data center demand"
+        },
         {
           "headline": "Nvidia's Credit Risk Has Tripled This Year \u2014 and Just Passed Meta's",
           "url": "https://www.benzinga.com/markets/bonds/26/10/62623350/nvidia-credit-risk-cds-tripled-passes-meta-coreweave",
@@ -202,20 +209,13 @@
           "time": "2026-10-27T10:31:35Z",
           "sentiment": 0.15,
           "reason": "Duplicate report of NVIDIA-Meta partnership and $3B investment"
-        },
-        {
-          "headline": "China\u2019s AI Stock Rout Scary, but Crypto Punters Aren\u2019t Calling a US Bubble Burst Yet",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62611819/ai-bubble-burst-polymarket-prediction-market-china-selloff",
-          "time": "2026-10-27T10:11:05Z",
-          "sentiment": -0.25,
-          "reason": "China AI stock rout raises sector sentiment risk, though no US crash signaled"
         }
       ]
     },
     "AMZN": {
-      "score": 0.258,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.244,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "Anthropic Could Defy the AI Spending Curse: Analysts See Early Profit Signs and Massive Cash Cushion",
@@ -255,10 +255,24 @@
       ]
     },
     "GOOGL": {
-      "score": 0.204,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.226,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Google DeepMind Announces Genie 4: A New World Model, Which Unlocks Unprecedented Realism And Improves Real-Time Interactive Simulation",
+          "url": "https://www.benzinga.com/news/26/10/62627380/google-deepmind-announces-genie-4-new-world-model-which-unlocks-unprecedented-realism-and-improves-r",
+          "time": "2026-10-27T16:16:10Z",
+          "sentiment": 0.3,
+          "reason": "Major DeepMind world-model advance could boost AI sentiment and investor interest"
+        },
+        {
+          "headline": "Oracle And Google Partner To Bring Google TPUs To Oracle Cloud Infrastructure",
+          "url": "https://www.benzinga.com/news/26/10/62627151/oracle-and-google-partner-bring-google-tpus-oracle-cloud-infrastructure",
+          "time": "2026-10-27T16:10:05Z",
+          "sentiment": 0.2,
+          "reason": "TPU availability on Oracle Cloud widens Google's cloud and chip reach"
+        },
         {
           "headline": "Alphabet Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
           "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62613780/alphabet-likely-to-report-higher-q3-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
@@ -279,27 +293,13 @@
           "time": "2026-10-27T07:48:01Z",
           "sentiment": 0.4,
           "reason": "Anthropic compute commitments boost Google Cloud revenue outlook"
-        },
-        {
-          "headline": "Bank Of America, Blackstone, Citi, Morgan Stanley Announce $63B Transaction For Deployment Of AI Compute Through Broadcom's Technology For Anthropic",
-          "url": "https://www.benzinga.com/news/26/10/62605221/bank-america-blackstone-citi-morgan-stanley-announce-63b-transaction-deployment-ai-compute-through-b",
-          "time": "2026-10-26T20:26:29Z",
-          "sentiment": 0.15,
-          "reason": "Large AI compute financing supports Anthropic, a Google partner"
-        },
-        {
-          "headline": "CoreWeave Debt Fears Hit a Record \u2014 Some Are Whispering 'Lehman'",
-          "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
-          "time": "2026-10-26T19:58:10Z",
-          "sentiment": -0.15,
-          "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
         }
       ]
     },
     "META": {
-      "score": -0.059,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.056,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "'Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace' - TechCrunch",
