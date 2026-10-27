@@ -1,55 +1,57 @@
 {
-  "last_run": "2026-10-27T19:35:28.112682+00:00",
+  "last_run": "2026-10-27T22:56:46.128548+00:00",
   "paper": true,
-  "market_open": true,
+  "market_open": false,
   "next_open": "2026-10-28T09:30:00-04:00",
-  "equity": 100205.48,
+  "equity": 100122.59,
   "cash": 59995.62,
-  "day_pnl": 87.25,
-  "day_pnl_pct": 0.00087,
+  "day_pnl": 4.36,
+  "day_pnl_pct": 4e-05,
   "starting_equity": 100000.0,
-  "total_pnl": 205.48,
-  "total_pnl_pct": 0.00205,
-  "halts": [],
+  "total_pnl": 122.59,
+  "total_pnl_pct": 0.00123,
+  "halts": [
+    "Market closed"
+  ],
   "last_actions": [],
-  "market_risk": 0.091,
-  "signals_at": "2026-10-27T19:35:17.404433+00:00",
+  "market_risk": 0.084,
+  "signals_at": "2026-10-27T22:56:34.783844+00:00",
   "positions": [
     {
       "symbol": "AAPL",
       "qty": 29.032810229,
       "avg_entry": 344.224342,
-      "price": 347.535,
-      "value": 10089.917703,
-      "pl": 96.117706,
-      "pl_pct": 0.00962
+      "price": 347.1269,
+      "value": 10078.069413,
+      "pl": 84.269416,
+      "pl_pct": 0.00843
     },
     {
       "symbol": "AMZN",
       "qty": 40.197155369,
       "avg_entry": 248.89,
-      "price": 254.4796,
-      "value": 10229.356019,
-      "pl": 224.686019,
-      "pl_pct": 0.02246
+      "price": 253.5,
+      "value": 10189.978886,
+      "pl": 185.308886,
+      "pl_pct": 0.01852
     },
     {
       "symbol": "MSFT",
       "qty": 18.901462198,
       "avg_entry": 529.371744,
-      "price": 532.47,
-      "value": 10064.461577,
-      "pl": 58.561569,
-      "pl_pct": 0.00585
+      "price": 532.9,
+      "value": 10072.589205,
+      "pl": 66.689197,
+      "pl_pct": 0.00666
     },
     {
       "symbol": "XOM",
       "qty": 54.504769172,
       "avg_entry": 183.47,
-      "price": 180.28,
-      "value": 9826.119786,
-      "pl": -173.870214,
-      "pl_pct": -0.01739
+      "price": 179.55,
+      "value": 9786.331305,
+      "pl": -213.658695,
+      "pl_pct": -0.02137
     }
   ]
 }

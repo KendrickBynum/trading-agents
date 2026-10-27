@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-10-27T19:35:17.404433+00:00",
-  "market_risk": 0.091,
+  "generated_at": "2026-10-27T22:56:34.783844+00:00",
+  "market_risk": 0.084,
   "tickers": {
     "SPY": {
-      "score": 0.046,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.077,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "S&P 500 Rose 14% In A Year And Got Cheaper",
+          "url": "https://www.benzinga.com/opinion/26/10/62636823/sp500-rose-14-percent-in-a-year-and-got-cheaper",
+          "time": "2026-10-27T20:12:04Z",
+          "sentiment": 0.15,
+          "reason": "S&P earnings growth lowered valuation; largely backward-looking"
+        },
         {
           "headline": "USA CB Consumer Confidence For October\u00a091.7 Vs 81.2 Est.",
           "url": "https://www.benzinga.com/quote/SPY",
@@ -34,13 +41,6 @@
           "time": "2026-10-27T12:44:14Z",
           "sentiment": 0.2,
           "reason": "Historical midterm seasonality favors gains; well-known pattern"
-        },
-        {
-          "headline": "US 'Flashing the Same Warning Signs,' Wall Street Commentator Warns as China\u2019s AI Stock Crash Wipes Out $480 Billion in Under Four Months",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62610448/china-ai-crash-raises-bubble-fears-us-stocks-warning-signs",
-          "time": "2026-10-27T08:57:52Z",
-          "sentiment": -0.2,
-          "reason": "Bubble-sign warnings raise broad market downside risk"
         }
       ]
     },
@@ -122,9 +122,9 @@
       ]
     },
     "MSFT": {
-      "score": 0.198,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.21,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
@@ -153,18 +153,11 @@
           "time": "2026-10-27T07:48:01Z",
           "sentiment": 0.3,
           "reason": "Anthropic compute spending benefits Azure cloud demand"
-        },
-        {
-          "headline": "Microsoft Announces Voluntary Buyout Program for 60,000 Employees",
-          "url": "https://www.barchart.com/story/news/8459083/microsoft-offers-a-quarter-of-its-global-workforce-voluntary-buyouts-as-ai-spending-accelerates",
-          "time": "2026-10-26T20:31:25Z",
-          "sentiment": 0.3,
-          "reason": "Large buyout signals cost discipline and AI-focused restructuring"
         }
       ]
     },
     "NVDA": {
-      "score": 0.208,
+      "score": 0.19,
       "articles": 16,
       "ai_articles": 16,
       "headlines": [
@@ -183,6 +176,13 @@
           "reason": "Anthropic filing signals large compute demand for chipmakers"
         },
         {
+          "headline": "AI's Biggest Constraint Could Be Capital Availability\u2014Anthropic, Meta And SpaceX Put Markets To The Test",
+          "url": "https://www.benzinga.com/opinion/26/10/62632804/ai-biggest-constraint-could-be-capital-availability-anthropic-meta-and-spacex-put-markets-to-the-test",
+          "time": "2026-10-27T18:42:47Z",
+          "sentiment": -0.2,
+          "reason": "AI capital financing strain could pressure AI-linked demand narrative"
+        },
+        {
           "headline": "NVIDIA Vera Rubin NVL72 and Vera CPUs Generally Available on Oracle Cloud Infrastructure",
           "url": "https://www.globenewswire.com/news-release/2026/10/27/3389428/0/en/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure.html",
           "time": "2026-10-27T18:01:23Z",
@@ -195,20 +195,13 @@
           "time": "2026-10-27T17:06:04Z",
           "sentiment": 0.25,
           "reason": "$3B Meta investment deepens NVIDIA AI partnership"
-        },
-        {
-          "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62629254/stock-market-today-nasdaq-100-chip-rally-meta-boeing-737-delay",
-          "time": "2026-10-27T17:01:35Z",
-          "sentiment": 0.3,
-          "reason": "Chip rally lifts Nvidia alongside AMD"
         }
       ]
     },
     "AMZN": {
-      "score": 0.231,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.243,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "Anthropic\u2019s IPO Filing Reads Like a $570 Billion Order Book for Chipmakers",
@@ -248,9 +241,9 @@
       ]
     },
     "GOOGL": {
-      "score": 0.241,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.251,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "Anthropic\u2019s IPO Filing Reads Like a $570 Billion Order Book for Chipmakers",
@@ -290,7 +283,7 @@
       ]
     },
     "META": {
-      "score": -0.017,
+      "score": -0.034,
       "articles": 11,
       "ai_articles": 11,
       "headlines": [
@@ -300,6 +293,13 @@
           "time": "2026-10-27T19:01:26Z",
           "sentiment": 0.2,
           "reason": "AI infrastructure partnerships, offset by equity offering dilution"
+        },
+        {
+          "headline": "AI's Biggest Constraint Could Be Capital Availability\u2014Anthropic, Meta And SpaceX Put Markets To The Test",
+          "url": "https://www.benzinga.com/opinion/26/10/62632804/ai-biggest-constraint-could-be-capital-availability-anthropic-meta-and-spacex-put-markets-to-the-test",
+          "time": "2026-10-27T18:42:47Z",
+          "sentiment": -0.2,
+          "reason": "Meta financing needs tested by markets; capital availability concern"
         },
         {
           "headline": "What Is Going On With Meta Stock on Tuesday?",
@@ -321,13 +321,6 @@
           "time": "2026-10-27T15:23:11Z",
           "sentiment": -0.15,
           "reason": "Senior AI director departure to rival Microsoft/Google; modest talent-loss concern"
-        },
-        {
-          "headline": "'Zuckerberg Stock Deal, Meta Restructuring Challenged in Court' - Bloomberg Law",
-          "url": "https://www.benzinga.com/news/26/10/62622392/zuckerberg-stock-deal-meta-restructuring-challenged-court-bloomberg-law",
-          "time": "2026-10-27T14:26:48Z",
-          "sentiment": -0.2,
-          "reason": "Court challenge to Zuckerberg stock deal adds governance and legal uncertainty"
         }
       ]
     },
@@ -338,10 +331,17 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.181,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.003,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Refiner Stocks Suffer Worst Day Since the Tariff Shock: The Threat Is Not Cheaper Oil",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62634697/refiner-stocks-valero-marathon-worst-day-since-april-2025-iran-russian-diesel",
+          "time": "2026-10-27T19:38:46Z",
+          "sentiment": -0.3,
+          "reason": "Refiner selloff and crack-spread pressure weigh on integrated oil"
+        },
         {
           "headline": "'Trump To Announce Relaxed Rules On Oil Firms\u2019 Methane Leaks; Oil Executives, Including Some Top Trump Donors, Have Worked To Roll Back Rules They Say Are Overly Costly' - Washington Post",
           "url": "https://www.benzinga.com/news/26/10/62633930/trump-to-announce-relaxed-rules-on-oil-firms-methane-leaks-oil-executives-including-some-top-trump-donors-have-worked-to-roll-back-rules-they-say-are-overly-costly-washington-post",

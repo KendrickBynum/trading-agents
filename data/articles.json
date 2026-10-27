@@ -68,150 +68,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62607697",
-    "created_at": "2026-10-26T22:42:28Z",
-    "headline": "Trump Approval Hits Record Lows, 75% Say Economy \u2018Not So Good\u2019 or \u2018Poor\u2019",
-    "url": "https://www.benzinga.com/news/politics/26/10/62607697/trump-approval-hits-record-lows-75-say-economy-not-so-good-or-poor",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Weak economic sentiment and political instability may weigh on markets"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "104391949",
-    "created_at": "2026-10-26T20:31:25Z",
-    "headline": "Microsoft Announces Voluntary Buyout Program for 60,000 Employees",
-    "url": "https://www.barchart.com/story/news/8459083/microsoft-offers-a-quarter-of-its-global-workforce-voluntary-buyouts-as-ai-spending-accelerates",
-    "source": "fiscal.ai",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.3,
-        "confidence": 0.45,
-        "reason": "Large buyout signals cost discipline and AI-focused restructuring"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62605221",
-    "created_at": "2026-10-26T20:26:29Z",
-    "headline": "Bank Of America, Blackstone, Citi, Morgan Stanley Announce $63B Transaction For Deployment Of AI Compute Through Broadcom's Technology For Anthropic",
-    "url": "https://www.benzinga.com/news/26/10/62605221/bank-america-blackstone-citi-morgan-stanley-announce-63b-transaction-deployment-ai-compute-through-b",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Large AI compute financing supports Anthropic, an Amazon partner"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Large AI compute financing supports Anthropic, a Google partner"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62603452",
-    "created_at": "2026-10-26T19:58:10Z",
-    "headline": "CoreWeave Debt Fears Hit a Record \u2014 Some Are Whispering 'Lehman'",
-    "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
-    "source": "benzinga",
-    "market_risk": 0.45,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.4,
-        "reason": "Neocloud debt stress threatens AI infrastructure demand for GPUs"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "CoreWeave credit stress raises AI capex and counterparty concerns"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "Neocloud credit stress creates broader AI sector sentiment risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62603174",
-    "created_at": "2026-10-26T19:49:35Z",
-    "headline": "If This Sector Breaks, \u2018So Does the Market\u2019: Jay Woods Says This Chart is 'Most Important in the World'",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62603174/if-this-sector-breaks-so-does-the-market-jay-woods-says-this-chart-is-most-important-in-the-world",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Opinion piece on semiconductor sector, no new fundamental information"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.15,
-        "reason": "Commentary warning of semiconductor-driven market risk, not new data"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62602974",
-    "created_at": "2026-10-26T19:42:14Z",
-    "headline": "Iranian State TV Reports Iran Is Open To A Shorter U.S. Proposal Timeline If Conditions Are Met",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62602974/iranian-state-tv-reports-iran-open-shorter-u-s-proposal-timeline-if-conditions-are-met",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Possible US-Iran diplomatic progress reduces geopolitical tension"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": -0.1,
-        "confidence": 0.25,
-        "reason": "Easing Iran tensions could reduce oil risk premium"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62619405",
     "created_at": "2026-10-27T13:32:21Z",
     "headline": "Michael Burry: Today's Market Mirrors the Eve of the Dot-Com Crash",
@@ -2243,6 +2099,226 @@
         "sentiment": 0.15,
         "confidence": 0.3,
         "reason": "FCC approval clears Amazon Leo's Globalstar acquisition"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62641590",
+    "created_at": "2026-10-27T22:15:18Z",
+    "headline": "$1000 Invested In Meta Platforms 10 Years Ago Would Be Worth This Much Today",
+    "url": "https://www.benzinga.com/news/26/10/62641590/1000-invested-meta-platforms-10-years-ago-would-be-worth-much-today",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62641316",
+    "created_at": "2026-10-27T21:57:13Z",
+    "headline": "Jim Cramer Dares Nvidia's Jensen Huang to Buy CoreWeave\u2019s 15% Debt",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62641316/jim-cramer-dares-nvidias-jensen-huang-to-buy-coreweaves-15-debt",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Cramer commentary on CoreWeave debt and rising yields; speculative"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105482274",
+    "created_at": "2026-10-27T21:31:28Z",
+    "headline": "JPMorgan Chase Updates 2027 Earnings Release Schedule",
+    "url": "https://www.businesswire.com/newsroom/industry/professional-services/banking",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62639206",
+    "created_at": "2026-10-27T20:49:18Z",
+    "headline": "API Crude Oil Stock 2.031M Barrel Draw Vs 0.800M Barrel Build Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Crude draw is minor market-wide relevance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62639109",
+    "created_at": "2026-10-27T20:46:09Z",
+    "headline": "Anthropic Acquires Mithril Medicine; Financial Terms Not Disclosed",
+    "url": "https://www.benzinga.com/m/26/10/62639109/anthropic-acquires-mithril-medicine-financial-terms-not-disclosed",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Anthropic acquisition terms undisclosed; indirect, small effect"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Anthropic acquisition terms undisclosed; indirect, small effect"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62639077",
+    "created_at": "2026-10-27T20:44:52Z",
+    "headline": "Anthropic Announces Plan To Continue Extending Claude\u2019s Role Into Clinical Trials As Drug Programs Advance",
+    "url": "https://www.benzinga.com/news/26/10/62639077/anthropic-announces-plan-continue-extending-claude-s-role-clinical-trials-drug-programs-advance",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Claude clinical trial expansion; indirect partner exposure"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Claude clinical trial expansion; indirect partner exposure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62638705",
+    "created_at": "2026-10-27T20:37:34Z",
+    "headline": "Dayforce Expands Collaboration With Microsoft Across HR, Finance, Operations; Dayforce Build And Dayforce Marketplace To Be Be Available Next Year",
+    "url": "https://www.benzinga.com/news/26/10/62638705/dayforce-expands-collaboration-microsoft-across-hr-finance-operations-dayforce-build-and-dayforce-ma",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Expanded Dayforce partnership; incremental, not material"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62636904",
+    "created_at": "2026-10-27T20:13:26Z",
+    "headline": "Mark Cuban Warns of AI Debt Bubble Despite Optimism: 'I\u2019m Not a Naysayer'",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62636904/mark-cuban-ai-debt-bubble-optimism-not-a-naysayer",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Cuban warns of AI debt bubble; opinion, not company-specific"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Cuban warns of AI debt bubble; opinion, not company-specific"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62636823",
+    "created_at": "2026-10-27T20:12:04Z",
+    "headline": "S&P 500 Rose 14% In A Year And Got Cheaper",
+    "url": "https://www.benzinga.com/opinion/26/10/62636823/sp500-rose-14-percent-in-a-year-and-got-cheaper",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "S&P earnings growth lowered valuation; largely backward-looking"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62632804",
+    "created_at": "2026-10-27T18:42:47Z",
+    "headline": "AI's Biggest Constraint Could Be Capital Availability\u2014Anthropic, Meta And SpaceX Put Markets To The Test",
+    "url": "https://www.benzinga.com/opinion/26/10/62632804/ai-biggest-constraint-could-be-capital-availability-anthropic-meta-and-spacex-put-markets-to-the-test",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "AI capital financing strain could pressure AI-linked demand narrative"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Meta financing needs tested by markets; capital availability concern"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "AI capex financing concerns weigh on mega-cap tech"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62634738",
+    "created_at": "2026-10-27T19:40:12Z",
+    "headline": "Google Rolls Out Gemini Robotics Embodied Reasoning 2 For Public Review On Gemini Platform",
+    "url": "https://www.benzinga.com/news/26/10/62634738/google-rolls-out-gemini-robotics-embodied-reasoning-2-public-review-gemini-platform",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Gemini robotics preview; early-stage product news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62634697",
+    "created_at": "2026-10-27T19:38:46Z",
+    "headline": "Refiner Stocks Suffer Worst Day Since the Tariff Shock: The Threat Is Not Cheaper Oil",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62634697/refiner-stocks-valero-marathon-worst-day-since-april-2025-iran-russian-diesel",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Refiner selloff and crack-spread pressure weigh on integrated oil"
       }
     ],
     "scorer": "claude"
