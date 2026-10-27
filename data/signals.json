@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-10-27T13:35:20.556063+00:00",
-  "market_risk": 0.106,
+  "generated_at": "2026-10-27T14:35:21.687205+00:00",
+  "market_risk": 0.101,
   "tickers": {
     "SPY": {
-      "score": 0.016,
+      "score": 0.052,
       "articles": 9,
       "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "USA CB Consumer Confidence For October\u00a091.7 Vs 81.2 Est.",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-10-27T14:00:08Z",
+          "sentiment": 0.2,
+          "reason": "Consumer confidence well above estimates, supportive for consumer demand"
+        },
         {
           "headline": "Michael Burry: Today's Market Mirrors the Eve of the Dot-Com Crash",
           "url": "https://www.benzinga.com/markets/equities/26/10/62619405/michael-burry-todays-market-mirrors-the-eve-of-the-dot-com-crash",
@@ -34,13 +41,6 @@
           "time": "2026-10-27T08:57:52Z",
           "sentiment": -0.2,
           "reason": "Bubble-sign warnings raise broad market downside risk"
-        },
-        {
-          "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62609196/stock-market-will-sp-500-open-up-or-down-today-66",
-          "time": "2026-10-27T06:04:37Z",
-          "sentiment": 0.2,
-          "reason": "Futures point higher with 67% odds of up open"
         }
       ]
     },
@@ -297,10 +297,17 @@
       ]
     },
     "META": {
-      "score": -0.027,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.052,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "'Zuckerberg Stock Deal, Meta Restructuring Challenged in Court' - Bloomberg Law",
+          "url": "https://www.benzinga.com/news/26/10/62622392/zuckerberg-stock-deal-meta-restructuring-challenged-court-bloomberg-law",
+          "time": "2026-10-27T14:26:48Z",
+          "sentiment": -0.2,
+          "reason": "Court challenge to Zuckerberg stock deal adds governance and legal uncertainty"
+        },
         {
           "headline": "AMD Expands Strategic Partnership With Meta To Deploy Its Helios Rackscale Solutions, EPYC Processors And Technologies Providing Day-0 Support For Meta Models; AMD To Invest $1B In The META Equity Offering",
           "url": "https://www.benzinga.com/news/26/10/62619038/amd-expands-strategic-partnership-meta-deploy-its-helios-rackscale-solutions-epyc-processors-and-tec",
@@ -328,13 +335,6 @@
           "time": "2026-10-27T08:57:52Z",
           "sentiment": -0.2,
           "reason": "AI stock crash fears may weigh on AI-exposed megacaps"
-        },
-        {
-          "headline": "Meta Prices 250M Depositary Shares At $50 Of 6.50% Series A Mandatory Convertible Preferred And 40M Class A Shares At $625 Under Forward Sale Agreements; Common Offering Upsized To $25B From $22.5B",
-          "url": "https://www.benzinga.com/news/26/10/62608952/meta-prices-250m-depositary-shares-50-6-50-series-mandatory-convertible-preferred-and-40m-class-shar",
-          "time": "2026-10-27T05:19:35Z",
-          "sentiment": -0.4,
-          "reason": "Upsized $25B common offering and convertibles dilute shareholders"
         }
       ]
     },
