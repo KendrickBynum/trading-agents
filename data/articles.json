@@ -1,105 +1,5 @@
 [
   {
-    "id": "62598577",
-    "created_at": "2026-10-26T17:17:02Z",
-    "headline": "Neoclouds Face Guppy-Level Death; 36% Of S&P 500 Earnings This Week; Brazil Stocks Plunge On Election Outcome",
-    "url": "https://www.benzinga.com/opinion/26/10/62598577/neoclouds-face-guppy-level-death-36-of-sp500-earnings-this-week-brazil-stocks-plunge-on-election-outcome",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Neocloud weakness may signal softer AI infrastructure demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62598326",
-    "created_at": "2026-10-26T17:09:01Z",
-    "headline": "Nasdaq 100 Rallies on Chip Rebound; Brazil ETF Sinks 21%: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Nasdaq 100 gains 1.2% on chipmaker rebound"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Chip sector rebound lifts semiconductor leader"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Broad tech strength supports large-cap software names"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62597989",
-    "created_at": "2026-10-26T17:00:58Z",
-    "headline": "CNBC Halftime Report Final Trades: eBay, ExxonMobil, Leidos Holdings, Global X Data Center & Digital Infrastructure ETF",
-    "url": "https://www.benzinga.com/quote/DTCR",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62597959",
-    "created_at": "2026-10-26T17:00:28Z",
-    "headline": "Elon Musk Says Happiness Peaks Fast Once You're a Billionaire \u2014 'You Hit That Saturation Point Pretty Fast'",
-    "url": "https://www.benzinga.com/news/space/26/10/62597959/elon-musk-says-happiness-peaks-fast-once-youre-a-billionaire-you-hit-that-saturation-point-pretty-fast",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62597871",
-    "created_at": "2026-10-26T16:57:01Z",
-    "headline": "Nvidia's AI Safety Push Could Slow Things Down by 25%, Analyst Warns",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62597871/nvidia-ai-safety-speed-cost",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Analyst warns AI safety measures could slow runtime 25%"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62597788",
-    "created_at": "2026-10-26T16:54:26Z",
-    "headline": "'Apple\u2019s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking' - Bloomberg",
-    "url": "https://www.benzinga.com/news/26/10/62597788/apple-s-foldable-iphone-duo-draws-early-complaints-screen-cracking-bloomberg",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Early screen-cracking complaints on foldable iPhone"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62600498",
     "created_at": "2026-10-26T18:11:40Z",
     "headline": "OpenAI Rolls Out GPT-6.1 Terra To All Plus, Pro, Enterprise, And Edu Users In ChatGPT Work, Codex",
@@ -267,73 +167,6 @@
         "sentiment": 0.35,
         "confidence": 0.45,
         "reason": "Oppenheimer maintains Outperform, raises target to $625"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62599142",
-    "created_at": "2026-10-26T17:35:13Z",
-    "headline": "9 Communication Services Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/10/62599142/9-communication-services-stocks-whale-activity-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Generic options-flow alert; little fundamental information"
-      },
-      {
-        "ticker": "META",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Generic options-flow alert; little fundamental information"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62599141",
-    "created_at": "2026-10-26T17:35:13Z",
-    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/10/62599141/10-information-technology-stocks-whale-activity-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62599048",
-    "created_at": "2026-10-26T17:33:06Z",
-    "headline": "Apple\u2019s iPhone Duo Buyers Face a Wait That Could Stretch Into January",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62599048/apples-iphone-duo-buyers-face-a-wait-that-could-stretch-into-january",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.5,
-        "confidence": 0.5,
-        "reason": "Strong iPhone Duo demand with 79-day waits; BofA reiterates Buy"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62599061",
-    "created_at": "2026-10-26T17:33:41Z",
-    "headline": "'Apple Responds to iPhone Duo Display Cracking Reports' - MacRumors",
-    "url": "https://www.benzinga.com/news/26/10/62599061/apple-responds-iphone-duo-display-cracking-reports-macrumors",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Display cracking reports; Apple responded, so impact likely limited"
       }
     ],
     "scorer": "claude"
@@ -2113,6 +1946,227 @@
     "source": "benzinga",
     "market_risk": 0.15,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62629921",
+    "created_at": "2026-10-27T17:15:36Z",
+    "headline": "'Fl\u00e1vio Bolsonaro\u2019s Allies Say He Has Already Left For The U.S.; Flight Expected To Arrive Within Hours' - Folha De S. Paulo",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62629921/fl-vio-bolsonaro-s-allies-say-he-has-already-left-u-s-flight-expected-arrive-within-hours-folha-de-s",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62629413",
+    "created_at": "2026-10-27T17:06:04Z",
+    "headline": "What Is Going On With Meta Stock on Tuesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62629413/what-is-going-on-with-meta-stock-on-tuesday-2",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Deepened NVIDIA AI partnership and projected Muse revenue stream"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.25,
+        "confidence": 0.4,
+        "reason": "$3B Meta investment deepens NVIDIA AI partnership"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62629300",
+    "created_at": "2026-10-27T17:03:18Z",
+    "headline": "Alphabet Q3 Earnings Preview: 'Bears Have Technical Advantage,' Here's What Could Help Bulls",
+    "url": "https://www.benzinga.com/markets/earnings/26/10/62629300/alphabet-q3-earnings-preview-bears-have-technical-advantage-heres-what-could-help-bulls",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Earnings preview with mixed technical signals; largely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62629254",
+    "created_at": "2026-10-27T17:01:35Z",
+    "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62629254/stock-market-today-nasdaq-100-chip-rally-meta-boeing-737-delay",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Share sale creates dilution and supply overhang"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.5,
+        "reason": "Chip rally lifts Nvidia alongside AMD"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.2,
+        "confidence": 0.5,
+        "reason": "Nasdaq 100 climbs on chipmaker strength"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62629237",
+    "created_at": "2026-10-27T17:01:19Z",
+    "headline": "CNBC Halftime Report Final Trades: Apple, UnitedHealth Group, Delta Air Lines, American Tower",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Routine TV trade mention with no new company information"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62629201",
+    "created_at": "2026-10-27T17:00:40Z",
+    "headline": "Paul Kedrosky Says AI Bubble May Be Hiding in Private Markets as Anthropic IPO Nears",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62629201/ai-bubble-private-markets",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Commentary on AI bubble risk in private markets"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Speculative AI valuation concerns ahead of Anthropic IPO"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Speculative AI valuation concerns ahead of Anthropic IPO"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62629051",
+    "created_at": "2026-10-27T16:57:07Z",
+    "headline": "What Is Going On With Apple Stock on Tuesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62629051/what-is-going-on-with-apple-stock-on-tuesday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "iPhone 18 Pro sales up 3.1%, China spike of 29%"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62628888",
+    "created_at": "2026-10-27T16:52:57Z",
+    "headline": "Reported October 26, 2026: USDA To Invest $57M To Boost American Meat Processing Capacity And Support U.S. Ranchers",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62628888/reported-october-26-2026-usda-invest-57m-boost-american-meat-processing-capacity-and-support-u-s-ran",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62628518",
+    "created_at": "2026-10-27T16:44:02Z",
+    "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62628518/anthropic-750b-compute-ambition-puts-soxx-smh-and-ai-infrastructure-etfs-in-focus",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Anthropic's $750B compute ambitions boost AI chip demand"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Massive AI compute spending supports cloud demand"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Massive AI compute spending supports AWS demand"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Massive AI compute spending supports cloud demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62628421",
+    "created_at": "2026-10-27T16:40:35Z",
+    "headline": "Live On CNBC, Josh Brown Hosts Segment Titled \"Josh's Best Stocks Update: Meta Platforms; Cloudlare\"",
+    "url": "https://www.benzinga.com/quote/NET",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Analyst segment mention with no substantive new information"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62628052",
+    "created_at": "2026-10-27T16:34:46Z",
+    "headline": "What Is Going on With Nvidia Stock on Tuesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62628052/what-is-going-on-with-nvidia-stock-on-tuesday-2",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Long-term humanoid robot accelerator demand projection; not near-term"
+      }
+    ],
     "scorer": "claude"
   }
 ]
