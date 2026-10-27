@@ -1,56 +1,5 @@
 [
   {
-    "id": "62602063",
-    "created_at": "2026-10-26T19:07:51Z",
-    "headline": "Anthropic IPO Filing Reveals AI Boom\u2019s Next Test: 7 ETFs With Pre-Launch Exposure",
-    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62602063/anthropic-ipo-filing-reveals-ai-booms-next-test-7-etfs-with-pre-launch-exposure",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Anthropic IPO signals AI demand, but article centers on ETFs, not NVDA"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62601686",
-    "created_at": "2026-10-26T18:54:31Z",
-    "headline": "UBS Maintains Buy on Amazon.com, Raises Price Target to $348",
-    "url": "https://www.benzinga.com/news/26/10/62601686/ubs-maintains-buy-amazon-com-raises-price-target-348",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "UBS reiterates Buy and raises price target to $348"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62602582",
-    "created_at": "2026-10-26T19:27:52Z",
-    "headline": "'U.S., Canada Working On Deal To Ease U.S. Tariffs On Canadian Steel And Auto Imports' - Reuters Exclusive",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62602582/u-s-canada-working-deal-ease-u-s-tariffs-canadian-steel-and-auto-imports-reuters-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Tariff easing on Canadian steel and autos modestly reduces trade-war risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "104594687",
     "created_at": "2026-10-26T23:01:32Z",
     "headline": "JPMorgan Chase Reports Change in Major Holding in Vonovia SE",
@@ -2113,6 +2062,189 @@
     "source": "benzinga",
     "market_risk": 0.0,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62634379",
+    "created_at": "2026-10-27T19:30:44Z",
+    "headline": "Microsoft, Alphabet On Deck Wednesday As AI Spending, Cloud Growth Face Test",
+    "url": "https://www.benzinga.com/news/26/10/62634379/microsoft-alphabet-on-deck-wednesday-as-ai-spending-cloud-growth-face-test",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Earnings preview; outcome on AI cloud growth uncertain"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Earnings preview; outcome on ad and cloud growth uncertain"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62634374",
+    "created_at": "2026-10-27T19:30:35Z",
+    "headline": "Microsoft Could Swing By $184 Billion After Earnings",
+    "url": "https://www.benzinga.com/markets/options/26/10/62634374/microsoft-could-swing-by-184-billion-after-earnings",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Options-implied move only; no directional signal"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Options-implied move only; no directional signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62633930",
+    "created_at": "2026-10-27T19:18:37Z",
+    "headline": "'Trump To Announce Relaxed Rules On Oil Firms\u2019 Methane Leaks; Oil Executives, Including Some Top Trump Donors, Have Worked To Roll Back Rules They Say Are Overly Costly' - Washington Post",
+    "url": "https://www.benzinga.com/news/26/10/62633930/trump-to-announce-relaxed-rules-on-oil-firms-methane-leaks-oil-executives-including-some-top-trump-donors-have-worked-to-roll-back-rules-they-say-are-overly-costly-washington-post",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Relaxed methane rules lower compliance costs for oil firms"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62633830",
+    "created_at": "2026-10-27T19:15:58Z",
+    "headline": "'Washington discusses Russian deals for US oil majors in Ukraine peace talks' - Financial Times",
+    "url": "https://www.benzinga.com/government/26/10/62633830/washington-discusses-russian-deals-us-oil-majors-ukraine-peace-talks-financial-times",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "Possible Russian deal access for US majors; speculative, talks ongoing"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105253021",
+    "created_at": "2026-10-27T19:01:33Z",
+    "headline": "Amazon Business Launches Value Intelligence and Enhanced AI Assistant",
+    "url": "https://procurementmag.com/news/amazon-business-assistant-gets-ai-upgrade-for-procurement",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Incremental AI feature for Amazon Business; small impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105253020",
+    "created_at": "2026-10-27T19:01:26Z",
+    "headline": "Meta Expands AI Infrastructure Partnerships with NVIDIA and AMD",
+    "url": "https://www.globenewswire.com/news-release/2026/10/27/3389140/0/en/amd-and-meta-advance-strategic-partnership-to-power-meta-s-superintelligence-infrastructure.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "AI infrastructure partnerships, offset by equity offering dilution"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Expanded Meta AI infrastructure deal supports GPU demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62633277",
+    "created_at": "2026-10-27T18:57:41Z",
+    "headline": "Anthropic\u2019s IPO Filing Reads Like a $570 Billion Order Book for Chipmakers",
+    "url": "https://www.benzinga.com/markets/ipos/26/10/62633277/anthropics-ipo-570-billion-order-book-chipmakers-spending",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.5,
+        "confidence": 0.6,
+        "reason": "Anthropic filing signals large compute demand for chipmakers"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Anthropic compute commitments likely benefit AWS"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Anthropic compute commitments likely benefit Google Cloud"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62632895",
+    "created_at": "2026-10-27T18:45:28Z",
+    "headline": "Reuters Reports Hacker Trying To Breach U.S. Election Website, Cites Email From Federal Election Commission Official",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62632895/reuters-reports-hacker-trying-breach-u-s-election-website-cites-email-federal-election-commission-of",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Hacking attempt report; no clear market impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62632726",
+    "created_at": "2026-10-27T18:41:05Z",
+    "headline": "Reported Earlier: FCC Approves Amazon Leo's Acquisition Of Globalstar",
+    "url": "https://www.benzinga.com/news/26/10/62632726/reported-earlier-fcc-approves-amazon-leo-s-acquisition-globalstar",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "FCC approval clears Amazon Leo's Globalstar acquisition"
+      }
+    ],
     "scorer": "claude"
   }
 ]

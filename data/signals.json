@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-27T18:41:43.242583+00:00",
-  "market_risk": 0.09,
+  "generated_at": "2026-10-27T19:35:17.404433+00:00",
+  "market_risk": 0.091,
   "tickers": {
     "SPY": {
-      "score": 0.052,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.046,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "USA CB Consumer Confidence For October\u00a091.7 Vs 81.2 Est.",
@@ -164,10 +164,24 @@
       ]
     },
     "NVDA": {
-      "score": 0.148,
-      "articles": 14,
-      "ai_articles": 14,
+      "score": 0.208,
+      "articles": 16,
+      "ai_articles": 16,
       "headlines": [
+        {
+          "headline": "Meta Expands AI Infrastructure Partnerships with NVIDIA and AMD",
+          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389140/0/en/amd-and-meta-advance-strategic-partnership-to-power-meta-s-superintelligence-infrastructure.html",
+          "time": "2026-10-27T19:01:26Z",
+          "sentiment": 0.3,
+          "reason": "Expanded Meta AI infrastructure deal supports GPU demand"
+        },
+        {
+          "headline": "Anthropic\u2019s IPO Filing Reads Like a $570 Billion Order Book for Chipmakers",
+          "url": "https://www.benzinga.com/markets/ipos/26/10/62633277/anthropics-ipo-570-billion-order-book-chipmakers-spending",
+          "time": "2026-10-27T18:57:41Z",
+          "sentiment": 0.5,
+          "reason": "Anthropic filing signals large compute demand for chipmakers"
+        },
         {
           "headline": "NVIDIA Vera Rubin NVL72 and Vera CPUs Generally Available on Oracle Cloud Infrastructure",
           "url": "https://www.globenewswire.com/news-release/2026/10/27/3389428/0/en/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure.html",
@@ -188,28 +202,28 @@
           "time": "2026-10-27T17:01:35Z",
           "sentiment": 0.3,
           "reason": "Chip rally lifts Nvidia alongside AMD"
-        },
-        {
-          "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62628518/anthropic-750b-compute-ambition-puts-soxx-smh-and-ai-infrastructure-etfs-in-focus",
-          "time": "2026-10-27T16:44:02Z",
-          "sentiment": 0.4,
-          "reason": "Anthropic's $750B compute ambitions boost AI chip demand"
-        },
-        {
-          "headline": "What Is Going on With Nvidia Stock on Tuesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62628052/what-is-going-on-with-nvidia-stock-on-tuesday-2",
-          "time": "2026-10-27T16:34:46Z",
-          "sentiment": 0.2,
-          "reason": "Long-term humanoid robot accelerator demand projection; not near-term"
         }
       ]
     },
     "AMZN": {
-      "score": 0.23,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.231,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Anthropic\u2019s IPO Filing Reads Like a $570 Billion Order Book for Chipmakers",
+          "url": "https://www.benzinga.com/markets/ipos/26/10/62633277/anthropics-ipo-570-billion-order-book-chipmakers-spending",
+          "time": "2026-10-27T18:57:41Z",
+          "sentiment": 0.3,
+          "reason": "Anthropic compute commitments likely benefit AWS"
+        },
+        {
+          "headline": "Reported Earlier: FCC Approves Amazon Leo's Acquisition Of Globalstar",
+          "url": "https://www.benzinga.com/news/26/10/62632726/reported-earlier-fcc-approves-amazon-leo-s-acquisition-globalstar",
+          "time": "2026-10-27T18:41:05Z",
+          "sentiment": 0.15,
+          "reason": "FCC approval clears Amazon Leo's Globalstar acquisition"
+        },
         {
           "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
           "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62628518/anthropic-750b-compute-ambition-puts-soxx-smh-and-ai-infrastructure-etfs-in-focus",
@@ -230,28 +244,21 @@
           "time": "2026-10-27T08:01:22Z",
           "sentiment": 0.2,
           "reason": "Zoox robotaxi deal expands Amazon autonomous-vehicle footprint"
-        },
-        {
-          "headline": "Anthropic\u2019s IPO Filing Reveals Over $500 Billion AI Compute Spending Across AMZN, GOOGL, MSFT, AVGO and SPCX: Top Analyst Says It Has \u2018Barely Started\u2019",
-          "url": "https://www.benzinga.com/markets/ipos/26/10/62609946/anthropics-ipo-filing-reveals-over-500-billion-ai-compute-spending-across-amzn-googl-msft-avgo-and-spcx-top-analyst-says-it-has-barely-started",
-          "time": "2026-10-27T07:48:01Z",
-          "sentiment": 0.4,
-          "reason": "Anthropic compute commitments boost AWS cloud revenue outlook"
-        },
-        {
-          "headline": "Bank Of America, Blackstone, Citi, Morgan Stanley Announce $63B Transaction For Deployment Of AI Compute Through Broadcom's Technology For Anthropic",
-          "url": "https://www.benzinga.com/news/26/10/62605221/bank-america-blackstone-citi-morgan-stanley-announce-63b-transaction-deployment-ai-compute-through-b",
-          "time": "2026-10-26T20:26:29Z",
-          "sentiment": 0.15,
-          "reason": "Large AI compute financing supports Anthropic, an Amazon partner"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.223,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.241,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Anthropic\u2019s IPO Filing Reads Like a $570 Billion Order Book for Chipmakers",
+          "url": "https://www.benzinga.com/markets/ipos/26/10/62633277/anthropics-ipo-570-billion-order-book-chipmakers-spending",
+          "time": "2026-10-27T18:57:41Z",
+          "sentiment": 0.3,
+          "reason": "Anthropic compute commitments likely benefit Google Cloud"
+        },
         {
           "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
           "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62628518/anthropic-750b-compute-ambition-puts-soxx-smh-and-ai-infrastructure-etfs-in-focus",
@@ -279,21 +286,21 @@
           "time": "2026-10-27T11:10:14Z",
           "sentiment": 0.15,
           "reason": "Earnings preview with mostly bullish analyst revisions; largely expected"
-        },
-        {
-          "headline": "Anthropic Could Defy the AI Spending Curse: Analysts See Early Profit Signs and Massive Cash Cushion",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62611704/anthropic-could-defy-the-ai-spending-curse-analysts-see-early-profit-signs-and-massive-cash-cushion",
-          "time": "2026-10-27T10:07:52Z",
-          "sentiment": 0.2,
-          "reason": "Anthropic IPO strength benefits Alphabet as an Anthropic investor"
         }
       ]
     },
     "META": {
-      "score": -0.056,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.017,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "Meta Expands AI Infrastructure Partnerships with NVIDIA and AMD",
+          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389140/0/en/amd-and-meta-advance-strategic-partnership-to-power-meta-s-superintelligence-infrastructure.html",
+          "time": "2026-10-27T19:01:26Z",
+          "sentiment": 0.2,
+          "reason": "AI infrastructure partnerships, offset by equity offering dilution"
+        },
         {
           "headline": "What Is Going On With Meta Stock on Tuesday?",
           "url": "https://www.benzinga.com/markets/tech/26/10/62629413/what-is-going-on-with-meta-stock-on-tuesday-2",
@@ -321,13 +328,6 @@
           "time": "2026-10-27T14:26:48Z",
           "sentiment": -0.2,
           "reason": "Court challenge to Zuckerberg stock deal adds governance and legal uncertainty"
-        },
-        {
-          "headline": "AMD Expands Strategic Partnership With Meta To Deploy Its Helios Rackscale Solutions, EPYC Processors And Technologies Providing Day-0 Support For Meta Models; AMD To Invest $1B In The META Equity Offering",
-          "url": "https://www.benzinga.com/news/26/10/62619038/amd-expands-strategic-partnership-meta-deploy-its-helios-rackscale-solutions-epyc-processors-and-tec",
-          "time": "2026-10-27T13:22:45Z",
-          "sentiment": 0.3,
-          "reason": "Expanded AMD partnership and deployment; but AMD investing in Meta equity offering"
         }
       ]
     },
@@ -338,10 +338,24 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.181,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "'Trump To Announce Relaxed Rules On Oil Firms\u2019 Methane Leaks; Oil Executives, Including Some Top Trump Donors, Have Worked To Roll Back Rules They Say Are Overly Costly' - Washington Post",
+          "url": "https://www.benzinga.com/news/26/10/62633930/trump-to-announce-relaxed-rules-on-oil-firms-methane-leaks-oil-executives-including-some-top-trump-donors-have-worked-to-roll-back-rules-they-say-are-overly-costly-washington-post",
+          "time": "2026-10-27T19:18:37Z",
+          "sentiment": 0.2,
+          "reason": "Relaxed methane rules lower compliance costs for oil firms"
+        },
+        {
+          "headline": "'Washington discusses Russian deals for US oil majors in Ukraine peace talks' - Financial Times",
+          "url": "https://www.benzinga.com/government/26/10/62633830/washington-discusses-russian-deals-us-oil-majors-ukraine-peace-talks-financial-times",
+          "time": "2026-10-27T19:15:58Z",
+          "sentiment": 0.15,
+          "reason": "Possible Russian deal access for US majors; speculative, talks ongoing"
+        },
         {
           "headline": "ExxonMobil, Leidos, eBay and More: CNBC\u2019s \u2018Final Trades\u2019",
           "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62617099/exxonmobil-leidos-ebay-and-more-cnbcs-final-trades",
