@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T14:35:21.687205+00:00",
-  "market_risk": 0.101,
+  "generated_at": "2026-10-27T15:35:18.609377+00:00",
+  "market_risk": 0.092,
   "tickers": {
     "SPY": {
       "score": 0.052,
@@ -45,10 +45,17 @@
       ]
     },
     "QQQ": {
-      "score": -0.045,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.005,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62623952/growth-leads-sectors-in-tuesday-trading-as-defensives-trail",
+          "time": "2026-10-27T15:00:23Z",
+          "sentiment": 0.15,
+          "reason": "Technology leading sector gains in Tuesday trading"
+        },
         {
           "headline": "Michael Burry: Today's Market Mirrors the Eve of the Dot-Com Crash",
           "url": "https://www.benzinga.com/markets/equities/26/10/62619405/michael-burry-todays-market-mirrors-the-eve-of-the-dot-com-crash",
@@ -76,13 +83,6 @@
           "time": "2026-10-27T06:04:37Z",
           "sentiment": 0.2,
           "reason": "Futures point higher with 67% odds of up open"
-        },
-        {
-          "headline": "Nasdaq 100 Rallies on Chip Rebound; Brazil ETF Sinks 21%: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today",
-          "time": "2026-10-26T17:09:01Z",
-          "sentiment": 0.4,
-          "reason": "Nasdaq 100 gains 1.2% on chipmaker rebound"
         }
       ]
     },
@@ -129,10 +129,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.209,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.202,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Microsoft Q1 Preview: AI, Cloud Key As Company Eyes 15th Straight Double Beat",
+          "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62624589/microsoft-q1-preview-ai-cloud-key-as-company-eyes-15th-straight-double-beat",
+          "time": "2026-10-27T15:13:26Z",
+          "sentiment": 0.2,
+          "reason": "Preview of expected 15th straight beat; positive but likely partly priced in"
+        },
         {
           "headline": "Anthropic Could Defy the AI Spending Curse: Analysts See Early Profit Signs and Massive Cash Cushion",
           "url": "https://www.benzinga.com/markets/tech/26/10/62611704/anthropic-could-defy-the-ai-spending-curse-analysts-see-early-profit-signs-and-massive-cash-cushion",
@@ -160,21 +167,21 @@
           "time": "2026-10-26T19:58:10Z",
           "sentiment": -0.2,
           "reason": "CoreWeave credit stress raises AI capex and counterparty concerns"
-        },
-        {
-          "headline": "Microsoft\u2019s Copilot, Azure Demand Signals Stronger AI Monetization: Analyst",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62600012/microsofts-copilot-azure-demand-signals-stronger-ai-monetization-analyst",
-          "time": "2026-10-26T17:58:56Z",
-          "sentiment": 0.4,
-          "reason": "Analyst cites accelerating Azure growth and Copilot monetization"
         }
       ]
     },
     "NVDA": {
-      "score": 0.045,
+      "score": -0.088,
       "articles": 10,
       "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Nvidia's Credit Risk Has Tripled This Year \u2014 and Just Passed Meta's",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62623350/nvidia-credit-risk-cds-tripled-passes-meta-coreweave",
+          "time": "2026-10-27T14:45:31Z",
+          "sentiment": -0.5,
+          "reason": "Rising credit risk from CoreWeave exposure and customer financing concerns"
+        },
         {
           "headline": "Jim Cramer Says In Social Media Post 'If Jensen thinks that CoreWeave is money good he should buy up their their 15% debt'",
           "url": "https://www.benzinga.com/news/26/10/62617136/jim-cramer-says-social-media-post-if-jensen-thinks-coreweave-money-good-he-should-buy-their-their-15",
@@ -202,13 +209,6 @@
           "time": "2026-10-27T10:11:05Z",
           "sentiment": -0.25,
           "reason": "China AI stock rout raises sector sentiment risk, though no US crash signaled"
-        },
-        {
-          "headline": "Anthropic\u2019s IPO Filing Reveals Over $500 Billion AI Compute Spending Across AMZN, GOOGL, MSFT, AVGO and SPCX: Top Analyst Says It Has \u2018Barely Started\u2019",
-          "url": "https://www.benzinga.com/markets/ipos/26/10/62609946/anthropics-ipo-filing-reveals-over-500-billion-ai-compute-spending-across-amzn-googl-msft-avgo-and-spcx-top-analyst-says-it-has-barely-started",
-          "time": "2026-10-27T07:48:01Z",
-          "sentiment": 0.2,
-          "reason": "Large AI compute spending supports accelerator demand"
         }
       ]
     },
@@ -297,10 +297,17 @@
       ]
     },
     "META": {
-      "score": -0.052,
+      "score": -0.059,
       "articles": 10,
       "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "'Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace' - TechCrunch",
+          "url": "https://www.benzinga.com/news/26/10/62625078/meta-ai-director-rohit-patel-leaves-take-microsoft-office-and-google-workspace-techcrunch",
+          "time": "2026-10-27T15:23:11Z",
+          "sentiment": -0.15,
+          "reason": "Senior AI director departure to rival Microsoft/Google; modest talent-loss concern"
+        },
         {
           "headline": "'Zuckerberg Stock Deal, Meta Restructuring Challenged in Court' - Bloomberg Law",
           "url": "https://www.benzinga.com/news/26/10/62622392/zuckerberg-stock-deal-meta-restructuring-challenged-court-bloomberg-law",
@@ -328,13 +335,6 @@
           "time": "2026-10-27T10:31:26Z",
           "sentiment": -0.35,
           "reason": "Upsized $25B stock offering creates dilution and near-term selling pressure"
-        },
-        {
-          "headline": "US 'Flashing the Same Warning Signs,' Wall Street Commentator Warns as China\u2019s AI Stock Crash Wipes Out $480 Billion in Under Four Months",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62610448/china-ai-crash-raises-bubble-fears-us-stocks-warning-signs",
-          "time": "2026-10-27T08:57:52Z",
-          "sentiment": -0.2,
-          "reason": "AI stock crash fears may weigh on AI-exposed megacaps"
         }
       ]
     },
