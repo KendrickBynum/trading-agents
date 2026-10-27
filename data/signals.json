@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T17:35:19.408509+00:00",
-  "market_risk": 0.095,
+  "generated_at": "2026-10-27T18:35:20.194434+00:00",
+  "market_risk": 0.09,
   "tickers": {
     "SPY": {
       "score": 0.052,
@@ -122,9 +122,9 @@
       ]
     },
     "MSFT": {
-      "score": 0.217,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.198,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
@@ -164,10 +164,17 @@
       ]
     },
     "NVDA": {
-      "score": 0.125,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": 0.148,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "NVIDIA Vera Rubin NVL72 and Vera CPUs Generally Available on Oracle Cloud Infrastructure",
+          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389428/0/en/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure.html",
+          "time": "2026-10-27T18:01:23Z",
+          "sentiment": 0.3,
+          "reason": "Vera Rubin systems available on Oracle cloud supports AI demand"
+        },
         {
           "headline": "What Is Going On With Meta Stock on Tuesday?",
           "url": "https://www.benzinga.com/markets/tech/26/10/62629413/what-is-going-on-with-meta-stock-on-tuesday-2",
@@ -195,13 +202,6 @@
           "time": "2026-10-27T16:34:46Z",
           "sentiment": 0.2,
           "reason": "Long-term humanoid robot accelerator demand projection; not near-term"
-        },
-        {
-          "headline": "Nvidia, Oracle Intend To Expand Oracle Cloud Infrastructure Superclusters With Nvidia Vera Rubin NVL72 Systems",
-          "url": "https://www.benzinga.com/news/26/10/62626698/nvidia-oracle-intend-expand-oracle-cloud-infrastructure-superclusters-nvidia-vera-rubin-nvl72-system",
-          "time": "2026-10-27T16:02:47Z",
-          "sentiment": 0.3,
-          "reason": "Expanded Vera Rubin NVL72 superclusters signal continued strong data center demand"
         }
       ]
     },
@@ -248,9 +248,9 @@
       ]
     },
     "GOOGL": {
-      "score": 0.213,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.223,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
@@ -290,9 +290,9 @@
       ]
     },
     "META": {
-      "score": -0.048,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.056,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
         {
           "headline": "What Is Going On With Meta Stock on Tuesday?",
@@ -332,18 +332,10 @@
       ]
     },
     "JPM": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "JPMorgan Chase and other banks reportedly nearing $10 billion loan deal for Saudi Aramco",
-          "url": "https://www.moomoo.com/news/post/1002365561/market-chatter-saudi-aramco-nears-10-billion-loan-with-global",
-          "time": "2026-10-26T18:01:47Z",
-          "sentiment": 0.2,
-          "reason": "Reported lead role in $10B Saudi Aramco credit facility"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "XOM": {
       "score": 0.2,

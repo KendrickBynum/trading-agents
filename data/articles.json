@@ -1,177 +1,5 @@
 [
   {
-    "id": "62600498",
-    "created_at": "2026-10-26T18:11:40Z",
-    "headline": "OpenAI Rolls Out GPT-6.1 Terra To All Plus, Pro, Enterprise, And Edu Users In ChatGPT Work, Codex",
-    "url": "https://www.benzinga.com/news/26/10/62600498/openai-rolls-out-gpt-6-1-terra-all-plus-pro-enterprise-and-edu-users-chatgpt-work-codex",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "OpenAI model rollout via partner; incremental, mostly expected"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62600475",
-    "created_at": "2026-10-26T18:10:47Z",
-    "headline": "Michael Burry Eyes the Exit on Walmart, Alphabet and Valero",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62600475/michael-burry-eyes-the-exit-on-walmart-alphabet-and-valero",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Prominent investor may trim stake over valuation concerns"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62600381",
-    "created_at": "2026-10-26T18:08:21Z",
-    "headline": "'FTC is demanding Anthropic execs testify in expanding AI safety probe' - Axios",
-    "url": "https://www.benzinga.com/government/26/10/62600381/ftc-demanding-anthropic-execs-testify-expanding-ai-safety-probe-axios",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "FTC AI safety probe could touch Anthropic investor exposure"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "FTC AI safety probe could touch Anthropic investor exposure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "104211775",
-    "created_at": "2026-10-26T18:01:47Z",
-    "headline": "JPMorgan Chase reports change in major holding in Rotork PLC",
-    "url": "https://www.investegate.co.uk/announcement/rns/rotork--ror/holding-s-in-company/9842187",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "104211774",
-    "created_at": "2026-10-26T18:01:47Z",
-    "headline": "JPMorgan Chase and other banks reportedly nearing $10 billion loan deal for Saudi Aramco",
-    "url": "https://www.moomoo.com/news/post/1002365561/market-chatter-saudi-aramco-nears-10-billion-loan-with-global",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.2,
-        "confidence": 0.35,
-        "reason": "Reported lead role in $10B Saudi Aramco credit facility"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "104210696",
-    "created_at": "2026-10-26T18:01:46Z",
-    "headline": "Meta Announces $95 Billion Capital Raise Plan for AI Infrastructure",
-    "url": "https://www.morningstar.com/news/dow-jones/202610262815/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.4,
-        "reason": "Large financing raises dilution and debt-load concerns"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "104210691",
-    "created_at": "2026-10-26T18:01:30Z",
-    "headline": "Apple Releases Public Software Updates",
-    "url": "https://appleosophy.com/wire/13b2e2j/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62600012",
-    "created_at": "2026-10-26T17:58:56Z",
-    "headline": "Microsoft\u2019s Copilot, Azure Demand Signals Stronger AI Monetization: Analyst",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62600012/microsofts-copilot-azure-demand-signals-stronger-ai-monetization-analyst",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Analyst cites accelerating Azure growth and Copilot monetization"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62599914",
-    "created_at": "2026-10-26T17:55:44Z",
-    "headline": "5 Myths And Misunderstandings About Investing In The Stock Market",
-    "url": "https://www.benzinga.com/opinion/26/10/62599914/5-myths-and-misunderstandings-about-investing-in-the-stock-market",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62599504",
-    "created_at": "2026-10-26T17:47:06Z",
-    "headline": "Meta's $95 Billion AI Push Could Accelerate New Product Launches, Analyst Says",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62599504/metas-95-billion-ai-push-could-accelerate-new-product-launches-analyst-says",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.3,
-        "confidence": 0.45,
-        "reason": "Analyst Outperform with $940 target on AI expansion plans"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62599445",
-    "created_at": "2026-10-26T17:45:27Z",
-    "headline": "Oppenheimer Maintains Outperform on Microsoft, Raises Price Target to $625",
-    "url": "https://www.benzinga.com/news/26/10/62599445/oppenheimer-maintains-outperform-microsoft-raises-price-target-625",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.35,
-        "confidence": 0.45,
-        "reason": "Oppenheimer maintains Outperform, raises target to $625"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62602063",
     "created_at": "2026-10-26T19:07:51Z",
     "headline": "Anthropic IPO Filing Reveals AI Boom\u2019s Next Test: 7 ETFs With Pre-Launch Exposure",
@@ -2167,6 +1995,141 @@
         "reason": "Long-term humanoid robot accelerator demand projection; not near-term"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62632309",
+    "created_at": "2026-10-27T18:23:56Z",
+    "headline": "Xylem Stock Plunges to 52-Week Low After Slashing 2026 Profit Outlook",
+    "url": "https://www.benzinga.com/markets/earnings/26/10/62632309/xylem-stock-plunges-to-52-week-low-after-slashing-2026-profit-outlook",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62631669",
+    "created_at": "2026-10-27T18:04:33Z",
+    "headline": "Nate Silver: Iran War Looms Over Senate Fight That Could Mark 'End of the Trump Era'",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62631669/nate-silver-iran-war",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "105164575",
+    "created_at": "2026-10-27T18:01:48Z",
+    "headline": "JPMorgan Chase's Strategic Investment Group Leads $2.1 Billion Funding for Re:Build",
+    "url": "https://www.globenewswire.com/news-release/2026/10/27/3389070/0/en/re-build-announces-2-1-billion-to-accelerate-america-s-reindustrialization.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Minor deal participation by investment arm; limited earnings impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105164574",
+    "created_at": "2026-10-27T18:01:48Z",
+    "headline": "J.P. Morgan Asset Management Integrates 55ip Tax Technology into Anthropic's Claude for Financial Advisors",
+    "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-managements-55ip-working-with-anthropic-to-deliver-tax-smart-technology-within-claude-for-financial-advisors-302921009.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Product integration with Anthropic platform; immaterial to near-term results"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105163190",
+    "created_at": "2026-10-27T18:01:33Z",
+    "headline": "ExxonMobil Exits Venezuela Operations",
+    "url": "https://energynow.ca/2026/02/whats-the-status-of-international-oil-companies-in-venezuela/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Exit from Venezuela removes minor production; likely largely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105163189",
+    "created_at": "2026-10-27T18:01:31Z",
+    "headline": "Microsoft Releases Emergency .NET Patches for Critical Vulnerabilities",
+    "url": "https://www.securitymagazine.com/articles/102699-microsoft-releases-emergency-net-patches",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "105163186",
+    "created_at": "2026-10-27T18:01:26Z",
+    "headline": "Apple Creator Studio Update Adds MotionVFX and AI Assistants",
+    "url": "https://appleosophy.com/wire/x2n4dvt/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Software feature update; minimal expected financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105163185",
+    "created_at": "2026-10-27T18:01:23Z",
+    "headline": "NVIDIA Vera Rubin NVL72 and Vera CPUs Generally Available on Oracle Cloud Infrastructure",
+    "url": "https://www.globenewswire.com/news-release/2026/10/27/3389428/0/en/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.5,
+        "reason": "Vera Rubin systems available on Oracle cloud supports AI demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62630579",
+    "created_at": "2026-10-27T17:35:11Z",
+    "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/10/62630579/10-consumer-discretionary-stocks-whale-alerts-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62630577",
+    "created_at": "2026-10-27T17:35:11Z",
+    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/10/62630577/10-information-technology-stocks-whale-activity-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
