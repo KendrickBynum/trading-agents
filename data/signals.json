@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-28T13:35:23.217571+00:00",
-  "market_risk": 0.087,
+  "generated_at": "2026-10-28T14:35:18.661999+00:00",
+  "market_risk": 0.086,
   "tickers": {
     "SPY": {
-      "score": 0.172,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "S&P 500 Rose 14% In A Year And Got Cheaper",
@@ -13,21 +13,21 @@
           "time": "2026-10-27T20:12:04Z",
           "sentiment": 0.15,
           "reason": "S&P earnings growth lowered valuation; largely backward-looking"
-        },
-        {
-          "headline": "USA CB Consumer Confidence For October\u00a091.7 Vs 81.2 Est.",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-10-27T14:00:08Z",
-          "sentiment": 0.2,
-          "reason": "Consumer confidence well above estimates, supportive for consumer demand"
         }
       ]
     },
     "QQQ": {
-      "score": 0.26,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.069,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Dot-Com Style Rotation? Strategists Warn Improving Market Breadth Could Be A Bull Trap: 'Be Careful What You Wish For'",
+          "url": "https://www.benzinga.com/markets/market-summary/26/10/62655533/dot-com-style-rotation-strategists-warn-improving-market-breadth-could-be-a-bull-trap-be-careful-what-you-wish-for",
+          "time": "2026-10-28T13:40:07Z",
+          "sentiment": -0.15,
+          "reason": "Strategists warn breadth rotation may be a bull trap"
+        },
         {
           "headline": "Nasdaq Jumps Over 300 Points Amid Surge In Chip Stocks: Investor Sentiment Improves, Greed Index Remains In \u2018Fear\u2019 Zone",
           "url": "https://www.benzinga.com/markets/market-summary/26/10/62643930/nasdaq-jumps-over-300-points-amid-surge-in-chip-stocks-investor-sentiment-improves-greed-index-remains-in-fear-zone",
@@ -108,10 +108,17 @@
       ]
     },
     "NVDA": {
-      "score": 0.023,
-      "articles": 14,
-      "ai_articles": 14,
+      "score": 0.052,
+      "articles": 15,
+      "ai_articles": 15,
       "headlines": [
+        {
+          "headline": "Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62657416/micron-stock-gains-as-sk-hynix-reports-record-revenue-above-100-trillion-won",
+          "time": "2026-10-28T14:07:56Z",
+          "sentiment": 0.2,
+          "reason": "Memory peer record results lift AI hardware sentiment in sympathy"
+        },
         {
           "headline": "'OpenAI, a Longtime Nvidia Customer, Plans to Buy Google\u2019s AI Chips' - The Information",
           "url": "https://www.benzinga.com/news/26/10/62644395/openai-longtime-nvidia-customer-plans-buy-google-s-ai-chips-information",
@@ -139,13 +146,6 @@
           "time": "2026-10-28T04:49:45Z",
           "sentiment": -0.3,
           "reason": "Burry warns of slowing AI growth; sentiment negative but opinion-driven"
-        },
-        {
-          "headline": "Meta Expands AI Infrastructure Partnerships with NVIDIA and AMD",
-          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389140/0/en/amd-and-meta-advance-strategic-partnership-to-power-meta-s-superintelligence-infrastructure.html",
-          "time": "2026-10-27T19:01:26Z",
-          "sentiment": 0.3,
-          "reason": "Expanded Meta AI infrastructure deal supports GPU demand"
         }
       ]
     },
@@ -227,9 +227,9 @@
       ]
     },
     "META": {
-      "score": -0.126,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.119,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "Class Action Lawsuit Filed Against Meta Over AI Smart Glasses Privacy",
@@ -269,10 +269,17 @@
       ]
     },
     "JPM": {
-      "score": 0.4,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.102,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Sky News' Mark Kleinman Posts On X \"Exclusive: JPMorgan Chase faces paying an additional sum in the region of \u00a3100m-\u00a3150m as a result of chancellor John Healey's decision to double the corporation tax surcharge on banks, a possible obstacle to the firm proceeding with its new London headquarters...\"",
+          "url": "https://www.benzinga.com/news/26/10/62658603/sky-news-mark-kleinman-posts-x-exclusive-jpmorgan-chase-faces-paying-additional-sum-region-100m-150m",
+          "time": "2026-10-28T14:28:01Z",
+          "sentiment": -0.2,
+          "reason": "UK bank surcharge doubling adds \u00a3100-150m cost, HQ plans at risk"
+        },
         {
           "headline": "JPMorgan Chase Selected to Lead US Retail Sales for Anthropic IPO",
           "url": "https://www.marketscreener.com/news/anthropic-picks-jpmorgan-chase-to-lead-us-retail-sales-in-potential-ipo-ce785cd2da8bf521",
@@ -283,10 +290,31 @@
       ]
     },
     "XOM": {
-      "score": -0.109,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.023,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "USA Gasoline Inventories 3.870M Barrel Build Vs 1.400M Barrel Draw Est.",
+          "url": "https://www.benzinga.com/quote/UNG",
+          "time": "2026-10-28T14:31:59Z",
+          "sentiment": -0.2,
+          "reason": "Gasoline build far exceeded expected draw; weak fuel demand signal"
+        },
+        {
+          "headline": "USA Crude Oil Inventories 1.892M Barrel Draw vs 0.100M Barrel Build Est.",
+          "url": "https://www.benzinga.com/quote/USO",
+          "time": "2026-10-28T14:31:33Z",
+          "sentiment": 0.3,
+          "reason": "Crude draw versus expected build; bullish supply-demand surprise"
+        },
+        {
+          "headline": "'Adnoc Tells Clients New Hormuz Bypass Pipe to Start Early 2027' - Bloomberg",
+          "url": "https://www.benzinga.com/news/26/10/62658194/adnoc-tells-clients-new-hormuz-bypass-pipe-start-early-2027-bloomberg",
+          "time": "2026-10-28T14:21:18Z",
+          "sentiment": -0.15,
+          "reason": "Hormuz bypass pipeline reduces chokepoint risk premium on oil"
+        },
         {
           "headline": "Trump Says Iran Wants a Deal as 1 Million Barrels of Venezuelan Oil Arrive in Texas Ahead of Midterms: 'It's a Question of When Do I Want to End It'",
           "url": "https://www.benzinga.com/news/politics/26/10/62644224/trump-says-iran-wants-a-deal-as-1-million-barrels-of-venezuelan-oil-arrive-in-texas-ahead-of-midterms-its-a-question-of-when-do-i-want-to-end-it",
@@ -300,20 +328,6 @@
           "time": "2026-10-27T19:38:46Z",
           "sentiment": -0.3,
           "reason": "Refiner selloff and crack-spread pressure weigh on integrated oil"
-        },
-        {
-          "headline": "'Trump To Announce Relaxed Rules On Oil Firms\u2019 Methane Leaks; Oil Executives, Including Some Top Trump Donors, Have Worked To Roll Back Rules They Say Are Overly Costly' - Washington Post",
-          "url": "https://www.benzinga.com/news/26/10/62633930/trump-to-announce-relaxed-rules-on-oil-firms-methane-leaks-oil-executives-including-some-top-trump-donors-have-worked-to-roll-back-rules-they-say-are-overly-costly-washington-post",
-          "time": "2026-10-27T19:18:37Z",
-          "sentiment": 0.2,
-          "reason": "Relaxed methane rules lower compliance costs for oil firms"
-        },
-        {
-          "headline": "'Washington discusses Russian deals for US oil majors in Ukraine peace talks' - Financial Times",
-          "url": "https://www.benzinga.com/government/26/10/62633830/washington-discusses-russian-deals-us-oil-majors-ukraine-peace-talks-financial-times",
-          "time": "2026-10-27T19:15:58Z",
-          "sentiment": 0.15,
-          "reason": "Possible Russian deal access for US majors; speculative, talks ongoing"
         }
       ]
     }

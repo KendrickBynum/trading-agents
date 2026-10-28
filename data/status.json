@@ -1,66 +1,64 @@
 {
-  "last_run": "2026-10-28T13:35:55.445863+00:00",
+  "last_run": "2026-10-28T14:35:26.889414+00:00",
   "paper": true,
   "market_open": true,
   "next_open": "2026-10-29T09:30:00-04:00",
-  "equity": 100213.3,
-  "cash": 59995.62,
-  "day_pnl": 117.62,
-  "day_pnl_pct": 0.00118,
+  "equity": 100080.1,
+  "cash": 49974.81,
+  "day_pnl": -15.58,
+  "day_pnl_pct": -0.00016,
   "starting_equity": 100000.0,
-  "total_pnl": 213.3,
-  "total_pnl_pct": 0.00213,
+  "total_pnl": 80.1,
+  "total_pnl_pct": 0.0008,
   "halts": [],
-  "last_actions": [
-    {
-      "time": "2026-10-28T13:35:55.445863+00:00",
-      "symbol": "QQQ",
-      "side": "buy",
-      "reason": "positive news (+0.26, 3 articles)",
-      "news_score": 0.26,
-      "notional": 10020.82,
-      "status": "submitted",
-      "order_id": "f715e3d8-61f5-4f15-a62e-a69f705703bc"
-    }
-  ],
-  "market_risk": 0.087,
-  "signals_at": "2026-10-28T13:35:23.217571+00:00",
+  "last_actions": [],
+  "market_risk": 0.086,
+  "signals_at": "2026-10-28T14:35:18.661999+00:00",
   "positions": [
     {
       "symbol": "AAPL",
       "qty": 29.032810229,
       "avg_entry": 344.224342,
-      "price": 346.32,
-      "value": 10054.642839,
-      "pl": 60.842842,
-      "pl_pct": 0.00609
+      "price": 345.085,
+      "value": 10018.787318,
+      "pl": 24.987321,
+      "pl_pct": 0.0025
     },
     {
       "symbol": "AMZN",
       "qty": 40.197155369,
       "avg_entry": 248.89,
-      "price": 254.15,
-      "value": 10216.107037,
-      "pl": 211.437037,
-      "pl_pct": 0.02113
+      "price": 253.3,
+      "value": 10181.939455,
+      "pl": 177.269455,
+      "pl_pct": 0.01772
     },
     {
       "symbol": "MSFT",
       "qty": 18.901462198,
       "avg_entry": 529.371744,
-      "price": 533.415,
-      "value": 10082.323458,
-      "pl": 76.42345,
-      "pl_pct": 0.00764
+      "price": 529.69,
+      "value": 10011.915512,
+      "pl": 6.015504,
+      "pl_pct": 0.0006
+    },
+    {
+      "symbol": "QQQ",
+      "qty": 13.843288942,
+      "avg_entry": 723.874943,
+      "price": 721.98,
+      "value": 9994.57775,
+      "pl": -26.232244,
+      "pl_pct": -0.00262
     },
     {
       "symbol": "XOM",
       "qty": 54.504769172,
       "avg_entry": 183.47,
-      "price": 180.975,
-      "value": 9864.000601,
-      "pl": -135.989399,
-      "pl_pct": -0.0136
+      "price": 181.6,
+      "value": 9898.066082,
+      "pl": -101.923918,
+      "pl_pct": -0.01019
     }
   ]
 }

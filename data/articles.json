@@ -1,191 +1,5 @@
 [
   {
-    "id": "62622636",
-    "created_at": "2026-10-27T14:31:51Z",
-    "headline": "UPS Is Making More Money by Shipping Less for Amazon. Can It Keep It Up?",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62622636/ups-amazon-shipping-strategy",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62622540",
-    "created_at": "2026-10-27T14:30:18Z",
-    "headline": "Here's How Much $1000 Invested In NVIDIA 10 Years Ago Would Be Worth Today",
-    "url": "https://www.benzinga.com/news/26/10/62622540/here-s-how-much-1000-invested-nvidia-10-years-ago-would-be-worth-today",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62622392",
-    "created_at": "2026-10-27T14:26:48Z",
-    "headline": "'Zuckerberg Stock Deal, Meta Restructuring Challenged in Court' - Bloomberg Law",
-    "url": "https://www.benzinga.com/news/26/10/62622392/zuckerberg-stock-deal-meta-restructuring-challenged-court-bloomberg-law",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Court challenge to Zuckerberg stock deal adds governance and legal uncertainty"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62621261",
-    "created_at": "2026-10-27T14:03:31Z",
-    "headline": "LAZR ETF Raises Anthropic Allocation To 10.5%",
-    "url": "https://www.benzinga.com/m/26/10/62621261/lazr-etf-raises-anthropic-allocation-10-5",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62621161",
-    "created_at": "2026-10-27T14:01:32Z",
-    "headline": "Richmond Manufacturing Shipments For October 0 Vs -5 Prior",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Richmond Fed manufacturing index missed estimates, signaling mild weakness"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62621139",
-    "created_at": "2026-10-27T14:01:12Z",
-    "headline": "Richmond Manufacturing Index For October -2 Vs 0 Est.",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Richmond Fed manufacturing index missed estimates, signaling mild weakness"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62621067",
-    "created_at": "2026-10-27T14:00:41Z",
-    "headline": "USA New Home Sales (MoM) For September -0.6% Vs 5.1% Prior",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Mixed housing data: sales beat estimates but monthly change fell"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62621029",
-    "created_at": "2026-10-27T14:00:18Z",
-    "headline": "USA New Home Sales For September 676K Vs 651K Est",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "New home sales beat estimates, supporting economic growth outlook"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62621001",
-    "created_at": "2026-10-27T14:00:08Z",
-    "headline": "USA CB Consumer Confidence For October\u00a091.7 Vs 81.2 Est.",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Consumer confidence well above estimates, supportive for consumer demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62620907",
-    "created_at": "2026-10-27T13:59:02Z",
-    "headline": "\u200bJim Cramer Calls Broadcom-Anthropic Pact 'Excellent for All Involved,' Warns Press Would 'Never Stop Hectoring Nvidia' Over Similar Move",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62620907/jim-cramer-calls-broadcom-anthropic-pact-excellent-for-all-involved-warns-press-would-never-stop-hectoring-nvidia-over-similar-move",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Opinion piece on Broadcom-Anthropic deal; limited direct impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62620741",
-    "created_at": "2026-10-27T13:55:10Z",
-    "headline": "Bitcoin Profit-Taking Cools but Analysts Remain Cautious Ahead of FOMC",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62620741/bitcoin-profit-taking-cools-but-analysts-remain-cautious-ahead-of-fomc",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62620077",
-    "created_at": "2026-10-27T13:42:45Z",
-    "headline": "Trump Administration Approving 3 More Wind Projects Stalled By Pentagon In Bid To Win Dem Support For Bipartisan Permitting Reform Bill, Punchbowl Correspondent Says On Social Media",
-    "url": "https://www.benzinga.com/government/26/10/62620077/trump-administration-approving-3-more-wind-projects-stalled-pentagon-bid-win-dem-support-bipartisan-",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62619791",
-    "created_at": "2026-10-27T13:37:58Z",
-    "headline": "United Parcel Service CEO, On Amazon, Says We Haven't Seen Any Meaningful Impact To Our Business Since The Announcement They Made In The Summer",
-    "url": "https://www.benzinga.com/news/26/10/62619791/united-parcel-service-ceo-amazon-says-we-haven-t-seen-any-meaningful-impact-our-business-announcemen",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "UPS says Amazon's announcement had no meaningful business impact; routine commentary"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62625078",
     "created_at": "2026-10-27T15:23:11Z",
     "headline": "'Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace' - TechCrunch",
@@ -431,23 +245,6 @@
         "sentiment": 0.1,
         "confidence": 0.2,
         "reason": "Regional Dallas Fed services revenue rebound is modestly positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62622721",
-    "created_at": "2026-10-27T14:34:06Z",
-    "headline": "Texas Services Sector Outlook For October 4.0 Vs -1.8 Prior",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Regional Texas services outlook improvement, minimal market relevance"
       }
     ],
     "scorer": "claude"
@@ -2089,6 +1886,164 @@
         "sentiment": 0.0,
         "confidence": 0.1,
         "reason": "Political commentary, no actionable market impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62658801",
+    "created_at": "2026-10-28T14:31:59Z",
+    "headline": "USA Gasoline Inventories 3.870M Barrel Build Vs 1.400M Barrel Draw Est.",
+    "url": "https://www.benzinga.com/quote/UNG",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Gasoline build far exceeded expected draw; weak fuel demand signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62658800",
+    "created_at": "2026-10-28T14:31:59Z",
+    "headline": "Microsoft Earnings Prediction Market Preview: What Will Satya Nadella Say?",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62658800/microsoft-earnings-preview",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Earnings preview; expectations largely already priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62658783",
+    "created_at": "2026-10-28T14:31:33Z",
+    "headline": "USA Crude Oil Inventories 1.892M Barrel Draw vs 0.100M Barrel Build Est.",
+    "url": "https://www.benzinga.com/quote/USO",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Crude draw versus expected build; bullish supply-demand surprise"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62658603",
+    "created_at": "2026-10-28T14:28:01Z",
+    "headline": "Sky News' Mark Kleinman Posts On X \"Exclusive: JPMorgan Chase faces paying an additional sum in the region of \u00a3100m-\u00a3150m as a result of chancellor John Healey's decision to double the corporation tax surcharge on banks, a possible obstacle to the firm proceeding with its new London headquarters...\"",
+    "url": "https://www.benzinga.com/news/26/10/62658603/sky-news-mark-kleinman-posts-x-exclusive-jpmorgan-chase-faces-paying-additional-sum-region-100m-150m",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "UK bank surcharge doubling adds \u00a3100-150m cost, HQ plans at risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62658194",
+    "created_at": "2026-10-28T14:21:18Z",
+    "headline": "'Adnoc Tells Clients New Hormuz Bypass Pipe to Start Early 2027' - Bloomberg",
+    "url": "https://www.benzinga.com/news/26/10/62658194/adnoc-tells-clients-new-hormuz-bypass-pipe-start-early-2027-bloomberg",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Hormuz bypass pipeline reduces chokepoint risk premium on oil"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62657416",
+    "created_at": "2026-10-28T14:07:56Z",
+    "headline": "Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62657416/micron-stock-gains-as-sk-hynix-reports-record-revenue-above-100-trillion-won",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Memory peer record results lift AI hardware sentiment in sympathy"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62656252",
+    "created_at": "2026-10-28T13:50:57Z",
+    "headline": "Bill Ackman\u2019s Test for a Great Stock: Should Be 'Enormously Valuable' Even if Markets Shut for 20 Years",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62656252/bill-ackmans-test-for-a-great-stock-should-be-enormously-valuable-even-if-markets-shut-for-20-years",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62655533",
+    "created_at": "2026-10-28T13:40:07Z",
+    "headline": "Dot-Com Style Rotation? Strategists Warn Improving Market Breadth Could Be A Bull Trap: 'Be Careful What You Wish For'",
+    "url": "https://www.benzinga.com/markets/market-summary/26/10/62655533/dot-com-style-rotation-strategists-warn-improving-market-breadth-could-be-a-bull-trap-be-careful-what-you-wish-for",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Strategists warn breadth rotation may be a bull trap"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Strategists warn breadth rotation may be a bull trap"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62655122",
+    "created_at": "2026-10-28T13:35:47Z",
+    "headline": "Google Earnings Prediction Market Preview: What Will Sundar Pichai Say?",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62655122/google-earnings-preview",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Earnings preview; expectations largely already priced in"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Mentioned as earnings theme; no direct new information"
       }
     ],
     "scorer": "claude"
