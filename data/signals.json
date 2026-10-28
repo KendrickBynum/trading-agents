@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-10-28T16:35:20.260481+00:00",
-  "market_risk": 0.086,
+  "generated_at": "2026-10-28T17:35:20.369995+00:00",
+  "market_risk": 0.098,
   "tickers": {
     "SPY": {
-      "score": 0.15,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.299,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Reported Earlier: 'U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms' - WSJ",
+          "url": "https://www.benzinga.com/news/26/10/62664845/reported-earlier-u-s-warns-gulf-possible-short-intense-renewal-iran-war-after-midterms-wsj",
+          "time": "2026-10-28T16:35:10Z",
+          "sentiment": -0.35,
+          "reason": "US warns of possible Iran war renewal after midterms; risk-off"
+        },
         {
           "headline": "S&P 500 Rose 14% In A Year And Got Cheaper",
           "url": "https://www.benzinga.com/opinion/26/10/62636823/sp500-rose-14-percent-in-a-year-and-got-cheaper",
@@ -17,9 +24,9 @@
       ]
     },
     "QQQ": {
-      "score": 0.065,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.043,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Dot-Com Style Rotation? Strategists Warn Improving Market Breadth Could Be A Bull Trap: 'Be Careful What You Wish For'",
@@ -34,20 +41,13 @@
           "time": "2026-10-28T07:02:08Z",
           "sentiment": 0.3,
           "reason": "Nasdaq rallied 1.18% on chip strength, though sentiment remains fearful"
-        },
-        {
-          "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62629254/stock-market-today-nasdaq-100-chip-rally-meta-boeing-737-delay",
-          "time": "2026-10-27T17:01:35Z",
-          "sentiment": 0.2,
-          "reason": "Nasdaq 100 climbs on chipmaker strength"
         }
       ]
     },
     "AAPL": {
-      "score": 0.045,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.009,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Apple Teases Redesigned MacBook Pro Launch",
@@ -62,20 +62,13 @@
           "time": "2026-10-28T08:03:38Z",
           "sentiment": -0.2,
           "reason": "Korean order forces external payments and lower App Store commissions"
-        },
-        {
-          "headline": "What Is Going On With Apple Stock on Tuesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62629051/what-is-going-on-with-apple-stock-on-tuesday",
-          "time": "2026-10-27T16:57:07Z",
-          "sentiment": 0.4,
-          "reason": "iPhone 18 Pro sales up 3.1%, China spike of 29%"
         }
       ]
     },
     "MSFT": {
-      "score": -0.01,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.031,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Michael Burry Finds a $537 Billion Hole in Anthropic\u2019s IPO Story",
@@ -90,20 +83,13 @@
           "time": "2026-10-28T07:02:08Z",
           "sentiment": 0.2,
           "reason": "Broad tech and chip rally lifts large-cap tech sentiment"
-        },
-        {
-          "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62628518/anthropic-750b-compute-ambition-puts-soxx-smh-and-ai-infrastructure-etfs-in-focus",
-          "time": "2026-10-27T16:44:02Z",
-          "sentiment": 0.2,
-          "reason": "Massive AI compute spending supports cloud demand"
         }
       ]
     },
     "NVDA": {
-      "score": 0.061,
-      "articles": 12,
-      "ai_articles": 12,
+      "score": 0.02,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won",
@@ -143,9 +129,9 @@
       ]
     },
     "AMZN": {
-      "score": 0.086,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.079,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "Michael Burry Finds a $537 Billion Hole in Anthropic\u2019s IPO Story",
@@ -174,21 +160,28 @@
           "time": "2026-10-27T18:41:05Z",
           "sentiment": 0.15,
           "reason": "FCC approval clears Amazon Leo's Globalstar acquisition"
-        },
-        {
-          "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62628518/anthropic-750b-compute-ambition-puts-soxx-smh-and-ai-infrastructure-etfs-in-focus",
-          "time": "2026-10-27T16:44:02Z",
-          "sentiment": 0.2,
-          "reason": "Massive AI compute spending supports AWS demand"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.011,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.194,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Google Introduces Gemini 4 Carbon: Gemini 4 Carbon Is Our Strongest Model With State-Of-The-Art Cybersecurity And Long Horizon Capabilities.",
+          "url": "https://www.benzinga.com/news/26/10/62667030/google-introduces-gemini-4-carbon-gemini-4-carbon-our-strongest-model-state-art-cybersecurity-and-lo",
+          "time": "2026-10-28T17:28:13Z",
+          "sentiment": 0.3,
+          "reason": "New flagship Gemini model launch may boost AI competitiveness"
+        },
+        {
+          "headline": "Alphabet Stock Rises Ahead of Earnings: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62665347/alphabet-stock-rises-ahead-of-earnings-whats-going-on",
+          "time": "2026-10-28T16:47:25Z",
+          "sentiment": 0.5,
+          "reason": "Reports OpenAI plans to buy Google AI chips; ahead of earnings"
+        },
         {
           "headline": "Alphabet Has a Strange AI Problem: Success Threatens Its Biggest Money Machine",
           "url": "https://www.benzinga.com/news/gaming/26/10/62660431/alphabet-has-a-strange-ai-problem-success-threatens-its-biggest-money-machine",
@@ -209,27 +202,13 @@
           "time": "2026-10-28T08:03:38Z",
           "sentiment": -0.15,
           "reason": "Korean order forces external payments and Play commission changes"
-        },
-        {
-          "headline": "'OpenAI, a Longtime Nvidia Customer, Plans to Buy Google\u2019s AI Chips' - The Information",
-          "url": "https://www.benzinga.com/news/26/10/62644395/openai-longtime-nvidia-customer-plans-buy-google-s-ai-chips-information",
-          "time": "2026-10-28T07:51:40Z",
-          "sentiment": 0.35,
-          "reason": "Reported OpenAI deal to buy Google's AI chips validates TPU business"
-        },
-        {
-          "headline": "Nasdaq Jumps Over 300 Points Amid Surge In Chip Stocks: Investor Sentiment Improves, Greed Index Remains In \u2018Fear\u2019 Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/10/62643930/nasdaq-jumps-over-300-points-amid-surge-in-chip-stocks-investor-sentiment-improves-greed-index-remains-in-fear-zone",
-          "time": "2026-10-28T07:02:08Z",
-          "sentiment": 0.15,
-          "reason": "Nasdaq tech rally lifts Alphabet alongside broader market"
         }
       ]
     },
     "META": {
-      "score": -0.21,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.247,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "Meta and Snap Face Trial Over Teen Mental Health Claims",
@@ -258,13 +237,6 @@
           "time": "2026-10-27T18:42:47Z",
           "sentiment": -0.2,
           "reason": "Meta financing needs tested by markets; capital availability concern"
-        },
-        {
-          "headline": "What Is Going On With Meta Stock on Tuesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62629413/what-is-going-on-with-meta-stock-on-tuesday-2",
-          "time": "2026-10-27T17:06:04Z",
-          "sentiment": 0.3,
-          "reason": "Deepened NVIDIA AI partnership and projected Muse revenue stream"
         }
       ]
     },
@@ -290,10 +262,17 @@
       ]
     },
     "XOM": {
-      "score": -0.023,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.022,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Reported Earlier: 'U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms' - WSJ",
+          "url": "https://www.benzinga.com/news/26/10/62664845/reported-earlier-u-s-warns-gulf-possible-short-intense-renewal-iran-war-after-midterms-wsj",
+          "time": "2026-10-28T16:35:10Z",
+          "sentiment": 0.2,
+          "reason": "Renewed Iran conflict risk could lift oil prices"
+        },
         {
           "headline": "USA Gasoline Inventories 3.870M Barrel Build Vs 1.400M Barrel Draw Est.",
           "url": "https://www.benzinga.com/quote/UNG",
@@ -321,13 +300,6 @@
           "time": "2026-10-28T07:37:51Z",
           "sentiment": -0.2,
           "reason": "Iran deal talk and added Venezuelan supply could pressure oil prices"
-        },
-        {
-          "headline": "Refiner Stocks Suffer Worst Day Since the Tariff Shock: The Threat Is Not Cheaper Oil",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62634697/refiner-stocks-valero-marathon-worst-day-since-april-2025-iran-russian-diesel",
-          "time": "2026-10-27T19:38:46Z",
-          "sentiment": -0.3,
-          "reason": "Refiner selloff and crack-spread pressure weigh on integrated oil"
         }
       ]
     }

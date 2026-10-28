@@ -1,209 +1,5 @@
 [
   {
-    "id": "62629921",
-    "created_at": "2026-10-27T17:15:36Z",
-    "headline": "'Fl\u00e1vio Bolsonaro\u2019s Allies Say He Has Already Left For The U.S.; Flight Expected To Arrive Within Hours' - Folha De S. Paulo",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62629921/fl-vio-bolsonaro-s-allies-say-he-has-already-left-u-s-flight-expected-arrive-within-hours-folha-de-s",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62629413",
-    "created_at": "2026-10-27T17:06:04Z",
-    "headline": "What Is Going On With Meta Stock on Tuesday?",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62629413/what-is-going-on-with-meta-stock-on-tuesday-2",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Deepened NVIDIA AI partnership and projected Muse revenue stream"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.25,
-        "confidence": 0.4,
-        "reason": "$3B Meta investment deepens NVIDIA AI partnership"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62629300",
-    "created_at": "2026-10-27T17:03:18Z",
-    "headline": "Alphabet Q3 Earnings Preview: 'Bears Have Technical Advantage,' Here's What Could Help Bulls",
-    "url": "https://www.benzinga.com/markets/earnings/26/10/62629300/alphabet-q3-earnings-preview-bears-have-technical-advantage-heres-what-could-help-bulls",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Earnings preview with mixed technical signals; largely priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62629254",
-    "created_at": "2026-10-27T17:01:35Z",
-    "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62629254/stock-market-today-nasdaq-100-chip-rally-meta-boeing-737-delay",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Share sale creates dilution and supply overhang"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.5,
-        "reason": "Chip rally lifts Nvidia alongside AMD"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.2,
-        "confidence": 0.5,
-        "reason": "Nasdaq 100 climbs on chipmaker strength"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62629237",
-    "created_at": "2026-10-27T17:01:19Z",
-    "headline": "CNBC Halftime Report Final Trades: Apple, UnitedHealth Group, Delta Air Lines, American Tower",
-    "url": "https://www.benzinga.com/quote/AAPL",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Routine TV trade mention with no new company information"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62629201",
-    "created_at": "2026-10-27T17:00:40Z",
-    "headline": "Paul Kedrosky Says AI Bubble May Be Hiding in Private Markets as Anthropic IPO Nears",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62629201/ai-bubble-private-markets",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Commentary on AI bubble risk in private markets"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Speculative AI valuation concerns ahead of Anthropic IPO"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Speculative AI valuation concerns ahead of Anthropic IPO"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62629051",
-    "created_at": "2026-10-27T16:57:07Z",
-    "headline": "What Is Going On With Apple Stock on Tuesday?",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62629051/what-is-going-on-with-apple-stock-on-tuesday",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "iPhone 18 Pro sales up 3.1%, China spike of 29%"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62628888",
-    "created_at": "2026-10-27T16:52:57Z",
-    "headline": "Reported October 26, 2026: USDA To Invest $57M To Boost American Meat Processing Capacity And Support U.S. Ranchers",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62628888/reported-october-26-2026-usda-invest-57m-boost-american-meat-processing-capacity-and-support-u-s-ran",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62628518",
-    "created_at": "2026-10-27T16:44:02Z",
-    "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62628518/anthropic-750b-compute-ambition-puts-soxx-smh-and-ai-infrastructure-etfs-in-focus",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Anthropic's $750B compute ambitions boost AI chip demand"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Massive AI compute spending supports cloud demand"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Massive AI compute spending supports AWS demand"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Massive AI compute spending supports cloud demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62628421",
-    "created_at": "2026-10-27T16:40:35Z",
-    "headline": "Live On CNBC, Josh Brown Hosts Segment Titled \"Josh's Best Stocks Update: Meta Platforms; Cloudlare\"",
-    "url": "https://www.benzinga.com/quote/NET",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Analyst segment mention with no substantive new information"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62632309",
     "created_at": "2026-10-27T18:23:56Z",
     "headline": "Xylem Stock Plunges to 52-Week Low After Slashing 2026 Profit Outlook",
@@ -316,26 +112,6 @@
         "reason": "Vera Rubin systems available on Oracle cloud supports AI demand"
       }
     ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62630579",
-    "created_at": "2026-10-27T17:35:11Z",
-    "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/10/62630579/10-consumer-discretionary-stocks-whale-alerts-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62630577",
-    "created_at": "2026-10-27T17:35:11Z",
-    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/10/62630577/10-information-technology-stocks-whale-activity-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
     "scorer": "claude"
   },
   {
@@ -2036,6 +1812,174 @@
         "sentiment": 0.1,
         "confidence": 0.3,
         "reason": "Earnings preview; AWS growth is a watch item, largely expected"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62667030",
+    "created_at": "2026-10-28T17:28:13Z",
+    "headline": "Google Introduces Gemini 4 Carbon: Gemini 4 Carbon Is Our Strongest Model With State-Of-The-Art Cybersecurity And Long Horizon Capabilities.",
+    "url": "https://www.benzinga.com/news/26/10/62667030/google-introduces-gemini-4-carbon-gemini-4-carbon-our-strongest-model-state-art-cybersecurity-and-lo",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "New flagship Gemini model launch may boost AI competitiveness"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62666919",
+    "created_at": "2026-10-28T17:25:25Z",
+    "headline": "Apple New 14-Inch,  16-Inch MacBook Pro With PROLED XDR Display, Tandem OLED Technology, M5 Pro Chip, Starting At $2,899, $3,399, Respectively",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Routine MacBook Pro hardware refresh; limited expected price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62666825",
+    "created_at": "2026-10-28T17:22:41Z",
+    "headline": "Apple Introduced New 14-Inch, 16-Inch MacBook Pro With PROLED XDR Display Featuring Breakthrough Tandem OLED Technology",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Routine MacBook Pro hardware refresh; duplicate of earlier coverage"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62666310",
+    "created_at": "2026-10-28T17:08:18Z",
+    "headline": "BZ Analysis: The 6-Month Correlation Between The S&P 500 Energy Sector And The S&P 500 Is Down To -0.38, Near Its Lowest On Record",
+    "url": "https://www.benzinga.com/economics/26/10/62666310/bz-analysis-6-month-correlation-between-s-p-500-energy-sector-and-s-p-500-down-0-38-near-its-lowest-",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Sector correlation statistic; no clear directional signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62665823",
+    "created_at": "2026-10-28T16:58:01Z",
+    "headline": "Iran Foreign Minister Abbas Araghchi, On Social Media, Says While Our Brave Armed Forces Are Fully Prepared To Defend The Homeland, Iran Continues To Give Diplomacy A Chance To Succeed; We Remain In Close And Ongoing Contact With Intermediaries To Review Ideas That Can Ensure Implementation Of Our 7-Day Plan In Even Less Than A Week",
+    "url": "https://www.benzinga.com/news/26/10/62665823/iran-foreign-minister-abbas-araghchi-social-media-says-while-our-brave-armed-forces-are-fully-prepar",
+    "source": "benzinga",
+    "market_risk": 0.45,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Iran tensions persist despite diplomacy; geopolitical uncertainty"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Renewed Middle East conflict risk could support oil prices"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62665377",
+    "created_at": "2026-10-28T16:47:47Z",
+    "headline": "High-Yield ETFs for Retirement: Why JEPI, QQQI Could Come with a Catch",
+    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62665377/high-yield-etfs-for-retirement-why-jepi-qqqi-could-come-with-a-catch",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62665347",
+    "created_at": "2026-10-28T16:47:25Z",
+    "headline": "Alphabet Stock Rises Ahead of Earnings: What's Going On?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62665347/alphabet-stock-rises-ahead-of-earnings-whats-going-on",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.5,
+        "confidence": 0.5,
+        "reason": "Reports OpenAI plans to buy Google AI chips; ahead of earnings"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62665155",
+    "created_at": "2026-10-28T16:41:16Z",
+    "headline": "Trump Administration Advancing 2 More Wind Projects In Iowa",
+    "url": "https://www.benzinga.com/government/26/10/62665155/trump-administration-advancing-2-more-wind-projects-iowa",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62665104",
+    "created_at": "2026-10-28T16:40:39Z",
+    "headline": "Live On CNBC, Bill Baruch Announces Trimmed Nvidia Position; Trimmed Micron Technology; Trimmed Broadcom",
+    "url": "https://www.benzinga.com/quote/NVDA",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Single analyst trimmed position; minor signal, low market relevance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62664845",
+    "created_at": "2026-10-28T16:35:10Z",
+    "headline": "Reported Earlier: 'U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms' - WSJ",
+    "url": "https://www.benzinga.com/news/26/10/62664845/reported-earlier-u-s-warns-gulf-possible-short-intense-renewal-iran-war-after-midterms-wsj",
+    "source": "benzinga",
+    "market_risk": 0.5,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.35,
+        "confidence": 0.45,
+        "reason": "US warns of possible Iran war renewal after midterms; risk-off"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Renewed Iran conflict risk could lift oil prices"
       }
     ],
     "scorer": "claude"
