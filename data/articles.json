@@ -1,113 +1,5 @@
 [
   {
-    "id": "62627380",
-    "created_at": "2026-10-27T16:16:10Z",
-    "headline": "Google DeepMind Announces Genie 4: A New World Model, Which Unlocks Unprecedented Realism And Improves Real-Time Interactive Simulation",
-    "url": "https://www.benzinga.com/news/26/10/62627380/google-deepmind-announces-genie-4-new-world-model-which-unlocks-unprecedented-realism-and-improves-r",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Major DeepMind world-model advance could boost AI sentiment and investor interest"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62627265",
-    "created_at": "2026-10-27T16:12:42Z",
-    "headline": "Oracle Partners With OpenAI To Integrate ChatGPT, Codex Into Its Operations",
-    "url": "https://www.benzinga.com/news/26/10/62627265/oracle-partners-openai-integrate-chatgpt-codex-its-operations",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62627151",
-    "created_at": "2026-10-27T16:10:05Z",
-    "headline": "Oracle And Google Partner To Bring Google TPUs To Oracle Cloud Infrastructure",
-    "url": "https://www.benzinga.com/news/26/10/62627151/oracle-and-google-partner-bring-google-tpus-oracle-cloud-infrastructure",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "TPU availability on Oracle Cloud widens Google's cloud and chip reach"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62626903",
-    "created_at": "2026-10-27T16:06:19Z",
-    "headline": "Oracle Launches AI Security Mesh Powered By OpenAI\u2019s Frontier Cyber Models To Accelerate Vulnerability Detection And Remediation",
-    "url": "https://www.benzinga.com/news/26/10/62626903/oracle-launches-ai-security-mesh-powered-openai-s-frontier-cyber-models-accelerate-vulnerability-det",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62626698",
-    "created_at": "2026-10-27T16:02:47Z",
-    "headline": "Nvidia, Oracle Intend To Expand Oracle Cloud Infrastructure Superclusters With Nvidia Vera Rubin NVL72 Systems",
-    "url": "https://www.benzinga.com/news/26/10/62626698/nvidia-oracle-intend-expand-oracle-cloud-infrastructure-superclusters-nvidia-vera-rubin-nvl72-system",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Expanded Vera Rubin NVL72 superclusters signal continued strong data center demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62626545",
-    "created_at": "2026-10-27T16:00:30Z",
-    "headline": "Nvidia CEO Jensen Huang Says AI Thinks a Ball That Rolled Off the Table Disappeared \u2014 But Even 'Your Dog' Knows Better",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62626545/nvidia-ceo-jensen-huang-says-ai-thinks-a-ball-that-rolled-off-the-table-disappeared-but-even-your-dog-knows-better",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62626096",
-    "created_at": "2026-10-27T15:47:30Z",
-    "headline": "President Trump Says We're Going To Accept 1 Million Barrels Of Oil; Believe I Will Visit Tanker In Texas With Venezuela Oil; Think Rubio Will Be With Me",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62626096/president-trump-says-we-re-going-accept-1-million-barrels-oil-believe-i-will-visit-tanker-texas-vene",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Venezuelan oil inflows could add supply and modestly pressure crude prices"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62625994",
-    "created_at": "2026-10-27T15:44:42Z",
-    "headline": "President Trump Says Will Accept Election Results If Elections Are Honest",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62625994/president-trump-says-will-accept-election-results-if-elections-are-honest",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "62629921",
     "created_at": "2026-10-27T17:15:36Z",
     "headline": "'Fl\u00e1vio Bolsonaro\u2019s Allies Say He Has Already Left For The U.S.; Flight Expected To Arrive Within Hours' - Folha De S. Paulo",
@@ -307,23 +199,6 @@
         "sentiment": 0.0,
         "confidence": 0.1,
         "reason": "Analyst segment mention with no substantive new information"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62628052",
-    "created_at": "2026-10-27T16:34:46Z",
-    "headline": "What Is Going on With Nvidia Stock on Tuesday?",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62628052/what-is-going-on-with-nvidia-stock-on-tuesday-2",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Long-term humanoid robot accelerator demand projection; not near-term"
       }
     ],
     "scorer": "claude"
@@ -2115,6 +1990,52 @@
         "sentiment": -0.15,
         "confidence": 0.3,
         "reason": "Burry skepticism on AI compute spending and Anthropic exposure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62664656",
+    "created_at": "2026-10-28T16:30:24Z",
+    "headline": "SK Hynix, Vertiv Rescue AI Trade As Oil Tops $102 Before Fed: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62664656/stock-market-today-sk-hynix-vertiv-ai-trade-oil-fed",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "AI-trade rally supports sentiment, but GOOGL is only tagged, not named"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "AI-trade rally supports sentiment, but MSFT is only tagged, not named"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.0,
+        "confidence": 0.3,
+        "reason": "AI gains offset by oil above $102 and 10-year yield above 5%"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62663775",
+    "created_at": "2026-10-28T16:07:10Z",
+    "headline": "Amazon Q3 Earnings Preview: All Eyes on AWS After Posting Best Growth in Years in Q2",
+    "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62663775/amazon-q3-earnings-preview-all-eyes-aws-after-posting-best-growth-years-q2",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Earnings preview; AWS growth is a watch item, largely expected"
       }
     ],
     "scorer": "claude"
