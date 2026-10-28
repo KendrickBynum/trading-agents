@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T14:35:18.661999+00:00",
-  "market_risk": 0.086,
+  "generated_at": "2026-10-28T15:35:18.722751+00:00",
+  "market_risk": 0.08,
   "tickers": {
     "SPY": {
       "score": 0.15,
@@ -17,9 +17,9 @@
       ]
     },
     "QQQ": {
-      "score": 0.069,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.065,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "Dot-Com Style Rotation? Strategists Warn Improving Market Breadth Could Be A Bull Trap: 'Be Careful What You Wish For'",
@@ -41,13 +41,6 @@
           "time": "2026-10-27T17:01:35Z",
           "sentiment": 0.2,
           "reason": "Nasdaq 100 climbs on chipmaker strength"
-        },
-        {
-          "headline": "Growth Leads Sectors In Tuesday Trading As Defensives Trail",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62623952/growth-leads-sectors-in-tuesday-trading-as-defensives-trail",
-          "time": "2026-10-27T15:00:23Z",
-          "sentiment": 0.15,
-          "reason": "Technology leading sector gains in Tuesday trading"
         }
       ]
     },
@@ -80,10 +73,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.2,
+      "score": -0.01,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Michael Burry Finds a $537 Billion Hole in Anthropic\u2019s IPO Story",
+          "url": "https://www.benzinga.com/markets/ipos/26/10/62659397/michael-burry-finds-a-537-billion-hole-in-anthropics-ipo-story",
+          "time": "2026-10-28T14:43:01Z",
+          "sentiment": -0.15,
+          "reason": "Burry skepticism on AI compute spending and Anthropic exposure"
+        },
         {
           "headline": "Nasdaq Jumps Over 300 Points Amid Surge In Chip Stocks: Investor Sentiment Improves, Greed Index Remains In \u2018Fear\u2019 Zone",
           "url": "https://www.benzinga.com/markets/market-summary/26/10/62643930/nasdaq-jumps-over-300-points-amid-surge-in-chip-stocks-investor-sentiment-improves-greed-index-remains-in-fear-zone",
@@ -97,20 +97,13 @@
           "time": "2026-10-27T16:44:02Z",
           "sentiment": 0.2,
           "reason": "Massive AI compute spending supports cloud demand"
-        },
-        {
-          "headline": "Microsoft Q1 Preview: AI, Cloud Key As Company Eyes 15th Straight Double Beat",
-          "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62624589/microsoft-q1-preview-ai-cloud-key-as-company-eyes-15th-straight-double-beat",
-          "time": "2026-10-27T15:13:26Z",
-          "sentiment": 0.2,
-          "reason": "Preview of expected 15th straight beat; positive but likely partly priced in"
         }
       ]
     },
     "NVDA": {
-      "score": 0.052,
-      "articles": 15,
-      "ai_articles": 15,
+      "score": 0.073,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
         {
           "headline": "Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won",
@@ -150,10 +143,17 @@
       ]
     },
     "AMZN": {
-      "score": 0.268,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.086,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Michael Burry Finds a $537 Billion Hole in Anthropic\u2019s IPO Story",
+          "url": "https://www.benzinga.com/markets/ipos/26/10/62659397/michael-burry-finds-a-537-billion-hole-in-anthropics-ipo-story",
+          "time": "2026-10-28T14:43:01Z",
+          "sentiment": -0.15,
+          "reason": "Burry skepticism on Anthropic compute commitments; AMZN is an investor"
+        },
         {
           "headline": "Jeff Bezos Just Got a New Boost in His Rivalry With Elon Musk \u2014 Amazon Wins FCC Approval for $11.5 Billion Globalstar Deal to Expand Satellite Connectivity",
           "url": "https://www.benzinga.com/markets/tech/26/10/62644373/jeff-bezos-rivalry-elon-musk-amazon-fcc-approval-11-5-billion-globalstar-deal",
@@ -185,10 +185,24 @@
       ]
     },
     "GOOGL": {
-      "score": 0.166,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.028,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Alphabet Has a Strange AI Problem: Success Threatens Its Biggest Money Machine",
+          "url": "https://www.benzinga.com/news/gaming/26/10/62660431/alphabet-has-a-strange-ai-problem-success-threatens-its-biggest-money-machine",
+          "time": "2026-10-28T15:00:19Z",
+          "sentiment": -0.15,
+          "reason": "Analysis flags ad business cannibalization risk from AI success"
+        },
+        {
+          "headline": "Michael Burry Finds a $537 Billion Hole in Anthropic\u2019s IPO Story",
+          "url": "https://www.benzinga.com/markets/ipos/26/10/62659397/michael-burry-finds-a-537-billion-hole-in-anthropics-ipo-story",
+          "time": "2026-10-28T14:43:01Z",
+          "sentiment": -0.15,
+          "reason": "Burry skepticism on Anthropic compute commitments; GOOGL is an investor"
+        },
         {
           "headline": "Korea Media And Communications Commission Orders Google And Apple To Allow External Payments, Improve Commission Structures; Imposes KRW 42.9B (~$32M) Penalty On Google, KRW 20.81B On Apple",
           "url": "https://www.benzinga.com/quote/GOOGL",
@@ -209,28 +223,21 @@
           "time": "2026-10-28T07:02:08Z",
           "sentiment": 0.15,
           "reason": "Nasdaq tech rally lifts Alphabet alongside broader market"
-        },
-        {
-          "headline": "Anthropic\u2019s IPO Filing Reads Like a $570 Billion Order Book for Chipmakers",
-          "url": "https://www.benzinga.com/markets/ipos/26/10/62633277/anthropics-ipo-570-billion-order-book-chipmakers-spending",
-          "time": "2026-10-27T18:57:41Z",
-          "sentiment": 0.3,
-          "reason": "Anthropic compute commitments likely benefit Google Cloud"
-        },
-        {
-          "headline": "Anthropic\u2019s $750B Compute Ambition Puts SOXX, SMH and AI Infrastructure ETFs in Focus",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62628518/anthropic-750b-compute-ambition-puts-soxx-smh-and-ai-infrastructure-etfs-in-focus",
-          "time": "2026-10-27T16:44:02Z",
-          "sentiment": 0.15,
-          "reason": "Massive AI compute spending supports cloud demand"
         }
       ]
     },
     "META": {
-      "score": -0.119,
+      "score": -0.21,
       "articles": 6,
       "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Meta and Snap Face Trial Over Teen Mental Health Claims",
+          "url": "https://ucapital.com/en/news/breaking/17706070",
+          "time": "2026-10-28T15:01:31Z",
+          "sentiment": -0.3,
+          "reason": "Teen mental health trial raises legal and regulatory risk"
+        },
         {
           "headline": "Class Action Lawsuit Filed Against Meta Over AI Smart Glasses Privacy",
           "url": "https://www.classaction.org/news/meta-ai-glasses-secretly-record-conversations-class-action-lawsuit-alleges",
@@ -258,13 +265,6 @@
           "time": "2026-10-27T17:06:04Z",
           "sentiment": 0.3,
           "reason": "Deepened NVIDIA AI partnership and projected Muse revenue stream"
-        },
-        {
-          "headline": "Nasdaq 100 Climbs on Chip Rally, Boeing Sinks 10%: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62629254/stock-market-today-nasdaq-100-chip-rally-meta-boeing-737-delay",
-          "time": "2026-10-27T17:01:35Z",
-          "sentiment": -0.3,
-          "reason": "Share sale creates dilution and supply overhang"
         }
       ]
     },
