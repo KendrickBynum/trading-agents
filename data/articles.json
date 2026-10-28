@@ -1,73 +1,5 @@
 [
   {
-    "id": "104594687",
-    "created_at": "2026-10-26T23:01:32Z",
-    "headline": "JPMorgan Chase Reports Change in Major Holding in Vonovia SE",
-    "url": "https://www.eqs-news.com/news/voting-rights/jpmorgan-chase-co-wilmington-delaware-united-states-of-america-usa/3e391544-2ac4-42a9-8fe2-0ef3f86155b2_en",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Routine ownership disclosure in a European real estate company"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "104594683",
-    "created_at": "2026-10-26T23:01:26Z",
-    "headline": "Verosoft Launches AI Orchestration Platform Built on Microsoft Dynamics 365",
-    "url": "https://www.prnewswire.com/in/news-releases/verosoft-launches-verovia-to-turn-ai-into-industrial-value-302918490.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Third-party product launch on Dynamics 365, minor ecosystem news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "104594682",
-    "created_at": "2026-10-26T23:01:26Z",
-    "headline": "Semperis Expands Security Collaboration with Microsoft",
-    "url": "https://www.prnewswire.com/news-releases/semperis-deepens-microsoft-security-collaboration-integrating-the-lightning-platform-with-microsoft-sentinel-and-security-copilot-302919004.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Partner integration with Sentinel and Security Copilot, incremental"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "104594681",
-    "created_at": "2026-10-26T23:01:23Z",
-    "headline": "Amazon Business to Host Annual 'Reshape 2026' Conference",
-    "url": "https://procurementmag.com/news/amazon-business-reshape-2026-what-cpos-need-to-know",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Routine business conference announcement, no financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62619405",
     "created_at": "2026-10-27T13:32:21Z",
     "headline": "Michael Burry: Today's Market Mirrors the Eve of the Dot-Com Crash",
@@ -2319,6 +2251,23 @@
         "sentiment": -0.3,
         "confidence": 0.4,
         "reason": "Refiner selloff and crack-spread pressure weigh on integrated oil"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105645111",
+    "created_at": "2026-10-27T23:01:33Z",
+    "headline": "Class Action Lawsuit Filed Against Meta Over AI Smart Glasses Privacy",
+    "url": "https://www.classaction.org/news/meta-ai-glasses-secretly-record-conversations-class-action-lawsuit-alleges",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.35,
+        "confidence": 0.5,
+        "reason": "Privacy class action over smart glasses; legal and reputational overhang, likely modest near-term impact"
       }
     ],
     "scorer": "claude"

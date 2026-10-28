@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:56:34.783844+00:00",
+  "generated_at": "2026-10-28T00:33:53.772948+00:00",
   "market_risk": 0.084,
   "tickers": {
     "SPY": {
@@ -283,10 +283,17 @@
       ]
     },
     "META": {
-      "score": -0.034,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.096,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "Class Action Lawsuit Filed Against Meta Over AI Smart Glasses Privacy",
+          "url": "https://www.classaction.org/news/meta-ai-glasses-secretly-record-conversations-class-action-lawsuit-alleges",
+          "time": "2026-10-27T23:01:33Z",
+          "sentiment": -0.35,
+          "reason": "Privacy class action over smart glasses; legal and reputational overhang, likely modest near-term impact"
+        },
         {
           "headline": "Meta Expands AI Infrastructure Partnerships with NVIDIA and AMD",
           "url": "https://www.globenewswire.com/news-release/2026/10/27/3389140/0/en/amd-and-meta-advance-strategic-partnership-to-power-meta-s-superintelligence-infrastructure.html",
@@ -314,13 +321,6 @@
           "time": "2026-10-27T17:01:35Z",
           "sentiment": -0.3,
           "reason": "Share sale creates dilution and supply overhang"
-        },
-        {
-          "headline": "'Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace' - TechCrunch",
-          "url": "https://www.benzinga.com/news/26/10/62625078/meta-ai-director-rohit-patel-leaves-take-microsoft-office-and-google-workspace-techcrunch",
-          "time": "2026-10-27T15:23:11Z",
-          "sentiment": -0.15,
-          "reason": "Senior AI director departure to rival Microsoft/Google; modest talent-loss concern"
         }
       ]
     },
