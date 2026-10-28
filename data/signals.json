@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-28T18:51:50.760572+00:00",
-  "market_risk": 0.12,
+  "generated_at": "2026-10-28T19:35:18.233749+00:00",
+  "market_risk": 0.127,
   "tickers": {
     "SPY": {
-      "score": -0.276,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.259,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Fed Chair Warsh Says In The Long Term Most Measures Have Confidence Central Bank Will Deliver Price Stability; We Are Tightening Financial Conditions; It Tells Me Our Policy Is Working, Not Uncomfortable With It, Tells Me Policy Is Working; Asked About Proceedings On Gov Cook, Says Fed Is 'Not To My Knowledge' Going To Be Involved",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670627/fed-chair-warsh-says-long-term-most-measures-have-confidence-central-bank-will-deliver-price-stabili",
+          "time": "2026-10-28T19:05:47Z",
+          "sentiment": -0.2,
+          "reason": "Warsh says financial conditions are tightening; hawkish tone"
+        },
+        {
+          "headline": "Fed Chair Warsh Says Since Early September We've Seen Inside And Outside Technology Complex, Interest Rates Have Had An Effect; Credit Spreads Have Widened; You've Seen Credit Spreads Widen For Some Assets, Some Tightening In Some Financial Conditions; Interest Rates Do Matter For New Technology; Capex Is Broadening; Strength In Capex Is No Longer In Narrow Pockets; Asked If Midterm Elections Factored Into Rate Decision, Says Politics Played No Role",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670276/fed-chair-warsh-says-early-september-we-ve-seen-inside-and-outside-technology-complex-interest-rates",
+          "time": "2026-10-28T18:57:18Z",
+          "sentiment": -0.25,
+          "reason": "Credit spreads widening and rates weighing on conditions; hawkish"
+        },
         {
           "headline": "Fitch Ratings Says Emerging Threats To AI Capex Boom, Geopolitical Risks In Middle East, Tightened Funding Point To Heightened Risk Environment Into 2027; Material Reassessment Of Long-Term AI Monetization Prospects Could Result In Reduction In Capex, With Implications Across AI Value Chain; If Oil Supplies Through Hormuz Strait Continue To Be Hampered Beyond 1Q27, Then Higher Oil Price Scenario Than Our Base Case Would Materialize",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668763/fitch-ratings-says-emerging-threats-ai-capex-boom-geopolitical-risks-middle-east-tightened-funding-p",
@@ -27,20 +41,6 @@
           "time": "2026-10-28T18:01:44Z",
           "sentiment": -0.2,
           "reason": "Two dissents favoring a rate hike signal tightening bias"
-        },
-        {
-          "headline": "Reported Earlier: 'U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms' - WSJ",
-          "url": "https://www.benzinga.com/news/26/10/62664845/reported-earlier-u-s-warns-gulf-possible-short-intense-renewal-iran-war-after-midterms-wsj",
-          "time": "2026-10-28T16:35:10Z",
-          "sentiment": -0.35,
-          "reason": "US warns of possible Iran war renewal after midterms; risk-off"
-        },
-        {
-          "headline": "S&P 500 Rose 14% In A Year And Got Cheaper",
-          "url": "https://www.benzinga.com/opinion/26/10/62636823/sp500-rose-14-percent-in-a-year-and-got-cheaper",
-          "time": "2026-10-27T20:12:04Z",
-          "sentiment": 0.15,
-          "reason": "S&P earnings growth lowered valuation; largely backward-looking"
         }
       ]
     },
@@ -73,10 +73,17 @@
       ]
     },
     "AAPL": {
-      "score": 0.073,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.025,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Apple Stock Dips: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62670433/apple-stock-dips-whats-going-on",
+          "time": "2026-10-28T19:01:47Z",
+          "sentiment": -0.2,
+          "reason": "Shares slipping; earnings due next week, product news mixed"
+        },
         {
           "headline": "Apple Announces Redesigned MacBook Pro with Touchscreen and OLED Display",
           "url": "https://appleosophy.com/wire/zod8kwv/",
@@ -122,9 +129,9 @@
       ]
     },
     "NVDA": {
-      "score": -0.102,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.157,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "'U.S. DOJ Examining NVIDIA Acquisition Of AI Platform Hugging Face, Two People Say' - Reuters Exclusive",
@@ -164,9 +171,9 @@
       ]
     },
     "AMZN": {
-      "score": -0.045,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.071,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional'",
@@ -188,20 +195,13 @@
           "time": "2026-10-28T07:50:03Z",
           "sentiment": 0.3,
           "reason": "FCC approval clears $11.5B Globalstar deal, expanding satellite connectivity"
-        },
-        {
-          "headline": "Anthropic\u2019s IPO Filing Reads Like a $570 Billion Order Book for Chipmakers",
-          "url": "https://www.benzinga.com/markets/ipos/26/10/62633277/anthropics-ipo-570-billion-order-book-chipmakers-spending",
-          "time": "2026-10-27T18:57:41Z",
-          "sentiment": 0.3,
-          "reason": "Anthropic compute commitments likely benefit AWS"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.181,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.179,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional'",
@@ -241,10 +241,17 @@
       ]
     },
     "META": {
-      "score": -0.251,
+      "score": -0.5,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Meta Increases Equity Offering to $97.5 Billion for AI Infrastructure",
+          "url": "https://www.manilatimes.net/2026/10/29/business/foreign-business/meta-increases-equity-offerings-to-975-billion/2456518",
+          "time": "2026-10-28T19:01:34Z",
+          "sentiment": -0.6,
+          "reason": "Raised $97.5B equity offering; major dilution and funding concern"
+        },
         {
           "headline": "Meta and Snap Face Trial Over Teen Mental Health Claims",
           "url": "https://ucapital.com/en/news/breaking/17706070",
@@ -258,13 +265,6 @@
           "time": "2026-10-27T23:01:33Z",
           "sentiment": -0.35,
           "reason": "Privacy class action over smart glasses; legal and reputational overhang, likely modest near-term impact"
-        },
-        {
-          "headline": "Meta Expands AI Infrastructure Partnerships with NVIDIA and AMD",
-          "url": "https://www.globenewswire.com/news-release/2026/10/27/3389140/0/en/amd-and-meta-advance-strategic-partnership-to-power-meta-s-superintelligence-infrastructure.html",
-          "time": "2026-10-27T19:01:26Z",
-          "sentiment": 0.2,
-          "reason": "AI infrastructure partnerships, offset by equity offering dilution"
         }
       ]
     },
@@ -290,9 +290,9 @@
       ]
     },
     "XOM": {
-      "score": 0.088,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.084,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "'Iran Pressed To Make Nuke Concessions As Massive Post-Midterms Strikes Loom' - Axios",

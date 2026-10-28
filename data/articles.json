@@ -1,154 +1,5 @@
 [
   {
-    "id": "62634379",
-    "created_at": "2026-10-27T19:30:44Z",
-    "headline": "Microsoft, Alphabet On Deck Wednesday As AI Spending, Cloud Growth Face Test",
-    "url": "https://www.benzinga.com/news/26/10/62634379/microsoft-alphabet-on-deck-wednesday-as-ai-spending-cloud-growth-face-test",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Earnings preview; outcome on AI cloud growth uncertain"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Earnings preview; outcome on ad and cloud growth uncertain"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62634374",
-    "created_at": "2026-10-27T19:30:35Z",
-    "headline": "Microsoft Could Swing By $184 Billion After Earnings",
-    "url": "https://www.benzinga.com/markets/options/26/10/62634374/microsoft-could-swing-by-184-billion-after-earnings",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Options-implied move only; no directional signal"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Options-implied move only; no directional signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62633930",
-    "created_at": "2026-10-27T19:18:37Z",
-    "headline": "'Trump To Announce Relaxed Rules On Oil Firms\u2019 Methane Leaks; Oil Executives, Including Some Top Trump Donors, Have Worked To Roll Back Rules They Say Are Overly Costly' - Washington Post",
-    "url": "https://www.benzinga.com/news/26/10/62633930/trump-to-announce-relaxed-rules-on-oil-firms-methane-leaks-oil-executives-including-some-top-trump-donors-have-worked-to-roll-back-rules-they-say-are-overly-costly-washington-post",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Relaxed methane rules lower compliance costs for oil firms"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62633830",
-    "created_at": "2026-10-27T19:15:58Z",
-    "headline": "'Washington discusses Russian deals for US oil majors in Ukraine peace talks' - Financial Times",
-    "url": "https://www.benzinga.com/government/26/10/62633830/washington-discusses-russian-deals-us-oil-majors-ukraine-peace-talks-financial-times",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Possible Russian deal access for US majors; speculative, talks ongoing"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "105253021",
-    "created_at": "2026-10-27T19:01:33Z",
-    "headline": "Amazon Business Launches Value Intelligence and Enhanced AI Assistant",
-    "url": "https://procurementmag.com/news/amazon-business-assistant-gets-ai-upgrade-for-procurement",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Incremental AI feature for Amazon Business; small impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "105253020",
-    "created_at": "2026-10-27T19:01:26Z",
-    "headline": "Meta Expands AI Infrastructure Partnerships with NVIDIA and AMD",
-    "url": "https://www.globenewswire.com/news-release/2026/10/27/3389140/0/en/amd-and-meta-advance-strategic-partnership-to-power-meta-s-superintelligence-infrastructure.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "AI infrastructure partnerships, offset by equity offering dilution"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Expanded Meta AI infrastructure deal supports GPU demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62633277",
-    "created_at": "2026-10-27T18:57:41Z",
-    "headline": "Anthropic\u2019s IPO Filing Reads Like a $570 Billion Order Book for Chipmakers",
-    "url": "https://www.benzinga.com/markets/ipos/26/10/62633277/anthropics-ipo-570-billion-order-book-chipmakers-spending",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.5,
-        "confidence": 0.6,
-        "reason": "Anthropic filing signals large compute demand for chipmakers"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Anthropic compute commitments likely benefit AWS"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Anthropic compute commitments likely benefit Google Cloud"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62641590",
     "created_at": "2026-10-27T22:15:18Z",
     "headline": "$1000 Invested In Meta Platforms 10 Years Ago Would Be Worth This Much Today",
@@ -2163,6 +2014,273 @@
         "sentiment": 0.1,
         "confidence": 0.35,
         "reason": "Strong Q3 GDP and payroll growth, though Fed has not turned easier"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62671629",
+    "created_at": "2026-10-28T19:32:22Z",
+    "headline": "Traders Are Pricing a 7% Swing in Amazon Ahead of Earnings",
+    "url": "https://www.benzinga.com/markets/options/26/10/62671629/traders-are-pricing-a-7-swing-in-amazon-ahead-of-earnings",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Routine earnings preview; implied move already widely known"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62671525",
+    "created_at": "2026-10-28T19:30:47Z",
+    "headline": "'Wall Street Cares About Free Cash Flow Now': Bloomberg's Ed Ludlow on Buyouts and AI Spending",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62671525/big-tech-free-cash-flow",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "General commentary on AI capex pressure on free cash flow"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "General commentary on AI capex pressure on free cash flow"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "General commentary on AI capex pressure on free cash flow"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62671513",
+    "created_at": "2026-10-28T19:30:28Z",
+    "headline": "Amazon, Eli Lilly On Deck Thursday As AWS Growth, Drug Demand Face Test",
+    "url": "https://www.benzinga.com/news/26/10/62671513/amazon-eli-lilly-on-deck-thursday-as-aws-growth-drug-demand-face-test",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.25,
+        "reason": "Earnings preview; AWS growth acceleration is a potential positive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670627",
+    "created_at": "2026-10-28T19:05:47Z",
+    "headline": "Fed Chair Warsh Says In The Long Term Most Measures Have Confidence Central Bank Will Deliver Price Stability; We Are Tightening Financial Conditions; It Tells Me Our Policy Is Working, Not Uncomfortable With It, Tells Me Policy Is Working; Asked About Proceedings On Gov Cook, Says Fed Is 'Not To My Knowledge' Going To Be Involved",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670627/fed-chair-warsh-says-long-term-most-measures-have-confidence-central-bank-will-deliver-price-stabili",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Warsh says financial conditions are tightening; hawkish tone"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670564",
+    "created_at": "2026-10-28T19:04:40Z",
+    "headline": "Fed Chair Warsh Says Our Measures Of Size Of Aggregate Demand Curve Are Imperfect; The Economy Is Strong, The Economy Is Pointing In The Right Direction, Is Economy Running Too Hot? That Is Not The Judgment Of Most Of My Colleagues; Productivity Has Been Moving Higher;  Economic Growth Is Higher, But That Doesn't Mean It's Causing Inflation; Goal Is Not To Throw Sand Into Gears Of Economy; Don't Think We Have To Throw People Out Of Work",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670564/fed-chair-warsh-says-our-measures-size-aggregate-demand-curve-are-imperfect-economy-strong-economy-p",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.25,
+        "reason": "Economy strong but Fed not seeing overheating; avoids aggressive tightening"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670499",
+    "created_at": "2026-10-28T19:03:11Z",
+    "headline": "Forget the Halloween Indicator? 5 ETFs to Consider As \u2018Sell in May\u2019 Loses Its Edge",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62670499/forget-the-halloween-indicator-5-etfs-to-consider-as-sell-in-may-loses-its-edge",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.1,
+        "reason": "Seasonal commentary; mentions hedging a potential selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670456",
+    "created_at": "2026-10-28T19:02:12Z",
+    "headline": "Fed's Warsh Says Glad Korean Central Bank Governor Is In His Post, Have Known Him For 20 Years, Good Friend; Balance Sheet Task Force Recommendations Will Be Fed Into FOMC Early In First Quarter; If We Decide To Make Balance Sheet Changes, It Is Unlikely To Have Any Effect On This Policy Juncture; Any Changes To Balance Sheet Will Be After Serious Consideration Of Task Force Recommendations; When We Removed Dose Of Accommodation, The Effects On Financial Market Conditions Were Consistent With Expectations",
+    "url": "https://www.benzinga.com/news/26/10/62670456/feds-warsh-says-glad-korean-central-bank-governor-is-in-his-post-have-known-him-for-20-years-good-friend-balance-sheet-task-force-recommendations-will-be-fed-into-fomc-early-in-first-quarter-if-w",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Balance sheet changes unlikely to affect current policy stance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670433",
+    "created_at": "2026-10-28T19:01:47Z",
+    "headline": "Apple Stock Dips: What's Going On?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62670433/apple-stock-dips-whats-going-on",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Shares slipping; earnings due next week, product news mixed"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "106435067",
+    "created_at": "2026-10-28T19:01:41Z",
+    "headline": "Reindeer Joins Microsoft for Startups Pegasus Program",
+    "url": "https://www.prnewswire.com/news-releases/reindeer-joins-the-microsoft-for-startups-pegasus-program-and-launches-on-microsoft-marketplace-302922502.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.02,
+        "confidence": 0.05,
+        "reason": "Minor startup partner program; immaterial to valuation"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "106435062",
+    "created_at": "2026-10-28T19:01:34Z",
+    "headline": "Meta Increases Equity Offering to $97.5 Billion for AI Infrastructure",
+    "url": "https://www.manilatimes.net/2026/10/29/business/foreign-business/meta-increases-equity-offerings-to-975-billion/2456518",
+    "source": "fiscal.ai",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "Raised $97.5B equity offering; major dilution and funding concern"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670401",
+    "created_at": "2026-10-28T19:01:21Z",
+    "headline": "Fed's Warsh Says Coming Period Will Be Information-rich, But Nothing To Do With Politics; Don't Believe In Forward Guidance, Absence A Crisis; I Don't Believe In Prejudging Meetings; Won't Share Musings On What Will Happen In December; We Might Learn A Lot By Then, Will Be Better-Positioned To Determine Right Policy Decision; Pay A Lot Of Attention To Korean Economy, Tells Me What's Coming This Way",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670401/fed-s-warsh-says-coming-period-will-be-information-rich-nothing-do-politics-don-t-believe-forward-gu",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Non-committal on December policy; no clear directional signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670276",
+    "created_at": "2026-10-28T18:57:18Z",
+    "headline": "Fed Chair Warsh Says Since Early September We've Seen Inside And Outside Technology Complex, Interest Rates Have Had An Effect; Credit Spreads Have Widened; You've Seen Credit Spreads Widen For Some Assets, Some Tightening In Some Financial Conditions; Interest Rates Do Matter For New Technology; Capex Is Broadening; Strength In Capex Is No Longer In Narrow Pockets; Asked If Midterm Elections Factored Into Rate Decision, Says Politics Played No Role",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670276/fed-chair-warsh-says-early-september-we-ve-seen-inside-and-outside-technology-complex-interest-rates",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.25,
+        "confidence": 0.45,
+        "reason": "Credit spreads widening and rates weighing on conditions; hawkish"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670232",
+    "created_at": "2026-10-28T18:56:04Z",
+    "headline": "Fed's Warsh Says There's A Stable Correlation Between Oil Prices Rising And Market-set Interest Rates, Until Recently; Been A Stable Correlation Between Oil Price And Market Interest Rates Until Recently; Interest Rates Have Rolled Over To The Downside; I Take Note That Oil Futures Prices Have Moved Up; I Was Skeptical That Interest Rates Would Not Have An Effect On AI, Rates Affect Almost Everything",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670232/fed-s-warsh-says-there-s-stable-correlation-between-oil-prices-rising-and-market-set-interest-rates-",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Warsh notes rates rolling over lower; mildly supportive for equities"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670087",
+    "created_at": "2026-10-28T18:52:04Z",
+    "headline": "Fed Chair Warsh Says Task Force Conclusion Unlikely To Find Their Way Into This Policy Juncture; Will Attend Nov 16 Field Hearing From Productivity Task Force; Plan On Attending Task Force Field Hearing Next Month; There Is No Soft Inflation Target; Price Stability Target Is 2% Measured By PCE;  Inflation Expectations Have Gone Up In Near-term, But Longer-Term Measures Show Households And Businesses Have Confidence That Fed Will Deliver Price Stability",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670087/fed-chair-warsh-says-task-force-conclusion-unlikely-find-their-way-policy-juncture-will-attend-nov-1",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine Fed commentary reaffirming 2% inflation target; no new policy signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62670038",
+    "created_at": "2026-10-28T18:51:01Z",
+    "headline": "Fed Chair Warsh, Asked About Trump Comment On Fed Board: Says He Won't Respond; Asked About Trump's Criticisms Of The Fed, Says Will Not Respond To Quotes By Public Officials; Asked About Trump Comment On Fed Board Says FOMC Had A Family Fight, Came To Right Policy Decision For This Moment; Asked About Trump Comment On Fed Board Says Honored To Be A Part Of This Group, And Its Chairman",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670038/fed-chair-warsh-asked-about-trump-comment-fed-board-says-he-won-t-respond-asked-about-trump-s-critic",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "Political noise over Trump-Fed tensions; no concrete policy change"
       }
     ],
     "scorer": "claude"
