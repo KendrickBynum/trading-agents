@@ -149,40 +149,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62632895",
-    "created_at": "2026-10-27T18:45:28Z",
-    "headline": "Reuters Reports Hacker Trying To Breach U.S. Election Website, Cites Email From Federal Election Commission Official",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62632895/reuters-reports-hacker-trying-breach-u-s-election-website-cites-email-federal-election-commission-of",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Hacking attempt report; no clear market impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62632726",
-    "created_at": "2026-10-27T18:41:05Z",
-    "headline": "Reported Earlier: FCC Approves Amazon Leo's Acquisition Of Globalstar",
-    "url": "https://www.benzinga.com/news/26/10/62632726/reported-earlier-fcc-approves-amazon-leo-s-acquisition-globalstar",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "FCC approval clears Amazon Leo's Globalstar acquisition"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62641590",
     "created_at": "2026-10-27T22:15:18Z",
     "headline": "$1000 Invested In Meta Platforms 10 Years Ago Would Be Worth This Much Today",
@@ -335,35 +301,6 @@
         "sentiment": 0.15,
         "confidence": 0.3,
         "reason": "S&P earnings growth lowered valuation; largely backward-looking"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62632804",
-    "created_at": "2026-10-27T18:42:47Z",
-    "headline": "AI's Biggest Constraint Could Be Capital Availability\u2014Anthropic, Meta And SpaceX Put Markets To The Test",
-    "url": "https://www.benzinga.com/opinion/26/10/62632804/ai-biggest-constraint-could-be-capital-availability-anthropic-meta-and-spacex-put-markets-to-the-test",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "AI capital financing strain could pressure AI-linked demand narrative"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Meta financing needs tested by markets; capital availability concern"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "AI capex financing concerns weigh on mega-cap tech"
       }
     ],
     "scorer": "claude"
@@ -2092,6 +2029,142 @@
     "source": "benzinga",
     "market_risk": 0.05,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669893",
+    "created_at": "2026-10-28T18:47:48Z",
+    "headline": "Fed Chair Warsh Says I Am Not Some Kind Of All-knowing Person Sending Messages Out; Do Not Anticipate Issuing A Policy Statement At Strategy Meetings; Decision On New Format For FOMC Meetings Is New, Details Are Still To Come, \"No Ifs And Or Buts, We Will Deliver Price Stability\"; 5 Task Forces Are Hard At Work, Have Done Periodic Check-Ins; Some Of The Task Forces Will Hit Year-End Deadline; What We've Done in Monetary Medicine Starting to Work Some, No Firm Conclusion",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62669893/fed-chair-warsh-says-i-am-not-some-kind-all-knowing-person-sending-messages-out-do-not-anticipate-is",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Fed chair says inflation expectations improving; mostly routine remarks"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669704",
+    "created_at": "2026-10-28T18:42:52Z",
+    "headline": "Fed Chair Warsh Says Inflation Expectations Have Gone The Right Way; Inflation Expectations, Amid Unsettled World, Have Gone The Right Way; I Feel Good About The Signposts; Period In Front Of Us Is Information Rich; Encouraged By Progress We've Made; We're Working On Delivery Price Stability; The Overwhelming Judgement At The FOMC Is That Monetary Medicine Is Starting To Work; We Decided To Take Stock Of Where We Are, Ask If Period Ahead Will Provide More Clarity, Our Judgement Is That It Would",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62669704/fed-chair-warsh-says-inflation-expectations-have-gone-right-way-inflation-expectations-amid-unsettle",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Fed sees inflation expectations improving and monetary policy working"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669611",
+    "created_at": "2026-10-28T18:40:28Z",
+    "headline": "Fed Chair Warsh Says Since Policy Action In September We Have Started To See Changes In Financial, Credit Conditions; Ensuring Price Stability Is Not About A Fixed Date On A Calendar; Ensuring Price Stability, Quashing Inflation, Is Not About An Individual Date, Or An Isolated Data Point; The Fed Has Put In Place 'New Monetary Medicine';  In September We Removed A Dose Of Accommodation; Inflation Compensation As Measured By Swaps Is Going The Right Way",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62669611/fed-chair-warsh-says-policy-action-september-we-have-started-see-changes-financial-credit-conditions",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Fed notes tightening financial conditions and falling inflation swap compensation"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669506",
+    "created_at": "2026-10-28T18:37:55Z",
+    "headline": "Fed's Warsh Says Information In Coming Period Will Help Us Determine Where We Want Policy To Be; We've Decided To Change FOMC Schedule Next Fall; 8 Meetings Is Right Number A Year; One Meeting Will Not Have A Vote On Policy Rate; One Meeting Will Be Focused On Strategy; Expect In 2028 To Have 6 Policy-Setting Meetings; Important To Reserve Time And Space For Strategic Deliberations, Looking Out Over Longer Time Horizons; New Schedule Will Affect Nature, Quality Of Deliberations",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62669506/fed-s-warsh-says-information-coming-period-will-help-us-determine-where-we-want-policy-be-we-ve-deci",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "FOMC meeting schedule change; procedural, no policy signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669448",
+    "created_at": "2026-10-28T18:36:41Z",
+    "headline": "Fed Chair Warsh Says Discussed Geopolitics, Technology; Not Surprised By Financial Market Volatility; Not Surprised By Market Volatility Bouts; Real Activity Pointing In Right Direction; Inflation Is Too High; Our Job Is To Ensure That Relative Price Changes In Some Sectors Do Not Broaden; Our Job Is To Ensure That Relative Price Changes Do Not Broaden Out, And That Inflation Expectations Remain Anchored As They Are; Made Clear Our Readiness To Act",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62669448/fed-chair-warsh-says-discussed-geopolitics-technology-not-surprised-financial-market-volatility-not-",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.35,
+        "reason": "Fed says inflation too high and ready to act; market volatility noted"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669436",
+    "created_at": "2026-10-28T18:36:27Z",
+    "headline": "Meta Platforms Delaying Indefinitely Rollout Of Its New Commercial Terms; Consultation With Publishers' On This Topic Could Extend Beyond November 20, In Which Case Meta Would Delay Implementation Of Updated Terms; Until Then, Meta's Existing Terms Remain In Place",
+    "url": "https://www.benzinga.com/news/26/10/62669436/meta-platforms-delaying-indefinitely-rollout-its-new-commercial-terms-consultation-publishers-topic-",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Meta delays new publisher terms pending consultation; modest relief for publishers"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669367",
+    "created_at": "2026-10-28T18:35:07Z",
+    "headline": "Fed Chair Warsh Says Our Responsibility Is To Get Inflation Down; Discussion Focused Mostly On Inflation; Discussion At Fed Focused Mainly On Price Stability Remit; Credit Conditions Have Tightened; Market Participants More Discerning In Capital Allocations; Unwilling And Unable To Call Financial Conditions Tight; Committee Had A Good Discussion; But They Go In Direction Of More Durable Economic Growth, Price Stability",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62669367/fed-chair-warsh-says-our-responsibility-get-inflation-down-discussion-focused-mostly-inflation-discu",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.35,
+        "reason": "Fed says credit conditions tightened; focus remains on bringing inflation down"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669331",
+    "created_at": "2026-10-28T18:33:50Z",
+    "headline": "Fed Chair Warsh Says The Committee Believes More Information Will Help Determine Appropriate Policy Stance; Committee Is Looking Out The Window, Has Not Grown Easier; Growth Has Strengthened; Q3 GDP Likely Above 3%; Business Investment Likely Rising By Double Digits; Business Investment Likely Rising At Double-Digit Pace; Payroll Growth Above Last Year's Pace; Employment Conditions Are Positive",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62669331/fed-chair-warsh-says-committee-believes-more-information-will-help-determine-appropriate-policy-stan",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.35,
+        "reason": "Strong Q3 GDP and payroll growth, though Fed has not turned easier"
+      }
+    ],
     "scorer": "claude"
   }
 ]
