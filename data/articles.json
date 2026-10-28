@@ -1,120 +1,5 @@
 [
   {
-    "id": "62632309",
-    "created_at": "2026-10-27T18:23:56Z",
-    "headline": "Xylem Stock Plunges to 52-Week Low After Slashing 2026 Profit Outlook",
-    "url": "https://www.benzinga.com/markets/earnings/26/10/62632309/xylem-stock-plunges-to-52-week-low-after-slashing-2026-profit-outlook",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62631669",
-    "created_at": "2026-10-27T18:04:33Z",
-    "headline": "Nate Silver: Iran War Looms Over Senate Fight That Could Mark 'End of the Trump Era'",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62631669/nate-silver-iran-war",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "105164575",
-    "created_at": "2026-10-27T18:01:48Z",
-    "headline": "JPMorgan Chase's Strategic Investment Group Leads $2.1 Billion Funding for Re:Build",
-    "url": "https://www.globenewswire.com/news-release/2026/10/27/3389070/0/en/re-build-announces-2-1-billion-to-accelerate-america-s-reindustrialization.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Minor deal participation by investment arm; limited earnings impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "105164574",
-    "created_at": "2026-10-27T18:01:48Z",
-    "headline": "J.P. Morgan Asset Management Integrates 55ip Tax Technology into Anthropic's Claude for Financial Advisors",
-    "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-managements-55ip-working-with-anthropic-to-deliver-tax-smart-technology-within-claude-for-financial-advisors-302921009.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Product integration with Anthropic platform; immaterial to near-term results"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "105163190",
-    "created_at": "2026-10-27T18:01:33Z",
-    "headline": "ExxonMobil Exits Venezuela Operations",
-    "url": "https://energynow.ca/2026/02/whats-the-status-of-international-oil-companies-in-venezuela/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Exit from Venezuela removes minor production; likely largely priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "105163189",
-    "created_at": "2026-10-27T18:01:31Z",
-    "headline": "Microsoft Releases Emergency .NET Patches for Critical Vulnerabilities",
-    "url": "https://www.securitymagazine.com/articles/102699-microsoft-releases-emergency-net-patches",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "105163186",
-    "created_at": "2026-10-27T18:01:26Z",
-    "headline": "Apple Creator Studio Update Adds MotionVFX and AI Assistants",
-    "url": "https://appleosophy.com/wire/x2n4dvt/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Software feature update; minimal expected financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "105163185",
-    "created_at": "2026-10-27T18:01:23Z",
-    "headline": "NVIDIA Vera Rubin NVL72 and Vera CPUs Generally Available on Oracle Cloud Infrastructure",
-    "url": "https://www.globenewswire.com/news-release/2026/10/27/3389428/0/en/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.5,
-        "reason": "Vera Rubin systems available on Oracle cloud supports AI demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62634379",
     "created_at": "2026-10-27T19:30:44Z",
     "headline": "Microsoft, Alphabet On Deck Wednesday As AI Spending, Cloud Growth Face Test",
@@ -1982,6 +1867,231 @@
         "reason": "Renewed Iran conflict risk could lift oil prices"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669281",
+    "created_at": "2026-10-28T18:32:05Z",
+    "headline": "'U.S. DOJ Examining NVIDIA Acquisition Of AI Platform Hugging Face, Two People Say' - Reuters Exclusive",
+    "url": "https://www.benzinga.com/m/26/10/62669281/u-s-doj-examining-nvidia-acquisition-ai-platform-hugging-face-two-people-say-reuters-exclusive",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "DOJ antitrust scrutiny of Hugging Face acquisition could delay or complicate deal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62669263",
+    "created_at": "2026-10-28T18:31:44Z",
+    "headline": "Fed Holds Rates, but Two Officials Push for Hike as Polymarket December Odds Hit 82%",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62669263/fed-december-hike",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.4,
+        "confidence": 0.6,
+        "reason": "Hawkish Fed dissent and 82% December hike odds pressure growth multiples"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62668763",
+    "created_at": "2026-10-28T18:15:54Z",
+    "headline": "Fitch Ratings Says Emerging Threats To AI Capex Boom, Geopolitical Risks In Middle East, Tightened Funding Point To Heightened Risk Environment Into 2027; Material Reassessment Of Long-Term AI Monetization Prospects Could Result In Reduction In Capex, With Implications Across AI Value Chain; If Oil Supplies Through Hormuz Strait Continue To Be Hampered Beyond 1Q27, Then Higher Oil Price Scenario Than Our Base Case Would Materialize",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668763/fitch-ratings-says-emerging-threats-ai-capex-boom-geopolitical-risks-middle-east-tightened-funding-p",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.45,
+        "reason": "Fitch flags AI capex slowdown risk and Hormuz oil supply disruption"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62668312",
+    "created_at": "2026-10-28T18:04:24Z",
+    "headline": "'Iran Pressed To Make Nuke Concessions As Massive Post-Midterms Strikes Loom' - Axios",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668312/iran-pressed-make-nuke-concessions-massive-post-midterms-strikes-loom-axios",
+    "source": "benzinga",
+    "market_risk": 0.5,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Reported looming US strikes on Iran raise geopolitical risk premium"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Middle East escalation risk tends to lift oil prices and energy stocks"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62668264",
+    "created_at": "2026-10-28T18:03:18Z",
+    "headline": "American Electric Power CEO Sees Once-In-A-Generation Opportunity in Electricity Demand",
+    "url": "https://www.benzinga.com/markets/earnings/26/10/62668264/american-electric-power-ceo-sees-once-in-a-generation-opportunity-in-electricity-demand",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62668212",
+    "created_at": "2026-10-28T18:01:44Z",
+    "headline": "Fed Vote In Favor Of Policy Was 10-2, With Governor Lisa Cook And Cleveland Fed President Beth Hammack Dissenting In Favor Of A 25-Basis-Point Hike",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668212/fed-vote-favor-policy-was-10-2-governor-lisa-cook-and-cleveland-fed-president-beth-hammack-dissentin",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Two dissents favoring a rate hike signal tightening bias"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "106328767",
+    "created_at": "2026-10-28T18:01:33Z",
+    "headline": "Apple Announces Redesigned MacBook Pro with Touchscreen and OLED Display",
+    "url": "https://appleosophy.com/wire/zod8kwv/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.15,
+        "confidence": 0.4,
+        "reason": "Touchscreen and OLED MacBook Pro refresh could support upgrade cycle"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62668177",
+    "created_at": "2026-10-28T18:01:15Z",
+    "headline": "Federal Reserve Leaves Key Overnight Interest Rate Unchanged In 3.75-4.00% Range, Says Accumulation Of More Information Will Help Determine Appropriate Policy Stance; Says Inflation Remains Elevated; Economic Activity Expanding At A 'Strong' Pace; Job Gains Have Kept Pace With Workforce, Unemployment Rate Has Changed Little; Productivity Growth Is Strong, Capital Investment Is Robust; Domestic Spending Has Been Resilient Despite Elevated Uncertainty",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668177/federal-reserve-leaves-key-overnight-interest-rate-unchanged-3-75-4-00-range-says-accumulation-more-",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Hold with inflation still elevated; strong growth limits near-term easing hopes"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62668150",
+    "created_at": "2026-10-28T18:00:35Z",
+    "headline": "Federal Reserve Issues FOMC Statement For October 27-28, 2026 (Link In Body)",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668150/federal-reserve-issues-fomc-statement-october-27-28-2026-link-body",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62668119",
+    "created_at": "2026-10-28T18:00:10Z",
+    "headline": "USA Fed Interest Rate Decision 4.00% Vs 4.00% Est. (Unchanged)",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62668040",
+    "created_at": "2026-10-28T17:57:46Z",
+    "headline": "'U.S. Banking Regulator Warns Hundreds About Potential Job Cuts' - Bloomberg Law",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668040/u-s-banking-regulator-warns-hundreds-about-potential-job-cuts-bloomberg-law",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62667278",
+    "created_at": "2026-10-28T17:36:38Z",
+    "headline": "Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional'",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62667278/eisman-anthropic-ipo",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Analyst claims Anthropic hid slowing Q3 growth; dents AI investment narrative"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Analyst claims Anthropic hid slowing Q3 growth; dents AI investment narrative"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62667232",
+    "created_at": "2026-10-28T17:35:47Z",
+    "headline": "Alphabet\u2019s $514 Billion Google Cloud Backlog, AI Spending Put 2027 Growth in Focus, Says Analyst",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62667232/alphabets-514-billion-google-cloud-backlog-ai-spending-put-2027-growth-in-focus-says-analyst",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Analyst forecasts strong Google Cloud growth and large backlog ahead of earnings"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62667211",
+    "created_at": "2026-10-28T17:35:11Z",
+    "headline": "10 Communication Services Stocks Whale Activity In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/10/62667211/10-communication-services-stocks-whale-activity-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62667208",
+    "created_at": "2026-10-28T17:35:11Z",
+    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/10/62667208/10-information-technology-stocks-whale-activity-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
     "scorer": "claude"
   }
 ]

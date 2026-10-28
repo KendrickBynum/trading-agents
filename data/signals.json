@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-10-28T17:35:20.369995+00:00",
-  "market_risk": 0.098,
+  "generated_at": "2026-10-28T18:35:18.319053+00:00",
+  "market_risk": 0.118,
   "tickers": {
     "SPY": {
-      "score": -0.299,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.276,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Fitch Ratings Says Emerging Threats To AI Capex Boom, Geopolitical Risks In Middle East, Tightened Funding Point To Heightened Risk Environment Into 2027; Material Reassessment Of Long-Term AI Monetization Prospects Could Result In Reduction In Capex, With Implications Across AI Value Chain; If Oil Supplies Through Hormuz Strait Continue To Be Hampered Beyond 1Q27, Then Higher Oil Price Scenario Than Our Base Case Would Materialize",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668763/fitch-ratings-says-emerging-threats-ai-capex-boom-geopolitical-risks-middle-east-tightened-funding-p",
+          "time": "2026-10-28T18:15:54Z",
+          "sentiment": -0.3,
+          "reason": "Fitch flags AI capex slowdown risk and Hormuz oil supply disruption"
+        },
+        {
+          "headline": "'Iran Pressed To Make Nuke Concessions As Massive Post-Midterms Strikes Loom' - Axios",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668312/iran-pressed-make-nuke-concessions-massive-post-midterms-strikes-loom-axios",
+          "time": "2026-10-28T18:04:24Z",
+          "sentiment": -0.3,
+          "reason": "Reported looming US strikes on Iran raise geopolitical risk premium"
+        },
+        {
+          "headline": "Fed Vote In Favor Of Policy Was 10-2, With Governor Lisa Cook And Cleveland Fed President Beth Hammack Dissenting In Favor Of A 25-Basis-Point Hike",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668212/fed-vote-favor-policy-was-10-2-governor-lisa-cook-and-cleveland-fed-president-beth-hammack-dissentin",
+          "time": "2026-10-28T18:01:44Z",
+          "sentiment": -0.2,
+          "reason": "Two dissents favoring a rate hike signal tightening bias"
+        },
         {
           "headline": "Reported Earlier: 'U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms' - WSJ",
           "url": "https://www.benzinga.com/news/26/10/62664845/reported-earlier-u-s-warns-gulf-possible-short-intense-renewal-iran-war-after-midterms-wsj",
@@ -24,10 +45,17 @@
       ]
     },
     "QQQ": {
-      "score": 0.043,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.238,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Fed Holds Rates, but Two Officials Push for Hike as Polymarket December Odds Hit 82%",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62669263/fed-december-hike",
+          "time": "2026-10-28T18:31:44Z",
+          "sentiment": -0.4,
+          "reason": "Hawkish Fed dissent and 82% December hike odds pressure growth multiples"
+        },
         {
           "headline": "Dot-Com Style Rotation? Strategists Warn Improving Market Breadth Could Be A Bull Trap: 'Be Careful What You Wish For'",
           "url": "https://www.benzinga.com/markets/market-summary/26/10/62655533/dot-com-style-rotation-strategists-warn-improving-market-breadth-could-be-a-bull-trap-be-careful-what-you-wish-for",
@@ -45,10 +73,17 @@
       ]
     },
     "AAPL": {
-      "score": -0.009,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.073,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Apple Announces Redesigned MacBook Pro with Touchscreen and OLED Display",
+          "url": "https://appleosophy.com/wire/zod8kwv/",
+          "time": "2026-10-28T18:01:33Z",
+          "sentiment": 0.15,
+          "reason": "Touchscreen and OLED MacBook Pro refresh could support upgrade cycle"
+        },
         {
           "headline": "Apple Teases Redesigned MacBook Pro Launch",
           "url": "https://appleosophy.com/wire/3canuxq/",
@@ -87,10 +122,17 @@
       ]
     },
     "NVDA": {
-      "score": 0.02,
+      "score": -0.105,
       "articles": 9,
       "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "'U.S. DOJ Examining NVIDIA Acquisition Of AI Platform Hugging Face, Two People Say' - Reuters Exclusive",
+          "url": "https://www.benzinga.com/m/26/10/62669281/u-s-doj-examining-nvidia-acquisition-ai-platform-hugging-face-two-people-say-reuters-exclusive",
+          "time": "2026-10-28T18:32:05Z",
+          "sentiment": -0.3,
+          "reason": "DOJ antitrust scrutiny of Hugging Face acquisition could delay or complicate deal"
+        },
         {
           "headline": "Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62657416/micron-stock-gains-as-sk-hynix-reports-record-revenue-above-100-trillion-won",
@@ -118,21 +160,21 @@
           "time": "2026-10-28T06:46:31Z",
           "sentiment": -0.2,
           "reason": "Gap-closing narrative implies relative weakness versus Apple"
-        },
-        {
-          "headline": "Michael Burry Says Anthropic\u2019s IPO Filing Has a Lot, but \u2018Nothing That Changes\u2019 His View: Big Short Investor Calls Out \u2018Slowing\u2019 Revenue Growth",
-          "url": "https://www.benzinga.com/markets/ipos/26/10/62643124/michael-burry-anthropic-s1-nothing-that-changes-my-view-slowing-growth",
-          "time": "2026-10-28T04:49:45Z",
-          "sentiment": -0.3,
-          "reason": "Burry warns of slowing AI growth; sentiment negative but opinion-driven"
         }
       ]
     },
     "AMZN": {
-      "score": 0.079,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.036,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional'",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62667278/eisman-anthropic-ipo",
+          "time": "2026-10-28T17:36:38Z",
+          "sentiment": -0.2,
+          "reason": "Analyst claims Anthropic hid slowing Q3 growth; dents AI investment narrative"
+        },
         {
           "headline": "Michael Burry Finds a $537 Billion Hole in Anthropic\u2019s IPO Story",
           "url": "https://www.benzinga.com/markets/ipos/26/10/62659397/michael-burry-finds-a-537-billion-hole-in-anthropics-ipo-story",
@@ -164,10 +206,24 @@
       ]
     },
     "GOOGL": {
-      "score": 0.194,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.181,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional'",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62667278/eisman-anthropic-ipo",
+          "time": "2026-10-28T17:36:38Z",
+          "sentiment": -0.2,
+          "reason": "Analyst claims Anthropic hid slowing Q3 growth; dents AI investment narrative"
+        },
+        {
+          "headline": "Alphabet\u2019s $514 Billion Google Cloud Backlog, AI Spending Put 2027 Growth in Focus, Says Analyst",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62667232/alphabets-514-billion-google-cloud-backlog-ai-spending-put-2027-growth-in-focus-says-analyst",
+          "time": "2026-10-28T17:35:47Z",
+          "sentiment": 0.4,
+          "reason": "Analyst forecasts strong Google Cloud growth and large backlog ahead of earnings"
+        },
         {
           "headline": "Google Introduces Gemini 4 Carbon: Gemini 4 Carbon Is Our Strongest Model With State-Of-The-Art Cybersecurity And Long Horizon Capabilities.",
           "url": "https://www.benzinga.com/news/26/10/62667030/google-introduces-gemini-4-carbon-gemini-4-carbon-our-strongest-model-state-art-cybersecurity-and-lo",
@@ -188,20 +244,6 @@
           "time": "2026-10-28T15:00:19Z",
           "sentiment": -0.15,
           "reason": "Analysis flags ad business cannibalization risk from AI success"
-        },
-        {
-          "headline": "Michael Burry Finds a $537 Billion Hole in Anthropic\u2019s IPO Story",
-          "url": "https://www.benzinga.com/markets/ipos/26/10/62659397/michael-burry-finds-a-537-billion-hole-in-anthropics-ipo-story",
-          "time": "2026-10-28T14:43:01Z",
-          "sentiment": -0.15,
-          "reason": "Burry skepticism on Anthropic compute commitments; GOOGL is an investor"
-        },
-        {
-          "headline": "Korea Media And Communications Commission Orders Google And Apple To Allow External Payments, Improve Commission Structures; Imposes KRW 42.9B (~$32M) Penalty On Google, KRW 20.81B On Apple",
-          "url": "https://www.benzinga.com/quote/GOOGL",
-          "time": "2026-10-28T08:03:38Z",
-          "sentiment": -0.15,
-          "reason": "Korean order forces external payments and Play commission changes"
         }
       ]
     },
@@ -262,10 +304,17 @@
       ]
     },
     "XOM": {
-      "score": 0.022,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.088,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "'Iran Pressed To Make Nuke Concessions As Massive Post-Midterms Strikes Loom' - Axios",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668312/iran-pressed-make-nuke-concessions-massive-post-midterms-strikes-loom-axios",
+          "time": "2026-10-28T18:04:24Z",
+          "sentiment": 0.3,
+          "reason": "Middle East escalation risk tends to lift oil prices and energy stocks"
+        },
         {
           "headline": "Reported Earlier: 'U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms' - WSJ",
           "url": "https://www.benzinga.com/news/26/10/62664845/reported-earlier-u-s-warns-gulf-possible-short-intense-renewal-iran-war-after-midterms-wsj",
@@ -293,13 +342,6 @@
           "time": "2026-10-28T14:21:18Z",
           "sentiment": -0.15,
           "reason": "Hormuz bypass pipeline reduces chokepoint risk premium on oil"
-        },
-        {
-          "headline": "Trump Says Iran Wants a Deal as 1 Million Barrels of Venezuelan Oil Arrive in Texas Ahead of Midterms: 'It's a Question of When Do I Want to End It'",
-          "url": "https://www.benzinga.com/news/politics/26/10/62644224/trump-says-iran-wants-a-deal-as-1-million-barrels-of-venezuelan-oil-arrive-in-texas-ahead-of-midterms-its-a-question-of-when-do-i-want-to-end-it",
-          "time": "2026-10-28T07:37:51Z",
-          "sentiment": -0.2,
-          "reason": "Iran deal talk and added Venezuelan supply could pressure oil prices"
         }
       ]
     }
