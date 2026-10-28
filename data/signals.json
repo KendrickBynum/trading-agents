@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-10-28T19:35:18.233749+00:00",
-  "market_risk": 0.127,
+  "generated_at": "2026-10-28T23:13:34.920405+00:00",
+  "market_risk": 0.112,
   "tickers": {
     "SPY": {
-      "score": -0.259,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.176,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "On CNBC, Treasury Secretary Bessent Said Consumer Behavior Is Quite Strong, Business Behavior Is Quite Strong; In General The Trade Deals Are Pretty Locked In",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-10-28T21:20:10Z",
+          "sentiment": 0.2,
+          "reason": "Treasury says consumer and business activity strong; mildly supportive"
+        },
+        {
+          "headline": "'Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks'- WSJ Exclusive",
+          "url": "https://www.benzinga.com/news/26/10/62677203/vance-reaches-out-iranian-hard-liner-bid-restart-peace-talks-wsj-exclusive",
+          "time": "2026-10-28T20:38:05Z",
+          "sentiment": 0.2,
+          "reason": "Renewed Iran peace-talk efforts modestly reduce geopolitical risk"
+        },
+        {
+          "headline": "Live On CNBC, Treasury Secretary Bessent Says Operation Economic Outcast Against Iran Has Been Very Successful, Currency Has Collapsed",
+          "url": "https://www.benzinga.com/news/26/10/62675546/live-cnbc-treasury-secretary-bessent-says-operation-economic-outcast-against-iran-has-been-very-succ",
+          "time": "2026-10-28T20:20:25Z",
+          "sentiment": -0.3,
+          "reason": "Reported Iran operation and currency collapse signal geopolitical and market stress"
+        },
         {
           "headline": "Fed Chair Warsh Says In The Long Term Most Measures Have Confidence Central Bank Will Deliver Price Stability; We Are Tightening Financial Conditions; It Tells Me Our Policy Is Working, Not Uncomfortable With It, Tells Me Policy Is Working; Asked About Proceedings On Gov Cook, Says Fed Is 'Not To My Knowledge' Going To Be Involved",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670627/fed-chair-warsh-says-long-term-most-measures-have-confidence-central-bank-will-deliver-price-stabili",
@@ -20,27 +41,6 @@
           "time": "2026-10-28T18:57:18Z",
           "sentiment": -0.25,
           "reason": "Credit spreads widening and rates weighing on conditions; hawkish"
-        },
-        {
-          "headline": "Fitch Ratings Says Emerging Threats To AI Capex Boom, Geopolitical Risks In Middle East, Tightened Funding Point To Heightened Risk Environment Into 2027; Material Reassessment Of Long-Term AI Monetization Prospects Could Result In Reduction In Capex, With Implications Across AI Value Chain; If Oil Supplies Through Hormuz Strait Continue To Be Hampered Beyond 1Q27, Then Higher Oil Price Scenario Than Our Base Case Would Materialize",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668763/fitch-ratings-says-emerging-threats-ai-capex-boom-geopolitical-risks-middle-east-tightened-funding-p",
-          "time": "2026-10-28T18:15:54Z",
-          "sentiment": -0.3,
-          "reason": "Fitch flags AI capex slowdown risk and Hormuz oil supply disruption"
-        },
-        {
-          "headline": "'Iran Pressed To Make Nuke Concessions As Massive Post-Midterms Strikes Loom' - Axios",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668312/iran-pressed-make-nuke-concessions-massive-post-midterms-strikes-loom-axios",
-          "time": "2026-10-28T18:04:24Z",
-          "sentiment": -0.3,
-          "reason": "Reported looming US strikes on Iran raise geopolitical risk premium"
-        },
-        {
-          "headline": "Fed Vote In Favor Of Policy Was 10-2, With Governor Lisa Cook And Cleveland Fed President Beth Hammack Dissenting In Favor Of A 25-Basis-Point Hike",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668212/fed-vote-favor-policy-was-10-2-governor-lisa-cook-and-cleveland-fed-president-beth-hammack-dissentin",
-          "time": "2026-10-28T18:01:44Z",
-          "sentiment": -0.2,
-          "reason": "Two dissents favoring a rate hike signal tightening bias"
         }
       ]
     },
@@ -108,31 +108,73 @@
       ]
     },
     "MSFT": {
-      "score": -0.031,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.368,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
         {
-          "headline": "Michael Burry Finds a $537 Billion Hole in Anthropic\u2019s IPO Story",
-          "url": "https://www.benzinga.com/markets/ipos/26/10/62659397/michael-burry-finds-a-537-billion-hole-in-anthropics-ipo-story",
-          "time": "2026-10-28T14:43:01Z",
-          "sentiment": -0.15,
-          "reason": "Burry skepticism on AI compute spending and Anthropic exposure"
+          "headline": "Microsoft Sees Q2 Sales $96.000B-$97.100B vs $95.616B Est",
+          "url": "https://www.benzinga.com/news/26/10/62680302/microsoft-sees-q2-sales-96-000b-97-100b-vs-95-616b-est",
+          "time": "2026-10-28T22:01:25Z",
+          "sentiment": 0.4,
+          "reason": "Q2 sales guidance midpoint above $95.6B consensus estimate"
         },
         {
-          "headline": "Nasdaq Jumps Over 300 Points Amid Surge In Chip Stocks: Investor Sentiment Improves, Greed Index Remains In \u2018Fear\u2019 Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/10/62643930/nasdaq-jumps-over-300-points-amid-surge-in-chip-stocks-investor-sentiment-improves-greed-index-remains-in-fear-zone",
-          "time": "2026-10-28T07:02:08Z",
+          "headline": "Microsoft CFO Says Q2 Agents And Infra Revenue Expected To Be $80.1B To $80.7B; Q2 Azure Growth Expected To Be 49%",
+          "url": "https://www.benzinga.com/news/26/10/62680277/microsoft-cfo-says-q2-agents-and-infra-revenue-expected-be-80-1b-80-7b-q2-azure-growth-expected-be-4",
+          "time": "2026-10-28T22:00:32Z",
+          "sentiment": 0.45,
+          "reason": "Strong Q2 Azure growth guidance of 49% and higher AI revenue outlook"
+        },
+        {
+          "headline": "Microsoft CFO Says Paid M365 Commercial Seats Grew 5%, With Some Impact From Weaker Sales Execution",
+          "url": "https://www.benzinga.com/news/26/10/62680237/microsoft-cfo-says-paid-m365-commercial-seats-grew-5-some-impact-weaker-sales-execution",
+          "time": "2026-10-28T21:57:29Z",
+          "sentiment": -0.2,
+          "reason": "Commercial seat growth of 5% hurt by weaker sales execution"
+        },
+        {
+          "headline": "Microsoft CFO Says Roughly 30% Of Cloud Business RPO Will Be Recognized In Revenue In The Next 12 Months",
+          "url": "https://www.benzinga.com/news/26/10/62680174/microsoft-cfo-says-roughly-30-cloud-business-rpo-will-be-recognized-revenue-next-12-months",
+          "time": "2026-10-28T21:54:36Z",
           "sentiment": 0.2,
-          "reason": "Broad tech and chip rally lifts large-cap tech sentiment"
+          "reason": "About 30% of cloud RPO converting to revenue within 12 months supports visibility"
+        },
+        {
+          "headline": "Microsoft CFO Says Capital Expenditures Were Lower Than Guidance In Q1 As Some Third-Party Capacity Deliveries We Expected In Q1 Were Delayed",
+          "url": "https://www.benzinga.com/news/26/10/62680131/microsoft-cfo-says-capital-expenditures-were-lower-guidance-q1-some-third-party-capacity-deliveries-",
+          "time": "2026-10-28T21:51:46Z",
+          "sentiment": -0.2,
+          "reason": "Capex below guidance due to delayed third-party capacity deliveries"
         }
       ]
     },
     "NVDA": {
-      "score": -0.157,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.085,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Microsoft CFO Says Roughly Three Quarters Of Capex Was For Short-Lived Assets, Primarily CPUs And GPUs, Including Higher Memory And Storage Costs",
+          "url": "https://www.benzinga.com/news/26/10/62680161/microsoft-cfo-says-roughly-three-quarters-capex-was-short-lived-assets-primarily-cpus-and-gpus-inclu",
+          "time": "2026-10-28T21:53:38Z",
+          "sentiment": 0.2,
+          "reason": "Heavy capex on CPUs and GPUs signals continued AI infrastructure demand"
+        },
+        {
+          "headline": "Microsoft CEO Says Accelerating Demand Led to Us Adding 24 New Data Centers Across Five Continents This Quarter",
+          "url": "https://www.benzinga.com/news/26/10/62680068/microsoft-ceo-says-accelerating-demand-led-us-adding-24-new-data-centers-across-five-continents-quar",
+          "time": "2026-10-28T21:49:07Z",
+          "sentiment": 0.3,
+          "reason": "New data center buildout points to stronger AI accelerator demand"
+        },
+        {
+          "headline": "US Department of Justice Investigating NVIDIA's Acquisition of Hugging Face",
+          "url": "https://www.marketscreener.com/news/doj-probes-nvidia-s-hugging-face-deal-over-ai-competition-ce785cd3d98bf223",
+          "time": "2026-10-28T21:32:28Z",
+          "sentiment": -0.4,
+          "reason": "DOJ antitrust inquiry into Hugging Face acquisition adds regulatory overhang"
+        },
         {
           "headline": "'U.S. DOJ Examining NVIDIA Acquisition Of AI Platform Hugging Face, Two People Say' - Reuters Exclusive",
           "url": "https://www.benzinga.com/m/26/10/62669281/u-s-doj-examining-nvidia-acquisition-ai-platform-hugging-face-two-people-say-reuters-exclusive",
@@ -146,27 +188,6 @@
           "time": "2026-10-28T14:07:56Z",
           "sentiment": 0.2,
           "reason": "Memory peer record results lift AI hardware sentiment in sympathy"
-        },
-        {
-          "headline": "'OpenAI, a Longtime Nvidia Customer, Plans to Buy Google\u2019s AI Chips' - The Information",
-          "url": "https://www.benzinga.com/news/26/10/62644395/openai-longtime-nvidia-customer-plans-buy-google-s-ai-chips-information",
-          "time": "2026-10-28T07:51:40Z",
-          "sentiment": -0.3,
-          "reason": "Longtime customer OpenAI reportedly shifting some AI chip buying to Google"
-        },
-        {
-          "headline": "Nasdaq Jumps Over 300 Points Amid Surge In Chip Stocks: Investor Sentiment Improves, Greed Index Remains In \u2018Fear\u2019 Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/10/62643930/nasdaq-jumps-over-300-points-amid-surge-in-chip-stocks-investor-sentiment-improves-greed-index-remains-in-fear-zone",
-          "time": "2026-10-28T07:02:08Z",
-          "sentiment": 0.2,
-          "reason": "Surge in chip stocks supports Nvidia sentiment"
-        },
-        {
-          "headline": "Apple Is Breaking Away From Big Tech in a Way Wall Street Has Rarely Seen: \u2018Unprecedented\u2019",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62643849/apple-is-breaking-away-from-big-tech-in-a-way-wall-street-has-rarely-seen-unprecedented",
-          "time": "2026-10-28T06:46:31Z",
-          "sentiment": -0.2,
-          "reason": "Gap-closing narrative implies relative weakness versus Apple"
         }
       ]
     },
@@ -199,51 +220,51 @@
       ]
     },
     "GOOGL": {
-      "score": 0.179,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.14,
+      "articles": 27,
+      "ai_articles": 27,
       "headlines": [
         {
-          "headline": "Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional'",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62667278/eisman-anthropic-ipo",
-          "time": "2026-10-28T17:36:38Z",
-          "sentiment": -0.2,
-          "reason": "Analyst claims Anthropic hid slowing Q3 growth; dents AI investment narrative"
+          "headline": "QUICK SPARK: Elon Musk Has One-Word Verdict on Google's Gemini 4 Carbon",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62680620/elon-musk-has-a-one-word-verdict",
+          "time": "2026-10-28T22:14:18Z",
+          "sentiment": 0.25,
+          "reason": "Gemini 4 Carbon ranked No. 1 on Artificial Analysis benchmark"
         },
         {
-          "headline": "Alphabet\u2019s $514 Billion Google Cloud Backlog, AI Spending Put 2027 Growth in Focus, Says Analyst",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62667232/alphabets-514-billion-google-cloud-backlog-ai-spending-put-2027-growth-in-focus-says-analyst",
-          "time": "2026-10-28T17:35:47Z",
-          "sentiment": 0.4,
-          "reason": "Analyst forecasts strong Google Cloud growth and large backlog ahead of earnings"
-        },
-        {
-          "headline": "Google Introduces Gemini 4 Carbon: Gemini 4 Carbon Is Our Strongest Model With State-Of-The-Art Cybersecurity And Long Horizon Capabilities.",
-          "url": "https://www.benzinga.com/news/26/10/62667030/google-introduces-gemini-4-carbon-gemini-4-carbon-our-strongest-model-state-art-cybersecurity-and-lo",
-          "time": "2026-10-28T17:28:13Z",
+          "headline": "Alphabet CEO Says We Are Working On Distilled Versions Of Gemini 4 Carbon For More Than 1B Users; Gemini 4 Carbon Will Be Available To Consumers Later This Year",
+          "url": "https://www.benzinga.com/news/26/10/62679001/alphabet-ceo-says-we-are-working-distilled-versions-gemini-4-carbon-more-1b-users-gemini-4-carbon-wi",
+          "time": "2026-10-28T21:15:49Z",
           "sentiment": 0.3,
-          "reason": "New flagship Gemini model launch may boost AI competitiveness"
+          "reason": "Gemini distillation for 1B+ users and consumer launch signal product momentum"
         },
         {
-          "headline": "Alphabet Stock Rises Ahead of Earnings: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62665347/alphabet-stock-rises-ahead-of-earnings-whats-going-on",
-          "time": "2026-10-28T16:47:25Z",
-          "sentiment": 0.5,
-          "reason": "Reports OpenAI plans to buy Google AI chips; ahead of earnings"
+          "headline": "Alphabet Exec Says Nearly 100 Clients Currently Using TPUs, With Strong Demand From Many Others",
+          "url": "https://www.benzinga.com/news/26/10/62678582/alphabet-exec-says-nearly-100-clients-currently-using-tpus-strong-demand-many-others",
+          "time": "2026-10-28T21:08:44Z",
+          "sentiment": 0.4,
+          "reason": "Nearly 100 clients using TPUs with strong further demand"
         },
         {
-          "headline": "Alphabet Has a Strange AI Problem: Success Threatens Its Biggest Money Machine",
-          "url": "https://www.benzinga.com/news/gaming/26/10/62660431/alphabet-has-a-strange-ai-problem-success-threatens-its-biggest-money-machine",
-          "time": "2026-10-28T15:00:19Z",
-          "sentiment": -0.15,
-          "reason": "Analysis flags ad business cannibalization risk from AI success"
+          "headline": "Alphabet Google Cloud CEO Kurian Says Growing Cybersecurity Risks Driving Demand For AI-Powered Security Platform",
+          "url": "https://www.benzinga.com/news/26/10/62678471/alphabet-google-cloud-ceo-kurian-says-growing-cybersecurity-risks-driving-demand-ai-powered-security",
+          "time": "2026-10-28T21:06:35Z",
+          "sentiment": 0.2,
+          "reason": "Cybersecurity AI platform demand growing; modest positive for Cloud"
+        },
+        {
+          "headline": "Alphabet Exec Says TPU System Sales Were A Meaningful Contributor To Google Cloud Growth; Expect To Recognize Just Over 55% Of The Total Backlog As Revenues Over The Next 24 Months; 2026 CAPEX Forecast Remain Unchanged",
+          "url": "https://www.benzinga.com/news/26/10/62678378/alphabet-exec-says-tpu-system-sales-were-meaningful-contributor-google-cloud-growth-expect-recognize",
+          "time": "2026-10-28T21:05:00Z",
+          "sentiment": 0.3,
+          "reason": "TPU sales boost Cloud growth; large backlog converting over 24 months; capex unchanged"
         }
       ]
     },
     "META": {
-      "score": -0.5,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.514,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Meta Increases Equity Offering to $97.5 Billion for AI Infrastructure",
@@ -258,13 +279,6 @@
           "time": "2026-10-28T15:01:31Z",
           "sentiment": -0.3,
           "reason": "Teen mental health trial raises legal and regulatory risk"
-        },
-        {
-          "headline": "Class Action Lawsuit Filed Against Meta Over AI Smart Glasses Privacy",
-          "url": "https://www.classaction.org/news/meta-ai-glasses-secretly-record-conversations-class-action-lawsuit-alleges",
-          "time": "2026-10-27T23:01:33Z",
-          "sentiment": -0.35,
-          "reason": "Privacy class action over smart glasses; legal and reputational overhang, likely modest near-term impact"
         }
       ]
     },
@@ -290,10 +304,24 @@
       ]
     },
     "XOM": {
-      "score": 0.084,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.082,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "'Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks'- WSJ Exclusive",
+          "url": "https://www.benzinga.com/news/26/10/62677203/vance-reaches-out-iranian-hard-liner-bid-restart-peace-talks-wsj-exclusive",
+          "time": "2026-10-28T20:38:05Z",
+          "sentiment": -0.2,
+          "reason": "Peace progress could ease oil supply risk premium"
+        },
+        {
+          "headline": "Live On CNBC, Treasury Secretary Bessent Says Operation Economic Outcast Against Iran Has Been Very Successful, Currency Has Collapsed",
+          "url": "https://www.benzinga.com/news/26/10/62675546/live-cnbc-treasury-secretary-bessent-says-operation-economic-outcast-against-iran-has-been-very-succ",
+          "time": "2026-10-28T20:20:25Z",
+          "sentiment": 0.3,
+          "reason": "Iran conflict may lift oil prices and energy producers"
+        },
         {
           "headline": "'Iran Pressed To Make Nuke Concessions As Massive Post-Midterms Strikes Loom' - Axios",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62668312/iran-pressed-make-nuke-concessions-massive-post-midterms-strikes-loom-axios",
@@ -314,20 +342,6 @@
           "time": "2026-10-28T14:31:59Z",
           "sentiment": -0.2,
           "reason": "Gasoline build far exceeded expected draw; weak fuel demand signal"
-        },
-        {
-          "headline": "USA Crude Oil Inventories 1.892M Barrel Draw vs 0.100M Barrel Build Est.",
-          "url": "https://www.benzinga.com/quote/USO",
-          "time": "2026-10-28T14:31:33Z",
-          "sentiment": 0.3,
-          "reason": "Crude draw versus expected build; bullish supply-demand surprise"
-        },
-        {
-          "headline": "'Adnoc Tells Clients New Hormuz Bypass Pipe to Start Early 2027' - Bloomberg",
-          "url": "https://www.benzinga.com/news/26/10/62658194/adnoc-tells-clients-new-hormuz-bypass-pipe-start-early-2027-bloomberg",
-          "time": "2026-10-28T14:21:18Z",
-          "sentiment": -0.15,
-          "reason": "Hormuz bypass pipeline reduces chokepoint risk premium on oil"
         }
       ]
     }

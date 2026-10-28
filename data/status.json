@@ -1,64 +1,66 @@
 {
-  "last_run": "2026-10-28T19:35:33.643439+00:00",
+  "last_run": "2026-10-28T23:14:06.376356+00:00",
   "paper": true,
-  "market_open": true,
+  "market_open": false,
   "next_open": "2026-10-29T09:30:00-04:00",
-  "equity": 100149.21,
+  "equity": 100389.85,
   "cash": 49974.81,
-  "day_pnl": 53.53,
-  "day_pnl_pct": 0.00053,
+  "day_pnl": 294.17,
+  "day_pnl_pct": 0.00294,
   "starting_equity": 100000.0,
-  "total_pnl": 149.21,
-  "total_pnl_pct": 0.00149,
-  "halts": [],
+  "total_pnl": 389.85,
+  "total_pnl_pct": 0.0039,
+  "halts": [
+    "Market closed"
+  ],
   "last_actions": [],
-  "market_risk": 0.127,
-  "signals_at": "2026-10-28T19:35:18.233749+00:00",
+  "market_risk": 0.112,
+  "signals_at": "2026-10-28T23:13:34.920405+00:00",
   "positions": [
     {
       "symbol": "AAPL",
       "qty": 29.032810229,
       "avg_entry": 344.224342,
-      "price": 344.49,
-      "value": 10001.512796,
-      "pl": 7.712799,
-      "pl_pct": 0.00077
+      "price": 345.75,
+      "value": 10038.094137,
+      "pl": 44.29414,
+      "pl_pct": 0.00443
     },
     {
       "symbol": "AMZN",
       "qty": 40.197155369,
       "avg_entry": 248.89,
-      "price": 254.43,
-      "value": 10227.362241,
-      "pl": 222.692241,
-      "pl_pct": 0.02226
+      "price": 253.13,
+      "value": 10175.105939,
+      "pl": 170.435939,
+      "pl_pct": 0.01704
     },
     {
       "symbol": "MSFT",
       "qty": 18.901462198,
       "avg_entry": 529.371744,
-      "price": 528.83,
-      "value": 9995.660254,
-      "pl": -10.239754,
-      "pl_pct": -0.00102
+      "price": 546.25,
+      "value": 10324.923726,
+      "pl": 319.023718,
+      "pl_pct": 0.03188
     },
     {
       "symbol": "QQQ",
       "qty": 13.843288942,
       "avg_entry": 723.874943,
-      "price": 723.2,
-      "value": 10011.466563,
-      "pl": -9.343431,
-      "pl_pct": -0.00093
+      "price": 719.19,
+      "value": 9955.954974,
+      "pl": -64.85502,
+      "pl_pct": -0.00647
     },
     {
       "symbol": "XOM",
       "qty": 54.504769172,
       "avg_entry": 183.47,
-      "price": 182.34,
-      "value": 9938.399611,
-      "pl": -61.590389,
-      "pl_pct": -0.00616
+      "price": 182.02,
+      "value": 9920.958085,
+      "pl": -79.031915,
+      "pl_pct": -0.0079
     }
   ]
 }
