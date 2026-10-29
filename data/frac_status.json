@@ -1,0 +1,47 @@
+{
+  "time": "2026-10-29T05:36:35.612257+00:00",
+  "halts": [
+    "Market closed"
+  ],
+  "alerts": [],
+  "last_actions": [],
+  "settings": {
+    "limit_atr": 0.25,
+    "stop_atr": 3.0,
+    "buy": 0.357
+  },
+  "learned": {
+    "limit_atr": 0.25,
+    "stop_atr": 3.0,
+    "buy_threshold": 0.357,
+    "adopted_learned": true,
+    "signals": 466,
+    "best_on_train": {
+      "limit_atr": 0.25,
+      "stop_atr": 3.0,
+      "signals": 310,
+      "fill_rate": 0.619,
+      "avg_trade": 0.0103,
+      "win_rate": 0.521,
+      "per_signal": 0.00641
+    },
+    "test_best": {
+      "signals": 156,
+      "fill_rate": 0.647,
+      "avg_trade": 0.0233,
+      "win_rate": 0.535,
+      "per_signal": 0.01512
+    },
+    "test_default": {
+      "signals": 156,
+      "fill_rate": 0.647,
+      "avg_trade": 0.0148,
+      "win_rate": 0.485,
+      "per_signal": 0.00955
+    },
+    "test_period": [
+      "2025-12-03",
+      "2026-10-20"
+    ]
+  }
+}

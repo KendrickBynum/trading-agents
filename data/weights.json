@@ -1,0 +1,305 @@
+{
+  "frac": {
+    "limit_atr": 0.25,
+    "stop_atr": 3.0,
+    "buy_threshold": 0.357,
+    "adopted_learned": true,
+    "signals": 466,
+    "best_on_train": {
+      "limit_atr": 0.25,
+      "stop_atr": 3.0,
+      "signals": 310,
+      "fill_rate": 0.619,
+      "avg_trade": 0.0103,
+      "win_rate": 0.521,
+      "per_signal": 0.00641
+    },
+    "test_best": {
+      "signals": 156,
+      "fill_rate": 0.647,
+      "avg_trade": 0.0233,
+      "win_rate": 0.535,
+      "per_signal": 0.01512
+    },
+    "test_default": {
+      "signals": 156,
+      "fill_rate": 0.647,
+      "avg_trade": 0.0148,
+      "win_rate": 0.485,
+      "per_signal": 0.00955
+    },
+    "test_period": [
+      "2025-12-03",
+      "2026-10-20"
+    ],
+    "grid": [
+      {
+        "limit_atr": 0.0,
+        "stop_atr": 1.5,
+        "signals": 310,
+        "fill_rate": 0.771,
+        "avg_trade": 0.0005,
+        "win_rate": 0.41,
+        "per_signal": 0.00041
+      },
+      {
+        "limit_atr": 0.0,
+        "stop_atr": 2.0,
+        "signals": 310,
+        "fill_rate": 0.771,
+        "avg_trade": 0.0035,
+        "win_rate": 0.431,
+        "per_signal": 0.0027
+      },
+      {
+        "limit_atr": 0.0,
+        "stop_atr": 2.5,
+        "signals": 310,
+        "fill_rate": 0.771,
+        "avg_trade": 0.0034,
+        "win_rate": 0.456,
+        "per_signal": 0.00262
+      },
+      {
+        "limit_atr": 0.0,
+        "stop_atr": 3.0,
+        "signals": 310,
+        "fill_rate": 0.771,
+        "avg_trade": 0.0064,
+        "win_rate": 0.506,
+        "per_signal": 0.00496
+      },
+      {
+        "limit_atr": 0.25,
+        "stop_atr": 1.5,
+        "signals": 310,
+        "fill_rate": 0.619,
+        "avg_trade": 0.0026,
+        "win_rate": 0.422,
+        "per_signal": 0.00163
+      },
+      {
+        "limit_atr": 0.25,
+        "stop_atr": 2.0,
+        "signals": 310,
+        "fill_rate": 0.619,
+        "avg_trade": 0.0059,
+        "win_rate": 0.474,
+        "per_signal": 0.00364
+      },
+      {
+        "limit_atr": 0.25,
+        "stop_atr": 2.5,
+        "signals": 310,
+        "fill_rate": 0.619,
+        "avg_trade": 0.007,
+        "win_rate": 0.458,
+        "per_signal": 0.00431
+      },
+      {
+        "limit_atr": 0.25,
+        "stop_atr": 3.0,
+        "signals": 310,
+        "fill_rate": 0.619,
+        "avg_trade": 0.0103,
+        "win_rate": 0.521,
+        "per_signal": 0.00641
+      },
+      {
+        "limit_atr": 0.5,
+        "stop_atr": 1.5,
+        "signals": 310,
+        "fill_rate": 0.429,
+        "avg_trade": 0.0013,
+        "win_rate": 0.429,
+        "per_signal": 0.00057
+      },
+      {
+        "limit_atr": 0.5,
+        "stop_atr": 2.0,
+        "signals": 310,
+        "fill_rate": 0.429,
+        "avg_trade": 0.0066,
+        "win_rate": 0.474,
+        "per_signal": 0.00284
+      },
+      {
+        "limit_atr": 0.5,
+        "stop_atr": 2.5,
+        "signals": 310,
+        "fill_rate": 0.429,
+        "avg_trade": 0.0079,
+        "win_rate": 0.466,
+        "per_signal": 0.00341
+      },
+      {
+        "limit_atr": 0.5,
+        "stop_atr": 3.0,
+        "signals": 310,
+        "fill_rate": 0.429,
+        "avg_trade": 0.0127,
+        "win_rate": 0.541,
+        "per_signal": 0.00544
+      },
+      {
+        "limit_atr": 0.75,
+        "stop_atr": 1.5,
+        "signals": 310,
+        "fill_rate": 0.3,
+        "avg_trade": 0.0045,
+        "win_rate": 0.398,
+        "per_signal": 0.00134
+      },
+      {
+        "limit_atr": 0.75,
+        "stop_atr": 2.0,
+        "signals": 310,
+        "fill_rate": 0.3,
+        "avg_trade": 0.0102,
+        "win_rate": 0.462,
+        "per_signal": 0.00305
+      },
+      {
+        "limit_atr": 0.75,
+        "stop_atr": 2.5,
+        "signals": 310,
+        "fill_rate": 0.3,
+        "avg_trade": 0.0113,
+        "win_rate": 0.495,
+        "per_signal": 0.0034
+      },
+      {
+        "limit_atr": 0.75,
+        "stop_atr": 3.0,
+        "signals": 310,
+        "fill_rate": 0.3,
+        "avg_trade": 0.0141,
+        "win_rate": 0.559,
+        "per_signal": 0.00424
+      },
+      {
+        "limit_atr": 1.0,
+        "stop_atr": 1.5,
+        "signals": 310,
+        "fill_rate": 0.177,
+        "avg_trade": 0.003,
+        "win_rate": 0.345,
+        "per_signal": 0.00053
+      },
+      {
+        "limit_atr": 1.0,
+        "stop_atr": 2.0,
+        "signals": 310,
+        "fill_rate": 0.177,
+        "avg_trade": 0.0087,
+        "win_rate": 0.455,
+        "per_signal": 0.00154
+      },
+      {
+        "limit_atr": 1.0,
+        "stop_atr": 2.5,
+        "signals": 310,
+        "fill_rate": 0.177,
+        "avg_trade": 0.0115,
+        "win_rate": 0.545,
+        "per_signal": 0.00203
+      },
+      {
+        "limit_atr": 1.0,
+        "stop_atr": 3.0,
+        "signals": 310,
+        "fill_rate": 0.177,
+        "avg_trade": 0.0129,
+        "win_rate": 0.582,
+        "per_signal": 0.0023
+      }
+    ]
+  },
+  "learned_at": "2026-10-29T05:36:29.984476+00:00",
+  "horizon_days": 5,
+  "history_from": "2024-04-30",
+  "history_to": "2026-10-20",
+  "samples": 1875,
+  "weights": {
+    "news": 0.3,
+    "trend": 0.2,
+    "levels": 0.15,
+    "flow": 0.15,
+    "pattern": 0.2
+  },
+  "prior_weights": {
+    "news": 0.3,
+    "trend": 0.2,
+    "levels": 0.15,
+    "flow": 0.15,
+    "pattern": 0.2
+  },
+  "factors": {
+    "trend": {
+      "ic": -0.0608,
+      "n": 1875,
+      "bull_n": 1034,
+      "bull_up_rate": 0.557,
+      "bull_avg_return": 0.0066,
+      "bear_n": 563,
+      "bear_up_rate": 0.588,
+      "bear_avg_return": 0.0116,
+      "base_up_rate": 0.565,
+      "base_avg_return": 0.0078
+    },
+    "levels": {
+      "ic": -0.0199,
+      "n": 1875,
+      "bull_n": 752,
+      "bull_up_rate": 0.541,
+      "bull_avg_return": 0.0054,
+      "bear_n": 608,
+      "bear_up_rate": 0.556,
+      "bear_avg_return": 0.0071,
+      "base_up_rate": 0.565,
+      "base_avg_return": 0.0078
+    },
+    "flow": {
+      "ic": -0.0424,
+      "n": 1875,
+      "bull_n": 764,
+      "bull_up_rate": 0.565,
+      "bull_avg_return": 0.0058,
+      "bear_n": 396,
+      "bear_up_rate": 0.601,
+      "bear_avg_return": 0.0165,
+      "base_up_rate": 0.565,
+      "base_avg_return": 0.0078
+    },
+    "pattern": {
+      "ic": -0.0298,
+      "n": 1875,
+      "bull_n": 839,
+      "bull_up_rate": 0.558,
+      "bull_avg_return": 0.0061,
+      "bear_n": 467,
+      "bear_up_rate": 0.589,
+      "bear_avg_return": 0.0129,
+      "base_up_rate": 0.565,
+      "base_avg_return": 0.0078
+    },
+    "news": {
+      "n": 0
+    }
+  },
+  "news_learned": false,
+  "thresholds": {
+    "buy": 0.433,
+    "sell": -0.295
+  },
+  "out_of_sample": {
+    "from": "2025-12-24",
+    "to": "2026-10-20",
+    "n": 625,
+    "top_picks_avg_return": 0.0141,
+    "top_picks_up_rate": 0.617,
+    "all_avg_return": 0.0082,
+    "all_up_rate": 0.549,
+    "ic": -0.0337
+  }
+}

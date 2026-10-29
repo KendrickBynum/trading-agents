@@ -683,29 +683,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62643287",
-    "created_at": "2026-10-28T05:35:20Z",
-    "headline": "Elon Musk Says Tesla Robotaxi Expansion to Miami, Tampa Beaches Is \u2018Coming Soon\u2019 After Ron DeSantis\u2019 Call for Expansion",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62643287/elon-musk-says-tesla-robotaxi-expansion-to-miami-tampa-beaches-is-coming-soon-after-ron-desantis-call-for-expansion",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Tesla robotaxi news, not relevant to Amazon"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Tesla robotaxi news, not relevant to Alphabet"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62658801",
     "created_at": "2026-10-28T14:31:59Z",
     "headline": "USA Gasoline Inventories 3.870M Barrel Build Vs 1.400M Barrel Draw Est.",
@@ -2884,6 +2861,350 @@
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62682622",
+    "created_at": "2026-10-29T05:33:20Z",
+    "headline": "Dow Gains For Third Session Following Fed Decision: Investor Sentiment Improves, Greed Index Remains In \u2018Fear\u2019 Zone",
+    "url": "https://www.benzinga.com/markets/market-summary/26/10/62682622/dow-gains-for-third-session-following-fed-decision-investor-sentiment-improves-greed-index-remains-in-fear-zone",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Stocks rose after Fed hold; sentiment improved but remains fearful"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Broad market gains after Fed decision support tech indices modestly"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62682254",
+    "created_at": "2026-10-29T03:15:14Z",
+    "headline": "Samsung Stock Drops 6% in Seoul as Record Profit Narrowly Misses Analyst Estimates, Memory Supply Seen Tightening in 2027",
+    "url": "https://www.benzinga.com/markets/earnings/26/10/62682254/samsung-profit-jumps-nearly-ninefold-misses-estimates-stock-falls",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Analysts see memory supply tightening into 2027, supportive for memory makers"
+      },
+      {
+        "ticker": "ASML",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Memory tightening may support chip equipment demand; Samsung miss is minor"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62682081",
+    "created_at": "2026-10-29T02:27:04Z",
+    "headline": "Cathie Wood Piles Into Archer, Joby for Third Straight Day as Ark Dumps AMD, TSMC Shares",
+    "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/10/62682081/cathie-wood-ark-buys-archer-joby-sells-amd-tsmc",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Ark trimmed AMD shares; a single fund's selling has limited impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62681813",
+    "created_at": "2026-10-29T01:04:09Z",
+    "headline": "Elon Musk vs. Tesla? His Midterm Money Could Work Against His Own Cars",
+    "url": "https://www.benzinga.com/news/politics/26/10/62681813/elon-musk-vs-tesla-his-midterm-money-could-work-against-his-own-cars",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.1,
+        "confidence": 0.25,
+        "reason": "Musk's political spending may hurt brand, though EV sector could benefit"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107027100",
+    "created_at": "2026-10-29T00:01:28Z",
+    "headline": "Tesla Full Self-Driving V14 Software Update",
+    "url": "https://cleantechnica.com/2026/10/28/teslas-full-self-driving-has-now-dramatically-reduced-the-number-of-reasons-to-intervene-or-complain/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Release of FSD v14 enhances autonomous driving capabilities"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "106435064",
+    "created_at": "2026-10-28T19:01:37Z",
+    "headline": "BMO Asset Management Launches Autocallable Income Tesla ETF",
+    "url": "https://www.newswire.ca/news-releases/bmo-launches-canada-s-first-single-stock-autocallable-income-etfs-880304531.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.03,
+        "confidence": 0.1,
+        "reason": "Third-party income ETF launch has negligible direct impact on Tesla"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "106328768",
+    "created_at": "2026-10-28T18:01:34Z",
+    "headline": "Micron Biomedical Appoints Anand Subramony as Executive Vice President",
+    "url": "https://www.globenewswire.com/news-release/2026/10/28/3390046/0/en/micron-biomedical-appoints-anand-subramony-ph-d-as-executive-vice-president-global-product-development-and-combination-product-commercialization.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "106328764",
+    "created_at": "2026-10-28T18:01:25Z",
+    "headline": "CFTC Approves Rothera to List KPI Swaps Tied to Tesla Performance",
+    "url": "https://www.prnewswire.com/news-releases/rothera-receives-cftc-approval-for-first-kpi-swap-302922230.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.03,
+        "confidence": 0.1,
+        "reason": "Regulatory approval of swaps on Tesla KPIs is minor, indirect news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62665999",
+    "created_at": "2026-10-28T17:01:28Z",
+    "headline": "CNBC Halftime Report Final Trades: Tesla, Nutrien, RTX",
+    "url": "https://www.benzinga.com/quote/RTX",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62659916",
+    "created_at": "2026-10-28T14:53:16Z",
+    "headline": "Sandisk Stock Jumps 4% As AI Memory Demand Heats Up Ahead of Earnings",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62659916/sandisk-stock-jumps-4-as-ai-memory-demand-heats-up-ahead-of-earnings",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.35,
+        "confidence": 0.5,
+        "reason": "Strong SK Hynix results lift AI memory demand outlook ahead of earnings"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105938599",
+    "created_at": "2026-10-28T13:31:35Z",
+    "headline": "Susquehanna Adjusts Price Target on Advanced Micro Devices to $650 From $620",
+    "url": "https://www.marketscreener.com/news/susquehanna-adjusts-price-target-on-advanced-micro-devices-to-650-from-620-ce785cd2dc8cf020",
+    "source": "fiscal.ai",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Susquehanna raised AMD price target to $650 from $620"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62652715",
+    "created_at": "2026-10-28T12:59:28Z",
+    "headline": "SK Hynix\u2019s 80% Profit Margin Fuels AI Frenzy: Should Investors Bet on 2X ETFs?",
+    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62652715/sk-hynixs-80-profit-margin-fuels-ai-frenzy-should-investors-bet-on-2x-etfs",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "SK Hynix's high margins and AI memory boom support memory sector sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62652379",
+    "created_at": "2026-10-28T12:49:22Z",
+    "headline": "\u2018Evil Is Better Than Bad\u2019 \u2014 Peter Thiel's Unsettling Defense of Elon Musk",
+    "url": "https://www.benzinga.com/news/movers-shakers/26/10/62652379/elon-musk-peter-thiel-evil-better-than-bad",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Opinion piece on Musk; no concrete business impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62651278",
+    "created_at": "2026-10-28T12:19:51Z",
+    "headline": "Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $650",
+    "url": "https://www.benzinga.com/news/26/10/62651278/susquehanna-maintains-positive-advanced-micro-devices-raises-price-target-650",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Analyst reiterates positive rating and raises price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62649530",
+    "created_at": "2026-10-28T11:38:15Z",
+    "headline": "Jim Farley Says Ford\u2019s Upcoming $30,000 Cybertruck Rival Can Power Owners\u2019 Homes Without a Wall-Mounted Inverter",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62649530/jim-farley-says-fords-upcoming-30000-cybertruck-rival-can-power-owners-homes-without-a-wall-mounted-inverter",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Ford's cheaper EV rival with home-power feature adds competition"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "105826685",
+    "created_at": "2026-10-28T10:32:00Z",
+    "headline": "Tesla Plans Robotaxi Service Expansion to Florida Beaches",
+    "url": "https://www.moomoo.com/stock/TSLA-US/news?chain_id=Name1K9-3FXPhg.1ldl8s0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fizhixiang-101832173%2Fpost%2Fall%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.3,
+        "confidence": 0.35,
+        "reason": "Robotaxi expansion to Florida cities, endorsed by governor"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62646640",
+    "created_at": "2026-10-28T10:21:24Z",
+    "headline": "Why Is Micron Technology Stock Surging Wednesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62646640/why-is-micron-technology-stock-surging-wednesday-2",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.6,
+        "confidence": 0.6,
+        "reason": "Record SK Hynix earnings signal strong AI memory demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62645532",
+    "created_at": "2026-10-28T09:55:32Z",
+    "headline": "SK Hynix's AI Gold Rush Sends Profits Soaring 632% \u2014 but One Analyst Says Buy Micron or Samsung Instead",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62645532/sk-hynixs-ai-gold-rush-sends-profits-soaring-632-but-one-analyst-says-buy-micron-or-samsung-instead",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.5,
+        "confidence": 0.5,
+        "reason": "Peer's 632% profit surge highlights AI memory demand; analyst favors MU"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62645400",
+    "created_at": "2026-10-28T09:39:25Z",
+    "headline": "Cathie Wood Predicts Oil Crashing to $30-$35 a Barrel as EVs Take Over Transportation: Says Demand Is 'Peaking\u2019",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62645400/cathie-wood-predicts-oil-crashing-to-30-35-a-barrel-as-evs-take-over-transportation-says-demand-is-peaking",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.2,
+        "confidence": 0.25,
+        "reason": "Cathie Wood forecasts oil demand peaking and prices falling to $30-35"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "EV adoption thesis supportive, though speculative long-term forecast"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62644641",
+    "created_at": "2026-10-28T08:13:05Z",
+    "headline": "SK Hynix (SKHY) Stock Climbs In Pre-Market: Here\u2019s What You Should Know",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62644641/sk-hynix-shares-rise-q3-2026-earnings",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.35,
+        "confidence": 0.4,
+        "reason": "Peer's strong Q3 revenue and margins lift memory sector sentiment"
+      }
+    ],
     "scorer": "claude"
   }
 ]

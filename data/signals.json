@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-10-29T05:09:36.855142+00:00",
-  "market_risk": 0.111,
+  "generated_at": "2026-10-29T05:36:13.874602+00:00",
+  "market_risk": 0.107,
   "tickers": {
     "SPY": {
-      "score": -0.176,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.119,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Dow Gains For Third Session Following Fed Decision: Investor Sentiment Improves, Greed Index Remains In \u2018Fear\u2019 Zone",
+          "url": "https://www.benzinga.com/markets/market-summary/26/10/62682622/dow-gains-for-third-session-following-fed-decision-investor-sentiment-improves-greed-index-remains-in-fear-zone",
+          "time": "2026-10-29T05:33:20Z",
+          "sentiment": 0.15,
+          "reason": "Stocks rose after Fed hold; sentiment improved but remains fearful"
+        },
         {
           "headline": "On CNBC, Treasury Secretary Bessent Said Consumer Behavior Is Quite Strong, Business Behavior Is Quite Strong; In General The Trade Deals Are Pretty Locked In",
           "url": "https://www.benzinga.com/quote/SPY",
@@ -34,13 +41,6 @@
           "time": "2026-10-28T19:05:47Z",
           "sentiment": -0.2,
           "reason": "Warsh says financial conditions are tightening; hawkish tone"
-        },
-        {
-          "headline": "Fed Chair Warsh Says Since Early September We've Seen Inside And Outside Technology Complex, Interest Rates Have Had An Effect; Credit Spreads Have Widened; You've Seen Credit Spreads Widen For Some Assets, Some Tightening In Some Financial Conditions; Interest Rates Do Matter For New Technology; Capex Is Broadening; Strength In Capex Is No Longer In Narrow Pockets; Asked If Midterm Elections Factored Into Rate Decision, Says Politics Played No Role",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670276/fed-chair-warsh-says-early-september-we-ve-seen-inside-and-outside-technology-complex-interest-rates",
-          "time": "2026-10-28T18:57:18Z",
-          "sentiment": -0.25,
-          "reason": "Credit spreads widening and rates weighing on conditions; hawkish"
         }
       ]
     },
@@ -311,9 +311,9 @@
       ]
     },
     "XOM": {
-      "score": 0.082,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.068,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "'Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks'- WSJ Exclusive",
@@ -349,6 +349,102 @@
           "time": "2026-10-28T14:31:59Z",
           "sentiment": -0.2,
           "reason": "Gasoline build far exceeded expected draw; weak fuel demand signal"
+        }
+      ]
+    },
+    "MU": {
+      "score": 0.375,
+      "articles": 6,
+      "ai_articles": 6,
+      "headlines": [
+        {
+          "headline": "Samsung Stock Drops 6% in Seoul as Record Profit Narrowly Misses Analyst Estimates, Memory Supply Seen Tightening in 2027",
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62682254/samsung-profit-jumps-nearly-ninefold-misses-estimates-stock-falls",
+          "time": "2026-10-29T03:15:14Z",
+          "sentiment": 0.3,
+          "reason": "Analysts see memory supply tightening into 2027, supportive for memory makers"
+        },
+        {
+          "headline": "Sandisk Stock Jumps 4% As AI Memory Demand Heats Up Ahead of Earnings",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62659916/sandisk-stock-jumps-4-as-ai-memory-demand-heats-up-ahead-of-earnings",
+          "time": "2026-10-28T14:53:16Z",
+          "sentiment": 0.35,
+          "reason": "Strong SK Hynix results lift AI memory demand outlook ahead of earnings"
+        },
+        {
+          "headline": "SK Hynix\u2019s 80% Profit Margin Fuels AI Frenzy: Should Investors Bet on 2X ETFs?",
+          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62652715/sk-hynixs-80-profit-margin-fuels-ai-frenzy-should-investors-bet-on-2x-etfs",
+          "time": "2026-10-28T12:59:28Z",
+          "sentiment": 0.3,
+          "reason": "SK Hynix's high margins and AI memory boom support memory sector sentiment"
+        },
+        {
+          "headline": "Why Is Micron Technology Stock Surging Wednesday?",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62646640/why-is-micron-technology-stock-surging-wednesday-2",
+          "time": "2026-10-28T10:21:24Z",
+          "sentiment": 0.6,
+          "reason": "Record SK Hynix earnings signal strong AI memory demand"
+        },
+        {
+          "headline": "SK Hynix's AI Gold Rush Sends Profits Soaring 632% \u2014 but One Analyst Says Buy Micron or Samsung Instead",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62645532/sk-hynixs-ai-gold-rush-sends-profits-soaring-632-but-one-analyst-says-buy-micron-or-samsung-instead",
+          "time": "2026-10-28T09:55:32Z",
+          "sentiment": 0.5,
+          "reason": "Peer's 632% profit surge highlights AI memory demand; analyst favors MU"
+        }
+      ]
+    },
+    "LRCX": {
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
+    },
+    "TSLA": {
+      "score": 0.3,
+      "articles": 2,
+      "ai_articles": 2,
+      "headlines": [
+        {
+          "headline": "Tesla Full Self-Driving V14 Software Update",
+          "url": "https://cleantechnica.com/2026/10/28/teslas-full-self-driving-has-now-dramatically-reduced-the-number-of-reasons-to-intervene-or-complain/",
+          "time": "2026-10-29T00:01:28Z",
+          "sentiment": 0.3,
+          "reason": "Release of FSD v14 enhances autonomous driving capabilities"
+        },
+        {
+          "headline": "Tesla Plans Robotaxi Service Expansion to Florida Beaches",
+          "url": "https://www.moomoo.com/stock/TSLA-US/news?chain_id=Name1K9-3FXPhg.1ldl8s0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fizhixiang-101832173%2Fpost%2Fall%22%7D",
+          "time": "2026-10-28T10:32:00Z",
+          "sentiment": 0.3,
+          "reason": "Robotaxi expansion to Florida cities, endorsed by governor"
+        }
+      ]
+    },
+    "ASML": {
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
+    },
+    "AMD": {
+      "score": 0.353,
+      "articles": 2,
+      "ai_articles": 2,
+      "headlines": [
+        {
+          "headline": "Susquehanna Adjusts Price Target on Advanced Micro Devices to $650 From $620",
+          "url": "https://www.marketscreener.com/news/susquehanna-adjusts-price-target-on-advanced-micro-devices-to-650-from-620-ce785cd2dc8cf020",
+          "time": "2026-10-28T13:31:35Z",
+          "sentiment": 0.3,
+          "reason": "Susquehanna raised AMD price target to $650 from $620"
+        },
+        {
+          "headline": "Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $650",
+          "url": "https://www.benzinga.com/news/26/10/62651278/susquehanna-maintains-positive-advanced-micro-devices-raises-price-target-650",
+          "time": "2026-10-28T12:19:51Z",
+          "sentiment": 0.4,
+          "reason": "Analyst reiterates positive rating and raises price target"
         }
       ]
     }
