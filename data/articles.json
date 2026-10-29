@@ -1,221 +1,5 @@
 [
   {
-    "id": "62671629",
-    "created_at": "2026-10-28T19:32:22Z",
-    "headline": "Traders Are Pricing a 7% Swing in Amazon Ahead of Earnings",
-    "url": "https://www.benzinga.com/markets/options/26/10/62671629/traders-are-pricing-a-7-swing-in-amazon-ahead-of-earnings",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Routine earnings preview; implied move already widely known"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62671525",
-    "created_at": "2026-10-28T19:30:47Z",
-    "headline": "'Wall Street Cares About Free Cash Flow Now': Bloomberg's Ed Ludlow on Buyouts and AI Spending",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62671525/big-tech-free-cash-flow",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.05,
-        "confidence": 0.15,
-        "reason": "General commentary on AI capex pressure on free cash flow"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.05,
-        "confidence": 0.15,
-        "reason": "General commentary on AI capex pressure on free cash flow"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.05,
-        "confidence": 0.15,
-        "reason": "General commentary on AI capex pressure on free cash flow"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62671513",
-    "created_at": "2026-10-28T19:30:28Z",
-    "headline": "Amazon, Eli Lilly On Deck Thursday As AWS Growth, Drug Demand Face Test",
-    "url": "https://www.benzinga.com/news/26/10/62671513/amazon-eli-lilly-on-deck-thursday-as-aws-growth-drug-demand-face-test",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.05,
-        "confidence": 0.25,
-        "reason": "Earnings preview; AWS growth acceleration is a potential positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62670627",
-    "created_at": "2026-10-28T19:05:47Z",
-    "headline": "Fed Chair Warsh Says In The Long Term Most Measures Have Confidence Central Bank Will Deliver Price Stability; We Are Tightening Financial Conditions; It Tells Me Our Policy Is Working, Not Uncomfortable With It, Tells Me Policy Is Working; Asked About Proceedings On Gov Cook, Says Fed Is 'Not To My Knowledge' Going To Be Involved",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670627/fed-chair-warsh-says-long-term-most-measures-have-confidence-central-bank-will-deliver-price-stabili",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Warsh says financial conditions are tightening; hawkish tone"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62670564",
-    "created_at": "2026-10-28T19:04:40Z",
-    "headline": "Fed Chair Warsh Says Our Measures Of Size Of Aggregate Demand Curve Are Imperfect; The Economy Is Strong, The Economy Is Pointing In The Right Direction, Is Economy Running Too Hot? That Is Not The Judgment Of Most Of My Colleagues; Productivity Has Been Moving Higher;  Economic Growth Is Higher, But That Doesn't Mean It's Causing Inflation; Goal Is Not To Throw Sand Into Gears Of Economy; Don't Think We Have To Throw People Out Of Work",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670564/fed-chair-warsh-says-our-measures-size-aggregate-demand-curve-are-imperfect-economy-strong-economy-p",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.25,
-        "reason": "Economy strong but Fed not seeing overheating; avoids aggressive tightening"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62670499",
-    "created_at": "2026-10-28T19:03:11Z",
-    "headline": "Forget the Halloween Indicator? 5 ETFs to Consider As \u2018Sell in May\u2019 Loses Its Edge",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62670499/forget-the-halloween-indicator-5-etfs-to-consider-as-sell-in-may-loses-its-edge",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Seasonal commentary; mentions hedging a potential selloff"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62670456",
-    "created_at": "2026-10-28T19:02:12Z",
-    "headline": "Fed's Warsh Says Glad Korean Central Bank Governor Is In His Post, Have Known Him For 20 Years, Good Friend; Balance Sheet Task Force Recommendations Will Be Fed Into FOMC Early In First Quarter; If We Decide To Make Balance Sheet Changes, It Is Unlikely To Have Any Effect On This Policy Juncture; Any Changes To Balance Sheet Will Be After Serious Consideration Of Task Force Recommendations; When We Removed Dose Of Accommodation, The Effects On Financial Market Conditions Were Consistent With Expectations",
-    "url": "https://www.benzinga.com/news/26/10/62670456/feds-warsh-says-glad-korean-central-bank-governor-is-in-his-post-have-known-him-for-20-years-good-friend-balance-sheet-task-force-recommendations-will-be-fed-into-fomc-early-in-first-quarter-if-w",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Balance sheet changes unlikely to affect current policy stance"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62670433",
-    "created_at": "2026-10-28T19:01:47Z",
-    "headline": "Apple Stock Dips: What's Going On?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62670433/apple-stock-dips-whats-going-on",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Shares slipping; earnings due next week, product news mixed"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106435067",
-    "created_at": "2026-10-28T19:01:41Z",
-    "headline": "Reindeer Joins Microsoft for Startups Pegasus Program",
-    "url": "https://www.prnewswire.com/news-releases/reindeer-joins-the-microsoft-for-startups-pegasus-program-and-launches-on-microsoft-marketplace-302922502.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.02,
-        "confidence": 0.05,
-        "reason": "Minor startup partner program; immaterial to valuation"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106435062",
-    "created_at": "2026-10-28T19:01:34Z",
-    "headline": "Meta Increases Equity Offering to $97.5 Billion for AI Infrastructure",
-    "url": "https://www.manilatimes.net/2026/10/29/business/foreign-business/meta-increases-equity-offerings-to-975-billion/2456518",
-    "source": "fiscal.ai",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "Raised $97.5B equity offering; major dilution and funding concern"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62670401",
-    "created_at": "2026-10-28T19:01:21Z",
-    "headline": "Fed's Warsh Says Coming Period Will Be Information-rich, But Nothing To Do With Politics; Don't Believe In Forward Guidance, Absence A Crisis; I Don't Believe In Prejudging Meetings; Won't Share Musings On What Will Happen In December; We Might Learn A Lot By Then, Will Be Better-Positioned To Determine Right Policy Decision; Pay A Lot Of Attention To Korean Economy, Tells Me What's Coming This Way",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670401/fed-s-warsh-says-coming-period-will-be-information-rich-nothing-do-politics-don-t-believe-forward-gu",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Non-committal on December policy; no clear directional signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62670276",
-    "created_at": "2026-10-28T18:57:18Z",
-    "headline": "Fed Chair Warsh Says Since Early September We've Seen Inside And Outside Technology Complex, Interest Rates Have Had An Effect; Credit Spreads Have Widened; You've Seen Credit Spreads Widen For Some Assets, Some Tightening In Some Financial Conditions; Interest Rates Do Matter For New Technology; Capex Is Broadening; Strength In Capex Is No Longer In Narrow Pockets; Asked If Midterm Elections Factored Into Rate Decision, Says Politics Played No Role",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62670276/fed-chair-warsh-says-early-september-we-ve-seen-inside-and-outside-technology-complex-interest-rates",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.25,
-        "confidence": 0.45,
-        "reason": "Credit spreads widening and rates weighing on conditions; hawkish"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "106896230",
     "created_at": "2026-10-28T23:01:30Z",
     "headline": "NVIDIA Schedules Third-Quarter Fiscal 2027 Earnings Conference Call",
@@ -1168,23 +952,6 @@
         "sentiment": 0.3,
         "confidence": 0.4,
         "reason": "Release of FSD v14 enhances autonomous driving capabilities"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106435064",
-    "created_at": "2026-10-28T19:01:37Z",
-    "headline": "BMO Asset Management Launches Autocallable Income Tesla ETF",
-    "url": "https://www.newswire.ca/news-releases/bmo-launches-canada-s-first-single-stock-autocallable-income-etfs-880304531.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.03,
-        "confidence": 0.1,
-        "reason": "Third-party income ETF launch has negligible direct impact on Tesla"
       }
     ],
     "scorer": "claude"
@@ -3548,6 +3315,221 @@
         "sentiment": -0.15,
         "confidence": 0.3,
         "reason": "Analyst cut price target while keeping neutral; mild negative, largely expected"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62714742",
+    "created_at": "2026-10-29T19:30:40Z",
+    "headline": "ExxonMobil, AbbVie On Deck Friday As Energy, Drug Growth Face Test",
+    "url": "https://www.benzinga.com/news/26/10/62714742/exxonmobil-abbvie-on-deck-friday-as-energy-drug-growth-face-test",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Earnings preview only; expectations for energy production already known"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62714478",
+    "created_at": "2026-10-29T19:25:39Z",
+    "headline": "Polymarket Temporarily Halts Trading After Third-Party Provider Impacted",
+    "url": "https://www.benzinga.com/news/26/10/62714478/polymarket-temporarily-halts-trading-after-third-party-provider-impacted",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62714210",
+    "created_at": "2026-10-29T19:19:59Z",
+    "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Rotation away from AI leaders; Alphabet cited as a leader in the selloff"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Growth/AI rotation weighs on tech-heavy index"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Value-growth rotation is a mild broad-market headwind"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62714188",
+    "created_at": "2026-10-29T19:19:34Z",
+    "headline": "'Top Admiral Briefs Trump On Iran Attack Options; A Thursday White House Meeting Included A Rare In-Person Briefing By Adm. Cooper As The U.S. Weighs New Combat Operations' - WSJ Exclusive",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62714188/top-admiral-briefs-trump-iran-attack-options-thursday-white-house-meeting-included-rare-person-brief",
+    "source": "benzinga",
+    "market_risk": 0.5,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Reported US consideration of new Iran combat operations raises geopolitical risk"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Possible Iran conflict raises oil supply risk and energy prices"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62714097",
+    "created_at": "2026-10-29T19:17:32Z",
+    "headline": "Citigroup Maintains Buy on Microsoft, Raises Price Target to $680",
+    "url": "https://www.benzinga.com/news/26/10/62714097/citigroup-maintains-buy-microsoft-raises-price-target-680",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Citi reiterates Buy with higher price target $680"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62713548",
+    "created_at": "2026-10-29T19:04:51Z",
+    "headline": "RBC Capital Maintains Outperform on Alphabet, Lowers Price Target to $400",
+    "url": "https://www.benzinga.com/news/26/10/62713548/rbc-capital-maintains-outperform-alphabet-lowers-price-target-400",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "RBC cuts price target to $400, a bearish signal on valuation"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107680274",
+    "created_at": "2026-10-29T19:01:58Z",
+    "headline": "Concurrence Health World Model and AI Agents Now Available on Microsoft Marketplace",
+    "url": "https://www.prnewswire.com/news-releases/concurrence-now-available-in-the-microsoft-marketplace-302923947.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Third-party AI product on Azure marketplace; immaterial to MSFT"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107678534",
+    "created_at": "2026-10-29T19:01:58Z",
+    "headline": "Microsoft Reportedly Planning $25 Billion Bond Issuance",
+    "url": "https://www.moomoo.com/stock/MSFT-US/news?chain_id=Name1K9-3FXPhg.1le2eo0&global_content=%7B%22promote_id%22%3A14282,%22sub_promote_id%22%3A29,%22f%22%3A%22www.moomoo.com%2Fca%2Fhant%2Flearn%2Fdetail-gamma-exposure-gex-understanding-dealer-hedging-flows-and-key-levels-107906-260473079%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Large bond sale signals heavy AI capex funding needs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107680272",
+    "created_at": "2026-10-29T19:01:54Z",
+    "headline": "ExxonMobil and Chevron Executives Cancel Trips to UAE Event Over Security Concerns",
+    "url": "https://www.marketscreener.com/news/exxon-chevron-executives-cancel-trips-to-uae-event-over-security-concerns-reuters-reports-ce785fdadd89f12d",
+    "source": "fiscal.ai",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Security concerns in Gulf region hint at elevated regional tension"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107678526",
+    "created_at": "2026-10-29T19:01:35Z",
+    "headline": "Meta Launches AI-Powered Virtual Pet App \"Waddle World\"",
+    "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-launches-waddle-world-an-ai-virtual-pet-app-that-remembers-your-day",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Consumer app launch; likely minimal financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107678525",
+    "created_at": "2026-10-29T19:01:34Z",
+    "headline": "NVIDIA Participates in Cohere's Series E Funding Round",
+    "url": "https://www.tradingview.com/news/seekingalpha:cfc3ffc5f094b:0-nvidia-backed-cohere-closes-in-on-5b-funding-round/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "NVIDIA strategic investment supports AI ecosystem demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62713396",
+    "created_at": "2026-10-29T19:00:22Z",
+    "headline": "\"Nvidia CEO Says Ties to Company Under Spying Probe Were \u2018Normal\u2019\" - Bloomberg News",
+    "url": "https://www.benzinga.com/news/26/10/62713396/nvidia-ceo-says-ties-company-under-spying-probe-were-normal-bloomberg-news",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Ongoing spying probe ties create regulatory and reputational overhang"
       }
     ],
     "scorer": "claude"

@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-10-29T18:56:48.349130+00:00",
-  "market_risk": 0.094,
+  "generated_at": "2026-10-29T19:35:22.320420+00:00",
+  "market_risk": 0.097,
   "tickers": {
     "SPY": {
-      "score": 0.053,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": -0.046,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "'Top Admiral Briefs Trump On Iran Attack Options; A Thursday White House Meeting Included A Rare In-Person Briefing By Adm. Cooper As The U.S. Weighs New Combat Operations' - WSJ Exclusive",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62714188/top-admiral-briefs-trump-iran-attack-options-thursday-white-house-meeting-included-rare-person-brief",
+          "time": "2026-10-29T19:19:34Z",
+          "sentiment": -0.4,
+          "reason": "Reported US consideration of new Iran combat operations raises geopolitical risk"
+        },
         {
           "headline": "Live On Fox Business, White House Senior Advisor Hassett Says Inflation Was Pretty Much Right On Expectation; GDP Is Headed Towards 4% Growth",
           "url": "https://www.benzinga.com/news/26/10/62697938/live-fox-business-white-house-senior-advisor-hassett-says-inflation-was-pretty-much-right-expectatio",
@@ -34,21 +41,21 @@
           "time": "2026-10-29T12:30:17Z",
           "sentiment": -0.2,
           "reason": "Core PCE quarterly reading hotter than expected, raising rate concerns"
-        },
-        {
-          "headline": "GDP QoQ For Q3 3.4% Vs 3.2% Expected",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-10-29T12:30:10Z",
-          "sentiment": 0.3,
-          "reason": "Q3 GDP growth beats forecast, signaling economic strength"
         }
       ]
     },
     "QQQ": {
-      "score": -0.144,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.168,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd",
+          "time": "2026-10-29T19:19:59Z",
+          "sentiment": -0.3,
+          "reason": "Growth/AI rotation weighs on tech-heavy index"
+        },
         {
           "headline": "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
           "url": "https://www.benzinga.com/opinion/26/10/62707077/alphabet-stock-down-12-percent-as-ai-hits-google-core-search-business",
@@ -76,20 +83,13 @@
           "time": "2026-10-29T13:16:13Z",
           "sentiment": -0.3,
           "reason": "Alphabet is a large index weight; drag on Nasdaq-100"
-        },
-        {
-          "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Drop After Fed Keeps Rates Unchanged \u2014 MSFT, GOOG, TMUS in Focus (UPDATED)",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62684592/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-fed-keeps-rates-unchanged-msft-goog-tmus-in-focus",
-          "time": "2026-10-29T12:41:48Z",
-          "sentiment": -0.25,
-          "reason": "Nasdaq futures dropped after Fed held rates, growth stocks sensitive"
         }
       ]
     },
     "AAPL": {
-      "score": 0.275,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.322,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Apple Stock Heads Toward All-Time High: What's Going On?",
@@ -104,21 +104,21 @@
           "time": "2026-10-29T13:32:12Z",
           "sentiment": 0.4,
           "reason": "Reported production boost for new foldable on strong demand"
-        },
-        {
-          "headline": "Apple Stock Dips: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62670433/apple-stock-dips-whats-going-on",
-          "time": "2026-10-28T19:01:47Z",
-          "sentiment": -0.2,
-          "reason": "Shares slipping; earnings due next week, product news mixed"
         }
       ]
     },
     "MSFT": {
-      "score": 0.303,
-      "articles": 35,
-      "ai_articles": 35,
+      "score": 0.299,
+      "articles": 36,
+      "ai_articles": 36,
       "headlines": [
+        {
+          "headline": "Citigroup Maintains Buy on Microsoft, Raises Price Target to $680",
+          "url": "https://www.benzinga.com/news/26/10/62714097/citigroup-maintains-buy-microsoft-raises-price-target-680",
+          "time": "2026-10-29T19:17:32Z",
+          "sentiment": 0.2,
+          "reason": "Citi reiterates Buy with higher price target $680"
+        },
         {
           "headline": "Microsoft And Alphabet's Two Different Market Stories\u2014AI Keeps Building",
           "url": "https://www.benzinga.com/opinion/26/10/62709569/microsoft-and-alphabet-two-different-market-stories-ai-keeps-building",
@@ -146,21 +146,28 @@
           "time": "2026-10-29T15:49:31Z",
           "sentiment": 0.3,
           "reason": "Buy rating with raised price target to $650"
-        },
-        {
-          "headline": "TD Cowen Maintains Buy on Microsoft, Raises Price Target to $650",
-          "url": "https://www.benzinga.com/news/26/10/62705235/td-cowen-maintains-buy-microsoft-raises-price-target-650",
-          "time": "2026-10-29T15:47:06Z",
-          "sentiment": 0.3,
-          "reason": "Buy rating with raised price target to $650"
         }
       ]
     },
     "NVDA": {
-      "score": -0.079,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.09,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "NVIDIA Participates in Cohere's Series E Funding Round",
+          "url": "https://www.tradingview.com/news/seekingalpha:cfc3ffc5f094b:0-nvidia-backed-cohere-closes-in-on-5b-funding-round/",
+          "time": "2026-10-29T19:01:34Z",
+          "sentiment": 0.15,
+          "reason": "NVIDIA strategic investment supports AI ecosystem demand"
+        },
+        {
+          "headline": "\"Nvidia CEO Says Ties to Company Under Spying Probe Were \u2018Normal\u2019\" - Bloomberg News",
+          "url": "https://www.benzinga.com/news/26/10/62713396/nvidia-ceo-says-ties-company-under-spying-probe-were-normal-bloomberg-news",
+          "time": "2026-10-29T19:00:22Z",
+          "sentiment": -0.3,
+          "reason": "Ongoing spying probe ties create regulatory and reputational overhang"
+        },
         {
           "headline": "QUICK SPARK: Alphabet Stock Eyes Worst Day in Company's History, Wipes Out $500 Billion in Value",
           "url": "https://www.benzinga.com/markets/earnings/26/10/62701188/alphabet-stock-worst-day-history-500-billion",
@@ -181,20 +188,6 @@
           "time": "2026-10-29T12:32:24Z",
           "sentiment": 0.3,
           "reason": "Peer reports surging AI data center demand, supportive for AI chips"
-        },
-        {
-          "headline": "Nvidia Faces DOJ Scrutiny Over $12.9 Billion Hugging Face Deal Amid Concerns About Unfair AI Advantage: Report",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62684670/nvidia-faces-doj-scrutiny-over-12-9-billion-hugging-face-deal-amid-concerns-about-unfair-ai-advantage-report",
-          "time": "2026-10-29T09:39:25Z",
-          "sentiment": -0.35,
-          "reason": "DOJ antitrust scrutiny of $12.9B Hugging Face deal"
-        },
-        {
-          "headline": "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62681998/nvidia-stock-drops-6-percent-jim-cramer-tech-weakness-nvda",
-          "time": "2026-10-29T02:00:35Z",
-          "sentiment": -0.2,
-          "reason": "Down nearly 6% this month; commentary on tech sensitivity, no new catalyst"
         }
       ]
     },
@@ -227,10 +220,24 @@
       ]
     },
     "GOOGL": {
-      "score": -0.456,
-      "articles": 44,
-      "ai_articles": 44,
+      "score": -0.443,
+      "articles": 46,
+      "ai_articles": 46,
       "headlines": [
+        {
+          "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd",
+          "time": "2026-10-29T19:19:59Z",
+          "sentiment": -0.3,
+          "reason": "Rotation away from AI leaders; Alphabet cited as a leader in the selloff"
+        },
+        {
+          "headline": "RBC Capital Maintains Outperform on Alphabet, Lowers Price Target to $400",
+          "url": "https://www.benzinga.com/news/26/10/62713548/rbc-capital-maintains-outperform-alphabet-lowers-price-target-400",
+          "time": "2026-10-29T19:04:51Z",
+          "sentiment": -0.2,
+          "reason": "RBC cuts price target to $400, a bearish signal on valuation"
+        },
         {
           "headline": "UBS Maintains Neutral on Alphabet, Lowers Price Target to $332",
           "url": "https://www.benzinga.com/news/26/10/62712500/ubs-maintains-neutral-alphabet-lowers-price-target-332",
@@ -251,36 +258,14 @@
           "time": "2026-10-29T17:28:28Z",
           "sentiment": -0.3,
           "reason": "Negative free cash flow weighed on Alphabet"
-        },
-        {
-          "headline": "Blame SpaceX for Most of Google\u2019s Shocking Earnings Miss \u2014 And Brace for More",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62708126/alphabet-google-spacex-investment-loss",
-          "time": "2026-10-29T16:53:01Z",
-          "sentiment": -0.5,
-          "reason": "Earnings miss from SpaceX paper loss; further Q4 risk flagged"
-        },
-        {
-          "headline": "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
-          "url": "https://www.benzinga.com/opinion/26/10/62707077/alphabet-stock-down-12-percent-as-ai-hits-google-core-search-business",
-          "time": "2026-10-29T16:30:03Z",
-          "sentiment": -0.8,
-          "reason": "12% drop on AI threat to core search business"
         }
       ]
     },
     "META": {
-      "score": -0.6,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Meta Increases Equity Offering to $97.5 Billion for AI Infrastructure",
-          "url": "https://www.manilatimes.net/2026/10/29/business/foreign-business/meta-increases-equity-offerings-to-975-billion/2456518",
-          "time": "2026-10-28T19:01:34Z",
-          "sentiment": -0.6,
-          "reason": "Raised $97.5B equity offering; major dilution and funding concern"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "JPM": {
       "score": 0.0,
@@ -289,10 +274,17 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.116,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.236,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "'Top Admiral Briefs Trump On Iran Attack Options; A Thursday White House Meeting Included A Rare In-Person Briefing By Adm. Cooper As The U.S. Weighs New Combat Operations' - WSJ Exclusive",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62714188/top-admiral-briefs-trump-iran-attack-options-thursday-white-house-meeting-included-rare-person-brief",
+          "time": "2026-10-29T19:19:34Z",
+          "sentiment": 0.4,
+          "reason": "Possible Iran conflict raises oil supply risk and energy prices"
+        },
         {
           "headline": "Russia Set To Extend Diesel Export Ban Until The End Of The Year; Russia Uses Quota Export System For Individual Companies To Fulfil Its U.S. Obligations",
           "url": "https://www.benzinga.com/government/26/10/62705267/russia-set-extend-diesel-export-ban-until-end-year-russia-uses-quota-export-system-individual-compan",
@@ -320,13 +312,6 @@
           "time": "2026-10-28T20:38:05Z",
           "sentiment": -0.2,
           "reason": "Peace progress could ease oil supply risk premium"
-        },
-        {
-          "headline": "Live On CNBC, Treasury Secretary Bessent Says Operation Economic Outcast Against Iran Has Been Very Successful, Currency Has Collapsed",
-          "url": "https://www.benzinga.com/news/26/10/62675546/live-cnbc-treasury-secretary-bessent-says-operation-economic-outcast-against-iran-has-been-very-succ",
-          "time": "2026-10-28T20:20:25Z",
-          "sentiment": 0.3,
-          "reason": "Iran conflict may lift oil prices and energy producers"
         }
       ]
     },
