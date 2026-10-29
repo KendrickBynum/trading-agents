@@ -1,22 +1,8 @@
 {
-  "time": "2026-10-29T14:35:38.784664+00:00",
+  "time": "2026-10-29T15:35:37.828824+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [
-    {
-      "time": "2026-10-29T14:06:22.286493Z",
-      "book": "stock",
-      "symbol": "MSFT",
-      "side": "sell",
-      "status": "filled",
-      "order_id": "6aefa6dc-694b-4ff3-97f0-a13c530545ca",
-      "qty": 18.0,
-      "price": 524.466667,
-      "notional": 9440.4,
-      "reason": "trailing stop hit (fell from its high)",
-      "realized_pl": -88.29
-    }
-  ],
+  "last_actions": [],
   "buy_threshold": 0.433,
   "exit_threshold": -0.295,
   "trailing_stop_pct": 0.04,

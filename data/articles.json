@@ -1,326 +1,5 @@
 [
   {
-    "id": "62661723",
-    "created_at": "2026-10-28T15:25:17Z",
-    "headline": "Microsoft And Google Face Monetization Test Amid Expected Fed Pause\u2014 Seagate And Oil Cloud AI Trade",
-    "url": "https://www.benzinga.com/opinion/26/10/62661723/microsoft-and-google-face-monetization-test-amid-expected-fed-pause-seagate-and-oil-cloud-ai-trade",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Monetization test framing; earnings-driven, outcome uncertain"
-      },
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Broad tech earnings context; no direct company news"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Broad tech earnings context; no direct company news"
-      },
-      {
-        "ticker": "META",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Broad tech earnings context; no direct company news"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Broad AI trade context; no direct company news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62662021",
-    "created_at": "2026-10-28T15:31:59Z",
-    "headline": "U.S. Department Of Health And Human Services Announces Availability Of Enforcement Discretion Policy Regarding 503a Compounding Using Certain Peptide Bulk Drug Substances; Will Not Enforce Against Pharmacies, Federal Facilities Or Physicians Compounding Drugs Using Peptide Bulk Substances Pending Rulemaking; Interim Policy Permits Peptide Compounding Pending Final Rulemaking On 503a Bulk Drug Substances List",
-    "url": "https://www.benzinga.com/government/26/10/62662021/u-s-department-health-and-human-services-announces-availability-enforcement-discretion-policy-regard",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62661584",
-    "created_at": "2026-10-28T15:22:40Z",
-    "headline": "Mexican President Sheinbaum Says Dialogue Continues On Trade Deal With U.S., Assessing Whether It Is Feasible To Reach An Agreement Before U.S. Midterm Elections",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62661584/mexican-president-sheinbaum-says-dialogue-continues-trade-deal-u-s-assessing-whether-it-feasible-rea",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Trade-deal talks continuing; agreement feasibility uncertain"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62661467",
-    "created_at": "2026-10-28T15:20:11Z",
-    "headline": "'Amazon cuts more jobs, in devices unit, after flurry of product rollouts' - Reuters",
-    "url": "https://www.benzinga.com/news/26/10/62661467/amazon-cuts-more-jobs-devices-unit-after-flurry-product-rollouts-reuters",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Job cuts in devices unit; small restructuring signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62661243",
-    "created_at": "2026-10-28T15:14:59Z",
-    "headline": "AI Bubble Hedge? 5 ETFs That Could Protect Investors Without Shorting Nvidia",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62661243/ai-bubble-hedge-5-etfs-that-could-protect-investors-without-shorting-nvidia",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Mentions AI bubble fears and tech selloff; generic commentary"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62661219",
-    "created_at": "2026-10-28T15:14:08Z",
-    "headline": "NVIDIA Launches Nemotron 3.5 Transcribe And Granary v2 On Hugging Face, Delivering Open-Weight AI For 40-Language Transcription, Translation And Speaker Identification",
-    "url": "https://www.benzinga.com/news/26/10/62661219/nvidia-launches-nemotron-3-5-transcribe-and-granary-v2-hugging-face-delivering-open-weight-ai-40-lan",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Routine open-weight model release; limited near-term impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62661188",
-    "created_at": "2026-10-28T15:13:13Z",
-    "headline": "NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools And Games",
-    "url": "https://www.benzinga.com/news/26/10/62661188/nvidia-rtx-spark-windows-laptops-gain-new-models-agent-tools-and-games",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Routine laptop model refresh; minor relevance"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62661143",
-    "created_at": "2026-10-28T15:12:31Z",
-    "headline": "Amazon Rolls Out Alexa+ In Japan",
-    "url": "https://www.benzinga.com/news/26/10/62661143/amazon-rolls-out-alexa-japan",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.02,
-        "confidence": 0.1,
-        "reason": "Regional product rollout; immaterial to valuation"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62661036",
-    "created_at": "2026-10-28T15:10:27Z",
-    "headline": "United Launch Alliance To Send 40 Amazon Leo Satellites To Low Earth Orbit With Liftoff Targeted For Nov. 13",
-    "url": "https://www.benzinga.com/news/26/10/62661036/united-launch-alliance-send-40-amazon-leo-satellites-low-earth-orbit-liftoff-targeted-nov-13",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.02,
-        "confidence": 0.1,
-        "reason": "Satellite launch scheduling; no near-term financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62660730",
-    "created_at": "2026-10-28T15:05:04Z",
-    "headline": "Microsoft Earnings Top Item to Watch for AI Stocks: Dan Ives Says 'Most Important Print of the Week'",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62660730/microsoft-earnings-top-item-to-watch-for-ai-stocks-dan-ives-says-most-important-print-of-the-week",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Analyst calls earnings key event; sentiment mildly positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106060548",
-    "created_at": "2026-10-28T15:01:38Z",
-    "headline": "Verisk Integrates Insurance Intelligence with Microsoft Copilot",
-    "url": "https://www.globenewswire.com/news-release/2026/10/28/3390153/0/en/verisk-brings-its-proprietary-insurance-intelligence-to-amazon-and-microsoft-ai-platforms-expands-offerings-within-claude.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.03,
-        "confidence": 0.1,
-        "reason": "Third-party Copilot integration; minor ecosystem news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106060544",
-    "created_at": "2026-10-28T15:01:36Z",
-    "headline": "iBusiness Funding Expands SBA Financing Access for Amazon Sellers",
-    "url": "https://www.prnewswire.com/news-releases/ibusiness-funding-expands-access-to-sba-financing-for-amazon-sellers--offered-through-amazon-seller-central-302921220.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "106060543",
-    "created_at": "2026-10-28T15:01:36Z",
-    "headline": "Amazon Unveils Three New Echo Devices Including 'Echo Time'",
-    "url": "https://www.cgmagonline.com/news/amazon-echo-reveals-3-new-devices-including-the-brands-first-echo-time/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Routine hardware launch with limited revenue impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106060541",
-    "created_at": "2026-10-28T15:01:31Z",
-    "headline": "Meta and Snap Face Trial Over Teen Mental Health Claims",
-    "url": "https://ucapital.com/en/news/breaking/17706070",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Teen mental health trial raises legal and regulatory risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106060538",
-    "created_at": "2026-10-28T15:01:30Z",
-    "headline": "Apple Increases Education Store Pricing for MacBook Neo",
-    "url": "https://appleosophy.com/wire/gnibw4u/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Small education price hike signals component cost pressure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62660436",
-    "created_at": "2026-10-28T15:00:23Z",
-    "headline": "Cyclicals Lead Sectors In Wednesday Trading As Real Estate Trails",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62660436/cyclicals-lead-sectors-in-wednesday-trading-as-real-estate-trails",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62660431",
-    "created_at": "2026-10-28T15:00:19Z",
-    "headline": "Alphabet Has a Strange AI Problem: Success Threatens Its Biggest Money Machine",
-    "url": "https://www.benzinga.com/news/gaming/26/10/62660431/alphabet-has-a-strange-ai-problem-success-threatens-its-biggest-money-machine",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Analysis flags ad business cannibalization risk from AI success"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62659397",
-    "created_at": "2026-10-28T14:43:01Z",
-    "headline": "Michael Burry Finds a $537 Billion Hole in Anthropic\u2019s IPO Story",
-    "url": "https://www.benzinga.com/markets/ipos/26/10/62659397/michael-burry-finds-a-537-billion-hole-in-anthropics-ipo-story",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Burry skepticism on Anthropic compute commitments; AMZN is an investor"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Burry skepticism on Anthropic compute commitments; GOOGL is an investor"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Burry skepticism on AI compute spending and Anthropic exposure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62664656",
     "created_at": "2026-10-28T16:30:24Z",
     "headline": "SK Hynix, Vertiv Rescue AI Trade As Oil Tops $102 Before Fed: Stock Market Today",
@@ -2174,23 +1853,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62659916",
-    "created_at": "2026-10-28T14:53:16Z",
-    "headline": "Sandisk Stock Jumps 4% As AI Memory Demand Heats Up Ahead of Earnings",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62659916/sandisk-stock-jumps-4-as-ai-memory-demand-heats-up-ahead-of-earnings",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": 0.35,
-        "confidence": 0.5,
-        "reason": "Strong SK Hynix results lift AI memory demand outlook ahead of earnings"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "107208317",
     "created_at": "2026-10-29T13:32:12Z",
     "headline": "Apple Increases Production Targets for iPhone Duo Following Strong Demand",
@@ -3695,6 +3357,268 @@
         "sentiment": -0.1,
         "confidence": 0.3,
         "reason": "Overweight kept but price target cut; largely routine"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62704663",
+    "created_at": "2026-10-29T15:34:35Z",
+    "headline": "FCC Adopts Reciprocity Rules Requiring Electronic Device Testing In U.S. Or Reciprocal Countries By December 1, 2028, Aiming To Reshore Testing Industry",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62704663/fcc-adopts-reciprocity-rules-requiring-electronic-device-testing-u-s-or-reciprocal-countries-decembe",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62704431",
+    "created_at": "2026-10-29T15:30:39Z",
+    "headline": "Microsoft's $28 Billion Cash Flow Edge Over Google Gives It an AI Advantage, Analyst Says",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62704431/microsoft-google-cash-flow",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Analyst cites stronger free cash flow to fund AI buildout"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Lower free cash flow relative to Microsoft cited as AI disadvantage"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62704418",
+    "created_at": "2026-10-29T15:30:26Z",
+    "headline": "Citizens Maintains Market Outperform on Microsoft, Raises Price Target to $625",
+    "url": "https://www.benzinga.com/news/26/10/62704418/citizens-maintains-market-outperform-microsoft-raises-price-target-625",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Analyst maintains outperform and raises price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62704196",
+    "created_at": "2026-10-29T15:26:24Z",
+    "headline": "Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $630",
+    "url": "https://www.benzinga.com/news/26/10/62704196/truist-securities-reiterates-buy-microsoft-raises-price-target-630",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Buy reiterated with higher price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62704109",
+    "created_at": "2026-10-29T15:24:42Z",
+    "headline": "Citizens Downgrades Alphabet to Market Perform",
+    "url": "https://www.benzinga.com/news/26/10/62704109/citizens-downgrades-alphabet-market-perform",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.4,
+        "confidence": 0.6,
+        "reason": "Analyst downgrade to Market Perform from outperform-level rating"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62703837",
+    "created_at": "2026-10-29T15:17:49Z",
+    "headline": "Barclays Maintains Overweight on Microsoft, Raises Price Target to $610",
+    "url": "https://www.benzinga.com/news/26/10/62703837/barclays-maintains-overweight-microsoft-raises-price-target-610",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Overweight maintained with higher price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62703305",
+    "created_at": "2026-10-29T15:10:04Z",
+    "headline": "Rivian Working on Vans for Walmart? Investors Could Get Their Answer Thursday",
+    "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62703305/rivian-working-on-vans-for-walmart-investors-could-get-their-answer-thursday",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62703018",
+    "created_at": "2026-10-29T15:06:19Z",
+    "headline": "Alphabet\u2019s Jaw-Dropping Number: Up to $1.08 Trillion Commitments Vs. $561 Billion Orders",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62703018/alphabets-jaw-dropping-number-up-to-1-08-trillion-commitments",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Cloud backlog strong, but large capex commitments weigh"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107322195",
+    "created_at": "2026-10-29T15:01:57Z",
+    "headline": "Eclypsium Partners with NVIDIA to Advance Infrastructure Assurance",
+    "url": "https://www.moomoo.com/stock/NVDA-US/news?chain_id=Name1K9-3FXPhg.1le2eo0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A59,%22f%22%3A%22www.moomoo.com%2Foptions%2FMSFT260821C502500-US%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Minor ecosystem partnership announcement, limited financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62702630",
+    "created_at": "2026-10-29T15:00:28Z",
+    "headline": "8 Of 11 Sectors Rise Thursday As Defensives Lead",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62702630/8-of-11-sectors-rise-thursday-as-defensives-lead",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62702605",
+    "created_at": "2026-10-29T15:00:14Z",
+    "headline": "Rep. Kevin Hern Has Sold Up to $150K Worth Of ASML Holding Stock: Here\u2019s What You Should Know",
+    "url": "https://www.benzinga.com/government/26/10/62702605/rep-kevin-hern-has-sold-150k-worth-asml-holding-stock-here-s-what-you-should-know",
+    "source": "benzinga",
+    "market_risk": 0.03,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62702577",
+    "created_at": "2026-10-29T14:59:57Z",
+    "headline": "Amazon Earnings Prediction Market Preview: What Will Andy Jassy Say?",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62702577/amazon-earnings-preview",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Upcoming earnings preview; outcome direction unclear"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Mentioned in Amazon earnings preview; no direct impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62702081",
+    "created_at": "2026-10-29T14:51:08Z",
+    "headline": "Wedbush Maintains Outperform on Alphabet, Lowers Price Target to $387",
+    "url": "https://www.benzinga.com/news/26/10/62702081/wedbush-maintains-outperform-alphabet-lowers-price-target-387",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Maintains Outperform but cuts price target; mildly negative revision"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62702078",
+    "created_at": "2026-10-29T14:51:01Z",
+    "headline": "Barclays Maintains Overweight on Alphabet, Lowers Price Target to $405",
+    "url": "https://www.benzinga.com/news/26/10/62702078/barclays-maintains-overweight-alphabet-lowers-price-target-405",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Keeps Overweight but lowers target; mild negative revision"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62701797",
+    "created_at": "2026-10-29T14:45:22Z",
+    "headline": "Wells Fargo Maintains Overweight on Microsoft, Raises Price Target to $750",
+    "url": "https://www.benzinga.com/news/26/10/62701797/wells-fargo-maintains-overweight-microsoft-raises-price-target-750",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.35,
+        "reason": "Wells Fargo raises price target to $750, reaffirms Overweight"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62701188",
+    "created_at": "2026-10-29T14:35:51Z",
+    "headline": "QUICK SPARK: Alphabet Stock Eyes Worst Day in Company's History, Wipes Out $500 Billion in Value",
+    "url": "https://www.benzinga.com/markets/earnings/26/10/62701188/alphabet-stock-worst-day-history-500-billion",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.8,
+        "confidence": 0.8,
+        "reason": "Stock near worst day ever on AI capex worries; large drop likely to persist short-term"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.25,
+        "reason": "Surging AI spending may benefit chip demand, though indirect"
       }
     ],
     "scorer": "claude"
