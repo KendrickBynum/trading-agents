@@ -11,6 +11,7 @@ import os
 import sys
 import time
 
+import books
 from common import Alpaca, load_config, now_utc, parse_time, read_json, write_json
 
 
@@ -29,7 +30,8 @@ def hours_since(ts: str | None, now: dt.datetime) -> float:
 
 def decide(positions: list[dict], analysis: dict, signals: dict, equity: float, cash: float,
            day_pnl_pct: float, cfg: dict, pending: set[str], now: dt.datetime,
-           state: dict) -> tuple[list[dict], list[str]]:
+           state: dict, book_budget: float | None = None,
+           blocked: set[str] = frozenset()) -> tuple[list[dict], list[str]]:
     """Pure decision function (unit-tested). Returns (actions, halt_reasons)."""
     risk = cfg["risk"]
     watch = {s.upper() for s in cfg["watchlist"]}
@@ -89,10 +91,12 @@ def decide(positions: list[dict], analysis: dict, signals: dict, equity: float, 
     held_syms = {p["symbol"] for p in held}
     slots = risk["max_positions"] - (len(held_syms) - len(selling))
     budget = cash - equity * risk["min_cash_pct"]
+    if book_budget is not None:
+        budget = min(budget, book_budget)
     candidates = []
     for sym, a in syms.items():
         sig = news.get(sym, {})
-        if (sym not in watch or sym in held_syms or sym in pending or a["combined"] < buy_thr
+        if (sym not in watch or sym in held_syms or sym in pending or sym in blocked or a["combined"] < buy_thr
                 or a["agreeing"] < risk.get("min_agreeing_factors", 3)):
             continue
         if sig.get(key, 0) >= risk["min_articles"] and sig.get("score", 0) <= news_sell:
@@ -130,32 +134,6 @@ def protection_needed(positions: list[dict], open_orders: list[dict], watch: set
     return out
 
 
-def sync_fills(alpaca: Alpaca, state: dict, trades: list[dict], now: dt.datetime) -> list[dict]:
-    """Log sells that happened at the broker between runs (trailing stops)."""
-    after = state.get("last_order_check") or (now - dt.timedelta(days=3)).isoformat()
-    logged = set(state.get("logged_orders", []))
-    new = []
-    for o in alpaca.orders(status="closed", after=after, limit=500, direction="asc"):
-        if o.get("status") != "filled" or o.get("side") != "sell" or o["id"] in logged:
-            continue
-        sym, qty, px = o["symbol"], float(o["filled_qty"]), float(o["filled_avg_price"])
-        entry = state.get("entries", {}).get(sym, {}).get("avg")
-        rec = {"time": o.get("filled_at") or now.isoformat(), "symbol": sym, "side": "sell", "status": "filled",
-               "order_id": o["id"], "notional": round(qty * px, 2),
-               "reason": ("trailing stop hit (fell from its high)" if o.get("type") == "trailing_stop"
-                          else "sell order filled")}
-        if entry:
-            rec["realized_pl"] = round((px - entry) * qty, 2)
-        trades.append(rec)
-        new.append(rec)
-        logged.add(o["id"])
-        state.setdefault("exits", {})[sym] = rec["time"]
-        print(f"FILLED SELL {sym} at {px:.2f}: {rec['reason']}")
-    state["logged_orders"] = list(logged)[-1000:]
-    state["last_order_check"] = now.isoformat()
-    return new
-
-
 def main() -> int:
     cfg = load_config()
     if os.environ.get("KILL_SWITCH") == "1":
@@ -165,7 +143,7 @@ def main() -> int:
     now = now_utc()
     alpaca = Alpaca()
     acct, clock = alpaca.account(), alpaca.clock()
-    positions = alpaca.positions()
+    all_positions = alpaca.positions()
     equity, cash = float(acct["equity"]), float(acct["cash"])
     last_equity = float(acct["last_equity"])
 
@@ -177,24 +155,34 @@ def main() -> int:
     signals = read_json("signals.json", {})
     analysis = read_json("analysis.json", {})
     trades = read_json("trades.json", [])
-    logged = set(state.get("logged_orders", []))
+    for t in trades:
+        t.setdefault("book", "stock")
+    owners = books.load_owners()
     results, halts, alerts = [], [], []
 
+    def mine(positions):
+        return [p for p in books.book_positions("stock", positions, owners) if p["symbol"] in watch]
+
     def log(rec: dict):
+        rec["book"] = "stock"
         trades.append(rec)
         results.append(rec)
         if rec.get("order_id"):
-            logged.add(rec["order_id"])
-        print(f"{rec['side'].upper()} {rec['symbol']}: {rec['status']} - {rec['reason']}")
+            state.setdefault("logged_orders", []).append(rec["order_id"])
+        print(f"[stock] {rec['side'].upper()} {rec['symbol']}: {rec['status']} - {rec['reason']}")
 
     try:
-        results += sync_fills(alpaca, state, trades, now)
-        logged |= set(state.get("logged_orders", []))
+        results += books.sync_fills(alpaca, "stock", state, trades, now, describe=lambda o: (
+            "trailing stop hit (fell from its high)" if o.get("type") == "trailing_stop" else "sell order filled"))
     except Exception as e:
         alerts.append(f"Could not check recent fills: {e}")
 
+    positions = mine(all_positions)
+    for p in positions:
+        owners.setdefault(p["symbol"], "stock")
     # Track when each position was opened (for the max-hold rule).
-    buys = {t["symbol"]: t["time"] for t in trades if t["side"] == "buy" and t.get("status") != "error"}
+    buys = {t["symbol"]: t["time"] for t in trades if t["book"] == "stock" and t["side"] == "buy"
+            and t.get("status") != "error"}
     for p in positions:
         e = entries.setdefault(p["symbol"], {"time": buys.get(p["symbol"], now.isoformat())})
         e["avg"] = float(p["avg_entry_price"])
@@ -203,27 +191,31 @@ def main() -> int:
             entries.pop(sym)
             state["exits"].setdefault(sym, now.isoformat())
 
-    open_orders = alpaca.open_orders()
+    all_orders = alpaca.open_orders()
+    my_orders = [o for o in all_orders if books.book_of_order(o) == "stock"]
     if not clock["is_open"]:
         halts.append("Market closed")
     else:
         # Sell fractional leftovers so every share can sit under a trailing stop.
         for p in positions:
             frac = float(p["qty"]) - int(float(p["qty"]))
-            if p["symbol"] in watch and frac > 1e-6 and not any(
-                    o["symbol"] == p["symbol"] and o["side"] == "sell" and o["type"] != "trailing_stop"
-                    for o in open_orders):
+            if frac > 1e-6 and not any(o["symbol"] == p["symbol"] and o["side"] == "sell"
+                                       and o["type"] != "trailing_stop" for o in my_orders):
                 rec = {"time": now.isoformat(), "symbol": p["symbol"], "side": "sell",
-                       "reason": f"tidy {frac:.4f} fractional share", "notional": round(frac * float(p["current_price"]), 2)}
+                       "reason": f"tidy {frac:.4f} fractional share",
+                       "notional": round(frac * float(p["current_price"]), 2)}
                 try:
-                    rec.update(status="submitted", order_id=alpaca.sell_shares(p["symbol"], frac)["id"])
+                    rec.update(status="submitted",
+                               order_id=alpaca.sell_shares(p["symbol"], frac, books.cid("stock"))["id"])
                 except Exception as e:
                     rec.update(status="error", error=str(e)[:300])
                 log(rec)
 
-        pending = {o["symbol"] for o in open_orders if o["type"] != "trailing_stop"}
+        pending = {o["symbol"] for o in my_orders if o["type"] != "trailing_stop"}
+        held_by_others = {s for s, b in owners.items() if b != "stock"}
+        avail = books.budget("stock", cfg, equity, all_positions, owners, all_orders)
         actions, halts = decide(positions, analysis, signals, equity, cash, (equity - last_equity) / last_equity
-                                if last_equity else 0.0, cfg, pending, now, state)
+                                if last_equity else 0.0, cfg, pending, now, state, avail, held_by_others)
         for a in actions:
             sym = a["symbol"]
             info = analysis.get("symbols", {}).get(sym, {})
@@ -232,22 +224,24 @@ def main() -> int:
                    "news_score": info.get("news_score"), "notional": a.get("notional")}
             try:
                 if a["action"] == "sell":
-                    for o in open_orders:  # release shares held by the trailing stop first
+                    for o in my_orders:  # release shares held by the trailing stop first
                         if o["symbol"] == sym:
                             alpaca.cancel_order(o["id"])
-                    p = next((p for p in positions if p["symbol"] == sym), None)
-                    order = alpaca.close_position(sym)
-                    if p:
-                        rec["realized_pl"] = round(float(p["unrealized_pl"]), 2)
-                        rec["notional"] = round(float(p["market_value"]), 2)
+                    p = next(p for p in positions if p["symbol"] == sym)
+                    time.sleep(0.5)
+                    order = alpaca.sell_shares(sym, float(p["qty"]), books.cid("stock"))
+                    rec["realized_pl"] = round(float(p["unrealized_pl"]), 2)
+                    rec["notional"] = round(float(p["market_value"]), 2)
                     state["exits"][sym] = now.isoformat()
                 else:
-                    order = alpaca.buy_shares(sym, a["qty"])
+                    owners[sym] = "stock"
+                    order = alpaca.buy_shares(sym, a["qty"], books.cid("stock"))
                     entries[sym] = {"time": now.isoformat(), "avg": info.get("price")}
                     for _ in range(10):  # wait briefly for the fill, then protect it
                         o = alpaca.get_order(order["id"])
                         if o["status"] == "filled":
-                            alpaca.trailing_stop(sym, int(float(o["filled_qty"])), risk["trailing_stop_pct"] * 100)
+                            alpaca.trailing_stop(sym, int(float(o["filled_qty"])), risk["trailing_stop_pct"] * 100,
+                                                 books.cid("stock"))
                             rec["trailing_stop"] = f"{risk['trailing_stop_pct']:.0%}"
                             break
                         time.sleep(1)
@@ -257,56 +251,32 @@ def main() -> int:
             log(rec)
         if actions:
             time.sleep(2)
-            positions = alpaca.positions()
-            open_orders = alpaca.open_orders()
+            all_positions = alpaca.positions()
+            positions = mine(all_positions)
+            all_orders = alpaca.open_orders()
+            my_orders = [o for o in all_orders if books.book_of_order(o) == "stock"]
 
     # Every whole-share position gets a trailing stop at the broker. GTC
     # orders are accepted while the market is closed and activate at the open.
-    for sym, qty in protection_needed(positions, open_orders, watch):
+    for sym, qty in protection_needed(positions, my_orders, watch):
         try:
-            alpaca.trailing_stop(sym, qty, risk["trailing_stop_pct"] * 100)
-            print(f"PROTECT {sym}: trailing stop {risk['trailing_stop_pct']:.0%} on {qty} shares")
+            alpaca.trailing_stop(sym, qty, risk["trailing_stop_pct"] * 100, books.cid("stock"))
+            print(f"[stock] PROTECT {sym}: trailing stop {risk['trailing_stop_pct']:.0%} on {qty} shares")
         except Exception as e:
             alerts.append(f"Could not place trailing stop on {sym}: {str(e)[:120]}")
-    open_orders = alpaca.open_orders()
-    acct = alpaca.account()
-    equity, cash = float(acct["equity"]), float(acct["cash"])
 
-    state["logged_orders"] = list(logged)[-1000:]
-    write_json("trades.json", trades[-1000:])
-    equity_hist = read_json("equity.json", [])
-    equity_hist.append({"time": now.isoformat(), "equity": round(equity, 2), "cash": round(cash, 2)})
-    write_json("equity.json", equity_hist[-5000:])
+    books.release_unused(owners, "stock", alpaca.positions(), alpaca.open_orders())
+    books.save_owners(owners)
+    state["logged_orders"] = state.get("logged_orders", [])[-2000:]
+    write_json("trades.json", trades[-3000:])
     write_json("state.json", state)
-
-    stops = {o["symbol"]: o for o in open_orders if o["type"] == "trailing_stop"}
     buy_thr, exit_thr = thresholds(cfg, analysis)
-    status = {
-        "last_run": now.isoformat(), "paper": alpaca.is_paper, "market_open": clock["is_open"],
-        "next_open": clock.get("next_open"), "equity": round(equity, 2), "cash": round(cash, 2),
-        "day_pnl": round(equity - last_equity, 2),
-        "day_pnl_pct": round((equity - last_equity) / last_equity, 5) if last_equity else 0,
-        "starting_equity": state["starting_equity"],
-        "total_pnl": round(equity - state["starting_equity"], 2),
-        "total_pnl_pct": round((equity - state["starting_equity"]) / state["starting_equity"], 5),
-        "halts": halts, "alerts": alerts, "last_actions": results,
-        "market_risk": signals.get("market_risk"), "signals_at": signals.get("generated_at"),
-        "analysis_at": analysis.get("generated_at"),
-        "buy_threshold": buy_thr, "exit_threshold": exit_thr, "trailing_stop_pct": risk["trailing_stop_pct"],
-        "max_hold_days": risk["max_hold_days"],
-        "positions": [{
-            "symbol": p["symbol"], "qty": float(p["qty"]), "avg_entry": float(p["avg_entry_price"]),
-            "price": float(p["current_price"]), "value": float(p["market_value"]),
-            "pl": float(p["unrealized_pl"]), "pl_pct": float(p["unrealized_plpc"]),
-            "opened": entries.get(p["symbol"], {}).get("time"),
-            "stop_price": float(stops[p["symbol"]]["stop_price"]) if p["symbol"] in stops and stops[p["symbol"]].get("stop_price") else None,
-            "high_water": float(stops[p["symbol"]]["hwm"]) if p["symbol"] in stops and stops[p["symbol"]].get("hwm") else None,
-        } for p in positions],
-    }
-    write_json("status.json", status)
-    print(f"Equity ${equity:,.2f} | today {status['day_pnl']:+,.2f} | total {status['total_pnl']:+,.2f}")
+    write_json("stock_status.json", {"time": now.isoformat(), "halts": halts, "alerts": alerts,
+                                     "last_actions": results, "buy_threshold": buy_thr,
+                                     "exit_threshold": exit_thr, "trailing_stop_pct": risk["trailing_stop_pct"],
+                                     "max_hold_days": risk["max_hold_days"]})
     for msg in halts + alerts:
-        print("Note:", msg)
+        print("[stock] Note:", msg)
     return 0
 
 

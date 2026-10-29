@@ -206,3 +206,109 @@ def test_noise_level_edges_do_not_move_weights():
     stats = {"trend": {"ic": -0.09, "n": 1250}, "levels": {"ic": -0.02, "n": 1250},
              "flow": {"ic": -0.07, "n": 1250}, "pattern": {"ic": 0.007, "n": 1250}}
     assert learn.weights_from(stats, prior) == prior   # tiny pattern "edge" is luck; keep starting weights
+
+
+# ------------------------------------------------------------------ books
+import books  # noqa: E402
+import frac_agent  # noqa: E402
+import options_agent  # noqa: E402
+
+BCFG = {**CFG, "risk": {**CFG["risk"], "news_sell_threshold": -0.30},
+        "books": {"stock": {"allocation": 0.65}, "frac": {"allocation": 0.20, "cash_reserve": 0.10,
+                  "position_pct": 0.2, "max_positions": 2, "min_agreeing_factors": 3, "max_hold_days": 10,
+                  "reentry_cooldown_hours": 20, "min_order_dollars": 25},
+                  "options": {"allocation": 0.15, "min_agreeing_factors": 3, "dte_min": 21, "dte_max": 45,
+                              "target_delta": 0.55, "max_spread_pct": 0.12, "min_open_interest": 100,
+                              "take_profit_pct": 0.5, "stop_loss_pct": 0.5, "exit_dte": 7, "flip_exit": 0.05}}}
+
+
+def test_order_tags_and_occ():
+    assert books.book_of_order({"client_order_id": books.cid("frac"), "symbol": "AAPL"}) == "frac"
+    assert books.book_of_order({"client_order_id": None, "symbol": "AAPL"}) == "stock"          # legacy
+    assert books.book_of_order({"client_order_id": "x", "symbol": "AAPL261120C00250000"}) == "options"
+    o = books.parse_occ("AAPL261120C00250000")
+    assert o == {"underlying": "AAPL", "expiry": dt.date(2026, 11, 20), "type": "call", "strike": 250.0}
+    assert not books.is_option("AAPL")
+
+
+def test_books_split_positions_and_budget():
+    positions = [{"symbol": "AAPL", "market_value": "10000", "unrealized_pl": "100"},
+                 {"symbol": "MU", "market_value": "3000", "unrealized_pl": "-50"},
+                 {"symbol": "AAPL261120C00250000", "market_value": "900", "unrealized_pl": "150"}]
+    owners = {"MU": "frac"}
+    assert [p["symbol"] for p in books.book_positions("stock", positions, owners)] == ["AAPL"]
+    assert [p["symbol"] for p in books.book_positions("frac", positions, owners)] == ["MU"]
+    assert [p["symbol"] for p in books.book_positions("options", positions, owners)] == ["AAPL261120C00250000"]
+    orders = [{"symbol": "AMD", "side": "buy", "client_order_id": books.cid("frac"), "limit_price": "100",
+               "qty": "10"}]
+    assert books.budget("frac", BCFG, 100000, positions, owners, orders) == 100000 * 0.2 * 0.9 - 3000 - 1000
+    s = books.book_summary("options", positions, [{"book": "options", "side": "sell", "realized_pl": 80,
+                                                   "time": "2026-11-01"}], owners, 15000, None)
+    assert s["pnl"] == 230 and s["win_rate"] == 1.0
+
+
+def frac_an(**syms):
+    a = an(**{k: (c, ag, p) for k, (c, ag, p, _) in syms.items()})
+    for k, (_, _, _, trend) in syms.items():
+        a["symbols"][k]["factors"]["trend"] = trend
+        a["symbols"][k]["levels"] = {"atr": 4.0}
+    return a
+
+
+def test_frac_entries():
+    st = {"buy": 0.3, "limit_atr": 0.5, "stop_atr": 2.0}
+    a = frac_an(AAPL=(0.5, 4, 200.0, 0.6), MSFT=(0.6, 4, 400.0, -0.2), NVDA=(0.4, 3, 100.0, 0.3),
+                XOM=(0.45, 3, 110.0, 0.5))
+    plan = frac_agent.plan_entries(a, news(), BCFG, st, set(), {"XOM"}, set(), {}, 20000, 20000, NOW)
+    assert [p["symbol"] for p in plan] == ["AAPL", "NVDA"]       # MSFT downtrend, XOM held by another book
+    assert plan[0]["limit"] == 198.0 and abs(plan[0]["dollars"] - 4000) < 1
+    assert plan[1]["qty"] == round(4000 / 98.0, 4)               # fractional quantity
+
+
+def test_frac_exits_and_ratcheting_stop():
+    st = {"buy": 0.3, "limit_atr": 0.5, "stop_atr": 2.0}
+    pos_ = {"current_price": "112", "avg_entry_price": "100"}
+    entry = {"atr": 2.0, "hwm": 115.0, "time": NOW.isoformat()}
+    reason, stop = frac_agent.exit_plan(pos_, entry, {"combined": 0.2}, {}, BCFG, st, -0.3, NOW)
+    assert reason is None and stop == 111.0                        # 2 ATR under the 115 high
+    reason, _ = frac_agent.exit_plan({**pos_, "current_price": "110"}, entry, {"combined": 0.2}, {}, BCFG, st,
+                                     -0.3, NOW)
+    assert "fell through stop" in reason                           # stop-limit gapped: market fallback
+    old = {**entry, "time": (NOW - dt.timedelta(days=11)).isoformat()}
+    assert "max hold" in frac_agent.exit_plan(pos_, old, {"combined": 0.1}, {}, BCFG, st, -0.3, NOW)[0]
+
+
+def test_simulated_frac_trade():
+    s = {"o": np.array([100, 99, 101, 104, 106, 103.0]), "h": np.array([101, 100, 103, 106, 107, 104.0]),
+         "l": np.array([99, 97, 100, 103, 101, 100.0]), "c": np.array([100, 99.5, 102, 105, 102, 101.0])}
+    atr = np.full(6, 2.0)
+    r = learn.simulate_frac(s, atr, 0, 1.0, 1.5, hold=10, cost=0)
+    assert abs(r - (103.0 / 98 - 1)) < 1e-9          # filled at 98; stop trails to 103 and is hit on day 4
+    assert learn.simulate_frac(s, atr, 0, 3.0, 1.5) is None   # limit too low: never filled
+
+
+def test_option_contract_choice():
+    today = dt.date(2026, 10, 28)
+    cs = [{"symbol": "A1", "expiration_date": "2026-11-27", "strike_price": "195", "open_interest": 500},
+          {"symbol": "A2", "expiration_date": "2026-11-27", "strike_price": "200", "open_interest": 500},
+          {"symbol": "A3", "expiration_date": "2026-11-27", "strike_price": "190", "open_interest": 20},
+          {"symbol": "A4", "expiration_date": "2026-12-04", "strike_price": "198", "open_interest": 900}]
+    q = lambda b, a, d: {"latestQuote": {"bp": b, "ap": a}, "greeks": {"delta": d}}
+    snaps = {"A1": q(8.0, 8.2, 0.62), "A2": q(5.0, 5.2, 0.52), "A3": q(11, 11.2, 0.70), "A4": q(4.0, 6.0, 0.55)}
+    pick = options_agent.choose_contract(cs, snaps, "call", 200.0, today, BCFG["books"]["options"])
+    assert pick["symbol"] == "A2"        # A3 thin open interest, A4 spread too wide, A1 further from 0.55
+    assert options_agent.tick_round(5.13) == 5.15 and options_agent.tick_round(1.23) == 1.23
+
+
+def test_option_exits():
+    o = BCFG["books"]["options"]
+    today = dt.date(2026, 10, 28)
+    p = lambda plpc, sym="AAPL261127C00200000": {"symbol": sym, "unrealized_plpc": str(plpc)}
+    assert "take profit" in options_agent.exit_reason(p(0.6), {}, None, today, o)
+    assert "stop loss" in options_agent.exit_reason(p(-0.55), {}, None, today, o)
+    assert "time exit" in options_agent.exit_reason(p(0.1, "AAPL261102C00200000"), {}, None, today, o)
+    assert "against the call" in options_agent.exit_reason(p(0.1), {}, {"combined": -0.2}, today, o)
+    assert "against the put" in options_agent.exit_reason(p(0.1, "AAPL261127P00200000"), {}, {"combined": 0.2},
+                                                         today, o)
+    assert options_agent.exit_reason(p(0.1), {}, {"combined": 0.3}, today, o) is None
+    assert options_agent.signal_side({"combined": -0.5, "agreeing": 0, "opposing": 4}, 0.4, -0.3, o) == "put"

@@ -51,7 +51,7 @@ def backtest_samples(series: dict[str, dict], lib: dict, step: int = 5, k: int =
             _, vol = ind.pattern_features(c, i)
             if vol is None:
                 continue
-            row = {"sym": name, "date": s["t"][i]}
+            row = {"sym": name, "date": s["t"][i], "i": i}
             row["trend"], _ = ind.trend_factor(sub)
             row["levels"], _ = ind.levels_factor(sub)
             row["flow"], _ = ind.flow_factor(sub)
@@ -148,8 +148,86 @@ def run(series: dict[str, dict], cfg: dict, factor_log: list[dict], now: dt.date
     sell = min(float(np.percentile(scores, rcfg.get("sell_percentile", 10))), -0.12)
 
     stats["news"] = news_stats
-    return {"learned_at": now.isoformat(), "horizon_days": ind.PATTERN_HORIZON,
+    try:
+        frac = learn_frac(series, samples, cfg, {f: prior[f] for f in ind.TECHNICAL})
+    except Exception as e:  # fractional settings fall back to defaults
+        frac = {"error": str(e)[:200]}
+    return {"frac": frac, "learned_at": now.isoformat(), "horizon_days": ind.PATTERN_HORIZON,
             "history_from": str(samples[0]["date"]), "history_to": str(samples[-1]["date"]),
             "samples": len(samples), "weights": weights, "prior_weights": prior,
             "factors": stats, "news_learned": news_stats["n"] >= MIN_NEWS_SAMPLES,
             "thresholds": {"buy": round(buy, 3), "sell": round(sell, 3)}, "out_of_sample": oos}
+
+
+# ------------------------------------------------- fractional-book learning
+def atr_series(h, l, c, n: int = 14):
+    prev = np.concatenate([[c[0]], c[:-1]])
+    tr = np.maximum(h - l, np.maximum(np.abs(h - prev), np.abs(l - prev)))
+    out = np.convolve(tr, np.ones(n) / n, mode="full")[:len(tr)]
+    out[:n] = tr[:n].mean()
+    return out
+
+
+def simulate_frac(s: dict, atr_arr, i: int, k: float, m: float, hold: int = 10, cost: float = 0.001):
+    """Signal at the close of day i. Next day: a limit buy k ATRs below that
+    close (fills at the open if the stock opens below it). Then a stop m ATRs
+    under the highest price since buying, raised as the stock rises. Exits at
+    the open if the price gaps through the stop (the agent's market-sell
+    fallback). Returns the trade's return, or None if the limit never filled."""
+    o, h, l, c = s["o"], s["h"], s["l"], s["c"]
+    j = i + 1
+    if j + 1 >= len(c):
+        return None
+    a = atr_arr[i]
+    limit = c[i] - k * a
+    if o[j] <= limit:
+        fill = o[j]
+    elif l[j] <= limit:
+        fill = limit
+    else:
+        return None
+    hwm = max(fill, c[j])
+    end = min(j + hold, len(c) - 1)
+    for d in range(j + 1, end + 1):
+        stop = max(fill - m * a, hwm - m * a)
+        if o[d] <= stop:
+            return o[d] / fill - 1 - cost
+        if l[d] <= stop:
+            return stop / fill - 1 - cost
+        hwm = max(hwm, h[d])
+    return c[end] / fill - 1 - cost
+
+
+def learn_frac(series: dict[str, dict], samples: list[dict], cfg: dict, tech_w: dict) -> dict:
+    fcfg = cfg.get("books", {}).get("frac", {})
+    hold = fcfg.get("max_hold_days", 10)
+    default = (fcfg.get("default_limit_atr", 0.25), fcfg.get("default_stop_atr", 2.0))
+    grid = [(k, m) for k in (0.0, 0.25, 0.5, 0.75, 1.0) for m in (1.5, 2.0, 2.5, 3.0)]
+    scores = np.array([ind.combine({f: r[f] for f in ind.TECHNICAL}, tech_w) for r in samples])
+    bar = float(np.percentile(scores, fcfg.get("buy_percentile", 75)))
+    sig = [r for r, sc in zip(samples, scores) if sc >= bar and r["trend"] > 0]
+    if len(sig) < 60:
+        raise RuntimeError(f"only {len(sig)} historical signals")
+    atrs = {n: atr_series(s["h"], s["l"], s["c"]) for n, s in series.items()}
+
+    def evaluate(rows, k, m):
+        rets = [simulate_frac(series[r["sym"]], atrs[r["sym"]], r["i"], k, m, hold) for r in rows]
+        filled = [x for x in rets if x is not None]
+        return {"signals": len(rows), "fill_rate": round(len(filled) / len(rows), 3) if rows else 0,
+                "avg_trade": round(float(np.mean(filled)), 4) if filled else 0.0,
+                "win_rate": round(float(np.mean([x > 0 for x in filled])), 3) if filled else None,
+                "per_signal": round(float(np.sum(filled)) / len(rows), 5) if rows else 0.0}
+
+    cut = int(len(sig) * 2 / 3)
+    train, test = sig[:cut], sig[cut:]
+    tr = {g: evaluate(train, *g) for g in grid}
+    best = max(grid, key=lambda g: tr[g]["per_signal"])
+    best_test, def_test = evaluate(test, *best), evaluate(test, *default)
+    adopt = best != default and best_test["per_signal"] > def_test["per_signal"]
+    chosen = best if adopt else default
+    return {"limit_atr": chosen[0], "stop_atr": chosen[1], "buy_threshold": round(max(bar, 0.08), 3),
+            "adopted_learned": adopt, "signals": len(sig),
+            "best_on_train": {"limit_atr": best[0], "stop_atr": best[1], **tr[best]},
+            "test_best": best_test, "test_default": def_test,
+            "test_period": [str(test[0]["date"]), str(test[-1]["date"])],
+            "grid": [{"limit_atr": g[0], "stop_atr": g[1], **tr[g]} for g in grid]}

@@ -49,6 +49,46 @@ analysis:
     flow: 0.15              # buying vs selling pressure, volume, VWAP
     pattern: 0.20
 
+# Three strategies ("books") share the account, each with its own slice.
+# Turn one off with enabled: false.
+books:
+  stock:                    # whole shares + 4% trailing stop at the broker (rules under risk:)
+    allocation: 0.65
+  frac:                     # fractional shares: limit buys on dips, stop-limit exits
+    enabled: true
+    allocation: 0.20
+    cash_reserve: 0.10
+    position_pct: 0.20      # each position = 20% of this book's money
+    max_positions: 5
+    buy_threshold: auto     # auto = top 25% of historical chart scores; or a number
+    buy_percentile: 75
+    min_agreeing_factors: 3
+    limit_atr: auto         # how far below the price to bid, in ATRs (auto = learned from history)
+    stop_atr: auto          # stop distance under the highest price, in ATRs (auto = learned)
+    default_limit_atr: 0.25
+    default_stop_atr: 2.0
+    default_buy_threshold: 0.25
+    stop_limit_gap: 0.01    # stop-limit sells may fill down to 1% below the stop
+    max_hold_days: 10
+    reentry_cooldown_hours: 20
+    min_order_dollars: 25
+  options:                  # buy calls on strong buy signals, puts on strong sell signals
+    enabled: true
+    allocation: 0.15
+    risk_per_trade_pct: 0.015   # max premium per trade = 1.5% of the account (the most it can lose)
+    max_positions: 4
+    min_agreeing_factors: 3
+    dte_min: 21             # days to expiry when buying
+    dte_max: 45
+    target_delta: 0.55      # slightly in the money
+    max_spread_pct: 0.12    # skip contracts whose bid/ask spread is wider than 12% of the price
+    min_open_interest: 100
+    take_profit_pct: 0.50
+    stop_loss_pct: 0.50
+    exit_dte: 7             # always out a week before expiry
+    flip_exit: 0.05         # exit a call if the score drops below -0.05 (put: above +0.05)
+    reentry_cooldown_hours: 20
+
 risk:
   # Buying: the combined score (-1..1) of all factors must clear the bar.
   buy_threshold: auto       # auto = top ~15% of historical scores; or set a number like 0.30

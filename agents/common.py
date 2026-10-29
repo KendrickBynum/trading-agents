@@ -4,6 +4,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import os
+import re
 from pathlib import Path
 
 import requests
@@ -24,7 +25,9 @@ def now_utc() -> dt.datetime:
 
 
 def parse_time(s: str) -> dt.datetime:
-    return dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+    """ISO timestamps from us or Alpaca (which uses up to 9 decimal places)."""
+    s = re.sub(r"(\.\d{6})\d+", r"\1", s.replace("Z", "+00:00"))
+    return dt.datetime.fromisoformat(s)
 
 
 def read_json(name: str, default):
@@ -115,19 +118,67 @@ class Alpaca:
     def cancel_order(self, order_id: str) -> None:
         self._req("DELETE", f"{self.base}/v2/orders/{order_id}")
 
-    def buy_shares(self, symbol: str, qty: int) -> dict:
-        return self.submit_order(symbol=symbol, qty=str(qty), side="buy", type="market", time_in_force="day")
+    @staticmethod
+    def fmt_qty(qty: float) -> str:
+        return f"{qty:.9f}".rstrip("0").rstrip(".")
 
-    def sell_shares(self, symbol: str, qty: float) -> dict:
-        return self.submit_order(symbol=symbol, qty=f"{qty:.9f}".rstrip("0").rstrip("."), side="sell",
-                                 type="market", time_in_force="day")
+    @staticmethod
+    def _cid(cid):
+        return {"client_order_id": cid} if cid else {}
 
-    def trailing_stop(self, symbol: str, qty: int, trail_percent: float) -> dict:
+    def buy_shares(self, symbol: str, qty: float, cid: str | None = None) -> dict:
+        return self.submit_order(symbol=symbol, qty=self.fmt_qty(qty), side="buy", type="market",
+                                 time_in_force="day", **self._cid(cid))
+
+    def sell_shares(self, symbol: str, qty: float, cid: str | None = None) -> dict:
+        return self.submit_order(symbol=symbol, qty=self.fmt_qty(qty), side="sell", type="market",
+                                 time_in_force="day", **self._cid(cid))
+
+    def limit_order(self, symbol: str, side: str, qty: float, limit: float, cid: str | None = None,
+                    tif: str = "day") -> dict:
+        return self.submit_order(symbol=symbol, qty=self.fmt_qty(qty), side=side, type="limit",
+                                 limit_price=f"{limit:.2f}", time_in_force=tif, **self._cid(cid))
+
+    def stop_limit_sell(self, symbol: str, qty: float, stop: float, limit: float, cid: str | None = None) -> dict:
+        """Fractional-friendly protective exit: once the price trades at or
+        below `stop`, a limit sell at `limit` is sent. Day orders only."""
+        return self.submit_order(symbol=symbol, qty=self.fmt_qty(qty), side="sell", type="stop_limit",
+                                 stop_price=f"{stop:.2f}", limit_price=f"{limit:.2f}", time_in_force="day",
+                                 **self._cid(cid))
+
+    def trailing_stop(self, symbol: str, qty: int, trail_percent: float, cid: str | None = None) -> dict:
         """Broker-side trailing stop: sells if the price falls trail_percent
         below its highest point since the order was placed. Runs at Alpaca
         continuously, not just when our hourly job runs."""
         return self.submit_order(symbol=symbol, qty=str(qty), side="sell", type="trailing_stop",
-                                 trail_percent=f"{trail_percent:.2f}", time_in_force="gtc")
+                                 trail_percent=f"{trail_percent:.2f}", time_in_force="gtc", **self._cid(cid))
+
+    # --- options -------------------------------------------------------
+    def option_contracts(self, underlying: str, kind: str, exp_from: dt.date, exp_to: dt.date,
+                         strike_lo: float, strike_hi: float) -> list[dict]:
+        out, token = [], None
+        while True:
+            params = {"underlying_symbols": underlying, "type": kind, "status": "active",
+                      "expiration_date_gte": exp_from.isoformat(), "expiration_date_lte": exp_to.isoformat(),
+                      "strike_price_gte": f"{strike_lo:.2f}", "strike_price_lte": f"{strike_hi:.2f}", "limit": 1000}
+            if token:
+                params["page_token"] = token
+            d = self._req("GET", f"{self.base}/v2/options/contracts", params=params)
+            out.extend(d.get("option_contracts") or [])
+            token = d.get("next_page_token")
+            if not token:
+                return out
+
+    def option_snapshots(self, symbols: list[str]) -> dict[str, dict]:
+        """Latest quote, greeks and implied volatility per contract. Uses the
+        free 'indicative' feed unless OPTIONS_FEED=opra is set."""
+        out = {}
+        feed = os.environ.get("OPTIONS_FEED", "indicative")
+        for i in range(0, len(symbols), 100):
+            d = self._req("GET", f"{self.DATA_URL}/v1beta1/options/snapshots",
+                          params={"symbols": ",".join(symbols[i:i + 100]), "feed": feed})
+            out.update(d.get("snapshots") or {})
+        return out
 
     # --- price history -------------------------------------------------
     def bars(self, symbols: list[str], timeframe: str, start: dt.datetime, end: dt.datetime | None = None,

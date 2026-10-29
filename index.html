@@ -45,6 +45,18 @@
   a { color: var(--accent); text-decoration: none; }
   .empty { color: var(--muted); padding: 8px 0; }
   .bar { display: inline-block; height: 8px; border-radius: 4px; vertical-align: middle; }
+  .books { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+  .book { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .book h3 { margin: 0 0 2px; font-size: 15px; display: flex; justify-content: space-between; gap: 8px; }
+  .book .big { font-size: 22px; font-weight: 650; font-variant-numeric: tabular-nums; margin: 4px 0; }
+  .book .row { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); padding: 2px 0; }
+  .book .row b { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .book .desc { font-size: 12.5px; color: var(--muted); margin: 6px 0 0; }
+  .book .warn { font-size: 12.5px; color: var(--warn); margin-top: 6px; }
+  .tag { font-size: 11px; font-weight: 650; padding: 1px 7px; border-radius: 999px; background: var(--line); color: var(--muted); white-space: nowrap; }
+  .tag.stock { background: color-mix(in srgb, var(--accent) 20%, transparent); color: var(--accent); }
+  .tag.frac { background: color-mix(in srgb, #b07cff 22%, transparent); color: #9a5cf0; }
+  .tag.options { background: color-mix(in srgb, #e8a33a 25%, transparent); color: #c27a10; }
   .note { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
   .f { display: inline-block; min-width: 44px; text-align: right; padding: 1px 6px; border-radius: 6px; font-size: 13px; }
   .f.pos { background: color-mix(in srgb, var(--up) 18%, transparent); color: var(--up); }
@@ -73,9 +85,20 @@
   </div>
 
   <section class="card">
-    <h2>Account value over time</h2>
-    <div class="chart-wrap"><canvas id="chart"></canvas></div>
+    <h2>Strategies</h2>
+    <div class="books" id="books"></div>
   </section>
+
+  <div class="two">
+    <section class="card">
+      <h2>Account value over time</h2>
+      <div class="chart-wrap"><canvas id="chart"></canvas></div>
+    </section>
+    <section class="card">
+      <h2>P&amp;L by strategy</h2>
+      <div class="chart-wrap"><canvas id="bookChart"></canvas></div>
+    </section>
+  </div>
 
   <section class="card">
     <h2>Open positions</h2>
@@ -182,17 +205,60 @@ async function render() {
                        y: {ticks: {color: muted, callback: v => money(v)}, grid: {color: grid}}}}
   }); } catch (e) { console.warn("chart failed", e); }
 
+  // Strategy cards
+  const BOOKNAME = {stock: "Stocks", frac: "Fractional", options: "Options"};
+  const BOOKDESC = {
+    stock: "Whole shares on strong combined signals. 4% trailing stop at the broker.",
+    frac: "Dollar-sized fractional positions. Limit buys on dips, stop-limit exits that rise with the price.",
+    options: "Calls on strong buy signals, puts on strong sell signals. Max loss per trade = premium paid."};
+  const tag = b => `<span class="tag ${b}">${BOOKNAME[b] || b}</span>`;
+  const B = status.books || {};
+  $("books").innerHTML = ["stock", "frac", "options"].filter(b => B[b]).map(b => {
+    const x = B[b];
+    const extra = b === "frac" && x.settings ? `<div class="row">Bids / stop<b>${x.settings.limit_atr} / ${x.settings.stop_atr} ATR${x.learned?.adopted_learned ? " (learned)" : ""}</b></div>`
+      : b === "options" && x.learned ? `<div class="row">Closed trades<b>${x.learned.closed_trades}${x.learned.closed_trades < 20 ? " (learning)" : ""}</b></div>` : "";
+    const warns = [...(x.halts || []), ...(x.alerts || [])].filter(h => !/Market closed/.test(h));
+    return `<div class="book"><h3>${BOOKNAME[b]} ${x.enabled === false ? '<span class="tag">off</span>' : `<span class="tag">${Math.round(x.allocation * 100)}% of account</span>`}</h3>
+      <div class="big ${cls(x.pnl)}">${signed(x.pnl)}</div>
+      <div class="row">Return on ${money(x.capital)}<b class="${cls(x.pnl_pct)}">${pct(x.pnl_pct)}</b></div>
+      <div class="row">Realized / open<b>${signed(x.realized)} / ${signed(x.unrealized)}</b></div>
+      <div class="row">Open positions<b>${x.open}</b></div>
+      <div class="row">Win rate<b>${x.win_rate == null ? "–" : Math.round(x.win_rate * 100) + "% of " + x.closed_trades}</b></div>
+      ${extra}
+      <p class="desc">${BOOKDESC[b]}</p>
+      ${warns.length ? `<div class="warn">${warns.map(esc).join(" · ")}</div>` : ""}</div>`;
+  }).join("");
+
+  // P&L by strategy over time
+  const bh = equity.filter(e => e.books);
+  window._bookChart?.destroy();
+  if (window.Chart && bh.length) try {
+    const colors = {stock: line, frac: "#9a5cf0", options: "#e8a33a"};
+    window._bookChart = new Chart($("bookChart"), {type: "line",
+      data: {labels: bh.map(e => new Date(e.time).toLocaleDateString(undefined, {month: "short", day: "numeric"})),
+             datasets: ["stock", "frac", "options"].map(b => ({label: BOOKNAME[b], data: bh.map(e => e.books[b] ?? null),
+               borderColor: colors[b], pointRadius: 0, borderWidth: 2, tension: .25}))},
+      options: {maintainAspectRatio: false, plugins: {legend: {labels: {color: muted, boxWidth: 12}},
+                tooltip: {callbacks: {label: c => `${c.dataset.label}: ${signed(c.parsed.y)}`}}},
+                scales: {x: {ticks: {color: muted, maxTicksLimit: 6}, grid: {display: false}},
+                         y: {ticks: {color: muted, callback: v => signed(v)}, grid: {color: grid}}}}});
+  } catch (e) { console.warn(e); }
+
   table($("positions"), [
-    {h: "Symbol", f: p => `<strong>${esc(p.symbol)}</strong>`},
+    {h: "Symbol", f: p => p.book === "options"
+       ? `<strong>${esc(p.underlying)}</strong> <span class="meta">${p.option_type} $${p.strike} · ${p.dte}d</span>`
+       : `<strong>${esc(p.symbol)}</strong>`},
+    {h: "Book", f: p => tag(p.book)},
+    {h: "Qty", num: 1, f: p => p.book === "options" ? `${p.qty} ct` : (Number.isInteger(p.qty) ? p.qty : p.qty.toFixed(3))},
     {h: "Value", num: 1, f: p => money(p.value)},
     {h: "Entry", num: 1, f: p => money(p.avg_entry)},
     {h: "Price", num: 1, f: p => money(p.price)},
     {h: "P&L", num: 1, f: p => `<span class="${cls(p.pl)}">${signed(p.pl)} (${pct(p.pl_pct)})</span>`},
-    {h: "Trailing stop", num: 1, f: p => p.stop_price ? `${money(p.stop_price)}${p.high_water ? ` <span class="meta">(high ${money(p.high_water)})</span>` : ""}` : "–"},
+    {h: "Stop", num: 1, f: p => p.book === "options" ? `<span class="meta">±50% / ${Math.max(p.dte - 7, 0)}d left</span>` : p.stop_price ? `${money(p.stop_price)}${p.high_water ? ` <span class="meta">(high ${money(p.high_water)})</span>` : ""}` : "–"},
     {h: "Held", num: 1, f: p => p.opened ? `${Math.floor((Date.now() - new Date(p.opened)) / 864e5)}d` : "–"},
   ], status.positions || [], "No open positions.");
   $("posNote").textContent = status.trailing_stop_pct != null
-    ? `Each position has a ${Math.round(status.trailing_stop_pct * 100)}% trailing stop at the broker: it sells if the price falls that far below its high since buying, checked continuously. Positions are reviewed after ${status.max_hold_days} days.`
+    ? `Stocks: ${Math.round(status.trailing_stop_pct * 100)}% trailing stop at the broker, checked continuously. Fractional: stop-limit order kept under the highest price, raised each run. Options: sold at +50%, −50%, a signal flip, or 7 days before expiry.`
     : "";
 
   // Factor scores per stock
@@ -248,8 +314,9 @@ async function render() {
 
   table($("trades"), [
     {h: "Time", f: t => when(t.time)},
+    {h: "Book", f: t => tag(t.book || "stock")},
     {h: "Side", f: t => `<span class="${t.side === "buy" ? "up" : "down"}">${t.side.toUpperCase()}</span>`},
-    {h: "Symbol", f: t => `<strong>${esc(t.symbol)}</strong>`},
+    {h: "Symbol", f: t => t.underlying ? `<strong>${esc(t.underlying)}</strong> <span class="meta">${esc(t.symbol.slice(t.underlying.length))}</span>` : `<strong>${esc(t.symbol)}</strong>`},
     {h: "Amount", num: 1, f: t => t.notional != null ? money(t.notional) : "–"},
     {h: "Realized P&L", num: 1, f: t => t.realized_pl != null ? `<span class="${cls(t.realized_pl)}">${signed(t.realized_pl)}</span>` : "–"},
     {h: "Why", wrap: 1, f: t => esc(t.reason) + (t.status === "error" ? ` <span class="down">(failed)</span>` : "")},

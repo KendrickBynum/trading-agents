@@ -35,6 +35,18 @@ It runs hourly on weekdays during market hours (cron-job.org triggers it; GitHub
 
 **About learning:** the dashboard shows, for each factor, how often stocks rose over the next 5 trading days when that factor was bullish vs on any random day. Weights move toward factors that beat the normal rate. Many technical signals turn out to be close to coin flips on large, heavily traded stocks; the out-of-sample line tells you whether the combined score has had a real edge recently.
 
+## Three strategies ("books") in one account
+
+| Book | Share of account | How it trades |
+|---|---|---|
+| **Stocks** | 65% | Whole shares on strong combined scores; 4% trailing stop at the broker |
+| **Fractional** | 20% | Dollar-sized fractional positions. **Limit** buys a bit below the price (k x ATR); **stop-limit** sells kept m x ATR under the highest price, raised every run, with a market-sell fallback if the price gaps through. k and m are learned weekly by replaying history (only adopted if they also beat the defaults on unseen data). Exits after 10 days without a fresh signal. |
+| **Options** | 15% | **Buys calls** on strong buy signals and **puts** on strong sell signals: 21-45 days out, delta ~0.55, tight spreads only. Max loss per trade = premium paid, about 1.5% of the account. Sells at +50%, -50%, a signal flip, or 7 days before expiry; never held into expiration. |
+
+Every order is tagged with its book, and a stock can only be held by one share book at a time, so the books never sell each other's shares. The dashboard shows each book's P&L, return on its slice and win rate. Turn a book off in `config.yaml` (`books: frac: enabled: false`).
+
+**Options risk:** a call or put can lose its entire premium, and does so faster than a stock falls. Option prices on the free data plan are "indicative" (slightly delayed estimates), which is fine for paper trading but worth upgrading before real money. The options book reports what it has learned from its own closed trades, but needs ~20 of them before the numbers mean much.
+
 ## Setup (about 20 minutes, once)
 
 ### 1. Alpaca paper account

@@ -19,7 +19,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -55,6 +55,35 @@ jobs:
           KILL_SWITCH: ${{ vars.KILL_SWITCH }}
           LIVE_TRADING: ${{ vars.LIVE_TRADING }}
         run: python trader_agent.py
+
+      - name: Fractional agent
+        continue-on-error: true
+        working-directory: agents
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          KILL_SWITCH: ${{ vars.KILL_SWITCH }}
+          LIVE_TRADING: ${{ vars.LIVE_TRADING }}
+        run: python frac_agent.py
+
+      - name: Options agent
+        continue-on-error: true
+        working-directory: agents
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          KILL_SWITCH: ${{ vars.KILL_SWITCH }}
+          LIVE_TRADING: ${{ vars.LIVE_TRADING }}
+        run: python options_agent.py
+
+      - name: Report
+        if: always()
+        working-directory: agents
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          LIVE_TRADING: ${{ vars.LIVE_TRADING }}
+        run: python report_agent.py
 
       - name: Save results for the dashboard
         if: always()
