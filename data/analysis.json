@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-29T05:08:38.085500+00:00",
+  "generated_at": "2026-10-29T05:09:37.310558+00:00",
   "weights": {
     "news": 0.3,
-    "trend": 0.1,
-    "levels": 0.075,
-    "flow": 0.075,
-    "pattern": 0.45
+    "trend": 0.2,
+    "levels": 0.15,
+    "flow": 0.15,
+    "pattern": 0.2
   },
   "thresholds": {
-    "buy": 0.446,
-    "sell": -0.291
+    "buy": 0.438,
+    "sell": -0.241
   },
   "symbols": {
     "SPY": {
       "price": 772.31,
-      "combined": -0.046,
+      "combined": -0.123,
       "factors": {
         "trend": 0.106,
         "levels": -0.681,
@@ -50,7 +50,7 @@
     },
     "QQQ": {
       "price": 725.61,
-      "combined": -0.379,
+      "combined": -0.187,
       "factors": {
         "trend": -0.124,
         "levels": 0.749,
@@ -86,7 +86,7 @@
     },
     "AAPL": {
       "price": 343.83,
-      "combined": 0.049,
+      "combined": 0.015,
       "factors": {
         "trend": 0.663,
         "levels": -0.915,
@@ -122,7 +122,7 @@
     },
     "MSFT": {
       "price": 531.01,
-      "combined": 0.316,
+      "combined": 0.416,
       "factors": {
         "trend": 0.737,
         "levels": 0.456,
@@ -158,7 +158,7 @@
     },
     "NVDA": {
       "price": 215.38,
-      "combined": -0.29,
+      "combined": -0.19,
       "factors": {
         "trend": -0.383,
         "levels": 0.666,
@@ -194,7 +194,7 @@
     },
     "AMZN": {
       "price": 254.6,
-      "combined": -0.141,
+      "combined": -0.119,
       "factors": {
         "trend": 0.079,
         "levels": -0.241,
@@ -230,7 +230,7 @@
     },
     "GOOGL": {
       "price": 324.89,
-      "combined": -0.232,
+      "combined": -0.307,
       "factors": {
         "trend": -0.607,
         "levels": -0.721,
@@ -266,7 +266,7 @@
     },
     "META": {
       "price": 612.49,
-      "combined": -0.544,
+      "combined": -0.618,
       "factors": {
         "trend": -0.328,
         "levels": -0.6,
@@ -302,7 +302,7 @@
     },
     "JPM": {
       "price": 339.3,
-      "combined": -0.0,
+      "combined": -0.06,
       "factors": {
         "trend": -0.291,
         "levels": -0.526,
@@ -338,7 +338,7 @@
     },
     "XOM": {
       "price": 182.02,
-      "combined": 0.466,
+      "combined": 0.451,
       "factors": {
         "trend": 0.94,
         "levels": 0.102,

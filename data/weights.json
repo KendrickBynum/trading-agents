@@ -1,0 +1,89 @@
+{
+  "learned_at": "2026-10-29T05:09:37.310558+00:00",
+  "horizon_days": 5,
+  "history_from": "2024-04-30",
+  "history_to": "2026-10-20",
+  "samples": 1250,
+  "weights": {
+    "news": 0.3,
+    "trend": 0.2,
+    "levels": 0.15,
+    "flow": 0.15,
+    "pattern": 0.2
+  },
+  "prior_weights": {
+    "news": 0.3,
+    "trend": 0.2,
+    "levels": 0.15,
+    "flow": 0.15,
+    "pattern": 0.2
+  },
+  "factors": {
+    "trend": {
+      "ic": -0.0896,
+      "n": 1250,
+      "bull_n": 693,
+      "bull_up_rate": 0.558,
+      "bull_avg_return": 0.0029,
+      "bear_n": 341,
+      "bear_up_rate": 0.589,
+      "bear_avg_return": 0.01,
+      "base_up_rate": 0.57,
+      "base_avg_return": 0.0053
+    },
+    "levels": {
+      "ic": -0.0195,
+      "n": 1250,
+      "bull_n": 511,
+      "bull_up_rate": 0.558,
+      "bull_avg_return": 0.004,
+      "bear_n": 401,
+      "bear_up_rate": 0.556,
+      "bear_avg_return": 0.0052,
+      "base_up_rate": 0.57,
+      "base_avg_return": 0.0053
+    },
+    "flow": {
+      "ic": -0.0678,
+      "n": 1250,
+      "bull_n": 531,
+      "bull_up_rate": 0.582,
+      "bull_avg_return": 0.0034,
+      "bear_n": 252,
+      "bear_up_rate": 0.619,
+      "bear_avg_return": 0.0173,
+      "base_up_rate": 0.57,
+      "base_avg_return": 0.0053
+    },
+    "pattern": {
+      "ic": 0.007,
+      "n": 1250,
+      "bull_n": 578,
+      "bull_up_rate": 0.569,
+      "bull_avg_return": 0.0053,
+      "bear_n": 277,
+      "bear_up_rate": 0.556,
+      "bear_avg_return": 0.0066,
+      "base_up_rate": 0.57,
+      "base_avg_return": 0.0053
+    },
+    "news": {
+      "n": 0
+    }
+  },
+  "news_learned": false,
+  "thresholds": {
+    "buy": 0.438,
+    "sell": -0.241
+  },
+  "out_of_sample": {
+    "from": "2025-12-24",
+    "to": "2026-10-20",
+    "n": 417,
+    "top_picks_avg_return": 0.002,
+    "top_picks_up_rate": 0.54,
+    "all_avg_return": 0.004,
+    "all_up_rate": 0.552,
+    "ic": -0.0716
+  }
+}
