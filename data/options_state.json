@@ -12,12 +12,24 @@
       "dte": 22,
       "limit": 11.6,
       "avg": 11.6
+    },
+    "GOOGL261127P00290000": {
+      "time": "2026-10-29T16:35:37.337498+00:00",
+      "underlying": "GOOGL",
+      "type": "put",
+      "score": -0.345,
+      "delta": -0.5492,
+      "iv": 0.2996,
+      "dte": 29,
+      "limit": 11.8
     }
   },
   "exits": {},
-  "order_reasons": {},
+  "order_reasons": {
+    "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180"
+  },
   "logged_orders": [
     "58e92b03-69a5-4dab-928d-2ab5ad9316f9"
   ],
-  "last_order_check": "2026-10-29T15:35:39.091454+00:00"
+  "last_order_check": "2026-10-29T16:35:37.337498+00:00"
 }

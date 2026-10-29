@@ -1,51 +1,5 @@
 [
   {
-    "id": "62664656",
-    "created_at": "2026-10-28T16:30:24Z",
-    "headline": "SK Hynix, Vertiv Rescue AI Trade As Oil Tops $102 Before Fed: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62664656/stock-market-today-sk-hynix-vertiv-ai-trade-oil-fed",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "AI-trade rally supports sentiment, but GOOGL is only tagged, not named"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "AI-trade rally supports sentiment, but MSFT is only tagged, not named"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.0,
-        "confidence": 0.3,
-        "reason": "AI gains offset by oil above $102 and 10-year yield above 5%"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62663775",
-    "created_at": "2026-10-28T16:07:10Z",
-    "headline": "Amazon Q3 Earnings Preview: All Eyes on AWS After Posting Best Growth in Years in Q2",
-    "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62663775/amazon-q3-earnings-preview-all-eyes-aws-after-posting-best-growth-years-q2",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Earnings preview; AWS growth is a watch item, largely expected"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62667030",
     "created_at": "2026-10-28T17:28:13Z",
     "headline": "Google Introduces Gemini 4 Carbon: Gemini 4 Carbon Is Our Strongest Model With State-Of-The-Art Cybersecurity And Long Horizon Capabilities.",
@@ -186,29 +140,6 @@
         "sentiment": -0.1,
         "confidence": 0.2,
         "reason": "Single analyst trimmed position; minor signal, low market relevance"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62664845",
-    "created_at": "2026-10-28T16:35:10Z",
-    "headline": "Reported Earlier: 'U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms' - WSJ",
-    "url": "https://www.benzinga.com/news/26/10/62664845/reported-earlier-u-s-warns-gulf-possible-short-intense-renewal-iran-war-after-midterms-wsj",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.35,
-        "confidence": 0.45,
-        "reason": "US warns of possible Iran war renewal after midterms; risk-off"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Renewed Iran conflict risk could lift oil prices"
       }
     ],
     "scorer": "claude"
@@ -3619,6 +3550,266 @@
         "sentiment": 0.2,
         "confidence": 0.25,
         "reason": "Surging AI spending may benefit chip demand, though indirect"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62707077",
+    "created_at": "2026-10-29T16:30:03Z",
+    "headline": "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
+    "url": "https://www.benzinga.com/opinion/26/10/62707077/alphabet-stock-down-12-percent-as-ai-hits-google-core-search-business",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.8,
+        "confidence": 0.8,
+        "reason": "12% drop on AI threat to core search business"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Mega-cap tech sentiment spillover from Alphabet selloff"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Mega-cap tech sentiment spillover from Alphabet selloff"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Mega-cap tech sentiment spillover from Alphabet selloff"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Nasdaq-heavy weakness from Alphabet drop"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62706774",
+    "created_at": "2026-10-29T16:22:00Z",
+    "headline": "Alphabet Sinks 11.8%, Small Caps Rally on Strong GDP Growth: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62706774/stock-market-today-alphabet-sinks-small-caps-rally-gdp-rotation",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.8,
+        "confidence": 0.8,
+        "reason": "Alphabet down ~11.8% on capex-heavy quarter"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Nasdaq 100 dragged lower by Alphabet"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Large-cap tech drag, though article says mostly rising"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62706336",
+    "created_at": "2026-10-29T16:12:09Z",
+    "headline": "Live On CNBC, Jim Lebenthal Announces Trimmed Alphabet Class A Position",
+    "url": "https://www.benzinga.com/quote/GOOGL",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Routine trimmed position by a commentator, minimal impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705948",
+    "created_at": "2026-10-29T16:04:35Z",
+    "headline": "Why Is HubSpot Stock Falling on Thursday?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62705948/why-is-hubspot-stock-falling-on-thursday",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705757",
+    "created_at": "2026-10-29T16:00:51Z",
+    "headline": "Why Is Salesforce Stock Falling on Thursday?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62705757/why-is-salesforce-stock-falling-on-thursday",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705724",
+    "created_at": "2026-10-29T16:00:26Z",
+    "headline": "Alphabet Bulls Dig in After Messy Q3: 'AI Stack Keeps Us Bullish' Cantor Says",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62705724/alphabet-bulls-dig-in-after-messy-q3-ai-stack-keeps-us-bullish-cantor-says",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.6,
+        "confidence": 0.6,
+        "reason": "Q3 earnings miss; price targets cut, though analysts stay bullish"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705477",
+    "created_at": "2026-10-29T15:54:45Z",
+    "headline": "DA Davidson Maintains Neutral on Alphabet, Lowers Price Target to $300",
+    "url": "https://www.benzinga.com/news/26/10/62705477/da-davidson-maintains-neutral-alphabet-lowers-price-target-300",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Neutral rating with lowered price target to $300"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705389",
+    "created_at": "2026-10-29T15:51:44Z",
+    "headline": "'Canada, Nvidia Back Cohere in Round at Over $20 Billion Value' - Bloomberg News",
+    "url": "https://www.benzinga.com/news/26/10/62705389/canada-nvidia-back-cohere-round-over-20-billion-value-bloomberg-news",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Participation in AI startup funding round, mostly routine"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705315",
+    "created_at": "2026-10-29T15:49:31Z",
+    "headline": "DA Davidson Maintains Buy on Microsoft, Raises Price Target to $650",
+    "url": "https://www.benzinga.com/news/26/10/62705315/da-davidson-maintains-buy-microsoft-raises-price-target-650",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Buy rating with raised price target to $650"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705267",
+    "created_at": "2026-10-29T15:48:02Z",
+    "headline": "Russia Set To Extend Diesel Export Ban Until The End Of The Year; Russia Uses Quota Export System For Individual Companies To Fulfil Its U.S. Obligations",
+    "url": "https://www.benzinga.com/government/26/10/62705267/russia-set-extend-diesel-export-ban-until-end-year-russia-uses-quota-export-system-individual-compan",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Extended Russian diesel export ban may support refining margins"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705235",
+    "created_at": "2026-10-29T15:47:06Z",
+    "headline": "TD Cowen Maintains Buy on Microsoft, Raises Price Target to $650",
+    "url": "https://www.benzinga.com/news/26/10/62705235/td-cowen-maintains-buy-microsoft-raises-price-target-650",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Buy rating with raised price target to $650"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705193",
+    "created_at": "2026-10-29T15:45:59Z",
+    "headline": "Scotiabank Maintains Sector Outperform on Alphabet, Lowers Price Target to $375",
+    "url": "https://www.benzinga.com/news/26/10/62705193/scotiabank-maintains-sector-outperform-alphabet-lowers-price-target-375",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Outperform rating kept, but price target lowered to $375"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705158",
+    "created_at": "2026-10-29T15:45:27Z",
+    "headline": "$1000 Invested In Microsoft 10 Years Ago Would Be Worth This Much Today",
+    "url": "https://www.benzinga.com/news/26/10/62705158/1000-invested-microsoft-10-years-ago-would-be-worth-much-today",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Historical return recap; backward-looking and largely known, minimal signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62705126",
+    "created_at": "2026-10-29T15:44:43Z",
+    "headline": "Scotiabank Maintains Sector Outperform on Microsoft, Raises Price Target to $650",
+    "url": "https://www.benzinga.com/news/26/10/62705126/scotiabank-maintains-sector-outperform-microsoft-raises-price-target-650",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Scotiabank keeps Outperform and raises price target to $650"
       }
     ],
     "scorer": "claude"
