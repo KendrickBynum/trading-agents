@@ -1,10 +1,72 @@
 {
-  "time": "2026-10-29T05:36:34.741953+00:00",
-  "halts": [
-    "Market closed"
-  ],
+  "time": "2026-10-29T13:36:18.696968+00:00",
+  "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "time": "2026-10-29T13:34:51.634276Z",
+      "book": "stock",
+      "symbol": "AMZN",
+      "side": "sell",
+      "status": "filled",
+      "order_id": "57d777de-975e-4f7b-90cb-2cfdd6ef84c4",
+      "qty": 40.0,
+      "price": 243.49325,
+      "notional": 9739.73,
+      "reason": "trailing stop hit (fell from its high)",
+      "realized_pl": -215.87
+    },
+    {
+      "time": "2026-10-29T13:36:18.696968+00:00",
+      "symbol": "AAPL",
+      "side": "sell",
+      "reason": "tidy 0.0328 fractional share",
+      "notional": 11.47,
+      "status": "submitted",
+      "order_id": "d5be17d5-8e65-4346-85c2-25af70c79558",
+      "book": "stock"
+    },
+    {
+      "time": "2026-10-29T13:36:18.696968+00:00",
+      "symbol": "AMZN",
+      "side": "sell",
+      "reason": "tidy 0.1972 fractional share",
+      "notional": 47.88,
+      "status": "submitted",
+      "order_id": "e8ed2904-7fd7-42e2-84e3-186c91fb5468",
+      "book": "stock"
+    },
+    {
+      "time": "2026-10-29T13:36:18.696968+00:00",
+      "symbol": "MSFT",
+      "side": "sell",
+      "reason": "tidy 0.9015 fractional share",
+      "notional": 479.52,
+      "status": "submitted",
+      "order_id": "51b9ee4b-901f-4a6f-86d6-d7c33c2a1a9e",
+      "book": "stock"
+    },
+    {
+      "time": "2026-10-29T13:36:18.696968+00:00",
+      "symbol": "QQQ",
+      "side": "sell",
+      "reason": "tidy 0.8433 fractional share",
+      "notional": 600.89,
+      "status": "submitted",
+      "order_id": "3da4fb91-06f3-46c6-818f-f59935481e09",
+      "book": "stock"
+    },
+    {
+      "time": "2026-10-29T13:36:18.696968+00:00",
+      "symbol": "XOM",
+      "side": "sell",
+      "reason": "tidy 0.5048 fractional share",
+      "notional": 92.54,
+      "status": "submitted",
+      "order_id": "69e1f9ab-5ae1-428d-80aa-83fb101dee1a",
+      "book": "stock"
+    }
+  ],
   "buy_threshold": 0.433,
   "exit_threshold": -0.295,
   "trailing_stop_pct": 0.04,
