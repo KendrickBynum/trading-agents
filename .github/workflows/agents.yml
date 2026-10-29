@@ -39,6 +39,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python news_agent.py
 
+      - name: Chart agent
+        continue-on-error: true   # if charts fail, trader pauses buys but still protects positions
+        working-directory: agents
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python chart_agent.py
+
       - name: Trading agent
         working-directory: agents
         env:

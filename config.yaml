@@ -28,19 +28,42 @@ news:
   lookback_hours: 24        # how far back news counts toward a signal
   half_life_hours: 8        # older news counts less; weight halves every N hours
   neutral_cutoff: 0.15      # ignore stories Claude rates between -0.15 and +0.15 (routine news)
+  news_scale: 2.0           # news score x this (capped at +/-1) = the news factor
   model: claude-haiku-5-5   # Claude model used to read news (needs ANTHROPIC_API_KEY)
   batch_size: 12            # articles per Claude request
 
+# Chart agent: trend, support/resistance, order-flow proxy, pattern matching.
+analysis:
+  history_years: 3          # price history used for patterns and learning
+  pattern_neighbors: 50     # how many similar past chart shapes to compare
+  relearn_days: 7           # re-learn factor weights from history this often
+  prior_weights:            # starting weights; learning adjusts them from results
+    news: 0.30
+    trend: 0.20
+    levels: 0.15            # support / resistance
+    flow: 0.15              # buying vs selling pressure, volume, VWAP
+    pattern: 0.20
+
 risk:
-  buy_threshold: 0.25       # news score (-1..1) needed to open a position (was 0.45)
-  sell_threshold: -0.30     # news score at/below which a held position is sold
-  min_articles: 2           # ignore signals built on fewer articles than this
+  # Buying: the combined score (-1..1) of all factors must clear the bar.
+  buy_threshold: auto       # auto = top ~15% of historical scores; or set a number like 0.30
+  buy_percentile: 85
+  min_agreeing_factors: 3   # at least this many factors must be positive
+  min_articles: 2           # news needs this many articles Claude read to count
+  # Selling
+  trailing_stop_pct: 0.04   # sell if price falls 4% from its high since buying (runs at the broker, minute by minute)
+  stop_loss_pct: 0.05       # backup hard stop from the purchase price
+  take_profit_pct: null     # off: the trailing stop locks in gains instead of a fixed target
+  news_sell_threshold: -0.30  # sell on clearly bad news
+  exit_threshold: auto      # sell if the combined score falls this low (auto = bottom ~10%)
+  sell_percentile: 10
+  max_hold_days: 14         # swing style: exit after 2 weeks unless there's a fresh buy signal
+  reentry_cooldown_hours: 20  # after selling, wait this long before buying the same stock again
+  # Sizing and safety
   max_positions: 6          # max simultaneous positions
   max_position_pct: 0.10    # max % of equity in any single new position
   min_cash_pct: 0.20        # always keep at least this % of equity in cash
-  stop_loss_pct: 0.05       # sell if a position is down 5%
-  take_profit_pct: 0.10     # sell if a position is up 10%
   daily_loss_limit_pct: 0.03  # no new buys after the account is down 3% today
   max_market_risk: 0.70     # no new buys if news agent rates market risk above this
-  max_signal_age_hours: 3   # don't buy on stale news signals
+  max_signal_age_hours: 3   # don't buy on stale news or chart data
   allow_keyword_trades: false  # if Claude can't read the news, don't trade on keyword guesses

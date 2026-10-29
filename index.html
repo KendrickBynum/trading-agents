@@ -45,6 +45,13 @@
   a { color: var(--accent); text-decoration: none; }
   .empty { color: var(--muted); padding: 8px 0; }
   .bar { display: inline-block; height: 8px; border-radius: 4px; vertical-align: middle; }
+  .note { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
+  .f { display: inline-block; min-width: 44px; text-align: right; padding: 1px 6px; border-radius: 6px; font-size: 13px; }
+  .f.pos { background: color-mix(in srgb, var(--up) 18%, transparent); color: var(--up); }
+  .f.neg { background: color-mix(in srgb, var(--down) 18%, transparent); color: var(--down); }
+  .f.na { color: var(--muted); }
+  tr.buyable td:first-child { box-shadow: inset 3px 0 0 var(--up); }
+  .two > *, .grid > *, section { min-width: 0; }
   .two { display: grid; grid-template-columns: 1fr; gap: 16px; }
   @media (min-width: 900px) { .two { grid-template-columns: 1fr 1fr; } }
 </style>
@@ -70,10 +77,24 @@
     <div class="chart-wrap"><canvas id="chart"></canvas></div>
   </section>
 
+  <section class="card">
+    <h2>Open positions</h2>
+    <div class="table-wrap" id="positions"></div>
+    <p class="note" id="posNote"></p>
+  </section>
+
+  <section class="card">
+    <h2>How each stock scores right now</h2>
+    <p class="note" id="scoreNote"></p>
+    <div class="table-wrap" id="scores"></div>
+  </section>
+
   <div class="two">
     <section class="card">
-      <h2>Open positions</h2>
-      <div class="table-wrap" id="positions"></div>
+      <h2>What the agents have learned</h2>
+      <p class="note" id="learnNote"></p>
+      <div class="table-wrap" id="learned"></div>
+      <p class="note" id="oosNote"></p>
     </section>
     <section class="card">
       <h2>News signals</h2>
@@ -117,8 +138,9 @@ function table(el, cols, rows, emptyMsg) {
 
 let chart;
 async function render() {
-  const [status, equity, trades, signals] = await Promise.all([
-    load("status.json", null), load("equity.json", []), load("trades.json", []), load("signals.json", null)]);
+  const [status, equity, trades, signals, analysis, learned] = await Promise.all([
+    load("status.json", null), load("equity.json", []), load("trades.json", []), load("signals.json", null),
+    load("analysis.json", null), load("weights.json", null)]);
 
   if (!status) {
     $("lastRun").textContent = "No runs yet — trigger the workflow from the Actions tab.";
@@ -139,7 +161,8 @@ async function render() {
   $("sigAt").textContent = `News read ${when(status.signals_at)}`;
 
   const halts = (status.halts || []).filter(h => h !== "Market closed");
-  $("alerts").innerHTML = halts.length ? `<div class="alert"><strong>New buys paused:</strong> ${halts.map(esc).join(" · ")}</div>` : "";
+  $("alerts").innerHTML = (halts.length ? `<div class="alert"><strong>New buys paused:</strong> ${halts.map(esc).join(" · ")}</div>` : "")
+    + ((status.alerts || []).length ? `<div class="alert"><strong>Heads up:</strong> ${status.alerts.map(esc).join(" · ")}</div>` : "");
 
   // equity chart
   const css = getComputedStyle(document.documentElement);
@@ -149,7 +172,7 @@ async function render() {
   const labels = data.map(d => d.x.toLocaleDateString(undefined, {month: "short", day: "numeric"}) + " " +
                                 d.x.toLocaleTimeString(undefined, {hour: "numeric"}));
   chart?.destroy();
-  chart = new Chart($("chart"), {
+  if (window.Chart) try { chart = new Chart($("chart"), {
     type: "line",
     data: {labels, datasets: [{data: data.map(d => d.y), borderColor: line, backgroundColor: line + "22",
             fill: true, tension: .25, pointRadius: 0, borderWidth: 2}]},
@@ -157,7 +180,7 @@ async function render() {
               tooltip: {callbacks: {label: c => money(c.parsed.y)}}},
               scales: {x: {ticks: {color: muted, maxTicksLimit: 8}, grid: {display: false}},
                        y: {ticks: {color: muted, callback: v => money(v)}, grid: {color: grid}}}}
-  });
+  }); } catch (e) { console.warn("chart failed", e); }
 
   table($("positions"), [
     {h: "Symbol", f: p => `<strong>${esc(p.symbol)}</strong>`},
@@ -165,7 +188,54 @@ async function render() {
     {h: "Entry", num: 1, f: p => money(p.avg_entry)},
     {h: "Price", num: 1, f: p => money(p.price)},
     {h: "P&L", num: 1, f: p => `<span class="${cls(p.pl)}">${signed(p.pl)} (${pct(p.pl_pct)})</span>`},
+    {h: "Trailing stop", num: 1, f: p => p.stop_price ? `${money(p.stop_price)}${p.high_water ? ` <span class="meta">(high ${money(p.high_water)})</span>` : ""}` : "–"},
+    {h: "Held", num: 1, f: p => p.opened ? `${Math.floor((Date.now() - new Date(p.opened)) / 864e5)}d` : "–"},
   ], status.positions || [], "No open positions.");
+  $("posNote").textContent = status.trailing_stop_pct != null
+    ? `Each position has a ${Math.round(status.trailing_stop_pct * 100)}% trailing stop at the broker: it sells if the price falls that far below its high since buying, checked continuously. Positions are reviewed after ${status.max_hold_days} days.`
+    : "";
+
+  // Factor scores per stock
+  const fcell = v => v == null ? `<span class="f na">–</span>`
+    : `<span class="f ${v > 0.1 ? "pos" : v < -0.1 ? "neg" : ""}">${v >= 0 ? "+" : ""}${v.toFixed(2)}</span>`;
+  const syms = analysis ? Object.entries(analysis.symbols).map(([t, v]) => ({t, ...v})).sort((a, b) => b.combined - a.combined) : [];
+  const buyAt = status.buy_threshold ?? analysis?.thresholds?.buy;
+  $("scoreNote").textContent = analysis
+    ? `Each factor scores from −1 (bearish) to +1 (bullish); the combined score is their weighted average. Buys need ${buyAt >= 0 ? "+" : ""}${(+buyAt).toFixed(2)} or higher with at least 3 factors positive (marked green on the left). Updated ${when(analysis.generated_at)}.`
+    : "Chart analysis will appear after the next run.";
+  const el = $("scores");
+  table(el, [
+    {h: "Symbol", f: r => `<strong>${esc(r.t)}</strong>`},
+    {h: "Price", num: 1, f: r => money(r.price)},
+    {h: "Combined", num: 1, f: r => fcell(r.combined)},
+    {h: "News", num: 1, f: r => fcell(r.factors.news)},
+    {h: "Trend", num: 1, f: r => fcell(r.factors.trend)},
+    {h: "Support/Resist.", num: 1, f: r => fcell(r.factors.levels)},
+    {h: "Order flow", num: 1, f: r => fcell(r.factors.flow)},
+    {h: "Pattern", num: 1, f: r => fcell(r.factors.pattern)},
+    {h: "Levels", f: r => r.levels ? `${r.levels.support ? "S " + money(r.levels.support) : ""}${r.levels.support && r.levels.resistance ? " · " : ""}${r.levels.resistance ? "R " + money(r.levels.resistance) : ""}` : "–"},
+    {h: "Notes", wrap: 1, f: r => [r.levels?.event, r.pattern?.win_rate != null ? `similar setups rose ${Math.round(r.pattern.win_rate * 100)}% of the time` : null, r.trend?.rsi ? `RSI ${r.trend.rsi}` : null].filter(Boolean).map(esc).join(" · ")},
+  ], syms, "No analysis yet.");
+  el.querySelectorAll("tbody tr").forEach((tr, i) => {
+    if (syms[i].combined >= buyAt && syms[i].agreeing >= 3) tr.classList.add("buyable");
+  });
+
+  // What the learning step found
+  const names = {news: "News", trend: "Trend", levels: "Support/Resist.", flow: "Order flow", pattern: "Pattern"};
+  const pc = v => v == null ? "–" : Math.round(v * 100) + "%";
+  if (learned) {
+    $("learnNote").textContent = `Checked ${learned.samples.toLocaleString()} past setups (${learned.history_from} to ${learned.history_to}): when each factor was bullish, how often did the stock rise over the next ${learned.horizon_days} trading days, compared with any random day? Weights shift toward factors that beat the normal rate. Re-learned ${when(learned.learned_at)}.`;
+    table($("learned"), [
+      {h: "Factor", f: r => names[r.f]},
+      {h: "Weight", num: 1, f: r => `${Math.round(learned.weights[r.f] * 100)}% <span class="meta">(was ${Math.round(learned.prior_weights[r.f] * 100)}%)</span>`},
+      {h: "Rose when bullish", num: 1, f: r => r.f === "news" && !learned.news_learned ? `<span class="meta">learning (${r.n || 0} so far)</span>` : pc(r.bull_up_rate)},
+      {h: "Normal rate", num: 1, f: r => r.f === "news" && !learned.news_learned ? "–" : pc(r.base_up_rate)},
+    ], ["news", "trend", "levels", "flow", "pattern"].map(f => ({f, ...(learned.factors[f] || {})})), "");
+    const o = learned.out_of_sample;
+    $("oosNote").textContent = o ? `Reality check on data the weights never saw (${o.from} to ${o.to}): the top-scored setups rose ${pc(o.top_picks_up_rate)} of the time (avg ${pct(o.top_picks_avg_return)} over ${learned.horizon_days} days) vs ${pc(o.all_up_rate)} for all setups (avg ${pct(o.all_avg_return)}). ${o.top_picks_avg_return > o.all_avg_return ? "The combined score added an edge on this period." : "No edge on this period — treat signals with caution."}` : "";
+  } else {
+    $("learnNote").textContent = "The first learning run happens on the next scheduled run.";
+  }
 
   const sigRows = signals ? Object.entries(signals.tickers).map(([t, v]) => ({t, ...v}))
                      .sort((a, b) => b.score - a.score) : [];

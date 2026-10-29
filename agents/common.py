@@ -102,6 +102,62 @@ class Alpaca:
     def close_position(self, symbol: str) -> dict:
         return self._req("DELETE", f"{self.base}/v2/positions/{symbol}")
 
+    # --- orders ----------------------------------------------------------
+    def submit_order(self, **body) -> dict:
+        return self._req("POST", f"{self.base}/v2/orders", json=body)
+
+    def orders(self, **params) -> list[dict]:
+        return self._req("GET", f"{self.base}/v2/orders", params=params)
+
+    def get_order(self, order_id: str) -> dict:
+        return self._req("GET", f"{self.base}/v2/orders/{order_id}")
+
+    def cancel_order(self, order_id: str) -> None:
+        self._req("DELETE", f"{self.base}/v2/orders/{order_id}")
+
+    def buy_shares(self, symbol: str, qty: int) -> dict:
+        return self.submit_order(symbol=symbol, qty=str(qty), side="buy", type="market", time_in_force="day")
+
+    def sell_shares(self, symbol: str, qty: float) -> dict:
+        return self.submit_order(symbol=symbol, qty=f"{qty:.9f}".rstrip("0").rstrip("."), side="sell",
+                                 type="market", time_in_force="day")
+
+    def trailing_stop(self, symbol: str, qty: int, trail_percent: float) -> dict:
+        """Broker-side trailing stop: sells if the price falls trail_percent
+        below its highest point since the order was placed. Runs at Alpaca
+        continuously, not just when our hourly job runs."""
+        return self.submit_order(symbol=symbol, qty=str(qty), side="sell", type="trailing_stop",
+                                 trail_percent=f"{trail_percent:.2f}", time_in_force="gtc")
+
+    # --- price history -------------------------------------------------
+    def bars(self, symbols: list[str], timeframe: str, start: dt.datetime, end: dt.datetime | None = None,
+             feed: str | None = None) -> dict[str, list[dict]]:
+        """Split/dividend-adjusted bars per symbol. Tries the full-market (SIP)
+        feed first, which the free plan allows for data older than 15 minutes,
+        and falls back to the free IEX feed."""
+        iso = lambda d: d.isoformat().replace("+00:00", "Z")
+        feeds = [feed] if feed else ["sip", "iex"]
+        last_err = None
+        for fd in feeds:
+            e = end or (now_utc() - dt.timedelta(minutes=16) if fd == "sip" else now_utc())
+            out: dict[str, list[dict]] = {s: [] for s in symbols}
+            token = None
+            try:
+                while True:
+                    params = {"symbols": ",".join(symbols), "timeframe": timeframe, "start": iso(start),
+                              "end": iso(e), "limit": 10000, "adjustment": "all", "feed": fd, "sort": "asc"}
+                    if token:
+                        params["page_token"] = token
+                    d = self._req("GET", f"{self.DATA_URL}/v2/stocks/bars", params=params)
+                    for s, bs in (d.get("bars") or {}).items():
+                        out.setdefault(s, []).extend(bs)
+                    token = d.get("next_page_token")
+                    if not token:
+                        return out
+            except RuntimeError as err:
+                last_err = err
+        raise last_err
+
     # --- news ----------------------------------------------------------
     def news(self, symbols: list[str], start: dt.datetime, max_pages: int = 5) -> list[dict]:
         out, token = [], None

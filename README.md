@@ -1,23 +1,39 @@
 # Trading Agents
 
-Two cooperating agents that run on their own, on GitHub's servers, with no laptop needed:
+Three cooperating agents that run on their own, on GitHub's servers, with no laptop needed:
 
-- **News agent** (`agents/news_agent.py`) reads the last 24 hours of news for your watchlist from Alpaca's news feed, has Claude judge how each story is likely to move each stock, and writes a score per symbol (-1 to +1) plus an overall market-risk rating to `data/signals.json`.
-- **Trading agent** (`agents/trader_agent.py`) reads those signals, applies your risk rules, places orders through Alpaca, and records P&L.
-- **Dashboard** (`index.html`) shows account value, today's and total P&L, positions, trades, and the headlines behind each signal. It updates after every run.
+- **News agent** (`agents/news_agent.py`) reads the last 24 hours of news for your watchlist and has Claude judge how each story is likely to move each stock.
+- **Chart agent** (`agents/chart_agent.py`) reads 3 years of daily prices plus today's 15-minute bars and scores four things per stock: **trend**, **support/resistance**, an **order-flow proxy** (buying vs selling pressure, unusual volume, price vs VWAP) and **pattern matching** (how the most similar past chart shapes played out). It combines these with the news into one weighted score. Once a week it **re-learns** the weights by replaying history and checking which factors actually predicted the next week's move.
+- **Trading agent** (`agents/trader_agent.py`) buys on strong combined scores, keeps a **4% trailing stop at the broker** on every position, and records P&L.
+- **Dashboard** (`index.html`) shows P&L, positions with their trailing stops, every stock's factor scores, and what the learning step found, including an honest out-of-sample check.
 
-It runs hourly on weekdays during market hours. **It uses Alpaca paper trading (simulated money) by default.**
-
-## How the agents talk to each other
+It runs hourly on weekdays during market hours (cron-job.org triggers it; GitHub's own schedule is a backup). **It uses Alpaca paper trading (simulated money) by default.**
 
 ```
- hourly (GitHub Actions)
-   │
-   ├─ News agent ──► data/signals.json ──► Trading agent ──► Alpaca orders
-   │                 (score per symbol,                         │
-   │                  market risk, headlines)                   ▼
-   └────────────────────────────── data/status.json, equity.json, trades.json ──► Dashboard
+ hourly
+   ├─ News agent  ──► signals.json ─┐
+   ├─ Chart agent ──► analysis.json ├─► Trading agent ──► Alpaca orders + trailing stops
+   │   (weekly) learn ► weights.json┘                         │
+   └──────────────── status.json, equity.json, trades.json ───┴─► Dashboard
 ```
+
+## Strategy (swing trading: days to ~2 weeks)
+
+**Buy** when the combined score clears the bar (auto: the top ~15% of historical scores) *and* at least 3 of the 5 factors are positive *and* the news isn't clearly bad. Whole shares, max 10% of the account each, max 6 positions, 20% always in cash.
+
+**Sell** when any of these happen:
+- the price falls 4% below its high since buying (trailing stop, enforced by Alpaca continuously, so gains are locked in as the stock rises)
+- it's down 5% from the purchase price (backup hard stop)
+- the news turns clearly negative, or the combined score falls into the bottom ~10%
+- 14 days have passed and there's no fresh buy signal
+
+**Re-entry:** after selling, a stock can be bought again once 20 hours have passed and the combined score clears the bar again.
+
+**Pauses** new buys (sells and stops keep working) when the account is down 3% on the day, Claude flags high market risk, data is stale, Claude can't read the news, or the kill switch is on.
+
+**About "order flow":** true order flow (the order book and every individual trade) needs paid market data. This uses a proxy built from price bars, which captures buying/selling pressure but not hidden orders or the book itself.
+
+**About learning:** the dashboard shows, for each factor, how often stocks rose over the next 5 trading days when that factor was bullish vs on any random day. Weights move toward factors that beat the normal rate. Many technical signals turn out to be close to coin flips on large, heavily traded stocks; the out-of-sample line tells you whether the combined score has had a real edge recently.
 
 ## Setup (about 20 minutes, once)
 
@@ -58,15 +74,7 @@ Edit `config.yaml` on github.com (pencil icon) or in the GitHub mobile app. Chan
   Alternatively, set a repository *variable* (Settings → Secrets and variables → Actions → Variables) named `KILL_SWITCH` to `1`.
 - **Pause everything:** Actions tab → trading-agents → "…" → Disable workflow.
 - **Watchlist:** the example list is just a starting point. The trader only ever touches symbols on this list.
-- **Risk rules:** stop loss, take profit, position size, cash reserve, daily loss limit, and max positions are all in `config.yaml`.
-
-## Trading rules (defaults)
-
-Sell a held position if it is down 5% (stop loss), up 10% (take profit), or the news score drops to -0.30 or below.
-
-Buy a symbol when its news score is +0.45 or higher from at least 2 articles, up to 6 positions, with at most 10% of the account per position and at least 20% kept in cash.
-
-New buys pause automatically when: the account is down 3% today, the news agent rates market risk above 0.70, the news signals are more than 3 hours old, or the kill switch is on. Sells keep working while buys are paused.
+- **Risk rules:** trailing stop size, hard stop, max hold, buy bar, position size, cash reserve and daily loss limit are all in `config.yaml`.
 
 ## Before you consider real money
 
