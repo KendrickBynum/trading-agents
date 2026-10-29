@@ -1,66 +1,87 @@
 {
-  "last_run": "2026-10-29T01:03:32.113822+00:00",
+  "last_run": "2026-10-29T05:08:39.958669+00:00",
   "paper": true,
   "market_open": false,
   "next_open": "2026-10-29T09:30:00-04:00",
-  "equity": 100489.21,
+  "equity": 100636.86,
   "cash": 49974.81,
-  "day_pnl": 393.53,
-  "day_pnl_pct": 0.00393,
+  "day_pnl": 541.18,
+  "day_pnl_pct": 0.00541,
   "starting_equity": 100000.0,
-  "total_pnl": 489.21,
-  "total_pnl_pct": 0.00489,
+  "total_pnl": 636.86,
+  "total_pnl_pct": 0.00637,
   "halts": [
     "Market closed"
   ],
+  "alerts": [],
   "last_actions": [],
-  "market_risk": 0.112,
-  "signals_at": "2026-10-29T01:03:31.570568+00:00",
+  "market_risk": 0.111,
+  "signals_at": "2026-10-29T05:08:30.097562+00:00",
+  "analysis_at": "2026-10-29T05:08:38.085500+00:00",
+  "buy_threshold": 0.446,
+  "exit_threshold": -0.291,
+  "trailing_stop_pct": 0.04,
+  "max_hold_days": 14,
   "positions": [
     {
       "symbol": "AAPL",
       "qty": 29.032810229,
       "avg_entry": 344.224342,
-      "price": 346.31,
-      "value": 10054.35251,
-      "pl": 60.552513,
-      "pl_pct": 0.00606
+      "price": 346.7,
+      "value": 10065.675306,
+      "pl": 71.875309,
+      "pl_pct": 0.00719,
+      "opened": "2026-10-26T13:36:00.542790+00:00",
+      "stop_price": 331.8816,
+      "high_water": 345.71
     },
     {
       "symbol": "AMZN",
       "qty": 40.197155369,
       "avg_entry": 248.89,
-      "price": 253.12,
-      "value": 10174.703967,
-      "pl": 170.033967,
-      "pl_pct": 0.017
+      "price": 252.9,
+      "value": 10165.860593,
+      "pl": 161.190593,
+      "pl_pct": 0.01611,
+      "opened": "2026-10-26T16:35:30.485332+00:00",
+      "stop_price": 243.6,
+      "high_water": 253.75
     },
     {
       "symbol": "MSFT",
       "qty": 18.901462198,
       "avg_entry": 529.371744,
-      "price": 548.0,
-      "value": 10358.001285,
-      "pl": 352.101277,
-      "pl_pct": 0.03519
+      "price": 552.51,
+      "value": 10443.246879,
+      "pl": 437.346871,
+      "pl_pct": 0.04371,
+      "opened": "2026-10-26T15:35:23.077712+00:00",
+      "stop_price": 524.448,
+      "high_water": 546.3
     },
     {
       "symbol": "QQQ",
       "qty": 13.843288942,
       "avg_entry": 723.874943,
-      "price": 719.46,
-      "value": 9959.692662,
-      "pl": -61.117332,
-      "pl_pct": -0.0061
+      "price": 718.5,
+      "value": 9946.403105,
+      "pl": -74.406889,
+      "pl_pct": -0.00743,
+      "opened": "2026-10-28T13:35:55.445863+00:00",
+      "stop_price": 689.28,
+      "high_water": 718.0
     },
     {
       "symbol": "XOM",
       "qty": 54.504769172,
       "avg_entry": 183.47,
-      "price": 182.8767,
-      "value": 9967.65232,
-      "pl": -32.33768,
-      "pl_pct": -0.00323
+      "price": 184.22,
+      "value": 10040.868577,
+      "pl": 40.878577,
+      "pl_pct": 0.00409,
+      "opened": "2026-10-23T15:35:28.766459+00:00",
+      "stop_price": 175.561632,
+      "high_water": 182.8767
     }
   ]
 }

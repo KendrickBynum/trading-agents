@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T01:03:31.570568+00:00",
-  "market_risk": 0.112,
+  "generated_at": "2026-10-29T05:08:30.097562+00:00",
+  "market_risk": 0.111,
   "tickers": {
     "SPY": {
       "score": -0.176,
@@ -108,10 +108,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.368,
-      "articles": 12,
-      "ai_articles": 12,
+      "score": 0.373,
+      "articles": 13,
+      "ai_articles": 13,
       "headlines": [
+        {
+          "headline": "Amazon, Alphabet and 3 Stocks to Watch Heading Into Thursday",
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62682401/amazon-alphabet-and-3-stocks-to-watch-heading-into-thursday",
+          "time": "2026-10-29T04:18:41Z",
+          "sentiment": 0.4,
+          "reason": "Reported earnings beat; supportive for near-term sentiment"
+        },
         {
           "headline": "Microsoft Sees Q2 Sales $96.000B-$97.100B vs $95.616B Est",
           "url": "https://www.benzinga.com/news/26/10/62680302/microsoft-sees-q2-sales-96-000b-97-100b-vs-95-616b-est",
@@ -139,21 +146,21 @@
           "time": "2026-10-28T21:54:36Z",
           "sentiment": 0.2,
           "reason": "About 30% of cloud RPO converting to revenue within 12 months supports visibility"
-        },
-        {
-          "headline": "Microsoft CFO Says Capital Expenditures Were Lower Than Guidance In Q1 As Some Third-Party Capacity Deliveries We Expected In Q1 Were Delayed",
-          "url": "https://www.benzinga.com/news/26/10/62680131/microsoft-cfo-says-capital-expenditures-were-lower-guidance-q1-some-third-party-capacity-deliveries-",
-          "time": "2026-10-28T21:51:46Z",
-          "sentiment": -0.2,
-          "reason": "Capex below guidance due to delayed third-party capacity deliveries"
         }
       ]
     },
     "NVDA": {
-      "score": -0.085,
+      "score": -0.097,
       "articles": 9,
       "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62681998/nvidia-stock-drops-6-percent-jim-cramer-tech-weakness-nvda",
+          "time": "2026-10-29T02:00:35Z",
+          "sentiment": -0.2,
+          "reason": "Down nearly 6% this month; commentary on tech sensitivity, no new catalyst"
+        },
         {
           "headline": "Microsoft CFO Says Roughly Three Quarters Of Capex Was For Short-Lived Assets, Primarily CPUs And GPUs, Including Higher Memory And Storage Costs",
           "url": "https://www.benzinga.com/news/26/10/62680161/microsoft-cfo-says-roughly-three-quarters-capex-was-short-lived-assets-primarily-cpus-and-gpus-inclu",
@@ -181,21 +188,21 @@
           "time": "2026-10-28T18:32:05Z",
           "sentiment": -0.3,
           "reason": "DOJ antitrust scrutiny of Hugging Face acquisition could delay or complicate deal"
-        },
-        {
-          "headline": "Micron Stock Gains as SK Hynix Reports Record Revenue Above 100 Trillion Won",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62657416/micron-stock-gains-as-sk-hynix-reports-record-revenue-above-100-trillion-won",
-          "time": "2026-10-28T14:07:56Z",
-          "sentiment": 0.2,
-          "reason": "Memory peer record results lift AI hardware sentiment in sympathy"
         }
       ]
     },
     "AMZN": {
-      "score": -0.071,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.137,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Gene Munster 'More Concerned' About Amazon and Alphabet \u2014 Says AI Bots Mean Shopping Edge 'Will Increasingly Be Under Attack'",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62682494/gene-munster-warns-ai-bots-threaten-amazon-alphabet-shopping-search",
+          "time": "2026-10-29T04:51:10Z",
+          "sentiment": -0.2,
+          "reason": "Analyst warns AI bots could erode Amazon's shopping dominance; opinion only"
+        },
         {
           "headline": "Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional'",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62667278/eisman-anthropic-ipo",
@@ -220,10 +227,24 @@
       ]
     },
     "GOOGL": {
-      "score": 0.14,
-      "articles": 27,
-      "ai_articles": 27,
+      "score": 0.023,
+      "articles": 29,
+      "ai_articles": 29,
       "headlines": [
+        {
+          "headline": "Gene Munster 'More Concerned' About Amazon and Alphabet \u2014 Says AI Bots Mean Shopping Edge 'Will Increasingly Be Under Attack'",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62682494/gene-munster-warns-ai-bots-threaten-amazon-alphabet-shopping-search",
+          "time": "2026-10-29T04:51:10Z",
+          "sentiment": -0.2,
+          "reason": "Analyst warns AI bots could threaten Alphabet's search grip; opinion only"
+        },
+        {
+          "headline": "Amazon, Alphabet and 3 Stocks to Watch Heading Into Thursday",
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62682401/amazon-alphabet-and-3-stocks-to-watch-heading-into-thursday",
+          "time": "2026-10-29T04:18:41Z",
+          "sentiment": -0.7,
+          "reason": "Missed estimates and fell 10%; possible follow-through selling"
+        },
         {
           "headline": "QUICK SPARK: Elon Musk Has One-Word Verdict on Google's Gemini 4 Carbon",
           "url": "https://www.benzinga.com/markets/tech/26/10/62680620/elon-musk-has-a-one-word-verdict",
@@ -244,20 +265,6 @@
           "time": "2026-10-28T21:08:44Z",
           "sentiment": 0.4,
           "reason": "Nearly 100 clients using TPUs with strong further demand"
-        },
-        {
-          "headline": "Alphabet Google Cloud CEO Kurian Says Growing Cybersecurity Risks Driving Demand For AI-Powered Security Platform",
-          "url": "https://www.benzinga.com/news/26/10/62678471/alphabet-google-cloud-ceo-kurian-says-growing-cybersecurity-risks-driving-demand-ai-powered-security",
-          "time": "2026-10-28T21:06:35Z",
-          "sentiment": 0.2,
-          "reason": "Cybersecurity AI platform demand growing; modest positive for Cloud"
-        },
-        {
-          "headline": "Alphabet Exec Says TPU System Sales Were A Meaningful Contributor To Google Cloud Growth; Expect To Recognize Just Over 55% Of The Total Backlog As Revenues Over The Next 24 Months; 2026 CAPEX Forecast Remain Unchanged",
-          "url": "https://www.benzinga.com/news/26/10/62678378/alphabet-exec-says-tpu-system-sales-were-meaningful-contributor-google-cloud-growth-expect-recognize",
-          "time": "2026-10-28T21:05:00Z",
-          "sentiment": 0.3,
-          "reason": "TPU sales boost Cloud growth; large backlog converting over 24 months; capex unchanged"
         }
       ]
     },

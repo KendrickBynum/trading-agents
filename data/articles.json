@@ -706,57 +706,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62643124",
-    "created_at": "2026-10-28T04:49:45Z",
-    "headline": "Michael Burry Says Anthropic\u2019s IPO Filing Has a Lot, but \u2018Nothing That Changes\u2019 His View: Big Short Investor Calls Out \u2018Slowing\u2019 Revenue Growth",
-    "url": "https://www.benzinga.com/markets/ipos/26/10/62643124/michael-burry-anthropic-s1-nothing-that-changes-my-view-slowing-growth",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Burry warns of slowing AI growth; sentiment negative but opinion-driven"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62643060",
-    "created_at": "2026-10-28T04:30:36Z",
-    "headline": "Steve Jobs Thought They Were \u2018Ergonomically Terrible,\u2019 but Apple Is Reportedly Betting You\u2019ll Pay a Premium for the Touchscreen MacBook Pro",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62643060/steve-jobs-touchscreen-macbook-pro-apple-premium-pricing",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Reported premium pricing for MacBook Pro; modest, unconfirmed upside"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62642840",
-    "created_at": "2026-10-28T03:03:05Z",
-    "headline": "Anthony Scaramucci Says Joe Biden Was 'Actually Good for the Stock Market,' Blames Trump for Causing 'Self-Harm' to Economy",
-    "url": "https://www.benzinga.com/markets/economic-data/26/10/62642840/scaramucci-says-trump-self-harm-economy-biden-good-stock-market",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Political commentary, no actionable market impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62658801",
     "created_at": "2026-10-28T14:31:59Z",
     "headline": "USA Gasoline Inventories 3.870M Barrel Build Vs 1.400M Barrel Draw Est.",
@@ -2862,6 +2811,79 @@
         "reason": "EPS badly missed estimate; sales slight miss; headline figures may be inconsistent"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62682494",
+    "created_at": "2026-10-29T04:51:10Z",
+    "headline": "Gene Munster 'More Concerned' About Amazon and Alphabet \u2014 Says AI Bots Mean Shopping Edge 'Will Increasingly Be Under Attack'",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62682494/gene-munster-warns-ai-bots-threaten-amazon-alphabet-shopping-search",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Analyst warns AI bots could erode Amazon's shopping dominance; opinion only"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Analyst warns AI bots could threaten Alphabet's search grip; opinion only"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62682401",
+    "created_at": "2026-10-29T04:18:41Z",
+    "headline": "Amazon, Alphabet and 3 Stocks to Watch Heading Into Thursday",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62682401/amazon-alphabet-and-3-stocks-to-watch-heading-into-thursday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.7,
+        "confidence": 0.7,
+        "reason": "Missed estimates and fell 10%; possible follow-through selling"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Reported earnings beat; supportive for near-term sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62681998",
+    "created_at": "2026-10-29T02:00:35Z",
+    "headline": "Nvidia Stock Has Dropped Nearly 6% in a Month; Now Jim Cramer Is Asking Why \u2018Anything Negative in Tech\u2019 Immediately Crushes NVDA",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62681998/nvidia-stock-drops-6-percent-jim-cramer-tech-weakness-nvda",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Down nearly 6% this month; commentary on tech sensitivity, no new catalyst"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62681846",
+    "created_at": "2026-10-29T01:08:43Z",
+    "headline": "Alphabet, Microsoft, ServiceNow, Lumentum Holdings and Oracle: Why These 5 Stocks Are on Investors' Radars Today",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62681846/alphabet-microsoft-servicenow-lumentum-holdings-and-oracle-why-these-5-stocks-are-on-investors-radars-today",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
