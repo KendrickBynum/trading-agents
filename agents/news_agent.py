@@ -117,7 +117,7 @@ def main() -> int:
     start = now - dt.timedelta(hours=ncfg["lookback_hours"])
 
     alpaca = Alpaca()
-    raw = alpaca.news(watchlist, start)
+    raw = alpaca.news(watchlist, start, max_pages=12)
     print(f"Fetched {len(raw)} articles")
 
     use_claude = bool(os.environ.get("ANTHROPIC_API_KEY"))
