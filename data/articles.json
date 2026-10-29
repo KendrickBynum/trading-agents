@@ -1,792 +1,5 @@
 [
   {
-    "id": "106896230",
-    "created_at": "2026-10-28T23:01:30Z",
-    "headline": "NVIDIA Schedules Third-Quarter Fiscal 2027 Earnings Conference Call",
-    "url": "https://www.globenewswire.com/news-release/2026/10/28/3390809/0/en/nvidia-sets-conference-call-for-third-quarter-financial-results.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "106896227",
-    "created_at": "2026-10-28T23:01:27Z",
-    "headline": "Amazon Expands 'Shop Direct' Catalog to Retain Site Traffic",
-    "url": "https://www.pymnts.com/commerce/ecommerce/2026/amazon-expands-shop-direct-catalog-keep-shoppers-off-ai-shopping-agents/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Expanded direct-shopping catalog may modestly lift platform traffic and conversion"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680620",
-    "created_at": "2026-10-28T22:14:18Z",
-    "headline": "QUICK SPARK: Elon Musk Has One-Word Verdict on Google's Gemini 4 Carbon",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62680620/elon-musk-has-a-one-word-verdict",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.25,
-        "confidence": 0.3,
-        "reason": "Gemini 4 Carbon ranked No. 1 on Artificial Analysis benchmark"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680566",
-    "created_at": "2026-10-28T22:12:10Z",
-    "headline": "Microsoft Q1 2027 Earnings Call Transcript",
-    "url": "https://www.benzinga.com/news/26/10/62680566/microsoft-q1-2027-earnings-call-transcript",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Full earnings transcript; impact depends on details already reported"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680302",
-    "created_at": "2026-10-28T22:01:25Z",
-    "headline": "Microsoft Sees Q2 Sales $96.000B-$97.100B vs $95.616B Est",
-    "url": "https://www.benzinga.com/news/26/10/62680302/microsoft-sees-q2-sales-96-000b-97-100b-vs-95-616b-est",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Q2 sales guidance midpoint above $95.6B consensus estimate"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680277",
-    "created_at": "2026-10-28T22:00:32Z",
-    "headline": "Microsoft CFO Says Q2 Agents And Infra Revenue Expected To Be $80.1B To $80.7B; Q2 Azure Growth Expected To Be 49%",
-    "url": "https://www.benzinga.com/news/26/10/62680277/microsoft-cfo-says-q2-agents-and-infra-revenue-expected-be-80-1b-80-7b-q2-azure-growth-expected-be-4",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.45,
-        "confidence": 0.5,
-        "reason": "Strong Q2 Azure growth guidance of 49% and higher AI revenue outlook"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680237",
-    "created_at": "2026-10-28T21:57:29Z",
-    "headline": "Microsoft CFO Says Paid M365 Commercial Seats Grew 5%, With Some Impact From Weaker Sales Execution",
-    "url": "https://www.benzinga.com/news/26/10/62680237/microsoft-cfo-says-paid-m365-commercial-seats-grew-5-some-impact-weaker-sales-execution",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Commercial seat growth of 5% hurt by weaker sales execution"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680188",
-    "created_at": "2026-10-28T21:55:11Z",
-    "headline": "Lumentum Stock Soars 17% on Marvell Takeover Talk",
-    "url": "https://www.benzinga.com/m-a/26/10/62680188/lumentum-stock-soars-17-on-marvell-takeover-talk",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.02,
-        "confidence": 0.1,
-        "reason": "Takeover news concerns Lumentum; minimal direct effect on Alphabet"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Optical AI networking consolidation is only indirectly relevant to NVIDIA"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680174",
-    "created_at": "2026-10-28T21:54:36Z",
-    "headline": "Microsoft CFO Says Roughly 30% Of Cloud Business RPO Will Be Recognized In Revenue In The Next 12 Months",
-    "url": "https://www.benzinga.com/news/26/10/62680174/microsoft-cfo-says-roughly-30-cloud-business-rpo-will-be-recognized-revenue-next-12-months",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "About 30% of cloud RPO converting to revenue within 12 months supports visibility"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680161",
-    "created_at": "2026-10-28T21:53:38Z",
-    "headline": "Microsoft CFO Says Roughly Three Quarters Of Capex Was For Short-Lived Assets, Primarily CPUs And GPUs, Including Higher Memory And Storage Costs",
-    "url": "https://www.benzinga.com/news/26/10/62680161/microsoft-cfo-says-roughly-three-quarters-capex-was-short-lived-assets-primarily-cpus-and-gpus-inclu",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Higher memory and storage costs may pressure margins on short-lived assets"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Heavy capex on CPUs and GPUs signals continued AI infrastructure demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680131",
-    "created_at": "2026-10-28T21:51:46Z",
-    "headline": "Microsoft CFO Says Capital Expenditures Were Lower Than Guidance In Q1 As Some Third-Party Capacity Deliveries We Expected In Q1 Were Delayed",
-    "url": "https://www.benzinga.com/news/26/10/62680131/microsoft-cfo-says-capital-expenditures-were-lower-guidance-q1-some-third-party-capacity-deliveries-",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Capex below guidance due to delayed third-party capacity deliveries"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Delayed capacity deliveries could temporarily slow GPU deployment timing"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62680068",
-    "created_at": "2026-10-28T21:49:07Z",
-    "headline": "Microsoft CEO Says Accelerating Demand Led to Us Adding 24 New Data Centers Across Five Continents This Quarter",
-    "url": "https://www.benzinga.com/news/26/10/62680068/microsoft-ceo-says-accelerating-demand-led-us-adding-24-new-data-centers-across-five-continents-quar",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.4,
-        "confidence": 0.4,
-        "reason": "Accelerating demand prompted 24 new data centers across five continents"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.35,
-        "reason": "New data center buildout points to stronger AI accelerator demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106708257",
-    "created_at": "2026-10-28T21:32:28Z",
-    "headline": "US Department of Justice Investigating NVIDIA's Acquisition of Hugging Face",
-    "url": "https://www.marketscreener.com/news/doj-probes-nvidia-s-hugging-face-deal-over-ai-competition-ce785cd3d98bf223",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "DOJ antitrust inquiry into Hugging Face acquisition adds regulatory overhang"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62679161",
-    "created_at": "2026-10-28T21:20:10Z",
-    "headline": "On CNBC, Treasury Secretary Bessent Said Consumer Behavior Is Quite Strong, Business Behavior Is Quite Strong; In General The Trade Deals Are Pretty Locked In",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Treasury says consumer and business activity strong; mildly supportive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62679001",
-    "created_at": "2026-10-28T21:15:49Z",
-    "headline": "Alphabet CEO Says We Are Working On Distilled Versions Of Gemini 4 Carbon For More Than 1B Users; Gemini 4 Carbon Will Be Available To Consumers Later This Year",
-    "url": "https://www.benzinga.com/news/26/10/62679001/alphabet-ceo-says-we-are-working-distilled-versions-gemini-4-carbon-more-1b-users-gemini-4-carbon-wi",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Gemini distillation for 1B+ users and consumer launch signal product momentum"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62678582",
-    "created_at": "2026-10-28T21:08:44Z",
-    "headline": "Alphabet Exec Says Nearly 100 Clients Currently Using TPUs, With Strong Demand From Many Others",
-    "url": "https://www.benzinga.com/news/26/10/62678582/alphabet-exec-says-nearly-100-clients-currently-using-tpus-strong-demand-many-others",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Nearly 100 clients using TPUs with strong further demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62678471",
-    "created_at": "2026-10-28T21:06:35Z",
-    "headline": "Alphabet Google Cloud CEO Kurian Says Growing Cybersecurity Risks Driving Demand For AI-Powered Security Platform",
-    "url": "https://www.benzinga.com/news/26/10/62678471/alphabet-google-cloud-ceo-kurian-says-growing-cybersecurity-risks-driving-demand-ai-powered-security",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Cybersecurity AI platform demand growing; modest positive for Cloud"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62678378",
-    "created_at": "2026-10-28T21:05:00Z",
-    "headline": "Alphabet Exec Says TPU System Sales Were A Meaningful Contributor To Google Cloud Growth; Expect To Recognize Just Over 55% Of The Total Backlog As Revenues Over The Next 24 Months; 2026 CAPEX Forecast Remain Unchanged",
-    "url": "https://www.benzinga.com/news/26/10/62678378/alphabet-exec-says-tpu-system-sales-were-meaningful-contributor-google-cloud-growth-expect-recognize",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.3,
-        "confidence": 0.5,
-        "reason": "TPU sales boost Cloud growth; large backlog converting over 24 months; capex unchanged"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62678321",
-    "created_at": "2026-10-28T21:03:19Z",
-    "headline": "Alphabet CFO Says Operating Loss This Quarter Was Due To Shared AI R&D Costs; Expecting TPU System Sales To Rise For Google Cloud; Margin Headwinds Anticipated In Near Future; Technical Infrastructure Expenses To Continue To Weigh On Profit & Loss",
-    "url": "https://www.benzinga.com/news/26/10/62678321/alphabet-cfo-says-operating-loss-quarter-was-due-shared-ai-r-d-costs-expecting-tpu-system-sales-rise",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Operating loss and anticipated margin headwinds from AI infrastructure costs"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62678108",
-    "created_at": "2026-10-28T21:00:03Z",
-    "headline": "Alphabet CFO Says Network Advertising Revenue Rose 1% This Quarter",
-    "url": "https://www.benzinga.com/news/26/10/62678108/alphabet-cfo-says-network-advertising-revenue-rose-1-quarter",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Network advertising revenue up only 1%, a weak core ad result"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62678052",
-    "created_at": "2026-10-28T20:58:11Z",
-    "headline": "Alphabet CFO Says Technical Infrastructure Spending Resulted In Higher Capital Expenses",
-    "url": "https://www.benzinga.com/news/26/10/62678052/alphabet-cfo-says-technical-infrastructure-spending-resulted-higher-capital-expenses",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Higher capital expenses from infrastructure spending pressure margins"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62677952",
-    "created_at": "2026-10-28T20:56:07Z",
-    "headline": "Alphabet CFO Says This Was Consecutive Quarter Of Double-Digit Revenue Growth; Total Operating Expenses Jumped 20%",
-    "url": "https://www.benzinga.com/news/26/10/62677952/alphabet-cfo-says-was-consecutive-quarter-double-digit-revenue-growth-total-operating-expenses-jumpe",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.0,
-        "confidence": 0.4,
-        "reason": "Double-digit revenue growth offset by 20% jump in operating expenses"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62677813",
-    "created_at": "2026-10-28T20:49:14Z",
-    "headline": "Alphabet Exec Says Gemini Customers Quadrupled This Quarter In Terms Of YoY",
-    "url": "https://www.benzinga.com/news/26/10/62677813/alphabet-exec-says-gemini-customers-quadrupled-quarter-terms-yoy",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Gemini customers quadrupled year over year, strong AI adoption"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62677765",
-    "created_at": "2026-10-28T20:47:53Z",
-    "headline": "Alphabet Exec Says AI Investments Are Driving Overall Search Query Growth, Including Commercial Queries",
-    "url": "https://www.benzinga.com/news/26/10/62677765/alphabet-exec-says-ai-investments-are-driving-overall-search-query-growth-including-commercial-queri",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "AI investments driving search query growth, including commercial queries"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62677696",
-    "created_at": "2026-10-28T20:46:13Z",
-    "headline": "Alphabet Exec Says YouTube Premium Has Over 150M Subscribers",
-    "url": "https://www.benzinga.com/news/26/10/62677696/alphabet-exec-says-youtube-premium-has-over-150m-subscribers",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "YouTube Premium subscriber growth is a modest positive operational update"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62677628",
-    "created_at": "2026-10-28T20:44:51Z",
-    "headline": "Alphabet Exec Says 20M Videos Being Uploaded On YouTube Daily",
-    "url": "https://www.benzinga.com/news/26/10/62677628/alphabet-exec-says-20m-videos-being-uploaded-youtube-daily",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Daily YouTube upload volume is routine operational detail"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62677494",
-    "created_at": "2026-10-28T20:43:01Z",
-    "headline": "Alphabet Exec Says Seeing Enhanced AI Models In Future; Integrated AI Creative Tools Directly Into AI MAX",
-    "url": "https://www.benzinga.com/news/26/10/62677494/alphabet-exec-says-seeing-enhanced-ai-models-future-integrated-ai-creative-tools-directly-ai-max",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Executive signals AI model and creative tool progress, mildly positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62677247",
-    "created_at": "2026-10-28T20:39:03Z",
-    "headline": "Alphabet CEO Says Clients Using Gemini For Complex Multi-Step Agentic Queries; Rolled Out 30 New Products On YouTube This Quarter",
-    "url": "https://www.benzinga.com/news/26/10/62677247/alphabet-ceo-says-clients-using-gemini-complex-multi-step-agentic-queries-rolled-out-30-new-products",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.25,
-        "confidence": 0.3,
-        "reason": "Gemini enterprise adoption and product rollout are constructive signals"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62677203",
-    "created_at": "2026-10-28T20:38:05Z",
-    "headline": "'Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks'- WSJ Exclusive",
-    "url": "https://www.benzinga.com/news/26/10/62677203/vance-reaches-out-iranian-hard-liner-bid-restart-peace-talks-wsj-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Renewed Iran peace-talk efforts modestly reduce geopolitical risk"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Peace progress could ease oil supply risk premium"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106596431",
-    "created_at": "2026-10-28T20:31:44Z",
-    "headline": "Meta Launches 'Muse' Personal AI Agent in Singapore",
-    "url": "https://www.moomoo.com/stock/META-US/news?chain_id=Name1K9-3FXPhg.1ldvqc0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A64,%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fwhalehead-151181600%2Fpost%2Fall%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Regional launch of personal AI agent is a minor incremental step"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106596422",
-    "created_at": "2026-10-28T20:31:32Z",
-    "headline": "NVIDIA Expands RTX Spark Laptop Ecosystem",
-    "url": "https://www.cgmagonline.com/news/nvidia-rtx-spark-laptops-expand-tools/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "RTX Spark ecosystem expansion is incremental product news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "106596421",
-    "created_at": "2026-10-28T20:31:21Z",
-    "headline": "Microsoft Reports Fiscal Year 2027 First-Quarter Financial Results",
-    "url": "https://finviz.com/news/410572/microsoft-earnings-press-release-available-on-investor-relations-website",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62676360",
-    "created_at": "2026-10-28T20:29:28Z",
-    "headline": "Alphabet Says First-Party Model APIs Now Processing Nearly 32B Tokens Per Minute, More Than Four Times Processed A Year Ago; Google Cloud Revenues Grew 103%",
-    "url": "https://www.benzinga.com/news/26/10/62676360/alphabet-says-first-party-model-apis-now-processing-nearly-32b-tokens-minute-more-four-times-process",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.45,
-        "confidence": 0.5,
-        "reason": "Cloud revenue up 103% and API token volume surge signal strong demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62676245",
-    "created_at": "2026-10-28T20:28:04Z",
-    "headline": "Alphabet Says At Quarter End, Gemini App Has Reached One Billion Users; Seeing Strong Demand For Our TPU Systems Across A Wide Range Of Customers; Surpassed 150M YouTube Music And Premium Subscribers Globally, Including Trials",
-    "url": "https://www.benzinga.com/news/26/10/62676245/alphabet-says-quarter-end-gemini-app-has-reached-one-billion-users-seeing-strong-demand-our-tpu-syst",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.4,
-        "confidence": 0.45,
-        "reason": "Gemini at one billion users and strong TPU demand are bullish"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62676053",
-    "created_at": "2026-10-28T20:25:20Z",
-    "headline": "Alphabet Stock Tumbles on Q3 Miss, Google Cloud Revenues Surge",
-    "url": "https://www.benzinga.com/markets/earnings/26/10/62676053/alphabet-stock-tumbles-on-q3-miss-google-cloud-revenues-surge",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Q3 earnings miss drove stock lower despite strong Cloud growth"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62675569",
-    "created_at": "2026-10-28T20:20:39Z",
-    "headline": "Microsoft Q1 Highlights: Double Beat, Cloud Revenue Up 30%, Azure Growth Up 48%",
-    "url": "https://www.benzinga.com/markets/earnings/26/10/62675569/microsoft-q1-highlights-double-beat-cloud-revenue-up-30-azure-growth-up-48",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.7,
-        "confidence": 0.8,
-        "reason": "Double beat, Azure up 48%, and shares up ~4% after hours"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62675546",
-    "created_at": "2026-10-28T20:20:25Z",
-    "headline": "Live On CNBC, Treasury Secretary Bessent Says Operation Economic Outcast Against Iran Has Been Very Successful, Currency Has Collapsed",
-    "url": "https://www.benzinga.com/news/26/10/62675546/live-cnbc-treasury-secretary-bessent-says-operation-economic-outcast-against-iran-has-been-very-succ",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Reported Iran operation and currency collapse signal geopolitical and market stress"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.3,
-        "confidence": 0.3,
-        "reason": "Iran conflict may lift oil prices and energy producers"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62675471",
-    "created_at": "2026-10-28T20:19:55Z",
-    "headline": "Live On CNBC, Treasury Secretary Bessent Says I Don't Think Credit In The AI Space Is Problematic",
-    "url": "https://www.benzinga.com/news/26/10/62675471/live-cnbc-treasury-secretary-bessent-says-i-don-t-think-credit-ai-space-problematic",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Treasury says AI credit concerns are not an issue"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62675307",
-    "created_at": "2026-10-28T20:18:45Z",
-    "headline": "President Donald J. Trump Adjusts Imports Of Robotics, Industrial Machinery, And Their Parts And Components Into The United States; Trump Says Imported Robotics And Machinery Pose Nation Security Risks, But Does Not Impose Any Immediate Tariffs; Trump Directs Officials To Negotiate Agreements With Trading Partners To Address National Security Risks With Respect To Imports Of Robotics And Industrial Machinery From Any Country.",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62675307/president-donald-j-trump-adjusts-imports-robotics-industrial-machinery-and-their-parts-and-component",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Robotics and machinery import security review, but no immediate tariffs"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62675075",
-    "created_at": "2026-10-28T20:17:10Z",
-    "headline": "Google and Alphabet CEO Sundar Pichai Says First-Party Model APIs Now Processing Nearly 32 Billion Tokens Per Minute",
-    "url": "https://www.benzinga.com/news/26/10/62675075/google-and-alphabet-ceo-sundar-pichai-says-first-party-model-apis-now-processing-nearly-32-billion-t",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Token processing volume of 32B per minute signals strong AI adoption"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62674905",
-    "created_at": "2026-10-28T20:16:19Z",
-    "headline": "Microsoft Recorded $10B Revenue From OpenAI Commercial Arrangements, Including Revenue Sharing, In Quarter Ended September 30",
-    "url": "https://www.benzinga.com/news/earnings/26/10/62674905/microsoft-recorded-10b-revenue-openai-commercial-arrangements-including-revenue-sharing-quarter-ende",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "OpenAI revenue of $10B shows meaningful AI monetization, though partly known"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62674787",
-    "created_at": "2026-10-28T20:15:45Z",
-    "headline": "Live On CNBC,  Treasury's Bessent Says Fed Chair Warsh Should Have An Open Mind On Transitory Nature Of Any Supply Shocks; He And Trump Have A Lot Of Confidence In Warsh; Great Confidence In Warsh To Steer Fed Between Right Combination Of Growth And Inflation",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Treasury confidence in Fed Chair Warsh is routine commentary"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62673265",
-    "created_at": "2026-10-28T20:05:54Z",
-    "headline": "Microsoft CFO Amy Hood Said, \u201cWe delivered a strong start to the fiscal year with Microsoft Cloud revenue of $63.9 billion, with growth accelerating to 30% (up 31% in constant currency) year-over-year.\u201d",
-    "url": "https://www.benzinga.com/quote/MSFT",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.6,
-        "confidence": 0.7,
-        "reason": "Microsoft Cloud revenue accelerated to 30% year-over-year growth"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62672891",
-    "created_at": "2026-10-28T20:03:03Z",
-    "headline": "Microsoft Q1 Adj. EPS $4.89 Beats $4.72 Estimate, Sales $92.279B Beat $90.663B Estimate",
-    "url": "https://www.benzinga.com/news/earnings/26/10/62672891/microsoft-q1-adj-eps-4-89-beats-4-72-estimate-sales-92-279b-beat-90-663b-estimate",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.6,
-        "confidence": 0.75,
-        "reason": "EPS and sales both beat estimates for the quarter"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62672822",
-    "created_at": "2026-10-28T20:02:40Z",
-    "headline": "Alphabet Q3 EPS $2.12 Misses $3.02 Estimate, Sales $127.577B Miss $128.175B Estimate",
-    "url": "https://www.benzinga.com/news/earnings/26/10/62672822/alphabet-q3-eps-2-12-misses-3-02-estimate-sales-127-577b-miss-128-175b-estimate",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.4,
-        "confidence": 0.4,
-        "reason": "EPS badly missed estimate; sales slight miss; headline figures may be inconsistent"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62682494",
     "created_at": "2026-10-29T04:51:10Z",
     "headline": "Gene Munster 'More Concerned' About Amazon and Alphabet \u2014 Says AI Bots Mean Shopping Edge 'Will Increasingly Be Under Attack'",
@@ -3530,6 +2743,382 @@
         "sentiment": -0.3,
         "confidence": 0.4,
         "reason": "Ongoing spying probe ties create regulatory and reputational overhang"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "108135694",
+    "created_at": "2026-10-29T23:01:24Z",
+    "headline": "Amazon Introduces New Capabilities for Alexa for Shopping",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-adds-100-plus-capabilities-to-ai-shopping-assistant/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Incremental Alexa shopping features; modest consumer-engagement benefit"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62725327",
+    "created_at": "2026-10-29T22:30:15Z",
+    "headline": "$1000 Invested In Tesla 15 Years Ago Would Be Worth This Much Today",
+    "url": "https://www.benzinga.com/news/26/10/62725327/1000-invested-tesla-15-years-ago-would-be-worth-much-today",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62724825",
+    "created_at": "2026-10-29T22:06:20Z",
+    "headline": "Amazon.com Q3 2026 Earnings Call Transcript",
+    "url": "https://www.benzinga.com/news/26/10/62724825/amazoncom-q3-2026-earnings-call-transcript",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62724648",
+    "created_at": "2026-10-29T22:00:30Z",
+    "headline": "El-Sayed Leads Michigan Senate Poll by 7 Points, Wants 50% Public Ownership of OpenAI, Anthropic",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62724648/el-sayed-ai-ownership",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62724275",
+    "created_at": "2026-10-29T21:48:24Z",
+    "headline": "Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325",
+    "url": "https://www.benzinga.com/news/26/10/62724275/bernstein-maintains-market-perform-alphabet-lowers-price-target-325",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Market Perform rating with lowered price target to $325"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62723680",
+    "created_at": "2026-10-29T21:38:47Z",
+    "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722",
+    "url": "https://www.benzinga.com/news/26/10/62723680/bernstein-maintains-outperform-microsoft-raises-price-target-722",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.3,
+        "reason": "Outperform rating with raised price target to $722"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62723628",
+    "created_at": "2026-10-29T21:37:52Z",
+    "headline": "Amazon CEO Andy Jassy Says \"We Have Very Good Visibility Into Compute Capacity Demand In 2027 And 2028, And Some Of 2029 Too\"",
+    "url": "https://www.benzinga.com/news/26/10/62723628/amazon-ceo-andy-jassy-says-we-have-very-good-visibility-compute-capacity-demand-2027-and-2028-and-so",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "CEO signals strong visibility into multi-year compute demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107943648",
+    "created_at": "2026-10-29T21:31:44Z",
+    "headline": "Amazon Reports Fiscal Third-Quarter 2026 Financial Results",
+    "url": "https://www.barchart.com/story/news/8538865/amazon-s-3q-results-miss-analysts-estimates-but-posts-solid-sales-gains-in-cloud-computing-unit",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.4,
+        "reason": "Net income and sales missed estimates; AWS growth partly offsets"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107943646",
+    "created_at": "2026-10-29T21:31:37Z",
+    "headline": "Quantryon Capital Upgrades Meta to Buy",
+    "url": "https://www.tradingview.com/news/seekingalpha:86b88b9f6094b:0-sa-analyst-upgrades-downgrades-meta-nflx-intu-gnrc/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.4,
+        "confidence": 0.35,
+        "reason": "Upgrade to Buy citing advertising strength and AI monetization"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62723393",
+    "created_at": "2026-10-29T21:30:45Z",
+    "headline": "Amazon CEO Says AWS Backlog Is $578B, Growing Triple Digits YoY; Expect To Spend Meaningfully More On CAPEX In 2027; With Trainium Chip Demand So Strong, Customers Are Encouraging Us To Make It Available Outside Of AWS And We Intend To Do So Late In 2027; Expects Ad Sales To Return To High Teens Growth In Q4",
+    "url": "https://www.benzinga.com/news/26/10/62723393/amazon-ceo-says-aws-backlog-578b-growing-triple-digits-yoy-expect-spend-meaningfully-more-capex-2027",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "AWS backlog $578B growing triple digits; ad sales guided up"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Trainium external availability could pressure AI accelerator share"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62721264",
+    "created_at": "2026-10-29T20:39:07Z",
+    "headline": "Amazon Announces AWS Investment In Functionality And Infrastructure Is Working, Projected Rev Growth Rates Of Over 40% Both In 2027 And In 2028; AWS Investment In Functionality & Infrastructure Is Working, With Over 39% YoY Rev Growth In Q3 , $184B Revenue Run Rate; Expect YoY Advertising Revenue To Grow In High Teens In Q4",
+    "url": "https://www.benzinga.com/quote/AMZN",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.5,
+        "confidence": 0.5,
+        "reason": "AWS 39% Q3 growth; projects over 40% growth in 2027-2028"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62720746",
+    "created_at": "2026-10-29T20:32:28Z",
+    "headline": "Amazon Reaffirms ~$220B 2026 Capex; Trailing 12-Month Free Cash Flow Turns To $42.4B Outflow On AI Spending",
+    "url": "https://www.benzinga.com/quote/AMZN",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Trailing free cash flow turns to $42.4B outflow on AI capex"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62720668",
+    "created_at": "2026-10-29T20:32:08Z",
+    "headline": "Amazon Q3 Operating Income Rises To Record $28.1B, AWS Sales Up 39% To $46.0B; EPS Decline Reflects $9.5B Anthropic Gain In Year-Ago Quarter",
+    "url": "https://www.benzinga.com/quote/AMZN",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.3,
+        "confidence": 0.5,
+        "reason": "Record operating income and AWS up 39%; EPS decline reflects year-ago gain"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107835624",
+    "created_at": "2026-10-29T20:31:32Z",
+    "headline": "Meta Loses Appeal in French Media Payment Dispute",
+    "url": "https://www.tradingview.com/news/gurufocus:7ddc2b011094b:0-meta-suffers-french-court-setback-in-media-payment-fight/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Lost appeal; must negotiate payments with French news publishers"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107835623",
+    "created_at": "2026-10-29T20:31:27Z",
+    "headline": "Apple Faces Long-Term Chip Supply Constraints Through 2030",
+    "url": "https://appleosophy.com/2026/10/29/why-apple-products-prices-may-keep-rising-until-2030/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Chip shortages may persist to 2030, raising component costs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "107835622",
+    "created_at": "2026-10-29T20:31:24Z",
+    "headline": "NVIDIA Refutes Allegations Regarding CEO and Chinese Intelligence",
+    "url": "https://www.tradingview.com/news/seekingalpha:9a1701a5d094b:0-nvidia-refutes-nyt-article-claiming-chinese-spy-targeted-ceo-and-us-failed-to-act/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Formal denial of espionage allegations removes some uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62720490",
+    "created_at": "2026-10-29T20:31:02Z",
+    "headline": "JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375",
+    "url": "https://www.benzinga.com/news/26/10/62720490/jp-morgan-maintains-overweight-alphabet-lowers-price-target-375",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Overweight maintained but price target lowered to $375"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62720440",
+    "created_at": "2026-10-29T20:30:41Z",
+    "headline": "Bitcoin Could Repeat Its SpaceX IPO Dump Ahead of Anthropic IPO, Analyst Warns",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62720440/bitcoin-could-repeat-its-spacex-ipo-dump-ahead-of-anthropic-ipo-analyst-warns",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Anthropic IPO may pull speculative capital from crypto and risk assets"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62719574",
+    "created_at": "2026-10-29T20:21:36Z",
+    "headline": "RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target",
+    "url": "https://www.benzinga.com/news/26/10/62719574/rbc-capital-reiterates-outperform-microsoft-maintains-640-price-target",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "RBC reiterates Outperform with $640 price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62719400",
+    "created_at": "2026-10-29T20:20:31Z",
+    "headline": "Amazon Delivers Q3 Double Miss, AWS Growth Accelerates, Shares Drop",
+    "url": "https://www.benzinga.com/markets/earnings/26/10/62719400/amazon-delivers-q3-double-miss-aws-growth-accelerates-shares-drop",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.4,
+        "confidence": 0.6,
+        "reason": "Double miss on earnings and shares dropping despite AWS acceleration"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62718149",
+    "created_at": "2026-10-29T20:11:31Z",
+    "headline": "Oil Stocks in Spotlight Friday: Chevron, ExxonMobil, BP Could Show Impact of Higher Gas Prices",
+    "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62718149/oil-stocks-in-spotlight-friday-chevron-exxonmobil-bp-could-show-impact-of-higher-gas-prices",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Oil stocks at decade highs; higher gas prices may lift earnings"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62716343",
+    "created_at": "2026-10-29T20:01:56Z",
+    "headline": "Amazon.com Sees Q4 Sales $240.000B-$247.000B vs $244.513B Est",
+    "url": "https://www.benzinga.com/news/26/10/62716343/amazon-com-sees-q4-sales-240-000b-247-000b-vs-244-513b-est",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Q4 sales guidance midpoint slightly below consensus estimate"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62716265",
+    "created_at": "2026-10-29T20:01:32Z",
+    "headline": "Amazon.com Q3 EPS $1.89 Misses $1.97 Estimate, Sales $201.944B Miss $202.308B Estimate",
+    "url": "https://www.benzinga.com/news/earnings/26/10/62716265/amazon-com-q3-eps-1-89-misses-1-97-estimate-sales-201-944b-miss-202-308b-estimate",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Q3 EPS and sales both missed consensus estimates"
       }
     ],
     "scorer": "claude"

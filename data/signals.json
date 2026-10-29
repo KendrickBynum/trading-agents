@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T19:35:22.320420+00:00",
-  "market_risk": 0.097,
+  "generated_at": "2026-10-29T23:16:48.365861+00:00",
+  "market_risk": 0.099,
   "tickers": {
     "SPY": {
-      "score": -0.046,
-      "articles": 12,
-      "ai_articles": 12,
+      "score": -0.05,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "'Top Admiral Briefs Trump On Iran Attack Options; A Thursday White House Meeting Included A Rare In-Person Briefing By Adm. Cooper As The U.S. Weighs New Combat Operations' - WSJ Exclusive",
@@ -87,10 +87,17 @@
       ]
     },
     "AAPL": {
-      "score": 0.322,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.059,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Apple Faces Long-Term Chip Supply Constraints Through 2030",
+          "url": "https://appleosophy.com/2026/10/29/why-apple-products-prices-may-keep-rising-until-2030/",
+          "time": "2026-10-29T20:31:27Z",
+          "sentiment": -0.4,
+          "reason": "Chip shortages may persist to 2030, raising component costs"
+        },
         {
           "headline": "Apple Stock Heads Toward All-Time High: What's Going On?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62699888/apple-stock-heads-toward-all-time-high-whats-going-on",
@@ -108,10 +115,24 @@
       ]
     },
     "MSFT": {
-      "score": 0.299,
-      "articles": 36,
-      "ai_articles": 36,
+      "score": 0.284,
+      "articles": 28,
+      "ai_articles": 28,
       "headlines": [
+        {
+          "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722",
+          "url": "https://www.benzinga.com/news/26/10/62723680/bernstein-maintains-outperform-microsoft-raises-price-target-722",
+          "time": "2026-10-29T21:38:47Z",
+          "sentiment": 0.3,
+          "reason": "Outperform rating with raised price target to $722"
+        },
+        {
+          "headline": "RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target",
+          "url": "https://www.benzinga.com/news/26/10/62719574/rbc-capital-reiterates-outperform-microsoft-maintains-640-price-target",
+          "time": "2026-10-29T20:21:36Z",
+          "sentiment": 0.2,
+          "reason": "RBC reiterates Outperform with $640 price target"
+        },
         {
           "headline": "Citigroup Maintains Buy on Microsoft, Raises Price Target to $680",
           "url": "https://www.benzinga.com/news/26/10/62714097/citigroup-maintains-buy-microsoft-raises-price-target-680",
@@ -132,27 +153,13 @@
           "time": "2026-10-29T17:01:48Z",
           "sentiment": 0.2,
           "reason": "Strong 48% Azure growth and PT hike offset AI capex concerns"
-        },
-        {
-          "headline": "Microsoft Stock Has More Upside: Analyst Says Q1 Validation of \u2018AI-Led Growth Opportunity\u2019",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62707735/microsoft-stock-has-more-upside-analyst-says-q1-validation-of-ai-led-growth-opportunity",
-          "time": "2026-10-29T16:45:11Z",
-          "sentiment": 0.4,
-          "reason": "Analysts raise price targets after strong Q1 results"
-        },
-        {
-          "headline": "DA Davidson Maintains Buy on Microsoft, Raises Price Target to $650",
-          "url": "https://www.benzinga.com/news/26/10/62705315/da-davidson-maintains-buy-microsoft-raises-price-target-650",
-          "time": "2026-10-29T15:49:31Z",
-          "sentiment": 0.3,
-          "reason": "Buy rating with raised price target to $650"
         }
       ]
     },
     "NVDA": {
-      "score": -0.09,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.097,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "NVIDIA Participates in Cohere's Series E Funding Round",
@@ -192,38 +199,59 @@
       ]
     },
     "AMZN": {
-      "score": -0.135,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.043,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
         {
-          "headline": "FCC Approves Amazon Leo's Acquisition of Globalstar",
-          "url": "https://telcomagazine.com/news/fcc-clears-amazon-leos-us-11-5bn-globalstar-buyout",
-          "time": "2026-10-29T18:01:38Z",
-          "sentiment": 0.15,
-          "reason": "Regulatory approval of Globalstar deal removes an overhang; likely mostly priced in"
+          "headline": "Amazon CEO Andy Jassy Says \"We Have Very Good Visibility Into Compute Capacity Demand In 2027 And 2028, And Some Of 2029 Too\"",
+          "url": "https://www.benzinga.com/news/26/10/62723628/amazon-ceo-andy-jassy-says-we-have-very-good-visibility-compute-capacity-demand-2027-and-2028-and-so",
+          "time": "2026-10-29T21:37:52Z",
+          "sentiment": 0.3,
+          "reason": "CEO signals strong visibility into multi-year compute demand"
         },
         {
-          "headline": "Amazon Stock Dips Ahead of Q3 Earnings: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62709755/amazon-stock-dips-ahead-of-q3-earnings-whats-going-on",
-          "time": "2026-10-29T17:34:32Z",
-          "sentiment": -0.3,
-          "reason": "Stock dips on AI shopping assistant disruption fears before earnings"
+          "headline": "Amazon CEO Says AWS Backlog Is $578B, Growing Triple Digits YoY; Expect To Spend Meaningfully More On CAPEX In 2027; With Trainium Chip Demand So Strong, Customers Are Encouraging Us To Make It Available Outside Of AWS And We Intend To Do So Late In 2027; Expects Ad Sales To Return To High Teens Growth In Q4",
+          "url": "https://www.benzinga.com/news/26/10/62723393/amazon-ceo-says-aws-backlog-578b-growing-triple-digits-yoy-expect-spend-meaningfully-more-capex-2027",
+          "time": "2026-10-29T21:30:45Z",
+          "sentiment": 0.4,
+          "reason": "AWS backlog $578B growing triple digits; ad sales guided up"
         },
         {
-          "headline": "Gene Munster 'More Concerned' About Amazon and Alphabet \u2014 Says AI Bots Mean Shopping Edge 'Will Increasingly Be Under Attack'",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62682494/gene-munster-warns-ai-bots-threaten-amazon-alphabet-shopping-search",
-          "time": "2026-10-29T04:51:10Z",
-          "sentiment": -0.2,
-          "reason": "Analyst warns AI bots could erode Amazon's shopping dominance; opinion only"
+          "headline": "Amazon Announces AWS Investment In Functionality And Infrastructure Is Working, Projected Rev Growth Rates Of Over 40% Both In 2027 And In 2028; AWS Investment In Functionality & Infrastructure Is Working, With Over 39% YoY Rev Growth In Q3 , $184B Revenue Run Rate; Expect YoY Advertising Revenue To Grow In High Teens In Q4",
+          "url": "https://www.benzinga.com/quote/AMZN",
+          "time": "2026-10-29T20:39:07Z",
+          "sentiment": 0.5,
+          "reason": "AWS 39% Q3 growth; projects over 40% growth in 2027-2028"
+        },
+        {
+          "headline": "Amazon Reaffirms ~$220B 2026 Capex; Trailing 12-Month Free Cash Flow Turns To $42.4B Outflow On AI Spending",
+          "url": "https://www.benzinga.com/quote/AMZN",
+          "time": "2026-10-29T20:32:28Z",
+          "sentiment": -0.4,
+          "reason": "Trailing free cash flow turns to $42.4B outflow on AI capex"
+        },
+        {
+          "headline": "Amazon Q3 Operating Income Rises To Record $28.1B, AWS Sales Up 39% To $46.0B; EPS Decline Reflects $9.5B Anthropic Gain In Year-Ago Quarter",
+          "url": "https://www.benzinga.com/quote/AMZN",
+          "time": "2026-10-29T20:32:08Z",
+          "sentiment": 0.3,
+          "reason": "Record operating income and AWS up 39%; EPS decline reflects year-ago gain"
         }
       ]
     },
     "GOOGL": {
-      "score": -0.443,
-      "articles": 46,
-      "ai_articles": 46,
+      "score": -0.495,
+      "articles": 29,
+      "ai_articles": 29,
       "headlines": [
+        {
+          "headline": "Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325",
+          "url": "https://www.benzinga.com/news/26/10/62724275/bernstein-maintains-market-perform-alphabet-lowers-price-target-325",
+          "time": "2026-10-29T21:48:24Z",
+          "sentiment": -0.2,
+          "reason": "Market Perform rating with lowered price target to $325"
+        },
         {
           "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
           "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd",
@@ -251,21 +279,29 @@
           "time": "2026-10-29T17:39:14Z",
           "sentiment": -0.3,
           "reason": "Rising AI capex and margin pressure fuel profit-squeeze fears despite Cloud strength"
-        },
-        {
-          "headline": "Microsoft And Alphabet's Two Different Market Stories\u2014AI Keeps Building",
-          "url": "https://www.benzinga.com/opinion/26/10/62709569/microsoft-and-alphabet-two-different-market-stories-ai-keeps-building",
-          "time": "2026-10-29T17:28:28Z",
-          "sentiment": -0.3,
-          "reason": "Negative free cash flow weighed on Alphabet"
         }
       ]
     },
     "META": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.093,
+      "articles": 2,
+      "ai_articles": 2,
+      "headlines": [
+        {
+          "headline": "Quantryon Capital Upgrades Meta to Buy",
+          "url": "https://www.tradingview.com/news/seekingalpha:86b88b9f6094b:0-sa-analyst-upgrades-downgrades-meta-nflx-intu-gnrc/",
+          "time": "2026-10-29T21:31:37Z",
+          "sentiment": 0.4,
+          "reason": "Upgrade to Buy citing advertising strength and AI monetization"
+        },
+        {
+          "headline": "Meta Loses Appeal in French Media Payment Dispute",
+          "url": "https://www.tradingview.com/news/gurufocus:7ddc2b011094b:0-meta-suffers-french-court-setback-in-media-payment-fight/",
+          "time": "2026-10-29T20:31:32Z",
+          "sentiment": -0.2,
+          "reason": "Lost appeal; must negotiate payments with French news publishers"
+        }
+      ]
     },
     "JPM": {
       "score": 0.0,
@@ -274,9 +310,9 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.236,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.25,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "'Top Admiral Briefs Trump On Iran Attack Options; A Thursday White House Meeting Included A Rare In-Person Briefing By Adm. Cooper As The U.S. Weighs New Combat Operations' - WSJ Exclusive",
@@ -305,13 +341,6 @@
           "time": "2026-10-29T09:11:20Z",
           "sentiment": 0.4,
           "reason": "Iran war lifting oil prices and energy stock valuations"
-        },
-        {
-          "headline": "'Vance Reaches Out to Iranian Hard-Liner in Bid to Restart Peace Talks'- WSJ Exclusive",
-          "url": "https://www.benzinga.com/news/26/10/62677203/vance-reaches-out-iranian-hard-liner-bid-restart-peace-talks-wsj-exclusive",
-          "time": "2026-10-28T20:38:05Z",
-          "sentiment": -0.2,
-          "reason": "Peace progress could ease oil supply risk premium"
         }
       ]
     },
