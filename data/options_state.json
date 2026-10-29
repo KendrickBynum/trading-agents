@@ -10,13 +10,14 @@
       "delta": -0.5515,
       "iv": 0.4417,
       "dte": 22,
-      "limit": 11.6
+      "limit": 11.6,
+      "avg": 11.6
     }
   },
   "exits": {},
-  "order_reasons": {
-    "58e92b03-69a5-4dab-928d-2ab5ad9316f9": "PUT NVDA $217.5 exp 2026-11-20 (22d, delta -0.55) on score -0.32; max loss $1,160"
-  },
-  "logged_orders": [],
-  "last_order_check": "2026-10-29T13:36:19.334211+00:00"
+  "order_reasons": {},
+  "logged_orders": [
+    "58e92b03-69a5-4dab-928d-2ab5ad9316f9"
+  ],
+  "last_order_check": "2026-10-29T14:35:40.339410+00:00"
 }

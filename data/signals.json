@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-10-29T13:35:21.357065+00:00",
-  "market_risk": 0.094,
+  "generated_at": "2026-10-29T14:35:20.774106+00:00",
+  "market_risk": 0.091,
   "tickers": {
     "SPY": {
-      "score": -0.004,
-      "articles": 16,
-      "ai_articles": 16,
+      "score": 0.017,
+      "articles": 17,
+      "ai_articles": 17,
       "headlines": [
+        {
+          "headline": "Live On Fox Business, White House Senior Advisor Hassett Says Inflation Was Pretty Much Right On Expectation; GDP Is Headed Towards 4% Growth",
+          "url": "https://www.benzinga.com/news/26/10/62697938/live-fox-business-white-house-senior-advisor-hassett-says-inflation-was-pretty-much-right-expectatio",
+          "time": "2026-10-29T13:49:45Z",
+          "sentiment": 0.2,
+          "reason": "Official says GDP trending toward 4% growth; inflation in line"
+        },
         {
           "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Drop After Fed Keeps Rates Unchanged \u2014 MSFT, GOOG, TMUS in Focus (UPDATED)",
           "url": "https://www.benzinga.com/markets/equities/26/10/62684592/stock-market-today-dow-jones-sp-500-futures-trade-mixed-after-fed-keeps-rates-unchanged-msft-goog-tmus-in-focus",
@@ -34,21 +41,21 @@
           "time": "2026-10-29T12:30:10Z",
           "sentiment": 0.3,
           "reason": "Q3 GDP growth beats forecast, signaling economic strength"
-        },
-        {
-          "headline": "Tom Lee Sees 'Big Beats' Ahead, Says Kevin Warsh-Led Fed Won't Slow AI Growth Despite Inflation: 'Good News Is Good News'",
-          "url": "https://www.benzinga.com/markets/economic-data/26/10/62684176/tom-lee-sees-big-beats-ahead-says-kevin-warsh-led-fed-wont-slow-ai-growth-despite-inflation-good-news-is-good-news",
-          "time": "2026-10-29T08:51:08Z",
-          "sentiment": 0.15,
-          "reason": "Hawkish inflation signals from FOMC minutes offset AI optimism"
         }
       ]
     },
     "QQQ": {
-      "score": -0.083,
+      "score": -0.105,
       "articles": 9,
       "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Nasdaq Dips Over 400 Points; Alphabet Shares Tumble After Downbeat Q3 Results",
+          "url": "https://www.benzinga.com/markets/market-summary/26/10/62697318/nasdaq-dips-over-400-points-alphabet-shares-tumble-after-downbeat-q3-results",
+          "time": "2026-10-29T13:42:09Z",
+          "sentiment": -0.2,
+          "reason": "Nasdaq fell 400+ points, weighed by Alphabet"
+        },
         {
           "headline": "Alphabet Stock Set for Worst Day Since March 2020: Search Slowdown Overshadows Cloud Boom",
           "url": "https://www.benzinga.com/markets/earnings/26/10/62695592/alphabet-stock-worst-day-since-march-2020-search-cloud",
@@ -76,21 +83,21 @@
           "time": "2026-10-29T12:30:17Z",
           "sentiment": -0.15,
           "reason": "Hotter core inflation pressures long-duration growth stocks"
-        },
-        {
-          "headline": "GDP QoQ For Q3 3.4% Vs 3.2% Expected",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-10-29T12:30:10Z",
-          "sentiment": 0.15,
-          "reason": "Stronger growth supports broader market and tech demand"
         }
       ]
     },
     "AAPL": {
-      "score": 0.298,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.266,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Apple Stock Heads Toward All-Time High: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62699888/apple-stock-heads-toward-all-time-high-whats-going-on",
+          "time": "2026-10-29T14:15:01Z",
+          "sentiment": 0.2,
+          "reason": "Goldman reaffirmed Buy; shares rising toward all-time high"
+        },
         {
           "headline": "Apple Increases Production Targets for iPhone Duo Following Strong Demand",
           "url": "https://www.barchart.com/story/news/8528876/apples-iphone-duo-is-likely-to-deliver-growth-acceleration-on-the-back-of-strong-demand",
@@ -115,10 +122,24 @@
       ]
     },
     "MSFT": {
-      "score": 0.309,
-      "articles": 25,
-      "ai_articles": 25,
+      "score": 0.306,
+      "articles": 27,
+      "ai_articles": 27,
       "headlines": [
+        {
+          "headline": "StoneX Maintains Buy on Microsoft, Raises Price Target to $630",
+          "url": "https://www.benzinga.com/news/26/10/62700950/stonex-maintains-buy-microsoft-raises-price-target-630",
+          "time": "2026-10-29T14:30:56Z",
+          "sentiment": 0.25,
+          "reason": "Buy maintained with price target raised to $630"
+        },
+        {
+          "headline": "Guggenheim Maintains Buy on Microsoft, Raises Price Target to $595",
+          "url": "https://www.benzinga.com/news/26/10/62700169/guggenheim-maintains-buy-microsoft-raises-price-target-595",
+          "time": "2026-10-29T14:19:26Z",
+          "sentiment": 0.3,
+          "reason": "Buy maintained with price target raised to $595"
+        },
         {
           "headline": "Keybanc Maintains Overweight on Microsoft, Raises Price Target to $630",
           "url": "https://www.benzinga.com/news/26/10/62696291/keybanc-maintains-overweight-microsoft-raises-price-target-630",
@@ -139,27 +160,13 @@
           "time": "2026-10-29T13:19:47Z",
           "sentiment": 0.25,
           "reason": "Oppenheimer reiterates Outperform, $625 target"
-        },
-        {
-          "headline": "Alphabet Stock Set for Worst Day Since March 2020: Search Slowdown Overshadows Cloud Boom",
-          "url": "https://www.benzinga.com/markets/earnings/26/10/62695592/alphabet-stock-worst-day-since-march-2020-search-cloud",
-          "time": "2026-10-29T13:16:13Z",
-          "sentiment": -0.15,
-          "reason": "Sympathy selling in mega-cap tech after Alphabet miss"
-        },
-        {
-          "headline": "Stifel Maintains Buy on Microsoft, Raises Price Target to $650",
-          "url": "https://www.benzinga.com/news/26/10/62693867/stifel-maintains-buy-microsoft-raises-price-target-650",
-          "time": "2026-10-29T12:52:16Z",
-          "sentiment": 0.3,
-          "reason": "Stifel reiterates Buy and raises price target to $650"
         }
       ]
     },
     "NVDA": {
-      "score": -0.132,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.14,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "Nvidia CEO Jensen Huang Was Target of Suspected Chinese Intelligence Asset, Raising Questions Over Potential AI Chip Diversion: Report",
@@ -227,10 +234,24 @@
       ]
     },
     "GOOGL": {
-      "score": -0.329,
-      "articles": 36,
-      "ai_articles": 36,
+      "score": -0.373,
+      "articles": 38,
+      "ai_articles": 38,
       "headlines": [
+        {
+          "headline": "Truist Securities Maintains Buy on Alphabet, Lowers Price Target to $410",
+          "url": "https://www.benzinga.com/news/26/10/62700906/truist-securities-maintains-buy-alphabet-lowers-price-target-410",
+          "time": "2026-10-29T14:30:23Z",
+          "sentiment": -0.2,
+          "reason": "Buy maintained but price target cut to $410"
+        },
+        {
+          "headline": "Nasdaq Dips Over 400 Points; Alphabet Shares Tumble After Downbeat Q3 Results",
+          "url": "https://www.benzinga.com/markets/market-summary/26/10/62697318/nasdaq-dips-over-400-points-alphabet-shares-tumble-after-downbeat-q3-results",
+          "time": "2026-10-29T13:42:09Z",
+          "sentiment": -0.8,
+          "reason": "Shares plunged 13% on downbeat Q3 results"
+        },
         {
           "headline": "Alphabet Blames Even the World Cup for Google Search\u2019s Slowdown",
           "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62696198/alphabet-google-search-slowdown",
@@ -251,20 +272,6 @@
           "time": "2026-10-29T13:16:13Z",
           "sentiment": -0.9,
           "reason": "Earnings miss; stock down 11% premarket, worst day since 2020"
-        },
-        {
-          "headline": "Needham Reiterates Buy on Alphabet, Maintains $450 Price Target",
-          "url": "https://www.benzinga.com/news/26/10/62693326/needham-reiterates-buy-alphabet-maintains-450-price-target",
-          "time": "2026-10-29T12:42:39Z",
-          "sentiment": 0.15,
-          "reason": "Needham reiterates Buy with $450 target, modest positive"
-        },
-        {
-          "headline": "GOOGL, MSFT AI Capex Worries Hammer Neocloud Stocks: CRWV, NBIS, IREN, APLD Give Up Best Week in Over 2 Months",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62691867/googl-msft-q3-results-capex-crwv-nbis-iren-apld-stocks-fall",
-          "time": "2026-10-29T12:10:58Z",
-          "sentiment": -0.2,
-          "reason": "Lower-than-expected capex raises hyperscaler AI spending concerns"
         }
       ]
     },
@@ -290,23 +297,15 @@
       ]
     },
     "JPM": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Sky News' Mark Kleinman Posts On X \"Exclusive: JPMorgan Chase faces paying an additional sum in the region of \u00a3100m-\u00a3150m as a result of chancellor John Healey's decision to double the corporation tax surcharge on banks, a possible obstacle to the firm proceeding with its new London headquarters...\"",
-          "url": "https://www.benzinga.com/news/26/10/62658603/sky-news-mark-kleinman-posts-x-exclusive-jpmorgan-chase-faces-paying-additional-sum-region-100m-150m",
-          "time": "2026-10-28T14:28:01Z",
-          "sentiment": -0.2,
-          "reason": "UK bank surcharge doubling adds \u00a3100-150m cost, HQ plans at risk"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "XOM": {
-      "score": 0.088,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.101,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "Top 3 Energy Stocks You May Want To Dump In Q4",
