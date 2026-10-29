@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T17:35:22.075789+00:00",
-  "market_risk": 0.089,
+  "generated_at": "2026-10-29T18:35:22.271154+00:00",
+  "market_risk": 0.095,
   "tickers": {
     "SPY": {
-      "score": 0.027,
-      "articles": 16,
-      "ai_articles": 16,
+      "score": 0.053,
+      "articles": 13,
+      "ai_articles": 13,
       "headlines": [
         {
           "headline": "Live On Fox Business, White House Senior Advisor Hassett Says Inflation Was Pretty Much Right On Expectation; GDP Is Headed Towards 4% Growth",
@@ -45,9 +45,9 @@
       ]
     },
     "QQQ": {
-      "score": -0.152,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.144,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
         {
           "headline": "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
@@ -87,9 +87,9 @@
       ]
     },
     "AAPL": {
-      "score": 0.266,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.275,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "Apple Stock Heads Toward All-Time High: What's Going On?",
@@ -111,13 +111,6 @@
           "time": "2026-10-28T19:01:47Z",
           "sentiment": -0.2,
           "reason": "Shares slipping; earnings due next week, product news mixed"
-        },
-        {
-          "headline": "Apple Announces Redesigned MacBook Pro with Touchscreen and OLED Display",
-          "url": "https://appleosophy.com/wire/zod8kwv/",
-          "time": "2026-10-28T18:01:33Z",
-          "sentiment": 0.15,
-          "reason": "Touchscreen and OLED MacBook Pro refresh could support upgrade cycle"
         }
       ]
     },
@@ -164,9 +157,9 @@
       ]
     },
     "NVDA": {
-      "score": -0.091,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.079,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "QUICK SPARK: Alphabet Stock Eyes Worst Day in Company's History, Wipes Out $500 Billion in Value",
@@ -206,10 +199,17 @@
       ]
     },
     "AMZN": {
-      "score": -0.278,
+      "score": -0.135,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "FCC Approves Amazon Leo's Acquisition of Globalstar",
+          "url": "https://telcomagazine.com/news/fcc-clears-amazon-leos-us-11-5bn-globalstar-buyout",
+          "time": "2026-10-29T18:01:38Z",
+          "sentiment": 0.15,
+          "reason": "Regulatory approval of Globalstar deal removes an overhang; likely mostly priced in"
+        },
         {
           "headline": "Amazon Stock Dips Ahead of Q3 Earnings: What's Going On?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62709755/amazon-stock-dips-ahead-of-q3-earnings-whats-going-on",
@@ -223,21 +223,21 @@
           "time": "2026-10-29T04:51:10Z",
           "sentiment": -0.2,
           "reason": "Analyst warns AI bots could erode Amazon's shopping dominance; opinion only"
-        },
-        {
-          "headline": "Steve Eisman Says Anthropic Left Q3 Figures Out of IPO Filing on Purpose: 'Very Intentional'",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62667278/eisman-anthropic-ipo",
-          "time": "2026-10-28T17:36:38Z",
-          "sentiment": -0.2,
-          "reason": "Analyst claims Anthropic hid slowing Q3 growth; dents AI investment narrative"
         }
       ]
     },
     "GOOGL": {
-      "score": -0.467,
-      "articles": 44,
-      "ai_articles": 44,
+      "score": -0.465,
+      "articles": 43,
+      "ai_articles": 43,
       "headlines": [
+        {
+          "headline": "Alphabet's AI Spending Avalanche Sparks Fresh Fears As Analyst Warns of Profit Squeeze",
+          "url": "https://www.benzinga.com/markets/tech/26/10/62709967/alphabets-ai-spending-avalanche-sparks-fresh-fears-as-analyst-warns-of-profit-squeeze",
+          "time": "2026-10-29T17:39:14Z",
+          "sentiment": -0.3,
+          "reason": "Rising AI capex and margin pressure fuel profit-squeeze fears despite Cloud strength"
+        },
         {
           "headline": "Microsoft And Alphabet's Two Different Market Stories\u2014AI Keeps Building",
           "url": "https://www.benzinga.com/opinion/26/10/62709569/microsoft-and-alphabet-two-different-market-stories-ai-keeps-building",
@@ -265,13 +265,6 @@
           "time": "2026-10-29T16:22:00Z",
           "sentiment": -0.8,
           "reason": "Alphabet down ~11.8% on capex-heavy quarter"
-        },
-        {
-          "headline": "Alphabet Bulls Dig in After Messy Q3: 'AI Stack Keeps Us Bullish' Cantor Says",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62705724/alphabet-bulls-dig-in-after-messy-q3-ai-stack-keeps-us-bullish-cantor-says",
-          "time": "2026-10-29T16:00:26Z",
-          "sentiment": -0.6,
-          "reason": "Q3 earnings miss; price targets cut, though analysts stay bullish"
         }
       ]
     },
@@ -296,9 +289,9 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.127,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.116,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Russia Set To Extend Diesel Export Ban Until The End Of The Year; Russia Uses Quota Export System For Individual Companies To Fulfil Its U.S. Obligations",
@@ -338,10 +331,17 @@
       ]
     },
     "MU": {
-      "score": 0.3,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.271,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Why Is Micron Stock Falling on Thursday?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62710546/why-is-micron-stock-falling-on-thursday-2",
+          "time": "2026-10-29T17:52:28Z",
+          "sentiment": -0.4,
+          "reason": "Stock falling on Samsung miss and weak hyperscaler capex signals for memory demand"
+        },
         {
           "headline": "Samsung Stock Drops 6% in Seoul as Record Profit Narrowly Misses Analyst Estimates, Memory Supply Seen Tightening in 2027",
           "url": "https://www.benzinga.com/markets/earnings/26/10/62682254/samsung-profit-jumps-nearly-ninefold-misses-estimates-stock-falls",
