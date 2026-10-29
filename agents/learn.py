@@ -63,18 +63,24 @@ def backtest_samples(series: dict[str, dict], lib: dict, step: int = 5, k: int =
     return out
 
 
+def significant_ic(st: dict) -> float:
+    """Only count a factor's edge if it's bigger than luck would produce:
+    roughly two standard errors (2/sqrt(n)) above zero."""
+    n = st.get("n", 0)
+    ic = st.get("ic") or 0.0
+    return ic if n >= 30 and ic > 2 / np.sqrt(n) else 0.0
+
+
 def weights_from(stats: dict, prior: dict) -> dict:
-    """Half prior belief, half evidence. A factor with no predictive power
-    (correlation <= 0) keeps only half its starting weight."""
-    learned = {f: max(stats[f]["ic"], 0.0) if f in stats else None for f in prior}
-    have = {f: v for f, v in learned.items() if v is not None}
+    """Half prior belief, half evidence. Factors without a real, positive
+    edge keep only half their starting weight; if no factor shows a real
+    edge, the starting weights are kept unchanged."""
+    have = {f: significant_ic(stats[f]) for f in prior if f in stats}
     tot = sum(have.values())
-    w = {}
-    for f, p in prior.items():
-        if f in have:
-            w[f] = 0.5 * p + (0.5 * sum(prior[g] for g in have) * have[f] / tot if tot > 0 else 0.0)
-        else:
-            w[f] = p
+    if tot <= 0:
+        return {f: round(p / sum(prior.values()), 4) for f, p in prior.items()}
+    pool = 0.5 * sum(prior[g] for g in have)
+    w = {f: (0.5 * p + pool * have[f] / tot) if f in have else p for f, p in prior.items()}
     s = sum(w.values())
     return {f: round(v / s, 4) for f, v in w.items()}
 

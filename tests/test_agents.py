@@ -171,7 +171,8 @@ def test_learning_on_random_walk_finds_no_edge():
 
 
 def test_weights_reward_predictive_factors():
-    stats = {"trend": {"ic": 0.10}, "levels": {"ic": -0.05}, "flow": {"ic": 0.0}, "pattern": {"ic": 0.02}}
+    stats = {"trend": {"ic": 0.10, "n": 1000}, "levels": {"ic": -0.05, "n": 1000}, "flow": {"ic": 0.0, "n": 1000},
+             "pattern": {"ic": 0.02, "n": 1000}}
     w = learn.weights_from(stats, {"news": 0.3, "trend": 0.2, "levels": 0.15, "flow": 0.15, "pattern": 0.2})
     assert w["trend"] > 0.2 > w["levels"] and abs(sum(w.values()) - 1) < 1e-3
 
@@ -198,3 +199,10 @@ def test_neutral_news_does_not_dilute():
 def test_keyword_fallback():
     r = keyword_score({"id": 1, "headline": "Apple beats estimates, shares surge", "symbols": ["AAPL"]}, {"AAPL"})
     assert 0 < r["impacts"][0]["sentiment"] < 1
+
+
+def test_noise_level_edges_do_not_move_weights():
+    prior = {"news": 0.3, "trend": 0.2, "levels": 0.15, "flow": 0.15, "pattern": 0.2}
+    stats = {"trend": {"ic": -0.09, "n": 1250}, "levels": {"ic": -0.02, "n": 1250},
+             "flow": {"ic": -0.07, "n": 1250}, "pattern": {"ic": 0.007, "n": 1250}}
+    assert learn.weights_from(stats, prior) == prior   # tiny pattern "edge" is luck; keep starting weights
