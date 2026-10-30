@@ -136,40 +136,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62681813",
-    "created_at": "2026-10-29T01:04:09Z",
-    "headline": "Elon Musk vs. Tesla? His Midterm Money Could Work Against His Own Cars",
-    "url": "https://www.benzinga.com/news/politics/26/10/62681813/elon-musk-vs-tesla-his-midterm-money-could-work-against-his-own-cars",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.1,
-        "confidence": 0.25,
-        "reason": "Musk's political spending may hurt brand, though EV sector could benefit"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107027100",
-    "created_at": "2026-10-29T00:01:28Z",
-    "headline": "Tesla Full Self-Driving V14 Software Update",
-    "url": "https://cleantechnica.com/2026/10/28/teslas-full-self-driving-has-now-dramatically-reduced-the-number-of-reasons-to-intervene-or-complain/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Release of FSD v14 enhances autonomous driving capabilities"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "107208317",
     "created_at": "2026-10-29T13:32:12Z",
     "headline": "Apple Increases Production Targets for iPhone Duo Following Strong Demand",
@@ -3119,6 +3085,57 @@
         "sentiment": -0.5,
         "confidence": 0.6,
         "reason": "Q3 EPS and sales both missed consensus estimates"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "108268664",
+    "created_at": "2026-10-30T00:01:42Z",
+    "headline": "AMD Expands AI Infrastructure Collaboration with Oracle Cloud",
+    "url": "https://www.tradingview.com/news/gurufocus:6faa2c101094b:0-amd-stocks-decline-with-oracle-rollout-details-still-to-come/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.35,
+        "confidence": 0.5,
+        "reason": "Expanded Oracle Cloud AI partnership could lift data center demand for EPYC"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "108268663",
+    "created_at": "2026-10-30T00:01:40Z",
+    "headline": "Amazon Surpasses One Million Robots in Fulfillment Network",
+    "url": "https://www.pymnts.com/earnings/2026/amazon-puts-a-million-robots-behind-its-ai-ambitions/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Robotics scale-up may improve fulfillment efficiency; largely incremental news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "108268662",
+    "created_at": "2026-10-30T00:01:39Z",
+    "headline": "Micron Stock Declines Following Samsung Earnings Report",
+    "url": "https://www.moomoo.com/hans/news/post/1002835539/micron-dips-as-samsung-earnings-show-the-high-bar-for",
+    "source": "fiscal.ai",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Premarket drop on Samsung earnings miss may signal weaker memory sector sentiment"
       }
     ],
     "scorer": "claude"

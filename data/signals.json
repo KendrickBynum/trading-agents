@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T23:16:48.365861+00:00",
+  "generated_at": "2026-10-30T01:08:34.978116+00:00",
   "market_risk": 0.099,
   "tickers": {
     "SPY": {
@@ -199,10 +199,17 @@
       ]
     },
     "AMZN": {
-      "score": -0.043,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.028,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "Amazon Surpasses One Million Robots in Fulfillment Network",
+          "url": "https://www.pymnts.com/earnings/2026/amazon-puts-a-million-robots-behind-its-ai-ambitions/",
+          "time": "2026-10-30T00:01:40Z",
+          "sentiment": 0.15,
+          "reason": "Robotics scale-up may improve fulfillment efficiency; largely incremental news"
+        },
         {
           "headline": "Amazon CEO Andy Jassy Says \"We Have Very Good Visibility Into Compute Capacity Demand In 2027 And 2028, And Some Of 2029 Too\"",
           "url": "https://www.benzinga.com/news/26/10/62723628/amazon-ceo-andy-jassy-says-we-have-very-good-visibility-compute-capacity-demand-2027-and-2028-and-so",
@@ -230,13 +237,6 @@
           "time": "2026-10-29T20:32:28Z",
           "sentiment": -0.4,
           "reason": "Trailing free cash flow turns to $42.4B outflow on AI capex"
-        },
-        {
-          "headline": "Amazon Q3 Operating Income Rises To Record $28.1B, AWS Sales Up 39% To $46.0B; EPS Decline Reflects $9.5B Anthropic Gain In Year-Ago Quarter",
-          "url": "https://www.benzinga.com/quote/AMZN",
-          "time": "2026-10-29T20:32:08Z",
-          "sentiment": 0.3,
-          "reason": "Record operating income and AWS up 39%; EPS decline reflects year-ago gain"
         }
       ]
     },
@@ -345,10 +345,17 @@
       ]
     },
     "MU": {
-      "score": -0.271,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.286,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Micron Stock Declines Following Samsung Earnings Report",
+          "url": "https://www.moomoo.com/hans/news/post/1002835539/micron-dips-as-samsung-earnings-show-the-high-bar-for",
+          "time": "2026-10-30T00:01:39Z",
+          "sentiment": -0.3,
+          "reason": "Premarket drop on Samsung earnings miss may signal weaker memory sector sentiment"
+        },
         {
           "headline": "Why Is Micron Stock Falling on Thursday?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62710546/why-is-micron-stock-falling-on-thursday-2",
@@ -372,9 +379,9 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.252,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.241,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Tesla, Nutrien and an Industrial Stock on CNBC\u2019s \u2018Final Trades\u2019",
@@ -389,13 +396,6 @@
           "time": "2026-10-29T10:31:45Z",
           "sentiment": 0.15,
           "reason": "Court rejects FSD refund suit; reduces legal overhang modestly"
-        },
-        {
-          "headline": "Tesla Full Self-Driving V14 Software Update",
-          "url": "https://cleantechnica.com/2026/10/28/teslas-full-self-driving-has-now-dramatically-reduced-the-number-of-reasons-to-intervene-or-complain/",
-          "time": "2026-10-29T00:01:28Z",
-          "sentiment": 0.3,
-          "reason": "Release of FSD v14 enhances autonomous driving capabilities"
         }
       ]
     },
@@ -406,10 +406,18 @@
       "headlines": []
     },
     "AMD": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.35,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "AMD Expands AI Infrastructure Collaboration with Oracle Cloud",
+          "url": "https://www.tradingview.com/news/gurufocus:6faa2c101094b:0-amd-stocks-decline-with-oracle-rollout-details-still-to-come/",
+          "time": "2026-10-30T00:01:42Z",
+          "sentiment": 0.35,
+          "reason": "Expanded Oracle Cloud AI partnership could lift data center demand for EPYC"
+        }
+      ]
     }
   },
   "scorer": "claude",
