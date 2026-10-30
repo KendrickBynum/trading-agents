@@ -1,26 +1,26 @@
 {
-  "time": "2026-10-30T13:36:33.107845+00:00",
+  "time": "2026-10-30T14:35:49.595507+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
-      "time": "2026-10-30T13:36:33.107845+00:00",
-      "symbol": "AAPL",
+      "time": "2026-10-30T14:35:49.595507+00:00",
+      "symbol": "QQQ",
       "side": "sell",
-      "reason": "negative news (-0.48)",
-      "score": -0.028,
+      "reason": "negative news (-0.35)",
+      "score": -0.235,
       "factors": {
-        "trend": 0.702,
-        "levels": 0.873,
-        "flow": -0.24,
-        "pattern": 0.116,
-        "news": -0.954
+        "trend": -0.417,
+        "levels": -0.215,
+        "flow": -0.079,
+        "pattern": 0.521,
+        "news": -0.706
       },
-      "news_score": -0.477,
-      "notional": 10021.53,
-      "realized_pl": 39.03,
+      "news_score": -0.353,
+      "notional": 9036.69,
+      "realized_pl": -373.68,
       "status": "submitted",
-      "order_id": "ce97efa5-6c2a-4a5c-8132-3ae6ba7dd59f",
+      "order_id": "95137a65-d91c-47f7-95c2-65d1e7b3610a",
       "book": "stock"
     }
   ],

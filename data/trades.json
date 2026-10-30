@@ -162,5 +162,38 @@
     "status": "submitted",
     "order_id": "ce97efa5-6c2a-4a5c-8132-3ae6ba7dd59f",
     "book": "stock"
+  },
+  {
+    "time": "2026-10-30T14:35:49.595507+00:00",
+    "symbol": "QQQ",
+    "side": "sell",
+    "reason": "negative news (-0.35)",
+    "score": -0.235,
+    "factors": {
+      "trend": -0.417,
+      "levels": -0.215,
+      "flow": -0.079,
+      "pattern": 0.521,
+      "news": -0.706
+    },
+    "news_score": -0.353,
+    "notional": 9036.69,
+    "realized_pl": -373.68,
+    "status": "submitted",
+    "order_id": "95137a65-d91c-47f7-95c2-65d1e7b3610a",
+    "book": "stock"
+  },
+  {
+    "time": "2026-10-30T13:45:17.239778Z",
+    "book": "options",
+    "symbol": "XOM261120C00182500",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
+    "qty": 1.0,
+    "price": 7.8,
+    "notional": 780.0,
+    "reason": "CALL XOM $182.5 exp 2026-11-20 (21d, delta +0.67) on score +0.48; max loss $785",
+    "underlying": "XOM"
   }
 ]

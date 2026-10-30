@@ -1,28 +1,41 @@
 {
-  "time": "2026-10-30T13:36:37.596781+00:00",
+  "time": "2026-10-30T14:35:53.387115+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
+      "time": "2026-10-30T13:45:17.239778Z",
+      "book": "options",
       "symbol": "XOM261120C00182500",
       "side": "buy",
-      "qty": 1,
-      "limit": 7.85,
-      "underlying": "XOM",
-      "notional": 785.0,
-      "score": 0.481,
-      "factors": {
-        "trend": 0.967,
-        "levels": 0.0,
-        "flow": 0.327,
-        "pattern": 0.108,
-        "news": 0.722
-      },
-      "reason": "CALL XOM $182.5 exp 2026-11-20 (21d, delta +0.67) on score +0.48; max loss $785",
-      "status": "order placed",
+      "status": "filled",
       "order_id": "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
+      "qty": 1.0,
+      "price": 7.8,
+      "notional": 780.0,
+      "reason": "CALL XOM $182.5 exp 2026-11-20 (21d, delta +0.67) on score +0.48; max loss $785",
+      "underlying": "XOM"
+    },
+    {
+      "symbol": "GOOGL261127P00285000",
+      "side": "buy",
+      "qty": 1,
+      "limit": 11.25,
+      "underlying": "GOOGL",
+      "notional": 1125.0,
+      "score": -0.324,
+      "factors": {
+        "trend": -0.668,
+        "levels": 0.0,
+        "flow": -0.656,
+        "pattern": 0.933,
+        "news": -0.928
+      },
+      "reason": "PUT GOOGL $285 exp 2026-11-27 (28d, delta -0.56) on score -0.32; max loss $1,125",
+      "status": "order placed",
+      "order_id": "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
       "book": "options",
-      "time": "2026-10-30T13:36:37.596781+00:00"
+      "time": "2026-10-30T14:35:53.387115+00:00"
     }
   ],
   "options_level": 3,

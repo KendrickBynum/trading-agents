@@ -1,259 +1,5 @@
 [
   {
-    "id": "62701119",
-    "created_at": "2026-10-29T14:34:03Z",
-    "headline": "Steve Eisman Says AI Giants Have 'No Moats.' Morningstar's $57 Billion Math Says Otherwise",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62701119/eisman-ai-moats",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Opinion piece on AI moats; Morningstar cost-advantage view mildly supportive"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Opinion piece on AI moats; Morningstar cost-advantage view mildly supportive"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "General AI moat debate; no direct company-specific catalyst"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "General AI moat debate; no direct company-specific catalyst"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62700950",
-    "created_at": "2026-10-29T14:30:56Z",
-    "headline": "StoneX Maintains Buy on Microsoft, Raises Price Target to $630",
-    "url": "https://www.benzinga.com/news/26/10/62700950/stonex-maintains-buy-microsoft-raises-price-target-630",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.25,
-        "confidence": 0.3,
-        "reason": "Buy maintained with price target raised to $630"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62700926",
-    "created_at": "2026-10-29T14:30:42Z",
-    "headline": "USA Natural Gas Storage 80B Vs 75B Est.",
-    "url": "https://www.benzinga.com/quote/UNG",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Larger-than-expected gas storage build weighs on gas prices"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62700906",
-    "created_at": "2026-10-29T14:30:23Z",
-    "headline": "Truist Securities Maintains Buy on Alphabet, Lowers Price Target to $410",
-    "url": "https://www.benzinga.com/news/26/10/62700906/truist-securities-maintains-buy-alphabet-lowers-price-target-410",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Buy maintained but price target cut to $410"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62700505",
-    "created_at": "2026-10-29T14:24:11Z",
-    "headline": "Guggenheim Reiterates Buy on Alphabet, Maintains $450 Price Target",
-    "url": "https://www.benzinga.com/news/26/10/62700505/guggenheim-reiterates-buy-alphabet-maintains-450-price-target",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Buy reiterated, target unchanged at $450"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62700169",
-    "created_at": "2026-10-29T14:19:26Z",
-    "headline": "Guggenheim Maintains Buy on Microsoft, Raises Price Target to $595",
-    "url": "https://www.benzinga.com/news/26/10/62700169/guggenheim-maintains-buy-microsoft-raises-price-target-595",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Buy maintained with price target raised to $595"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62699888",
-    "created_at": "2026-10-29T14:15:01Z",
-    "headline": "Apple Stock Heads Toward All-Time High: What's Going On?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62699888/apple-stock-heads-toward-all-time-high-whats-going-on",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Goldman reaffirmed Buy; shares rising toward all-time high"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62698560",
-    "created_at": "2026-10-29T13:58:44Z",
-    "headline": "Intel Earnings Prediction Market Preview: What Will Lip-Bu Tan Say?",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62698560/intel-earnings-preview",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Intel earnings preview; indirect relevance only"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Intel earnings preview; indirect relevance only"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62698136",
-    "created_at": "2026-10-29T13:52:54Z",
-    "headline": "Watching Microsoft; Hearing Investor Business Daily SwingTrader Buys Stock",
-    "url": "https://www.benzinga.com/quote/MSFT",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62698129",
-    "created_at": "2026-10-29T13:52:43Z",
-    "headline": "Mark Cuban Says Gen Z Texans Have \u2018No Idea\u2019 Who James Talarico or Ken Paxton Are as AI-Powered Social Media Algorithms Shape How Americans Think",
-    "url": "https://www.benzinga.com/news/social-media/26/10/62698129/mark-cuban-says-gen-z-texans-have-no-idea-who-james-talarico-or-ken-paxton-are-as-ai-powered-social-media-algorithms-shape-how-americans-think",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62697938",
-    "created_at": "2026-10-29T13:49:45Z",
-    "headline": "Live On Fox Business, White House Senior Advisor Hassett Says Inflation Was Pretty Much Right On Expectation; GDP Is Headed Towards 4% Growth",
-    "url": "https://www.benzinga.com/news/26/10/62697938/live-fox-business-white-house-senior-advisor-hassett-says-inflation-was-pretty-much-right-expectatio",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Official says GDP trending toward 4% growth; inflation in line"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62697668",
-    "created_at": "2026-10-29T13:46:29Z",
-    "headline": "'Trump Administration Promised Tariff Relief in Talks to Secure U.S. Audi Factory' - WSJ Exclusive",
-    "url": "https://www.benzinga.com/government/26/10/62697668/trump-administration-promised-tariff-relief-talks-secure-u-s-audi-factory-wsj-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Reported tariff relief talks; modestly positive for trade outlook"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62697318",
-    "created_at": "2026-10-29T13:42:09Z",
-    "headline": "Nasdaq Dips Over 400 Points; Alphabet Shares Tumble After Downbeat Q3 Results",
-    "url": "https://www.benzinga.com/markets/market-summary/26/10/62697318/nasdaq-dips-over-400-points-alphabet-shares-tumble-after-downbeat-q3-results",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.8,
-        "confidence": 0.9,
-        "reason": "Shares plunged 13% on downbeat Q3 results"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.2,
-        "confidence": 0.5,
-        "reason": "Nasdaq fell 400+ points, weighed by Alphabet"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62696859",
-    "created_at": "2026-10-29T13:37:52Z",
-    "headline": "Piper Sandler Maintains Overweight on Alphabet, Lowers Price Target to $345",
-    "url": "https://www.benzinga.com/news/26/10/62696859/piper-sandler-maintains-overweight-alphabet-lowers-price-target-345",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Overweight kept but price target cut; largely routine"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62704663",
     "created_at": "2026-10-29T15:34:35Z",
     "headline": "FCC Adopts Reciprocity Rules Requiring Electronic Device Testing In U.S. Or Reciprocal Countries By December 1, 2028, Aiming To Reshore Testing Industry",
@@ -1750,167 +1496,6 @@
     "scorer": "claude"
   },
   {
-    "id": "108495089",
-    "created_at": "2026-10-30T13:32:07Z",
-    "headline": "ExxonMobil Increases Stake in Mozambique LNG Project to 50%",
-    "url": "https://www.marketscreener.com/news/exxon-mobil-raises-stake-in-mozambique-lng-project-to-50-ce785fdbdd8af123",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62737976",
-    "created_at": "2026-10-30T13:22:44Z",
-    "headline": "StoneX Maintains Buy on Amazon.com, Lowers Price Target to $380",
-    "url": "https://www.benzinga.com/news/26/10/62737976/stonex-maintains-buy-amazon-com-lowers-price-target-380",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62737913",
-    "created_at": "2026-10-30T13:18:59Z",
-    "headline": "ExxonMobil Cashes In on Refining Boom, Raises Dividend",
-    "url": "https://www.benzinga.com/markets/earnings/26/10/62737913/exxonmobil-cashes-in-on-refining-boom-raises-dividend",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.33,
-        "confidence": 0.3,
-        "reason": "keyword match"
-      }
-    ],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62737891",
-    "created_at": "2026-10-30T13:18:43Z",
-    "headline": "Guggenheim Reiterates Buy on Amazon.com, Maintains $320 Price Target",
-    "url": "https://www.benzinga.com/news/26/10/62737891/guggenheim-reiterates-buy-amazon-com-maintains-320-price-target",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62737837",
-    "created_at": "2026-10-30T13:16:53Z",
-    "headline": "Trump Claims Inflation Is 'Way Down' Ahead of Midterms, But Fed Chair Kevin Warsh Warns Prices Remain 'Too High' After Holding Rates Steady",
-    "url": "https://www.benzinga.com/markets/economic-data/26/10/62737837/trump-claims-inflation-is-way-down-ahead-of-midterms-but-fed-chair-kevin-warsh-warns-prices-remain-too-high-after-holding-rates-steady",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.33,
-        "confidence": 0.3,
-        "reason": "keyword match"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.33,
-        "confidence": 0.3,
-        "reason": "keyword match"
-      }
-    ],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62737659",
-    "created_at": "2026-10-30T13:13:07Z",
-    "headline": "Dell, HP Stocks Tumble As Intel Flags Deepening PC Slump, Memory Shortages",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62737659/dell-hp-stocks-tumble-as-intel-flags-deepening-pc-slump-memory-shortages",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.6,
-        "confidence": 0.3,
-        "reason": "keyword match"
-      }
-    ],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62736470",
-    "created_at": "2026-10-30T12:48:37Z",
-    "headline": "Citizens Maintains Market Outperform on Amazon.com, Lowers Price Target to $275",
-    "url": "https://www.benzinga.com/news/26/10/62736470/citizens-maintains-market-outperform-amazon-com-lowers-price-target-275",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.33,
-        "confidence": 0.3,
-        "reason": "keyword match"
-      }
-    ],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62729872",
-    "created_at": "2026-10-30T12:43:13Z",
-    "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed as AMZN, INTC Slide After Q3 Earnings\u2014DELL, LLY, AZN in Focus (UPDATED)",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62729872/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-amzn-intc-slide-after-q3-earnings-dell-lly-azn-in-focus",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62735906",
-    "created_at": "2026-10-30T12:35:36Z",
-    "headline": "Amazon\u2019s Earnings Miss Almost Exactly Equals Its New Debt Bill",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62735906/amazon-earnings-miss-almost-exactly-equals-its-new-debt-bill",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.33,
-        "confidence": 0.3,
-        "reason": "keyword match"
-      }
-    ],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62735387",
-    "created_at": "2026-10-30T12:30:11Z",
-    "headline": "USA Employment Cost Index (QoQ) For Q3 0.8% Vs 0.8% Est.",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62735418",
-    "created_at": "2026-10-30T12:30:27Z",
-    "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [],
-    "scorer": "keywords"
-  },
-  {
-    "id": "62735265",
-    "created_at": "2026-10-30T12:23:53Z",
-    "headline": "Intel Stock Eyes One of Its Worst Days Since 1974: 'Houston, We Have a Problem,' Analyst Says",
-    "url": "https://www.benzinga.com/markets/earnings/26/10/62735265/intel-stock-worst-day-since-1974-cantor-houston-we-have-a-problem",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "keywords"
-  },
-  {
     "id": "62735230",
     "created_at": "2026-10-30T12:22:57Z",
     "headline": "Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock",
@@ -2866,6 +2451,558 @@
     "source": "benzinga",
     "market_risk": 0.2,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62742459",
+    "created_at": "2026-10-30T14:29:11Z",
+    "headline": "QUICK SPARK: Intel Stock Drops 28%, Eyes Worst Day Since July 1974",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/10/62742459/intel-stock-worst-day-since-1974-bank-of-america-downgrade",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.15,
+        "confidence": 0.25,
+        "reason": "Intel's 28% crash signals semiconductor sector weakness and sentiment pressure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62742066",
+    "created_at": "2026-10-30T14:22:57Z",
+    "headline": "ExxonMobil Says It Is Not In A Rush To Commit To New Investments In Venezuela And Expects The Process To Take Time",
+    "url": "https://www.benzinga.com/news/26/10/62742066/exxonmobil-says-it-not-rush-commit-new-investments-venezuela-and-expects-process-take-time",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62741692",
+    "created_at": "2026-10-30T14:16:34Z",
+    "headline": "ExxonMobil CEO Says Co. Expects Global Refining Capacity Could Begin To Recover Next Year But May Take Longer",
+    "url": "https://www.benzinga.com/news/26/10/62741692/exxonmobil-ceo-says-co-expects-global-refining-capacity-could-begin-recover-next-year-may-take-longe",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Refining capacity recovery expected, though timing uncertain"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62741531",
+    "created_at": "2026-10-30T14:14:07Z",
+    "headline": "'Apple Acquires Ascend.io' - MacRumors",
+    "url": "https://www.benzinga.com/m/26/10/62741531/apple-acquires-ascend-io-macrumors",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Small acquisition of Ascend.io; limited financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62740971",
+    "created_at": "2026-10-30T14:05:16Z",
+    "headline": "Google Stock Plunges 12% on AI Fears, but Joseph Carlson Isn't Selling, Says Shares Look Cheap",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62740971/google-stock-selloff",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "12% plunge on AI fears may be overdone; some rebound possible"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "AI-fear selloff in megacap tech may spill over to Microsoft"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62740933",
+    "created_at": "2026-10-30T14:04:39Z",
+    "headline": "Bears Load Up on Ondas, Dutch Bros and 8 More Stocks \u2014 Is a Squeeze Brewing?",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62740933/bears-load-up-on-ondas-dutch-bros-and-8-more-stocks",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62740408",
+    "created_at": "2026-10-30T13:59:58Z",
+    "headline": "Tech Bonds Are 'Diamonds in the Rough': Bank of America's Hartnett Says",
+    "url": "https://www.benzinga.com/markets/bonds/26/10/62740408/tech-bonds-diamonds-in-the-rough-hartnett-bank-of-america",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "Broad hyperscaler buyback cuts and stock sales weigh on megacaps"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Hyperscaler stock sales and buyback cuts pressure shares"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Hyperscaler stock sales and buyback cuts pressure shares"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Hyperscaler stock sales and buyback cuts pressure shares"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Hyperscaler stock sales and buyback cuts pressure shares"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.15,
+        "confidence": 0.25,
+        "reason": "AI hyperscaler funding strain could slow chip demand outlook"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62740294",
+    "created_at": "2026-10-30T13:58:10Z",
+    "headline": "Will U.S. Midterms Impact Crypto? Grayscale Says Election Outcome Matters Only 'At The Margins'",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62740294/will-u-s-midterms-impact-crypto-grayscale-says-election-outcome-matters-only-at-the-margins",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62740253",
+    "created_at": "2026-10-30T13:57:29Z",
+    "headline": "ExxonMobil CEO Says Company Intends To Grow Natural Gas Portfolio, Look For More Opportuntiies",
+    "url": "https://www.benzinga.com/news/26/10/62740253/exxonmobil-ceo-says-company-intends-grow-natural-gas-portfolio-look-more-opportuntiies",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Natural gas portfolio growth plans are a modest long-term positive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62739676",
+    "created_at": "2026-10-30T13:48:53Z",
+    "headline": "California GOP Candidate Steve Hilton Slams Mark Zuckerberg for $1 Million Donation to Democrat Xavier Becerra: \u2018Protection Money\u2019",
+    "url": "https://www.benzinga.com/news/politics/26/10/62739676/california-gop-candidate-steve-hilton-slams-mark-zuckerberg-for-1-million-donation-to-democrat-xavier-becerra-protection-money",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "Political donation controversy is reputational, with little near-term impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62739649",
+    "created_at": "2026-10-30T13:48:36Z",
+    "headline": "Fed's Barkin Says Direction Of Travel Is Straightforward For The Fed, The Question Is Pace; A Gradual Approach Is A Good Way To Go Right Now; A Lot Of Cost Pressures Are Hitting American Businesses; AI Investment Surge Has Pressured Supply Chains, And That Is Inflationary; AI Investment Is Leading To Demand Side Inflation, Which Is The Kind Of Thing The Fed Can Lean Against; Business Owners Say Demand Remains SOLID, With Only Weakness Among Non-profits And In The Housing Sector",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62739649/fed-s-barkin-says-direction-travel-straightforward-fed-question-pace-gradual-approach-good-way-go-ri",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Fed sees AI-driven inflation pressure, favoring gradual approach"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62739565",
+    "created_at": "2026-10-30T13:47:30Z",
+    "headline": "USA Chicago PMI For October\u00a055.3 Vs 55.8 Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Chicago PMI slightly missed estimates, a minor softening signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62739383",
+    "created_at": "2026-10-30T13:45:07Z",
+    "headline": "Amazon Stock Could Have Nearly 50% Upside, JPMorgan Says, as AWS Eyes a $1 Trillion Future",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62739383/amazon-stock-jpmorgan-upside",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.5,
+        "confidence": 0.5,
+        "reason": "JPMorgan sees ~50% upside; AWS growth outlook bullish"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62738839",
+    "created_at": "2026-10-30T13:39:31Z",
+    "headline": "Nasdaq Down Over 600 Points; Amazon Shares Fall Following Weak Q3 Results",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62738839/nasdaq-down-over-600-points-amazon-shares-fall-following-weak-q3-results",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.7,
+        "confidence": 0.8,
+        "reason": "Q3 miss drove shares lower"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Nasdaq fell 2.36% on Amazon-led selloff"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Broad market weakness on Nasdaq decline"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62738741",
+    "created_at": "2026-10-30T13:37:48Z",
+    "headline": "Live On CNBC, ExxonMobil CEO Says Co. Plans Over $100B Capital Expenses Through 2030; Big Part Of Our Strategy Is To Buyback Stock And Provide Dividend; ~10% Financing Goes To Refining; We Are Producing Record Volumes Of Diesel In North America",
+    "url": "https://www.benzinga.com/news/26/10/62738741/live-cnbc-exxonmobil-ceo-says-co-plans-over-100b-capital-expenses-through-2030-big-part-our-strategy",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Buybacks and dividend plans support shareholder returns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "108495089",
+    "created_at": "2026-10-30T13:32:07Z",
+    "headline": "ExxonMobil Increases Stake in Mozambique LNG Project to 50%",
+    "url": "https://www.marketscreener.com/news/exxon-mobil-raises-stake-in-mozambique-lng-project-to-50-ce785fdbdd8af123",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Larger stake in Mozambique LNG adds long-term production"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62737976",
+    "created_at": "2026-10-30T13:22:44Z",
+    "headline": "StoneX Maintains Buy on Amazon.com, Lowers Price Target to $380",
+    "url": "https://www.benzinga.com/news/26/10/62737976/stonex-maintains-buy-amazon-com-lowers-price-target-380",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Price target cut despite maintained Buy rating"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62737913",
+    "created_at": "2026-10-30T13:18:59Z",
+    "headline": "ExxonMobil Cashes In on Refining Boom, Raises Dividend",
+    "url": "https://www.benzinga.com/markets/earnings/26/10/62737913/exxonmobil-cashes-in-on-refining-boom-raises-dividend",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Q3 beat, dividend hike, and 52-week high on refining"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62737891",
+    "created_at": "2026-10-30T13:18:43Z",
+    "headline": "Guggenheim Reiterates Buy on Amazon.com, Maintains $320 Price Target",
+    "url": "https://www.benzinga.com/news/26/10/62737891/guggenheim-reiterates-buy-amazon-com-maintains-320-price-target",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Buy reiterated with unchanged price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62737837",
+    "created_at": "2026-10-30T13:16:53Z",
+    "headline": "Trump Claims Inflation Is 'Way Down' Ahead of Midterms, But Fed Chair Kevin Warsh Warns Prices Remain 'Too High' After Holding Rates Steady",
+    "url": "https://www.benzinga.com/markets/economic-data/26/10/62737837/trump-claims-inflation-is-way-down-ahead-of-midterms-but-fed-chair-kevin-warsh-warns-prices-remain-too-high-after-holding-rates-steady",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Fed signals sticky inflation and no near-term rate cuts"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Fed hawkish hold keeps rate-cut hopes subdued"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62737659",
+    "created_at": "2026-10-30T13:13:07Z",
+    "headline": "Dell, HP Stocks Tumble As Intel Flags Deepening PC Slump, Memory Shortages",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62737659/dell-hp-stocks-tumble-as-intel-flags-deepening-pc-slump-memory-shortages",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Intel warns of PC demand slump and memory shortages"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": 0.4,
+        "confidence": 0.4,
+        "reason": "Memory shortages may support DRAM pricing"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62736470",
+    "created_at": "2026-10-30T12:48:37Z",
+    "headline": "Citizens Maintains Market Outperform on Amazon.com, Lowers Price Target to $275",
+    "url": "https://www.benzinga.com/news/26/10/62736470/citizens-maintains-market-outperform-amazon-com-lowers-price-target-275",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Outperform kept but price target lowered to $275"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62729872",
+    "created_at": "2026-10-30T12:43:13Z",
+    "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed as AMZN, INTC Slide After Q3 Earnings\u2014DELL, LLY, AZN in Focus (UPDATED)",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62729872/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-amzn-intc-slide-after-q3-earnings-dell-lly-azn-in-focus",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Shares slide after Q3 earnings"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Mixed futures with Amazon weighing on tech"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Mixed index futures, modest drag from Amazon"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62735906",
+    "created_at": "2026-10-30T12:35:36Z",
+    "headline": "Amazon\u2019s Earnings Miss Almost Exactly Equals Its New Debt Bill",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62735906/amazon-earnings-miss-almost-exactly-equals-its-new-debt-bill",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "Higher AI borrowing costs and doubled debt cloud 2027 outlook"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62735387",
+    "created_at": "2026-10-30T12:30:11Z",
+    "headline": "USA Employment Cost Index (QoQ) For Q3 0.8% Vs 0.8% Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Employment cost index in line with estimates; no surprise"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62735418",
+    "created_at": "2026-10-30T12:30:27Z",
+    "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.6,
+        "confidence": 0.6,
+        "reason": "Large selloff on AI spending fears; momentum likely to persist short-term"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Big Tech concentration risk weighs on Nasdaq-100 ETF"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Hyperscaler AI capex fears spill over to peers"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Hyperscaler AI capex fears spill over to peers"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Hyperscaler AI capex fears spill over to peers"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "AI spending doubts could hit demand expectations for chips"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Big Tech weakness weighs on broad index"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62735265",
+    "created_at": "2026-10-30T12:23:53Z",
+    "headline": "Intel Stock Eyes One of Its Worst Days Since 1974: 'Houston, We Have a Problem,' Analyst Says",
+    "url": "https://www.benzinga.com/markets/earnings/26/10/62735265/intel-stock-worst-day-since-1974-cantor-houston-we-have-a-problem",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Sector sentiment hit; shared wafer and substrate shortage risks"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": 0.3,
+        "confidence": 0.35,
+        "reason": "Cited memory shortages may support pricing for memory makers"
+      }
+    ],
     "scorer": "claude"
   }
 ]

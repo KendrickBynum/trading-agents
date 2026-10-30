@@ -1,18 +1,32 @@
 {
-  "generated_at": "2026-10-30T13:35:24.366146+00:00",
-  "market_risk": 0.134,
+  "generated_at": "2026-10-30T14:35:18.072812+00:00",
+  "market_risk": 0.146,
   "tickers": {
     "SPY": {
-      "score": -0.194,
-      "articles": 7,
-      "ai_articles": 6,
+      "score": -0.229,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Nasdaq Down Over 600 Points; Amazon Shares Fall Following Weak Q3 Results",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62738839/nasdaq-down-over-600-points-amazon-shares-fall-following-weak-q3-results",
+          "time": "2026-10-30T13:39:31Z",
+          "sentiment": -0.4,
+          "reason": "Broad market weakness on Nasdaq decline"
+        },
         {
           "headline": "Trump Claims Inflation Is 'Way Down' Ahead of Midterms, But Fed Chair Kevin Warsh Warns Prices Remain 'Too High' After Holding Rates Steady",
           "url": "https://www.benzinga.com/markets/economic-data/26/10/62737837/trump-claims-inflation-is-way-down-ahead-of-midterms-but-fed-chair-kevin-warsh-warns-prices-remain-too-high-after-holding-rates-steady",
           "time": "2026-10-30T13:16:53Z",
-          "sentiment": -0.33,
-          "reason": "keyword match"
+          "sentiment": -0.2,
+          "reason": "Fed hawkish hold keeps rate-cut hopes subdued"
+        },
+        {
+          "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk",
+          "time": "2026-10-30T12:30:27Z",
+          "sentiment": -0.2,
+          "reason": "Big Tech weakness weighs on broad index"
         },
         {
           "headline": "Pinterest Posts Downbeat Q3 Results, Joins Intel, Roblox, Twilio And Other Big Stocks Moving Lower In Friday\u2019s Pre-Market Session",
@@ -27,34 +41,34 @@
           "time": "2026-10-30T11:45:17Z",
           "sentiment": -0.3,
           "reason": "Unconfirmed Iran naval clash escalates Middle East geopolitical risk"
-        },
-        {
-          "headline": "Live On KCMO Radio, President Trump, On Iran War, Says It's Going To Get Wrapped Up Soon; We Need A Guarantee There Will Never Be A Nuclear Weapon",
-          "url": "https://www.benzinga.com/news/26/10/62734043/live-kcmo-radio-president-trump-iran-war-says-it-s-going-get-wrapped-soon-we-need-guarantee-there-wi",
-          "time": "2026-10-30T11:43:16Z",
-          "sentiment": 0.2,
-          "reason": "Trump says Iran conflict ending soon, easing geopolitical fears"
-        },
-        {
-          "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62727776/stock-market-will-sp-500-open-up-or-down-today-69",
-          "time": "2026-10-30T06:21:23Z",
-          "sentiment": -0.3,
-          "reason": "Index pressured by Alphabet drop and rising oil"
         }
       ]
     },
     "QQQ": {
-      "score": -0.291,
-      "articles": 7,
-      "ai_articles": 6,
+      "score": -0.353,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Nasdaq Down Over 600 Points; Amazon Shares Fall Following Weak Q3 Results",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62738839/nasdaq-down-over-600-points-amazon-shares-fall-following-weak-q3-results",
+          "time": "2026-10-30T13:39:31Z",
+          "sentiment": -0.5,
+          "reason": "Nasdaq fell 2.36% on Amazon-led selloff"
+        },
         {
           "headline": "Trump Claims Inflation Is 'Way Down' Ahead of Midterms, But Fed Chair Kevin Warsh Warns Prices Remain 'Too High' After Holding Rates Steady",
           "url": "https://www.benzinga.com/markets/economic-data/26/10/62737837/trump-claims-inflation-is-way-down-ahead-of-midterms-but-fed-chair-kevin-warsh-warns-prices-remain-too-high-after-holding-rates-steady",
           "time": "2026-10-30T13:16:53Z",
-          "sentiment": -0.33,
-          "reason": "keyword match"
+          "sentiment": -0.2,
+          "reason": "Fed signals sticky inflation and no near-term rate cuts"
+        },
+        {
+          "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk",
+          "time": "2026-10-30T12:30:27Z",
+          "sentiment": -0.4,
+          "reason": "Big Tech concentration risk weighs on Nasdaq-100 ETF"
         },
         {
           "headline": "Pinterest Posts Downbeat Q3 Results, Joins Intel, Roblox, Twilio And Other Big Stocks Moving Lower In Friday\u2019s Pre-Market Session",
@@ -69,34 +83,20 @@
           "time": "2026-10-30T06:21:23Z",
           "sentiment": -0.4,
           "reason": "Nasdaq-led decline and broad tech weakness"
-        },
-        {
-          "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd",
-          "time": "2026-10-29T19:19:59Z",
-          "sentiment": -0.3,
-          "reason": "Growth/AI rotation weighs on tech-heavy index"
-        },
-        {
-          "headline": "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
-          "url": "https://www.benzinga.com/opinion/26/10/62707077/alphabet-stock-down-12-percent-as-ai-hits-google-core-search-business",
-          "time": "2026-10-29T16:30:03Z",
-          "sentiment": -0.2,
-          "reason": "Nasdaq-heavy weakness from Alphabet drop"
         }
       ]
     },
     "AAPL": {
-      "score": -0.477,
-      "articles": 3,
+      "score": -0.323,
+      "articles": 2,
       "ai_articles": 2,
       "headlines": [
         {
           "headline": "Dell, HP Stocks Tumble As Intel Flags Deepening PC Slump, Memory Shortages",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62737659/dell-hp-stocks-tumble-as-intel-flags-deepening-pc-slump-memory-shortages",
           "time": "2026-10-30T13:13:07Z",
-          "sentiment": -0.6,
-          "reason": "keyword match"
+          "sentiment": -0.3,
+          "reason": "Intel warns of PC demand slump and memory shortages"
         },
         {
           "headline": "Apple Faces Long-Term Chip Supply Constraints Through 2030",
@@ -104,21 +104,28 @@
           "time": "2026-10-29T20:31:27Z",
           "sentiment": -0.4,
           "reason": "Chip shortages may persist to 2030, raising component costs"
-        },
-        {
-          "headline": "Apple Stock Heads Toward All-Time High: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62699888/apple-stock-heads-toward-all-time-high-whats-going-on",
-          "time": "2026-10-29T14:15:01Z",
-          "sentiment": 0.2,
-          "reason": "Goldman reaffirmed Buy; shares rising toward all-time high"
         }
       ]
     },
     "MSFT": {
-      "score": 0.247,
+      "score": 0.068,
       "articles": 16,
       "ai_articles": 16,
       "headlines": [
+        {
+          "headline": "Tech Bonds Are 'Diamonds in the Rough': Bank of America's Hartnett Says",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62740408/tech-bonds-diamonds-in-the-rough-hartnett-bank-of-america",
+          "time": "2026-10-30T13:59:58Z",
+          "sentiment": -0.2,
+          "reason": "Hyperscaler stock sales and buyback cuts pressure shares"
+        },
+        {
+          "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk",
+          "time": "2026-10-30T12:30:27Z",
+          "sentiment": -0.3,
+          "reason": "Hyperscaler AI capex fears spill over to peers"
+        },
         {
           "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62727776/stock-market-will-sp-500-open-up-or-down-today-69",
@@ -139,28 +146,28 @@
           "time": "2026-10-29T21:38:47Z",
           "sentiment": 0.3,
           "reason": "Outperform rating with raised price target to $722"
-        },
-        {
-          "headline": "RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target",
-          "url": "https://www.benzinga.com/news/26/10/62719574/rbc-capital-reiterates-outperform-microsoft-maintains-640-price-target",
-          "time": "2026-10-29T20:21:36Z",
-          "sentiment": 0.2,
-          "reason": "RBC reiterates Outperform with $640 price target"
-        },
-        {
-          "headline": "Citigroup Maintains Buy on Microsoft, Raises Price Target to $680",
-          "url": "https://www.benzinga.com/news/26/10/62714097/citigroup-maintains-buy-microsoft-raises-price-target-680",
-          "time": "2026-10-29T19:17:32Z",
-          "sentiment": 0.2,
-          "reason": "Citi reiterates Buy with higher price target $680"
         }
       ]
     },
     "NVDA": {
-      "score": -0.218,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.207,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Tech Bonds Are 'Diamonds in the Rough': Bank of America's Hartnett Says",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62740408/tech-bonds-diamonds-in-the-rough-hartnett-bank-of-america",
+          "time": "2026-10-30T13:59:58Z",
+          "sentiment": -0.15,
+          "reason": "AI hyperscaler funding strain could slow chip demand outlook"
+        },
+        {
+          "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk",
+          "time": "2026-10-30T12:30:27Z",
+          "sentiment": -0.2,
+          "reason": "AI spending doubts could hit demand expectations for chips"
+        },
         {
           "headline": "Why Is Amazon Stock Falling Friday?",
           "url": "https://www.benzinga.com/markets/tech/26/10/62732386/why-is-amazon-stock-falling-friday",
@@ -181,70 +188,70 @@
           "time": "2026-10-30T09:52:49Z",
           "sentiment": -0.2,
           "reason": "Intel's weak PC outlook hints at softer PC demand; indirect read"
-        },
-        {
-          "headline": "Nvidia Shares Trending After Hours As DOJ Probe And Chinese Spy Report Weigh: What You Should Know",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62726776/nvidia-shares-after-hours-doj-probe-chinese-spy-report",
-          "time": "2026-10-30T03:11:28Z",
-          "sentiment": -0.4,
-          "reason": "DOJ probe over Hugging Face acquisition; shares down after hours"
-        },
-        {
-          "headline": "Elizabeth Warren Says Nvidia Board and Jensen Huang 'Owe Congress Answers\u2019 Over Reported Spy Ties\u2014 Wants AI Technology Kept 'Out of China's Hands'",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62726493/elizabeth-warren-nvidia-ceo-jensen-huang-answer-congress-suspected-spy",
-          "time": "2026-10-30T01:54:37Z",
-          "sentiment": -0.3,
-          "reason": "Congressional pressure over alleged Chinese spy ties and China AI chip exposure"
         }
       ]
     },
     "AMZN": {
-      "score": -0.201,
-      "articles": 22,
-      "ai_articles": 20,
+      "score": -0.281,
+      "articles": 27,
+      "ai_articles": 27,
       "headlines": [
         {
-          "headline": "Citizens Maintains Market Outperform on Amazon.com, Lowers Price Target to $275",
-          "url": "https://www.benzinga.com/news/26/10/62736470/citizens-maintains-market-outperform-amazon-com-lowers-price-target-275",
-          "time": "2026-10-30T12:48:37Z",
-          "sentiment": 0.33,
-          "reason": "keyword match"
+          "headline": "Tech Bonds Are 'Diamonds in the Rough': Bank of America's Hartnett Says",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62740408/tech-bonds-diamonds-in-the-rough-hartnett-bank-of-america",
+          "time": "2026-10-30T13:59:58Z",
+          "sentiment": -0.2,
+          "reason": "Hyperscaler stock sales and buyback cuts pressure shares"
         },
         {
-          "headline": "Amazon\u2019s Earnings Miss Almost Exactly Equals Its New Debt Bill",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62735906/amazon-earnings-miss-almost-exactly-equals-its-new-debt-bill",
-          "time": "2026-10-30T12:35:36Z",
-          "sentiment": -0.33,
-          "reason": "keyword match"
+          "headline": "Amazon Stock Could Have Nearly 50% Upside, JPMorgan Says, as AWS Eyes a $1 Trillion Future",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62739383/amazon-stock-jpmorgan-upside",
+          "time": "2026-10-30T13:45:07Z",
+          "sentiment": 0.5,
+          "reason": "JPMorgan sees ~50% upside; AWS growth outlook bullish"
         },
         {
-          "headline": "Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62735230/andy-jassy-says-west-is-very-hungry-for-more-western-open-source-ai-models-as-amazon-adds-chinas-kimi-and-glm-to-bedrock",
-          "time": "2026-10-30T12:22:57Z",
-          "sentiment": 0.15,
-          "reason": "Bedrock expansion with open-source models supports AWS AI demand narrative"
+          "headline": "Nasdaq Down Over 600 Points; Amazon Shares Fall Following Weak Q3 Results",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62738839/nasdaq-down-over-600-points-amazon-shares-fall-following-weak-q3-results",
+          "time": "2026-10-30T13:39:31Z",
+          "sentiment": -0.7,
+          "reason": "Q3 miss drove shares lower"
         },
         {
-          "headline": "Mizuho Maintains Outperform on Amazon.com, Raises Price Target to $335",
-          "url": "https://www.benzinga.com/news/26/10/62733292/mizuho-maintains-outperform-amazon-com-raises-price-target-335",
-          "time": "2026-10-30T11:25:28Z",
-          "sentiment": 0.35,
-          "reason": "Mizuho reaffirms Outperform and raises target to $335"
+          "headline": "StoneX Maintains Buy on Amazon.com, Lowers Price Target to $380",
+          "url": "https://www.benzinga.com/news/26/10/62737976/stonex-maintains-buy-amazon-com-lowers-price-target-380",
+          "time": "2026-10-30T13:22:44Z",
+          "sentiment": -0.2,
+          "reason": "Price target cut despite maintained Buy rating"
         },
         {
-          "headline": "Cantor Fitzgerald Maintains Overweight on Amazon.com, Lowers Price Target to $280",
-          "url": "https://www.benzinga.com/news/26/10/62732464/cantor-fitzgerald-maintains-overweight-amazon-com-lowers-price-target-280",
-          "time": "2026-10-30T11:01:48Z",
-          "sentiment": -0.15,
-          "reason": "Cantor cuts target to $280 while keeping Overweight"
+          "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Mixed as AMZN, INTC Slide After Q3 Earnings\u2014DELL, LLY, AZN in Focus (UPDATED)",
+          "url": "https://www.benzinga.com/markets/equities/26/10/62729872/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-amzn-intc-slide-after-q3-earnings-dell-lly-azn-in-focus",
+          "time": "2026-10-30T12:43:13Z",
+          "sentiment": -0.5,
+          "reason": "Shares slide after Q3 earnings"
         }
       ]
     },
     "GOOGL": {
-      "score": -0.478,
+      "score": -0.464,
       "articles": 20,
       "ai_articles": 20,
       "headlines": [
+        {
+          "headline": "Tech Bonds Are 'Diamonds in the Rough': Bank of America's Hartnett Says",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62740408/tech-bonds-diamonds-in-the-rough-hartnett-bank-of-america",
+          "time": "2026-10-30T13:59:58Z",
+          "sentiment": -0.2,
+          "reason": "Hyperscaler stock sales and buyback cuts pressure shares"
+        },
+        {
+          "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk",
+          "time": "2026-10-30T12:30:27Z",
+          "sentiment": -0.6,
+          "reason": "Large selloff on AI spending fears; momentum likely to persist short-term"
+        },
         {
           "headline": "SK Hynix, Samsung Tumble in South Korea as Wall Street's AI Sell-Off Rattles Asian Markets \u2014 KOSPI Triggers Rare Sell-Side Trading Halt",
           "url": "https://www.benzinga.com/markets/tech/26/10/62729331/sk-hynix-samsung-tumble-in-south-korea-as-wall-streets-ai-sell-off-rattles-asian-markets-kospi-triggers-rare-sell-side-trading-halt",
@@ -265,28 +272,28 @@
           "time": "2026-10-30T06:21:23Z",
           "sentiment": -0.5,
           "reason": "Already dropped 10%; further weakness likely as selloff continues"
-        },
-        {
-          "headline": "Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325",
-          "url": "https://www.benzinga.com/news/26/10/62724275/bernstein-maintains-market-perform-alphabet-lowers-price-target-325",
-          "time": "2026-10-29T21:48:24Z",
-          "sentiment": -0.2,
-          "reason": "Market Perform rating with lowered price target to $325"
-        },
-        {
-          "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd",
-          "time": "2026-10-29T19:19:59Z",
-          "sentiment": -0.3,
-          "reason": "Rotation away from AI leaders; Alphabet cited as a leader in the selloff"
         }
       ]
     },
     "META": {
-      "score": -0.147,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.19,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Tech Bonds Are 'Diamonds in the Rough': Bank of America's Hartnett Says",
+          "url": "https://www.benzinga.com/markets/bonds/26/10/62740408/tech-bonds-diamonds-in-the-rough-hartnett-bank-of-america",
+          "time": "2026-10-30T13:59:58Z",
+          "sentiment": -0.2,
+          "reason": "Hyperscaler stock sales and buyback cuts pressure shares"
+        },
+        {
+          "headline": "Alphabet's $482B Wipeout Sparks AI Spending Fears: Is QQQ's Big Tech Exposure Becoming a Risk?",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62735418/alphabets-482b-wipeout-sparks-ai-spending-fears-is-qqqs-big-tech-exposure-becoming-a-risk",
+          "time": "2026-10-30T12:30:27Z",
+          "sentiment": -0.3,
+          "reason": "Hyperscaler AI capex fears spill over to peers"
+        },
         {
           "headline": "UK Competition Watchdog Probes Meta's Commercial Terms for Businesses",
           "url": "https://www.marketscreener.com/news/meta-platforms-facing-uk-probe-into-its-commercial-terms-ce785fdbda81f022",
@@ -307,20 +314,6 @@
           "time": "2026-10-30T02:01:37Z",
           "sentiment": -0.2,
           "reason": "Convertible preferred and share sales signal potential dilution"
-        },
-        {
-          "headline": "Quantryon Capital Upgrades Meta to Buy",
-          "url": "https://www.tradingview.com/news/seekingalpha:86b88b9f6094b:0-sa-analyst-upgrades-downgrades-meta-nflx-intu-gnrc/",
-          "time": "2026-10-29T21:31:37Z",
-          "sentiment": 0.4,
-          "reason": "Upgrade to Buy citing advertising strength and AI monetization"
-        },
-        {
-          "headline": "Meta Loses Appeal in French Media Payment Dispute",
-          "url": "https://www.tradingview.com/news/gurufocus:7ddc2b011094b:0-meta-suffers-french-court-setback-in-media-payment-fight/",
-          "time": "2026-10-29T20:31:32Z",
-          "sentiment": -0.2,
-          "reason": "Lost appeal; must negotiate payments with French news publishers"
         }
       ]
     },
@@ -332,15 +325,29 @@
     },
     "XOM": {
       "score": 0.361,
-      "articles": 10,
-      "ai_articles": 9,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "Live On CNBC, ExxonMobil CEO Says Co. Plans Over $100B Capital Expenses Through 2030; Big Part Of Our Strategy Is To Buyback Stock And Provide Dividend; ~10% Financing Goes To Refining; We Are Producing Record Volumes Of Diesel In North America",
+          "url": "https://www.benzinga.com/news/26/10/62738741/live-cnbc-exxonmobil-ceo-says-co-plans-over-100b-capital-expenses-through-2030-big-part-our-strategy",
+          "time": "2026-10-30T13:37:48Z",
+          "sentiment": 0.4,
+          "reason": "Buybacks and dividend plans support shareholder returns"
+        },
+        {
+          "headline": "ExxonMobil Increases Stake in Mozambique LNG Project to 50%",
+          "url": "https://www.marketscreener.com/news/exxon-mobil-raises-stake-in-mozambique-lng-project-to-50-ce785fdbdd8af123",
+          "time": "2026-10-30T13:32:07Z",
+          "sentiment": 0.2,
+          "reason": "Larger stake in Mozambique LNG adds long-term production"
+        },
         {
           "headline": "ExxonMobil Cashes In on Refining Boom, Raises Dividend",
           "url": "https://www.benzinga.com/markets/earnings/26/10/62737913/exxonmobil-cashes-in-on-refining-boom-raises-dividend",
           "time": "2026-10-30T13:18:59Z",
-          "sentiment": 0.33,
-          "reason": "keyword match"
+          "sentiment": 0.4,
+          "reason": "Q3 beat, dividend hike, and 52-week high on refining"
         },
         {
           "headline": "Iran Navy Says It Destroyed U.S. Unmanned Vessel In Eastern Strait Of Hormuz; No U.S. Confirmation",
@@ -355,28 +362,28 @@
           "time": "2026-10-30T11:32:51Z",
           "sentiment": 0.5,
           "reason": "Dividend raise and $20B buyback plan signal strong shareholder returns"
-        },
-        {
-          "headline": "Exxon Mobil Reports Q3 Earnings Beat and Revenue Growth",
-          "url": "https://www.marketscreener.com/news/exxon-mobil-q3-adjusted-earnings-beat-estimates-revenue-rises-ce785fdbda8ef326",
-          "time": "2026-10-30T11:32:51Z",
-          "sentiment": 0.4,
-          "reason": "Q3 earnings and revenue beat analyst expectations"
-        },
-        {
-          "headline": "ExxonMobil Raises Quarterly Dividend From $1.03 To $1.07/Share; Targets FY27 Share Buyback Plan At $20B",
-          "url": "https://www.benzinga.com/quote/XOM",
-          "time": "2026-10-30T10:34:40Z",
-          "sentiment": 0.3,
-          "reason": "Dividend hike and larger buyback plan signal shareholder returns"
         }
       ]
     },
     "MU": {
-      "score": -0.165,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.078,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Dell, HP Stocks Tumble As Intel Flags Deepening PC Slump, Memory Shortages",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62737659/dell-hp-stocks-tumble-as-intel-flags-deepening-pc-slump-memory-shortages",
+          "time": "2026-10-30T13:13:07Z",
+          "sentiment": 0.4,
+          "reason": "Memory shortages may support DRAM pricing"
+        },
+        {
+          "headline": "Intel Stock Eyes One of Its Worst Days Since 1974: 'Houston, We Have a Problem,' Analyst Says",
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62735265/intel-stock-worst-day-since-1974-cantor-houston-we-have-a-problem",
+          "time": "2026-10-30T12:23:53Z",
+          "sentiment": 0.3,
+          "reason": "Cited memory shortages may support pricing for memory makers"
+        },
         {
           "headline": "SK Hynix, Samsung Tumble in South Korea as Wall Street's AI Sell-Off Rattles Asian Markets \u2014 KOSPI Triggers Rare Sell-Side Trading Halt",
           "url": "https://www.benzinga.com/markets/tech/26/10/62729331/sk-hynix-samsung-tumble-in-south-korea-as-wall-streets-ai-sell-off-rattles-asian-markets-kospi-triggers-rare-sell-side-trading-halt",
@@ -397,13 +404,6 @@
           "time": "2026-10-30T00:01:39Z",
           "sentiment": -0.3,
           "reason": "Premarket drop on Samsung earnings miss may signal weaker memory sector sentiment"
-        },
-        {
-          "headline": "Why Is Micron Stock Falling on Thursday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62710546/why-is-micron-stock-falling-on-thursday-2",
-          "time": "2026-10-29T17:52:28Z",
-          "sentiment": -0.4,
-          "reason": "Stock falling on Samsung miss and weak hyperscaler capex signals for memory demand"
         }
       ]
     },
@@ -434,10 +434,17 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.348,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.318,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "QUICK SPARK: Intel Stock Drops 28%, Eyes Worst Day Since July 1974",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/10/62742459/intel-stock-worst-day-since-1974-bank-of-america-downgrade",
+          "time": "2026-10-30T14:29:11Z",
+          "sentiment": -0.15,
+          "reason": "Intel's 28% crash signals semiconductor sector weakness and sentiment pressure"
+        },
         {
           "headline": "Nvidia Shares Drop Amid Chip Selloff: What's Happening?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62731938/nvidia-shares-drop-amid-chip-selloff-whats-happening",
@@ -465,17 +472,10 @@
           "time": "2026-10-30T03:28:19Z",
           "sentiment": -0.2,
           "reason": "Intel's guidance miss may drag semiconductor sector sentiment"
-        },
-        {
-          "headline": "AMD Expands AI Infrastructure Collaboration with Oracle Cloud",
-          "url": "https://www.tradingview.com/news/gurufocus:6faa2c101094b:0-amd-stocks-decline-with-oracle-rollout-details-still-to-come/",
-          "time": "2026-10-30T00:01:42Z",
-          "sentiment": 0.35,
-          "reason": "Expanded Oracle Cloud AI partnership could lift data center demand for EPYC"
         }
       ]
     }
   },
-  "scorer": "mixed",
-  "ai_coverage": 0.928
+  "scorer": "claude",
+  "ai_coverage": 1.0
 }
