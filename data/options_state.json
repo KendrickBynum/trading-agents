@@ -2,17 +2,6 @@
   "started_at": "2026-10-29T05:36:36.483559+00:00",
   "capital": 15097.67,
   "entries": {
-    "NVDA261120P00217500": {
-      "time": "2026-10-29T13:36:19.334211+00:00",
-      "underlying": "NVDA",
-      "type": "put",
-      "score": -0.319,
-      "delta": -0.5515,
-      "iv": 0.4417,
-      "dte": 22,
-      "limit": 11.6,
-      "avg": 11.6
-    },
     "XOM261120C00182500": {
       "time": "2026-10-30T13:36:37.596781+00:00",
       "underlying": "XOM",
@@ -38,16 +27,16 @@
   },
   "exits": {
     "GOOGL": "2026-10-29T17:35:41.529555+00:00",
-    "NVDA": "2026-10-30T17:35:41.489312+00:00"
+    "NVDA": "2026-10-30T17:35:42.176483652Z"
   },
   "order_reasons": {
-    "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180",
-    "4fde783c-5790-4980-8b54-82b5bb8e20d5": "take profit (+55%)"
+    "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180"
   },
   "logged_orders": [
-    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
     "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
-    "fea96f75-5b1f-4afe-9437-4e679fcff3e2"
+    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
+    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
+    "4fde783c-5790-4980-8b54-82b5bb8e20d5"
   ],
-  "last_order_check": "2026-10-30T17:35:41.489312+00:00"
+  "last_order_check": "2026-10-30T18:35:43.950070+00:00"
 }

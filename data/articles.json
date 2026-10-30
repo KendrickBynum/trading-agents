@@ -1,139 +1,5 @@
 [
   {
-    "id": "62711510",
-    "created_at": "2026-10-29T18:14:22Z",
-    "headline": "YouTube's Living-Room Business Just Made More in One Quarter Than Netflix's Full-Year Ad Forecast",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62711510/youtubes-living-room-business-just-made-more-in-one-quarter-than-netflixs-full-year-ad-forecast",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Strong YouTube results offset by broader investor concerns after Q3"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107574957",
-    "created_at": "2026-10-29T18:01:42Z",
-    "headline": "JPMorgan Chase Bank Provides Bridge Financing for DoorDash Acquisition of Instacart",
-    "url": "https://www.fidelity.com/news/article/mergers-and-acquisitions/202610290715BIZWIRE_USPR_____20261029_BW560802",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Routine bridge loan commitment; modest fee income, little price impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107574955",
-    "created_at": "2026-10-29T18:01:38Z",
-    "headline": "FCC Approves Amazon Leo's Acquisition of Globalstar",
-    "url": "https://telcomagazine.com/news/fcc-clears-amazon-leos-us-11-5bn-globalstar-buyout",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Regulatory approval of Globalstar deal removes an overhang; likely mostly priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62710546",
-    "created_at": "2026-10-29T17:52:28Z",
-    "headline": "Why Is Micron Stock Falling on Thursday?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62710546/why-is-micron-stock-falling-on-thursday-2",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Stock falling on Samsung miss and weak hyperscaler capex signals for memory demand"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Lower-than-expected capex may ease margin concerns, though impact is minor"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62709967",
-    "created_at": "2026-10-29T17:39:14Z",
-    "headline": "Alphabet's AI Spending Avalanche Sparks Fresh Fears As Analyst Warns of Profit Squeeze",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62709967/alphabets-ai-spending-avalanche-sparks-fresh-fears-as-analyst-warns-of-profit-squeeze",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Rising AI capex and margin pressure fuel profit-squeeze fears despite Cloud strength"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62709901",
-    "created_at": "2026-10-29T17:37:47Z",
-    "headline": "10 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/10/62709901/10-consumer-discretionary-stocks-whale-alerts-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62709900",
-    "created_at": "2026-10-29T17:37:47Z",
-    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/10/62709900/10-information-technology-stocks-whale-activity-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62709807",
-    "created_at": "2026-10-29T17:35:36Z",
-    "headline": "Bank of America Signals Shift to Dividend And Quality ETFs As Stock Selling Intensifies: 3 ETFs to Watch",
-    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62709807/bank-of-america-signals-shift-dividend-quality-etfs-stock-selling-intensifies-3-funds",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Intensifying stock selling and rotation into ETFs signals broad equity pressure"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Rotation out of individual stocks may weigh on tech-heavy index"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62712500",
     "created_at": "2026-10-29T18:38:36Z",
     "headline": "UBS Maintains Neutral on Alphabet, Lowers Price Target to $332",
@@ -2876,6 +2742,283 @@
         "sentiment": -0.35,
         "confidence": 0.45,
         "reason": "Rate-hike expectations hurt long-duration growth stocks more than the index"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62754838",
+    "created_at": "2026-10-30T18:31:48Z",
+    "headline": "Elon Musk Wants People to Sleep in Robotaxis, Police Department Says You Can Also Sober Up",
+    "url": "https://www.benzinga.com/markets/large-cap/26/10/62754838/elon-musk-wants-people-to-sleep-in-robotaxis-police-department-says-you-can-also-sober-up",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Police endorsement of robotaxis is mildly positive but routine."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62754824",
+    "created_at": "2026-10-30T18:31:28Z",
+    "headline": "BZ Analysis: Since 2000, There Have Been 911 Days That Saw More Than 400 Advancers For The S&P 500; Yesterday Was The First Day Ever That Was Negative",
+    "url": "https://www.benzinga.com/economics/26/10/62754824/bz-analysis-2000-there-have-been-911-days-saw-more-400-advancers-s-p-500-yesterday-was-first-day-eve",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "First-ever negative breadth day signals broad market weakness."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62754609",
+    "created_at": "2026-10-30T18:26:58Z",
+    "headline": "Wells Fargo Maintains Overweight on Amazon.com, Lowers Price Target to $326",
+    "url": "https://www.benzinga.com/news/26/10/62754609/wells-fargo-maintains-overweight-amazon-com-lowers-price-target-326",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.05,
+        "confidence": 0.3,
+        "reason": "Price target cut while maintaining Overweight; minor negative."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62754522",
+    "created_at": "2026-10-30T18:25:12Z",
+    "headline": "Wells Fargo Maintains Overweight on Alphabet, Lowers Price Target to $371",
+    "url": "https://www.benzinga.com/news/26/10/62754522/wells-fargo-maintains-overweight-alphabet-lowers-price-target-371",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.05,
+        "confidence": 0.3,
+        "reason": "Price target cut while maintaining Overweight; minor negative."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62753897",
+    "created_at": "2026-10-30T18:11:50Z",
+    "headline": "TD Cowen Maintains Buy on Amazon.com, Lowers Price Target to $340",
+    "url": "https://www.benzinga.com/news/26/10/62753897/td-cowen-maintains-buy-amazon-com-lowers-price-target-340",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.05,
+        "confidence": 0.3,
+        "reason": "Price target lowered while keeping Buy rating; minor negative."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "108901050",
+    "created_at": "2026-10-30T18:01:43Z",
+    "headline": "AMD Shares Decline Amid Market Reaction to Intel Earnings",
+    "url": "https://www.morningstar.com/news/marketwatch/20261030107/amds-stock-slides-after-intel-earnings-reveal-two-big-issues",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Premarket decline on Intel's weak PC and server chip outlook."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "108901048",
+    "created_at": "2026-10-30T18:01:41Z",
+    "headline": "Meta Launches AI Fashion App 'Style Sketch' in Southeast Asia",
+    "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-launches-style-sketch-ai-app-to-turn-instagram-photos-into-virtual-wardrobes",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Regional consumer AI app launch; likely immaterial to earnings."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "108901046",
+    "created_at": "2026-10-30T18:01:33Z",
+    "headline": "Apple Acquires Data-Management Startup Ascend.io",
+    "url": "https://www.tradingview.com/news/seekingalpha:dbd81b23a094b:0-apple-acquires-agentic-platform-ascension-labs/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Small data-management acquisition; limited financial impact."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "108901045",
+    "created_at": "2026-10-30T18:01:33Z",
+    "headline": "Trial Date Set for Apple's Trade Secret Lawsuit Against OpenAI",
+    "url": "https://www.techdogs.com/tech-news/td-newsdesk/apple-and-openai-trade-secrets-lawsuit-heads-to-trial-on-july-19-2027",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Trial date set for 2027; no near-term price impact."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62752783",
+    "created_at": "2026-10-30T17:52:33Z",
+    "headline": "Why Is IREN Stock Falling on Friday?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62752783/why-is-iren-stock-falling-on-friday-2",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Stock sell-off tied to cloud and AI spending worries."
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Cloud spending concerns weigh on sentiment toward Microsoft."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62752376",
+    "created_at": "2026-10-30T17:42:19Z",
+    "headline": "Morgan Stanley Maintains Overweight on Amazon.com, Lowers Price Target to $335",
+    "url": "https://www.benzinga.com/news/26/10/62752376/morgan-stanley-maintains-overweight-amazon-com-lowers-price-target-335",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.05,
+        "confidence": 0.3,
+        "reason": "Price target cut while maintaining Overweight; minor negative."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62752155",
+    "created_at": "2026-10-30T17:37:32Z",
+    "headline": "Why Is Nebius Stock Falling on Friday?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62752155/why-is-nebius-stock-falling-on-friday-3",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Questions on cloud and AI infrastructure spending after earnings."
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Cloud and AI infrastructure spending doubts spill over to Microsoft."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62752030",
+    "created_at": "2026-10-30T17:35:10Z",
+    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/10/62752030/10-information-technology-stocks-whale-alerts-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62751920",
+    "created_at": "2026-10-30T17:33:45Z",
+    "headline": "Fed's Logan Says Long-Term Rates Have Risen, But Don't Represent As Much As A Drag On Economy As Might Be Expected; Economic Growth Is Strong, Consumer Spending Solid; Labor Market Is Balanced, Perhaps Tightening A Bit",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62751920/fed-s-logan-says-long-term-rates-have-risen-don-t-represent-much-drag-economy-might-be-expected-econ",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.15,
+        "confidence": 0.4,
+        "reason": "Fed sees strong growth and tight labor, mildly hawkish tone"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62751874",
+    "created_at": "2026-10-30T17:33:13Z",
+    "headline": "Fed's Logan Says 'Unacceptable' That Inflation Is Not Headed Back To Fed's 2% Target; After 50 BPs Of Rate Hikes, A Pause Would Make Sense To Determine What Further Action Is Appropriate; Financial Conditions Are Providing A Tailwind To The Economy; Higher Market Rates A Message That Investors Believe Monetary Policy Has Work To Do",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62751874/fed-s-logan-says-unacceptable-inflation-not-headed-back-fed-s-2-target-after-50-bps-rate-hikes-pause",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Fed says inflation above target, more tightening likely"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62751846",
+    "created_at": "2026-10-30T17:32:32Z",
+    "headline": "Fed's Logan Says Fed Needs At Least Two More Quarter-Point Rate Hikes; Skipping A Meeting Doesn't Change Policy Destination; Adjusting Policy Gradually Can Reduce Risks Of Sharp Economic Deterioration; Gradual Policy Adjustment Helps Households, Businesses, Investors Adapt To Higher Rates;  End Goal Is To Make Policy Modestly Restrictive; Making Policy Rate Destination Clear Helps Economy Adapt, Obtain Benefits Of A Skip",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62751846/fed-s-logan-says-fed-needs-least-two-more-quarter-point-rate-hikes-skipping-meeting-doesn-t-change-p",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.4,
+        "confidence": 0.6,
+        "reason": "Fed signals two more rate hikes, hawkish for equities"
       }
     ],
     "scorer": "claude"

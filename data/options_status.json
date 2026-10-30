@@ -1,26 +1,33 @@
 {
-  "time": "2026-10-30T17:35:41.489312+00:00",
+  "time": "2026-10-30T18:35:43.950070+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
+      "time": "2026-10-30T17:35:42.176483652Z",
+      "book": "options",
       "symbol": "NVDA261120P00217500",
       "side": "sell",
-      "reason": "take profit (+55%)",
-      "qty": 1,
-      "underlying": "NVDA",
-      "notional": 1795.0,
-      "status": "order placed",
+      "status": "filled",
       "order_id": "4fde783c-5790-4980-8b54-82b5bb8e20d5",
-      "limit": 17.9,
-      "book": "options",
-      "time": "2026-10-30T17:35:41.489312+00:00"
+      "qty": 1.0,
+      "price": 17.95,
+      "notional": 1795.0,
+      "reason": "take profit (+55%)",
+      "underlying": "NVDA",
+      "realized_pl": 635.0
     }
   ],
   "options_level": 3,
   "learned": {
-    "closed_trades": 0,
+    "closed_trades": 1,
     "min_for_conclusions": 20,
-    "by_type": {}
+    "by_type": {
+      "put": {
+        "n": 1,
+        "win_rate": 1.0,
+        "total": 635.0
+      }
+    }
   }
 }
