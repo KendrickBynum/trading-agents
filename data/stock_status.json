@@ -1,29 +1,8 @@
 {
-  "time": "2026-10-30T14:35:49.595507+00:00",
+  "time": "2026-10-30T15:35:34.821266+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [
-    {
-      "time": "2026-10-30T14:35:49.595507+00:00",
-      "symbol": "QQQ",
-      "side": "sell",
-      "reason": "negative news (-0.35)",
-      "score": -0.235,
-      "factors": {
-        "trend": -0.417,
-        "levels": -0.215,
-        "flow": -0.079,
-        "pattern": 0.521,
-        "news": -0.706
-      },
-      "news_score": -0.353,
-      "notional": 9036.69,
-      "realized_pl": -373.68,
-      "status": "submitted",
-      "order_id": "95137a65-d91c-47f7-95c2-65d1e7b3610a",
-      "book": "stock"
-    }
-  ],
+  "last_actions": [],
   "buy_threshold": 0.433,
   "exit_threshold": -0.295,
   "trailing_stop_pct": 0.04,

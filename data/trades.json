@@ -195,5 +195,18 @@
     "notional": 780.0,
     "reason": "CALL XOM $182.5 exp 2026-11-20 (21d, delta +0.67) on score +0.48; max loss $785",
     "underlying": "XOM"
+  },
+  {
+    "time": "2026-10-30T14:45:27.060313Z",
+    "book": "options",
+    "symbol": "GOOGL261127P00285000",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
+    "qty": 1.0,
+    "price": 11.25,
+    "notional": 1125.0,
+    "reason": "PUT GOOGL $285 exp 2026-11-27 (28d, delta -0.56) on score -0.32; max loss $1,125",
+    "underlying": "GOOGL"
   }
 ]
