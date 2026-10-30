@@ -1,186 +1,5 @@
 [
   {
-    "id": "62709755",
-    "created_at": "2026-10-29T17:34:32Z",
-    "headline": "Amazon Stock Dips Ahead of Q3 Earnings: What's Going On?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62709755/amazon-stock-dips-ahead-of-q3-earnings-whats-going-on",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Stock dips on AI shopping assistant disruption fears before earnings"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62709569",
-    "created_at": "2026-10-29T17:28:28Z",
-    "headline": "Microsoft And Alphabet's Two Different Market Stories\u2014AI Keeps Building",
-    "url": "https://www.benzinga.com/opinion/26/10/62709569/microsoft-and-alphabet-two-different-market-stories-ai-keeps-building",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Azure growth lifted Microsoft shares after the close"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Negative free cash flow weighed on Alphabet"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62709429",
-    "created_at": "2026-10-29T17:25:16Z",
-    "headline": "Morgan Stanley Maintains Overweight on Alphabet, Lowers Price Target to $375",
-    "url": "https://www.benzinga.com/news/26/10/62709429/morgan-stanley-maintains-overweight-alphabet-lowers-price-target-375",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Overweight rating kept, but price target cut to $375"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62709327",
-    "created_at": "2026-10-29T17:23:06Z",
-    "headline": "Apple Cuts Taiwan App Store Commission Rate In Taiwan From 30% To 26%, Effective Oct. 31",
-    "url": "https://www.benzinga.com/news/26/10/62709327/apple-cuts-taiwan-app-store-commission-rate-taiwan-30-26-effective-oct-31",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Taiwan commission cut is minor, regional revenue impact limited"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62709148",
-    "created_at": "2026-10-29T17:17:25Z",
-    "headline": "We Will Not Take Any Steps Before The U.S. Implements Our Conditions Al-Mayadeen Has Clarified, Citing An Informed Iranian Source, Regarding The Correspondence Between JD Vance And Major General Rezaei; Trump's Claim That Vance's Letter Was In Response To Iran's Request For Equipment And Medicine Is Completely False",
-    "url": "https://www.benzinga.com/government/26/10/62709148/we-will-not-take-any-steps-u-s-implements-our-conditions-al-mayadeen-has-clarified-citing-informed-i",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "US-Iran diplomatic standoff adds geopolitical uncertainty"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Middle East tensions may support oil prices"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62708495",
-    "created_at": "2026-10-29T17:01:48Z",
-    "headline": "Senior Iranian Security Official Confirms U.S. Vice President Sent Letter To SNSC Secretary Major General Mohsen Rezaee; Tehran Has Not Responded To Vance\u2019s Message",
-    "url": "https://www.benzinga.com/news/26/10/62708495/senior-iranian-security-official-confirms-u-s-vice-president-sent-letter-snsc-secretary-major-genera",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Unanswered Vance letter to Iran adds geopolitical uncertainty"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Middle East tensions may support oil prices"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62708494",
-    "created_at": "2026-10-29T17:01:48Z",
-    "headline": "Microsoft Stock Slips Despite Strong Azure Growth: Analysts Debate AI Spending",
-    "url": "https://www.benzinga.com/markets/tech/26/10/62708494/microsoft-stock-slips-despite-strong-azure-growth-analysts-debate-ai-spending",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Strong 48% Azure growth and PT hike offset AI capex concerns"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62708126",
-    "created_at": "2026-10-29T16:53:01Z",
-    "headline": "Blame SpaceX for Most of Google\u2019s Shocking Earnings Miss \u2014 And Brace for More",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62708126/alphabet-google-spacex-investment-loss",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Earnings miss from SpaceX paper loss; further Q4 risk flagged"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62707735",
-    "created_at": "2026-10-29T16:45:11Z",
-    "headline": "Microsoft Stock Has More Upside: Analyst Says Q1 Validation of \u2018AI-Led Growth Opportunity\u2019",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62707735/microsoft-stock-has-more-upside-analyst-says-q1-validation-of-ai-led-growth-opportunity",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.4,
-        "confidence": 0.4,
-        "reason": "Analysts raise price targets after strong Q1 results"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62707674",
-    "created_at": "2026-10-29T16:43:39Z",
-    "headline": "Why Is DocuSign Stock Falling on Thursday?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62707674/why-is-docusign-stock-falling-on-thursday",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "62711510",
     "created_at": "2026-10-29T18:14:22Z",
     "headline": "YouTube's Living-Room Business Just Made More in One Quarter Than Netflix's Full-Year Ad Forecast",
@@ -2774,6 +2593,291 @@
     "source": "benzinga",
     "market_risk": 0.45,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62751807",
+    "created_at": "2026-10-30T17:31:46Z",
+    "headline": "Amazon Is Spending Billions to Win the AI Race \u2014 Will the Gamble Pay Off?",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62751807/amazon-is-spending-billions-to-win-the-ai-race-will-the-gamble-pay-off",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Heavy AI capex and cash-flow pressure drove a 2% decline"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62750549",
+    "created_at": "2026-10-30T17:05:05Z",
+    "headline": "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62750549/stock-market-today-intel-worst-day-on-record-chip-stocks-nasdaq",
+    "source": "benzinga",
+    "market_risk": 0.6,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "Nasdaq drop and chip selloff with SMH down 7%"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "Memory and chip stocks sank in broad semiconductor rout"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.5,
+        "confidence": 0.7,
+        "reason": "Chip selloff after Intel weak guidance hit sector"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Tech-led Nasdaq decline weighs on mega-cap names"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.6,
+        "confidence": 0.8,
+        "reason": "Nasdaq 100 fell 3.2% in a sharp tech selloff"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.5,
+        "confidence": 0.7,
+        "reason": "Broad market decline led by Nasdaq and chip stocks"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62750891",
+    "created_at": "2026-10-30T17:13:02Z",
+    "headline": "ExxonMobil CEO Sees No Quick Fix for Global Refining Disruptions",
+    "url": "https://www.benzinga.com/markets/large-cap/26/10/62750891/exxonmobil-ceo-sees-no-quick-fix-for-global-refining-disruptions",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Strong Q3, dividend raise, and 52-week high"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62750348",
+    "created_at": "2026-10-30T17:02:05Z",
+    "headline": "Fed's Musalem Says Focused On Preventing Second Round Inflation Impact Like In Service Sector",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62750348/fed-s-musalem-says-focused-preventing-second-round-inflation-impact-service-sector",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Fed official stresses inflation vigilance, mildly hawkish"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62750328",
+    "created_at": "2026-10-30T17:01:48Z",
+    "headline": "U.S. Baker Hughes Oil Rig Count +2 To 462; U.S. Baker Hughes NatGas Rig Count -2 To 130; U.S. Baker Hughes Total Rig Count 603 Vs 603 Prior",
+    "url": "https://www.benzinga.com/quote/UNG",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62749808",
+    "created_at": "2026-10-30T16:51:48Z",
+    "headline": "Fed's Musalem Says It's Really Important For Public To Understand How Central Bank Thinks And Acts; Monetary Policy More Effective When Public Understands It; Communications Is Not Necessarily The Same As Forward Guidance; Policy Rules Are Useful For Monetary Policy",
+    "url": "https://www.benzinga.com/news/26/10/62749808/feds-musalem-says-its-really-important-for-public-to-understand-how-central-bank-thinks-and-acts-monetary-policy-more-effective-when-public-understands-it-communications-is-not-necessarily-the-sam",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62749985",
+    "created_at": "2026-10-30T16:55:09Z",
+    "headline": "Chip Stocks Wipe Out $1 Trillion in Friday Bloodbath: 5 Stocks Alone Account for 60% of the Damage",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62749985/chip-stocks-1-trillion-wipeout-intel-nvidia-amd-tsmc-broadcom",
+    "source": "benzinga",
+    "market_risk": 0.6,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "Chip stocks lost about $1T in a broad selloff"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Chip sector bloodbath drags memory names lower"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.5,
+        "confidence": 0.7,
+        "reason": "Nvidia among top losers in chip selloff"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Indirect exposure via AI-trade sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62749378",
+    "created_at": "2026-10-30T16:44:11Z",
+    "headline": "Intel\u2019s Agentic AI Overshadowed By Weak PC Sales; Soft Retail Overshadows Amazon AI; Record Crypto Heist",
+    "url": "https://www.benzinga.com/opinion/26/10/62749378/weak-pc-sales-overshadow-intel-agentic-ai-soft-retail-overshadows-amazon-ai-record-crypto-heist",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Soft retail and AI concerns weigh on sentiment"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Weak PC sales and AI-trade unease, indirect"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Weak PC demand read-through, indirect"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Tech sentiment soft on AI-trade worries"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Broad tech weakness, minor market drag"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62749477",
+    "created_at": "2026-10-30T16:45:36Z",
+    "headline": "\"Meta Settles With Social Media Addiction Plaintiff Ahead Of Trial; After This Development, The Only Defendant Remaining In The Trial Is Snap Inc.\" - Bloomberg Law",
+    "url": "https://www.benzinga.com/news/26/10/62749477/meta-settles-social-media-addiction-plaintiff-ahead-trial-after-development-only-defendant-remaining",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Settlement removes one defendant from addiction litigation"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62749426",
+    "created_at": "2026-10-30T16:45:07Z",
+    "headline": "Black Friday Came Early for Chipmakers: Intel and 10 Other Stocks Are More Than 20% Off This Month",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62749426/chipmaker-black-friday-intel-chip-stocks-20-percent-off-october",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Chip equipment peers down over 20% in October"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62749150",
+    "created_at": "2026-10-30T16:39:51Z",
+    "headline": "'Amazon Taps $80 Billion Supplier Loan Facility To Help Fund AI' - Bloomberg News",
+    "url": "https://www.benzinga.com/news/26/10/62749150/amazon-taps-80-billion-supplier-loan-facility-to-help-fund-ai",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Large financing for AI spend raises capex concerns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62749040",
+    "created_at": "2026-10-30T16:37:57Z",
+    "headline": "Fed\u2019s Musalem Says Overall Financial Conditions Remain Accommodative; Best Thing Fed Can Do Now Is Restore Price Stability; Financial Conditions Tighter But Not By Much; Broader Economy And Job Market Strong; Risks Still Skewed Toward Higher Inflation; Inflation Expectations Have Been Anchored",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62749040/fed-s-musalem-says-overall-financial-conditions-remain-accommodative-best-thing-fed-can-do-now-resto",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Fed official flags inflation risks skewed higher"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62749006",
+    "created_at": "2026-10-30T16:37:32Z",
+    "headline": "Fed\u2019s Musalem Says Moving Sooner With Rate Hikes Lessens Risk Of Hit To Broader Economy; U.S. Central Bank Will Need To Raise Interest Rates Again 'Soon'; Incremental Changes In Rates Better Than Abrupt Changes; Higher Long-Term Bond Yields Driven By Expected Higher Policy Rates; Inflation Still Too High, Unlikely To Ease Without Fed Actions; Monetary Policy Is Accommodative Right Now",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62749006/fed-s-musalem-says-moving-sooner-rate-hikes-lessens-risk-hit-broader-economy-u-s-central-bank-will-n",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Hawkish Fed signals further rate hikes, pressuring broad equity valuations"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.35,
+        "confidence": 0.45,
+        "reason": "Rate-hike expectations hurt long-duration growth stocks more than the index"
+      }
+    ],
     "scorer": "claude"
   }
 ]
