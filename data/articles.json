@@ -1,237 +1,5 @@
 [
   {
-    "id": "62712500",
-    "created_at": "2026-10-29T18:38:36Z",
-    "headline": "UBS Maintains Neutral on Alphabet, Lowers Price Target to $332",
-    "url": "https://www.benzinga.com/news/26/10/62712500/ubs-maintains-neutral-alphabet-lowers-price-target-332",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Analyst cut price target while keeping neutral; mild negative, largely expected"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62714742",
-    "created_at": "2026-10-29T19:30:40Z",
-    "headline": "ExxonMobil, AbbVie On Deck Friday As Energy, Drug Growth Face Test",
-    "url": "https://www.benzinga.com/news/26/10/62714742/exxonmobil-abbvie-on-deck-friday-as-energy-drug-growth-face-test",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Earnings preview only; expectations for energy production already known"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62714478",
-    "created_at": "2026-10-29T19:25:39Z",
-    "headline": "Polymarket Temporarily Halts Trading After Third-Party Provider Impacted",
-    "url": "https://www.benzinga.com/news/26/10/62714478/polymarket-temporarily-halts-trading-after-third-party-provider-impacted",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62714210",
-    "created_at": "2026-10-29T19:19:59Z",
-    "headline": "Value Stocks Just Sent a 2001 Warning Shot \u2014 Is AI Next?",
-    "url": "https://www.benzinga.com/markets/equities/26/10/62714210/value-stocks-beat-sp500-most-since-2001-iwd",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Rotation away from AI leaders; Alphabet cited as a leader in the selloff"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Growth/AI rotation weighs on tech-heavy index"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Value-growth rotation is a mild broad-market headwind"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62714188",
-    "created_at": "2026-10-29T19:19:34Z",
-    "headline": "'Top Admiral Briefs Trump On Iran Attack Options; A Thursday White House Meeting Included A Rare In-Person Briefing By Adm. Cooper As The U.S. Weighs New Combat Operations' - WSJ Exclusive",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62714188/top-admiral-briefs-trump-iran-attack-options-thursday-white-house-meeting-included-rare-person-brief",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Reported US consideration of new Iran combat operations raises geopolitical risk"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Possible Iran conflict raises oil supply risk and energy prices"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62714097",
-    "created_at": "2026-10-29T19:17:32Z",
-    "headline": "Citigroup Maintains Buy on Microsoft, Raises Price Target to $680",
-    "url": "https://www.benzinga.com/news/26/10/62714097/citigroup-maintains-buy-microsoft-raises-price-target-680",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Citi reiterates Buy with higher price target $680"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62713548",
-    "created_at": "2026-10-29T19:04:51Z",
-    "headline": "RBC Capital Maintains Outperform on Alphabet, Lowers Price Target to $400",
-    "url": "https://www.benzinga.com/news/26/10/62713548/rbc-capital-maintains-outperform-alphabet-lowers-price-target-400",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "RBC cuts price target to $400, a bearish signal on valuation"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107680274",
-    "created_at": "2026-10-29T19:01:58Z",
-    "headline": "Concurrence Health World Model and AI Agents Now Available on Microsoft Marketplace",
-    "url": "https://www.prnewswire.com/news-releases/concurrence-now-available-in-the-microsoft-marketplace-302923947.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Third-party AI product on Azure marketplace; immaterial to MSFT"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107678534",
-    "created_at": "2026-10-29T19:01:58Z",
-    "headline": "Microsoft Reportedly Planning $25 Billion Bond Issuance",
-    "url": "https://www.moomoo.com/stock/MSFT-US/news?chain_id=Name1K9-3FXPhg.1le2eo0&global_content=%7B%22promote_id%22%3A14282,%22sub_promote_id%22%3A29,%22f%22%3A%22www.moomoo.com%2Fca%2Fhant%2Flearn%2Fdetail-gamma-exposure-gex-understanding-dealer-hedging-flows-and-key-levels-107906-260473079%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Large bond sale signals heavy AI capex funding needs"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107680272",
-    "created_at": "2026-10-29T19:01:54Z",
-    "headline": "ExxonMobil and Chevron Executives Cancel Trips to UAE Event Over Security Concerns",
-    "url": "https://www.marketscreener.com/news/exxon-chevron-executives-cancel-trips-to-uae-event-over-security-concerns-reuters-reports-ce785fdadd89f12d",
-    "source": "fiscal.ai",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Security concerns in Gulf region hint at elevated regional tension"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107678526",
-    "created_at": "2026-10-29T19:01:35Z",
-    "headline": "Meta Launches AI-Powered Virtual Pet App \"Waddle World\"",
-    "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-launches-waddle-world-an-ai-virtual-pet-app-that-remembers-your-day",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Consumer app launch; likely minimal financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107678525",
-    "created_at": "2026-10-29T19:01:34Z",
-    "headline": "NVIDIA Participates in Cohere's Series E Funding Round",
-    "url": "https://www.tradingview.com/news/seekingalpha:cfc3ffc5f094b:0-nvidia-backed-cohere-closes-in-on-5b-funding-round/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "NVIDIA strategic investment supports AI ecosystem demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62713396",
-    "created_at": "2026-10-29T19:00:22Z",
-    "headline": "\"Nvidia CEO Says Ties to Company Under Spying Probe Were \u2018Normal\u2019\" - Bloomberg News",
-    "url": "https://www.benzinga.com/news/26/10/62713396/nvidia-ceo-says-ties-company-under-spying-probe-were-normal-bloomberg-news",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Ongoing spying probe ties create regulatory and reputational overhang"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "108135694",
     "created_at": "2026-10-29T23:01:24Z",
     "headline": "Amazon Introduces New Capabilities for Alexa for Shopping",
@@ -3019,6 +2787,114 @@
         "sentiment": -0.4,
         "confidence": 0.6,
         "reason": "Fed signals two more rate hikes, hawkish for equities"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109015755",
+    "created_at": "2026-10-30T19:02:12Z",
+    "headline": "Microsoft and The Est\u00e9e Lauder Companies Announce Strategic AI Partnership",
+    "url": "https://www.barchart.com/press-releases/8554184/the-estee-lauder-companies-and-microsoft-announce-a-new-strategic-partnership-to-power-enterprise-efficiency-and-consumer-centric-growth",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Enterprise AI partnership with major consumer brand; modest positive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109015741",
+    "created_at": "2026-10-30T19:01:49Z",
+    "headline": "Meta Loses Legal Challenge Against UK Ofcom Information Requests",
+    "url": "https://www.tradingview.com/news/seekingalpha:f6ef062c1094b:0-meta-tiktok-and-x-lose-legal-challenge-to-uk-s-ofcom-information-request-reuters/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.1,
+        "confidence": 0.25,
+        "reason": "Lost UK regulatory challenge; minor compliance and regulatory overhang"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109013848",
+    "created_at": "2026-10-30T19:01:44Z",
+    "headline": "Intel Earnings Commentary Highlights Memory Chip Shortage Impact on Micron",
+    "url": "https://www.moomoo.com/hans/news/post/1003033756/micron-stock-drops-again-surging-memory-prices-aren-t-all",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.25,
+        "confidence": 0.4,
+        "reason": "Memory shortage boosts profits; cycle-sustainability concerns temper upside"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62756091",
+    "created_at": "2026-10-30T19:00:06Z",
+    "headline": "Elon Musk Sees Midterm Elections as A 'Crusade,' Is All In on Republicans, Biographer Says",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62756091/musk-midterm-spending",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "Musk political spending; possible brand distraction, no direct earnings effect"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62756057",
+    "created_at": "2026-10-30T18:59:24Z",
+    "headline": "U.S. Approves $2.1B Sale Of 500 Patriot Missiles To Ukraine",
+    "url": "https://www.benzinga.com/news/26/10/62756057/u-s-approves-2-1b-sale-500-patriot-missiles-ukraine",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine foreign military sale; negligible broad-market impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62754866",
+    "created_at": "2026-10-30T18:32:21Z",
+    "headline": "BZ Analysis: Over 60% Of The S&P 500's Components Are Now In Bear Market Territory, Down -20% Or More From Their Record Highs; Four of the Magnificent 7 Stocks Are Now In Bear Market Territory, With These Seven Names Erasing A Combined -$4 Trillion In Market Cap Since Their Highs",
+    "url": "https://www.benzinga.com/economics/26/10/62754866/bz-analysis-over-60-s-p-500-s-components-are-now-bear-market-territory-down-20-or-more-their-record-",
+    "source": "benzinga",
+    "market_risk": 0.6,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.6,
+        "confidence": 0.5,
+        "reason": "Over 60% of S&P components in bear market; broad breadth deterioration"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.6,
+        "confidence": 0.45,
+        "reason": "Four Magnificent 7 stocks in bear market; heavy tech drawdown"
       }
     ],
     "scorer": "claude"

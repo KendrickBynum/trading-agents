@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-10-30T18:36:10.636128+00:00",
-  "market_risk": 0.189,
+  "generated_at": "2026-10-30T19:35:24.096321+00:00",
+  "market_risk": 0.188,
   "tickers": {
     "SPY": {
-      "score": -0.294,
+      "score": -0.322,
       "articles": 15,
       "ai_articles": 15,
       "headlines": [
+        {
+          "headline": "BZ Analysis: Over 60% Of The S&P 500's Components Are Now In Bear Market Territory, Down -20% Or More From Their Record Highs; Four of the Magnificent 7 Stocks Are Now In Bear Market Territory, With These Seven Names Erasing A Combined -$4 Trillion In Market Cap Since Their Highs",
+          "url": "https://www.benzinga.com/economics/26/10/62754866/bz-analysis-over-60-s-p-500-s-components-are-now-bear-market-territory-down-20-or-more-their-record-",
+          "time": "2026-10-30T18:32:21Z",
+          "sentiment": -0.6,
+          "reason": "Over 60% of S&P components in bear market; broad breadth deterioration"
+        },
         {
           "headline": "BZ Analysis: Since 2000, There Have Been 911 Days That Saw More Than 400 Advancers For The S&P 500; Yesterday Was The First Day Ever That Was Negative",
           "url": "https://www.benzinga.com/economics/26/10/62754824/bz-analysis-2000-there-have-been-911-days-saw-more-400-advancers-s-p-500-yesterday-was-first-day-eve",
@@ -34,21 +41,21 @@
           "time": "2026-10-30T17:32:32Z",
           "sentiment": -0.4,
           "reason": "Fed signals two more rate hikes, hawkish for equities"
-        },
-        {
-          "headline": "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62750549/stock-market-today-intel-worst-day-on-record-chip-stocks-nasdaq",
-          "time": "2026-10-30T17:05:05Z",
-          "sentiment": -0.5,
-          "reason": "Broad market decline led by Nasdaq and chip stocks"
         }
       ]
     },
     "QQQ": {
-      "score": -0.391,
+      "score": -0.421,
       "articles": 10,
       "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "BZ Analysis: Over 60% Of The S&P 500's Components Are Now In Bear Market Territory, Down -20% Or More From Their Record Highs; Four of the Magnificent 7 Stocks Are Now In Bear Market Territory, With These Seven Names Erasing A Combined -$4 Trillion In Market Cap Since Their Highs",
+          "url": "https://www.benzinga.com/economics/26/10/62754866/bz-analysis-over-60-s-p-500-s-components-are-now-bear-market-territory-down-20-or-more-their-record-",
+          "time": "2026-10-30T18:32:21Z",
+          "sentiment": -0.6,
+          "reason": "Four Magnificent 7 stocks in bear market; heavy tech drawdown"
+        },
         {
           "headline": "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/10/62750549/stock-market-today-intel-worst-day-on-record-chip-stocks-nasdaq",
@@ -76,13 +83,6 @@
           "time": "2026-10-30T15:00:25Z",
           "sentiment": -0.2,
           "reason": "Defensives leading while technology and growth lag"
-        },
-        {
-          "headline": "Nasdaq Down Over 600 Points; Amazon Shares Fall Following Weak Q3 Results",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62738839/nasdaq-down-over-600-points-amazon-shares-fall-following-weak-q3-results",
-          "time": "2026-10-30T13:39:31Z",
-          "sentiment": -0.5,
-          "reason": "Nasdaq fell 2.36% on Amazon-led selloff"
         }
       ]
     },
@@ -115,10 +115,17 @@
       ]
     },
     "MSFT": {
-      "score": -0.057,
+      "score": -0.006,
       "articles": 8,
       "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Microsoft and The Est\u00e9e Lauder Companies Announce Strategic AI Partnership",
+          "url": "https://www.barchart.com/press-releases/8554184/the-estee-lauder-companies-and-microsoft-announce-a-new-strategic-partnership-to-power-enterprise-efficiency-and-consumer-centric-growth",
+          "time": "2026-10-30T19:02:12Z",
+          "sentiment": 0.2,
+          "reason": "Enterprise AI partnership with major consumer brand; modest positive"
+        },
         {
           "headline": "Why Is CoreWeave Stock Falling on Friday?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62744871/why-is-coreweave-stock-falling-on-friday",
@@ -146,20 +153,13 @@
           "time": "2026-10-30T06:21:23Z",
           "sentiment": -0.3,
           "reason": "Broad tech selloff pressures large-cap software names"
-        },
-        {
-          "headline": "Microsoft Reports Fiscal First-Quarter 2026 Financial Results",
-          "url": "https://www.manilatimes.net/2026/10/30/business/foreign-business/microsofts-cloud-growth-cash-flow-offer-respite-from-ai-spending-fears/2457803",
-          "time": "2026-10-30T02:01:36Z",
-          "sentiment": 0.6,
-          "reason": "Strong quarter: $92.28B revenue and 48% Azure growth"
         }
       ]
     },
     "NVDA": {
-      "score": -0.353,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.362,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
@@ -241,9 +241,9 @@
       ]
     },
     "GOOGL": {
-      "score": -0.378,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.389,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "Wall Street Is in Denial: AI Financing Problems Are Already Here, Barclays Strategist Warns",
@@ -332,8 +332,8 @@
     },
     "XOM": {
       "score": 0.387,
-      "articles": 14,
-      "ai_articles": 14,
+      "articles": 13,
+      "ai_articles": 13,
       "headlines": [
         {
           "headline": "ExxonMobil CEO Sees No Quick Fix for Global Refining Disruptions",
@@ -373,10 +373,17 @@
       ]
     },
     "MU": {
-      "score": -0.258,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.172,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Intel Earnings Commentary Highlights Memory Chip Shortage Impact on Micron",
+          "url": "https://www.moomoo.com/hans/news/post/1003033756/micron-stock-drops-again-surging-memory-prices-aren-t-all",
+          "time": "2026-10-30T19:01:44Z",
+          "sentiment": 0.25,
+          "reason": "Memory shortage boosts profits; cycle-sustainability concerns temper upside"
+        },
         {
           "headline": "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/10/62750549/stock-market-today-intel-worst-day-on-record-chip-stocks-nasdaq",
@@ -404,13 +411,6 @@
           "time": "2026-10-30T12:23:53Z",
           "sentiment": 0.3,
           "reason": "Cited memory shortages may support pricing for memory makers"
-        },
-        {
-          "headline": "SK Hynix, Samsung Tumble in South Korea as Wall Street's AI Sell-Off Rattles Asian Markets \u2014 KOSPI Triggers Rare Sell-Side Trading Halt",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62729331/sk-hynix-samsung-tumble-in-south-korea-as-wall-streets-ai-sell-off-rattles-asian-markets-kospi-triggers-rare-sell-side-trading-halt",
-          "time": "2026-10-30T09:00:05Z",
-          "sentiment": -0.4,
-          "reason": "Memory peers SK Hynix and Samsung plunge on AI spending fears"
         }
       ]
     },
