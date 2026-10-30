@@ -1,10 +1,29 @@
 {
-  "time": "2026-10-30T01:08:40.860682+00:00",
-  "halts": [
-    "Market closed"
-  ],
+  "time": "2026-10-30T13:36:33.107845+00:00",
+  "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "time": "2026-10-30T13:36:33.107845+00:00",
+      "symbol": "AAPL",
+      "side": "sell",
+      "reason": "negative news (-0.48)",
+      "score": -0.028,
+      "factors": {
+        "trend": 0.702,
+        "levels": 0.873,
+        "flow": -0.24,
+        "pattern": 0.116,
+        "news": -0.954
+      },
+      "news_score": -0.477,
+      "notional": 10021.53,
+      "realized_pl": 39.03,
+      "status": "submitted",
+      "order_id": "ce97efa5-6c2a-4a5c-8132-3ae6ba7dd59f",
+      "book": "stock"
+    }
+  ],
   "buy_threshold": 0.433,
   "exit_threshold": -0.295,
   "trailing_stop_pct": 0.04,

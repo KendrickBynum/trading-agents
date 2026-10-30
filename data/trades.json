@@ -142,5 +142,25 @@
     "notional": 1160.0,
     "reason": "PUT NVDA $217.5 exp 2026-11-20 (22d, delta -0.55) on score -0.32; max loss $1,160",
     "underlying": "NVDA"
+  },
+  {
+    "time": "2026-10-30T13:36:33.107845+00:00",
+    "symbol": "AAPL",
+    "side": "sell",
+    "reason": "negative news (-0.48)",
+    "score": -0.028,
+    "factors": {
+      "trend": 0.702,
+      "levels": 0.873,
+      "flow": -0.24,
+      "pattern": 0.116,
+      "news": -0.954
+    },
+    "news_score": -0.477,
+    "notional": 10021.53,
+    "realized_pl": 39.03,
+    "status": "submitted",
+    "order_id": "ce97efa5-6c2a-4a5c-8132-3ae6ba7dd59f",
+    "book": "stock"
   }
 ]

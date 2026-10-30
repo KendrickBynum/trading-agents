@@ -12,16 +12,27 @@
       "dte": 22,
       "limit": 11.6,
       "avg": 11.6
+    },
+    "XOM261120C00182500": {
+      "time": "2026-10-30T13:36:37.596781+00:00",
+      "underlying": "XOM",
+      "type": "call",
+      "score": 0.481,
+      "delta": 0.6679,
+      "iv": 0.2819,
+      "dte": 21,
+      "limit": 7.85
     }
   },
   "exits": {
     "GOOGL": "2026-10-29T17:35:41.529555+00:00"
   },
   "order_reasons": {
-    "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180"
+    "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180",
+    "fea96f75-5b1f-4afe-9437-4e679fcff3e2": "CALL XOM $182.5 exp 2026-11-20 (21d, delta +0.67) on score +0.48; max loss $785"
   },
   "logged_orders": [
     "58e92b03-69a5-4dab-928d-2ab5ad9316f9"
   ],
-  "last_order_check": "2026-10-30T01:08:42.218167+00:00"
+  "last_order_check": "2026-10-30T13:36:37.596781+00:00"
 }
