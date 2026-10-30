@@ -17,365 +17,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62725327",
-    "created_at": "2026-10-29T22:30:15Z",
-    "headline": "$1000 Invested In Tesla 15 Years Ago Would Be Worth This Much Today",
-    "url": "https://www.benzinga.com/news/26/10/62725327/1000-invested-tesla-15-years-ago-would-be-worth-much-today",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62724825",
-    "created_at": "2026-10-29T22:06:20Z",
-    "headline": "Amazon.com Q3 2026 Earnings Call Transcript",
-    "url": "https://www.benzinga.com/news/26/10/62724825/amazoncom-q3-2026-earnings-call-transcript",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62724648",
-    "created_at": "2026-10-29T22:00:30Z",
-    "headline": "El-Sayed Leads Michigan Senate Poll by 7 Points, Wants 50% Public Ownership of OpenAI, Anthropic",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62724648/el-sayed-ai-ownership",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62724275",
-    "created_at": "2026-10-29T21:48:24Z",
-    "headline": "Bernstein Maintains Market Perform on Alphabet, Lowers Price Target to $325",
-    "url": "https://www.benzinga.com/news/26/10/62724275/bernstein-maintains-market-perform-alphabet-lowers-price-target-325",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Market Perform rating with lowered price target to $325"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62723680",
-    "created_at": "2026-10-29T21:38:47Z",
-    "headline": "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $722",
-    "url": "https://www.benzinga.com/news/26/10/62723680/bernstein-maintains-outperform-microsoft-raises-price-target-722",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.3,
-        "confidence": 0.3,
-        "reason": "Outperform rating with raised price target to $722"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62723628",
-    "created_at": "2026-10-29T21:37:52Z",
-    "headline": "Amazon CEO Andy Jassy Says \"We Have Very Good Visibility Into Compute Capacity Demand In 2027 And 2028, And Some Of 2029 Too\"",
-    "url": "https://www.benzinga.com/news/26/10/62723628/amazon-ceo-andy-jassy-says-we-have-very-good-visibility-compute-capacity-demand-2027-and-2028-and-so",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "CEO signals strong visibility into multi-year compute demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107943648",
-    "created_at": "2026-10-29T21:31:44Z",
-    "headline": "Amazon Reports Fiscal Third-Quarter 2026 Financial Results",
-    "url": "https://www.barchart.com/story/news/8538865/amazon-s-3q-results-miss-analysts-estimates-but-posts-solid-sales-gains-in-cloud-computing-unit",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.4,
-        "reason": "Net income and sales missed estimates; AWS growth partly offsets"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107943646",
-    "created_at": "2026-10-29T21:31:37Z",
-    "headline": "Quantryon Capital Upgrades Meta to Buy",
-    "url": "https://www.tradingview.com/news/seekingalpha:86b88b9f6094b:0-sa-analyst-upgrades-downgrades-meta-nflx-intu-gnrc/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.4,
-        "confidence": 0.35,
-        "reason": "Upgrade to Buy citing advertising strength and AI monetization"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62723393",
-    "created_at": "2026-10-29T21:30:45Z",
-    "headline": "Amazon CEO Says AWS Backlog Is $578B, Growing Triple Digits YoY; Expect To Spend Meaningfully More On CAPEX In 2027; With Trainium Chip Demand So Strong, Customers Are Encouraging Us To Make It Available Outside Of AWS And We Intend To Do So Late In 2027; Expects Ad Sales To Return To High Teens Growth In Q4",
-    "url": "https://www.benzinga.com/news/26/10/62723393/amazon-ceo-says-aws-backlog-578b-growing-triple-digits-yoy-expect-spend-meaningfully-more-capex-2027",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "AWS backlog $578B growing triple digits; ad sales guided up"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Trainium external availability could pressure AI accelerator share"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62721264",
-    "created_at": "2026-10-29T20:39:07Z",
-    "headline": "Amazon Announces AWS Investment In Functionality And Infrastructure Is Working, Projected Rev Growth Rates Of Over 40% Both In 2027 And In 2028; AWS Investment In Functionality & Infrastructure Is Working, With Over 39% YoY Rev Growth In Q3 , $184B Revenue Run Rate; Expect YoY Advertising Revenue To Grow In High Teens In Q4",
-    "url": "https://www.benzinga.com/quote/AMZN",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.5,
-        "confidence": 0.5,
-        "reason": "AWS 39% Q3 growth; projects over 40% growth in 2027-2028"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62720746",
-    "created_at": "2026-10-29T20:32:28Z",
-    "headline": "Amazon Reaffirms ~$220B 2026 Capex; Trailing 12-Month Free Cash Flow Turns To $42.4B Outflow On AI Spending",
-    "url": "https://www.benzinga.com/quote/AMZN",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Trailing free cash flow turns to $42.4B outflow on AI capex"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62720668",
-    "created_at": "2026-10-29T20:32:08Z",
-    "headline": "Amazon Q3 Operating Income Rises To Record $28.1B, AWS Sales Up 39% To $46.0B; EPS Decline Reflects $9.5B Anthropic Gain In Year-Ago Quarter",
-    "url": "https://www.benzinga.com/quote/AMZN",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.3,
-        "confidence": 0.5,
-        "reason": "Record operating income and AWS up 39%; EPS decline reflects year-ago gain"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107835624",
-    "created_at": "2026-10-29T20:31:32Z",
-    "headline": "Meta Loses Appeal in French Media Payment Dispute",
-    "url": "https://www.tradingview.com/news/gurufocus:7ddc2b011094b:0-meta-suffers-french-court-setback-in-media-payment-fight/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Lost appeal; must negotiate payments with French news publishers"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107835623",
-    "created_at": "2026-10-29T20:31:27Z",
-    "headline": "Apple Faces Long-Term Chip Supply Constraints Through 2030",
-    "url": "https://appleosophy.com/2026/10/29/why-apple-products-prices-may-keep-rising-until-2030/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Chip shortages may persist to 2030, raising component costs"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "107835622",
-    "created_at": "2026-10-29T20:31:24Z",
-    "headline": "NVIDIA Refutes Allegations Regarding CEO and Chinese Intelligence",
-    "url": "https://www.tradingview.com/news/seekingalpha:9a1701a5d094b:0-nvidia-refutes-nyt-article-claiming-chinese-spy-targeted-ceo-and-us-failed-to-act/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Formal denial of espionage allegations removes some uncertainty"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62720490",
-    "created_at": "2026-10-29T20:31:02Z",
-    "headline": "JP Morgan Maintains Overweight on Alphabet, Lowers Price Target to $375",
-    "url": "https://www.benzinga.com/news/26/10/62720490/jp-morgan-maintains-overweight-alphabet-lowers-price-target-375",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Overweight maintained but price target lowered to $375"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62720440",
-    "created_at": "2026-10-29T20:30:41Z",
-    "headline": "Bitcoin Could Repeat Its SpaceX IPO Dump Ahead of Anthropic IPO, Analyst Warns",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/10/62720440/bitcoin-could-repeat-its-spacex-ipo-dump-ahead-of-anthropic-ipo-analyst-warns",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Anthropic IPO may pull speculative capital from crypto and risk assets"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62719574",
-    "created_at": "2026-10-29T20:21:36Z",
-    "headline": "RBC Capital Reiterates Outperform on Microsoft, Maintains $640 Price Target",
-    "url": "https://www.benzinga.com/news/26/10/62719574/rbc-capital-reiterates-outperform-microsoft-maintains-640-price-target",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "RBC reiterates Outperform with $640 price target"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62719400",
-    "created_at": "2026-10-29T20:20:31Z",
-    "headline": "Amazon Delivers Q3 Double Miss, AWS Growth Accelerates, Shares Drop",
-    "url": "https://www.benzinga.com/markets/earnings/26/10/62719400/amazon-delivers-q3-double-miss-aws-growth-accelerates-shares-drop",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.4,
-        "confidence": 0.6,
-        "reason": "Double miss on earnings and shares dropping despite AWS acceleration"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62718149",
-    "created_at": "2026-10-29T20:11:31Z",
-    "headline": "Oil Stocks in Spotlight Friday: Chevron, ExxonMobil, BP Could Show Impact of Higher Gas Prices",
-    "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62718149/oil-stocks-in-spotlight-friday-chevron-exxonmobil-bp-could-show-impact-of-higher-gas-prices",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Oil stocks at decade highs; higher gas prices may lift earnings"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62716343",
-    "created_at": "2026-10-29T20:01:56Z",
-    "headline": "Amazon.com Sees Q4 Sales $240.000B-$247.000B vs $244.513B Est",
-    "url": "https://www.benzinga.com/news/26/10/62716343/amazon-com-sees-q4-sales-240-000b-247-000b-vs-244-513b-est",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Q4 sales guidance midpoint slightly below consensus estimate"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62716265",
-    "created_at": "2026-10-29T20:01:32Z",
-    "headline": "Amazon.com Q3 EPS $1.89 Misses $1.97 Estimate, Sales $201.944B Miss $202.308B Estimate",
-    "url": "https://www.benzinga.com/news/earnings/26/10/62716265/amazon-com-q3-eps-1-89-misses-1-97-estimate-sales-201-944b-miss-202-308b-estimate",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Q3 EPS and sales both missed consensus estimates"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "108268664",
     "created_at": "2026-10-30T00:01:42Z",
     "headline": "AMD Expands AI Infrastructure Collaboration with Oracle Cloud",
@@ -2895,6 +2536,296 @@
         "sentiment": -0.6,
         "confidence": 0.45,
         "reason": "Four Magnificent 7 stocks in bear market; heavy tech drawdown"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62761220",
+    "created_at": "2026-10-30T21:42:43Z",
+    "headline": "'White House to Nominate Mufarrige to FTC Commissioner Spot'- Bloomberg",
+    "url": "https://www.benzinga.com/news/26/10/62761220/white-house-nominate-mufarrige-ftc-commissioner-spot-bloomberg",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "109301483",
+    "created_at": "2026-10-30T21:31:42Z",
+    "headline": "Bank of America Highlights Regulatory Challenges for Potential Tesla-SpaceX Merger",
+    "url": "https://www.tradingview.com/news/stocktwits:dbbea1551094b:0-tesla-spacex-merger-could-face-the-biggest-regulatory-risk-in-china-bofa-warns/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Potential China regulatory hurdles for Tesla-SpaceX merger"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109301479",
+    "created_at": "2026-10-30T21:31:38Z",
+    "headline": "Amazon Pharmacy Reports Significant Growth in Customers and Delivery Reach",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-fills-prescription-chatgpt-cannot/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Pharmacy customer growth and faster delivery expansion"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109301476",
+    "created_at": "2026-10-30T21:31:27Z",
+    "headline": "Microsoft Plans $25 Billion Investment-Grade Bond Sale",
+    "url": "https://www.manilatimes.net/2026/10/31/business/foreign-business/microsoft-looking-to-raise-25b-for-ai-push/2458225",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "$25B bond sale may signal heavy AI capex funding needs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62760869",
+    "created_at": "2026-10-30T21:21:23Z",
+    "headline": "'Alphabet Is in Talks to Join Trump\u2019s Golden Dome Defense Program'- Bloomberg",
+    "url": "https://www.benzinga.com/news/26/10/62760869/alphabet-talks-join-trump-s-golden-dome-defense-program-bloomberg",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Talks to join Golden Dome defense program, a government contract opportunity"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62760647",
+    "created_at": "2026-10-30T21:08:30Z",
+    "headline": "Citigroup Maintains Buy on Alphabet, Lowers Price Target to $375",
+    "url": "https://www.benzinga.com/news/26/10/62760647/citigroup-maintains-buy-alphabet-lowers-price-target-375",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Buy rating kept but price target cut to $375"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62760617",
+    "created_at": "2026-10-30T21:07:33Z",
+    "headline": "Meta Platforms Outlook Revised To Negative On Significant Uncertainty Around Capex And Free Operating Cash Flow",
+    "url": "https://www.benzinga.com/news/26/10/62760617/meta-platforms-outlook-revised-negative-significant-uncertainty-around-capex-and-free-operating-cash",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Outlook cut to negative on capex and cash flow uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62760190",
+    "created_at": "2026-10-30T20:55:28Z",
+    "headline": "Alphabet Posts Worst Week Since 2011, Intel Suffers Record Crash as Warsh Sees 'Cracks': This Week on Wall Street",
+    "url": "https://www.benzinga.com/markets/market-summary/26/10/62760190/alphabet-worst-week-since-2011-intel-record-crash-warsh-cracks-this-week-on-wall-street",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.5,
+        "confidence": 0.5,
+        "reason": "Worst week since 2011 as AI trade shows cracks"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Chip sector sell-off with AI trade cracking; Intel record crash"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Broad AI-trade weakness spilling into megacap tech"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Weak tech tape, limited direct exposure to AI trade stress"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Warsh flags market cracks; tech-led weakness this week"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109187182",
+    "created_at": "2026-10-30T20:32:07Z",
+    "headline": "Meta Reaches Settlement in Social Media Addiction Trial",
+    "url": "https://www.marketscreener.com/news/meta-settles-with-plaintiffs-set-for-social-media-addiction-trial-in-los-angeles-next-week-ce785fdbd18af12c",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Settlement removes uncertainty from addiction trial"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109187176",
+    "created_at": "2026-10-30T20:31:58Z",
+    "headline": "JPMorgan Chase Faces Potential Additional Regulatory Costs",
+    "url": "https://www.tradingview.com/symbols/BVL-JPMUS/news/?section=top_news",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Possible additional regulatory payments of \u00a3100M-\u00a3150M"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109185250",
+    "created_at": "2026-10-30T20:31:43Z",
+    "headline": "Amazon Discloses Prime Video Profitability and Revenue Scale",
+    "url": "https://www.tradingview.com/news/gurufocus:917e0e8bc094b:0-amazon-says-prime-video-is-now-a-tens-of-billions-business/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Prime Video now profitable with tens of billions in revenue"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109185247",
+    "created_at": "2026-10-30T20:31:30Z",
+    "headline": "NVIDIA Customer AM Intelligence Seeks $3 Billion Financing for Processor Order",
+    "url": "https://www.moomoo.com/news/post/1002985226/market-chatter-nvidia-chip-buyer-am-intelligence-plans-up-to",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Customer order demand, though buyer needs $3B financing"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62758904",
+    "created_at": "2026-10-30T20:09:30Z",
+    "headline": "Iran's IRIB Reports Iran's Revolutionary Guards Say Fourth Tanker Explodes After Hitting Mine In Strait Of Hormuz; Say Tanker Ignored Warnings Against Using 'Unauthorized Route' Through Strait Of Hormuz",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/10/62758904/iran-s-irib-reports-iran-s-revolutionary-guards-say-fourth-tanker-explodes-after-hitting-mine-strait",
+    "source": "benzinga",
+    "market_risk": 0.6,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Tanker mine blast in Hormuz raises Middle East escalation and risk-off fears"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.4,
+        "confidence": 0.45,
+        "reason": "Hormuz disruption threatens oil supply, likely lifting crude and energy prices"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Geopolitical shock likely hits growth and tech sentiment short term"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62758202",
+    "created_at": "2026-10-30T19:59:46Z",
+    "headline": "Qatari Negotiators Have Been In Tehran With Ongoing Talks For 12 Hours; Qatari Mediators Have Also Been In Touch Regularly With The White House During The Day, Axios Correspondent Barak Ravid Says On Social Media, Citing Sources",
+    "url": "https://www.benzinga.com/news/26/10/62758202/qatari-negotiators-have-been-in-tehran-with-ongoing-talks-for-12-hours-qatari-mediators-have-also-been-in-touch-regularly-with-the-white-house-during-the-day-axios-correspondent-barak-ravid-says-on",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.25,
+        "confidence": 0.35,
+        "reason": "Active Qatari-mediated talks with Tehran may ease Middle East tensions"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Diplomacy hopes could reduce oil supply risk premium"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62757690",
+    "created_at": "2026-10-30T19:43:55Z",
+    "headline": "Scotiabank Maintains Sector Outperform on Amazon.com, Lowers Price Target to $300",
+    "url": "https://www.benzinga.com/news/26/10/62757690/scotiabank-maintains-sector-outperform-amazon-com-lowers-price-target-300",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Price target cut despite maintained outperform rating; mildly negative"
       }
     ],
     "scorer": "claude"
