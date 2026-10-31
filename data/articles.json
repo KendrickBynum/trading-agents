@@ -1,73 +1,5 @@
 [
   {
-    "id": "108135694",
-    "created_at": "2026-10-29T23:01:24Z",
-    "headline": "Amazon Introduces New Capabilities for Alexa for Shopping",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-adds-100-plus-capabilities-to-ai-shopping-assistant/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Incremental Alexa shopping features; modest consumer-engagement benefit"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "108268664",
-    "created_at": "2026-10-30T00:01:42Z",
-    "headline": "AMD Expands AI Infrastructure Collaboration with Oracle Cloud",
-    "url": "https://www.tradingview.com/news/gurufocus:6faa2c101094b:0-amd-stocks-decline-with-oracle-rollout-details-still-to-come/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.35,
-        "confidence": 0.5,
-        "reason": "Expanded Oracle Cloud AI partnership could lift data center demand for EPYC"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "108268663",
-    "created_at": "2026-10-30T00:01:40Z",
-    "headline": "Amazon Surpasses One Million Robots in Fulfillment Network",
-    "url": "https://www.pymnts.com/earnings/2026/amazon-puts-a-million-robots-behind-its-ai-ambitions/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Robotics scale-up may improve fulfillment efficiency; largely incremental news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "108268662",
-    "created_at": "2026-10-30T00:01:39Z",
-    "headline": "Micron Stock Declines Following Samsung Earnings Report",
-    "url": "https://www.moomoo.com/hans/news/post/1002835539/micron-dips-as-samsung-earnings-show-the-high-bar-for",
-    "source": "fiscal.ai",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Premarket drop on Samsung earnings miss may signal weaker memory sector sentiment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62735230",
     "created_at": "2026-10-30T12:22:57Z",
     "headline": "Andy Jassy Says West Is 'Very Hungry' For More Western Open Source AI Models as Amazon Adds China's Kimi and GLM to Bedrock",
@@ -2826,6 +2758,23 @@
         "sentiment": -0.1,
         "confidence": 0.3,
         "reason": "Price target cut despite maintained outperform rating; mildly negative"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "109629293",
+    "created_at": "2026-10-31T00:01:24Z",
+    "headline": "Bank of America Lowers Fiscal 2027 iPhone Forecast for Apple",
+    "url": "https://www.tradingview.com/news/gurufocus:e2f8b7067094b:0-bank-of-america-delivers-stark-warning-on-apple-stock-ahead-of-earnings/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "BofA cuts FY2027 iPhone shipment forecast by 9M units"
       }
     ],
     "scorer": "claude"
