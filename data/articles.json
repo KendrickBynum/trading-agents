@@ -1094,29 +1094,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62766301",
-    "created_at": "2026-11-01T17:45:07Z",
-    "headline": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62766301/sp-500-dow-jones-and-nasdaq-100-outlook-top-drivers-for-us-stocks-this-week",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Recent index pullback noted; generic weekly preview, mostly priced in"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Nasdaq 100 pullback noted; generic weekly preview, mostly priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62781991",
     "created_at": "2026-11-02T15:15:20Z",
     "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
@@ -1766,6 +1743,131 @@
         "reason": "Q3 beat and raised targets, but shares fell 2.9%, suggesting mixed reception"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62790600",
+    "created_at": "2026-11-02T18:26:57Z",
+    "headline": "What's Going on With Taiwan Semiconductor Stock on Monday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62790600/whats-going-on-with-taiwan-semiconductor-stock-on-monday-4",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Musk reconsidering TSMC's role in Terafab is speculative and mostly priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62790518",
+    "created_at": "2026-11-02T18:24:36Z",
+    "headline": "Amazon's $2 Billion Data Center Faces Election Day Threat as Voters Weigh 41 AI Infrastructure Measures",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62790518/amazon-data-center-vote",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Local Ohio vote on data center is a minor, long-horizon obstacle"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62790125",
+    "created_at": "2026-11-02T18:11:26Z",
+    "headline": "Google Says Demand Will Swallow Every Data Center It Builds",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62790125/google-says-demand-will-swallow-every-data-center-it-builds",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Executive says AI data center demand exceeds supply, a mildly bullish signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62789109",
+    "created_at": "2026-11-02T17:48:50Z",
+    "headline": "AMD Q3 Preview: Expert Says \u2018Growth Story Remains Impressive,\u2019 Can Earnings Send Stock Back to Highs?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62789109/amd-q3-preview-expert-says-growth-story-remains-impressive-can-earnings-send-stock-back-to-highs",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Q3 earnings preview is positive but uncertain, with shares already off highs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62788494",
+    "created_at": "2026-11-02T17:35:55Z",
+    "headline": "Exelon's Pepco Under U.S. State Department's Probe For Washington D.C. Power Outage, Daily Wire Correspondent Says",
+    "url": "https://www.benzinga.com/government/26/11/62788494/exelon-s-pepco-under-u-s-state-department-s-probe-washington-d-c-power-outage-daily-wire-corresponde",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62788452",
+    "created_at": "2026-11-02T17:35:10Z",
+    "headline": "10 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/11/62788452/10-consumer-discretionary-stocks-whale-activity-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62788450",
+    "created_at": "2026-11-02T17:35:10Z",
+    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/11/62788450/10-information-technology-stocks-whale-alerts-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62788438",
+    "created_at": "2026-11-02T17:35:06Z",
+    "headline": "Morgan Stanley Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $187",
+    "url": "https://www.benzinga.com/news/26/11/62788438/morgan-stanley-maintains-overweight-exxonmobil-holdings-raises-price-target-187",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Morgan Stanley reiterates Overweight and raises price target to $187"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62788393",
+    "created_at": "2026-11-02T17:34:11Z",
+    "headline": "Power Outage Hits Washington D.C.",
+    "url": "https://www.benzinga.com/news/26/11/62788393/power-outage-hits-washington-d-c",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
