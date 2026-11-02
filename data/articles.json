@@ -1117,53 +1117,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62766282",
-    "created_at": "2026-11-01T17:30:06Z",
-    "headline": "$600B Tech Wipeout Meets $1.48T Margin Debt",
-    "url": "https://www.benzinga.com/markets/market-summary/26/11/62766282/600b-tech-wipeout-meets-1-48t-margin-debt",
-    "source": "benzinga",
-    "market_risk": 0.6,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Two-day tech rout erased major value over cash-draining AI spending"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Tech selloff over AI spending concerns hits megacap peers"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Tech rout punishing heavy AI capex across megacaps"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Tech rout punishing heavy AI capex across megacaps"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "AI spending selloff and margin debt concerns weigh on AI names"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "AI spending selloff and margin debt concerns weigh on AI chip names"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62781991",
     "created_at": "2026-11-02T15:15:20Z",
     "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
@@ -1564,6 +1517,253 @@
         "sentiment": -0.5,
         "confidence": 0.5,
         "reason": "S&P negative outlook; dilution, negative cash flow, CapEx concerns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62788338",
+    "created_at": "2026-11-02T17:32:47Z",
+    "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.6,
+        "confidence": 0.6,
+        "reason": "Oil down 7% on Iran peace hopes hurts energy producers"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Lower yields and falling oil lift Amazon, per the summary"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.3,
+        "confidence": 0.5,
+        "reason": "Dow up 1% on falling oil and lower Treasury yields"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Lower yields and risk-on tone support growth tech"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62788232",
+    "created_at": "2026-11-02T17:30:22Z",
+    "headline": "Ed Yardeni's Midterms Prediction: Democratic Sweep Could Be a 'Cold Shower' for Stock Market",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62788232/yardeni-midterms-stocks",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Analyst warns of possible midterm-driven gridlock volatility"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62788161",
+    "created_at": "2026-11-02T17:28:25Z",
+    "headline": "Amazon Stock Rises: What's Going On?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62788161/amazon-stock-rises-whats-going-on",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Shares rebound after a week of declines; Thanksgiving deal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62788094",
+    "created_at": "2026-11-02T17:27:10Z",
+    "headline": "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $510",
+    "url": "https://www.benzinga.com/news/26/11/62788094/morgan-stanley-maintains-equal-weight-advanced-micro-devices-raises-price-target-510",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Price target raised to $510, though rating held at equal-weight"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62787979",
+    "created_at": "2026-11-02T17:24:37Z",
+    "headline": "Apple Is Big Tech's Safe Haven \u2014 but Has Its Price Tag Become Too Steep?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62787979/apple-is-big-techs-safe-haven-but-has-its-price-tag-become-too-steep",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.0,
+        "confidence": 0.3,
+        "reason": "Pre-earnings valuation debate; no clear directional catalyst"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62787441",
+    "created_at": "2026-11-02T17:10:54Z",
+    "headline": "CrowdStrike, Dell Introduce Integrated Security Tool For Dell AI Factory For Clients To Use CrowdStrike Falcon Platform Alongside Dell AI Infrastructure, Nvidia Accelerated Computing",
+    "url": "https://www.benzinga.com/news/26/11/62787441/crowdstrike-dell-introduce-integrated-security-tool-dell-ai-factory-clients-use-crowdstrike-falcon-p",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Partnership tool for Dell AI Factory; incremental news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62787359",
+    "created_at": "2026-11-02T17:09:30Z",
+    "headline": "USDA Confirms Highly Pathogenic Avian Influenza In A Dairy Herd In Indiana",
+    "url": "https://www.benzinga.com/general/biotech/26/11/62787359/usda-confirms-highly-pathogenic-avian-influenza-dairy-herd-indiana",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62785539",
+    "created_at": "2026-11-02T16:33:39Z",
+    "headline": "Apple\u2014A Safe Haven From The AI Storm?",
+    "url": "https://www.benzinga.com/opinion/26/11/62785539/apple-a-safe-haven-from-the-ai-storm",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.3,
+        "reason": "Semiconductor and AI trade shaken, flows rotating out"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "AI-driven tech selloff pressure on growth index"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Seen as a safe haven from AI-trade volatility"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62787109",
+    "created_at": "2026-11-02T17:06:25Z",
+    "headline": "Google Reaches An Agreement With Prospect Union, Granting The Union The Right To Represent And Speak To Google Employees In The UK",
+    "url": "https://www.benzinga.com/news/26/11/62787109/google-reaches-agreement-prospect-union-granting-union-right-represent-and-speak-google-employees-uk",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62786997",
+    "created_at": "2026-11-02T17:04:31Z",
+    "headline": "Italy Transport Ministry Says Tesla New Car Registrations In Italy Up 94.14% YoY In October",
+    "url": "https://www.benzinga.com/news/26/11/62786997/italy-transport-ministry-says-tesla-new-car-registrations-italy-94-14-yoy-october",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Italy new Tesla registrations up 94% YoY in October"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62786735",
+    "created_at": "2026-11-02T17:00:24Z",
+    "headline": "Mark Cuban Says Elon Musk Is Amazing and the \u2018Best Entrepreneur of Our Lifetime,\u2019 But He\u2019s a Salesman \u2014 \u2018He\u2019s Gotta Sell What He\u2019s Got to Sell\u2019",
+    "url": "https://www.benzinga.com/news/space/26/11/62786735/mark-cuban-says-elon-musk-is-amazing-and-the-best-entrepreneur-of-our-lifetime-but-hes-a-salesman-hes-gotta-sell-what-hes-got-to-sell",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62786129",
+    "created_at": "2026-11-02T16:47:13Z",
+    "headline": "Portugal's New Registrations Of Tesla Cars Rise 186.1% In October YoY, Up 62.5% In January-October",
+    "url": "https://www.benzinga.com/news/26/11/62786129/portugal-s-new-registrations-tesla-cars-rise-186-1-october-yoy-62-5-january-october",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Portugal Tesla registrations up 186% YoY; small market"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62785788",
+    "created_at": "2026-11-02T16:37:23Z",
+    "headline": "'Meta Readies Cross-Border Investment Bond Offering' - Bloomberg",
+    "url": "https://www.benzinga.com/news/26/11/62785788/meta-readies-cross-border-investment-bond-offering-bloomberg",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Routine cross-border bond offering; financing news with little expected price effect"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62785682",
+    "created_at": "2026-11-02T16:36:37Z",
+    "headline": "These Analysts Boost Their Forecasts On ExxonMobil After Upbeat Q3 Results",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62785682/these-analysts-boost-their-forecasts-on-exxonmobil-after-upbeat-q3-results",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Q3 beat and raised targets, but shares fell 2.9%, suggesting mixed reception"
       }
     ],
     "scorer": "claude"

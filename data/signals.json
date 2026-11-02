@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-02T16:35:28.484074+00:00",
-  "market_risk": 0.116,
+  "generated_at": "2026-11-02T17:35:22.088573+00:00",
+  "market_risk": 0.104,
   "tickers": {
     "SPY": {
-      "score": 0.03,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.081,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
+          "time": "2026-11-02T17:32:47Z",
+          "sentiment": 0.3,
+          "reason": "Dow up 1% on falling oil and lower Treasury yields"
+        },
         {
           "headline": "'Iran threatens US bases in Europe if Trump orders new strikes' - The Times",
           "url": "https://www.benzinga.com/news/26/11/62784014/iran-threatens-us-bases-europe-if-trump-orders-new-strikes-times",
@@ -34,21 +41,28 @@
           "time": "2026-11-02T14:45:07Z",
           "sentiment": -0.15,
           "reason": "S&P Global manufacturing PMI missed estimates, weakening outlook"
-        },
-        {
-          "headline": "Iran Foreign Minister Araghchi Says That If The U.S. Accepts Our Conditions, Strait Of Hormuz Will Be Reopened And Negotiations Will Be Resumed; Consultations Through Mediators Qatar And Pakistan Are Very Intense",
-          "url": "https://www.benzinga.com/news/26/11/62779349/iran-foreign-minister-araghchi-says-if-u-s-accepts-our-conditions-strait-hormuz-will-be-reopened-and",
-          "time": "2026-11-02T14:25:18Z",
-          "sentiment": 0.3,
-          "reason": "Possible Hormuz reopening and talks could ease geopolitical risk"
         }
       ]
     },
     "QQQ": {
-      "score": 0.126,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.081,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
+          "time": "2026-11-02T17:32:47Z",
+          "sentiment": 0.2,
+          "reason": "Lower yields and risk-on tone support growth tech"
+        },
+        {
+          "headline": "Apple\u2014A Safe Haven From The AI Storm?",
+          "url": "https://www.benzinga.com/opinion/26/11/62785539/apple-a-safe-haven-from-the-ai-storm",
+          "time": "2026-11-02T16:33:39Z",
+          "sentiment": -0.2,
+          "reason": "AI-driven tech selloff pressure on growth index"
+        },
         {
           "headline": "\u2018Big Short\u2019 Investor Steve Eisman Warns AI Price Cuts and Slowing Usage Could Trigger a Massive Stock Market Correction \u2014 \u2018...Could Go Into a Recession Immediately\u2019",
           "url": "https://www.benzinga.com/markets/tech/26/11/62777488/big-short-investor-steve-eisman-warns-ai-price-cuts-and-slowing-usage-could-trigger-a-massive-stock-market-correction-could-go-into-a-recession-immediately",
@@ -69,13 +83,6 @@
           "time": "2026-11-02T05:47:19Z",
           "sentiment": 0.15,
           "reason": "Futures firm on easing oil prices and Apple earnings anticipation"
-        },
-        {
-          "headline": "Trump Says Iran War Will End \u2018One Way or the Other\u2019 Ahead of Midterms Tuesday: Dow Futures Rise 184 Points, Brent Crude Falls to $111",
-          "url": "https://www.benzinga.com/markets/economic-data/26/11/62767505/trump-iran-war-midterms-dow-futures-rise-brent-crude-111",
-          "time": "2026-11-02T02:44:14Z",
-          "sentiment": 0.4,
-          "reason": "Iran war end signaled; broad risk-on rally in futures"
         }
       ]
     },
@@ -108,9 +115,9 @@
       ]
     },
     "MSFT": {
-      "score": 0.033,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Lumen Technologies And Microsoft Announce Expanded Co-Selling Collaboration, Lumen Plans To Bring Full Cloud Networking Suite To Azure",
@@ -118,21 +125,21 @@
           "time": "2026-11-02T13:32:32Z",
           "sentiment": 0.15,
           "reason": "Lumen adds cloud networking suite to Azure; modest positive"
-        },
-        {
-          "headline": "$600B Tech Wipeout Meets $1.48T Margin Debt",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62766282/600b-tech-wipeout-meets-1-48t-margin-debt",
-          "time": "2026-11-01T17:30:06Z",
-          "sentiment": -0.3,
-          "reason": "Tech rout punishing heavy AI capex across megacaps"
         }
       ]
     },
     "NVDA": {
-      "score": -0.127,
+      "score": -0.138,
       "articles": 14,
       "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "Apple\u2014A Safe Haven From The AI Storm?",
+          "url": "https://www.benzinga.com/opinion/26/11/62785539/apple-a-safe-haven-from-the-ai-storm",
+          "time": "2026-11-02T16:33:39Z",
+          "sentiment": -0.3,
+          "reason": "Semiconductor and AI trade shaken, flows rotating out"
+        },
         {
           "headline": "Elon Musk's SpaceX Plan Swallows Nvidia's Entire $300 Billion Growth Forecast \u2014 And Then Some",
           "url": "https://www.benzinga.com/markets/tech/26/11/62785016/elon-musk-spacex-plan-swallows-nvidia-growth-forecast",
@@ -160,21 +167,28 @@
           "time": "2026-11-02T14:27:57Z",
           "sentiment": -0.3,
           "reason": "Target cut to $315 despite Buy rating; valuation pressure"
-        },
-        {
-          "headline": "Semiconductor Stocks Are Cheaper Than the S&P 500: Is It Time to Buy SOXX and SMH ETFs?",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62779160/semiconductor-stocks-are-cheaper-than-the-sp-500-is-it-time-to-buy-soxx-and-smh-etfs",
-          "time": "2026-11-02T14:16:48Z",
-          "sentiment": 0.15,
-          "reason": "Semis cheaper after selloff; possible valuation-driven rebound"
         }
       ]
     },
     "AMZN": {
-      "score": -0.26,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.129,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
+          "time": "2026-11-02T17:32:47Z",
+          "sentiment": 0.3,
+          "reason": "Lower yields and falling oil lift Amazon, per the summary"
+        },
+        {
+          "headline": "Amazon Stock Rises: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62788161/amazon-stock-rises-whats-going-on",
+          "time": "2026-11-02T17:28:25Z",
+          "sentiment": 0.3,
+          "reason": "Shares rebound after a week of declines; Thanksgiving deal"
+        },
         {
           "headline": "Top Analyst Warns Amazon Could \u2018Kill the Golden Goose\u2019 by Embracing AI Shopping Bots \u2014 Says Jeff Bezos\u2019 E-Commerce Giant Must Rethink Its Business Model",
           "url": "https://www.benzinga.com/markets/tech/26/11/62770465/top-analyst-warns-amazon-could-kill-the-golden-goose-by-embracing-ai-shopping-bots-says-jeff-bezos-e-commerce-giant-must-rethink-its-business-model",
@@ -188,34 +202,19 @@
           "time": "2026-11-02T08:55:30Z",
           "sentiment": -0.3,
           "reason": "Tech-wide selloff pressures large-cap growth names"
-        },
-        {
-          "headline": "$600B Tech Wipeout Meets $1.48T Margin Debt",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62766282/600b-tech-wipeout-meets-1-48t-margin-debt",
-          "time": "2026-11-01T17:30:06Z",
-          "sentiment": -0.3,
-          "reason": "Tech rout punishing heavy AI capex across megacaps"
         }
       ]
     },
     "GOOGL": {
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
+    },
+    "META": {
       "score": -0.5,
       "articles": 1,
       "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "$600B Tech Wipeout Meets $1.48T Margin Debt",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62766282/600b-tech-wipeout-meets-1-48t-margin-debt",
-          "time": "2026-11-01T17:30:06Z",
-          "sentiment": -0.5,
-          "reason": "Two-day tech rout erased major value over cash-draining AI spending"
-        }
-      ]
-    },
-    "META": {
-      "score": -0.487,
-      "articles": 2,
-      "ai_articles": 2,
       "headlines": [
         {
           "headline": "What Is Going On With Meta Platforms Stock on Monday?",
@@ -223,13 +222,6 @@
           "time": "2026-11-02T15:34:58Z",
           "sentiment": -0.5,
           "reason": "S&P negative outlook; dilution, negative cash flow, CapEx concerns"
-        },
-        {
-          "headline": "$600B Tech Wipeout Meets $1.48T Margin Debt",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62766282/600b-tech-wipeout-meets-1-48t-margin-debt",
-          "time": "2026-11-01T17:30:06Z",
-          "sentiment": -0.4,
-          "reason": "Tech selloff over AI spending concerns hits megacap peers"
         }
       ]
     },
@@ -248,10 +240,17 @@
       ]
     },
     "XOM": {
-      "score": 0.087,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.127,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
+          "time": "2026-11-02T17:32:47Z",
+          "sentiment": -0.6,
+          "reason": "Oil down 7% on Iran peace hopes hurts energy producers"
+        },
         {
           "headline": "'Iran threatens US bases in Europe if Trump orders new strikes' - The Times",
           "url": "https://www.benzinga.com/news/26/11/62784014/iran-threatens-us-bases-europe-if-trump-orders-new-strikes-times",
@@ -279,13 +278,6 @@
           "time": "2026-11-02T13:31:03Z",
           "sentiment": 0.2,
           "reason": "Analyst raises price target but keeps equal-weight rating"
-        },
-        {
-          "headline": "ExxonMobil Increases Stakes in Rovuma LNG and Papua LNG Projects",
-          "url": "https://www.diarioeconomico.co.mz/2026/11/02/oilgas/area-4-exxonmobil-acorda-reforco-no-rovuma-lng-para-50/",
-          "time": "2026-11-02T12:31:26Z",
-          "sentiment": 0.2,
-          "reason": "Increased LNG project stakes could add long-term production growth"
         }
       ]
     },
@@ -346,10 +338,24 @@
       ]
     },
     "TSLA": {
-      "score": 0.133,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.249,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Italy Transport Ministry Says Tesla New Car Registrations In Italy Up 94.14% YoY In October",
+          "url": "https://www.benzinga.com/news/26/11/62786997/italy-transport-ministry-says-tesla-new-car-registrations-italy-94-14-yoy-october",
+          "time": "2026-11-02T17:04:31Z",
+          "sentiment": 0.4,
+          "reason": "Italy new Tesla registrations up 94% YoY in October"
+        },
+        {
+          "headline": "Portugal's New Registrations Of Tesla Cars Rise 186.1% In October YoY, Up 62.5% In January-October",
+          "url": "https://www.benzinga.com/news/26/11/62786129/portugal-s-new-registrations-tesla-cars-rise-186-1-october-yoy-62-5-january-october",
+          "time": "2026-11-02T16:47:13Z",
+          "sentiment": 0.3,
+          "reason": "Portugal Tesla registrations up 186% YoY; small market"
+        },
         {
           "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
           "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62781991/tesla-robotaxi-waymo-texas",
@@ -370,13 +376,6 @@
           "time": "2026-11-02T08:17:44Z",
           "sentiment": 0.2,
           "reason": "Strong October registration growth in several Nordic markets"
-        },
-        {
-          "headline": "Gary Black Says Tesla Is Losing EV Share to \u2018No-Name\u2019 Rivals Despite \u2018Huge First-Mover Advantage\u2019\u2014Warns TSLA Needs Better Marketing",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62767855/gary-black-says-tesla-is-losing-ev-share-to-no-name-rivals-despite-huge-first-mover-advantage-warns-tsla-needs-better-marketing",
-          "time": "2026-11-02T05:35:44Z",
-          "sentiment": -0.4,
-          "reason": "Analyst says Tesla's US EV share fell from 80% to 52%"
         }
       ]
     },
@@ -387,10 +386,17 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.15,
+      "score": -0.074,
       "articles": 8,
       "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $510",
+          "url": "https://www.benzinga.com/news/26/11/62788094/morgan-stanley-maintains-equal-weight-advanced-micro-devices-raises-price-target-510",
+          "time": "2026-11-02T17:27:10Z",
+          "sentiment": 0.2,
+          "reason": "Price target raised to $510, though rating held at equal-weight"
+        },
         {
           "headline": "Nvidia, AMD, Marvell Targets Cut: Melius Pulls Back on AI Stocks as Big Tech Lines Up to Raise Cash",
           "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62779418/nvidia-amd-marvell-ai-stocks-big-tech-raise-cash",
@@ -418,13 +424,6 @@
           "time": "2026-11-02T11:31:57Z",
           "sentiment": 0.5,
           "reason": "Morgan Stanley raises price target from $465 to $510"
-        },
-        {
-          "headline": "Nasdaq Tumbles Over 700 Points as Chip Stocks Fall: Investor Sentiment Weakens, Greed Index Remains in \u2018Fear\u2019 Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62769481/nasdaq-tumbles-over-700-points-as-chip-stocks-fall-investor-sentiment-weakens-greed-index-remains-in-fear-zone",
-          "time": "2026-11-02T08:55:30Z",
-          "sentiment": -0.5,
-          "reason": "Chip stocks leading decline amid weakening sentiment"
         }
       ]
     }
