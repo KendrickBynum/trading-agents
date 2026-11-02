@@ -1002,35 +1002,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62766623",
-    "created_at": "2026-11-01T20:55:05Z",
-    "headline": "SOXX: Top Semiconductor ETF Targets $400 as AI Bubble Worries Linger",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62766623/soxx-top-semiconductor-etf-targets-400-as-ai-bubble-worries-linger",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Semiconductor ETF in bear market on AI bubble worries"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Semiconductor ETF in bear market on AI bubble worries"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Semiconductor ETF in bear market on AI bubble worries"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62781991",
     "created_at": "2026-11-02T15:15:20Z",
     "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
@@ -2083,6 +2054,433 @@
         "sentiment": -0.2,
         "confidence": 0.4,
         "reason": "Uncertainty over resuming Iran strikes keeps geopolitical risk elevated"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803282",
+    "created_at": "2026-11-02T22:14:28Z",
+    "headline": "Apple CEO Says Apple's India Business Hit Record Revenue In 4Q",
+    "url": "https://www.benzinga.com/news/26/11/62803282/apple-ceo-says-apple-s-india-business-hit-record-revenue-4q",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.4,
+        "confidence": 0.4,
+        "reason": "Record India revenue in fiscal Q4 supports strong results narrative"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803238",
+    "created_at": "2026-11-02T22:12:52Z",
+    "headline": "Apple CEO Says Apple Grew In Most Markets During 4q; iPhone Remains At Center Of Opportunity",
+    "url": "https://www.benzinga.com/news/26/11/62803238/apple-ceo-says-apple-grew-most-markets-during-4q-iphone-remains-center-opportunity",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.3,
+        "confidence": 0.35,
+        "reason": "Growth across most markets; iPhone demand strength"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803189",
+    "created_at": "2026-11-02T22:11:47Z",
+    "headline": "Apple CEO Says Siri AI Marks New Chapter In AI At Apple",
+    "url": "https://www.benzinga.com/news/26/11/62803189/apple-ceo-says-siri-ai-marks-new-chapter-ai-apple",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Siri AI commentary is qualitative and largely expected"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62802588",
+    "created_at": "2026-11-02T22:02:25Z",
+    "headline": "Apple CEO John Ternus Says In Reuters Interview iPhone, Mac And iPad Price Increases, Carried Inventory And Lower Non-Memory Costs Helped Offset Rising Memory-Chip Prices",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Price increases and cost savings offset rising memory-chip costs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62802564",
+    "created_at": "2026-11-02T22:02:15Z",
+    "headline": "Apple CEO John Ternus Says In Reuters Interview iPhone Duo Is Supply-Constrained, No Estimate For When Supply Will Meet Demand",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Strong iPhone Duo demand, but supply constraints limit near-term sales"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62802352",
+    "created_at": "2026-11-02T21:58:59Z",
+    "headline": "UBS Maintains Buy on JPMorgan Chase, Raises Price Target to $400",
+    "url": "https://www.benzinga.com/news/26/11/62802352/ubs-maintains-buy-jpmorgan-chase-raises-price-target-400",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.2,
+        "confidence": 0.25,
+        "reason": "UBS buy rating with higher price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62802188",
+    "created_at": "2026-11-02T21:54:22Z",
+    "headline": "UBS Maintains Buy on ExxonMobil Holdings, Raises Price Target to $213",
+    "url": "https://www.benzinga.com/news/26/11/62802188/ubs-maintains-buy-exxonmobil-holdings-raises-price-target-213",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.15,
+        "confidence": 0.2,
+        "reason": "UBS buy rating with higher price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62801967",
+    "created_at": "2026-11-02T21:49:38Z",
+    "headline": "Apple Tops Expectations in Q4 as Active Installed Base Hits All-Time High",
+    "url": "https://www.benzinga.com/markets/earnings/26/11/62801967/apple-tops-expectations-in-q4-as-active-installed-base-hits-all-time-high",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.6,
+        "confidence": 0.6,
+        "reason": "Q4 earnings beat expectations; installed base at all-time high"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62801667",
+    "created_at": "2026-11-02T21:44:20Z",
+    "headline": "Apple CFO Says Our Installed Base Of Active Devices Reached A New All-Time High Across All Major Product Categories And Geographic Segments",
+    "url": "https://www.benzinga.com/news/26/11/62801667/apple-cfo-says-our-installed-base-active-devices-reached-new-all-time-high-across-all-major-product-",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.4,
+        "confidence": 0.4,
+        "reason": "Installed base of active devices hit record across categories"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62800532",
+    "created_at": "2026-11-02T21:35:57Z",
+    "headline": "CORRECTION: Apple Reports FY2026 Regional Revenue Growth Across Americas $48.680B; Europe $32.008B; Greater China $17.539B; Japan $6.540B; Rest Of Asia Pacific $9.71B",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Regional revenue detail; mostly confirms headline results"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62800501",
+    "created_at": "2026-11-02T21:35:27Z",
+    "headline": "Apple CFO Says We Generated $28B In Operating Cash Flow During The Quarter, Allowing Us To Return $28B To Shareholders",
+    "url": "https://www.benzinga.com/news/26/11/62800501/apple-cfo-says-we-generated-28b-operating-cash-flow-during-quarter-allowing-us-return-28b-shareholde",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.2,
+        "confidence": 0.25,
+        "reason": "Strong operating cash flow and $28B shareholder return"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62800444",
+    "created_at": "2026-11-02T21:34:43Z",
+    "headline": "Apple Q4 Included $0.05 From Tariff Refunds",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Tariff refund is a minor one-time EPS contribution"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62800335",
+    "created_at": "2026-11-02T21:33:35Z",
+    "headline": "Apple CEO Says We\u2019re Closing The Year With Our Most Ambitious Lineup Yet; That Includes The iPhone Duo, The Most Transformational iPhone Since The Original, Alongside iPhone 18 Pro And iPhone 18 Pro Max",
+    "url": "https://www.benzinga.com/news/26/11/62800335/apple-ceo-says-we-re-closing-year-our-most-ambitious-lineup-yet-includes-iphone-duo-most-transformat",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.3,
+        "confidence": 0.3,
+        "reason": "Ambitious iPhone lineup signals strong upcoming product cycle"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62800265",
+    "created_at": "2026-11-02T21:32:52Z",
+    "headline": "Apple Reports FY2026 Regional Revenue Growth Across Americas $48.680M; Europe $32.008M; Greater China $17.539M; Japan $6.540M; Rest Of Asia Pacific $9.71M",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Regional revenue figures lack prior-period comparison; limited signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "110972102",
+    "created_at": "2026-11-02T21:31:43Z",
+    "headline": "JPMorgan Chase Announces $2.4 Million Philanthropic Support for Semiconductor Suppliers",
+    "url": "https://www.einnews.com/pr_news/953397629/next-street-announces-research-series-and-supplier-accelerator-programs-in-arizona-and-new-york-for-small-businesses",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "110972095",
+    "created_at": "2026-11-02T21:31:35Z",
+    "headline": "Analyst Actions: Morgan Stanley, UBS, and JPMorgan Adjust ExxonMobil Price Targets",
+    "url": "https://www.tradingview.com/news/tradingview:933b991dfc0bb:0-morgan-stanley-maintains-exxonmobil-holdings-at-overweight-raises-price-target-to-187-from-185/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "110972094",
+    "created_at": "2026-11-02T21:31:33Z",
+    "headline": "Amazon Launches $25 Thanksgiving Meal Deal",
+    "url": "https://www.tradingview.com/news/benzinga:4c9f4e0e9094b:0-amazon-stock-rises-what-s-going-on/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "110972093",
+    "created_at": "2026-11-02T21:31:33Z",
+    "headline": "Phillip Securities Upgrades Amazon to Buy",
+    "url": "https://www.tradingview.com/news/gurufocus:48db88985094b:0-aws-growth-wins-amazon-stock-a-330-upgrade/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Analyst upgrade to Buy with raised price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "110972092",
+    "created_at": "2026-11-02T21:31:29Z",
+    "headline": "NVIDIA Vera Rubin NVL72 Specification Discrepancies Highlighted",
+    "url": "https://www.tradingview.com/news/gurufocus:fbc22b595094b:0-nvidia-stocks-rise-1-7-with-rubin-specification-gap-shifting-focus-to-workload-tests/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Reported spec discrepancies for Vera Rubin NVL72 may raise product concerns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62800013",
+    "created_at": "2026-11-02T21:31:02Z",
+    "headline": "Apple Q4 2026 Wearables, Home And Accessories Sales $8.3B Vs $9.013B Prior",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Wearables, home and accessories sales declined versus prior year"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62799986",
+    "created_at": "2026-11-02T21:30:56Z",
+    "headline": "Apple Q4 2026 iPad Sales $6.229B Vs $6.952B Prior",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "iPad sales declined versus prior year"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62799945",
+    "created_at": "2026-11-02T21:30:49Z",
+    "headline": "Apple Q4 2026 Mac Sales $10.792B Vs $8.726B Prior",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.4,
+        "confidence": 0.6,
+        "reason": "Mac sales up roughly 24% year over year"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62799931",
+    "created_at": "2026-11-02T21:30:42Z",
+    "headline": "Apple Q4 2026 iPhone Sales $57.5183B Vs $49.025B Prior",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.6,
+        "confidence": 0.7,
+        "reason": "iPhone sales up about 17%, a major beat driver"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62799908",
+    "created_at": "2026-11-02T21:30:31Z",
+    "headline": "Apple Q4 EPS $2.10 Beats $1.98 Estimate, Sales $114.477B Beat $113.392B Estimate",
+    "url": "https://www.benzinga.com/news/earnings/26/11/62799908/apple-q4-eps-2-10-beats-1-98-estimate-sales-114-477b-beat-113-392b-estimate",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.6,
+        "confidence": 0.7,
+        "reason": "Q4 EPS and revenue both beat estimates"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62799894",
+    "created_at": "2026-11-02T21:30:27Z",
+    "headline": "Apple Q4 2026 Services Revenue $31.573B Vs $28.75B Prior",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Services revenue up about 10% year over year, a solid beat; partly priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62795864",
+    "created_at": "2026-11-02T20:44:28Z",
+    "headline": "QUICK SPARK: CoreWeave Stock Hits New All-Time Low",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62795864/coreweave-stock-hits-new-all-time-low",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "CoreWeave, a major AI cloud partner, hits record low on AI capex worries"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.05,
+        "confidence": 0.1,
+        "reason": "Indirect read-through from CoreWeave's AI capex and debt concerns; minimal exposure"
       }
     ],
     "scorer": "claude"

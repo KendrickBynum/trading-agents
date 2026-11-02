@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T20:35:18.120801+00:00",
-  "market_risk": 0.124,
+  "generated_at": "2026-11-02T22:19:18.111410+00:00",
+  "market_risk": 0.112,
   "tickers": {
     "SPY": {
       "score": 0.074,
@@ -87,45 +87,59 @@
       ]
     },
     "AAPL": {
-      "score": -0.047,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.306,
+      "articles": 18,
+      "ai_articles": 18,
       "headlines": [
         {
-          "headline": "Apple\u2019s Hidden Google Problem Could Cost It Billions",
-          "url": "https://www.benzinga.com/markets/large-cap/26/11/62792865/apples-hidden-google-problem-could-cost-it-billions",
-          "time": "2026-11-02T19:27:59Z",
-          "sentiment": -0.2,
-          "reason": "Analysis suggests Google deal dependence could cost Apple billions"
+          "headline": "Apple CEO Says Apple's India Business Hit Record Revenue In 4Q",
+          "url": "https://www.benzinga.com/news/26/11/62803282/apple-ceo-says-apple-s-india-business-hit-record-revenue-4q",
+          "time": "2026-11-02T22:14:28Z",
+          "sentiment": 0.4,
+          "reason": "Record India revenue in fiscal Q4 supports strong results narrative"
         },
         {
-          "headline": "Apple Q4 Preview: All Eyes on iPhone 18, Dan Ives Says Company \u2018Has the Demand Backdrop to Deliver\u2019",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62784142/apple-q4-preview-all-eyes-on-iphone-18-dan-ives-says-company-has-the-demand-backdrop-to-deliver",
-          "time": "2026-11-02T16:01:53Z",
-          "sentiment": 0.15,
-          "reason": "Analyst bullish preview ahead of earnings; likely partly priced in."
+          "headline": "Apple CEO Says Apple Grew In Most Markets During 4q; iPhone Remains At Center Of Opportunity",
+          "url": "https://www.benzinga.com/news/26/11/62803238/apple-ceo-says-apple-grew-most-markets-during-4q-iphone-remains-center-opportunity",
+          "time": "2026-11-02T22:12:52Z",
+          "sentiment": 0.3,
+          "reason": "Growth across most markets; iPhone demand strength"
         },
         {
-          "headline": "Apple Is the 'Only Mag 7 Stock' Beating S&P 500 by Avoiding the AI 'Spending Binge,' Says Market Strategist",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62775842/apple-is-the-only-mag-7-stock-beating-sp-500-by-avoiding-the-ai-spending-binge-says-market-strategist",
-          "time": "2026-11-02T13:04:13Z",
+          "headline": "Apple CEO John Ternus Says In Reuters Interview iPhone, Mac And iPad Price Increases, Carried Inventory And Lower Non-Memory Costs Helped Offset Rising Memory-Chip Prices",
+          "url": "https://www.benzinga.com/quote/AAPL",
+          "time": "2026-11-02T22:02:25Z",
+          "sentiment": 0.3,
+          "reason": "Price increases and cost savings offset rising memory-chip costs"
+        },
+        {
+          "headline": "Apple CEO John Ternus Says In Reuters Interview iPhone Duo Is Supply-Constrained, No Estimate For When Supply Will Meet Demand",
+          "url": "https://www.benzinga.com/quote/AAPL",
+          "time": "2026-11-02T22:02:15Z",
           "sentiment": 0.2,
-          "reason": "Strategist praises Apple's free cash flow and AI spending discipline"
+          "reason": "Strong iPhone Duo demand, but supply constraints limit near-term sales"
         },
         {
-          "headline": "Nasdaq Tumbles Over 700 Points as Chip Stocks Fall: Investor Sentiment Weakens, Greed Index Remains in \u2018Fear\u2019 Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62769481/nasdaq-tumbles-over-700-points-as-chip-stocks-fall-investor-sentiment-weakens-greed-index-remains-in-fear-zone",
-          "time": "2026-11-02T08:55:30Z",
-          "sentiment": -0.3,
-          "reason": "Broad tech selloff with Nasdaq down over 700 points"
+          "headline": "Apple Tops Expectations in Q4 as Active Installed Base Hits All-Time High",
+          "url": "https://www.benzinga.com/markets/earnings/26/11/62801967/apple-tops-expectations-in-q4-as-active-installed-base-hits-all-time-high",
+          "time": "2026-11-02T21:49:38Z",
+          "sentiment": 0.6,
+          "reason": "Q4 earnings beat expectations; installed base at all-time high"
         }
       ]
     },
     "MSFT": {
-      "score": 0.15,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.092,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "QUICK SPARK: CoreWeave Stock Hits New All-Time Low",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62795864/coreweave-stock-hits-new-all-time-low",
+          "time": "2026-11-02T20:44:28Z",
+          "sentiment": -0.2,
+          "reason": "CoreWeave, a major AI cloud partner, hits record low on AI capex worries"
+        },
         {
           "headline": "Lumen Technologies And Microsoft Announce Expanded Co-Selling Collaboration, Lumen Plans To Bring Full Cloud Networking Suite To Azure",
           "url": "https://www.benzinga.com/quote/MSFT",
@@ -136,10 +150,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.145,
+      "score": -0.163,
       "articles": 14,
       "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "NVIDIA Vera Rubin NVL72 Specification Discrepancies Highlighted",
+          "url": "https://www.tradingview.com/news/gurufocus:fbc22b595094b:0-nvidia-stocks-rise-1-7-with-rubin-specification-gap-shifting-focus-to-workload-tests/",
+          "time": "2026-11-02T21:31:29Z",
+          "sentiment": -0.3,
+          "reason": "Reported spec discrepancies for Vera Rubin NVL72 may raise product concerns"
+        },
         {
           "headline": "Jensen Huang Addresses CoreWeave Financial Position",
           "url": "https://www.tradingview.com/news/tradingview:70bca6fb36e66:0-weekly-recap-danish-data-center-expansion-and-nvidia-capacity-purchase/",
@@ -167,21 +188,21 @@
           "time": "2026-11-02T14:38:00Z",
           "sentiment": 0.15,
           "reason": "Marvell CEO publicly backs NVIDIA alignment via Lumentum deal"
-        },
-        {
-          "headline": "Uber Partners with NVIDIA for Robotaxi Deployment",
-          "url": "https://www.tradingview.com/news/tradingview:741272e4963f2:0-weekly-recap-autonomous-fleet-expansion-and-nvidia-robotaxi-rollout/",
-          "time": "2026-11-02T14:31:29Z",
-          "sentiment": 0.3,
-          "reason": "Robotaxi deal with Uber expands NVIDIA software footprint"
         }
       ]
     },
     "AMZN": {
-      "score": 0.129,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.148,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Phillip Securities Upgrades Amazon to Buy",
+          "url": "https://www.tradingview.com/news/gurufocus:48db88985094b:0-aws-growth-wins-amazon-stock-a-330-upgrade/",
+          "time": "2026-11-02T21:31:33Z",
+          "sentiment": 0.2,
+          "reason": "Analyst upgrade to Buy with raised price target"
+        },
         {
           "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
@@ -248,10 +269,17 @@
       ]
     },
     "JPM": {
-      "score": 0.15,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.179,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "UBS Maintains Buy on JPMorgan Chase, Raises Price Target to $400",
+          "url": "https://www.benzinga.com/news/26/11/62802352/ubs-maintains-buy-jpmorgan-chase-raises-price-target-400",
+          "time": "2026-11-02T21:58:59Z",
+          "sentiment": 0.2,
+          "reason": "UBS buy rating with higher price target"
+        },
         {
           "headline": "UBS Adjusts JPMorgan Chase Price Target to $400",
           "url": "https://www.marketscreener.com/news/ubs-adjusts-jpmorgan-chase-price-target-to-400-from-395-maintains-buy-rating-ce785fd9d981f421",
@@ -262,10 +290,17 @@
       ]
     },
     "XOM": {
-      "score": -0.065,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.049,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "UBS Maintains Buy on ExxonMobil Holdings, Raises Price Target to $213",
+          "url": "https://www.benzinga.com/news/26/11/62802188/ubs-maintains-buy-exxonmobil-holdings-raises-price-target-213",
+          "time": "2026-11-02T21:54:22Z",
+          "sentiment": 0.15,
+          "reason": "UBS buy rating with higher price target"
+        },
         {
           "headline": "Evercore ISI Group Maintains Outperform Rating and Raises ExxonMobil Price Target",
           "url": "https://www.tradingview.com/news/tradingview:504b3783c874f:0-evercore-isi-group-maintains-exxonmobil-holdings-at-outperform-raises-price-target-to-200-from-185/",
@@ -293,20 +328,13 @@
           "time": "2026-11-02T17:32:47Z",
           "sentiment": -0.6,
           "reason": "Oil down 7% on Iran peace hopes hurts energy producers"
-        },
-        {
-          "headline": "'Iran threatens US bases in Europe if Trump orders new strikes' - The Times",
-          "url": "https://www.benzinga.com/news/26/11/62784014/iran-threatens-us-bases-europe-if-trump-orders-new-strikes-times",
-          "time": "2026-11-02T16:00:13Z",
-          "sentiment": 0.2,
-          "reason": "Middle East escalation risk may lift oil prices and energy stocks."
         }
       ]
     },
     "MU": {
-      "score": -0.164,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.151,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "Semiconductor Stocks Are Cheaper Than the S&P 500: Is It Time to Buy SOXX and SMH ETFs?",
@@ -335,13 +363,6 @@
           "time": "2026-11-02T08:55:30Z",
           "sentiment": -0.5,
           "reason": "Memory and chip stocks falling with risk-off sentiment"
-        },
-        {
-          "headline": "SOXX: Top Semiconductor ETF Targets $400 as AI Bubble Worries Linger",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62766623/soxx-top-semiconductor-etf-targets-400-as-ai-bubble-worries-linger",
-          "time": "2026-11-01T20:55:05Z",
-          "sentiment": -0.3,
-          "reason": "Semiconductor ETF in bear market on AI bubble worries"
         }
       ]
     },
@@ -408,9 +429,9 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.029,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.018,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "AMD Q3 Preview: Expert Says \u2018Growth Story Remains Impressive,\u2019 Can Earnings Send Stock Back to Highs?",
