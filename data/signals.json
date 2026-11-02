@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-02T19:35:21.932450+00:00",
-  "market_risk": 0.105,
+  "generated_at": "2026-11-02T20:35:18.120801+00:00",
+  "market_risk": 0.124,
   "tickers": {
     "SPY": {
-      "score": 0.124,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": 0.074,
+      "articles": 16,
+      "ai_articles": 16,
       "headlines": [
+        {
+          "headline": "Bitcoin, Gold Have \u2018Blown Their Tops,\u2019 Bloomberg's McGlone Warns",
+          "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62795227/bitcoin-gold-have-blown-their-tops-bloombergs-mcglone-warns",
+          "time": "2026-11-02T20:30:10Z",
+          "sentiment": -0.2,
+          "reason": "Bearish commentary warning of stock correction; generic opinion"
+        },
+        {
+          "headline": "U.S. VP JD Vance On Iran, Says We've Made Some Progress, Will See If Can Make Some More; Have Not Set Deadlines To Resume Strikes",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62795090/u-s-vp-jd-vance-iran-says-we-ve-made-some-progress-will-see-if-can-make-some-more-have-not-set-deadl",
+          "time": "2026-11-02T20:27:24Z",
+          "sentiment": 0.2,
+          "reason": "Vance cites progress on Iran; modest de-escalation signal"
+        },
+        {
+          "headline": "President Trump Says He Is No Rush To Decide Whether To Resume Fighting In Iran, Axios Exclusive",
+          "url": "https://www.benzinga.com/news/26/11/62793343/president-trump-says-he-no-rush-decide-whether-resume-fighting-iran-axios-exclusive",
+          "time": "2026-11-02T19:39:06Z",
+          "sentiment": -0.2,
+          "reason": "Uncertainty over resuming Iran strikes keeps geopolitical risk elevated"
+        },
         {
           "headline": "President Trump Says Iran Wants To Make A Deal; That Could Happen",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62792958/president-trump-says-iran-wants-make-deal-could-happen",
@@ -20,27 +41,6 @@
           "time": "2026-11-02T19:29:30Z",
           "sentiment": 0.2,
           "reason": "Qatari mediation in Tehran signals progress toward US-Iran deal"
-        },
-        {
-          "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
-          "time": "2026-11-02T17:32:47Z",
-          "sentiment": 0.3,
-          "reason": "Dow up 1% on falling oil and lower Treasury yields"
-        },
-        {
-          "headline": "'Iran threatens US bases in Europe if Trump orders new strikes' - The Times",
-          "url": "https://www.benzinga.com/news/26/11/62784014/iran-threatens-us-bases-europe-if-trump-orders-new-strikes-times",
-          "time": "2026-11-02T16:00:13Z",
-          "sentiment": -0.3,
-          "reason": "Iran threat to U.S. bases raises geopolitical risk and market volatility."
-        },
-        {
-          "headline": "USA Construction Spending (MoM) For September -1.9% Vs 0.4% Est",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-02T15:00:54Z",
-          "sentiment": -0.2,
-          "reason": "September construction spending fell 1.9%, well below estimates"
         }
       ]
     },
@@ -136,10 +136,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.138,
+      "score": -0.145,
       "articles": 14,
       "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "Jensen Huang Addresses CoreWeave Financial Position",
+          "url": "https://www.tradingview.com/news/tradingview:70bca6fb36e66:0-weekly-recap-danish-data-center-expansion-and-nvidia-capacity-purchase/",
+          "time": "2026-11-02T20:01:24Z",
+          "sentiment": -0.2,
+          "reason": "Need to defend CoreWeave finances suggests counterparty risk on NVIDIA's exposure"
+        },
         {
           "headline": "Apple\u2014A Safe Haven From The AI Storm?",
           "url": "https://www.benzinga.com/opinion/26/11/62785539/apple-a-safe-haven-from-the-ai-storm",
@@ -167,13 +174,6 @@
           "time": "2026-11-02T14:31:29Z",
           "sentiment": 0.3,
           "reason": "Robotaxi deal with Uber expands NVIDIA software footprint"
-        },
-        {
-          "headline": "Nvidia, AMD, Marvell Targets Cut: Melius Pulls Back on AI Stocks as Big Tech Lines Up to Raise Cash",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62779418/nvidia-amd-marvell-ai-stocks-big-tech-raise-cash",
-          "time": "2026-11-02T14:27:57Z",
-          "sentiment": -0.3,
-          "reason": "Target cut to $315 despite Buy rating; valuation pressure"
         }
       ]
     },
@@ -262,10 +262,17 @@
       ]
     },
     "XOM": {
-      "score": -0.124,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.065,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Evercore ISI Group Maintains Outperform Rating and Raises ExxonMobil Price Target",
+          "url": "https://www.tradingview.com/news/tradingview:504b3783c874f:0-evercore-isi-group-maintains-exxonmobil-holdings-at-outperform-raises-price-target-to-200-from-185/",
+          "time": "2026-11-02T20:01:43Z",
+          "sentiment": 0.3,
+          "reason": "Analyst reaffirms Outperform and raises price target to $200"
+        },
         {
           "headline": "Peter Schiff Says Trump Is Toying With Oil Markets: \u2018Expect Another Reversal\u2019",
           "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62791832/peter-schiff-says-trump-is-toying-with-oil-markets-expect-another-reversal",
@@ -293,13 +300,6 @@
           "time": "2026-11-02T16:00:13Z",
           "sentiment": 0.2,
           "reason": "Middle East escalation risk may lift oil prices and energy stocks."
-        },
-        {
-          "headline": "Iran Foreign Minister Araghchi Says That If The U.S. Accepts Our Conditions, Strait Of Hormuz Will Be Reopened And Negotiations Will Be Resumed; Consultations Through Mediators Qatar And Pakistan Are Very Intense",
-          "url": "https://www.benzinga.com/news/26/11/62779349/iran-foreign-minister-araghchi-says-if-u-s-accepts-our-conditions-strait-hormuz-will-be-reopened-and",
-          "time": "2026-11-02T14:25:18Z",
-          "sentiment": -0.3,
-          "reason": "Hormuz reopening could ease oil supply premium"
         }
       ]
     },
@@ -408,9 +408,9 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.037,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.029,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "AMD Q3 Preview: Expert Says \u2018Growth Story Remains Impressive,\u2019 Can Earnings Send Stock Back to Highs?",
