@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-02T14:35:54.717006+00:00",
-  "market_risk": 0.141,
+  "generated_at": "2026-11-02T15:35:25.936214+00:00",
+  "market_risk": 0.125,
   "tickers": {
     "SPY": {
-      "score": 0.183,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.095,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "USA Construction Spending (MoM) For September -1.9% Vs 0.4% Est",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-02T15:00:54Z",
+          "sentiment": -0.2,
+          "reason": "September construction spending fell 1.9%, well below estimates"
+        },
+        {
+          "headline": "ISM Manufacturing PMI  For October 55.5 Vs 54.5 Est.",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-02T15:00:05Z",
+          "sentiment": 0.2,
+          "reason": "ISM manufacturing PMI beat estimates, signaling stronger activity"
+        },
+        {
+          "headline": "USA S&P Global Manufacturing PMI For October 54.9 Vs 56.0 Est",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-02T14:45:07Z",
+          "sentiment": -0.15,
+          "reason": "S&P Global manufacturing PMI missed estimates, weakening outlook"
+        },
         {
           "headline": "Iran Foreign Minister Araghchi Says That If The U.S. Accepts Our Conditions, Strait Of Hormuz Will Be Reopened And Negotiations Will Be Resumed; Consultations Through Mediators Qatar And Pakistan Are Very Intense",
           "url": "https://www.benzinga.com/news/26/11/62779349/iran-foreign-minister-araghchi-says-if-u-s-accepts-our-conditions-strait-hormuz-will-be-reopened-and",
@@ -20,27 +41,6 @@
           "time": "2026-11-02T13:41:34Z",
           "sentiment": -0.2,
           "reason": "Warning of broad correction risk tied to AI spending"
-        },
-        {
-          "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise Ahead of Apple, Palantir Earnings; RYAAY, USLM, INO in Focus (UPDATED)",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62770209/stock-market-today-dow-jones-sp-500-futures-rise-ahead-of-apple-palantir-earnings-ryaay-uslm-ino-in-focus",
-          "time": "2026-11-02T13:15:14Z",
-          "sentiment": 0.2,
-          "reason": "Index futures rising ahead of big-tech earnings"
-        },
-        {
-          "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62767926/stock-market-will-sp-500-open-up-or-down-today-70",
-          "time": "2026-11-02T05:47:19Z",
-          "sentiment": 0.15,
-          "reason": "Futures firm on easing oil prices and Apple earnings anticipation"
-        },
-        {
-          "headline": "\u2018Great For Our Farmers, Great For Our Country\u2019: Trump Says \u2018Concept of a Deal\u2019 Reached With Canada",
-          "url": "https://www.benzinga.com/markets/economic-data/26/11/62767841/trump-touts-concept-of-deal-with-canada-ottawa-foot-bill-keystone-oil-pipeline",
-          "time": "2026-11-02T05:29:49Z",
-          "sentiment": 0.2,
-          "reason": "Trump says Canada trade deal near, reducing tariff uncertainty"
         }
       ]
     },
@@ -129,10 +129,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.203,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": -0.175,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "Live On CNBC, Marvell CEO Matt Murphy On Deal With Lumentum, Says 'This Is A Double Down On Supporting NVIDIA'",
+          "url": "https://www.benzinga.com/quote/NVDA",
+          "time": "2026-11-02T14:38:00Z",
+          "sentiment": 0.15,
+          "reason": "Marvell CEO publicly backs NVIDIA alignment via Lumentum deal"
+        },
         {
           "headline": "Uber Partners with NVIDIA for Robotaxi Deployment",
           "url": "https://www.tradingview.com/news/tradingview:741272e4963f2:0-weekly-recap-autonomous-fleet-expansion-and-nvidia-robotaxi-rollout/",
@@ -160,13 +167,6 @@
           "time": "2026-11-02T14:06:14Z",
           "sentiment": -0.3,
           "reason": "Analyst expects further chip selloff; opinion-based"
-        },
-        {
-          "headline": "\u2018Big Short\u2019 Investor Steve Eisman Warns AI Price Cuts and Slowing Usage Could Trigger a Massive Stock Market Correction \u2014 \u2018...Could Go Into a Recession Immediately\u2019",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62777488/big-short-investor-steve-eisman-warns-ai-price-cuts-and-slowing-usage-could-trigger-a-massive-stock-market-correction-could-go-into-a-recession-immediately",
-          "time": "2026-11-02T13:41:34Z",
-          "sentiment": -0.4,
-          "reason": "Eisman warns AI spending cuts could trigger correction"
         }
       ]
     },
@@ -323,10 +323,17 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.013,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.133,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62781991/tesla-robotaxi-waymo-texas",
+          "time": "2026-11-02T15:15:20Z",
+          "sentiment": 0.3,
+          "reason": "Robotaxi fleet growth 128% narrows gap with Waymo"
+        },
         {
           "headline": "Tesla Reports October Vehicle Registration Growth in Nordic Markets",
           "url": "https://www.marketscreener.com/news/tesla-registrations-rise-across-northern-europe-in-october-ce785fd8d188f32d",

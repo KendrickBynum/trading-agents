@@ -1193,23 +1193,162 @@
     "scorer": "claude"
   },
   {
-    "id": "62766123",
-    "created_at": "2026-11-01T15:30:06Z",
-    "headline": "EXCLUSIVE: Former Goldman Sachs Analyst Turned Creator Says AI-Ready Workers Need More Than Prompting Skills \u2014 \u2018You Can\u2019t Outsource the Understanding\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62766123/exclusive-former-goldman-sachs-analyst-turned-creator-says-ai-ready-workers-need-more-than-prompting-skills-you-cant-outsource-the-understanding",
+    "id": "62781991",
+    "created_at": "2026-11-02T15:15:20Z",
+    "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62781991/tesla-robotaxi-waymo-texas",
     "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Robotaxi fleet growth 128% narrows gap with Waymo"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Waymo's lead over Tesla's robotaxi fleet is shrinking"
+      }
+    ],
     "scorer": "claude"
   },
   {
-    "id": "62766060",
-    "created_at": "2026-11-01T14:38:34Z",
-    "headline": "Bill Gates Says Alzheimer\u2019s Breakthrough Is Here \u2014 But the System Is Failing Patients",
-    "url": "https://www.benzinga.com/news/health-care/26/11/62766060/bill-gates-alzheimers-breakthrough",
+    "id": "62781742",
+    "created_at": "2026-11-02T15:09:07Z",
+    "headline": "OpenAI Rolls Out Grid Protectors Program",
+    "url": "https://www.benzinga.com/news/26/11/62781742/openai-rolls-out-grid-protectors-program",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "OpenAI program announcement has unclear direct impact on Microsoft"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62781259",
+    "created_at": "2026-11-02T15:00:54Z",
+    "headline": "USA Construction Spending (MoM) For September -1.9% Vs 0.4% Est",
+    "url": "https://www.benzinga.com/quote/SPY",
     "source": "benzinga",
     "market_risk": 0.1,
-    "impacts": [],
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "September construction spending fell 1.9%, well below estimates"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62781192",
+    "created_at": "2026-11-02T15:00:22Z",
+    "headline": "ISM Manufacturing Employment For October 52.4 Vs 52.7 Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "Manufacturing employment slightly softer but still in expansion"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62781170",
+    "created_at": "2026-11-02T15:00:14Z",
+    "headline": "ISM Manufacturing Prices For October 75.2 Vs 77.2 Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Manufacturing prices fell vs estimates, easing inflation pressure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62781148",
+    "created_at": "2026-11-02T15:00:05Z",
+    "headline": "ISM Manufacturing PMI  For October 55.5 Vs 54.5 Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "ISM manufacturing PMI beat estimates, signaling stronger activity"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62780401",
+    "created_at": "2026-11-02T14:45:07Z",
+    "headline": "USA S&P Global Manufacturing PMI For October 54.9 Vs 56.0 Est",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.15,
+        "confidence": 0.25,
+        "reason": "S&P Global manufacturing PMI missed estimates, weakening outlook"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62780194",
+    "created_at": "2026-11-02T14:41:57Z",
+    "headline": "Wells Fargo Maintains Overweight on Alphabet, Lowers Price Target to $365",
+    "url": "https://www.benzinga.com/news/26/11/62780194/wells-fargo-maintains-overweight-alphabet-lowers-price-target-365",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Overweight maintained, but price target lowered to $365"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62779914",
+    "created_at": "2026-11-02T14:38:00Z",
+    "headline": "Live On CNBC, Marvell CEO Matt Murphy On Deal With Lumentum, Says 'This Is A Double Down On Supporting NVIDIA'",
+    "url": "https://www.benzinga.com/quote/NVDA",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Marvell CEO publicly backs NVIDIA alignment via Lumentum deal"
+      }
+    ],
     "scorer": "claude"
   }
 ]
