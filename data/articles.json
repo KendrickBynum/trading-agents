@@ -1164,35 +1164,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62766171",
-    "created_at": "2026-11-01T16:15:06Z",
-    "headline": "Apple Diverges From Magnificent 7 as Options Point to Jump to $355 After Earnings",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62766171/apple-stock-diverges-from-magnificent-7-as-options-point-to-a-jump-to-355-after-earnings",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.5,
-        "confidence": 0.5,
-        "reason": "Options imply jump toward $355 post-earnings; seen as safer haven"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Apple seen as safer bet amid persistent AI concerns"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Magnificent 7 divergence favors Apple over AI-exposed peers"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62781991",
     "created_at": "2026-11-02T15:15:20Z",
     "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
@@ -1347,6 +1318,252 @@
         "sentiment": 0.15,
         "confidence": 0.3,
         "reason": "Marvell CEO publicly backs NVIDIA alignment via Lumentum deal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62785023",
+    "created_at": "2026-11-02T16:21:08Z",
+    "headline": "Automakers Urge U.S. Lawmakers Quickly Pass Permanent Ban On Chinese Vehicles When They Return For Post-Election Session",
+    "url": "https://www.benzinga.com/news/26/11/62785023/automakers-urge-u-s-lawmakers-quickly-pass-permanent-ban-chinese-vehicles-when-they-return-post-elec",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Chinese EV ban could modestly reduce foreign EV competition in U.S."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62785016",
+    "created_at": "2026-11-02T16:20:55Z",
+    "headline": "Elon Musk's SpaceX Plan Swallows Nvidia's Entire $300 Billion Growth Forecast \u2014 And Then Some",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62785016/elon-musk-spacex-plan-swallows-nvidia-growth-forecast",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.35,
+        "reason": "Large SpaceX GPU compute plans imply strong Nvidia demand growth."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62784556",
+    "created_at": "2026-11-02T16:09:18Z",
+    "headline": "From Tech Stocks to Staples: October Delivers Wall Street's Biggest Sector Rotation Since Dot-Com Bubble Burst",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62784556/sector-rotation-staples-tech-october-xlp-xlk-dot-com-2001",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Heavy tech-to-staples rotation and chip weakness pressure semiconductor equipment names."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62784540",
+    "created_at": "2026-11-02T16:09:10Z",
+    "headline": "What If China\u2019s AI Crash Was A Feature, Not A Bug?",
+    "url": "https://www.benzinga.com/opinion/26/11/62784540/what-if-china-ai-crash-was-a-feature-not-a-bug",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "110498385",
+    "created_at": "2026-11-02T16:02:39Z",
+    "headline": "UBS Adjusts JPMorgan Chase Price Target to $400",
+    "url": "https://www.marketscreener.com/news/ubs-adjusts-jpmorgan-chase-price-target-to-400-from-395-maintains-buy-rating-ce785fd9d981f421",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "UBS raises price target and keeps Buy rating; routine but supportive."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62784142",
+    "created_at": "2026-11-02T16:01:53Z",
+    "headline": "Apple Q4 Preview: All Eyes on iPhone 18, Dan Ives Says Company \u2018Has the Demand Backdrop to Deliver\u2019",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62784142/apple-q4-preview-all-eyes-on-iphone-18-dan-ives-says-company-has-the-demand-backdrop-to-deliver",
+    "source": "benzinga",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Analyst bullish preview ahead of earnings; likely partly priced in."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "110497246",
+    "created_at": "2026-11-02T16:01:43Z",
+    "headline": "Wrongful Death Lawsuit Filed Against Amazon",
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393286/0/en/lawsuit-claims-amazon-ignored-trucking-safety-warning-signs-before-fatal-crash-that-killed-u-s-air-force-airman-and-seriously-injured-his-wife.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.05,
+        "confidence": 0.1,
+        "reason": "Wrongful death lawsuit; limited financial impact expected."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "110497245",
+    "created_at": "2026-11-02T16:01:43Z",
+    "headline": "Amazon Partners with CarbiCrete for Cement-Free Concrete",
+    "url": "https://www.prnewswire.com/news-releases/carbicrete-supplies-amazon-with-cement-free-concrete-in-first-large-scale-paver-deployment-302926503.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Minor sustainability supply agreement; negligible near-term impact."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "110497244",
+    "created_at": "2026-11-02T16:01:42Z",
+    "headline": "Syndigo Announces Multi-Year Strategic Partnership with Microsoft",
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393208/0/en/syndigo-signs-multi-year-strategic-partnership-agreement-with-microsoft-to-develop-and-co-sell-ai-powered-commerce-solutions.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Third-party partnership with minor AI commerce relevance."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "110497235",
+    "created_at": "2026-11-02T16:01:36Z",
+    "headline": "Change Agents Corporation Joins Meta's Muse Developer Program",
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393201/0/en/change-agents-joins-meta-s-muse-developer-program-to-expand-distribution-of-its-ai-powered-applications-catch-up-and-beacon.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.03,
+        "confidence": 0.1,
+        "reason": "Small developer program onboarding; negligible impact."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62784060",
+    "created_at": "2026-11-02T16:00:25Z",
+    "headline": "Growth And Cyclical Sectors Lead Monday Trading",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62784060/growth-and-cyclical-sectors-lead-monday-trading",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62784014",
+    "created_at": "2026-11-02T16:00:13Z",
+    "headline": "'Iran threatens US bases in Europe if Trump orders new strikes' - The Times",
+    "url": "https://www.benzinga.com/news/26/11/62784014/iran-threatens-us-bases-europe-if-trump-orders-new-strikes-times",
+    "source": "benzinga",
+    "market_risk": 0.45,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Iran threat to U.S. bases raises geopolitical risk and market volatility."
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.25,
+        "reason": "Middle East escalation risk may lift oil prices and energy stocks."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62784007",
+    "created_at": "2026-11-02T16:00:07Z",
+    "headline": "Bitcoin Bulls Say \u2018Bottom's in\u2019 but Bears Eye $73,000 Ahead of Midterms",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62784007/bitcoin-bulls-say-bottoms-in-but-bears-eye-73000-ahead-of-midterms",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62783303",
+    "created_at": "2026-11-02T15:44:02Z",
+    "headline": "Nvidia and AMD Are Backing a $6 Billion AI Startup Taking on Grok",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62783303/nvidia-amd-hark-ai-startup",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Routine strategic VC stake; limited direct earnings impact"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Routine strategic VC stake; limited direct earnings impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62782844",
+    "created_at": "2026-11-02T15:34:58Z",
+    "headline": "What Is Going On With Meta Platforms Stock on Monday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62782844/what-is-going-on-with-meta-platforms-stock-on-monday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.5,
+        "confidence": 0.5,
+        "reason": "S&P negative outlook; dilution, negative cash flow, CapEx concerns"
       }
     ],
     "scorer": "claude"

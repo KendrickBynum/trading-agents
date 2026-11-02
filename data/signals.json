@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-02T15:35:25.936214+00:00",
-  "market_risk": 0.125,
+  "generated_at": "2026-11-02T16:35:28.484074+00:00",
+  "market_risk": 0.116,
   "tickers": {
     "SPY": {
-      "score": 0.095,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.03,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "'Iran threatens US bases in Europe if Trump orders new strikes' - The Times",
+          "url": "https://www.benzinga.com/news/26/11/62784014/iran-threatens-us-bases-europe-if-trump-orders-new-strikes-times",
+          "time": "2026-11-02T16:00:13Z",
+          "sentiment": -0.3,
+          "reason": "Iran threat to U.S. bases raises geopolitical risk and market volatility."
+        },
         {
           "headline": "USA Construction Spending (MoM) For September -1.9% Vs 0.4% Est",
           "url": "https://www.benzinga.com/quote/SPY",
@@ -34,13 +41,6 @@
           "time": "2026-11-02T14:25:18Z",
           "sentiment": 0.3,
           "reason": "Possible Hormuz reopening and talks could ease geopolitical risk"
-        },
-        {
-          "headline": "\u2018Big Short\u2019 Investor Steve Eisman Warns AI Price Cuts and Slowing Usage Could Trigger a Massive Stock Market Correction \u2014 \u2018...Could Go Into a Recession Immediately\u2019",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62777488/big-short-investor-steve-eisman-warns-ai-price-cuts-and-slowing-usage-could-trigger-a-massive-stock-market-correction-could-go-into-a-recession-immediately",
-          "time": "2026-11-02T13:41:34Z",
-          "sentiment": -0.2,
-          "reason": "Warning of broad correction risk tied to AI spending"
         }
       ]
     },
@@ -80,10 +80,17 @@
       ]
     },
     "AAPL": {
-      "score": 0.026,
+      "score": 0.036,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Apple Q4 Preview: All Eyes on iPhone 18, Dan Ives Says Company \u2018Has the Demand Backdrop to Deliver\u2019",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62784142/apple-q4-preview-all-eyes-on-iphone-18-dan-ives-says-company-has-the-demand-backdrop-to-deliver",
+          "time": "2026-11-02T16:01:53Z",
+          "sentiment": 0.15,
+          "reason": "Analyst bullish preview ahead of earnings; likely partly priced in."
+        },
         {
           "headline": "Apple Is the 'Only Mag 7 Stock' Beating S&P 500 by Avoiding the AI 'Spending Binge,' Says Market Strategist",
           "url": "https://www.benzinga.com/markets/equities/26/11/62775842/apple-is-the-only-mag-7-stock-beating-sp-500-by-avoiding-the-ai-spending-binge-says-market-strategist",
@@ -97,13 +104,6 @@
           "time": "2026-11-02T08:55:30Z",
           "sentiment": -0.3,
           "reason": "Broad tech selloff with Nasdaq down over 700 points"
-        },
-        {
-          "headline": "Apple Diverges From Magnificent 7 as Options Point to Jump to $355 After Earnings",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62766171/apple-stock-diverges-from-magnificent-7-as-options-point-to-a-jump-to-355-after-earnings",
-          "time": "2026-11-01T16:15:06Z",
-          "sentiment": 0.5,
-          "reason": "Options imply jump toward $355 post-earnings; seen as safer haven"
         }
       ]
     },
@@ -129,10 +129,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.175,
+      "score": -0.127,
       "articles": 14,
       "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "Elon Musk's SpaceX Plan Swallows Nvidia's Entire $300 Billion Growth Forecast \u2014 And Then Some",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62785016/elon-musk-spacex-plan-swallows-nvidia-growth-forecast",
+          "time": "2026-11-02T16:20:55Z",
+          "sentiment": 0.3,
+          "reason": "Large SpaceX GPU compute plans imply strong Nvidia demand growth."
+        },
         {
           "headline": "Live On CNBC, Marvell CEO Matt Murphy On Deal With Lumentum, Says 'This Is A Double Down On Supporting NVIDIA'",
           "url": "https://www.benzinga.com/quote/NVDA",
@@ -160,13 +167,6 @@
           "time": "2026-11-02T14:16:48Z",
           "sentiment": 0.15,
           "reason": "Semis cheaper after selloff; possible valuation-driven rebound"
-        },
-        {
-          "headline": "AMD, Micron Selloff Is 'Just the Beginning,' Tom Sosnoff Says",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62778578/amd-micron-selloff-is-just-the-beginning-tom-sosnoff-says",
-          "time": "2026-11-02T14:06:14Z",
-          "sentiment": -0.3,
-          "reason": "Analyst expects further chip selloff; opinion-based"
         }
       ]
     },
@@ -213,10 +213,17 @@
       ]
     },
     "META": {
-      "score": -0.4,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.487,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "What Is Going On With Meta Platforms Stock on Monday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62782844/what-is-going-on-with-meta-platforms-stock-on-monday",
+          "time": "2026-11-02T15:34:58Z",
+          "sentiment": -0.5,
+          "reason": "S&P negative outlook; dilution, negative cash flow, CapEx concerns"
+        },
         {
           "headline": "$600B Tech Wipeout Meets $1.48T Margin Debt",
           "url": "https://www.benzinga.com/markets/market-summary/26/11/62766282/600b-tech-wipeout-meets-1-48t-margin-debt",
@@ -227,16 +234,31 @@
       ]
     },
     "JPM": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "UBS Adjusts JPMorgan Chase Price Target to $400",
+          "url": "https://www.marketscreener.com/news/ubs-adjusts-jpmorgan-chase-price-target-to-400-from-395-maintains-buy-rating-ce785fd9d981f421",
+          "time": "2026-11-02T16:02:39Z",
+          "sentiment": 0.15,
+          "reason": "UBS raises price target and keeps Buy rating; routine but supportive."
+        }
+      ]
     },
     "XOM": {
-      "score": 0.065,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.087,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "'Iran threatens US bases in Europe if Trump orders new strikes' - The Times",
+          "url": "https://www.benzinga.com/news/26/11/62784014/iran-threatens-us-bases-europe-if-trump-orders-new-strikes-times",
+          "time": "2026-11-02T16:00:13Z",
+          "sentiment": 0.2,
+          "reason": "Middle East escalation risk may lift oil prices and energy stocks."
+        },
         {
           "headline": "Iran Foreign Minister Araghchi Says That If The U.S. Accepts Our Conditions, Strait Of Hormuz Will Be Reopened And Negotiations Will Be Resumed; Consultations Through Mediators Qatar And Pakistan Are Very Intense",
           "url": "https://www.benzinga.com/news/26/11/62779349/iran-foreign-minister-araghchi-says-if-u-s-accepts-our-conditions-strait-hormuz-will-be-reopened-and",
@@ -264,13 +286,6 @@
           "time": "2026-11-02T12:31:26Z",
           "sentiment": 0.2,
           "reason": "Increased LNG project stakes could add long-term production growth"
-        },
-        {
-          "headline": "Trump Says Iran War Will End \u2018One Way or the Other\u2019 Ahead of Midterms Tuesday: Dow Futures Rise 184 Points, Brent Crude Falls to $111",
-          "url": "https://www.benzinga.com/markets/economic-data/26/11/62767505/trump-iran-war-midterms-dow-futures-rise-brent-crude-111",
-          "time": "2026-11-02T02:44:14Z",
-          "sentiment": -0.3,
-          "reason": "Brent crude falling to $111 on expected war end"
         }
       ]
     },
@@ -317,10 +332,18 @@
       ]
     },
     "LRCX": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "From Tech Stocks to Staples: October Delivers Wall Street's Biggest Sector Rotation Since Dot-Com Bubble Burst",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62784556/sector-rotation-staples-tech-october-xlp-xlk-dot-com-2001",
+          "time": "2026-11-02T16:09:18Z",
+          "sentiment": -0.2,
+          "reason": "Heavy tech-to-staples rotation and chip weakness pressure semiconductor equipment names."
+        }
+      ]
     },
     "TSLA": {
       "score": 0.133,
