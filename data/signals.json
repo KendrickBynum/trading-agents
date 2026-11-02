@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-11-02T18:35:20.296368+00:00",
-  "market_risk": 0.096,
+  "generated_at": "2026-11-02T19:35:21.932450+00:00",
+  "market_risk": 0.105,
   "tickers": {
     "SPY": {
-      "score": 0.081,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": 0.124,
+      "articles": 13,
+      "ai_articles": 13,
       "headlines": [
+        {
+          "headline": "President Trump Says Iran Wants To Make A Deal; That Could Happen",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62792958/president-trump-says-iran-wants-make-deal-could-happen",
+          "time": "2026-11-02T19:30:00Z",
+          "sentiment": 0.3,
+          "reason": "Possible US-Iran deal lowers geopolitical and oil risk premium"
+        },
+        {
+          "headline": "Qatari Mediators Travel To Tehran Late Monday For Talks With Iran Foreign Minister Araqchi On Potential U.S.-Iran Deal; Under Discussion Is Version Of The Draft U.S.-Iran Deal Under Negotiation For Past Eight Days",
+          "url": "https://www.benzinga.com/news/26/11/62792925/qatari-mediators-travel-tehran-late-monday-talks-iran-foreign-minister-araqchi-potential-u-s-iran-de",
+          "time": "2026-11-02T19:29:30Z",
+          "sentiment": 0.2,
+          "reason": "Qatari mediation in Tehran signals progress toward US-Iran deal"
+        },
         {
           "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
@@ -27,20 +41,6 @@
           "time": "2026-11-02T15:00:54Z",
           "sentiment": -0.2,
           "reason": "September construction spending fell 1.9%, well below estimates"
-        },
-        {
-          "headline": "ISM Manufacturing PMI  For October 55.5 Vs 54.5 Est.",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-02T15:00:05Z",
-          "sentiment": 0.2,
-          "reason": "ISM manufacturing PMI beat estimates, signaling stronger activity"
-        },
-        {
-          "headline": "USA S&P Global Manufacturing PMI For October 54.9 Vs 56.0 Est",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-02T14:45:07Z",
-          "sentiment": -0.15,
-          "reason": "S&P Global manufacturing PMI missed estimates, weakening outlook"
         }
       ]
     },
@@ -87,10 +87,17 @@
       ]
     },
     "AAPL": {
-      "score": 0.036,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.047,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Apple\u2019s Hidden Google Problem Could Cost It Billions",
+          "url": "https://www.benzinga.com/markets/large-cap/26/11/62792865/apples-hidden-google-problem-could-cost-it-billions",
+          "time": "2026-11-02T19:27:59Z",
+          "sentiment": -0.2,
+          "reason": "Analysis suggests Google deal dependence could cost Apple billions"
+        },
         {
           "headline": "Apple Q4 Preview: All Eyes on iPhone 18, Dan Ives Says Company \u2018Has the Demand Backdrop to Deliver\u2019",
           "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62784142/apple-q4-preview-all-eyes-on-iphone-18-dan-ives-says-company-has-the-demand-backdrop-to-deliver",
@@ -220,10 +227,17 @@
       ]
     },
     "META": {
-      "score": -0.5,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.343,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Meta Plans Cross-Border Bond Offering Targeting at Least $20 Billion",
+          "url": "https://www.marketscreener.com/news/meta-targets-at-least-20-billion-from-potential-cross-border-bond-offering-bloomberg-reports-ce785fd9db89f125",
+          "time": "2026-11-02T19:02:01Z",
+          "sentiment": -0.15,
+          "reason": "$20B bond raise may signal heavy AI capex funding needs"
+        },
         {
           "headline": "What Is Going On With Meta Platforms Stock on Monday?",
           "url": "https://www.benzinga.com/markets/tech/26/11/62782844/what-is-going-on-with-meta-platforms-stock-on-monday",
@@ -248,10 +262,17 @@
       ]
     },
     "XOM": {
-      "score": -0.018,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.124,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Peter Schiff Says Trump Is Toying With Oil Markets: \u2018Expect Another Reversal\u2019",
+          "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62791832/peter-schiff-says-trump-is-toying-with-oil-markets-expect-another-reversal",
+          "time": "2026-11-02T19:00:07Z",
+          "sentiment": -0.5,
+          "reason": "Oil plunges 7% after Trump's Iran reversal"
+        },
         {
           "headline": "Morgan Stanley Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $187",
           "url": "https://www.benzinga.com/news/26/11/62788438/morgan-stanley-maintains-overweight-exxonmobil-holdings-raises-price-target-187",
@@ -279,13 +300,6 @@
           "time": "2026-11-02T14:25:18Z",
           "sentiment": -0.3,
           "reason": "Hormuz reopening could ease oil supply premium"
-        },
-        {
-          "headline": "Evercore ISI Group Maintains Outperform on ExxonMobil Holdings, Raises Price Target to $200",
-          "url": "https://www.benzinga.com/news/26/11/62777676/evercore-isi-group-maintains-outperform-exxonmobil-holdings-raises-price-target-200",
-          "time": "2026-11-02T13:45:32Z",
-          "sentiment": 0.4,
-          "reason": "Evercore Outperform with raised $200 target"
         }
       ]
     },
@@ -346,10 +360,17 @@
       ]
     },
     "TSLA": {
-      "score": 0.249,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.315,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Tesla Stock Moves Higher: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62792301/tesla-stock-moves-higher-whats-going-on",
+          "time": "2026-11-02T19:11:56Z",
+          "sentiment": 0.5,
+          "reason": "Strong October European vehicle registrations drive shares higher"
+        },
         {
           "headline": "Italy Transport Ministry Says Tesla New Car Registrations In Italy Up 94.14% YoY In October",
           "url": "https://www.benzinga.com/news/26/11/62786997/italy-transport-ministry-says-tesla-new-car-registrations-italy-94-14-yoy-october",
@@ -377,13 +398,6 @@
           "time": "2026-11-02T11:32:00Z",
           "sentiment": 0.2,
           "reason": "Strong year-over-year registration growth in Nordic markets"
-        },
-        {
-          "headline": "Tesla October New Registrations Jump 248% YoY In Sweden, 131% In Norway, 34.31% In Denmark, According To Mobility Sweden, OFV And Bilstatistik.dk",
-          "url": "https://www.benzinga.com/news/26/11/62769272/tesla-october-new-registrations-jump-248-yoy-sweden-131-norway-34-31-denmark-according-mobility-swed",
-          "time": "2026-11-02T08:17:44Z",
-          "sentiment": 0.2,
-          "reason": "Strong October registration growth in several Nordic markets"
         }
       ]
     },

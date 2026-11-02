@@ -1869,5 +1869,166 @@
     "market_risk": 0.05,
     "impacts": [],
     "scorer": "claude"
+  },
+  {
+    "id": "62792958",
+    "created_at": "2026-11-02T19:30:00Z",
+    "headline": "President Trump Says Iran Wants To Make A Deal; That Could Happen",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62792958/president-trump-says-iran-wants-make-deal-could-happen",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Possible US-Iran deal lowers geopolitical and oil risk premium"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62792925",
+    "created_at": "2026-11-02T19:29:30Z",
+    "headline": "Qatari Mediators Travel To Tehran Late Monday For Talks With Iran Foreign Minister Araqchi On Potential U.S.-Iran Deal; Under Discussion Is Version Of The Draft U.S.-Iran Deal Under Negotiation For Past Eight Days",
+    "url": "https://www.benzinga.com/news/26/11/62792925/qatari-mediators-travel-tehran-late-monday-talks-iran-foreign-minister-araqchi-potential-u-s-iran-de",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Qatari mediation in Tehran signals progress toward US-Iran deal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62792865",
+    "created_at": "2026-11-02T19:27:59Z",
+    "headline": "Apple\u2019s Hidden Google Problem Could Cost It Billions",
+    "url": "https://www.benzinga.com/markets/large-cap/26/11/62792865/apples-hidden-google-problem-could-cost-it-billions",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Analysis suggests Google deal dependence could cost Apple billions"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Analysis frames Apple-Google deal as strengthening ties"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62792415",
+    "created_at": "2026-11-02T19:15:11Z",
+    "headline": "EXCLUSIVE: AI Bubble Risk Is Low, but SMH Faces a Bigger Threat Than QQQ, Expert Warns",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62792415/ai-bubble-risk-is-low-but-smh-faces-a-bigger-threat-than-qqq-expert-warns",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "AI bubble risk rated low, though chip ETFs face more risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62792301",
+    "created_at": "2026-11-02T19:11:56Z",
+    "headline": "Tesla Stock Moves Higher: What's Going On?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62792301/tesla-stock-moves-higher-whats-going-on",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.5,
+        "confidence": 0.5,
+        "reason": "Strong October European vehicle registrations drive shares higher"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "110731422",
+    "created_at": "2026-11-02T19:02:01Z",
+    "headline": "Meta Plans Cross-Border Bond Offering Targeting at Least $20 Billion",
+    "url": "https://www.marketscreener.com/news/meta-targets-at-least-20-billion-from-potential-cross-border-bond-offering-bloomberg-reports-ce785fd9db89f125",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "$20B bond raise may signal heavy AI capex funding needs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "110729948",
+    "created_at": "2026-11-02T19:01:28Z",
+    "headline": "JPMorgan Chase Discloses Increased Voting Rights in Gamma Communications",
+    "url": "https://www.investegate.co.uk/announcement/rns/gamma-communications--gama/holding-s-in-company/9854183",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "110729947",
+    "created_at": "2026-11-02T19:01:27Z",
+    "headline": "NVIDIA Networking Supports Eco Wave Power's Digital Twin Research Project",
+    "url": "https://www.prnewswire.com/news-releases/eco-wave-power-completes-first-phase-of-ai-powered-digital-twin-advancing-intelligent-wave-energy-and-future-ai-data-center-applications-302926362.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62791832",
+    "created_at": "2026-11-02T19:00:07Z",
+    "headline": "Peter Schiff Says Trump Is Toying With Oil Markets: \u2018Expect Another Reversal\u2019",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62791832/peter-schiff-says-trump-is-toying-with-oil-markets-expect-another-reversal",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Oil plunges 7% after Trump's Iran reversal"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Lower oil may ease inflation worries, but volatility is elevated"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62791080",
+    "created_at": "2026-11-02T18:38:23Z",
+    "headline": "Anthropic Did in 5 Years What Took Nvidia 31\u2014And It Raises a $2 Trillion Question",
+    "url": "https://www.benzinga.com/markets/ipos/26/11/62791080/anthropic-ipo-gross-profit",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
   }
 ]
