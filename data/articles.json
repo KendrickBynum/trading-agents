@@ -939,69 +939,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62767505",
-    "created_at": "2026-11-02T02:44:14Z",
-    "headline": "Trump Says Iran War Will End \u2018One Way or the Other\u2019 Ahead of Midterms Tuesday: Dow Futures Rise 184 Points, Brent Crude Falls to $111",
-    "url": "https://www.benzinga.com/markets/economic-data/26/11/62767505/trump-iran-war-midterms-dow-futures-rise-brent-crude-111",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Iran war end signaled; Dow futures up 184 points"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Iran war end signaled; broad risk-on rally in futures"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Brent crude falling to $111 on expected war end"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "110261319",
-    "created_at": "2026-11-02T02:01:33Z",
-    "headline": "Micron Objects to Tokenization of Shares on ICE-OKX Venue",
-    "url": "https://www.tradingview.com/news/stocktwits:01025bd3f094b:0-ice-and-okx-s-tokenized-stock-venue-hits-a-wall-as-nvidia-nike-join-growing-list-of-objectors/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Objection to share tokenization is governance news, not financially material"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62767381",
-    "created_at": "2026-11-02T01:38:22Z",
-    "headline": "Trump Labels Jensen Huang \u2018Very Aboveboard\u2019 Amid Chinese Spy Report Fallout, but Says It Is a \u2018Very Complex Issue\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62767381/trump-jensen-huang-nvidia-chinese-spy-report-fallout",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Chinese spy report targeting CEO creates minor headline risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62781991",
     "created_at": "2026-11-02T15:15:20Z",
     "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
@@ -2481,6 +2418,372 @@
         "sentiment": -0.05,
         "confidence": 0.1,
         "reason": "Indirect read-through from CoreWeave's AI capex and debt concerns; minimal exposure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62805674",
+    "created_at": "2026-11-03T02:53:42Z",
+    "headline": "\"U.S. Strikes Iran\u2019s Qeshm Island As Trump Talks Down War Risks; Trump Told Reporters Monday \u2018We Haven\u2019t Been Doing Any Fighting For Months\u2019\" - WSJ Exclusive",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62805674/u-s-strikes-iran-s-qeshm-island-trump-talks-down-war-risks-trump-told-reporters-monday-we-haven-t-be",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "US strikes on Iran raise geopolitical risk, partly offset by de-escalation talk"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.25,
+        "confidence": 0.3,
+        "reason": "Strikes on Iran could lift oil prices and energy risk premium"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62805659",
+    "created_at": "2026-11-03T02:49:34Z",
+    "headline": "iPhone Owners Can Get Up to $95 From Apple Over Siri Promises: Here\u2019s How to Claim",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62805659/apple-iphone-siri-settlement-95-claim-how-to",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Settlement payouts are a small, largely known legal cost"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62805372",
+    "created_at": "2026-11-03T01:16:25Z",
+    "headline": "Apple, Palantir, Marvell Technology, Oracle and Aehr Test Systems: Why These 5 Stocks Are on Investors' Radars Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62805372/apple-palantir-marvell-technology-oracle-and-aehr-test-systems-why-these-5-stocks-are-on-investors-radars-today",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "111255627",
+    "created_at": "2026-11-03T01:01:49Z",
+    "headline": "Tesla Powerwall 3 Updated to Integrate with Heat Pumps",
+    "url": "https://www.newsnow.co.uk/h/Industry+Sectors/Automotive/US+Manufacturers/Tesla",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Minor Powerwall product update with limited financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "111254712",
+    "created_at": "2026-11-03T00:01:32Z",
+    "headline": "NVIDIA Begins Shipping Vera Rubin Platform",
+    "url": "https://www.barchart.com/story/news/8597937/nvidia-stock-looks-surprisingly-cheap-why-nvda-could-rise-61",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.6,
+        "confidence": 0.6,
+        "reason": "Vera Rubin shipments start with fastest ramp in company history"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "111254711",
+    "created_at": "2026-11-03T00:01:32Z",
+    "headline": "XMax Signs Five-Year AI Infrastructure Agreement Involving NVIDIA GPUs",
+    "url": "https://www.tradingview.com/news/seekingalpha:4f9c10c46094b:0-xmax-signs-nvidia-gpu-deal-sees-100m-revenue/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Five-year deal for 512 Blackwell Ultra GPUs; modest demand signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "111254708",
+    "created_at": "2026-11-03T00:01:17Z",
+    "headline": "Apple Reports Record Fiscal Fourth-Quarter Results",
+    "url": "https://appleosophy.com/wire/4etili1/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.6,
+        "confidence": 0.7,
+        "reason": "Record fiscal Q4 revenue of $114.5B, up 12% year over year"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62804713",
+    "created_at": "2026-11-02T23:07:18Z",
+    "headline": "'US to hold trilateral talks with Ukraine, Russia in Abu Dhabi next week-US official'- Reuters",
+    "url": "https://www.benzinga.com/news/26/11/62804713/us-hold-trilateral-talks-ukraine-russia-abu-dhabi-next-week-us-official-reuters",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Planned Russia-Ukraine trilateral talks ease geopolitical risk"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Peace prospects may reduce oil supply-risk premium"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62804611",
+    "created_at": "2026-11-02T23:06:55Z",
+    "headline": "Apple Q4 2026 Earnings Call Transcript",
+    "url": "https://www.benzinga.com/news/26/11/62804611/apple-q4-2026-earnings-call-transcript",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62804542",
+    "created_at": "2026-11-02T23:04:01Z",
+    "headline": "'OpenAI hires former US Army secretary as military seeks to expand AI use'- Financial Times",
+    "url": "https://www.benzinga.com/news/26/11/62804542/openai-hires-former-us-army-secretary-military-seeks-expand-ai-use-financial-times",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "OpenAI expanding government and military AI ties, minor positive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62804236",
+    "created_at": "2026-11-02T22:46:19Z",
+    "headline": "Tech Selloff Doesn\u2019t Spook Dan Ives for Halloween: Here Are His 6 AI Stock Picks",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62804236/tech-selloff-doesnt-spook-dan-ives-for-halloween-here-are-his-6-ai-stock-picks",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Analyst stock-pick opinion after selloff; limited new information"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Analyst AI pick after selloff; largely opinion-driven"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Analyst AI pick after selloff; largely opinion-driven"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Analyst AI pick mention; limited new information"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62804210",
+    "created_at": "2026-11-02T22:45:20Z",
+    "headline": "Apple CFO Says Co.'s Manufacturing Purchase Obligations Increased By $33B Between June And September Quarters",
+    "url": "https://www.benzinga.com/news/26/11/62804210/apple-cfo-says-co-s-manufacturing-purchase-obligations-increased-33b-between-june-and-september-quar",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Large rise in manufacturing commitments may signal strong demand expectations"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62804162",
+    "created_at": "2026-11-02T22:40:58Z",
+    "headline": "Apple CFO Says\u00a0We See Pricing For Memory Purchases Continuing To Increase",
+    "url": "https://www.benzinga.com/news/26/11/62804162/apple-cfo-says-we-see-pricing-memory-purchases-continuing-increase",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Rising memory purchase prices will pressure Apple's hardware margins"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803924",
+    "created_at": "2026-11-02T22:33:10Z",
+    "headline": "Apple CFO Says Higher Memory Costs, Siri AI Development Expenses Will Affect Gross Margin",
+    "url": "https://www.benzinga.com/news/26/11/62803924/apple-cfo-says-higher-memory-costs-siri-ai-development-expenses-will-affect-gross-margin",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Higher memory costs and Siri AI spending expected to hurt gross margin"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803913",
+    "created_at": "2026-11-02T22:32:45Z",
+    "headline": "Apple Sees Q1 Sales $153.819B-$158.132B vs $152.558B Est",
+    "url": "https://www.benzinga.com/news/26/11/62803913/apple-sees-q1-sales-153-819b-158-132b-vs-152-558b-est",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.4,
+        "confidence": 0.6,
+        "reason": "Q1 sales guidance midpoint exceeds consensus estimate"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803842",
+    "created_at": "2026-11-02T22:30:15Z",
+    "headline": "Apple CFO Says Apple Expects 45% To 46% Gross Margin In Fiscal First Quarter",
+    "url": "https://www.benzinga.com/news/26/11/62803842/apple-cfo-says-apple-expects-45-46-gross-margin-fiscal-first-quarter",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.1,
+        "confidence": 0.4,
+        "reason": "45-46% gross margin guide is soft given memory cost headwinds"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803780",
+    "created_at": "2026-11-02T22:28:20Z",
+    "headline": "Apple CFO Says iPad Revenue Fell 10% Due To Supply Constraints",
+    "url": "https://www.benzinga.com/news/26/11/62803780/apple-cfo-says-ipad-revenue-fell-10-due-supply-constraints",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "iPad revenue fell 10% on supply constraints"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803685",
+    "created_at": "2026-11-02T22:26:51Z",
+    "headline": "'US Said to Plan Fresh NATO Push for Ukraine Arms Deliveries'- Bloomberg",
+    "url": "https://www.benzinga.com/news/26/11/62803685/us-said-plan-fresh-nato-push-ukraine-arms-deliveries-bloomberg",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803653",
+    "created_at": "2026-11-02T22:25:45Z",
+    "headline": "Apple CFO Says Apple Operating Expenses Climbed 21% Due To R&D Investments",
+    "url": "https://www.benzinga.com/news/26/11/62803653/apple-cfo-says-apple-operating-expenses-climbed-21-due-r-d-investments",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Operating expenses up 21% from R&D spending weighs on profitability"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803607",
+    "created_at": "2026-11-02T22:24:34Z",
+    "headline": "Apple CFO Says Gross Margins Would Have Been Down Without Tariff Refunds Due To High Memory Costs",
+    "url": "https://www.benzinga.com/news/26/11/62803607/apple-cfo-says-gross-margins-would-have-been-down-without-tariff-refunds-due-high-memory-costs",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Margins would be lower without tariff refunds due to memory costs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62803529",
+    "created_at": "2026-11-02T22:22:42Z",
+    "headline": "Apple CFO Says Apple Has Received Vast Majority Of Tariff Refunds",
+    "url": "https://www.benzinga.com/news/26/11/62803529/apple-cfo-says-apple-has-received-vast-majority-tariff-refunds",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Receipt of most tariff refunds is a one-time earnings tailwind"
       }
     ],
     "scorer": "claude"

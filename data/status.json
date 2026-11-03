@@ -1,23 +1,23 @@
 {
-  "last_run": "2026-11-02T22:19:39.793072+00:00",
+  "last_run": "2026-11-03T02:58:07.873489+00:00",
   "paper": true,
   "market_open": false,
   "next_open": "2026-11-03T09:30:00-05:00",
-  "equity": 99596.03,
+  "equity": 99598.17,
   "cash": 93906.44,
-  "day_pnl": -668.32,
-  "day_pnl_pct": -0.00667,
+  "day_pnl": -666.18,
+  "day_pnl_pct": -0.00664,
   "starting_equity": 100000.0,
-  "total_pnl": -403.97,
-  "total_pnl_pct": -0.00404,
+  "total_pnl": -401.83,
+  "total_pnl_pct": -0.00402,
   "halts": [
     "Market closed"
   ],
   "alerts": [],
   "last_actions": [],
-  "market_risk": 0.112,
-  "signals_at": "2026-11-02T22:19:18.111410+00:00",
-  "analysis_at": "2026-11-02T22:19:35.883300+00:00",
+  "market_risk": 0.107,
+  "signals_at": "2026-11-03T02:57:46.730093+00:00",
+  "analysis_at": "2026-11-03T02:58:04.105307+00:00",
   "buy_threshold": 0.433,
   "exit_threshold": -0.295,
   "trailing_stop_pct": 0.04,
@@ -42,11 +42,11 @@
     },
     "frac": {
       "capital": 20130.23,
-      "value": 4124.59,
+      "value": 4126.73,
       "realized": 0,
-      "unrealized": 98.75,
-      "pnl": 98.75,
-      "pnl_pct": 0.00491,
+      "unrealized": 100.9,
+      "pnl": 100.9,
+      "pnl_pct": 0.00501,
       "open": 1,
       "closed_trades": 0,
       "win_rate": null,
@@ -144,17 +144,17 @@
       "option_type": "put",
       "strike": 285.0,
       "expiry": "2026-11-27",
-      "dte": 25
+      "dte": 24
     },
     {
       "symbol": "TSLA",
       "book": "frac",
       "qty": 10.2018,
       "avg_entry": 394.62,
-      "price": 404.3,
-      "value": 4124.58774,
-      "pl": 98.753424,
-      "pl_pct": 0.02453,
+      "price": 404.51,
+      "value": 4126.730118,
+      "pl": 100.895802,
+      "pl_pct": 0.02506,
       "opened": "2026-10-30T18:35:43.439586+00:00",
       "stop_price": null,
       "high_water": 414.23,
@@ -177,7 +177,7 @@
       "option_type": "call",
       "strike": 182.5,
       "expiry": "2026-11-20",
-      "dte": 18
+      "dte": 17
     }
   ]
 }
