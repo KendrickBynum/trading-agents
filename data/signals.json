@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T16:35:22.489353+00:00",
-  "market_risk": 0.139,
+  "generated_at": "2026-11-03T17:35:24.738031+00:00",
+  "market_risk": 0.144,
   "tickers": {
     "SPY": {
-      "score": -0.096,
-      "articles": 15,
-      "ai_articles": 15,
+      "score": -0.11,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
         {
           "headline": "Iran's Security Chief Mohsen Rezaei, On Social Media, Says America's Response To Iran's Rights And Demands Was Not Convincing, And They Must Fully And Explicitly Address Iran's Seven Conditions And Act Upon Them; Only In This Case Will The Strait Of Hormuz Be Reopened",
@@ -45,9 +45,9 @@
       ]
     },
     "QQQ": {
-      "score": -0.217,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.24,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "'Marking Their Calendar': Tom Lee Says Investors Don't Have 'Conviction' to Buy the Dip Until After Midterms",
@@ -87,10 +87,17 @@
       ]
     },
     "AAPL": {
-      "score": -0.001,
-      "articles": 38,
-      "ai_articles": 38,
+      "score": -0.049,
+      "articles": 39,
+      "ai_articles": 39,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Gets a Lift As Nvidia Overtakes Apple: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62832505/stock-market-today-nvidia-overtakes-apple-chip-rally-nasdaq-jolts-yields",
+          "time": "2026-11-03T17:24:36Z",
+          "sentiment": -0.5,
+          "reason": "Memory-cost margin warning pressures Apple's profitability outlook"
+        },
         {
           "headline": "US Stocks Mixed; Apple Shares Slide After Q4 Results",
           "url": "https://www.benzinga.com/markets/market-summary/26/11/62829228/us-stocks-mixed-apple-shares-slide-after-q4-results",
@@ -118,13 +125,6 @@
           "time": "2026-11-03T14:18:01Z",
           "sentiment": 0.2,
           "reason": "Buy rating reiterated with higher price target"
-        },
-        {
-          "headline": "TD Cowen Maintains Buy on Apple, Lowers Price Target to $390",
-          "url": "https://www.benzinga.com/news/26/11/62820652/td-cowen-maintains-buy-apple-lowers-price-target-390",
-          "time": "2026-11-03T14:09:59Z",
-          "sentiment": -0.15,
-          "reason": "Buy rating kept but price target lowered"
         }
       ]
     },
@@ -192,9 +192,9 @@
       ]
     },
     "AMZN": {
-      "score": 0.083,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.053,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon\u2019s Role As An Apple Distributor",
@@ -223,13 +223,6 @@
           "time": "2026-11-02T21:31:33Z",
           "sentiment": 0.2,
           "reason": "Analyst upgrade to Buy with raised price target"
-        },
-        {
-          "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62788338/stock-market-today-dow-oil-iran-peace-hopes-amazon-idexx",
-          "time": "2026-11-02T17:32:47Z",
-          "sentiment": 0.3,
-          "reason": "Lower yields and falling oil lift Amazon, per the summary"
         }
       ]
     },
@@ -283,9 +276,9 @@
       ]
     },
     "XOM": {
-      "score": 0.161,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.23,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Iran's Security Chief Mohsen Rezaei, On Social Media, Says America's Response To Iran's Rights And Demands Was Not Convincing, And They Must Fully And Explicitly Address Iran's Seven Conditions And Act Upon Them; Only In This Case Will The Strait Of Hormuz Be Reopened",
@@ -325,10 +318,17 @@
       ]
     },
     "MU": {
-      "score": 0.406,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.393,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Gets a Lift As Nvidia Overtakes Apple: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62832505/stock-market-today-nvidia-overtakes-apple-chip-rally-nasdaq-jolts-yields",
+          "time": "2026-11-03T17:24:36Z",
+          "sentiment": 0.3,
+          "reason": "Higher memory costs suggest stronger memory pricing environment"
+        },
         {
           "headline": "What Is Going on With SanDisk Stock on Tuesday?",
           "url": "https://www.benzinga.com/markets/tech/26/11/62830002/what-is-going-on-with-sandisk-stock-on-tuesday-3",
@@ -356,13 +356,6 @@
           "time": "2026-11-03T12:20:31Z",
           "sentiment": 0.15,
           "reason": "Cramer opinion favoring Micron over Western Digital"
-        },
-        {
-          "headline": "Micron Technology Shares Rise Following Apple's Commentary on Rising Memory Costs",
-          "url": "https://www.tradingview.com/news/stocktwits:c8ad61540094b:0-aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/",
-          "time": "2026-11-03T11:31:36Z",
-          "sentiment": 0.4,
-          "reason": "Rising memory costs signal stronger memory pricing demand"
         }
       ]
     },
@@ -395,9 +388,9 @@
       ]
     },
     "TSLA": {
-      "score": -0.155,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.251,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "Tesla Reports October 2026 China Wholesale Sales",
@@ -419,20 +412,6 @@
           "time": "2026-11-02T19:11:56Z",
           "sentiment": 0.5,
           "reason": "Strong October European vehicle registrations drive shares higher"
-        },
-        {
-          "headline": "Italy Transport Ministry Says Tesla New Car Registrations In Italy Up 94.14% YoY In October",
-          "url": "https://www.benzinga.com/news/26/11/62786997/italy-transport-ministry-says-tesla-new-car-registrations-italy-94-14-yoy-october",
-          "time": "2026-11-02T17:04:31Z",
-          "sentiment": 0.4,
-          "reason": "Italy new Tesla registrations up 94% YoY in October"
-        },
-        {
-          "headline": "Portugal's New Registrations Of Tesla Cars Rise 186.1% In October YoY, Up 62.5% In January-October",
-          "url": "https://www.benzinga.com/news/26/11/62786129/portugal-s-new-registrations-tesla-cars-rise-186-1-october-yoy-62-5-january-october",
-          "time": "2026-11-02T16:47:13Z",
-          "sentiment": 0.3,
-          "reason": "Portugal Tesla registrations up 186% YoY; small market"
         }
       ]
     },
@@ -451,9 +430,9 @@
       ]
     },
     "AMD": {
-      "score": 0.242,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.245,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "Samsung Reportedly Secures AMD Orders for New Texas Chip Plant",
@@ -475,13 +454,6 @@
           "time": "2026-11-02T17:48:50Z",
           "sentiment": 0.2,
           "reason": "Q3 earnings preview is positive but uncertain, with shares already off highs"
-        },
-        {
-          "headline": "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $510",
-          "url": "https://www.benzinga.com/news/26/11/62788094/morgan-stanley-maintains-equal-weight-advanced-micro-devices-raises-price-target-510",
-          "time": "2026-11-02T17:27:10Z",
-          "sentiment": 0.2,
-          "reason": "Price target raised to $510, though rating held at equal-weight"
         }
       ]
     }
