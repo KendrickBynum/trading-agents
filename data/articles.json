@@ -1,73 +1,5 @@
 [
   {
-    "id": "62795239",
-    "created_at": "2026-11-02T20:30:28Z",
-    "headline": "AMD, Shopify On Deck Tuesday As AI Spending, Merchant Growth Face Test",
-    "url": "https://www.benzinga.com/news/26/11/62795239/amd-shopify-on-deck-tuesday-as-ai-spending-merchant-growth-face-test",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.0,
-        "confidence": 0.3,
-        "reason": "Earnings preview; outcome uncertain, AI demand durability being tested"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62795227",
-    "created_at": "2026-11-02T20:30:10Z",
-    "headline": "Bitcoin, Gold Have \u2018Blown Their Tops,\u2019 Bloomberg's McGlone Warns",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62795227/bitcoin-gold-have-blown-their-tops-bloombergs-mcglone-warns",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Bearish commentary warning of stock correction; generic opinion"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62795225",
-    "created_at": "2026-11-02T20:30:09Z",
-    "headline": "AMD Could Swing $90.7 Billion After Earnings",
-    "url": "https://www.benzinga.com/markets/options/26/11/62795225/amd-could-swing-90-7-billion-after-earnings",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Options-implied earnings move; no directional information"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62795090",
-    "created_at": "2026-11-02T20:27:24Z",
-    "headline": "U.S. VP JD Vance On Iran, Says We've Made Some Progress, Will See If Can Make Some More; Have Not Set Deadlines To Resume Strikes",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62795090/u-s-vp-jd-vance-iran-says-we-ve-made-some-progress-will-see-if-can-make-some-more-have-not-set-deadl",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Vance cites progress on Iran; modest de-escalation signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62803282",
     "created_at": "2026-11-02T22:14:28Z",
     "headline": "Apple CEO Says Apple's India Business Hit Record Revenue In 4Q",
@@ -2897,6 +2829,33 @@
         "reason": "Rebound from Friday selloff aided by lower oil; short-term bounce, may fade."
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62839068",
+    "created_at": "2026-11-03T20:11:09Z",
+    "headline": "Cisco Partners With OpenAI To Integrate Frontier AI Reasoning Into Networking And Security Infrastructure, Strengthening Enterprise Cybersecurity And Threat Detection",
+    "url": "https://www.benzinga.com/news/26/11/62839068/cisco-partners-openai-integrate-frontier-ai-reasoning-networking-and-security-infrastructure-strengt",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Cisco-OpenAI partnership is Cisco's news; minimal direct read-through to Microsoft"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62838995",
+    "created_at": "2026-11-03T20:08:43Z",
+    "headline": "Growth And Cyclical Lead Sectors Tuesday",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62838995/growth-and-cyclical-lead-sectors-tuesday",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
