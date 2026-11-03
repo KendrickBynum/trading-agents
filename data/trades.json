@@ -268,5 +268,17 @@
     "reason": "stop loss (-59%)",
     "underlying": "XOM",
     "realized_pl": -460.0
+  },
+  {
+    "symbol": "TSLA",
+    "side": "sell",
+    "reason": "negative news (-0.36)",
+    "qty": 10.2018,
+    "notional": 4067.25,
+    "realized_pl": 41.42,
+    "status": "submitted",
+    "order_id": "7b1fd819-bf9b-4ec8-aa31-95ff34291e09",
+    "book": "frac",
+    "time": "2026-11-03T19:35:51.347022+00:00"
   }
 ]

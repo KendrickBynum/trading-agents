@@ -10,14 +10,18 @@
       "stop": 371.27
     }
   },
-  "exits": {},
+  "exits": {
+    "TSLA": "2026-11-03T19:35:51.347022+00:00"
+  },
   "order_reasons": {
     "1645bc7c-f651-4b26-bc5a-6c6a576283a3": "limit buy 0.25 ATR below $528.40 (score +0.40, trend +0.69)",
     "6ec57150-a64e-4370-893c-0ccd44108192": "limit buy 0.25 ATR below $398.22 (score +0.41, trend +0.89)",
     "c0db3df5-630e-438d-8616-013534b49c18": "limit buy 0.25 ATR below $515.70 (score +0.39, trend +0.30)"
   },
-  "logged_orders": [],
-  "last_order_check": "2026-11-03T18:35:50.955052+00:00",
+  "logged_orders": [
+    "7b1fd819-bf9b-4ec8-aa31-95ff34291e09"
+  ],
+  "last_order_check": "2026-11-03T19:35:51.347022+00:00",
   "pending": {
     "MSFT": {
       "atr": 12.56,
