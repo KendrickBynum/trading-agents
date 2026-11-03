@@ -2,17 +2,6 @@
   "started_at": "2026-10-29T05:36:36.483559+00:00",
   "capital": 15097.67,
   "entries": {
-    "XOM261120C00182500": {
-      "time": "2026-10-30T13:36:37.596781+00:00",
-      "underlying": "XOM",
-      "type": "call",
-      "score": 0.481,
-      "delta": 0.6679,
-      "iv": 0.2819,
-      "dte": 21,
-      "limit": 7.85,
-      "avg": 7.8
-    },
     "GOOGL261127P00285000": {
       "time": "2026-10-30T14:35:53.387115+00:00",
       "underlying": "GOOGL",
@@ -28,17 +17,17 @@
   "exits": {
     "GOOGL": "2026-10-29T17:35:41.529555+00:00",
     "NVDA": "2026-10-30T17:35:42.176483652Z",
-    "XOM": "2026-11-03T15:35:38.861452+00:00"
+    "XOM": "2026-11-03T15:35:39.63261818Z"
   },
   "order_reasons": {
-    "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180",
-    "d4d6889e-22fd-46de-9a53-88417a40ec77": "stop loss (-59%)"
+    "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180"
   },
   "logged_orders": [
-    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
-    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
     "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
-    "4fde783c-5790-4980-8b54-82b5bb8e20d5"
+    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
+    "4fde783c-5790-4980-8b54-82b5bb8e20d5",
+    "d4d6889e-22fd-46de-9a53-88417a40ec77",
+    "fea96f75-5b1f-4afe-9437-4e679fcff3e2"
   ],
-  "last_order_check": "2026-11-03T15:35:38.861452+00:00"
+  "last_order_check": "2026-11-03T16:35:37.868577+00:00"
 }

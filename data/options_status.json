@@ -1,31 +1,37 @@
 {
-  "time": "2026-11-03T15:35:38.861452+00:00",
+  "time": "2026-11-03T16:35:37.868577+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
+      "time": "2026-11-03T15:35:39.63261818Z",
+      "book": "options",
       "symbol": "XOM261120C00182500",
       "side": "sell",
-      "reason": "stop loss (-59%)",
-      "qty": 1,
-      "underlying": "XOM",
-      "notional": 320.0,
-      "status": "order placed",
+      "status": "filled",
       "order_id": "d4d6889e-22fd-46de-9a53-88417a40ec77",
-      "limit": 3.15,
-      "book": "options",
-      "time": "2026-11-03T15:35:38.861452+00:00"
+      "qty": 1.0,
+      "price": 3.2,
+      "notional": 320.0,
+      "reason": "stop loss (-59%)",
+      "underlying": "XOM",
+      "realized_pl": -460.0
     }
   ],
   "options_level": 3,
   "learned": {
-    "closed_trades": 1,
+    "closed_trades": 2,
     "min_for_conclusions": 20,
     "by_type": {
       "put": {
         "n": 1,
         "win_rate": 1.0,
         "total": 635.0
+      },
+      "call": {
+        "n": 1,
+        "win_rate": 0.0,
+        "total": -460.0
       }
     }
   }

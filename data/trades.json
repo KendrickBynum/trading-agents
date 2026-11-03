@@ -254,5 +254,19 @@
     "status": "submitted",
     "order_id": "40b68f41-57cc-4da9-862e-1fc136b9122b",
     "book": "stock"
+  },
+  {
+    "time": "2026-11-03T15:35:39.63261818Z",
+    "book": "options",
+    "symbol": "XOM261120C00182500",
+    "side": "sell",
+    "status": "filled",
+    "order_id": "d4d6889e-22fd-46de-9a53-88417a40ec77",
+    "qty": 1.0,
+    "price": 3.2,
+    "notional": 320.0,
+    "reason": "stop loss (-59%)",
+    "underlying": "XOM",
+    "realized_pl": -460.0
   }
 ]
