@@ -68,57 +68,6 @@
     "scorer": "claude"
   },
   {
-    "id": "110826030",
-    "created_at": "2026-11-02T20:01:43Z",
-    "headline": "Evercore ISI Group Maintains Outperform Rating and Raises ExxonMobil Price Target",
-    "url": "https://www.tradingview.com/news/tradingview:504b3783c874f:0-evercore-isi-group-maintains-exxonmobil-holdings-at-outperform-raises-price-target-to-200-from-185/",
-    "source": "fiscal.ai",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Analyst reaffirms Outperform and raises price target to $200"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "110826025",
-    "created_at": "2026-11-02T20:01:24Z",
-    "headline": "Jensen Huang Addresses CoreWeave Financial Position",
-    "url": "https://www.tradingview.com/news/tradingview:70bca6fb36e66:0-weekly-recap-danish-data-center-expansion-and-nvidia-capacity-purchase/",
-    "source": "fiscal.ai",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Need to defend CoreWeave finances suggests counterparty risk on NVIDIA's exposure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62793343",
-    "created_at": "2026-11-02T19:39:06Z",
-    "headline": "President Trump Says He Is No Rush To Decide Whether To Resume Fighting In Iran, Axios Exclusive",
-    "url": "https://www.benzinga.com/news/26/11/62793343/president-trump-says-he-no-rush-decide-whether-resume-fighting-iran-axios-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.45,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Uncertainty over resuming Iran strikes keeps geopolitical risk elevated"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62803282",
     "created_at": "2026-11-02T22:14:28Z",
     "headline": "Apple CEO Says Apple's India Business Hit Record Revenue In 4Q",
@@ -2895,6 +2844,57 @@
         "sentiment": 0.3,
         "confidence": 0.35,
         "reason": "Deeper Iran involvement could lift oil prices and energy names"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112036503",
+    "created_at": "2026-11-03T20:04:39Z",
+    "headline": "Citigroup Raises ExxonMobil Price Target to $175",
+    "url": "https://www.marketscreener.com/news/citigroup-adjusts-exxon-mobil-price-target-to-175-from-155-ce785fdeda89f127",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Analyst price target raise signals bullish sentiment, though targets often lag price."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112034583",
+    "created_at": "2026-11-03T20:03:19Z",
+    "headline": "Lam Research Corporation Annual Shareholder Meeting Results and 2027 Outlook",
+    "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4440452:0-lrcx-2027-wfe-outlook-tops-200b-as-transitions-and-capacity-constraints-shape-growth/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Routine shareholder meeting; 2027 WFE outlook is mildly constructive if above expectations."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62838137",
+    "created_at": "2026-11-03T19:43:30Z",
+    "headline": "Nvidia Stock Climbs Amid Oil Price Drop",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62838137/nvidia-stock-climbs-amid-oil-price-drop",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Rebound from Friday selloff aided by lower oil; short-term bounce, may fade."
       }
     ],
     "scorer": "claude"
