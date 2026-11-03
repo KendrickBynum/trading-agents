@@ -256,9 +256,11 @@ def main() -> int:
             all_orders = alpaca.open_orders()
             my_orders = [o for o in all_orders if books.book_of_order(o) == "stock"]
 
-    # Every whole-share position gets a trailing stop at the broker. GTC
-    # orders are accepted while the market is closed and activate at the open.
-    for sym, qty in protection_needed(positions, my_orders, watch):
+    # Every whole-share position gets a trailing stop at the broker. Only
+    # placed during regular hours: a stop placed after hours starts its
+    # "high" from thin after-hours prices, which can sit well above where the
+    # stock really trades and make the stop far too tight.
+    for sym, qty in (protection_needed(positions, my_orders, watch) if clock["is_open"] else []):
         try:
             alpaca.trailing_stop(sym, qty, risk["trailing_stop_pct"] * 100, books.cid("stock"))
             print(f"[stock] PROTECT {sym}: trailing stop {risk['trailing_stop_pct']:.0%} on {qty} shares")
