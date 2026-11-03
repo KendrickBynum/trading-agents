@@ -1,8 +1,22 @@
 {
-  "time": "2026-11-03T14:36:33.644889+00:00",
+  "time": "2026-11-03T15:35:38.861452+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "XOM261120C00182500",
+      "side": "sell",
+      "reason": "stop loss (-59%)",
+      "qty": 1,
+      "underlying": "XOM",
+      "notional": 320.0,
+      "status": "order placed",
+      "order_id": "d4d6889e-22fd-46de-9a53-88417a40ec77",
+      "limit": 3.15,
+      "book": "options",
+      "time": "2026-11-03T15:35:38.861452+00:00"
+    }
+  ],
   "options_level": 3,
   "learned": {
     "closed_trades": 1,

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T14:35:23.797826+00:00",
-  "market_risk": 0.155,
+  "generated_at": "2026-11-03T15:35:21.834857+00:00",
+  "market_risk": 0.146,
   "tickers": {
     "SPY": {
-      "score": -0.098,
-      "articles": 19,
-      "ai_articles": 19,
+      "score": -0.101,
+      "articles": 16,
+      "ai_articles": 16,
       "headlines": [
         {
           "headline": "Iran's Security Chief Mohsen Rezaei, On Social Media, Says America's Response To Iran's Rights And Demands Was Not Convincing, And They Must Fully And Explicitly Address Iran's Seven Conditions And Act Upon Them; Only In This Case Will The Strait Of Hormuz Be Reopened",
@@ -87,10 +87,17 @@
       ]
     },
     "AAPL": {
-      "score": 0.065,
-      "articles": 36,
-      "ai_articles": 36,
+      "score": 0.051,
+      "articles": 37,
+      "ai_articles": 37,
       "headlines": [
+        {
+          "headline": "CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon\u2019s Role As An Apple Distributor",
+          "url": "https://www.benzinga.com/government/26/11/62825264/cnmc-initiates-sanction-proceedings-against-apple-amazon-companies-failed-comply-cease-and-desist-or",
+          "time": "2026-11-03T15:07:57Z",
+          "sentiment": -0.2,
+          "reason": "Spanish regulator sanction proceedings over anti-competitive contract clauses"
+        },
         {
           "headline": "Argus Research Maintains Buy on Apple, Raises Price Target to $400",
           "url": "https://www.benzinga.com/news/26/11/62821162/argus-research-maintains-buy-apple-raises-price-target-400",
@@ -118,13 +125,6 @@
           "time": "2026-11-03T13:43:07Z",
           "sentiment": -0.2,
           "reason": "Analyst cut AAPL price target among mixed forecast changes"
-        },
-        {
-          "headline": "Apple\u2019s Siri AI Could Become a Paid Upgrade \u2014 CEO John Ternus Reveals Plans to Charge for More Server-Side Apple Intelligence Usage",
-          "url": "https://www.benzinga.com/markets/earnings/26/11/62812949/apples-siri-ai-could-become-a-paid-upgrade-ceo-john-ternus-reveals-plans-to-charge-for-more-server-side-apple-intelligence-usage",
-          "time": "2026-11-03T12:00:07Z",
-          "sentiment": 0.2,
-          "reason": "Paid Siri AI tier could add revenue, but cost concerns exist"
         }
       ]
     },
@@ -150,9 +150,9 @@
       ]
     },
     "NVDA": {
-      "score": -0.119,
-      "articles": 12,
-      "ai_articles": 12,
+      "score": -0.124,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
         {
           "headline": "Nvidia Tightens the Screws on China's AI Access \u2014 Cloud Partners Worldwide Must Restrict Chinese Customers Under New Revenue Rule: Report (UPDATED)",
@@ -192,10 +192,24 @@
       ]
     },
     "AMZN": {
-      "score": 0.199,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.083,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon\u2019s Role As An Apple Distributor",
+          "url": "https://www.benzinga.com/government/26/11/62825264/cnmc-initiates-sanction-proceedings-against-apple-amazon-companies-failed-comply-cease-and-desist-or",
+          "time": "2026-11-03T15:07:57Z",
+          "sentiment": -0.2,
+          "reason": "Spanish regulator sanction proceedings over anti-competitive contract clauses"
+        },
+        {
+          "headline": "Amazon Has 40% Upside, Joseph Carlson Says: 'One of the Best Opportunities'",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62822769/amazon-40-upside",
+          "time": "2026-11-03T14:36:47Z",
+          "sentiment": 0.2,
+          "reason": "Analyst cites 40% upside on AWS growth; opinion, largely known"
+        },
         {
           "headline": "Amazon Owns a $6.2 Billion Piece of Anthropic's AI Boom \u2014 Here's What's at Stake",
           "url": "https://www.benzinga.com/markets/ipos/26/11/62817121/amazon-anthropic-investment-ipo",
@@ -216,13 +230,6 @@
           "time": "2026-11-02T17:32:47Z",
           "sentiment": 0.3,
           "reason": "Lower yields and falling oil lift Amazon, per the summary"
-        },
-        {
-          "headline": "Amazon Stock Rises: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62788161/amazon-stock-rises-whats-going-on",
-          "time": "2026-11-02T17:28:25Z",
-          "sentiment": 0.3,
-          "reason": "Shares rebound after a week of declines; Thanksgiving deal"
         }
       ]
     },
@@ -241,9 +248,9 @@
       ]
     },
     "META": {
-      "score": -0.261,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.188,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Nasdaq Dips Over 1% as Tech Stocks Fall: Investor Sentiment Weakens, Fear & Greed Index Moves to \u2018Extreme Fear\u2019 Zone",
@@ -258,13 +265,6 @@
           "time": "2026-11-02T19:02:01Z",
           "sentiment": -0.15,
           "reason": "$20B bond raise may signal heavy AI capex funding needs"
-        },
-        {
-          "headline": "What Is Going On With Meta Platforms Stock on Monday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62782844/what-is-going-on-with-meta-platforms-stock-on-monday",
-          "time": "2026-11-02T15:34:58Z",
-          "sentiment": -0.5,
-          "reason": "S&P negative outlook; dilution, negative cash flow, CapEx concerns"
         }
       ]
     },
@@ -332,10 +332,17 @@
       ]
     },
     "MU": {
-      "score": 0.23,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.36,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Micron Tech Gains as Tech Giants Scramble to Lock in Multiyear Supply",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62826676/micron-tech-gains-as-tech-giants-scramble-to-lock-in-multiyear-supply",
+          "time": "2026-11-03T15:34:40Z",
+          "sentiment": 0.5,
+          "reason": "Rally on analyst forecasts of severe AI memory shortages through 2028"
+        },
         {
           "headline": "Jim Cramer Likes This Industrial Stock: \u2018It\u2019s Come Down A Great Deal\u2019",
           "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62814919/jim-cramer-likes-this-industrial-stock-its-come-down-a-great-deal",
@@ -381,9 +388,9 @@
       ]
     },
     "TSLA": {
-      "score": -0.129,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.155,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Tesla Reports October 2026 China Wholesale Sales",

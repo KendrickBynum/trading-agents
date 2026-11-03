@@ -1,28 +1,8 @@
 {
-  "time": "2026-11-03T14:36:18.570483+00:00",
+  "time": "2026-11-03T15:35:36.890564+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [
-    {
-      "time": "2026-11-03T14:36:18.570483+00:00",
-      "symbol": "XOM",
-      "side": "buy",
-      "reason": "score +0.49 (5/5 agree: trend +0.94, pattern +0.58, flow +0.37, news +0.33, levels +0.26)",
-      "score": 0.494,
-      "factors": {
-        "trend": 0.936,
-        "levels": 0.255,
-        "flow": 0.369,
-        "pattern": 0.577,
-        "news": 0.326
-      },
-      "news_score": 0.163,
-      "notional": 9875.8,
-      "status": "submitted",
-      "order_id": "40b68f41-57cc-4da9-862e-1fc136b9122b",
-      "book": "stock"
-    }
-  ],
+  "last_actions": [],
   "buy_threshold": 0.433,
   "exit_threshold": -0.295,
   "trailing_stop_pct": 0.04,

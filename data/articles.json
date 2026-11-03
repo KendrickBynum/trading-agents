@@ -1,164 +1,5 @@
 [
   {
-    "id": "62781991",
-    "created_at": "2026-11-02T15:15:20Z",
-    "headline": "Tesla's 128% Robotaxi Surge Puts It Just 15 Cars Behind Waymo",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62781991/tesla-robotaxi-waymo-texas",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Robotaxi fleet growth 128% narrows gap with Waymo"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Waymo's lead over Tesla's robotaxi fleet is shrinking"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62781742",
-    "created_at": "2026-11-02T15:09:07Z",
-    "headline": "OpenAI Rolls Out Grid Protectors Program",
-    "url": "https://www.benzinga.com/news/26/11/62781742/openai-rolls-out-grid-protectors-program",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "OpenAI program announcement has unclear direct impact on Microsoft"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62781259",
-    "created_at": "2026-11-02T15:00:54Z",
-    "headline": "USA Construction Spending (MoM) For September -1.9% Vs 0.4% Est",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "September construction spending fell 1.9%, well below estimates"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62781192",
-    "created_at": "2026-11-02T15:00:22Z",
-    "headline": "ISM Manufacturing Employment For October 52.4 Vs 52.7 Prior",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.15,
-        "reason": "Manufacturing employment slightly softer but still in expansion"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62781170",
-    "created_at": "2026-11-02T15:00:14Z",
-    "headline": "ISM Manufacturing Prices For October 75.2 Vs 77.2 Est.",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Manufacturing prices fell vs estimates, easing inflation pressure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62781148",
-    "created_at": "2026-11-02T15:00:05Z",
-    "headline": "ISM Manufacturing PMI  For October 55.5 Vs 54.5 Est.",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "ISM manufacturing PMI beat estimates, signaling stronger activity"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62780401",
-    "created_at": "2026-11-02T14:45:07Z",
-    "headline": "USA S&P Global Manufacturing PMI For October 54.9 Vs 56.0 Est",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "S&P Global manufacturing PMI missed estimates, weakening outlook"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62780194",
-    "created_at": "2026-11-02T14:41:57Z",
-    "headline": "Wells Fargo Maintains Overweight on Alphabet, Lowers Price Target to $365",
-    "url": "https://www.benzinga.com/news/26/11/62780194/wells-fargo-maintains-overweight-alphabet-lowers-price-target-365",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Overweight maintained, but price target lowered to $365"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62779914",
-    "created_at": "2026-11-02T14:38:00Z",
-    "headline": "Live On CNBC, Marvell CEO Matt Murphy On Deal With Lumentum, Says 'This Is A Double Down On Supporting NVIDIA'",
-    "url": "https://www.benzinga.com/quote/NVDA",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Marvell CEO publicly backs NVIDIA alignment via Lumentum deal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62785023",
     "created_at": "2026-11-02T16:21:08Z",
     "headline": "Automakers Urge U.S. Lawmakers Quickly Pass Permanent Ban On Chinese Vehicles When They Return For Post-Election Session",
@@ -383,23 +224,6 @@
         "sentiment": 0.1,
         "confidence": 0.2,
         "reason": "Routine strategic VC stake; limited direct earnings impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62782844",
-    "created_at": "2026-11-02T15:34:58Z",
-    "headline": "What Is Going On With Meta Platforms Stock on Monday?",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62782844/what-is-going-on-with-meta-platforms-stock-on-monday",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.5,
-        "confidence": 0.5,
-        "reason": "S&P negative outlook; dilution, negative cash flow, CapEx concerns"
       }
     ],
     "scorer": "claude"
@@ -2941,6 +2765,180 @@
         "sentiment": -0.2,
         "confidence": 0.3,
         "reason": "Part of tech slump; negative sentiment around the stock"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62826676",
+    "created_at": "2026-11-03T15:34:40Z",
+    "headline": "Micron Tech Gains as Tech Giants Scramble to Lock in Multiyear Supply",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62826676/micron-tech-gains-as-tech-giants-scramble-to-lock-in-multiyear-supply",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.5,
+        "confidence": 0.6,
+        "reason": "Rally on analyst forecasts of severe AI memory shortages through 2028"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Tech giants locking in supply signals strong AI demand, indirect benefit"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62826642",
+    "created_at": "2026-11-03T15:34:04Z",
+    "headline": "Amazon, Google and Microsoft Are 'Absolute Jokes' Compared With SpaceX, Says Sequoia's Shaun Maguire",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62826642/spacex-ai-infrastructure",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62825349",
+    "created_at": "2026-11-03T15:08:46Z",
+    "headline": "AMD Earnings Prediction Market Preview: What Will Lisa Su Say?",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62825349/amd-earnings-preview",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Earnings preview with high expectations; outcome uncertain"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62825264",
+    "created_at": "2026-11-03T15:07:57Z",
+    "headline": "CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon\u2019s Role As An Apple Distributor",
+    "url": "https://www.benzinga.com/government/26/11/62825264/cnmc-initiates-sanction-proceedings-against-apple-amazon-companies-failed-comply-cease-and-desist-or",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Spanish regulator sanction proceedings over anti-competitive contract clauses"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Spanish regulator sanction proceedings over anti-competitive contract clauses"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62824777",
+    "created_at": "2026-11-03T15:01:06Z",
+    "headline": "Amazon Web Services Signs Strategic Collaboration Agreement With Great Ormond Street Hospital To Advance AI, Cloud Computing And Digital Healthcare Innovation",
+    "url": "https://www.benzinga.com/general/biotech/26/11/62824777/amazon-web-services-signs-strategic-collaboration-agreement-great-ormond-street-hospital-advance-ai-",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62824709",
+    "created_at": "2026-11-03T15:00:28Z",
+    "headline": "USA Durables Excluding Defense (MoM) For September 2.3% Vs 2.2% Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62824652",
+    "created_at": "2026-11-03T15:00:18Z",
+    "headline": "USA JOLTS Job Openings For September 7.523M Vs 7.150M Est",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Job openings beat may raise rate concerns, offsetting growth signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62824635",
+    "created_at": "2026-11-03T15:00:09Z",
+    "headline": "USA Factory Orders (MoM) For September\u00a0 1.8% Vs 1.2% Est",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Factory orders beat estimates, signaling stronger industrial demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62824244",
+    "created_at": "2026-11-03T14:54:54Z",
+    "headline": "JPMorgan Sees 66% Chance of Blue Sweep: What Does It Mean for Crypto?",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/62824244/jpmorgan-sees-66-chance-of-blue-sweep-what-does-it-mean-for-crypto",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62823659",
+    "created_at": "2026-11-03T14:45:55Z",
+    "headline": "What's Going On With Super Micro Stock Tuesday?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62823659/whats-going-on-with-super-micro-stock-tuesday-3",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62823116",
+    "created_at": "2026-11-03T14:39:48Z",
+    "headline": "Palantir Is 'Priced to Perfection,' but Sovereign AI Could Fuel Its Next Rally: Direxion Sees ETF Opportunity",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62823116/palantir-is-priced-to-perfection-but-sovereign-ai-could-fuel-its-next-rally-direxion-sees-etf-opportunity",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62822769",
+    "created_at": "2026-11-03T14:36:47Z",
+    "headline": "Amazon Has 40% Upside, Joseph Carlson Says: 'One of the Best Opportunities'",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62822769/amazon-40-upside",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Analyst cites 40% upside on AWS growth; opinion, largely known"
       }
     ],
     "scorer": "claude"
