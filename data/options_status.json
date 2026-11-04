@@ -1,31 +1,32 @@
 {
-  "time": "2026-11-04T15:35:39.050544+00:00",
+  "time": "2026-11-04T16:35:53.495539+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
+      "time": "2026-11-04T15:35:39.582385497Z",
+      "book": "options",
       "symbol": "GOOGL261127P00285000",
       "side": "sell",
-      "reason": "stop loss (-56%)",
-      "qty": 1,
-      "underlying": "GOOGL",
-      "notional": 495.0,
-      "status": "order placed",
+      "status": "filled",
       "order_id": "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
-      "limit": 4.85,
-      "book": "options",
-      "time": "2026-11-04T15:35:39.050544+00:00"
+      "qty": 1.0,
+      "price": 4.95,
+      "notional": 495.0,
+      "reason": "stop loss (-56%)",
+      "underlying": "GOOGL",
+      "realized_pl": -630.0
     }
   ],
   "options_level": 3,
   "learned": {
-    "closed_trades": 2,
+    "closed_trades": 3,
     "min_for_conclusions": 20,
     "by_type": {
       "put": {
-        "n": 1,
-        "win_rate": 1.0,
-        "total": 635.0
+        "n": 2,
+        "win_rate": 0.5,
+        "total": 5.0
       },
       "call": {
         "n": 1,

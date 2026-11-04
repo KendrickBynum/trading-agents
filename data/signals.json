@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T15:35:18.818075+00:00",
-  "market_risk": 0.11,
+  "generated_at": "2026-11-04T16:35:34.913829+00:00",
+  "market_risk": 0.104,
   "tickers": {
     "SPY": {
       "score": -0.016,
@@ -87,9 +87,9 @@
       ]
     },
     "AAPL": {
-      "score": -0.246,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.242,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "What Is Going On With Apple Stock on Wednesday?",
@@ -206,10 +206,17 @@
       ]
     },
     "GOOGL": {
-      "score": -0.2,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.015,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Google's Latest AI Model Nearly Matches Anthropic at One-Third the Cost: Report",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62873862/google-ai-cost",
+          "time": "2026-11-04T16:30:19Z",
+          "sentiment": 0.3,
+          "reason": "Gemini model rivals Anthropic at one-third cost; competitive strength"
+        },
         {
           "headline": "CoreWeave, Peers Fall After Democrats Sweep Midterms; What it Means For Data Centers",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62865304/coreweave-peers-fall-after-democrats-sweep-midterms-what-it-means-for-data-centers",
@@ -289,9 +296,9 @@
       ]
     },
     "MU": {
-      "score": 0.345,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.3,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Forget Nvidia: Why Samsung, TSMC, and Micron Just Generated 'More Free Cash Flow... Than Any Other Listed US Company'",
@@ -306,27 +313,13 @@
           "time": "2026-11-03T17:24:36Z",
           "sentiment": 0.3,
           "reason": "Higher memory costs suggest stronger memory pricing environment"
-        },
-        {
-          "headline": "What Is Going on With SanDisk Stock on Tuesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62830002/what-is-going-on-with-sandisk-stock-on-tuesday-3",
-          "time": "2026-11-03T16:33:59Z",
-          "sentiment": 0.5,
-          "reason": "Memory sector rebound on AI data center demand and large supply pipeline"
-        },
-        {
-          "headline": "Apple's Margin Problem Is Micron's Pricing Power: Why Memory Stocks Are Bouncing Today",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62828023/memory-stocks-apple-margin-micron-sandisk-pricing-power",
-          "time": "2026-11-03T15:58:13Z",
-          "sentiment": 0.4,
-          "reason": "Memory stocks rally as Apple says memory prices will keep rising"
         }
       ]
     },
     "LRCX": {
-      "score": 0.097,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.074,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Lam Research Corporation Annual Shareholder Meeting Results and 2027 Outlook",
@@ -341,28 +334,21 @@
           "time": "2026-11-03T18:56:48Z",
           "sentiment": -0.3,
           "reason": "US holdup of chip equipment approvals hurts China-exposed toolmakers"
-        },
-        {
-          "headline": "What Is Going On With KLA Stock on Tuesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62828278/what-is-going-on-with-kla-stock-on-tuesday",
-          "time": "2026-11-03T16:01:14Z",
-          "sentiment": 0.3,
-          "reason": "Peer semicap beat and raised guidance on AI chip demand"
-        },
-        {
-          "headline": "What Is Going on With Lam Research Stock on Tuesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62826991/what-is-going-on-with-lam-research-stock-on-tuesday",
-          "time": "2026-11-03T15:39:55Z",
-          "sentiment": 0.3,
-          "reason": "Record AI chip demand and strong guidance, though China headwinds persist"
         }
       ]
     },
     "TSLA": {
-      "score": -0.322,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.318,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Rivian Automotive Stock Is Gaining Wednesday: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62871904/rivian-automotive-stock-is-gaining-wednesday-whats-going-on",
+          "time": "2026-11-04T15:55:58Z",
+          "sentiment": -0.3,
+          "reason": "Tesla falls under political scrutiny while EV peers rally"
+        },
         {
           "headline": "Benzinga Market Summary: S&P Rises After Democrats Win U.S. House And U.S. Senate Majority, Texas Results Weigh On Musk-Owned And AI-Related Companies, Trump Media & Technology Slides After Midterms And McDonald's Rises On Q3 Adj. EPS Beat.",
           "url": "https://www.benzinga.com/quote/SPCX",
@@ -390,20 +376,13 @@
           "time": "2026-11-04T11:32:56Z",
           "sentiment": -0.2,
           "reason": "Consumer group complaint over FSD marketing; regulatory and reputational risk, limited near-term impact"
-        },
-        {
-          "headline": "TSLA, SPCX Sink Over 4% as Democrats Flip Texas: What's Going On?",
-          "url": "https://www.benzinga.com/news/politics/26/11/62853710/tsla-spcx-sink-over-4-as-democrats-flip-texas-whats-going-on",
-          "time": "2026-11-04T08:58:04Z",
-          "sentiment": -0.4,
-          "reason": "Shares fell over 4% on doubts about Musk-backed AI data center plans"
         }
       ]
     },
     "ASML": {
-      "score": -0.078,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Reuters Reported US Officials Have Held Up Approval For American Chipmaking Equipment Needed By SK Hynix To Expand Production In China",
@@ -411,21 +390,21 @@
           "time": "2026-11-03T18:56:48Z",
           "sentiment": -0.2,
           "reason": "Export-approval delays for chipmaking equipment weigh on China sales"
-        },
-        {
-          "headline": "What Is Going on With Lam Research Stock on Tuesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62826991/what-is-going-on-with-lam-research-stock-on-tuesday",
-          "time": "2026-11-03T15:39:55Z",
-          "sentiment": 0.15,
-          "reason": "Semiconductor equipment sector sympathy from Lam's AI-driven strength"
         }
       ]
     },
     "AMD": {
-      "score": 0.443,
-      "articles": 28,
-      "ai_articles": 28,
+      "score": 0.435,
+      "articles": 29,
+      "ai_articles": 29,
       "headlines": [
+        {
+          "headline": "Truist Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $605",
+          "url": "https://www.benzinga.com/news/26/11/62871315/truist-securities-maintains-buy-advanced-micro-devices-raises-price-target-605",
+          "time": "2026-11-04T15:45:11Z",
+          "sentiment": 0.3,
+          "reason": "Truist maintains Buy and raises price target to $605"
+        },
         {
           "headline": "AMD Is Growing Twice as Fast as Intel. Here's Where the Gap Is Coming From",
           "url": "https://www.benzinga.com/news/space/26/11/62868028/amd-growing-faster-than-intel",
@@ -453,13 +432,6 @@
           "time": "2026-11-04T13:33:11Z",
           "sentiment": 0.4,
           "reason": "Buy rating maintained with raised $600 price target"
-        },
-        {
-          "headline": "Keybanc Reiterates Overweight on Advanced Micro Devices, Maintains $725 Price Target",
-          "url": "https://www.benzinga.com/news/26/11/62862666/keybanc-reiterates-overweight-advanced-micro-devices-maintains-725-price-target",
-          "time": "2026-11-04T13:25:42Z",
-          "sentiment": 0.3,
-          "reason": "Overweight reiteration with $725 target; routine but supportive"
         }
       ]
     }

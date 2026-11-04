@@ -293,5 +293,31 @@
     "notional": 9433.05,
     "reason": "trailing stop hit (fell from its high)",
     "realized_pl": -484.48
+  },
+  {
+    "time": "2026-11-04T15:55:31.707092Z",
+    "book": "frac",
+    "symbol": "XOM",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "468a967d-ae91-417c-8d1a-542dd43ffd98",
+    "qty": 23.4536,
+    "price": 171.626708,
+    "notional": 4025.26,
+    "reason": "limit buy 0.25 ATR below $172.81 (score +0.39, trend +0.80)"
+  },
+  {
+    "time": "2026-11-04T15:35:39.582385497Z",
+    "book": "options",
+    "symbol": "GOOGL261127P00285000",
+    "side": "sell",
+    "status": "filled",
+    "order_id": "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
+    "qty": 1.0,
+    "price": 4.95,
+    "notional": 495.0,
+    "reason": "stop loss (-56%)",
+    "underlying": "GOOGL",
+    "realized_pl": -630.0
   }
 ]
