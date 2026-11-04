@@ -40,33 +40,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62805372",
-    "created_at": "2026-11-03T01:16:25Z",
-    "headline": "Apple, Palantir, Marvell Technology, Oracle and Aehr Test Systems: Why These 5 Stocks Are on Investors' Radars Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62805372/apple-palantir-marvell-technology-oracle-and-aehr-test-systems-why-these-5-stocks-are-on-investors-radars-today",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "111255627",
-    "created_at": "2026-11-03T01:01:49Z",
-    "headline": "Tesla Powerwall 3 Updated to Integrate with Heat Pumps",
-    "url": "https://www.newsnow.co.uk/h/Industry+Sectors/Automotive/US+Manufacturers/Tesla",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Minor Powerwall product update with limited financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62822505",
     "created_at": "2026-11-03T14:32:40Z",
     "headline": "Iran's Security Chief Mohsen Rezaei, On Social Media, Says America's Response To Iran's Rights And Demands Was Not Convincing, And They Must Fully And Explicitly Address Iran's Seven Conditions And Act Upon Them; Only In This Case Will The Strait Of Hormuz Be Reopened",
@@ -2513,6 +2486,126 @@
     "source": "benzinga",
     "market_risk": 0.02,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850385",
+    "created_at": "2026-11-04T01:22:34Z",
+    "headline": "AP Calls Democrat Chris Pappas Winner In New Hampshire Senate Race, Defeating Republican John Sununu To Secure Key Democratic Seat",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850355",
+    "created_at": "2026-11-04T01:14:35Z",
+    "headline": "AP Calls Democrat Jared Moskowitz Winner In Florida's 25th Congressional District, Securing Third Term Over Republican Scott Singer",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850282",
+    "created_at": "2026-11-04T01:03:53Z",
+    "headline": "AMD, Super Micro Computer, Arista Networks, Astera Labs and Nvidia: Why These 5 Stocks Are on Investors' Radars Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62850282/amd-super-micro-computer-arista-networks-astera-labs-and-nvidia-why-these-5-stocks-are-on-investors-radars-today",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Routine watchlist mention; no company-specific catalyst"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Routine watchlist mention; no company-specific catalyst"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850271",
+    "created_at": "2026-11-04T01:03:36Z",
+    "headline": "AP Calls Democrat Ed Markey Defeats John Deaton For Senate In Massachusetts",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850260",
+    "created_at": "2026-11-04T01:03:22Z",
+    "headline": "AP Calls Democrat Jack Reed Winner In Rhode Island Senate Race, Securing Sixth Term Over Republican Raymond McKay",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850249",
+    "created_at": "2026-11-04T01:02:52Z",
+    "headline": "AP Calls Democrat Juliana Stratton Defeats Republican Don Tracy For Senate In Illinois",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850238",
+    "created_at": "2026-11-04T01:02:43Z",
+    "headline": "AP Calls Democrat Cory Booker Winner In New Jersey Senate Race, Securing Third Full Term Over Republican Justin Murphy",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850215",
+    "created_at": "2026-11-04T01:01:46Z",
+    "headline": "Democrat Chris Coons Defeats Mike Katz For Senate In Delaware",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850211",
+    "created_at": "2026-11-04T01:01:44Z",
+    "headline": "AP Calls Democrat Jon Ossoff Winner In Georgia Senate Race, Securing Reelection Over Republican Mike Collins",
+    "url": "https://www.benzinga.com/news/26/11/62850211/ap-calls-democrat-jon-ossoff-winner-georgia-senate-race-securing-reelection-over-republican-mike-col",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850169",
+    "created_at": "2026-11-04T00:46:19Z",
+    "headline": "2026 Midterm Election Update: Democrats Have Won 11 House Seats; Republicans Have Won 3 House Seats; Several News Outlets Have Called The Georgia Senate Race For Democrat Jon Ossoff; Early Voting Indicates A Strong Showing For Democrats On All Counts",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Early Democratic sweep may signal policy uncertainty; largely priced in"
+      }
+    ],
     "scorer": "claude"
   }
 ]
