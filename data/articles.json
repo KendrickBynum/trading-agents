@@ -1,83 +1,5 @@
 [
   {
-    "id": "112036503",
-    "created_at": "2026-11-03T20:04:39Z",
-    "headline": "Citigroup Raises ExxonMobil Price Target to $175",
-    "url": "https://www.marketscreener.com/news/citigroup-adjusts-exxon-mobil-price-target-to-175-from-155-ce785fdeda89f127",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Analyst price target raise signals bullish sentiment, though targets often lag price."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "112034583",
-    "created_at": "2026-11-03T20:03:19Z",
-    "headline": "Lam Research Corporation Annual Shareholder Meeting Results and 2027 Outlook",
-    "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4440452:0-lrcx-2027-wfe-outlook-tops-200b-as-transitions-and-capacity-constraints-shape-growth/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "LRCX",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Routine shareholder meeting; 2027 WFE outlook is mildly constructive if above expectations."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62838137",
-    "created_at": "2026-11-03T19:43:30Z",
-    "headline": "Nvidia Stock Climbs Amid Oil Price Drop",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62838137/nvidia-stock-climbs-amid-oil-price-drop",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Rebound from Friday selloff aided by lower oil; short-term bounce, may fade."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62839068",
-    "created_at": "2026-11-03T20:11:09Z",
-    "headline": "Cisco Partners With OpenAI To Integrate Frontier AI Reasoning Into Networking And Security Infrastructure, Strengthening Enterprise Cybersecurity And Threat Detection",
-    "url": "https://www.benzinga.com/news/26/11/62839068/cisco-partners-openai-integrate-frontier-ai-reasoning-networking-and-security-infrastructure-strengt",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Cisco-OpenAI partnership is Cisco's news; minimal direct read-through to Microsoft"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62838995",
-    "created_at": "2026-11-03T20:08:43Z",
-    "headline": "Growth And Cyclical Lead Sectors Tuesday",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62838995/growth-and-cyclical-lead-sectors-tuesday",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "112527143",
     "created_at": "2026-11-04T00:01:37Z",
     "headline": "DeepInfra Announces New Benefits for NVIDIA Inception Members",
@@ -3157,6 +3079,107 @@
         "sentiment": 0.3,
         "confidence": 0.35,
         "reason": "Record high on AI infrastructure bets; partly priced in already"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62885199",
+    "created_at": "2026-11-04T20:20:49Z",
+    "headline": "From Pharmaceuticals to PCs: HP Bets on Emma Walmsley to Navigate Chip Crisis",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62885199/from-pharmaceuticals-to-pcs-hp-bets-on-emma-walmsley-to-navigate-chip-crisis",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "113215358",
+    "created_at": "2026-11-04T20:02:11Z",
+    "headline": "Meta Platforms Acquires AI Coding Startup Conductor",
+    "url": "https://www.marketscreener.com/news/meta-platforms-acquires-ai-coding-startup-conductor-ce785fdfde8bf325",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.2,
+        "confidence": 0.2,
+        "reason": "Small AI coding acquisition; limited near-term financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "113213607",
+    "created_at": "2026-11-04T20:01:37Z",
+    "headline": "Micron Shares Decline Amid Market Concerns Over Data-Center Infrastructure Policy",
+    "url": "https://www.morningstar.com/news/marketwatch/20261104144/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism",
+    "source": "fiscal.ai",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Policy uncertainty may weigh on data-center and AI infrastructure demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62884154",
+    "created_at": "2026-11-04T19:59:53Z",
+    "headline": "'Trump diesel deal with Russia falters as US fuel supplies hit 20-year low' - Financial Times",
+    "url": "https://www.benzinga.com/government/26/11/62884154/trump-diesel-deal-russia-falters-us-fuel-supplies-hit-20-year-low-financial-times",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.3,
+        "confidence": 0.3,
+        "reason": "Tight US fuel supplies may support oil and energy prices"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62883916",
+    "created_at": "2026-11-04T19:50:43Z",
+    "headline": "'Apple Cuts Internal AI Usage Budgets in Move to Reduce Spending' - Bloomberg Exclusive",
+    "url": "https://www.benzinga.com/news/26/11/62883916/apple-cuts-internal-ai-usage-budgets-move-reduce-spending-bloomberg-exclusive",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Reduced AI spending could signal weaker AI investment appetite"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62883713",
+    "created_at": "2026-11-04T19:46:20Z",
+    "headline": "AMD Sets the Bar High for 2027, Analysts Say It Can Clear It",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62883713/amd-sets-the-bar-high-for-2027-analysts-say-it-can-clear-it",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.7,
+        "confidence": 0.7,
+        "reason": "Strong Q3 beat, upbeat guidance, and raised analyst estimates"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Booming AI and data-center demand supports memory sector outlook"
       }
     ],
     "scorer": "claude"

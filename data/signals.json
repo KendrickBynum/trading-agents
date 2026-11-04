@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T19:35:20.845683+00:00",
-  "market_risk": 0.109,
+  "generated_at": "2026-11-04T20:25:40.205559+00:00",
+  "market_risk": 0.11,
   "tickers": {
     "SPY": {
       "score": 0.031,
@@ -80,10 +80,17 @@
       ]
     },
     "AAPL": {
-      "score": -0.22,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.216,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "'Apple Cuts Internal AI Usage Budgets in Move to Reduce Spending' - Bloomberg Exclusive",
+          "url": "https://www.benzinga.com/news/26/11/62883916/apple-cuts-internal-ai-usage-budgets-move-reduce-spending-bloomberg-exclusive",
+          "time": "2026-11-04T19:50:43Z",
+          "sentiment": -0.2,
+          "reason": "Reduced AI spending could signal weaker AI investment appetite"
+        },
         {
           "headline": "What Is Going On With Apple Stock on Wednesday?",
           "url": "https://www.benzinga.com/markets/tech/26/11/62868935/what-is-going-on-with-apple-stock-on-wednesday-2",
@@ -111,13 +118,6 @@
           "time": "2026-11-04T11:31:56Z",
           "sentiment": -0.5,
           "reason": "Downgrade to Sell from a major European bank; negative sentiment signal"
-        },
-        {
-          "headline": "Nasdaq Jumps Over 200 Points as Chip Stocks Gain: Fear & Greed Index Remains in \u2018Extreme Fear\u2019 Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62852873/nasdaq-jumps-over-200-points-as-chip-stocks-gain-fear-greed-index-remains-in-extreme-fear-zone",
-          "time": "2026-11-04T07:17:40Z",
-          "sentiment": -0.3,
-          "reason": "Apple dropped while Nasdaq rallied; Fear & Greed in Extreme Fear"
         }
       ]
     },
@@ -157,9 +157,9 @@
       ]
     },
     "NVDA": {
-      "score": -0.004,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.016,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
@@ -255,10 +255,17 @@
       ]
     },
     "META": {
-      "score": 0.006,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.062,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Meta Platforms Acquires AI Coding Startup Conductor",
+          "url": "https://www.marketscreener.com/news/meta-platforms-acquires-ai-coding-startup-conductor-ce785fdfde8bf325",
+          "time": "2026-11-04T20:02:11Z",
+          "sentiment": 0.2,
+          "reason": "Small AI coding acquisition; limited near-term financial impact"
+        },
         {
           "headline": "'Meta Acquires AI Coding Startup Conductor' - Axios Exclusive",
           "url": "https://www.benzinga.com/m/26/11/62880047/meta-acquires-ai-coding-startup-conductor-axios-exclusive",
@@ -282,10 +289,17 @@
       "headlines": []
     },
     "XOM": {
-      "score": -0.075,
+      "score": -0.025,
       "articles": 8,
       "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "'Trump diesel deal with Russia falters as US fuel supplies hit 20-year low' - Financial Times",
+          "url": "https://www.benzinga.com/government/26/11/62884154/trump-diesel-deal-russia-falters-us-fuel-supplies-hit-20-year-low-financial-times",
+          "time": "2026-11-04T19:59:53Z",
+          "sentiment": 0.3,
+          "reason": "Tight US fuel supplies may support oil and energy prices"
+        },
         {
           "headline": "TD Cowen Maintains Buy on ExxonMobil Holdings, Raises Price Target to $193",
           "url": "https://www.benzinga.com/news/26/11/62882687/td-cowen-maintains-buy-exxonmobil-holdings-raises-price-target-193",
@@ -313,21 +327,28 @@
           "time": "2026-11-04T15:32:08Z",
           "sentiment": 0.2,
           "reason": "Crude draw far smaller than expected, mildly supportive of oil prices"
-        },
-        {
-          "headline": "TD Cowen Adjusts Price Target on Exxon Mobil to $193",
-          "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-exxon-mobil-to-193-from-180-ce785fdfdb89f524",
-          "time": "2026-11-04T12:31:45Z",
-          "sentiment": 0.3,
-          "reason": "TD Cowen raised price target to $193 from $180"
         }
       ]
     },
     "MU": {
-      "score": 0.3,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.016,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Micron Shares Decline Amid Market Concerns Over Data-Center Infrastructure Policy",
+          "url": "https://www.morningstar.com/news/marketwatch/20261104144/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism",
+          "time": "2026-11-04T20:01:37Z",
+          "sentiment": -0.4,
+          "reason": "Policy uncertainty may weigh on data-center and AI infrastructure demand"
+        },
+        {
+          "headline": "AMD Sets the Bar High for 2027, Analysts Say It Can Clear It",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62883713/amd-sets-the-bar-high-for-2027-analysts-say-it-can-clear-it",
+          "time": "2026-11-04T19:46:20Z",
+          "sentiment": 0.3,
+          "reason": "Booming AI and data-center demand supports memory sector outlook"
+        },
         {
           "headline": "Forget Nvidia: Why Samsung, TSMC, and Micron Just Generated 'More Free Cash Flow... Than Any Other Listed US Company'",
           "url": "https://www.benzinga.com/markets/equities/26/11/62861260/forget-nvidia-why-samsung-tsmc-and-micron-just-generated-more-free-cash-flow-than-any-other-listed-us-company",
@@ -338,18 +359,10 @@
       ]
     },
     "LRCX": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Lam Research Corporation Annual Shareholder Meeting Results and 2027 Outlook",
-          "url": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:4440452:0-lrcx-2027-wfe-outlook-tops-200b-as-transitions-and-capacity-constraints-shape-growth/",
-          "time": "2026-11-03T20:03:19Z",
-          "sentiment": 0.2,
-          "reason": "Routine shareholder meeting; 2027 WFE outlook is mildly constructive if above expectations."
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "TSLA": {
       "score": -0.284,
@@ -400,10 +413,17 @@
       "headlines": []
     },
     "AMD": {
-      "score": 0.401,
-      "articles": 32,
-      "ai_articles": 32,
+      "score": 0.435,
+      "articles": 33,
+      "ai_articles": 33,
       "headlines": [
+        {
+          "headline": "AMD Sets the Bar High for 2027, Analysts Say It Can Clear It",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62883713/amd-sets-the-bar-high-for-2027-analysts-say-it-can-clear-it",
+          "time": "2026-11-04T19:46:20Z",
+          "sentiment": 0.7,
+          "reason": "Strong Q3 beat, upbeat guidance, and raised analyst estimates"
+        },
         {
           "headline": "JP Morgan Maintains Neutral on Advanced Micro Devices, Raises Price Target to $575",
           "url": "https://www.benzinga.com/news/26/11/62882826/jp-morgan-maintains-neutral-advanced-micro-devices-raises-price-target-575",
@@ -431,13 +451,6 @@
           "time": "2026-11-04T15:45:11Z",
           "sentiment": 0.3,
           "reason": "Truist maintains Buy and raises price target to $605"
-        },
-        {
-          "headline": "AMD Is Growing Twice as Fast as Intel. Here's Where the Gap Is Coming From",
-          "url": "https://www.benzinga.com/news/space/26/11/62868028/amd-growing-faster-than-intel",
-          "time": "2026-11-04T14:50:19Z",
-          "sentiment": 0.3,
-          "reason": "Strong 45% revenue growth vs Intel; AI demand tailwind"
         }
       ]
     }
