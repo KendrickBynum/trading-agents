@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T20:35:24.545954+00:00",
-  "market_risk": 0.132,
+  "generated_at": "2026-11-04T00:36:31.971184+00:00",
+  "market_risk": 0.111,
   "tickers": {
     "SPY": {
-      "score": -0.127,
-      "articles": 12,
-      "ai_articles": 12,
+      "score": -0.134,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
         {
           "headline": "S&P 500 Could Win No Matter Who Wins the Midterms: 5 ETFs to Watch Under JPMorgan's 4 Scenarios",
@@ -87,9 +87,9 @@
       ]
     },
     "AAPL": {
-      "score": -0.087,
-      "articles": 41,
-      "ai_articles": 41,
+      "score": -0.196,
+      "articles": 18,
+      "ai_articles": 18,
       "headlines": [
         {
           "headline": "Apple Stock at \u2018Extreme Overvaluation\u2019: Analysts See Slowing Revenue Growth",
@@ -129,9 +129,9 @@
       ]
     },
     "MSFT": {
-      "score": 0.46,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.502,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "What's Going on with Microsoft Stock on Tuesday?",
@@ -146,20 +146,13 @@
           "time": "2026-11-03T13:02:11Z",
           "sentiment": 0.15,
           "reason": "Named top 5-year holding by bullish analyst"
-        },
-        {
-          "headline": "QUICK SPARK: CoreWeave Stock Hits New All-Time Low",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62795864/coreweave-stock-hits-new-all-time-low",
-          "time": "2026-11-02T20:44:28Z",
-          "sentiment": -0.2,
-          "reason": "CoreWeave, a major AI cloud partner, hits record low on AI capex worries"
         }
       ]
     },
     "NVDA": {
-      "score": 0.013,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.022,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "Nvidia Stock Climbs Amid Oil Price Drop",
@@ -199,9 +192,9 @@
       ]
     },
     "AMZN": {
-      "score": 0.053,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.042,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon\u2019s Role As An Apple Distributor",
@@ -223,13 +216,6 @@
           "time": "2026-11-03T13:11:20Z",
           "sentiment": 0.15,
           "reason": "Anthropic stake value rising; potential IPO upside"
-        },
-        {
-          "headline": "Phillip Securities Upgrades Amazon to Buy",
-          "url": "https://www.tradingview.com/news/gurufocus:48db88985094b:0-aws-growth-wins-amazon-stock-a-330-upgrade/",
-          "time": "2026-11-02T21:31:33Z",
-          "sentiment": 0.2,
-          "reason": "Analyst upgrade to Buy with raised price target"
         }
       ]
     },
@@ -254,24 +240,23 @@
       ]
     },
     "JPM": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "UBS Maintains Buy on JPMorgan Chase, Raises Price Target to $400",
-          "url": "https://www.benzinga.com/news/26/11/62802352/ubs-maintains-buy-jpmorgan-chase-raises-price-target-400",
-          "time": "2026-11-02T21:58:59Z",
-          "sentiment": 0.2,
-          "reason": "UBS buy rating with higher price target"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "XOM": {
-      "score": 0.318,
+      "score": 0.316,
       "articles": 5,
       "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "API Crude Oil Stock 5.267M Barrel Draw Vs 2.100M Barrel Build Est.",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-03T22:02:39Z",
+          "sentiment": 0.3,
+          "reason": "Crude inventory draw well above build estimate; supportive for oil prices"
+        },
         {
           "headline": "Citigroup Raises ExxonMobil Price Target to $175",
           "url": "https://www.marketscreener.com/news/citigroup-adjusts-exxon-mobil-price-target-to-175-from-155-ce785fdeda89f127",
@@ -299,13 +284,6 @@
           "time": "2026-11-03T02:53:42Z",
           "sentiment": 0.25,
           "reason": "Strikes on Iran could lift oil prices and energy risk premium"
-        },
-        {
-          "headline": "UBS Maintains Buy on ExxonMobil Holdings, Raises Price Target to $213",
-          "url": "https://www.benzinga.com/news/26/11/62802188/ubs-maintains-buy-exxonmobil-holdings-raises-price-target-213",
-          "time": "2026-11-02T21:54:22Z",
-          "sentiment": 0.15,
-          "reason": "UBS buy rating with higher price target"
         }
       ]
     },
@@ -394,10 +372,17 @@
       ]
     },
     "TSLA": {
-      "score": -0.36,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.102,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Tesla Expands Robotaxi Service to Fort Worth",
+          "url": "https://www.tradingview.com/news/gurufocus:0623b5e63094b:0-tesla-stocks-move-lower-with-fort-worth-robotaxi-expansion-in-focus/",
+          "time": "2026-11-03T21:31:42Z",
+          "sentiment": 0.2,
+          "reason": "Robotaxi expansion to Fort Worth; incremental commercial growth"
+        },
         {
           "headline": "Tesla Reports October 2026 China Wholesale Sales",
           "url": "https://www.moomoo.com/news/post/1003323705/tesla-s-china-wholesale-sales-sink-sequentially-in-october-to",
@@ -436,23 +421,44 @@
       ]
     },
     "AMD": {
-      "score": 0.249,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.505,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
         {
-          "headline": "Samsung Reportedly Secures AMD Orders for New Texas Chip Plant",
-          "url": "https://www.tradingview.com/news/stocktwits:5da196291094b:0-amd-nvidia-could-join-tesla-on-samsung-s-texas-chip-plant-customer-list-report/",
-          "time": "2026-11-03T14:31:49Z",
+          "headline": "Advanced Micro Devices Q3 2026 Earnings Call Transcript",
+          "url": "https://www.benzinga.com/news/26/11/62849372/advanced-micro-devices-q3-2026-earnings-call-transcript",
+          "time": "2026-11-03T23:09:09Z",
           "sentiment": 0.4,
-          "reason": "Reported Samsung HBM base-die manufacturing deal for AMD in Texas"
+          "reason": "Q3 call content from later commentary is strongly bullish on data center growth."
         },
         {
-          "headline": "Nasdaq Dips Over 1% as Tech Stocks Fall: Investor Sentiment Weakens, Fear & Greed Index Moves to \u2018Extreme Fear\u2019 Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62806764/nasdaq-dips-over-1-as-tech-stocks-fall-investor-sentiment-weakens-fear-greed-index-moves-to-extreme-fear-zone",
-          "time": "2026-11-03T07:52:09Z",
+          "headline": "AMD Provides Fourth Quarter 2026 Revenue Guidance",
+          "url": "https://www.marketscreener.com/news/amd-advanced-micro-devices-inc-expects-q4-revenue-range-16-49b-17-51b-ce785fdedc8bf527",
+          "time": "2026-11-03T22:32:03Z",
+          "sentiment": 0.2,
+          "reason": "Q4 guidance midpoint about $17B; likely constructive but consensus unknown."
+        },
+        {
+          "headline": "AMD CEO Says Expect Our Embedded Business To Deliver A Strong Double-Digit Annual Revenue Growth; Now Expect Revenue To Grow More Than 80% In 2027",
+          "url": "https://www.benzinga.com/news/26/11/62848042/amd-ceo-says-expect-our-embedded-business-deliver-strong-double-digit-annual-revenue-growth-now-expe",
+          "time": "2026-11-03T22:20:25Z",
+          "sentiment": 0.6,
+          "reason": "Expects over 80% revenue growth in 2027; strongly bullish outlook."
+        },
+        {
+          "headline": "AMD CEO Says In 2027, We Are Planning For Pc Market Unit Shipments To Decline By A Double-Digit Percentage",
+          "url": "https://www.benzinga.com/news/26/11/62847925/amd-ceo-says-2027-we-are-planning-pc-market-unit-shipments-decline-double-digit-percentage",
+          "time": "2026-11-03T22:17:36Z",
           "sentiment": -0.2,
-          "reason": "Tech sell-off and extreme fear sentiment weigh on chip names"
+          "reason": "Expected double-digit PC unit decline in 2027 hurts client segment."
+        },
+        {
+          "headline": "AMD CEO Says  Expect Data Center To Be More Than 80% Of Our Total Revenue In 2027 And To Drive The Majority Of Our Revenue And Earnings Growth",
+          "url": "https://www.benzinga.com/news/26/11/62847892/amd-ceo-says-expect-data-center-be-more-80-our-total-revenue-2027-and-drive-majority-our-revenue-and",
+          "time": "2026-11-03T22:16:46Z",
+          "sentiment": 0.4,
+          "reason": "Data center above 80% of revenue by 2027 drives growth thesis."
         }
       ]
     }
