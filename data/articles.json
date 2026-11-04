@@ -1,149 +1,5 @@
 [
   {
-    "id": "62832844",
-    "created_at": "2026-11-03T17:32:51Z",
-    "headline": "Chinese Tape Maker Soars 787% in Market Debut as Beijing Moves to Halt New IPO Filings",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62832844/china-ipo-surge",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62832829",
-    "created_at": "2026-11-03T17:32:31Z",
-    "headline": "What's Going on with Intel Stock on Tuesday?",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62832829/whats-going-on-with-intel-stock-on-tuesday-2",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Soft PC guidance at Intel may weigh on PC-linked chip demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62832505",
-    "created_at": "2026-11-03T17:24:36Z",
-    "headline": "Nasdaq 100 Gets a Lift As Nvidia Overtakes Apple: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62832505/stock-market-today-nvidia-overtakes-apple-chip-rally-nasdaq-jolts-yields",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Memory-cost margin warning pressures Apple's profitability outlook"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Chipmaker rebound and top market value; largely priced in"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Broad chipmaker rebound supports sentiment"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": 0.3,
-        "confidence": 0.3,
-        "reason": "Higher memory costs suggest stronger memory pricing environment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62832356",
-    "created_at": "2026-11-03T17:20:52Z",
-    "headline": "Wall Street's Growth Stocks Have a New Problem: Value Stocks Are Getting More Expensive",
-    "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62832356/value-stocks-growth-premium",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Growth-to-value rotation and AI return doubts weigh on megacaps"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Growth-to-value rotation and AI return doubts weigh on megacaps"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Growth-to-value rotation and AI return doubts weigh on megacaps"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Growth-to-value rotation and AI return doubts weigh on megacaps"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62831471",
-    "created_at": "2026-11-03T17:03:17Z",
-    "headline": "Reported Earlier: 'Google Will Turn Off Search For Schools That Reject A.I.; Google Is Making It Easier To Restrict Its A.I. Tools For Students. But Schools That Block A.I. Entirely Will Lose Student Access To Google\u2019s Search Engine' - NY Times",
-    "url": "https://www.benzinga.com/news/26/11/62831471/reported-earlier-google-will-turn-search-schools-reject-i-google-making-it-easier-restrict-its-i-too",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Schools blocking AI may lose Search access; minor impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62831384",
-    "created_at": "2026-11-03T17:01:40Z",
-    "headline": "EXCLUSIVE: Top 12 Most-Searched Tickers in October on Benzinga Pro \u2013 SpaceX Soars, Micron Rises, Nvidia Falls, CoreWeave and Microsoft Join List",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62831384/exclusive-top-12-most-searched-tickers-in-october-on-benzinga-pro-spacex-soars-micron-rises-nvidia-falls-coreweave-and-microsoft-join-list",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62831250",
-    "created_at": "2026-11-03T16:59:24Z",
-    "headline": "BZ Analysis: The S&P 500 Value Index Outperformed The Growth Index By Around 9.7 Percentage Points In October, Representing The Largest Monthly Outperformance On Record Going Back To 1993",
-    "url": "https://www.benzinga.com/economics/26/11/62831250/bz-analysis-s-p-500-value-index-outperformed-growth-index-around-9-7-percentage-points-october-repre",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62831122",
-    "created_at": "2026-11-03T16:56:00Z",
-    "headline": "'US, Venezuela in Talks on Fresh Aluminum Cargo in Trade Revival' - Bloomberg Exclusive",
-    "url": "https://www.benzinga.com/news/26/11/62831122/us-venezuela-talks-fresh-aluminum-cargo-trade-revival-bloomberg-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "62835644",
     "created_at": "2026-11-03T18:31:42Z",
     "headline": "Apple Announces Redesigned Health App Expands Language Support",
@@ -358,26 +214,6 @@
         "reason": "AI tech rebound and infrastructure spending may support AI chip demand"
       }
     ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62832967",
-    "created_at": "2026-11-03T17:35:10Z",
-    "headline": "3 Communication Services Stocks With Whale Alerts In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/62832967/3-communication-services-stocks-whale-alerts-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62832963",
-    "created_at": "2026-11-03T17:35:10Z",
-    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/62832963/10-information-technology-stocks-whale-alerts-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
     "scorer": "claude"
   },
   {
@@ -3207,6 +3043,175 @@
         "sentiment": 0.0,
         "confidence": 0.05,
         "reason": "Peripheral mention in supplier earnings preview"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62877866",
+    "created_at": "2026-11-04T17:31:02Z",
+    "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Broad tech-led rally after midterms lifts index"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Market rally benefits high-beta semiconductor leader"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Broad market rally supports megacap tech"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Broad market rally supports megacap tech"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": -0.5,
+        "confidence": 0.5,
+        "reason": "Oil sinking 7% directly pressures energy producers"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62877835",
+    "created_at": "2026-11-04T17:30:19Z",
+    "headline": "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550",
+    "url": "https://www.benzinga.com/news/26/11/62877835/morgan-stanley-maintains-equal-weight-advanced-micro-devices-raises-price-target-550",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Analyst raises price target; rating unchanged"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62876749",
+    "created_at": "2026-11-04T17:07:24Z",
+    "headline": "Piper Sandler Maintains Overweight on Advanced Micro Devices, Raises Price Target to $650",
+    "url": "https://www.benzinga.com/news/26/11/62876749/piper-sandler-maintains-overweight-advanced-micro-devices-raises-price-target-650",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Overweight rating with raised price target to $650"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62876539",
+    "created_at": "2026-11-04T17:03:06Z",
+    "headline": "Why Investors May Be Getting The Blue Wave Trade Wrong; Iran Remains The Wild Card",
+    "url": "https://www.benzinga.com/opinion/26/11/62876539/why-investors-may-be-getting-the-blue-wave-trade-wrong-iran-remains-the-wild-card",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62875824",
+    "created_at": "2026-11-04T16:48:46Z",
+    "headline": "Elon Musk Gets Double Miss From 2026 Midterm Elections: $474 Million Donated, Net Worth Drops by $23 Billion",
+    "url": "https://www.benzinga.com/news/politics/26/11/62875824/elon-musk-gets-double-miss-from-2026-midterm-elections-474-million-donated-net-worth-drops-by-23-billion",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Musk's political spending and net worth drop; sentiment noise"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62875724",
+    "created_at": "2026-11-04T16:46:55Z",
+    "headline": "Wells Fargo Maintains Overweight on Advanced Micro Devices, Lowers Price Target to $650",
+    "url": "https://www.benzinga.com/news/26/11/62875724/wells-fargo-maintains-overweight-advanced-micro-devices-lowers-price-target-650",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Price target cut despite maintained overweight rating"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62875451",
+    "created_at": "2026-11-04T16:42:34Z",
+    "headline": "\"President Trump Has Been Asking Advisers Around Him And On The Phone Whether Defense Secretary Pete Hegseth Should Stay In His Job, Following Republicans' Catastrophic Losses Tuesday Night, Says Multiple People Familiar With The Matter\" - CBS News",
+    "url": "https://www.benzinga.com/news/26/11/62875451/trump-asking-advisers-if-hegseth-should-go-sources-say-cbs-news",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Possible cabinet shake-up; political uncertainty, minimal direct market effect"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62875511",
+    "created_at": "2026-11-04T16:43:22Z",
+    "headline": "Overnight Trading On The S&P 500: Returns And Drawdowns In SPY",
+    "url": "https://www.benzinga.com/opinion/26/11/62875511/overnight-trading-on-sp500-returns-drawdowns-in-spy",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62874818",
+    "created_at": "2026-11-04T16:40:18Z",
+    "headline": "Senate Majority Leader Schumer Says We Will End The War, Some Republicans Have Joined Us",
+    "url": "https://www.benzinga.com/government/26/11/62874818/senate-majority-leader-schumer-says-we-will-end-war-some-republicans-have-joined-us",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Stated push to end war could ease geopolitical risk"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "War ending may reduce oil risk premium"
       }
     ],
     "scorer": "claude"

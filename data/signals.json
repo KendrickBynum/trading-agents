@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-04T16:35:34.913829+00:00",
-  "market_risk": 0.104,
+  "generated_at": "2026-11-04T17:35:20.820091+00:00",
+  "market_risk": 0.112,
   "tickers": {
     "SPY": {
-      "score": -0.016,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.018,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Senate Majority Leader Schumer Says We Will End The War, Some Republicans Have Joined Us",
+          "url": "https://www.benzinga.com/government/26/11/62874818/senate-majority-leader-schumer-says-we-will-end-war-some-republicans-have-joined-us",
+          "time": "2026-11-04T16:40:18Z",
+          "sentiment": 0.2,
+          "reason": "Stated push to end war could ease geopolitical risk"
+        },
         {
           "headline": "Benzinga Market Summary: S&P Rises After Democrats Win U.S. House And U.S. Senate Majority, Texas Results Weigh On Musk-Owned And AI-Related Companies, Trump Media & Technology Slides After Midterms And McDonald's Rises On Q3 Adj. EPS Beat.",
           "url": "https://www.benzinga.com/quote/SPCX",
@@ -34,21 +41,21 @@
           "time": "2026-11-04T13:57:11Z",
           "sentiment": -0.15,
           "reason": "AI infrastructure slowdown risk weighs on broader market"
-        },
-        {
-          "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Democrats Take Control of Congress\u2014AMD, AMGN, NVO in Focus (UPDATED)",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62854452/stock-market-today-dow-jones-sp-500-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus",
-          "time": "2026-11-04T13:40:09Z",
-          "sentiment": 0.2,
-          "reason": "Index futures rising despite midterm political uncertainty"
         }
       ]
     },
     "QQQ": {
-      "score": -0.082,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.104,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
+          "time": "2026-11-04T17:31:02Z",
+          "sentiment": 0.4,
+          "reason": "Broad tech-led rally after midterms lifts index"
+        },
         {
           "headline": "Dan Ives Says Democratic Sweep Will Slow AI Buildout, Estimates 10% Of Planned US Data Centers \u2018Will Not Happen Now\u2019",
           "url": "https://www.benzinga.com/markets/market-summary/26/11/62864066/dan-ives-says-democratic-sweep-will-slow-ai-buildout-estimates-10-of-planned-us-data-centers-will-not-happen-now",
@@ -76,20 +83,13 @@
           "time": "2026-11-03T19:14:56Z",
           "sentiment": 0.2,
           "reason": "JPMorgan sees index resilience across midterm outcomes"
-        },
-        {
-          "headline": "This Midterm Nightmare Scenario Puts S&P 500 Down 10% by Year-End, Evercore Warns",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836517/this-midterm-nightmare-scenario-puts-sp-500-down-10-by-year-end-evercore-warns",
-          "time": "2026-11-03T18:56:35Z",
-          "sentiment": -0.4,
-          "reason": "Evercore scenario implies broad market selloff; tech more exposed"
         }
       ]
     },
     "AAPL": {
-      "score": -0.242,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.227,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "What Is Going On With Apple Stock on Wednesday?",
@@ -129,10 +129,17 @@
       ]
     },
     "MSFT": {
-      "score": -0.038,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.067,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
+          "time": "2026-11-04T17:31:02Z",
+          "sentiment": 0.2,
+          "reason": "Broad market rally supports megacap tech"
+        },
         {
           "headline": "CoreWeave, Peers Fall After Democrats Sweep Midterms; What it Means For Data Centers",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62865304/coreweave-peers-fall-after-democrats-sweep-midterms-what-it-means-for-data-centers",
@@ -150,10 +157,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.094,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.0,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
+          "time": "2026-11-04T17:31:02Z",
+          "sentiment": 0.3,
+          "reason": "Market rally benefits high-beta semiconductor leader"
+        },
         {
           "headline": "CoreWeave, Peers Fall After Democrats Sweep Midterms; What it Means For Data Centers",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62865304/coreweave-peers-fall-after-democrats-sweep-midterms-what-it-means-for-data-centers",
@@ -181,21 +195,21 @@
           "time": "2026-11-04T06:16:26Z",
           "sentiment": -0.2,
           "reason": "Only 1% of China RTX chip orders may be fulfilled; limits China demand"
-        },
-        {
-          "headline": "Grant Cardone Warns James Talarico's Texas Win Could Spell Trouble for Elon Musk's SPCX, AI Bets\u2014Gina Hinojosa Governor Win Sparks Data Center Moratorium Talk",
-          "url": "https://www.benzinga.com/news/politics/26/11/62851381/grant-cardone-warns-james-talaricos-texas-win-could-spell-trouble-for-elon-musks-spcx-ai-bets-gina-hinojosa-governor-win-sparks-data-center-moratorium-talk",
-          "time": "2026-11-04T05:08:49Z",
-          "sentiment": -0.15,
-          "reason": "Speculative data-center regulation risk; opinion-based warning"
         }
       ]
     },
     "AMZN": {
-      "score": 0.3,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.246,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
+          "time": "2026-11-04T17:31:02Z",
+          "sentiment": 0.2,
+          "reason": "Broad market rally supports megacap tech"
+        },
         {
           "headline": "Amazon Reports AWS Financials and Strategic AI Updates",
           "url": "https://www.tradingview.com/news/tradingview:6c3ae0732efe1:0-key-facts-aws-revenue-46b-220b-capex-chip-commitments-up-20x/",
@@ -254,10 +268,24 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.111,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.122,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
+          "time": "2026-11-04T17:31:02Z",
+          "sentiment": -0.5,
+          "reason": "Oil sinking 7% directly pressures energy producers"
+        },
+        {
+          "headline": "Senate Majority Leader Schumer Says We Will End The War, Some Republicans Have Joined Us",
+          "url": "https://www.benzinga.com/government/26/11/62874818/senate-majority-leader-schumer-says-we-will-end-war-some-republicans-have-joined-us",
+          "time": "2026-11-04T16:40:18Z",
+          "sentiment": -0.2,
+          "reason": "War ending may reduce oil risk premium"
+        },
         {
           "headline": "USA Crude Oil Inventories 0.865M Barrel Draw vs 1.700M Barrel Draw Est.",
           "url": "https://www.benzinga.com/quote/USO",
@@ -278,27 +306,13 @@
           "time": "2026-11-04T11:31:42Z",
           "sentiment": -0.4,
           "reason": "Downgrade to Sell with $170 target; negative analyst sentiment"
-        },
-        {
-          "headline": "API Crude Oil Stock 5.267M Barrel Draw Vs 2.100M Barrel Build Est.",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-03T22:02:39Z",
-          "sentiment": 0.3,
-          "reason": "Crude inventory draw well above build estimate; supportive for oil prices"
-        },
-        {
-          "headline": "Citigroup Raises ExxonMobil Price Target to $175",
-          "url": "https://www.marketscreener.com/news/citigroup-adjusts-exxon-mobil-price-target-to-175-from-155-ce785fdeda89f127",
-          "time": "2026-11-03T20:04:39Z",
-          "sentiment": 0.3,
-          "reason": "Analyst price target raise signals bullish sentiment, though targets often lag price."
         }
       ]
     },
     "MU": {
       "score": 0.3,
-      "articles": 2,
-      "ai_articles": 2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Forget Nvidia: Why Samsung, TSMC, and Micron Just Generated 'More Free Cash Flow... Than Any Other Listed US Company'",
@@ -306,13 +320,6 @@
           "time": "2026-11-04T12:57:56Z",
           "sentiment": 0.3,
           "reason": "Micron cited among top free cash flow generators amid heavy AI capex"
-        },
-        {
-          "headline": "Nasdaq 100 Gets a Lift As Nvidia Overtakes Apple: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62832505/stock-market-today-nvidia-overtakes-apple-chip-rally-nasdaq-jolts-yields",
-          "time": "2026-11-03T17:24:36Z",
-          "sentiment": 0.3,
-          "reason": "Higher memory costs suggest stronger memory pricing environment"
         }
       ]
     },
@@ -338,10 +345,17 @@
       ]
     },
     "TSLA": {
-      "score": -0.318,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.297,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Elon Musk Gets Double Miss From 2026 Midterm Elections: $474 Million Donated, Net Worth Drops by $23 Billion",
+          "url": "https://www.benzinga.com/news/politics/26/11/62875824/elon-musk-gets-double-miss-from-2026-midterm-elections-474-million-donated-net-worth-drops-by-23-billion",
+          "time": "2026-11-04T16:48:46Z",
+          "sentiment": -0.15,
+          "reason": "Musk's political spending and net worth drop; sentiment noise"
+        },
         {
           "headline": "Rivian Automotive Stock Is Gaining Wednesday: What's Going On?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62871904/rivian-automotive-stock-is-gaining-wednesday-whats-going-on",
@@ -369,13 +383,6 @@
           "time": "2026-11-04T12:31:40Z",
           "sentiment": -0.4,
           "reason": "Shares fall on midterm results; regulatory scrutiny concerns"
-        },
-        {
-          "headline": "Tesla Faces Allegations of Misleading Marketing for Full Self-Driving in South Korea",
-          "url": "https://www.marketscreener.com/news/tesla-accused-of-misleading-marketing-of-full-self-driving-in-south-korea-ce785fdfd989f424",
-          "time": "2026-11-04T11:32:56Z",
-          "sentiment": -0.2,
-          "reason": "Consumer group complaint over FSD marketing; regulatory and reputational risk, limited near-term impact"
         }
       ]
     },
@@ -394,10 +401,24 @@
       ]
     },
     "AMD": {
-      "score": 0.435,
-      "articles": 29,
-      "ai_articles": 29,
+      "score": 0.412,
+      "articles": 31,
+      "ai_articles": 31,
       "headlines": [
+        {
+          "headline": "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550",
+          "url": "https://www.benzinga.com/news/26/11/62877835/morgan-stanley-maintains-equal-weight-advanced-micro-devices-raises-price-target-550",
+          "time": "2026-11-04T17:30:19Z",
+          "sentiment": 0.2,
+          "reason": "Analyst raises price target; rating unchanged"
+        },
+        {
+          "headline": "Piper Sandler Maintains Overweight on Advanced Micro Devices, Raises Price Target to $650",
+          "url": "https://www.benzinga.com/news/26/11/62876749/piper-sandler-maintains-overweight-advanced-micro-devices-raises-price-target-650",
+          "time": "2026-11-04T17:07:24Z",
+          "sentiment": 0.3,
+          "reason": "Overweight rating with raised price target to $650"
+        },
         {
           "headline": "Truist Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $605",
           "url": "https://www.benzinga.com/news/26/11/62871315/truist-securities-maintains-buy-advanced-micro-devices-raises-price-target-605",
@@ -418,20 +439,6 @@
           "time": "2026-11-04T14:34:55Z",
           "sentiment": 0.3,
           "reason": "Outperform reiteration with $600 target; routine but supportive"
-        },
-        {
-          "headline": "StoneX Reiterates Buy on Advanced Micro Devices, Maintains $685 Price Target",
-          "url": "https://www.benzinga.com/news/26/11/62865584/stonex-reiterates-buy-advanced-micro-devices-maintains-685-price-target",
-          "time": "2026-11-04T14:19:57Z",
-          "sentiment": 0.3,
-          "reason": "Buy reiteration with $685 target; routine but supportive"
-        },
-        {
-          "headline": "DA Davidson Maintains Buy on Advanced Micro Devices, Raises Price Target to $600",
-          "url": "https://www.benzinga.com/news/26/11/62863068/da-davidson-maintains-buy-advanced-micro-devices-raises-price-target-600",
-          "time": "2026-11-04T13:33:11Z",
-          "sentiment": 0.4,
-          "reason": "Buy rating maintained with raised $600 price target"
         }
       ]
     }
