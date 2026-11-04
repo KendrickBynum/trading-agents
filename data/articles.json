@@ -1,144 +1,5 @@
 [
   {
-    "id": "62837416",
-    "created_at": "2026-11-03T19:22:31Z",
-    "headline": "'Jill Hazelbaker Jumps To OpenAI As Chief Corporate Affairs Officer' - Axios",
-    "url": "https://www.benzinga.com/news/26/11/62837416/jill-hazelbaker-jumps-openai-chief-corporate-affairs-officer-axios",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62837242",
-    "created_at": "2026-11-03T19:16:42Z",
-    "headline": "'Meta Draws $58 Billion Demand for US Leg of Cross-Border Bond' - Bloomberg News",
-    "url": "https://www.benzinga.com/news/26/11/62837242/meta-draws-58-billion-demand-us-leg-cross-border-bond-bloomberg-news",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Strong $58B bond demand signals investor confidence; limited equity impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62837162",
-    "created_at": "2026-11-03T19:14:56Z",
-    "headline": "S&P 500 Could Win No Matter Who Wins the Midterms: 5 ETFs to Watch Under JPMorgan's 4 Scenarios",
-    "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62837162/sp-500-could-win-no-matter-who-wins-the-midterms-5-etfs-to-watch-under-jpmorgans-4-scenarios",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "JPMorgan sees S&P 500 resilient across midterm scenarios"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.2,
-        "confidence": 0.35,
-        "reason": "JPMorgan sees index resilience across midterm outcomes"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "111916940",
-    "created_at": "2026-11-03T19:01:33Z",
-    "headline": "SUNGBOON EDITOR Receives 2026 Amazon Innovator Award",
-    "url": "https://www.moomoo.com/news/post/1003346633/from-tiktok-virality-to-amazon-recognition-sungboon-editor-is-emerging",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "111916938",
-    "created_at": "2026-11-03T19:01:21Z",
-    "headline": "Apple Releases First Betas of iOS 27.3 and macOS Golden Gate 27.3",
-    "url": "https://appleosophy.com/wire/kkp59lh/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62836578",
-    "created_at": "2026-11-03T18:58:07Z",
-    "headline": "Apple Stock at \u2018Extreme Overvaluation\u2019: Analysts See Slowing Revenue Growth",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836578/apple-stock-at-extreme-overvaluation-analysts-see-slowing-revenue-growth",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Analysts flag extreme valuation, slowing revenue and lower margins"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62836530",
-    "created_at": "2026-11-03T18:56:48Z",
-    "headline": "Reuters Reported US Officials Have Held Up Approval For American Chipmaking Equipment Needed By SK Hynix To Expand Production In China",
-    "url": "https://www.benzinga.com/quote/FXI",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "LRCX",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "US holdup of chip equipment approvals hurts China-exposed toolmakers"
-      },
-      {
-        "ticker": "ASML",
-        "sentiment": -0.2,
-        "confidence": 0.35,
-        "reason": "Export-approval delays for chipmaking equipment weigh on China sales"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62836517",
-    "created_at": "2026-11-03T18:56:35Z",
-    "headline": "This Midterm Nightmare Scenario Puts S&P 500 Down 10% by Year-End, Evercore Warns",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836517/this-midterm-nightmare-scenario-puts-sp-500-down-10-by-year-end-evercore-warns",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.4,
-        "confidence": 0.4,
-        "reason": "Evercore warns of possible 10% S&P drop under disputed-election scenario"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.4,
-        "confidence": 0.4,
-        "reason": "Evercore scenario implies broad market selloff; tech more exposed"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.3,
-        "confidence": 0.35,
-        "reason": "Deeper Iran involvement could lift oil prices and energy names"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "112036503",
     "created_at": "2026-11-03T20:04:39Z",
     "headline": "Citigroup Raises ExxonMobil Price Target to $175",
@@ -3187,6 +3048,117 @@
     "source": "benzinga",
     "market_risk": 0.0,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62883254",
+    "created_at": "2026-11-04T19:34:09Z",
+    "headline": "Apple, Tesla Supplier Is Taking on 3M: Here's What Investors Should Know",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62883254/crown-new-materials-3m",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62882826",
+    "created_at": "2026-11-04T19:23:50Z",
+    "headline": "JP Morgan Maintains Neutral on Advanced Micro Devices, Raises Price Target to $575",
+    "url": "https://www.benzinga.com/news/26/11/62882826/jp-morgan-maintains-neutral-advanced-micro-devices-raises-price-target-575",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Analyst raises price target to $575, though rating stays Neutral"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62882687",
+    "created_at": "2026-11-04T19:20:44Z",
+    "headline": "TD Cowen Maintains Buy on ExxonMobil Holdings, Raises Price Target to $193",
+    "url": "https://www.benzinga.com/news/26/11/62882687/td-cowen-maintains-buy-exxonmobil-holdings-raises-price-target-193",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Buy rating maintained with price target raised to $193"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "113109394",
+    "created_at": "2026-11-04T19:01:46Z",
+    "headline": "JPMorgan Chase Updates Digital Services Agreement Regarding Third-Party AI Agents",
+    "url": "https://natlawreview.com/article/major-banks-move-block-or-limit-customer-directed-ai-agents",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "113109390",
+    "created_at": "2026-11-04T19:01:41Z",
+    "headline": "Amazon Launches Shop Direct Merchant Workspace",
+    "url": "https://www.globenewswire.com/news-release/2026/11/04/3395414/0/en/feedonomics-now-available-in-amazon-s-shop-direct-merchant-workspace-making-it-easier-for-brands-to-get-their-products-in-front-of-amazon-customers.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "113109388",
+    "created_at": "2026-11-04T19:01:37Z",
+    "headline": "Above Security Joins Microsoft for Startups Pegasus Program",
+    "url": "https://www.prnewswire.com/news-releases/above-security-joins-microsoft-for-startups-pegasus-program-to-add-human-context-to-microsoft-purview-302928788.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "113109387",
+    "created_at": "2026-11-04T19:01:37Z",
+    "headline": "PowerDMARC Launches on Microsoft Marketplace",
+    "url": "https://www.manilatimes.net/2026/11/04/tmt-newswire/plentisoft/powerdmarc-is-now-available-on-microsoft-marketplace/2462010/amp",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "113109385",
+    "created_at": "2026-11-04T19:01:33Z",
+    "headline": "Apple Updates App Store Age-Rating Requirements for Dating and AI Companion Apps",
+    "url": "https://www.techdogs.com/tech-news/td-newsdesk/apple-to-require-18-ratings-for-dating-apps-and-romantic-ai-chatbots-from-november-16",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62881873",
+    "created_at": "2026-11-04T18:59:25Z",
+    "headline": "QUICK SPARK: Microsoft Stock Hits Record High as Midterm Results Boost AI Infrastructure Bets",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62881873/microsoft-stock-record-high-blue-wave-midterms-hyperscalers",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.35,
+        "reason": "Record high on AI infrastructure bets; partly priced in already"
+      }
+    ],
     "scorer": "claude"
   }
 ]

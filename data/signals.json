@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-04T18:35:25.053849+00:00",
-  "market_risk": 0.114,
+  "generated_at": "2026-11-04T19:35:20.845683+00:00",
+  "market_risk": 0.109,
   "tickers": {
     "SPY": {
-      "score": 0.022,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.031,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "Senate Majority Leader Schumer Says We Will End The War, Some Republicans Have Joined Us",
@@ -45,9 +45,9 @@
       ]
     },
     "QQQ": {
-      "score": 0.104,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.124,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
@@ -76,20 +76,13 @@
           "time": "2026-11-04T05:57:08Z",
           "sentiment": -0.2,
           "reason": "Tech futures dropping; weak open signaled by odds"
-        },
-        {
-          "headline": "S&P 500 Could Win No Matter Who Wins the Midterms: 5 ETFs to Watch Under JPMorgan's 4 Scenarios",
-          "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62837162/sp-500-could-win-no-matter-who-wins-the-midterms-5-etfs-to-watch-under-jpmorgans-4-scenarios",
-          "time": "2026-11-03T19:14:56Z",
-          "sentiment": 0.2,
-          "reason": "JPMorgan sees index resilience across midterm outcomes"
         }
       ]
     },
     "AAPL": {
-      "score": -0.231,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.22,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "What Is Going On With Apple Stock on Wednesday?",
@@ -129,10 +122,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.23,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.248,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "QUICK SPARK: Microsoft Stock Hits Record High as Midterm Results Boost AI Infrastructure Bets",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62881873/microsoft-stock-record-high-blue-wave-midterms-hyperscalers",
+          "time": "2026-11-04T18:59:25Z",
+          "sentiment": 0.3,
+          "reason": "Record high on AI infrastructure bets; partly priced in already"
+        },
         {
           "headline": "What's Going on With Microsoft Stock on Wednesday?",
           "url": "https://www.benzinga.com/markets/tech/26/11/62878615/whats-going-on-with-microsoft-stock-on-wednesday",
@@ -282,10 +282,17 @@
       "headlines": []
     },
     "XOM": {
-      "score": -0.122,
+      "score": -0.075,
       "articles": 8,
       "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "TD Cowen Maintains Buy on ExxonMobil Holdings, Raises Price Target to $193",
+          "url": "https://www.benzinga.com/news/26/11/62882687/td-cowen-maintains-buy-exxonmobil-holdings-raises-price-target-193",
+          "time": "2026-11-04T19:20:44Z",
+          "sentiment": 0.2,
+          "reason": "Buy rating maintained with price target raised to $193"
+        },
         {
           "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
@@ -313,13 +320,6 @@
           "time": "2026-11-04T12:31:45Z",
           "sentiment": 0.3,
           "reason": "TD Cowen raised price target to $193 from $180"
-        },
-        {
-          "headline": "DZ Bank Downgrades Exxon Mobil to Sell",
-          "url": "https://www.marketscreener.com/news/dz-bank-downgrades-exxon-mobil-to-sell-from-neutral-price-target-is-170-ce785fdfd888f72d",
-          "time": "2026-11-04T11:31:42Z",
-          "sentiment": -0.4,
-          "reason": "Downgrade to Sell with $170 target; negative analyst sentiment"
         }
       ]
     },
@@ -338,9 +338,9 @@
       ]
     },
     "LRCX": {
-      "score": -0.074,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Lam Research Corporation Annual Shareholder Meeting Results and 2027 Outlook",
@@ -348,13 +348,6 @@
           "time": "2026-11-03T20:03:19Z",
           "sentiment": 0.2,
           "reason": "Routine shareholder meeting; 2027 WFE outlook is mildly constructive if above expectations."
-        },
-        {
-          "headline": "Reuters Reported US Officials Have Held Up Approval For American Chipmaking Equipment Needed By SK Hynix To Expand Production In China",
-          "url": "https://www.benzinga.com/quote/FXI",
-          "time": "2026-11-03T18:56:48Z",
-          "sentiment": -0.3,
-          "reason": "US holdup of chip equipment approvals hurts China-exposed toolmakers"
         }
       ]
     },
@@ -401,24 +394,23 @@
       ]
     },
     "ASML": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Reuters Reported US Officials Have Held Up Approval For American Chipmaking Equipment Needed By SK Hynix To Expand Production In China",
-          "url": "https://www.benzinga.com/quote/FXI",
-          "time": "2026-11-03T18:56:48Z",
-          "sentiment": -0.2,
-          "reason": "Export-approval delays for chipmaking equipment weigh on China sales"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "AMD": {
-      "score": 0.412,
-      "articles": 31,
-      "ai_articles": 31,
+      "score": 0.401,
+      "articles": 32,
+      "ai_articles": 32,
       "headlines": [
+        {
+          "headline": "JP Morgan Maintains Neutral on Advanced Micro Devices, Raises Price Target to $575",
+          "url": "https://www.benzinga.com/news/26/11/62882826/jp-morgan-maintains-neutral-advanced-micro-devices-raises-price-target-575",
+          "time": "2026-11-04T19:23:50Z",
+          "sentiment": 0.2,
+          "reason": "Analyst raises price target to $575, though rating stays Neutral"
+        },
         {
           "headline": "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550",
           "url": "https://www.benzinga.com/news/26/11/62877835/morgan-stanley-maintains-equal-weight-advanced-micro-devices-raises-price-target-550",
@@ -446,13 +438,6 @@
           "time": "2026-11-04T14:50:19Z",
           "sentiment": 0.3,
           "reason": "Strong 45% revenue growth vs Intel; AI demand tailwind"
-        },
-        {
-          "headline": "Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target",
-          "url": "https://www.benzinga.com/news/26/11/62866291/wedbush-reiterates-outperform-advanced-micro-devices-maintains-600-price-target",
-          "time": "2026-11-04T14:34:55Z",
-          "sentiment": 0.3,
-          "reason": "Outperform reiteration with $600 target; routine but supportive"
         }
       ]
     }
