@@ -1,27 +1,8 @@
 {
-  "time": "2026-11-04T17:35:37.371677+00:00",
+  "time": "2026-11-04T18:35:40.482389+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [
-    {
-      "symbol": "JPM",
-      "side": "buy",
-      "reason": "limit buy 0.25 ATR below $351.04 (score +0.42, trend +0.24)",
-      "qty": 11.5241,
-      "limit": 349.36,
-      "notional": 4026.06,
-      "score": 0.416,
-      "factors": {
-        "trend": 0.245,
-        "levels": 0.792,
-        "flow": 0.083,
-        "pattern": 0.554
-      },
-      "status": "order placed",
-      "order_id": "c88f7d95-130c-4306-b4d5-ea73aa206e4f",
-      "time": "2026-11-04T17:35:37.371677+00:00"
-    }
-  ],
+  "last_actions": [],
   "settings": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,

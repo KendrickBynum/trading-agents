@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-04T17:35:20.820091+00:00",
-  "market_risk": 0.112,
+  "generated_at": "2026-11-04T18:35:25.053849+00:00",
+  "market_risk": 0.114,
   "tickers": {
     "SPY": {
-      "score": 0.018,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.022,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "Senate Majority Leader Schumer Says We Will End The War, Some Republicans Have Joined Us",
@@ -87,9 +87,9 @@
       ]
     },
     "AAPL": {
-      "score": -0.227,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.231,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "What Is Going On With Apple Stock on Wednesday?",
@@ -129,10 +129,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.067,
+      "score": 0.23,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "What's Going on With Microsoft Stock on Wednesday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62878615/whats-going-on-with-microsoft-stock-on-wednesday",
+          "time": "2026-11-04T17:46:20Z",
+          "sentiment": 0.5,
+          "reason": "Stock jumped 6% on Azure cloud acceleration; momentum may partly fade"
+        },
         {
           "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
@@ -146,20 +153,13 @@
           "time": "2026-11-04T14:14:51Z",
           "sentiment": -0.2,
           "reason": "Data center sell-off tied to midterm political outcome"
-        },
-        {
-          "headline": "What's Going on with Microsoft Stock on Tuesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62833444/whats-going-on-with-microsoft-stock-on-tuesday",
-          "time": "2026-11-03T17:42:46Z",
-          "sentiment": 0.6,
-          "reason": "48% Azure growth drives rebound; infrastructure spending debate is a drag"
         }
       ]
     },
     "NVDA": {
-      "score": 0.0,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.004,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
@@ -220,10 +220,17 @@
       ]
     },
     "GOOGL": {
-      "score": 0.015,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.11,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Alphabet Stock Jumps: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62879587/alphabet-stock-jumps-whats-going-on",
+          "time": "2026-11-04T18:08:34Z",
+          "sentiment": 0.3,
+          "reason": "Rebound from post-earnings slide amid broad market rally"
+        },
         {
           "headline": "Google's Latest AI Model Nearly Matches Anthropic at One-Third the Cost: Report",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62873862/google-ai-cost",
@@ -248,10 +255,17 @@
       ]
     },
     "META": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.006,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "'Meta Acquires AI Coding Startup Conductor' - Axios Exclusive",
+          "url": "https://www.benzinga.com/m/26/11/62880047/meta-acquires-ai-coding-startup-conductor-axios-exclusive",
+          "time": "2026-11-04T18:17:55Z",
+          "sentiment": 0.2,
+          "reason": "Acquisition of AI coding startup adds modest AI capability"
+        },
         {
           "headline": "CoreWeave, Peers Fall After Democrats Sweep Midterms; What it Means For Data Centers",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62865304/coreweave-peers-fall-after-democrats-sweep-midterms-what-it-means-for-data-centers",
@@ -345,10 +359,17 @@
       ]
     },
     "TSLA": {
-      "score": -0.297,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.284,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Elon Musk \u2018Needs to be Held Accountable\u2019: Tesla Takedown Says \u2018Voters Have Done Their Part, Now Its Congress\u2019 Turn\u2019",
+          "url": "https://www.benzinga.com/news/politics/26/11/62880177/elon-musk-needs-to-be-held-accountable-tesla-takedown-says-voters-have-done-their-part-now-its-congress-turn",
+          "time": "2026-11-04T18:20:24Z",
+          "sentiment": -0.2,
+          "reason": "Democratic House may increase scrutiny of Musk and DOGE"
+        },
         {
           "headline": "Elon Musk Gets Double Miss From 2026 Midterm Elections: $474 Million Donated, Net Worth Drops by $23 Billion",
           "url": "https://www.benzinga.com/news/politics/26/11/62875824/elon-musk-gets-double-miss-from-2026-midterm-elections-474-million-donated-net-worth-drops-by-23-billion",
@@ -376,13 +397,6 @@
           "time": "2026-11-04T13:12:35Z",
           "sentiment": -0.4,
           "reason": "Democratic sweep unwinds Trump trade; Tesla and SpaceX premarket declines"
-        },
-        {
-          "headline": "Tesla Shares Decline Amidst US Midterm Election Results",
-          "url": "https://www.moomoo.com/news/post/1003472279/market-chatter-tesla-spacex-shares-fall-after-democrats-midterm-gains",
-          "time": "2026-11-04T12:31:40Z",
-          "sentiment": -0.4,
-          "reason": "Shares fall on midterm results; regulatory scrutiny concerns"
         }
       ]
     },
