@@ -1,1141 +1,5 @@
 [
   {
-    "id": "62805674",
-    "created_at": "2026-11-03T02:53:42Z",
-    "headline": "\"U.S. Strikes Iran\u2019s Qeshm Island As Trump Talks Down War Risks; Trump Told Reporters Monday \u2018We Haven\u2019t Been Doing Any Fighting For Months\u2019\" - WSJ Exclusive",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62805674/u-s-strikes-iran-s-qeshm-island-trump-talks-down-war-risks-trump-told-reporters-monday-we-haven-t-be",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "US strikes on Iran raise geopolitical risk, partly offset by de-escalation talk"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.25,
-        "confidence": 0.3,
-        "reason": "Strikes on Iran could lift oil prices and energy risk premium"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62805659",
-    "created_at": "2026-11-03T02:49:34Z",
-    "headline": "iPhone Owners Can Get Up to $95 From Apple Over Siri Promises: Here\u2019s How to Claim",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62805659/apple-iphone-siri-settlement-95-claim-how-to",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Settlement payouts are a small, largely known legal cost"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62822505",
-    "created_at": "2026-11-03T14:32:40Z",
-    "headline": "Iran's Security Chief Mohsen Rezaei, On Social Media, Says America's Response To Iran's Rights And Demands Was Not Convincing, And They Must Fully And Explicitly Address Iran's Seven Conditions And Act Upon Them; Only In This Case Will The Strait Of Hormuz Be Reopened",
-    "url": "https://www.benzinga.com/news/26/11/62822505/iran-s-security-chief-mohsen-rezaei-social-media-says-america-s-response-iran-s-rights-and-demands-w",
-    "source": "benzinga",
-    "market_risk": 0.55,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.35,
-        "confidence": 0.5,
-        "reason": "Iran demands Hormuz reopening; escalating Gulf supply and geopolitical risk"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.4,
-        "confidence": 0.45,
-        "reason": "Strait of Hormuz closure would likely lift oil prices"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "111489559",
-    "created_at": "2026-11-03T14:32:23Z",
-    "headline": "Meta Reportedly Launches 5-Part US Dollar Bond Offering",
-    "url": "https://www.marketscreener.com/news/meta-launches-5-part-us-dollar-bond-offering-bloomberg-reports-ce785fded88aff2c",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Routine bond issuance; modest added debt for AI spending"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "111488218",
-    "created_at": "2026-11-03T14:31:56Z",
-    "headline": "Microsoft Releases Analysis of 383,000 Security Vulnerabilities",
-    "url": "https://gbhackers.com/383000-vulnerabilities-analyzed/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "111488216",
-    "created_at": "2026-11-03T14:31:56Z",
-    "headline": "Research Solutions Integrates Scite and Article Galaxy with Microsoft Copilot",
-    "url": "https://www.morningstar.com/news/pr-newswire/20261103la87367/research-solutions-brings-scite-article-galaxy-to-microsoft-copilot",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "111488203",
-    "created_at": "2026-11-03T14:31:49Z",
-    "headline": "Samsung Reportedly Secures AMD Orders for New Texas Chip Plant",
-    "url": "https://www.tradingview.com/news/stocktwits:5da196291094b:0-amd-nvidia-could-join-tesla-on-samsung-s-texas-chip-plant-customer-list-report/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Reported Samsung HBM base-die manufacturing deal for AMD in Texas"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62821810",
-    "created_at": "2026-11-03T14:24:27Z",
-    "headline": "'Meta Seeks $15 Billion From US Dollar Portion of Bond Offering' - Bloomberg",
-    "url": "https://www.benzinga.com/news/26/11/62821810/meta-seeks-15-billion-us-dollar-portion-bond-offering-bloomberg",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.03,
-        "confidence": 0.15,
-        "reason": "Routine bond sizing report; largely expected financing activity"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62821162",
-    "created_at": "2026-11-03T14:18:01Z",
-    "headline": "Argus Research Maintains Buy on Apple, Raises Price Target to $400",
-    "url": "https://www.benzinga.com/news/26/11/62821162/argus-research-maintains-buy-apple-raises-price-target-400",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Buy rating reiterated with higher price target"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62820887",
-    "created_at": "2026-11-03T14:14:08Z",
-    "headline": "Barclays Maintains Underweight on Apple, Raises Price Target to $261",
-    "url": "https://www.benzinga.com/news/26/11/62820887/barclays-maintains-underweight-apple-raises-price-target-261",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Underweight rating maintained; target raised but still bearish"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62820652",
-    "created_at": "2026-11-03T14:09:59Z",
-    "headline": "TD Cowen Maintains Buy on Apple, Lowers Price Target to $390",
-    "url": "https://www.benzinga.com/news/26/11/62820652/td-cowen-maintains-buy-apple-lowers-price-target-390",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Buy rating kept but price target lowered"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "111453392",
-    "created_at": "2026-11-03T14:04:48Z",
-    "headline": "Questcorp Mining Completes Acquisition of 100% Interest in North Island Copper Project",
-    "url": "https://www.newsfilecorp.com/release/322173/Questcorp-Mining-Completes-Acquisition-of-100-Interest-in-North-Island-Copper-Project",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62819832",
-    "created_at": "2026-11-03T14:00:37Z",
-    "headline": "DA Davidson Maintains Neutral on Apple, Raises Price Target to $295",
-    "url": "https://www.benzinga.com/news/26/11/62819832/da-davidson-maintains-neutral-apple-raises-price-target-295",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Neutral rating with higher target; no clear directional signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62808888",
-    "created_at": "2026-11-03T13:51:15Z",
-    "headline": "Nvidia Tightens the Screws on China's AI Access \u2014 Cloud Partners Worldwide Must Restrict Chinese Customers Under New Revenue Rule: Report (UPDATED)",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62808888/nvidia-tightens-the-screws-on-chinas-ai-access-cloud-partners-worldwide-must-restrict-chinese-customers-under-new-revenue-rule-report",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Tighter China AI access rule may reduce cloud-channel demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62819082",
-    "created_at": "2026-11-03T13:51:07Z",
-    "headline": "Tech Stocks Are Trading as If ChatGPT Never Happened, Data Shows",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62819082/tech-stocks-forward-pe-chatgpt-ai-selloff",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Broad AI-driven tech selloff; valuation reset is mixed read"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62818959",
-    "created_at": "2026-11-03T13:49:16Z",
-    "headline": "AMD Stock Reports Earnings Today: Here\u2019s What Investors Need to Know",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62818959/amd-stock-reports-earnings-today-heres-what-investors-need-to-know",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.0,
-        "confidence": 0.35,
-        "reason": "Earnings event today; outcome direction unclear from preview"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62818841",
-    "created_at": "2026-11-03T13:47:05Z",
-    "headline": "Keybanc Reiterates Underweight on Apple, Maintains $250 Price Target",
-    "url": "https://www.benzinga.com/news/26/11/62818841/keybanc-reiterates-underweight-apple-maintains-250-price-target",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "KeyBanc reiterates Underweight rating, $250 target"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62818715",
-    "created_at": "2026-11-03T13:43:07Z",
-    "headline": "Apple To $350? Here Are 10 Top Analyst Forecasts For Tuesday",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62818715/apple-to-350-here-are-10-top-analyst-forecasts-for-tuesday",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.2,
-        "confidence": 0.35,
-        "reason": "Analyst cut AAPL price target among mixed forecast changes"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62818703",
-    "created_at": "2026-11-03T13:42:23Z",
-    "headline": "Redbook Retail Sales Index Up 10.4% YoY For Week Ended 10/31/26",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.15,
-        "reason": "Strong retail sales print, modestly supportive for consumer demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62818677",
-    "created_at": "2026-11-03T13:41:46Z",
-    "headline": "Redbook Retail Sales Index For October 2026 Vs October 2025: 9.8% YoY",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Solid October retail sales growth, largely expected"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62818555",
-    "created_at": "2026-11-03T13:39:08Z",
-    "headline": "AMD Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62818555/amd-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Analysts remain bullish ahead of earnings call"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62817695",
-    "created_at": "2026-11-03T13:28:52Z",
-    "headline": "Live On Fox News, President Trump Says Reached Agreement With Netanyahu, Won't Be Paying More To Israel; Says Aid Gets Cut Off At End Of Year, They Don't Need It; If They Did Need It, I Would Say Keep It Going",
-    "url": "https://www.benzinga.com/quote/ISRA",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62817536",
-    "created_at": "2026-11-03T13:24:05Z",
-    "headline": "Live On Fox News, President Trump Says \"Close To Fertilizer Deal From Canada\"",
-    "url": "https://www.benzinga.com/quote/IPI",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62808089",
-    "created_at": "2026-11-03T13:23:41Z",
-    "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as Trump Touts Iran Settlement Hopes \u2014 AAPL, PLTR, AMD in Focus (UPDATED)",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62808089/stock-market-today-dow-sp-500-futures-mixed-as-trump-touts-iran-settlement-hopes-aapl-pltr-amd-in-focus",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.1,
-        "confidence": 0.25,
-        "reason": "Mixed futures; Iran settlement hopes modestly supportive"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.25,
-        "reason": "Mixed futures; Iran settlement hopes modestly supportive"
-      },
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.0,
-        "confidence": 0.15,
-        "reason": "Mentioned in futures coverage without clear catalyst"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": 0.0,
-        "confidence": 0.15,
-        "reason": "Mentioned in futures coverage ahead of earnings"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62817121",
-    "created_at": "2026-11-03T13:11:20Z",
-    "headline": "Amazon Owns a $6.2 Billion Piece of Anthropic's AI Boom \u2014 Here's What's at Stake",
-    "url": "https://www.benzinga.com/markets/ipos/26/11/62817121/amazon-anthropic-investment-ipo",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Anthropic stake value rising; potential IPO upside"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62816418",
-    "created_at": "2026-11-03T13:02:11Z",
-    "headline": "Dan Ives Calls Tech Selloff a 'Gut Check' \u2014 Names His Top Stocks to Own for the Next 5 Years",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62816418/dan-ives-calls-tech-selloff-a-gut-check-names-his-top-stocks-to-own-for-the-next-5-years",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Bullish analyst top pick amid tech selloff"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Named top 5-year holding by bullish analyst"
-      },
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Named top holding, though conflicting analyst views exist"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62816416",
-    "created_at": "2026-11-03T13:02:05Z",
-    "headline": "Adeia Posts Downbeat Q3 Earnings, Joins Bioventus, Apple And Other Big Stocks Moving Lower In Tuesday\u2019s Pre-Market Session",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62816416/adeia-posts-downbeat-q3-earnings-joins-bioventus-apple-and-other-big-stocks-moving-lower-in-tuesdays-pre-market-session",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.05,
-        "confidence": 0.15,
-        "reason": "Premarket dip tied to Adeia, not Apple; minimal read-through"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62815820",
-    "created_at": "2026-11-03T12:42:19Z",
-    "headline": "Buffett Successor Has Berkshire Hathaway Poised to Beat S&P 500 in 2026: His 3 New Stock Picks Are Helping",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62815820/buffett-successor-berkshire-hathaway-sp-500-2026-3-new-stock-picks",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62814919",
-    "created_at": "2026-11-03T12:20:31Z",
-    "headline": "Jim Cramer Likes This Industrial Stock: \u2018It\u2019s Come Down A Great Deal\u2019",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62814919/jim-cramer-likes-this-industrial-stock-its-come-down-a-great-deal",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Cramer opinion favoring Micron over Western Digital"
-      },
-      {
-        "ticker": "LRCX",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Cramer opinion favoring Lam Research over KLA"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Mentioned only in commentary; no material news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62814482",
-    "created_at": "2026-11-03T12:12:18Z",
-    "headline": "Qatar's Foreign Ministry Spokesperson Announces Progress In Talks With Both Sides",
-    "url": "https://www.benzinga.com/news/26/11/62814482/qatar-s-foreign-ministry-spokesperson-announces-progress-talks-both-sides",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Progress in talks may ease geopolitical risk, modestly"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62812949",
-    "created_at": "2026-11-03T12:00:07Z",
-    "headline": "Apple\u2019s Siri AI Could Become a Paid Upgrade \u2014 CEO John Ternus Reveals Plans to Charge for More Server-Side Apple Intelligence Usage",
-    "url": "https://www.benzinga.com/markets/earnings/26/11/62812949/apples-siri-ai-could-become-a-paid-upgrade-ceo-john-ternus-reveals-plans-to-charge-for-more-server-side-apple-intelligence-usage",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Paid Siri AI tier could add revenue, but cost concerns exist"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62812726",
-    "created_at": "2026-11-03T11:58:01Z",
-    "headline": "Baird Maintains Outperform on Apple, Raises Price Target to $340",
-    "url": "https://www.benzinga.com/news/26/11/62812726/baird-maintains-outperform-apple-raises-price-target-340",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Analyst reaffirms Outperform and raises target to $340"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "111356699",
-    "created_at": "2026-11-03T11:31:52Z",
-    "headline": "NVIDIA Requires Cloud Clients to Limit Business With Chinese Customers",
-    "url": "https://www.marketscreener.com/news/nvidia-requires-cloud-clients-to-limit-business-with-chinese-customers-ce785fd9de81ff21",
-    "source": "fiscal.ai",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Requirement to limit China-linked cloud business may hurt future contracts"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "111356681",
-    "created_at": "2026-11-03T11:31:36Z",
-    "headline": "Micron Technology Shares Rise Following Apple's Commentary on Rising Memory Costs",
-    "url": "https://www.tradingview.com/news/stocktwits:c8ad61540094b:0-aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Rising memory costs signal stronger memory pricing demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "111356676",
-    "created_at": "2026-11-03T11:31:31Z",
-    "headline": "Meta Pauses Proposed Business Terms Following Publisher Backlash",
-    "url": "https://www.varindia.com/news/meta-pauses-business-terms-amid-publisher-backlash-over-content-access",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Pausing contested terms reduces near-term regulatory and backlash risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "111356675",
-    "created_at": "2026-11-03T11:31:30Z",
-    "headline": "Tesla Reports October 2026 China Wholesale Sales",
-    "url": "https://www.moomoo.com/news/post/1003323705/tesla-s-china-wholesale-sales-sink-sequentially-in-october-to",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "China wholesale sales fell sequentially to second-lowest month this year"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "111356674",
-    "created_at": "2026-11-03T11:31:30Z",
-    "headline": "JPMorgan Chase Files Regulatory Disclosure Regarding Mitie Group PLC",
-    "url": "https://www.tradingview.com/news/tradingview:7b290e018cf5a:0-key-facts-jpmorgan-reports-threshold-disclosures-cite-no-agreements/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62809295",
-    "created_at": "2026-11-03T10:54:49Z",
-    "headline": "'Marking Their Calendar': Tom Lee Says Investors Don't Have 'Conviction' to Buy the Dip Until After Midterms",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62809295/tom-lee-investors-wait-until-after-midterms-buy-dip",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Tech selloff; investors reportedly waiting until after midterms to buy"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.35,
-        "reason": "Weak buying conviction amid tech weakness weighs on broad market"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62809108",
-    "created_at": "2026-11-03T10:48:09Z",
-    "headline": "Apple Is the 'Mack Daddy' of Tech, Says Longtime Bull Who Defends Its Steep Valuation",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62809108/apple-is-the-mack-daddy-of-tech-says-longtime-bull-who-defends-its-steep-valuation",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.4,
-        "confidence": 0.6,
-        "reason": "Stock fell 4% on memory cost and valuation concerns despite earnings beat"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62809097",
-    "created_at": "2026-11-03T10:47:40Z",
-    "headline": "Howard Marks Questions Anthropic's $1.5 Trillion-Plus Valuation: 'Can We Really Fool Ourselves Into Thinking We Know...'",
-    "url": "https://www.benzinga.com/markets/ipos/26/11/62809097/howard-marks-questions-anthropics-1-5-trillion-plus-valuation-can-we-really-fool-ourselves-into-thinking-we-know",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Valuation skepticism on AI firms as tech stocks retreat"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62808513",
-    "created_at": "2026-11-03T10:32:38Z",
-    "headline": "'Paid Far More in Taxes': Elon Musk Fires Back at Democrat Nominee James Talarico Over Tesla's $465 Million Government Loan",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62808513/elon-musk-fires-back-democrat-nominee-james-talarico-over-tesla-465-million-loan",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62808848",
-    "created_at": "2026-11-03T10:38:27Z",
-    "headline": "Morgan Stanley Maintains Overweight on Apple, Lowers Price Target to $350",
-    "url": "https://www.benzinga.com/news/26/11/62808848/morgan-stanley-maintains-overweight-apple-lowers-price-target-350",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Overweight maintained but price target lowered to $350"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62808847",
-    "created_at": "2026-11-03T10:38:20Z",
-    "headline": "California Could Raise $100 Billion From Billionaires \u2014 But There's a $38.9 Billion Problem",
-    "url": "https://www.benzinga.com/news/politics/26/11/62808847/california-could-raise-100-billion-from-billionaires-but-theres-a-38-9-billion-problem",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62808316",
-    "created_at": "2026-11-03T10:25:32Z",
-    "headline": "'Throwback to 1984:' Apple's Mac Business Just Surged 24% \u2014 Top Analyst Says the Real Boom Is Only Getting Started",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62808316/throwback-to-1984-apples-mac-business-just-surged-24-top-analyst-says-the-real-boom-is-only-getting-started",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.4,
-        "confidence": 0.4,
-        "reason": "Analyst forecasts Mac super cycle with 15%+ growth ahead"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62808292",
-    "created_at": "2026-11-03T10:22:28Z",
-    "headline": "SPY Vs. IWM: Why 3.4% GDP Growth Leaves Two Different Tests For Investors",
-    "url": "https://www.benzinga.com/opinion/26/11/62808292/spy-vs-iwm-why-gdp-growth-leaves-two-different-tests-for-investors",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Q3 GDP grew 3.4%, supporting the expansion narrative"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62808278",
-    "created_at": "2026-11-03T10:19:54Z",
-    "headline": "$80 Billion Hedge Fund Braces for Bear Market",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62808278/80-billion-hedge-fund-braces-for-bear-market",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Major hedge fund warns of looming bear market and AI excess"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Major hedge fund warns of looming bear market and AI excess"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62808265",
-    "created_at": "2026-11-03T10:16:06Z",
-    "headline": "SPCX CEO Elon Musk Says Cooling AI Data Centers in Space Is 'Much Easier' \u2014 Here's How His Plan Could Work",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62808265/spcx-ceo-elon-musk-says-cooling-ai-data-centers-in-space-is-much-easier-heres-how-his-plan-could-work",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62807873",
-    "created_at": "2026-11-03T09:48:23Z",
-    "headline": "AMD Stock Just Got Crushed 26% in a Month \u2014 Here's What Investors Need From Lisa Su on Tuesday As Q3 Earnings Loom",
-    "url": "https://www.benzinga.com/markets/earnings/26/11/62807873/amd-q3-earnings-preview-jean-hu-data-center-sales-accelerate",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.05,
-        "confidence": 0.3,
-        "reason": "Stock down 24%+ in a month; earnings catalyst uncertain"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62807684",
-    "created_at": "2026-11-03T09:30:05Z",
-    "headline": "Tesla Bulls Are Betting on a SpaceX Merger \u2014 Top Analyst Says Marvell's $115 Billion Lumentum Deal Shows What Could Go Wrong",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62807684/tesla-bulls-are-betting-on-a-spacex-merger-top-analyst-says-marvells-115-billion-lumentum-deal-shows-what-could-go-wrong",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Analyst warns stock-funded SpaceX merger could hurt shareholders"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62807654",
-    "created_at": "2026-11-03T09:23:39Z",
-    "headline": "'The First Victim': Chamath Palihapitiya Warns AI Startups are In the Crosshairs as OpenAI, Google Move Into Software",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62807654/the-first-victim-chamath-palihapitiya-warns-ai-startups-are-in-the-crosshairs-as-openai-google-move-into-software",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Google expanding into software could pressure AI startups; mixed for Google"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62807521",
-    "created_at": "2026-11-03T09:02:52Z",
-    "headline": "Tom Lee Says 'We Are at the Bottom' as Tech Sell-Off Rocks Markets \u2014 But He Still Sees S&P 500 Above 8,200 By Year-End",
-    "url": "https://www.benzinga.com/markets/market-summary/26/11/62807521/tom-lee-says-we-are-at-the-bottom-as-tech-sell-off-rocks-markets-but-he-still-sees-sp-500-above-8200-by-year-end",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Strategist calls bottom and keeps bullish year-end S&P target"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Strategist calls bottom and keeps bullish year-end S&P target"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62807428",
-    "created_at": "2026-11-03T08:52:10Z",
-    "headline": "'Nvidia Orders Data Centre Clients to Reduce China Exposure' - FT",
-    "url": "https://www.benzinga.com/news/26/11/62807428/nvidia-orders-data-centre-clients-reduce-china-exposure-ft",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Data centre clients cutting China exposure hurts demand outlook"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62807379",
-    "created_at": "2026-11-03T08:48:23Z",
-    "headline": "'US, Russia and China Discuss Trilateral Meeting Between Trump, Putin and Xi' - FT",
-    "url": "https://www.benzinga.com/news/26/11/62807379/us-russia-and-china-discuss-trilateral-meeting-between-trump-putin-and-xi-ft",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.15,
-        "confidence": 0.2,
-        "reason": "Trilateral leader meeting talk may ease geopolitical tensions"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62807084",
-    "created_at": "2026-11-03T08:18:06Z",
-    "headline": "Shopify Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62807084/shopify-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Expanded Shop Pay AI shopping partnership is modestly positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62806894",
-    "created_at": "2026-11-03T08:08:03Z",
-    "headline": "Tesla Registrations Explode Across Europe as Iran War Sends Fuel Prices Soaring \u2014 But BYD and Chinese EV Rivals Are Gaining Fast",
-    "url": "https://www.benzinga.com/markets/eurozone/26/11/62806894/tesla-registrations-explode-across-europe-as-iran-war-sends-fuel-prices-soaring-but-byd-and-chinese-ev-rivals-are-gaining-fast",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "European registrations strong, but Chinese EV competition intensifying"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62806799",
-    "created_at": "2026-11-03T07:58:17Z",
-    "headline": "Apple CEO Says Memory Prices Are \u2018Unprecedented\u2019 and Could Keep Climbing \u2014 iPhone, Mac and iPad Costs Face Fresh Pressure After Recent Price Hikes",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62806799/apple-ceo-says-memory-prices-are-unprecedented-and-could-keep-climbing-iphone-mac-and-ipad-costs-face-fresh-pressure-after-recent-price-hikes",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Memory cost surge and Mac/iPad supply constraints into December quarter"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62806764",
-    "created_at": "2026-11-03T07:52:09Z",
-    "headline": "Nasdaq Dips Over 1% as Tech Stocks Fall: Investor Sentiment Weakens, Fear & Greed Index Moves to \u2018Extreme Fear\u2019 Zone",
-    "url": "https://www.benzinga.com/markets/market-summary/26/11/62806764/nasdaq-dips-over-1-as-tech-stocks-fall-investor-sentiment-weakens-fear-greed-index-moves-to-extreme-fear-zone",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Tech sell-off and extreme fear sentiment weigh on chip names"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Tech sell-off and extreme fear sentiment weigh on megacaps"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Tech sell-off and extreme fear sentiment weigh on chip names"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62806430",
-    "created_at": "2026-11-03T07:01:27Z",
-    "headline": "Pfizer, Apple and 3 Stocks to Watch Heading Into Tuesday",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62806430/pfizer-apple-and-3-stocks-to-watch-heading-into-tuesday",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Upcoming earnings attention; direction unclear from headline"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62806716",
-    "created_at": "2026-11-03T07:43:29Z",
-    "headline": "Bill Ackman on MSFT, AMZN and META: Why Big Tech's Trillion-Dollar AI Spend Is 'Offensive Rather Than Defensive'",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62806716/bill-ackman-on-msft-amzn-and-meta-why-big-techs-trillion-dollar-ai-spend-is-offensive-rather-than-defensive",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Ackman frames AI capex as offensive; mild confidence signal"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Ackman frames AI capex as offensive; mild confidence signal"
-      },
-      {
-        "ticker": "META",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Ackman frames AI capex as offensive; mild confidence signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62806278",
-    "created_at": "2026-11-03T06:16:52Z",
-    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62806278/stock-market-will-sp-500-open-up-or-down-today-71",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62806242",
-    "created_at": "2026-11-03T06:11:53Z",
-    "headline": "'They Don't Want to Talk About It': Top Analyst Says Apple Has a Siri Problem in an Era of Personalized Agents",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62806242/apple-ai-agents-siri-earnings",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Analyst warns AI agents and Siri weakness threaten ecosystem"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62806095",
-    "created_at": "2026-11-03T05:44:14Z",
-    "headline": "Trump Vows to Protect Elon Musk Amid Talk of Arrest\u2014Adam Schiff Warns 'Cronies' Will Be Held Accountable",
-    "url": "https://www.benzinga.com/news/politics/26/11/62806095/trump-vows-to-protect-elon-musk-amid-talk-of-arrest-adam-schiff-warns-cronies-will-be-held-accountable",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.1,
-        "confidence": 0.15,
-        "reason": "Political controversy around Musk and Starlink; limited earnings impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62805966",
-    "created_at": "2026-11-03T04:50:29Z",
-    "headline": "Trump's \u2018Mr. Veto\u2019 Threat Hangs Over Wall Street: Tech Sell-Off Is \u2018More Than Just A Correction,\u2019 Analyst Says",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62805966/midterms-set-stage-two-years-political-gridlock-kobeissi-letter",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.5,
-        "confidence": 0.5,
-        "reason": "Tech sell-off deepening; analyst calls it more than a correction"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.4,
-        "confidence": 0.45,
-        "reason": "Midterm gridlock fears and tech weakness weigh on broad market"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62763138",
-    "created_at": "2026-11-03T04:37:57Z",
-    "headline": "Meta, TikTok and X Lose UK Court Fight Over Requests for Social Media Safety Data (Updated)",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62763138/meta-tiktok-and-x-lose-uk-court-fight-over-requests-for-social-media-safety-data",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Court loss on Ofcom data requests; regulatory, likely minor financially"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62805810",
-    "created_at": "2026-11-03T03:25:37Z",
-    "headline": "Jim Cramer Calls Out 'Pretty Thick' Negativity on Apple, Palantir and Marvell: 'No Matter What They Say, It Isn't Enough'",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62805810/jim-cramer-says-negativity-toward-apple-palantir-marvell-pretty-thick",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Selloff continuing; commentator notes persistent negativity on shares"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Part of tech slump; negative sentiment around the stock"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62826676",
     "created_at": "2026-11-03T15:34:40Z",
     "headline": "Micron Tech Gains as Tech Giants Scramble to Lock in Multiyear Supply",
@@ -2604,6 +1468,1625 @@
         "sentiment": -0.05,
         "confidence": 0.2,
         "reason": "Early Democratic sweep may signal policy uncertainty; largely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62866291",
+    "created_at": "2026-11-04T14:34:55Z",
+    "headline": "Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target",
+    "url": "https://www.benzinga.com/news/26/11/62866291/wedbush-reiterates-outperform-advanced-micro-devices-maintains-600-price-target",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Outperform reiteration with $600 target; routine but supportive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62865584",
+    "created_at": "2026-11-04T14:19:57Z",
+    "headline": "StoneX Reiterates Buy on Advanced Micro Devices, Maintains $685 Price Target",
+    "url": "https://www.benzinga.com/news/26/11/62865584/stonex-reiterates-buy-advanced-micro-devices-maintains-685-price-target",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Buy reiteration with $685 target; routine but supportive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62865494",
+    "created_at": "2026-11-04T14:18:21Z",
+    "headline": "Google Cloud Rolls Out AlloyDB Express Preview, PostgreSQL Service For Developers & AI Coding Agents",
+    "url": "https://www.benzinga.com/news/26/11/62865494/google-cloud-rolls-out-alloydb-express-preview-postgresql-service-developers-ai-coding-agents",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62865304",
+    "created_at": "2026-11-04T14:14:51Z",
+    "headline": "CoreWeave, Peers Fall After Democrats Sweep Midterms; What it Means For Data Centers",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62865304/coreweave-peers-fall-after-democrats-sweep-midterms-what-it-means-for-data-centers",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Data center stocks fell on Democratic congressional sweep"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Data center sell-off tied to midterm political outcome"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Data center sell-off tied to midterm political outcome"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Data center sell-off tied to midterm political outcome"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62864448",
+    "created_at": "2026-11-04T14:00:50Z",
+    "headline": "'Lmao': Elon Musk's $250M Texas Senate Gamble Was 'Stupid,' Says Polymarket Whale",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62864448/musk-texas-gamble",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Musk's failed Texas Senate spending is mostly reputational noise"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62864066",
+    "created_at": "2026-11-04T13:57:11Z",
+    "headline": "Dan Ives Says Democratic Sweep Will Slow AI Buildout, Estimates 10% Of Planned US Data Centers \u2018Will Not Happen Now\u2019",
+    "url": "https://www.benzinga.com/markets/market-summary/26/11/62864066/dan-ives-says-democratic-sweep-will-slow-ai-buildout-estimates-10-of-planned-us-data-centers-will-not-happen-now",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Analyst says Democratic sweep may slow AI data center buildout"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "AI infrastructure slowdown risk weighs on broader market"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62854452",
+    "created_at": "2026-11-04T13:40:09Z",
+    "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Democrats Take Control of Congress\u2014AMD, AMGN, NVO in Focus (UPDATED)",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62854452/stock-market-today-dow-jones-sp-500-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Index futures rising despite midterm political uncertainty"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Nasdaq 100 futures advancing in early trading"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "AMD named among stocks in focus; mild positive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62863156",
+    "created_at": "2026-11-04T13:35:04Z",
+    "headline": "USA Imports For September 426.6B Vs 420.8B Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62863068",
+    "created_at": "2026-11-04T13:33:11Z",
+    "headline": "DA Davidson Maintains Buy on Advanced Micro Devices, Raises Price Target to $600",
+    "url": "https://www.benzinga.com/news/26/11/62863068/da-davidson-maintains-buy-advanced-micro-devices-raises-price-target-600",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.4,
+        "confidence": 0.45,
+        "reason": "Buy rating maintained with raised $600 price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62862950",
+    "created_at": "2026-11-04T13:31:21Z",
+    "headline": "USA Exports For September 321.5B Vs 315.20B Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62862886",
+    "created_at": "2026-11-04T13:30:23Z",
+    "headline": "USA Trade Balance For Sept. -105.00B Vs -107.90B Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Trade deficit narrower than expected; modest positive for growth"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62862666",
+    "created_at": "2026-11-04T13:25:42Z",
+    "headline": "Keybanc Reiterates Overweight on Advanced Micro Devices, Maintains $725 Price Target",
+    "url": "https://www.benzinga.com/news/26/11/62862666/keybanc-reiterates-overweight-advanced-micro-devices-maintains-725-price-target",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Overweight reiteration with $725 target; routine but supportive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62862382",
+    "created_at": "2026-11-04T13:16:15Z",
+    "headline": "TeraWulf Executes Credit Support Agreement With Google Regarding Debt Financing Supporting ~$19B Of Contracted Lease Commitments With Anthropic",
+    "url": "https://www.benzinga.com/news/26/11/62862382/terawulf-executes-credit-support-agreement-with-google-regarding-debt-financing-supporting-19b-of-contracted-lease-commitments-with-anthropic",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Google credit backstop for Anthropic-linked data center debt; minor relevance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62862342",
+    "created_at": "2026-11-04T13:15:13Z",
+    "headline": "ADP Nonfarm Employment Change For Oct 86K Vs 67K Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "ADP jobs beat estimates (86K vs 67K); mildly supportive for equities"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62862271",
+    "created_at": "2026-11-04T13:12:35Z",
+    "headline": "Midterms' Blue Sweep Hits the 'Trump Trade': SpaceX, Tesla and Defense Stocks Sink",
+    "url": "https://www.benzinga.com/news/politics/26/11/62862271/midterm-blue-sweep-trump-trade-spacex-tesla-defense-stocks",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Democratic sweep unwinds Trump trade; Tesla and SpaceX premarket declines"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112648685",
+    "created_at": "2026-11-04T13:02:06Z",
+    "headline": "Tesla Accused of Misleading Marketing of Full Self-Driving in South Korea",
+    "url": "https://www.marketscreener.com/news/tesla-accused-of-misleading-marketing-of-full-self-driving-in-south-korea-ce785fdfd989f424",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Korean consumer group complaint over FSD marketing; limited financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62861600",
+    "created_at": "2026-11-04T13:02:05Z",
+    "headline": "Amdocs Posts Downbeat Q4 Earnings, Joins Skyworks Solutions, Tesla And Other Big Stocks Moving Lower In Wednesday\u2019s Pre-Market Session",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62861600/amdocs-posts-downbeat-q4-earnings-joins-skyworks-solutions-tesla-and-other-big-stocks-moving-lower-in-wednesdays-pre-market-session",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62861260",
+    "created_at": "2026-11-04T12:57:56Z",
+    "headline": "Forget Nvidia: Why Samsung, TSMC, and Micron Just Generated 'More Free Cash Flow... Than Any Other Listed US Company'",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62861260/forget-nvidia-why-samsung-tsmc-and-micron-just-generated-more-free-cash-flow-than-any-other-listed-us-company",
+    "source": "benzinga",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Micron cited among top free cash flow generators amid heavy AI capex"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62861180",
+    "created_at": "2026-11-04T12:55:24Z",
+    "headline": "What's Going On With Alibaba Stock Wednesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62861180/whats-going-on-with-alibaba-stock-wednesday-5",
+    "source": "benzinga",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Alibaba-Apple integration cited as a driver; indirect and small for Apple"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62859033",
+    "created_at": "2026-11-04T12:07:21Z",
+    "headline": "Uber Expect To Scale Autonomous Deployments Significantly, Deploying 2K+ Fully Driverless Vehicles By The End Of 2027, Roughly Half In The U.S. And Half Internationally",
+    "url": "https://www.benzinga.com/news/26/11/62859033/uber-expect-to-scale-autonomous-deployments-significantly-deploying-2k-fully-driverless-vehicles-by-the-end-of-2027-roughly-half-in-the-u-s-and-half-internationally",
+    "source": "benzinga",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Uber scaling autonomous fleet; modest competitive read-across for Alphabet"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "Uber AV scale-up adds robotaxi competition; small negative for Tesla"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62860971",
+    "created_at": "2026-11-04T12:44:13Z",
+    "headline": "These Analysts Revise Their Forecasts On AMD After Q3 Results",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results",
+    "source": "benzinga",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.6,
+        "confidence": 0.65,
+        "reason": "Q3 revenue and EPS beat with strong Q4 growth guidance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62860839",
+    "created_at": "2026-11-04T12:39:41Z",
+    "headline": "Block To Rally Around 54%? Here Are 10 Top Analyst Forecasts For Wednesday",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860839/block-to-rally-around-54-here-are-10-top-analyst-forecasts-for-wednesday",
+    "source": "benzinga",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "One analyst cut AMD target; mixed revisions after earnings"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112630846",
+    "created_at": "2026-11-04T12:31:45Z",
+    "headline": "TD Cowen Adjusts Price Target on Exxon Mobil to $193",
+    "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-exxon-mobil-to-193-from-180-ce785fdfdb89f524",
+    "source": "fiscal.ai",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "TD Cowen raised price target to $193 from $180"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112630843",
+    "created_at": "2026-11-04T12:31:40Z",
+    "headline": "Tesla Shares Decline Amidst US Midterm Election Results",
+    "url": "https://www.moomoo.com/news/post/1003472279/market-chatter-tesla-spacex-shares-fall-after-democrats-midterm-gains",
+    "source": "fiscal.ai",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Shares fall on midterm results; regulatory scrutiny concerns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112630841",
+    "created_at": "2026-11-04T12:31:38Z",
+    "headline": "Apple Issues December-Quarter Revenue Guidance and Warns of Margin Pressures",
+    "url": "https://www.tradingview.com/news/tradingview:67f2ef4c1e0a9:0-key-facts-apple-inc-falls-nvidia-leads-costs-rise-iphone-delays/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Margin pressure warning from rising memory and storage costs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112630840",
+    "created_at": "2026-11-04T12:31:35Z",
+    "headline": "Amazon Reports AWS Financials and Strategic AI Updates",
+    "url": "https://www.tradingview.com/news/tradingview:6c3ae0732efe1:0-key-facts-aws-revenue-46b-220b-capex-chip-commitments-up-20x/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Strong AWS revenue disclosure and expanded Trainium chip availability"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62860238",
+    "created_at": "2026-11-04T12:29:53Z",
+    "headline": "Drugmaker CEOs Say AI Alone Can't Cure Diseases, Challenge Silicon Valley's Bold Predictions: 'To Say AI Is Going to Cure Cancer...'",
+    "url": "https://www.benzinga.com/news/health-care/26/11/62860238/drugmaker-ceos-say-ai-alone-cant-cure-diseases-challenge-silicon-valleys-bold-predictions-to-say-ai-is-going-to-cure-cancer",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62860081",
+    "created_at": "2026-11-04T12:27:10Z",
+    "headline": "Mizuho Maintains Outperform on Advanced Micro Devices, Lowers Price Target to $610",
+    "url": "https://www.benzinga.com/news/26/11/62860081/mizuho-maintains-outperform-advanced-micro-devices-lowers-price-target-610",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Outperform rating kept but price target cut to $610"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62859781",
+    "created_at": "2026-11-04T12:23:33Z",
+    "headline": "Navitas Semiconductor CEO Sees AI Infrastructure Business Tripling in 2027",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62859781/navitas-semiconductor-ceo-sees-ai-infrastructure-business-tripling-in-2027",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Navitas AI infrastructure optimism is indirect read-through for NVDA"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62857900",
+    "created_at": "2026-11-04T12:00:12Z",
+    "headline": "Cantor Fitzgerald Reiterates Overweight on Advanced Micro Devices, Maintains $700 Price Target",
+    "url": "https://www.benzinga.com/news/26/11/62857900/cantor-fitzgerald-reiterates-overweight-advanced-micro-devices-maintains-700-price-target",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.3,
+        "reason": "Cantor reiterates Overweight with $700 price target"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62857386",
+    "created_at": "2026-11-04T11:51:40Z",
+    "headline": "Stifel Maintains Buy on Advanced Micro Devices, Raises Price Target to $725",
+    "url": "https://www.benzinga.com/news/26/11/62857386/stifel-maintains-buy-advanced-micro-devices-raises-price-target-725",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.4,
+        "confidence": 0.4,
+        "reason": "Stifel raises price target to $725 and maintains Buy"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62857349",
+    "created_at": "2026-11-04T11:50:58Z",
+    "headline": "AMD\u2019s $17 Billion Answer, Apple's AI Bill And Next 3 Trading Days",
+    "url": "https://www.benzinga.com/opinion/26/11/62857349/amd-17-billion-answer-apple-ai-bill-jobs-test-next",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.4,
+        "confidence": 0.4,
+        "reason": "AMD results show strong AI infrastructure spending demand"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Heavy AI spending bill flagged as cost concern for Apple"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62857301",
+    "created_at": "2026-11-04T11:50:02Z",
+    "headline": "Bernie Sanders Accuses Google of 'Extortion' Over AI Use in Schools, Says Tech Giants Can't Be Trusted to Regulate Themselves",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62857301/bernie-sanders-accuses-google-of-extortion-over-ai-use-in-schools-says-tech-giants-cant-be-trusted-to-regulate-themselves",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Senator's extortion accusations and AI pause demand add regulatory risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62857127",
+    "created_at": "2026-11-04T11:43:07Z",
+    "headline": "What Is Going On With Nvidia Stock on Wednesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62857127/what-is-going-on-with-nvidia-stock-on-wednesday-2",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Resilient AI infrastructure demand and tight TSMC capacity support shares"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62856724",
+    "created_at": "2026-11-04T11:37:07Z",
+    "headline": "Amazon, Pfizer, Eaton And A Financial Stock On CNBC\u2019s \u2018Final Trades\u2019",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62856724/amazon-pfizer-eaton-and-a-financial-stock-cnbc-final-trades",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "Single analyst stock pick on CNBC; minimal fundamental impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62856624",
+    "created_at": "2026-11-04T11:35:07Z",
+    "headline": "Jim Cramer Recommends FedEx: \u2018Very Nice Move Off The Bottom\u2019",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62856624/jim-cramer-recommends-fedex-very-nice-move-off-the-bottom",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Cramer prefers Tesla over Aurora for self-driving; minor opinion"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112607633",
+    "created_at": "2026-11-04T11:32:56Z",
+    "headline": "Tesla Faces Allegations of Misleading Marketing for Full Self-Driving in South Korea",
+    "url": "https://www.marketscreener.com/news/tesla-accused-of-misleading-marketing-of-full-self-driving-in-south-korea-ce785fdfd989f424",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Consumer group complaint over FSD marketing; regulatory and reputational risk, limited near-term impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112607631",
+    "created_at": "2026-11-04T11:32:23Z",
+    "headline": "Analysts Adjust Price Targets for Advanced Micro Devices",
+    "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-advanced-micro-devices-to-550-from-510-ce785fdfd88af220",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Routine post-earnings price target updates; largely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112607621",
+    "created_at": "2026-11-04T11:31:56Z",
+    "headline": "DZ Bank Downgrades Apple to Sell",
+    "url": "https://www.marketscreener.com/news/dz-bank-downgrades-apple-to-sell-from-hold-price-target-is-300-ce785fdfd889f724",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.5,
+        "confidence": 0.4,
+        "reason": "Downgrade to Sell from a major European bank; negative sentiment signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112607618",
+    "created_at": "2026-11-04T11:31:55Z",
+    "headline": "Meta Launches Small Business Growth Academy in Sri Lanka",
+    "url": "https://www.newswire.lk/business/meta-and-roar-adx-launch-growth-academy-for-sri-lankan-smes/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "112607249",
+    "created_at": "2026-11-04T11:31:55Z",
+    "headline": "Meta Platforms Launches Debut Euro-Denominated Bond Sale",
+    "url": "https://www.marketscreener.com/news/meta-platforms-to-sell-euro-denominated-debt-ce785fdfd98ff526",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Routine debt financing diversification; no material change to outlook"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112607240",
+    "created_at": "2026-11-04T11:31:42Z",
+    "headline": "DZ Bank Downgrades Exxon Mobil to Sell",
+    "url": "https://www.marketscreener.com/news/dz-bank-downgrades-exxon-mobil-to-sell-from-neutral-price-target-is-170-ce785fdfd888f72d",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.4,
+        "confidence": 0.35,
+        "reason": "Downgrade to Sell with $170 target; negative analyst sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112607232",
+    "created_at": "2026-11-04T11:31:39Z",
+    "headline": "NVIDIA Faces Supply Constraints for Chinese AI Chip Orders",
+    "url": "https://www.tradingview.com/news/seekingalpha:9187a0185094b:0-nvidia-to-ship-1-of-70b-rtx-chips-ordered-by-alibaba-tencent-report/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.45,
+        "reason": "Production limits cut Chinese AI chip deliveries; revenue timing risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112607221",
+    "created_at": "2026-11-04T11:31:32Z",
+    "headline": "JPMorgan Chase and HSBC to Facilitate Development Finance Deals",
+    "url": "https://news.futunn.com/post/1003394905/market-chatter-hsbc-jpmorgan-aim-to-facilitate-deals-in-development",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "Development finance deal pipeline; minor fee opportunity, immaterial to stock"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112607220",
+    "created_at": "2026-11-04T11:31:29Z",
+    "headline": "AWS Launches 'Semarak AI Malaysia' National Program",
+    "url": "https://www.manilatimes.net/2026/11/04/tmt-newswire/pr-newswire/aws-launches-semarak-ai-malaysia-a-national-program-to-bring-ai-tools-to-government-officers-students-and-local-software-companies/2461421/amp",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62856224",
+    "created_at": "2026-11-04T11:29:10Z",
+    "headline": "B of A Securities Maintains Buy on Advanced Micro Devices, Lowers Price Target to $650",
+    "url": "https://www.benzinga.com/news/26/11/62856224/b-securities-maintains-buy-advanced-micro-devices-lowers-price-target-650",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Buy rating maintained but price target lowered to $650"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62856168",
+    "created_at": "2026-11-04T11:24:01Z",
+    "headline": "AMD Paid $2.9B To Acquire Specialized Inference Silicon Technology Provider Taalas, Including ~$1.4B In Contingent Payments, In August 2026 Transaction; Lists Unconditional Commitments At $48.8B",
+    "url": "https://www.benzinga.com/news/26/11/62856168/amd-paid-2-9b-acquire-specialized-inference-silicon-technology-provider-taalas-including-1-4b-contin",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Inference silicon acquisition expands AI portfolio; large commitments add uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62856134",
+    "created_at": "2026-11-04T11:21:11Z",
+    "headline": "Super Micro's AI Business Is Booming, but One Customer Accounts for Stunning 44% of Sale",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62856134/super-micros-ai-business-is-booming-but-one-customer-accounts-for-stunning-44-of-sale",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.15,
+        "confidence": 0.2,
+        "reason": "Strong AI server demand read-through; article is about SMCI, tagged AMD"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62855233",
+    "created_at": "2026-11-04T11:03:00Z",
+    "headline": "Chinese Chipmaker Yangtze Memory Technologies' $4.9B Shanghai IPO Has Been Delayed; YMTC Likely To Go Public In H1 2027 - Reuters Exclusive",
+    "url": "https://www.benzinga.com/quote/SKHY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Delayed Chinese memory rival IPO modestly eases competitive pressure on Micron"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62854558",
+    "created_at": "2026-11-04T10:27:43Z",
+    "headline": "Jim Cramer Sees These 'Non-Magnificent' Tech Stocks Emerging as Market Leaders While Nvidia, Microsoft Struggle: 'It's Just Not The Tech That's Led Us'",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62854558/jim-cramer-sees-these-non-magnificent-tech-stocks-emerging-as-market-leaders-while-nvidia-microsoft-struggle-its-just-not-the-tech-thats-led-us",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Commentator highlights Micron outperformance; opinion piece, largely priced in"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Commentary says Nvidia struggling; opinion, mostly priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62854370",
+    "created_at": "2026-11-04T10:10:29Z",
+    "headline": "Why AMD May Weather the PC Storm Better Than Intel",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62854370/why-amd-may-weather-the-pc-storm-better-than-intel",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.6,
+        "confidence": 0.7,
+        "reason": "Strong Q3 earnings and upbeat Q4 outlook drove a 7% surge"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62854219",
+    "created_at": "2026-11-04T10:02:43Z",
+    "headline": "Democrat Aaron Ford wins election for governor in Nevada: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62854208",
+    "created_at": "2026-11-04T10:02:20Z",
+    "headline": "Democrat Susie Lee wins reelection to U.S. House in Nevada\u2019s 3rd Congressional District: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853710",
+    "created_at": "2026-11-04T08:58:04Z",
+    "headline": "TSLA, SPCX Sink Over 4% as Democrats Flip Texas: What's Going On?",
+    "url": "https://www.benzinga.com/news/politics/26/11/62853710/tsla-spcx-sink-over-4-as-democrats-flip-texas-whats-going-on",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Shares fell over 4% on doubts about Musk-backed AI data center plans"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853698",
+    "created_at": "2026-11-04T08:56:51Z",
+    "headline": "'Meta Starts Debut Euro Bond Sale After $15 Billion US Deal' - Bloomberg",
+    "url": "https://www.benzinga.com/news/26/11/62853698/meta-starts-debut-euro-bond-sale-after-15-billion-us-deal-bloomberg",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853684",
+    "created_at": "2026-11-04T08:52:04Z",
+    "headline": "Democrat Tina Kotek wins reelection for governor in Oregon: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853673",
+    "created_at": "2026-11-04T08:51:02Z",
+    "headline": "Elon Musk, Who Voted 'Red,' Reacts to GOP Midterm Losses With 'Election-Interfering' Space Laser Joke: 'Didn't Work This Time'",
+    "url": "https://www.benzinga.com/news/politics/26/11/62853673/elon-musk-who-voted-red-reacts-to-gop-midterm-losses-with-election-interfering-space-laser-joke-didnt-work-this-time",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Musk political backlash could weigh on sentiment; mostly noise"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853563",
+    "created_at": "2026-11-04T08:37:47Z",
+    "headline": "'Google Extends Voluntary Buyout Offers To Employees in Several Countries' - Reuters Exclusive",
+    "url": "https://www.benzinga.com/news/26/11/62853563/google-extends-voluntary-buyout-offers-employees-several-countries-reuters-exclusive",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Voluntary buyouts suggest cost discipline; modest efficiency positive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853551",
+    "created_at": "2026-11-04T08:37:19Z",
+    "headline": "Elon Musk's SpaceX Could Build More Data Center Capacity in 18 Months Than Google Did in 27 Years, Says SemiAnalysis",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62853551/elon-musks-spacex-could-build-more-data-center-capacity-in-18-months-than-google-did-in-27-years-says-semianalysis",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "SpaceX AI data center buildout is a potential long-term competitive signal"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Musk AI infrastructure ambitions may support sentiment; speculative"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853541",
+    "created_at": "2026-11-04T08:37:05Z",
+    "headline": "Democrat Katie Hobbs wins reelection for governor in Arizona: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853531",
+    "created_at": "2026-11-04T08:36:46Z",
+    "headline": "AMD CEO Lisa Su Addresses AI Infrastructure Bottleneck Fears: 'We Have Good Visibility Into 2027'",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62853531/amd-lisa-su-data-centers-2027-earnings",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.6,
+        "confidence": 0.7,
+        "reason": "Beat Q3 estimates, raised Q4 outlook, confident on 2027 AI demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853520",
+    "created_at": "2026-11-04T08:36:44Z",
+    "headline": "Republican Pete Ricketts wins reelection to U.S. Senate from Nebraska: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853374",
+    "created_at": "2026-11-04T08:08:00Z",
+    "headline": "Republican Jim Pillen wins reelection for governor in Nebraska: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853363",
+    "created_at": "2026-11-04T08:07:35Z",
+    "headline": "Republican Kurt Alme wins election to U.S. Senate from Montana: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853314",
+    "created_at": "2026-11-04T07:50:04Z",
+    "headline": "McDonald's, AMD and 3 Stocks to Watch Heading Into Wednesday",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62853314/mcdonalds-amd-and-3-stocks-to-watch-heading-into-wednesday",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Beat estimates, but largely known ahead of market open"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62853111",
+    "created_at": "2026-11-04T07:40:25Z",
+    "headline": "\u2018Everyone Needs Compute\u2019: Lisa Su Sees AMD\u2019s AI Data Center Business More Than Doubling in 2027 as Wedbush Backs $600 Target",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62853111/amd-lisa-su-ai-data-center-doubling-2027-amd-stock-price-target-q3-results",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.6,
+        "confidence": 0.6,
+        "reason": "AI data center revenue expected to more than double in 2027"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62852953",
+    "created_at": "2026-11-04T07:29:52Z",
+    "headline": "Democrat Abdul El-Sayed wins election to U.S. Senate from Michigan: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62852886",
+    "created_at": "2026-11-04T07:18:38Z",
+    "headline": "'Worst Possible Combination:' Top Analyst Warns of Trump White House With Democratic Congress \u2014 Here's What the S&P 500 Has Historically Averaged",
+    "url": "https://www.benzinga.com/news/politics/26/11/62852886/worst-possible-combination-top-analyst-warns-of-trump-white-house-with-democratic-congress-heres-what-the-sp-500-has-historically-averaged",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Historical data on gridlock versus GOP-president, Dem-Congress scenarios"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Historical political-scenario data suggests modest policy uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62852873",
+    "created_at": "2026-11-04T07:17:40Z",
+    "headline": "Nasdaq Jumps Over 200 Points as Chip Stocks Gain: Fear & Greed Index Remains in \u2018Extreme Fear\u2019 Zone",
+    "url": "https://www.benzinga.com/markets/market-summary/26/11/62852873/nasdaq-jumps-over-200-points-as-chip-stocks-gain-fear-greed-index-remains-in-extreme-fear-zone",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Apple dropped while Nasdaq rallied; Fear & Greed in Extreme Fear"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62852650",
+    "created_at": "2026-11-04T07:11:31Z",
+    "headline": "Gene Munster Says Anduril Is Having Its Own Tesla Model 3 Moment\u2014Company President Says 'We've Hired a Lot' of People From That Era",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62852650/gene-munster-says-anduril-is-having-its-own-tesla-model-3-moment-company-president-says-weve-hired-a-lot-of-people-from-that-era",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62852628",
+    "created_at": "2026-11-04T07:09:14Z",
+    "headline": "Democrat Richard Pan wins election to U.S. House in California\u2019s 6th Congressional District: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62852033",
+    "created_at": "2026-11-04T06:49:32Z",
+    "headline": "Democrat Jocelyn Benson wins election for governor in Michigan: AP",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851943",
+    "created_at": "2026-11-04T06:35:59Z",
+    "headline": "Dow Futures Fall as Democrats Take Control of Congress: Peter Schiff Warns Trump Now Has a \u2018Scapegoat\u2019 for the \u2018Coming Economic Collapse\u2019",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62851943/stock-futures-fall-democrats-win-senate-midterms-peter-schiff-anthony-scaramucci",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Political-shift headline; futures dip largely priced in"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Political-shift headline; futures dip largely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851911",
+    "created_at": "2026-11-04T06:27:55Z",
+    "headline": "2026 Midterm Election Update: Democrats Win 219 House Seats, Republicans Win 126 Seats; Democrats Win 53 Senate Seats, Republicans Win 41; Democrats Officially Take Control Of Both Chambers; Final Results Still Pending",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851838",
+    "created_at": "2026-11-04T06:18:13Z",
+    "headline": "Reported Earlier, 'Tesla Misled South Korean Customers About Automated-Driving Tech, Consumer Group Alleges' - Reuters Exclusive",
+    "url": "https://www.benzinga.com/news/26/11/62851838/reported-earlier-tesla-misled-south-korean-customers-about-automated-driving-tech-consumer-group-all",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Consumer group misleading-marketing allegation on driver-assist tech"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851824",
+    "created_at": "2026-11-04T06:16:26Z",
+    "headline": "'Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered' - Bloomberg Exclusive",
+    "url": "https://www.benzinga.com/news/26/11/62851824/nvidia-china-clients-get-1-70-billion-rtx-chips-ordered-bloomberg-exclusive",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Only 1% of China RTX chip orders may be fulfilled; limits China demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851694",
+    "created_at": "2026-11-04T06:03:31Z",
+    "headline": "AP Calls Democrat Troy Jackson Winner In Maine Senate Race, Defeating Republican Incumbent Susan Collins",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851581",
+    "created_at": "2026-11-04T05:57:08Z",
+    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62851581/stock-market-will-sp-500-open-up-or-down-today-72",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Tech futures dropping; weak open signaled by odds"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Tech futures drop and mixed midterm digestion weigh on open"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851527",
+    "created_at": "2026-11-04T05:45:07Z",
+    "headline": "Maine Sen. Susan Collins Concedes To Democrat Troy Jackson, Ending Bid For Sixth Term; AP Has Not Yet Called Race",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851403",
+    "created_at": "2026-11-04T05:11:40Z",
+    "headline": "AP Calls Democrat Peggy Flanagan Winner In Minnesota Senate Race, Defeating Republican Michele Tafoya",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851392",
+    "created_at": "2026-11-04T05:10:46Z",
+    "headline": "AP Calls Democrat Amy Klobuchar Winner In Minnesota Governor's Race, Defeating Republican Lisa Demuth",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851381",
+    "created_at": "2026-11-04T05:08:49Z",
+    "headline": "Grant Cardone Warns James Talarico's Texas Win Could Spell Trouble for Elon Musk's SPCX, AI Bets\u2014Gina Hinojosa Governor Win Sparks Data Center Moratorium Talk",
+    "url": "https://www.benzinga.com/news/politics/26/11/62851381/grant-cardone-warns-james-talaricos-texas-win-could-spell-trouble-for-elon-musks-spcx-ai-bets-gina-hinojosa-governor-win-sparks-data-center-moratorium-talk",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.15,
+        "confidence": 0.25,
+        "reason": "Speculative data-center regulation risk; opinion-based warning"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Speculative regulatory and tax risk to AI and SpaceX bets"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851331",
+    "created_at": "2026-11-04T05:07:11Z",
+    "headline": "AMD Has a PC Problem Just Like Intel: Chip Giant Warns of Weaker Demand as It Plans for a \u2018Double-Digit\u2019 Market Decline in 2027",
+    "url": "https://www.benzinga.com/markets/earnings/26/11/62851331/amd-lisa-su-memory-costs-pc-demand-intel-double-digit-decline-2027",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.05,
+        "confidence": 0.4,
+        "reason": "Weak PC demand outlook, but shares rose about 5% after hours"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851201",
+    "created_at": "2026-11-04T04:37:34Z",
+    "headline": "2026 Midterm Election Update: Democrats Win Control Of Senate",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851190",
+    "created_at": "2026-11-04T04:37:20Z",
+    "headline": "AP Calls Democrat Josh Turek Winner In Iowa Senate Race, Defeating Republican Ashley Hinson To Flip GOP-held Seat",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851179",
+    "created_at": "2026-11-04T04:33:25Z",
+    "headline": "President Trump Tells NY Times That He Would Accept The Results Of The Midterm Elections And Was Prepared To Work With Democrats; Says \u201cI Am Absolutely Willing To Accept Those Results\u201d; \u201cWe\u2019ll Work With The Democrats, And We\u2019ll, You Know, Look Forward To Working With Them. We\u2019ll Probably Work Something Out.\u201d",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62851179/president-trump-tells-ny-times-he-would-accept-results-midterm-elections-and-was-prepared-work-democ",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Trump signals acceptance of midterm results, easing political uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851158",
+    "created_at": "2026-11-04T04:28:28Z",
+    "headline": "AP Calls Democrat Adam Hamilton Winner In Kansas Senate Race, Defeating Republican Incumbent Roger Marshall",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851097",
+    "created_at": "2026-11-04T04:15:22Z",
+    "headline": "AP Calls Democrat Amy Acton Winner In Ohio Governor's Race, Defeating Republican Vivek Ramaswamy To Flip State Governorship",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851085",
+    "created_at": "2026-11-04T04:14:22Z",
+    "headline": "AP Calls Democrat Sherrod Brown Winner In Ohio Senate Race, Defeating Republican Incumbent Jon Husted",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851071",
+    "created_at": "2026-11-04T04:12:55Z",
+    "headline": "'Democrat Gina Hinojosa Takes Down Texas Gov. Greg Abbott In Stunning Result' - NBC News",
+    "url": "https://www.benzinga.com/news/26/11/62851071/democrat-gina-hinojosa-takes-down-texas-gov-greg-abbott-stunning-result-nbc-news",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851060",
+    "created_at": "2026-11-04T04:10:51Z",
+    "headline": "Texas Governor Greg Abbott Concedes To Gina Hinojosa In Governor Race -Fox 7 Austin",
+    "url": "https://www.benzinga.com/news/26/11/62851060/texas-governor-greg-abbott-concedes-gina-hinojosa-governor-race-fox-7-austin",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62851006",
+    "created_at": "2026-11-04T03:56:46Z",
+    "headline": "Seeing Several Outlets Report Democrat James Talarico Defeats Republican Ken Paxton For Senate In Texas, Flipping From Republican To Democrat",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850941",
+    "created_at": "2026-11-04T03:36:14Z",
+    "headline": "2026 Midterm Election Update: Democrats Win 120 House Seats, Republicans Win 67; 218 Needed For Control; Democrats Win 45 Senate Seats, Republicans Win 36; 51 Needed For Control",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Divided-government outcome may limit policy shocks; largely expected"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850898",
+    "created_at": "2026-11-04T03:16:16Z",
+    "headline": "AMD, Super Micro Shares Jump After-Hours as Lisa Su Eyes 80% Growth in 2027; Analyst Calls SMCI Print \u2018One of the Best Prints of the Season\u2019",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62850898/amd-super-micro-growth-forecast-revenue",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.6,
+        "confidence": 0.6,
+        "reason": "Bullish 2027 growth outlook and AI infrastructure demand strength"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.25,
+        "reason": "AI infrastructure demand read-through from AMD and Super Micro"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850885",
+    "created_at": "2026-11-04T03:14:44Z",
+    "headline": "Multiple Outlets Reporting Democrat Annie Andrews Defeats Republican Darline Graham For Senate In South Carolina",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "112532252",
+    "created_at": "2026-11-04T03:01:41Z",
+    "headline": "Apple Announces AI-Powered Health App and Developer Tools",
+    "url": "https://www.pymnts.com/fitness/2026/apple-readies-launch-of-ai-powered-health-app/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "AI Health app and Siri developer tools; incremental product news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "112532251",
+    "created_at": "2026-11-04T03:01:33Z",
+    "headline": "JPMorgan Chase Files Quarterly Report on Form 10-Q",
+    "url": "https://investingnews.com/jpmorganchase-files-form-10-q-for-the-quarter-ended-september-30-2026/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850771",
+    "created_at": "2026-11-04T02:39:42Z",
+    "headline": "2026 Midterm Election Update: Democrats Win 86 House Seats, Republicans Win 48; 218 Needed For Control; Kalshi Has Odds Of Democrat Control Of The House At 99.6%",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Democratic House win largely expected; minimal new market information"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850688",
+    "created_at": "2026-11-04T02:22:35Z",
+    "headline": "Republican Andy Barr Defeats Charles Booker For Senate In Kentucky",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850593",
+    "created_at": "2026-11-04T02:03:36Z",
+    "headline": "AP Calls Democrat Ben Ray Luj\u00e1n Winner In New Mexico Senate Race, Defeating Republican Larry E. Marker To Secure Reelection",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850582",
+    "created_at": "2026-11-04T02:02:57Z",
+    "headline": "AP Calls Republican Harriet Hageman Winner In Wyoming Senate Race, Defeating Democrat James Byrd",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850570",
+    "created_at": "2026-11-04T02:02:33Z",
+    "headline": "Democrat John Hickenlooper Defeats Republican Mark Baisley For Senate In Colorado; Democrats Currently Hold 45 Seats; 51 Needed For Control",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850518",
+    "created_at": "2026-11-04T01:50:17Z",
+    "headline": "2026 Midterm Election Update: Democrats Win 46 House Seats, Republicans Win 22; Democrats Win 9 Senate Seats, Republicans Win 1",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Midterm results mostly priced in; modest policy-uncertainty effect"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850458",
+    "created_at": "2026-11-04T01:36:16Z",
+    "headline": "Zohran Mamdani Says Google Uses \u2018Monopoly Power\u2019 to Push AI Into Schools: Corporations Shouldn\u2019t \u2018Dictate\u2019 How We Teach Children",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62850458/zohran-mamdani-google-force-ai-public-schools-monopoly-power",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Political criticism and possible AI restrictions in schools; limited near-term impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850447",
+    "created_at": "2026-11-04T01:35:59Z",
+    "headline": "AP Calls Republican Ashley Moody Winner In Florida Senate Race, Defeating Democrat Angie Nixon To Secure Reelection",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62850400",
+    "created_at": "2026-11-04T01:25:34Z",
+    "headline": "AP Calls Democrat Roy Cooper Winner In North Carolina Senate Race, Defeating Republican Michael Whatley To Flip Key GOP Seat",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Senate flip is political news with unclear near-term market effect"
       }
     ],
     "scorer": "claude"

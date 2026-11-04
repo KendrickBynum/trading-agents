@@ -280,5 +280,18 @@
     "order_id": "7b1fd819-bf9b-4ec8-aa31-95ff34291e09",
     "book": "frac",
     "time": "2026-11-03T19:35:51.347022+00:00"
+  },
+  {
+    "time": "2026-11-04T14:33:38.979415Z",
+    "book": "stock",
+    "symbol": "XOM",
+    "side": "sell",
+    "status": "filled",
+    "order_id": "aff0caf0-ee11-4ee0-bb4d-a6d82e9c659f",
+    "qty": 55.0,
+    "price": 171.51,
+    "notional": 9433.05,
+    "reason": "trailing stop hit (fell from its high)",
+    "realized_pl": -484.48
   }
 ]

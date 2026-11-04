@@ -1,10 +1,22 @@
 {
-  "time": "2026-11-04T01:29:05.123103+00:00",
-  "halts": [
-    "Market closed"
-  ],
+  "time": "2026-11-04T14:36:32.547631+00:00",
+  "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "time": "2026-11-04T14:33:38.979415Z",
+      "book": "stock",
+      "symbol": "XOM",
+      "side": "sell",
+      "status": "filled",
+      "order_id": "aff0caf0-ee11-4ee0-bb4d-a6d82e9c659f",
+      "qty": 55.0,
+      "price": 171.51,
+      "notional": 9433.05,
+      "reason": "trailing stop hit (fell from its high)",
+      "realized_pl": -484.48
+    }
+  ],
   "buy_threshold": 0.433,
   "exit_threshold": -0.295,
   "trailing_stop_pct": 0.04,
