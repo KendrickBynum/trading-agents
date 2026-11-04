@@ -1,8 +1,28 @@
 {
-  "time": "2026-11-04T14:36:33.502154+00:00",
+  "time": "2026-11-04T15:35:38.362343+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "XOM",
+      "side": "buy",
+      "reason": "limit buy 0.25 ATR below $172.81 (score +0.39, trend +0.80)",
+      "qty": 23.4536,
+      "limit": 171.66,
+      "notional": 4026.04,
+      "score": 0.392,
+      "factors": {
+        "trend": 0.799,
+        "levels": 0.666,
+        "flow": 0.413,
+        "pattern": 0.017,
+        "news": 0.222
+      },
+      "status": "order placed",
+      "order_id": "468a967d-ae91-417c-8d1a-542dd43ffd98",
+      "time": "2026-11-04T15:35:38.362343+00:00"
+    }
+  ],
   "settings": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,

@@ -1,8 +1,22 @@
 {
-  "time": "2026-11-04T14:36:34.268400+00:00",
+  "time": "2026-11-04T15:35:39.050544+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "GOOGL261127P00285000",
+      "side": "sell",
+      "reason": "stop loss (-56%)",
+      "qty": 1,
+      "underlying": "GOOGL",
+      "notional": 495.0,
+      "status": "order placed",
+      "order_id": "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
+      "limit": 4.85,
+      "book": "options",
+      "time": "2026-11-04T15:35:39.050544+00:00"
+    }
+  ],
   "options_level": 3,
   "learned": {
     "closed_trades": 2,

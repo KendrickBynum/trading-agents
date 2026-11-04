@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-04T14:35:23.042164+00:00",
-  "market_risk": 0.111,
+  "generated_at": "2026-11-04T15:35:18.818075+00:00",
+  "market_risk": 0.11,
   "tickers": {
     "SPY": {
-      "score": 0.029,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.016,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Benzinga Market Summary: S&P Rises After Democrats Win U.S. House And U.S. Senate Majority, Texas Results Weigh On Musk-Owned And AI-Related Companies, Trump Media & Technology Slides After Midterms And McDonald's Rises On Q3 Adj. EPS Beat.",
+          "url": "https://www.benzinga.com/quote/SPCX",
+          "time": "2026-11-04T15:04:08Z",
+          "sentiment": 0.2,
+          "reason": "S&P rising after midterm results, reflecting relief rally"
+        },
+        {
+          "headline": "USA S&P Global Composite PMI For October\u00a055.9 Vs 57.6 Est.",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-04T14:45:17Z",
+          "sentiment": -0.2,
+          "reason": "October composite PMI missed estimates, signaling slowing activity"
+        },
+        {
+          "headline": "USA S&P Global Services PMI For October\u00a0\u00a056.1 Vs 57.9 Est.",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-04T14:45:11Z",
+          "sentiment": -0.2,
+          "reason": "October services PMI missed estimates, signaling slowing activity"
+        },
         {
           "headline": "Dan Ives Says Democratic Sweep Will Slow AI Buildout, Estimates 10% Of Planned US Data Centers \u2018Will Not Happen Now\u2019",
           "url": "https://www.benzinga.com/markets/market-summary/26/11/62864066/dan-ives-says-democratic-sweep-will-slow-ai-buildout-estimates-10-of-planned-us-data-centers-will-not-happen-now",
@@ -20,27 +41,6 @@
           "time": "2026-11-04T13:40:09Z",
           "sentiment": 0.2,
           "reason": "Index futures rising despite midterm political uncertainty"
-        },
-        {
-          "headline": "President Trump Tells NY Times That He Would Accept The Results Of The Midterm Elections And Was Prepared To Work With Democrats; Says \u201cI Am Absolutely Willing To Accept Those Results\u201d; \u201cWe\u2019ll Work With The Democrats, And We\u2019ll, You Know, Look Forward To Working With Them. We\u2019ll Probably Work Something Out.\u201d",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62851179/president-trump-tells-ny-times-he-would-accept-results-midterm-elections-and-was-prepared-work-democ",
-          "time": "2026-11-04T04:33:25Z",
-          "sentiment": 0.15,
-          "reason": "Trump signals acceptance of midterm results, easing political uncertainty"
-        },
-        {
-          "headline": "S&P 500 Could Win No Matter Who Wins the Midterms: 5 ETFs to Watch Under JPMorgan's 4 Scenarios",
-          "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62837162/sp-500-could-win-no-matter-who-wins-the-midterms-5-etfs-to-watch-under-jpmorgans-4-scenarios",
-          "time": "2026-11-03T19:14:56Z",
-          "sentiment": 0.2,
-          "reason": "JPMorgan sees S&P 500 resilient across midterm scenarios"
-        },
-        {
-          "headline": "This Midterm Nightmare Scenario Puts S&P 500 Down 10% by Year-End, Evercore Warns",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836517/this-midterm-nightmare-scenario-puts-sp-500-down-10-by-year-end-evercore-warns",
-          "time": "2026-11-03T18:56:35Z",
-          "sentiment": -0.4,
-          "reason": "Evercore warns of possible 10% S&P drop under disputed-election scenario"
         }
       ]
     },
@@ -87,10 +87,17 @@
       ]
     },
     "AAPL": {
-      "score": -0.329,
+      "score": -0.246,
       "articles": 11,
       "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "What Is Going On With Apple Stock on Wednesday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62868935/what-is-going-on-with-apple-stock-on-wednesday-2",
+          "time": "2026-11-04T15:02:06Z",
+          "sentiment": 0.2,
+          "reason": "5% gain on AI monetization and share gains; some move may already be priced in"
+        },
         {
           "headline": "Apple Issues December-Quarter Revenue Guidance and Warns of Margin Pressures",
           "url": "https://www.tradingview.com/news/tradingview:67f2ef4c1e0a9:0-key-facts-apple-inc-falls-nvidia-leads-costs-rise-iphone-delays/",
@@ -118,13 +125,6 @@
           "time": "2026-11-04T07:17:40Z",
           "sentiment": -0.3,
           "reason": "Apple dropped while Nasdaq rallied; Fear & Greed in Extreme Fear"
-        },
-        {
-          "headline": "Apple Stock at \u2018Extreme Overvaluation\u2019: Analysts See Slowing Revenue Growth",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836578/apple-stock-at-extreme-overvaluation-analysts-see-slowing-revenue-growth",
-          "time": "2026-11-03T18:58:07Z",
-          "sentiment": -0.4,
-          "reason": "Analysts flag extreme valuation, slowing revenue and lower margins"
         }
       ]
     },
@@ -192,9 +192,9 @@
       ]
     },
     "AMZN": {
-      "score": 0.243,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.3,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Amazon Reports AWS Financials and Strategic AI Updates",
@@ -202,20 +202,6 @@
           "time": "2026-11-04T12:31:35Z",
           "sentiment": 0.3,
           "reason": "Strong AWS revenue disclosure and expanded Trainium chip availability"
-        },
-        {
-          "headline": "CNMC Initiates Sanction Proceedings Against Apple, Amazon; Companies Failed To Comply With Cease-And-Desist Order Imposed On Them In Sanctioning Resolution Of July 2023; Imposed Fines On Both Companies For Including Anti-Competitive Clauses In Contracts Governing The Terms And Conditions Of Amazon\u2019s Role As An Apple Distributor",
-          "url": "https://www.benzinga.com/government/26/11/62825264/cnmc-initiates-sanction-proceedings-against-apple-amazon-companies-failed-comply-cease-and-desist-or",
-          "time": "2026-11-03T15:07:57Z",
-          "sentiment": -0.2,
-          "reason": "Spanish regulator sanction proceedings over anti-competitive contract clauses"
-        },
-        {
-          "headline": "Amazon Has 40% Upside, Joseph Carlson Says: 'One of the Best Opportunities'",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62822769/amazon-40-upside",
-          "time": "2026-11-03T14:36:47Z",
-          "sentiment": 0.2,
-          "reason": "Analyst cites 40% upside on AWS growth; opinion, largely known"
         }
       ]
     },
@@ -261,10 +247,17 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.077,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.111,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "USA Crude Oil Inventories 0.865M Barrel Draw vs 1.700M Barrel Draw Est.",
+          "url": "https://www.benzinga.com/quote/USO",
+          "time": "2026-11-04T15:32:08Z",
+          "sentiment": 0.2,
+          "reason": "Crude draw far smaller than expected, mildly supportive of oil prices"
+        },
         {
           "headline": "TD Cowen Adjusts Price Target on Exxon Mobil to $193",
           "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-exxon-mobil-to-193-from-180-ce785fdfdb89f524",
@@ -292,20 +285,13 @@
           "time": "2026-11-03T20:04:39Z",
           "sentiment": 0.3,
           "reason": "Analyst price target raise signals bullish sentiment, though targets often lag price."
-        },
-        {
-          "headline": "This Midterm Nightmare Scenario Puts S&P 500 Down 10% by Year-End, Evercore Warns",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/62836517/this-midterm-nightmare-scenario-puts-sp-500-down-10-by-year-end-evercore-warns",
-          "time": "2026-11-03T18:56:35Z",
-          "sentiment": 0.3,
-          "reason": "Deeper Iran involvement could lift oil prices and energy names"
         }
       ]
     },
     "MU": {
-      "score": 0.365,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.345,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "Forget Nvidia: Why Samsung, TSMC, and Micron Just Generated 'More Free Cash Flow... Than Any Other Listed US Company'",
@@ -334,13 +320,6 @@
           "time": "2026-11-03T15:58:13Z",
           "sentiment": 0.4,
           "reason": "Memory stocks rally as Apple says memory prices will keep rising"
-        },
-        {
-          "headline": "Micron Tech Gains as Tech Giants Scramble to Lock in Multiyear Supply",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62826676/micron-tech-gains-as-tech-giants-scramble-to-lock-in-multiyear-supply",
-          "time": "2026-11-03T15:34:40Z",
-          "sentiment": 0.5,
-          "reason": "Rally on analyst forecasts of severe AI memory shortages through 2028"
         }
       ]
     },
@@ -380,10 +359,17 @@
       ]
     },
     "TSLA": {
-      "score": -0.328,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.322,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Benzinga Market Summary: S&P Rises After Democrats Win U.S. House And U.S. Senate Majority, Texas Results Weigh On Musk-Owned And AI-Related Companies, Trump Media & Technology Slides After Midterms And McDonald's Rises On Q3 Adj. EPS Beat.",
+          "url": "https://www.benzinga.com/quote/SPCX",
+          "time": "2026-11-04T15:04:08Z",
+          "sentiment": -0.3,
+          "reason": "Texas results weigh on Musk-owned and AI-related companies"
+        },
         {
           "headline": "Midterms' Blue Sweep Hits the 'Trump Trade': SpaceX, Tesla and Defense Stocks Sink",
           "url": "https://www.benzinga.com/news/politics/26/11/62862271/midterm-blue-sweep-trump-trade-spacex-tesla-defense-stocks",
@@ -411,13 +397,6 @@
           "time": "2026-11-04T08:58:04Z",
           "sentiment": -0.4,
           "reason": "Shares fell over 4% on doubts about Musk-backed AI data center plans"
-        },
-        {
-          "headline": "Reported Earlier, 'Tesla Misled South Korean Customers About Automated-Driving Tech, Consumer Group Alleges' - Reuters Exclusive",
-          "url": "https://www.benzinga.com/news/26/11/62851838/reported-earlier-tesla-misled-south-korean-customers-about-automated-driving-tech-consumer-group-all",
-          "time": "2026-11-04T06:18:13Z",
-          "sentiment": -0.2,
-          "reason": "Consumer group misleading-marketing allegation on driver-assist tech"
         }
       ]
     },
@@ -443,10 +422,17 @@
       ]
     },
     "AMD": {
-      "score": 0.449,
-      "articles": 27,
-      "ai_articles": 27,
+      "score": 0.443,
+      "articles": 28,
+      "ai_articles": 28,
       "headlines": [
+        {
+          "headline": "AMD Is Growing Twice as Fast as Intel. Here's Where the Gap Is Coming From",
+          "url": "https://www.benzinga.com/news/space/26/11/62868028/amd-growing-faster-than-intel",
+          "time": "2026-11-04T14:50:19Z",
+          "sentiment": 0.3,
+          "reason": "Strong 45% revenue growth vs Intel; AI demand tailwind"
+        },
         {
           "headline": "Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target",
           "url": "https://www.benzinga.com/news/26/11/62866291/wedbush-reiterates-outperform-advanced-micro-devices-maintains-600-price-target",
@@ -474,13 +460,6 @@
           "time": "2026-11-04T13:25:42Z",
           "sentiment": 0.3,
           "reason": "Overweight reiteration with $725 target; routine but supportive"
-        },
-        {
-          "headline": "These Analysts Revise Their Forecasts On AMD After Q3 Results",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results",
-          "time": "2026-11-04T12:44:13Z",
-          "sentiment": 0.6,
-          "reason": "Q3 revenue and EPS beat with strong Q4 growth guidance"
         }
       ]
     }
