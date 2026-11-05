@@ -1,508 +1,5 @@
 [
   {
-    "id": "112527143",
-    "created_at": "2026-11-04T00:01:37Z",
-    "headline": "DeepInfra Announces New Benefits for NVIDIA Inception Members",
-    "url": "https://www.globenewswire.com/news-release/2026/11/03/3394716/0/en/deepinfra-expands-startup-support-through-nvidia-inception-offering.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Minor ecosystem partner benefit for NVIDIA Inception startups; routine."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62849869",
-    "created_at": "2026-11-03T23:55:14Z",
-    "headline": "Nancy Pelosi Isn't Running for Re-Election in 2026 Midterms: Say Goodbye to Her Stock Picks in Two Months",
-    "url": "https://www.benzinga.com/news/politics/26/11/62849869/nancy-pelosi-isnt-running-for-re-election-in-2026-midterms-say-goodbye-to-her-stock-picks-in-two-months",
-    "source": "benzinga",
-    "market_risk": 0.03,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62849372",
-    "created_at": "2026-11-03T23:09:09Z",
-    "headline": "Advanced Micro Devices Q3 2026 Earnings Call Transcript",
-    "url": "https://www.benzinga.com/news/26/11/62849372/advanced-micro-devices-q3-2026-earnings-call-transcript",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Q3 call content from later commentary is strongly bullish on data center growth."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "112323523",
-    "created_at": "2026-11-03T22:32:03Z",
-    "headline": "AMD Provides Fourth Quarter 2026 Revenue Guidance",
-    "url": "https://www.marketscreener.com/news/amd-advanced-micro-devices-inc-expects-q4-revenue-range-16-49b-17-51b-ce785fdedc8bf527",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Q4 guidance midpoint about $17B; likely constructive but consensus unknown."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "112321501",
-    "created_at": "2026-11-03T22:31:42Z",
-    "headline": "J.P. Morgan Wealth Management Recruits Advisor from Merrill Lynch",
-    "url": "https://www.moomoo.com/hans/news/post/1003379802/jp-morgan-recruits-financial-advisor-from-merrill-who-oversaw-940",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.02,
-        "confidence": 0.1,
-        "reason": "Routine advisor recruitment; negligible price impact."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "112321497",
-    "created_at": "2026-11-03T22:31:37Z",
-    "headline": "Microsoft, Google, and OpenAI Support New Standard for AI Training Opt-Outs",
-    "url": "https://newswire.co.nz/2026/11/robots-txt-ai-training-opt-out-google-openai-microsoft-new-zealand/",
-    "source": "fiscal.ai",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.02,
-        "confidence": 0.1,
-        "reason": "Industry standard support for AI opt-outs; minimal financial impact."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62848287",
-    "created_at": "2026-11-03T22:29:24Z",
-    "headline": "AMD CFO Says Expect Q4 Non-GAAP Operating Expenses To Be ~$3.75B",
-    "url": "https://www.benzinga.com/news/26/11/62848287/amd-cfo-says-expect-q4-non-gaap-operating-expenses-be-3-75b",
-    "source": "benzinga",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Expected operating expense guidance; largely neutral for price."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62848042",
-    "created_at": "2026-11-03T22:20:25Z",
-    "headline": "AMD CEO Says Expect Our Embedded Business To Deliver A Strong Double-Digit Annual Revenue Growth; Now Expect Revenue To Grow More Than 80% In 2027",
-    "url": "https://www.benzinga.com/news/26/11/62848042/amd-ceo-says-expect-our-embedded-business-deliver-strong-double-digit-annual-revenue-growth-now-expe",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.6,
-        "confidence": 0.6,
-        "reason": "Expects over 80% revenue growth in 2027; strongly bullish outlook."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62847925",
-    "created_at": "2026-11-03T22:17:36Z",
-    "headline": "AMD CEO Says In 2027, We Are Planning For Pc Market Unit Shipments To Decline By A Double-Digit Percentage",
-    "url": "https://www.benzinga.com/news/26/11/62847925/amd-ceo-says-2027-we-are-planning-pc-market-unit-shipments-decline-double-digit-percentage",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Expected double-digit PC unit decline in 2027 hurts client segment."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62847892",
-    "created_at": "2026-11-03T22:16:46Z",
-    "headline": "AMD CEO Says  Expect Data Center To Be More Than 80% Of Our Total Revenue In 2027 And To Drive The Majority Of Our Revenue And Earnings Growth",
-    "url": "https://www.benzinga.com/news/26/11/62847892/amd-ceo-says-expect-data-center-be-more-80-our-total-revenue-2027-and-drive-majority-our-revenue-and",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Data center above 80% of revenue by 2027 drives growth thesis."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62847867",
-    "created_at": "2026-11-03T22:16:22Z",
-    "headline": "AMD CEO Says Now Expect Data Center Segment Revenue Growth To Accelerate In The Fourth Quarter And Full Year Segment Revenue To More Than Double From 2025; Now Expect Server Revenue To Double Year Over Year In 2027",
-    "url": "https://www.benzinga.com/news/26/11/62847867/amd-ceo-says-now-expect-data-center-segment-revenue-growth-accelerate-fourth-quarter-and-full-year-s",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.7,
-        "confidence": 0.65,
-        "reason": "Accelerating data center growth and server revenue doubling is very bullish."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62847785",
-    "created_at": "2026-11-03T22:14:31Z",
-    "headline": "Canada Prime Minister Carney Says Discussions With U.S. Will Be More Intensive; We Are Making Progress But We Have Not Finished With U.S. Trade Talks;  There Are Still Some Red Lines To Be Addressed; There Are Some Important Areas To Be Resolved, We Have Made Progress; Some Of Our Red Lines In U.S. Trade Talks Have Been Removed; U.S. Is Asking Less And Offering More But We're Not There Yet; It's Not Always Necessary To Have Trade Negotiators Talking To The USTR, We Have Good Lines Of Communications Open",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62847785/canada-prime-minister-carney-says-discussions-u-s-will-be-more-intensive-we-are-making-progress-we-h",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Reported progress in US-Canada trade talks; modestly reduces trade-war risk."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62847690",
-    "created_at": "2026-11-03T22:12:10Z",
-    "headline": "AMD CEO Says Began Revenue Shipments Of EPYC Venice Processors In Q3, And The First OEM Systems Are On Track For Availability In Q4",
-    "url": "https://www.benzinga.com/news/26/11/62847690/amd-ceo-says-began-revenue-shipments-epyc-venice-processors-q3-and-first-oem-systems-are-track-avail",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "EPYC Venice revenue shipments began in Q3; OEM systems on track for Q4"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62846977",
-    "created_at": "2026-11-03T22:02:39Z",
-    "headline": "API Crude Oil Stock 5.267M Barrel Draw Vs 2.100M Barrel Build Est.",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Crude inventory draw well above build estimate; supportive for oil prices"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62846923",
-    "created_at": "2026-11-03T22:01:50Z",
-    "headline": "2026 Midterms Prediction Market Odds Update: Democratic Senate Chances Fall to 73%",
-    "url": "https://www.benzinga.com/news/politics/26/11/62846923/2026-midterms-prediction-market-odds-update-democratic-senate-chances-fall-to-73",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62846233",
-    "created_at": "2026-11-03T21:45:15Z",
-    "headline": "Here's How Much $100 Invested In ExxonMobil Holdings 5 Years Ago Would Be Worth Today",
-    "url": "https://www.benzinga.com/news/26/11/62846233/here-s-how-much-100-invested-exxonmobil-holdings-5-years-ago-would-be-worth-today",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62845344",
-    "created_at": "2026-11-03T21:34:43Z",
-    "headline": "AMD Posts Q3 Double Beat as Data Center Segment Shines, Growth Expected to 'Accelerate' in Q4",
-    "url": "https://www.benzinga.com/markets/earnings/26/11/62845344/amd-posts-q3-double-beat-as-data-center-segment-shines-growth-expected-to-accelerate-in-q4",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.7,
-        "confidence": 0.7,
-        "reason": "Q3 double beat, data center strength, Q4 growth expected to accelerate"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "112205455",
-    "created_at": "2026-11-03T21:31:47Z",
-    "headline": "AMD Reports Third Quarter 2026 Financial Results",
-    "url": "https://www.globenewswire.com/news-release/2026/11/03/3394824/0/en/amd-reports-third-quarter-2026-financial-results.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.6,
-        "confidence": 0.6,
-        "reason": "Q3 revenue $13.4B and EPS $2.09 reported; strong results"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "112203505",
-    "created_at": "2026-11-03T21:31:42Z",
-    "headline": "Tesla Expands Robotaxi Service to Fort Worth",
-    "url": "https://www.tradingview.com/news/gurufocus:0623b5e63094b:0-tesla-stocks-move-lower-with-fort-worth-robotaxi-expansion-in-focus/",
-    "source": "fiscal.ai",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Robotaxi expansion to Fort Worth; incremental commercial growth"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62844339",
-    "created_at": "2026-11-03T21:23:59Z",
-    "headline": "Advanced Micro Devices Sees Q4 Sales $16.490B-$17.510B vs $16.227B Est",
-    "url": "https://www.benzinga.com/news/26/11/62844339/advanced-micro-devices-sees-q4-sales-16-490b-17-510b-vs-16-227b-est",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.75,
-        "confidence": 0.75,
-        "reason": "Q4 sales guidance midpoint about $17.0B, above $16.2B estimate"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62843850",
-    "created_at": "2026-11-03T21:19:05Z",
-    "headline": "Advanced Micro Devices Anticipates Further Growth In Q4 As It Scales Helios, Venice Production",
-    "url": "https://www.benzinga.com/quote/AMD",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.5,
-        "confidence": 0.5,
-        "reason": "Expects further Q4 growth as Helios and Venice production scales"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62843214",
-    "created_at": "2026-11-03T21:15:37Z",
-    "headline": "Advanced Micro Devices Q3 Adj. EPS $2.09 Beats $1.95 Estimate, Sales $13.377B Beat $13.092B Estimate",
-    "url": "https://www.benzinga.com/news/earnings/26/11/62843214/advanced-micro-devices-q3-adj-eps-2-09-beats-1-95-estimate-sales-13-377b-beat-13-092b-estimate",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.7,
-        "confidence": 0.7,
-        "reason": "Q3 adj. EPS $2.09 beat $1.95 estimate; sales beat $13.09B estimate"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62840524",
-    "created_at": "2026-11-03T21:00:05Z",
-    "headline": "Nate Silver Says Democrats Are Clear Senate Favorites: 'A Really Bad Night for Pollsters' if They Lose",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62840524/nate-silver-senate",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62840421",
-    "created_at": "2026-11-03T20:56:18Z",
-    "headline": "'Xbox\u2019s Arkane Studios Attracts Multiple Bidders, Including Ubisoft' - Bloomberg Exclusive",
-    "url": "https://www.benzinga.com/news/26/11/62840421/xboxs-arkane-studios-attracts-multiple-bidders-including-ubisoft-bloomberg-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.03,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62839828",
-    "created_at": "2026-11-03T20:35:44Z",
-    "headline": "'U.S. Senate Commerce Committee To Hold Nov. 10 Confirmation Hearing For Federal Communications Commissioner Nominee Thumann' - Reuters News",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62839828/u-s-senate-commerce-committee-hold-nov-10-confirmation-hearing-federal-communications-commissioner-n",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850385",
-    "created_at": "2026-11-04T01:22:34Z",
-    "headline": "AP Calls Democrat Chris Pappas Winner In New Hampshire Senate Race, Defeating Republican John Sununu To Secure Key Democratic Seat",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850355",
-    "created_at": "2026-11-04T01:14:35Z",
-    "headline": "AP Calls Democrat Jared Moskowitz Winner In Florida's 25th Congressional District, Securing Third Term Over Republican Scott Singer",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850282",
-    "created_at": "2026-11-04T01:03:53Z",
-    "headline": "AMD, Super Micro Computer, Arista Networks, Astera Labs and Nvidia: Why These 5 Stocks Are on Investors' Radars Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62850282/amd-super-micro-computer-arista-networks-astera-labs-and-nvidia-why-these-5-stocks-are-on-investors-radars-today",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Routine watchlist mention; no company-specific catalyst"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Routine watchlist mention; no company-specific catalyst"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850271",
-    "created_at": "2026-11-04T01:03:36Z",
-    "headline": "AP Calls Democrat Ed Markey Defeats John Deaton For Senate In Massachusetts",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850260",
-    "created_at": "2026-11-04T01:03:22Z",
-    "headline": "AP Calls Democrat Jack Reed Winner In Rhode Island Senate Race, Securing Sixth Term Over Republican Raymond McKay",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850249",
-    "created_at": "2026-11-04T01:02:52Z",
-    "headline": "AP Calls Democrat Juliana Stratton Defeats Republican Don Tracy For Senate In Illinois",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850238",
-    "created_at": "2026-11-04T01:02:43Z",
-    "headline": "AP Calls Democrat Cory Booker Winner In New Jersey Senate Race, Securing Third Full Term Over Republican Justin Murphy",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850215",
-    "created_at": "2026-11-04T01:01:46Z",
-    "headline": "Democrat Chris Coons Defeats Mike Katz For Senate In Delaware",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850211",
-    "created_at": "2026-11-04T01:01:44Z",
-    "headline": "AP Calls Democrat Jon Ossoff Winner In Georgia Senate Race, Securing Reelection Over Republican Mike Collins",
-    "url": "https://www.benzinga.com/news/26/11/62850211/ap-calls-democrat-jon-ossoff-winner-georgia-senate-race-securing-reelection-over-republican-mike-col",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62850169",
-    "created_at": "2026-11-04T00:46:19Z",
-    "headline": "2026 Midterm Election Update: Democrats Have Won 11 House Seats; Republicans Have Won 3 House Seats; Several News Outlets Have Called The Georgia Senate Race For Democrat Jon Ossoff; Early Voting Indicates A Strong Showing For Democrats On All Counts",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Early Democratic sweep may signal policy uncertainty; largely priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62866291",
     "created_at": "2026-11-04T14:34:55Z",
     "headline": "Wedbush Reiterates Outperform on Advanced Micro Devices, Maintains $600 Price Target",
@@ -2105,23 +1602,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62850400",
-    "created_at": "2026-11-04T01:25:34Z",
-    "headline": "AP Calls Democrat Roy Cooper Winner In North Carolina Senate Race, Defeating Republican Michael Whatley To Flip Key GOP Seat",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.15,
-        "reason": "Senate flip is political news with unclear near-term market effect"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62870523",
     "created_at": "2026-11-04T15:32:08Z",
     "headline": "USA Crude Oil Inventories 0.865M Barrel Draw vs 1.700M Barrel Draw Est.",
@@ -3197,6 +2677,160 @@
         "sentiment": 0.1,
         "confidence": 0.2,
         "reason": "Post-midterm rally noted; breadth concerns limit read-through, mostly priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "113680583",
+    "created_at": "2026-11-05T01:01:58Z",
+    "headline": "Apple Reportedly Reduces Employee AI Spending Budgets",
+    "url": "https://www.marketscreener.com/news/apple-cuts-employee-ai-spending-budgets-ce785fdfde8cf12d",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Internal AI spending cuts are minor and mostly already known"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62899567",
+    "created_at": "2026-11-04T22:47:19Z",
+    "headline": "UBS Maintains Buy on Advanced Micro Devices, Lowers Price Target to $700",
+    "url": "https://www.benzinga.com/news/26/11/62899567/ubs-maintains-buy-advanced-micro-devices-lowers-price-target-700",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Buy rating kept but price target cut; mildly negative signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "113479902",
+    "created_at": "2026-11-04T22:31:45Z",
+    "headline": "Meta Platforms Prices $15 Billion USD Bond Offering",
+    "url": "https://www.tradingview.com/news/gurufocus:36533a7da094b:0-meta-stocks-rise-1-77-while-15-billion-bond-deal-adds-a-cash-hurdle/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Large debt issuance may signal heavy AI capex funding needs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "113479899",
+    "created_at": "2026-11-04T22:31:39Z",
+    "headline": "Microsoft Updates Clarity Analytics Tool with AI Agent Tracking Features",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-clarity-helps-merchants-welcome-ai-shopping-agents/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Incremental analytics product update with minor revenue relevance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62893642",
+    "created_at": "2026-11-04T21:34:55Z",
+    "headline": "Arm-based PCs Have Now Reached ~20% Of Global Shipments, Reflecting Growing Adoption Of Arm In Personal Computing. Google Introduced GoogleBook, A New Category Of AI-Native Laptops Built For Gemini Intelligence, With Arm Serving As A Primary Compute Platform For Many Models. NVIDIA\u2019s RTX Spark, Built On Arm, Further Expands Our Reach Into Local AI, Content Creation And Gaming",
+    "url": "https://www.benzinga.com/quote/NVDA",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.25,
+        "confidence": 0.3,
+        "reason": "New Gemini-focused AI laptop category could boost Google's AI platform"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.35,
+        "reason": "RTX Spark on Arm expands NVIDIA into PCs, local AI, and gaming"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "113371728",
+    "created_at": "2026-11-04T21:31:40Z",
+    "headline": "Fermaca Named First NVIDIA Cloud Partner in Mexico",
+    "url": "https://www.prnewswire.com/news-releases/fermaca-unveils-nvidia-powered-ai-factory-platform-to-power-mexico-and-latin-america-302929673.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Regional NVIDIA Cloud Partner win in Mexico; limited market impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62890472",
+    "created_at": "2026-11-04T21:16:41Z",
+    "headline": "Citigroup Maintains Neutral on ExxonMobil Holdings, Raises Price Target to $175",
+    "url": "https://www.benzinga.com/news/26/11/62890472/citigroup-maintains-neutral-exxonmobil-holdings-raises-price-target-175",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Neutral rating with higher price target; modest positive signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62886507",
+    "created_at": "2026-11-04T20:53:11Z",
+    "headline": "QUICK SPARK: Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62886507/trump-celebrates-stock-rally-fueled-by-his-own-partys-midterm-defeat",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Dow up 2.9% supports broad market; no index record set"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Broad rally lifts tech-heavy index; political claims are noise"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Oil fell 7%, which pressures energy producers like ExxonMobil"
       }
     ],
     "scorer": "claude"
