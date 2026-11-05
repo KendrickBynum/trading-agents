@@ -1,23 +1,8 @@
 {
-  "time": "2026-11-05T15:35:34.975555+00:00",
+  "time": "2026-11-05T16:35:35.920395+00:00",
   "halts": [],
-  "alerts": [
-    "Could not place stop on XOM: Alpaca POST https://paper-api.alpaca.markets/v2/orders -> 403: {\"available\":\"0\",\"code\":40310000,\"existing_qty\":\"23.4536\""
-  ],
-  "last_actions": [
-    {
-      "time": "2026-11-05T15:01:22.839822Z",
-      "book": "frac",
-      "symbol": "AAPL",
-      "side": "buy",
-      "status": "filled",
-      "order_id": "661b63a3-fbd9-4914-9251-d35a25739414",
-      "qty": 11.4741,
-      "price": 350.735042,
-      "notional": 4024.37,
-      "reason": "limit buy 0.25 ATR below $352.97 (score +0.36, trend +0.65)"
-    }
-  ],
+  "alerts": [],
+  "last_actions": [],
   "settings": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,

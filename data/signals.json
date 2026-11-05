@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-05T15:35:23.078075+00:00",
-  "market_risk": 0.106,
+  "generated_at": "2026-11-05T16:35:20.950094+00:00",
+  "market_risk": 0.118,
   "tickers": {
     "SPY": {
-      "score": -0.014,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.045,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "Benzinga Market Summary: S&P Sells Off From Yesterday's Post-Midterm Election Rally, QQQ Dips On AI Regulation Concerns, Applovin Rises On Q3 Earnings, Lower-Than-Expected Initial Jobless Claims Data Signals Job Market Strength",
+          "url": "https://www.benzinga.com/quote/APP",
+          "time": "2026-11-05T15:51:40Z",
+          "sentiment": -0.2,
+          "reason": "Broad index selloff from post-midterm rally; jobless claims data a modest offset"
+        },
         {
           "headline": "CORRECTION: Fed's Hammack Says Gradual Rate Hikes Less Disruptive To Economy And Financial System; Inflation Has Been Too High, Moving In Wrong Direction; It's Hard To See Dollar Losing Reserve Status",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62927163/correction-fed-s-hammack-says-gradual-rate-hikes-less-disruptive-economy-and-financial-system-inflat",
@@ -34,21 +41,21 @@
           "time": "2026-11-05T13:45:04Z",
           "sentiment": -0.3,
           "reason": "Recession signals resurfacing; chip stocks down 23% in a month"
-        },
-        {
-          "headline": "USA Nonfarm Productivity (QoQ) For Q3 3.6% Vs. 2.8% Est.; 2.1% Prior",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-05T13:30:15Z",
-          "sentiment": 0.3,
-          "reason": "Q3 productivity beat strongly versus estimates; supportive growth signal."
         }
       ]
     },
     "QQQ": {
-      "score": 0.187,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.084,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Benzinga Market Summary: S&P Sells Off From Yesterday's Post-Midterm Election Rally, QQQ Dips On AI Regulation Concerns, Applovin Rises On Q3 Earnings, Lower-Than-Expected Initial Jobless Claims Data Signals Job Market Strength",
+          "url": "https://www.benzinga.com/quote/APP",
+          "time": "2026-11-05T15:51:40Z",
+          "sentiment": -0.3,
+          "reason": "Tech dip on AI regulation concerns after post-election rally fades"
+        },
         {
           "headline": "Dow Posts Biggest Post-Midterm Rally in 44 Years as Trump Celebrates US Stock Surge Despite Losing Congress to Democrats",
           "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/62903148/dow-biggest-post-midterm-rally-44-years-trump-us-stock-surge-losing-democrats",
@@ -108,10 +115,24 @@
       ]
     },
     "MSFT": {
-      "score": 0.185,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.159,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "Microsoft Announces $30 Billion Investment in U.K. Supercomputing Facility",
+          "url": "https://www.globenewswire.com/news-release/2026/11/05/3396666/0/en/ai-infrastructure-arms-race-accelerates-as-hyperscalers-commit-hundreds-of-billions-to-next-generation-data-center-accelerators.html",
+          "time": "2026-11-05T16:01:29Z",
+          "sentiment": 0.3,
+          "reason": "Large AI infrastructure investment is positive but may be partly priced in"
+        },
+        {
+          "headline": "Microsoft Declines Expansion of Data Center Agreement with Nscale",
+          "url": "https://www.tradingview.com/news/seekingalpha:913ddb622094b:0-microsoft-rejects-multibillion-dollar-texas-data-center-expansion-with-uk-s-nscale-reports/",
+          "time": "2026-11-05T16:01:29Z",
+          "sentiment": -0.15,
+          "reason": "Declining capacity expansion signals cooling data center demand from Microsoft"
+        },
         {
           "headline": "EXCLUSIVE: Democrats Took Congress. But AI's Spending Binge Isn't Going Anywhere, This CEO Says",
           "url": "https://www.benzinga.com/markets/tech/26/11/62924053/democrats-big-tech-ai-spending",
@@ -132,28 +153,21 @@
           "time": "2026-11-05T13:45:09Z",
           "sentiment": 0.2,
           "reason": "Slower AI build-out could improve Big Tech cash flow"
-        },
-        {
-          "headline": "Microsoft, Amazon Add $400 Billion in Market Value as Analyst Sees Pricing Upside From Data Center Constraints",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62910043/microsoft-amazon-add-400-billion-in-market-value-as-analyst-sees-pricing-upside-from-data-center-constraints",
-          "time": "2026-11-05T11:48:20Z",
-          "sentiment": 0.4,
-          "reason": "Analyst sees cloud pricing upside from data center constraints"
-        },
-        {
-          "headline": "Microsoft\u2019s $5 Billion AI Spending Shortfall Puts IREN, Nebius Under Spotlight as Satellite Imagery Shows Data Center Delays: Report",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62906647/microsofts-5-billion-ai-spending-shortfall-puts-iren-nebius-under-spotlight-as-satellite-imagery-shows-data-center-delays-report",
-          "time": "2026-11-05T10:30:55Z",
-          "sentiment": -0.3,
-          "reason": "Reported $5B AI spending shortfall and data center delays"
         }
       ]
     },
     "NVDA": {
-      "score": -0.165,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.188,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "\"Microsoft Sours on Neoclouds Owing to Data Center Delays, Costs; Microsoft Is Tightening Oversight Of Some Data Center Projects From Nebius Group, IREN, And Nscale; IREN & Microsoft Officials Met And Negotiated Revised Timeline That May Push Back Texas Site\u2019s Completion By Several Weeks Or Months\" - Bloomberg Exclusive",
+          "url": "https://www.benzinga.com/news/26/11/62930518/microsoft-sours-on-neoclouds-owing-to-data-center-delays-costs-microsoft-is-tightening-oversight-of-some-data-center-projects-from-nebius-group-iren-and-nscale-bloomberg-exclusive",
+          "time": "2026-11-05T15:56:09Z",
+          "sentiment": -0.3,
+          "reason": "Neocloud data center delays could slow GPU purchases by key AI buyers"
+        },
         {
           "headline": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62926393/amazon-google-nvidia",
@@ -181,13 +195,6 @@
           "time": "2026-11-05T13:45:09Z",
           "sentiment": -0.2,
           "reason": "Slowing AI infrastructure spending weighs on chip demand outlook"
-        },
-        {
-          "headline": "What Is Going On With Nvidia Stock on Thursday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62915715/what-is-going-on-with-nvidia-stock-on-thursday",
-          "time": "2026-11-05T13:07:06Z",
-          "sentiment": -0.4,
-          "reason": "Premarket drop below $200 on post-midterm chip sector rotation."
         }
       ]
     },
@@ -234,9 +241,9 @@
       ]
     },
     "GOOGL": {
-      "score": 0.057,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.046,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
@@ -359,10 +366,24 @@
       ]
     },
     "MU": {
-      "score": -0.368,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.406,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "QUICK SPARK: Micron Stock Drops Below 200-Day Moving Average for First Time Since May 2025",
+          "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62930908/micron-stock-below-200-day-moving-average-first-since-may-2025",
+          "time": "2026-11-05T15:59:31Z",
+          "sentiment": -0.5,
+          "reason": "Breaks 200-day MA amid 24% weekly memory-stock selloff; technical and momentum pressure"
+        },
+        {
+          "headline": "What's Going On With Sandisk Stock Today?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62929082/whats-going-on-with-sandisk-stock-today",
+          "time": "2026-11-05T15:42:24Z",
+          "sentiment": -0.4,
+          "reason": "Memory chip rotation selloff; analysts divided on near-term direction"
+        },
         {
           "headline": "What Is Going On With Nvidia Stock on Thursday?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62915715/what-is-going-on-with-nvidia-stock-on-thursday",
@@ -383,20 +404,6 @@
           "time": "2026-11-05T10:17:27Z",
           "sentiment": -0.2,
           "reason": "Chip stocks sliding on election rotation despite strong DRAM pricing"
-        },
-        {
-          "headline": "'Micron Pauses Work on $4.5 Billion Taiwan Plant After Labor Spat' - Bloomberg Exclusive",
-          "url": "https://www.benzinga.com/news/26/11/62905244/micron-pauses-work-4-5-billion-taiwan-plant-after-labor-spat-bloomberg-exclusive",
-          "time": "2026-11-05T09:13:48Z",
-          "sentiment": -0.5,
-          "reason": "Pausing $4.5B Taiwan plant over labor dispute delays capacity"
-        },
-        {
-          "headline": "Micron Shares Decline Amid Market Concerns Over Data-Center Infrastructure Policy",
-          "url": "https://www.morningstar.com/news/marketwatch/20261104144/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism",
-          "time": "2026-11-04T20:01:37Z",
-          "sentiment": -0.4,
-          "reason": "Policy uncertainty may weigh on data-center and AI infrastructure demand"
         }
       ]
     },
@@ -407,9 +414,9 @@
       "headlines": []
     },
     "TSLA": {
-      "score": -0.326,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.329,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
@@ -438,13 +445,6 @@
           "time": "2026-11-04T16:48:46Z",
           "sentiment": -0.15,
           "reason": "Musk's political spending and net worth drop; sentiment noise"
-        },
-        {
-          "headline": "Rivian Automotive Stock Is Gaining Wednesday: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62871904/rivian-automotive-stock-is-gaining-wednesday-whats-going-on",
-          "time": "2026-11-04T15:55:58Z",
-          "sentiment": -0.3,
-          "reason": "Tesla falls under political scrutiny while EV peers rally"
         }
       ]
     },
@@ -455,9 +455,9 @@
       "headlines": []
     },
     "AMD": {
-      "score": 0.132,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.126,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "IBM, Oak Ridge National Laboratory And AMD Announce Quantum Error Correction Platform Linking IBM Quantum Computers To AMD-Powered Supercomputer",
