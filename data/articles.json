@@ -1,175 +1,5 @@
 [
   {
-    "id": "62880352",
-    "created_at": "2026-11-04T18:24:17Z",
-    "headline": "President Trump Says Iran War Will End Whenever I Want It To; Not Considering Replacing Hegseth",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62880352/president-trump-says-iran-war-will-end-whenever-i-want-it-not-considering-replacing-hegseth",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Ongoing Iran war uncertainty; no clear directional market impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62880177",
-    "created_at": "2026-11-04T18:20:24Z",
-    "headline": "Elon Musk \u2018Needs to be Held Accountable\u2019: Tesla Takedown Says \u2018Voters Have Done Their Part, Now Its Congress\u2019 Turn\u2019",
-    "url": "https://www.benzinga.com/news/politics/26/11/62880177/elon-musk-needs-to-be-held-accountable-tesla-takedown-says-voters-have-done-their-part-now-its-congress-turn",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Democratic House may increase scrutiny of Musk and DOGE"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62880047",
-    "created_at": "2026-11-04T18:17:55Z",
-    "headline": "'Meta Acquires AI Coding Startup Conductor' - Axios Exclusive",
-    "url": "https://www.benzinga.com/m/26/11/62880047/meta-acquires-ai-coding-startup-conductor-axios-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Acquisition of AI coding startup adds modest AI capability"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62879896",
-    "created_at": "2026-11-04T18:13:35Z",
-    "headline": "President Trump On Election, Says It's Largely True Election Loss Was Result Of Iran War; It Was Worth It; You Can't Let Iran Have A Nuclear Weapon;  I'll Get Along Probably With The Democrats Unless They Want to Be Destructive; If I Were On The Ballot We Would Have Won, We Weren't Able To Transfer The Love To Candidates; Says It Would Destroy Democratic Party If They Impeached Me",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62879896/president-trump-election-says-it-s-largely-true-election-loss-was-result-iran-war-it-was-worth-it-yo",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Political and Iran war headlines; no clear directional signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62879587",
-    "created_at": "2026-11-04T18:08:34Z",
-    "headline": "Alphabet Stock Jumps: What's Going On?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62879587/alphabet-stock-jumps-whats-going-on",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Rebound from post-earnings slide amid broad market rally"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62879217",
-    "created_at": "2026-11-04T18:00:23Z",
-    "headline": "CNBC Halftime Report Final Trades: Coeur Mining, Amazon, FTAI Aviation, Apple",
-    "url": "https://www.benzinga.com/quote/CDE",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62878952",
-    "created_at": "2026-11-04T17:54:11Z",
-    "headline": "AMD's AI Data Center Guarantees Reach $8.5 Billion as It Challenges Nvidia",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62878952/amd-data-center-guarantees",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Growing AI data center commitments carry financing risk alongside growth"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "AMD's push to challenge Nvidia in AI infrastructure is mild competitive pressure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62878615",
-    "created_at": "2026-11-04T17:46:20Z",
-    "headline": "What's Going on With Microsoft Stock on Wednesday?",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62878615/whats-going-on-with-microsoft-stock-on-wednesday",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.5,
-        "confidence": 0.5,
-        "reason": "Stock jumped 6% on Azure cloud acceleration; momentum may partly fade"
-      },
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Participated in broad Big Tech rally; no company-specific news"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Participated in broad Big Tech rally; no company-specific news"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Participated in broad Big Tech rally; no company-specific news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62878101",
-    "created_at": "2026-11-04T17:35:36Z",
-    "headline": "House Minority Leader Hakeem Jeffries Speaks After Democrats Win Control Of House; Says Have Not Heard From Trump; We Will Pass A Bill To Stop Trump Tariffs And End The Iran War",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62878101/house-minority-leader-hakeem-jeffries-speaks-after-democrats-win-control-house-says-have-not-heard-t",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Democratic House control and proposed tariff and war legislation; uncertain impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62883254",
     "created_at": "2026-11-04T19:34:09Z",
     "headline": "Apple, Tesla Supplier Is Taking on 3M: Here's What Investors Should Know",
@@ -2347,6 +2177,167 @@
     "created_at": "2026-11-05T16:32:29Z",
     "headline": "Reported Earlier: OpenAI Commits To No NDAs In Data Center Negotiations And Protecting Residents From AI Infrastructure Electricity Costs",
     "url": "https://www.benzinga.com/news/26/11/62933942/reported-earlier-openai-commits-no-ndas-data-center-negotiations-and-protecting-residents-ai-infrast",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62940732",
+    "created_at": "2026-11-05T18:24:06Z",
+    "headline": "Amazon Stock Pulls Back: What's Going On?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62940732/amazon-stock-pulls-back-whats-going-on",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Routine intraday pullback after prior-day rally; little lasting signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62940088",
+    "created_at": "2026-11-05T18:14:20Z",
+    "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
+    "source": "benzinga",
+    "market_risk": 0.6,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "AI sell-off and data center ban fears hit chip stocks"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Data center expansion fears weigh on AWS growth outlook"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Broad tech rout and data center concerns pressure megacaps"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "AI capex and data center worries drag megacap tech"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Data center expansion fears pressure cloud and AI names"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "Memory chipmakers sank in AI sell-off"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "AI stock rout and data center ban threat hit Nvidia"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Nasdaq-heavy tech index falls with AI-driven selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62939997",
+    "created_at": "2026-11-05T18:13:10Z",
+    "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
+    "source": "benzinga",
+    "market_risk": 0.7,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "AMD sank in AI tech rout; VIX spike signals stress"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "Micron sank in AI sell-off after midterm sweep"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.6,
+        "confidence": 0.7,
+        "reason": "Nvidia sank as $2.2T tech value wiped out"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.5,
+        "confidence": 0.7,
+        "reason": "Tech-heavy index faces worst day since April 2025"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "High-beta tech sell-off likely pressures Tesla"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62937968",
+    "created_at": "2026-11-05T17:37:12Z",
+    "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
+    "url": "https://www.benzinga.com/opinion/26/11/62937968/market-bets-on-democrats-magic-wands-why-you-should-be-skeptical",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Opinion piece on political market expectations; minimal direct impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62937862",
+    "created_at": "2026-11-05T17:35:08Z",
+    "headline": "2 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/11/62937862/2-consumer-discretionary-stocks-whale-alerts-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Options whale alert is routine flow data, no fundamental news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62937768",
+    "created_at": "2026-11-05T17:33:44Z",
+    "headline": "Uber Q3 Mobility Miss On High Fuel Prices; Delivery, AV Momentum Intact",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact",
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [],

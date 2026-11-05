@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T17:35:23.113214+00:00",
-  "market_risk": 0.139,
+  "generated_at": "2026-11-05T18:35:23.832307+00:00",
+  "market_risk": 0.151,
   "tickers": {
     "SPY": {
       "score": -0.024,
@@ -45,10 +45,24 @@
       ]
     },
     "QQQ": {
-      "score": -0.126,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.373,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
+          "time": "2026-11-05T18:14:20Z",
+          "sentiment": -0.5,
+          "reason": "Nasdaq-heavy tech index falls with AI-driven selloff"
+        },
+        {
+          "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
+          "time": "2026-11-05T18:13:10Z",
+          "sentiment": -0.5,
+          "reason": "Tech-heavy index faces worst day since April 2025"
+        },
         {
           "headline": "Benzinga Market Summary: S&P Sells Off From Yesterday's Post-Midterm Election Rally, QQQ Dips On AI Regulation Concerns, Applovin Rises On Q3 Earnings, Lower-Than-Expected Initial Jobless Claims Data Signals Job Market Strength",
           "url": "https://www.benzinga.com/quote/APP",
@@ -69,13 +83,6 @@
           "time": "2026-11-05T02:44:15Z",
           "sentiment": -0.15,
           "reason": "Recession warning and K-shaped economy concerns weigh on growth-heavy index"
-        },
-        {
-          "headline": "QUICK SPARK: Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62886507/trump-celebrates-stock-rally-fueled-by-his-own-partys-midterm-defeat",
-          "time": "2026-11-04T20:53:11Z",
-          "sentiment": 0.2,
-          "reason": "Broad rally lifts tech-heavy index; political claims are noise"
         }
       ]
     },
@@ -108,10 +115,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.093,
+      "score": 0.021,
       "articles": 11,
       "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
+          "time": "2026-11-05T18:14:20Z",
+          "sentiment": -0.3,
+          "reason": "Data center expansion fears pressure cloud and AI names"
+        },
         {
           "headline": "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday",
           "url": "https://www.benzinga.com/markets/tech/26/11/62934964/us-tech-stocks-wipe-out-1-7-trillion-thursday-nvidia-amd-micron",
@@ -139,21 +153,28 @@
           "time": "2026-11-05T14:53:42Z",
           "sentiment": 0.2,
           "reason": "AI capex expected to persist despite political shifts"
-        },
-        {
-          "headline": "Blitzy Announces Collaboration with Microsoft",
-          "url": "https://www.prnewswire.com/news-releases/blitzy-announces-collaboration-with-microsoft-to-accelerate-legacy-modernization-and-software-development-at-scale-302930099.html",
-          "time": "2026-11-05T14:31:30Z",
-          "sentiment": 0.15,
-          "reason": "Third-party partnership on AI-driven software modernization; small positive"
         }
       ]
     },
     "NVDA": {
-      "score": -0.296,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.4,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
+          "time": "2026-11-05T18:14:20Z",
+          "sentiment": -0.6,
+          "reason": "AI stock rout and data center ban threat hit Nvidia"
+        },
+        {
+          "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
+          "time": "2026-11-05T18:13:10Z",
+          "sentiment": -0.6,
+          "reason": "Nvidia sank as $2.2T tech value wiped out"
+        },
         {
           "headline": "Nvidia, Micron, 8 Other AI Stocks Just Broke Below a Key Technical Support",
           "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62935903/nvidia-micron-ai-stocks-200-day-moving-average-break",
@@ -174,28 +195,21 @@
           "time": "2026-11-05T15:56:09Z",
           "sentiment": -0.3,
           "reason": "Neocloud data center delays could slow GPU purchases by key AI buyers"
-        },
-        {
-          "headline": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62926393/amazon-google-nvidia",
-          "time": "2026-11-05T15:15:08Z",
-          "sentiment": -0.15,
-          "reason": "Rotation away from Nvidia toward infrastructure monetizers"
-        },
-        {
-          "headline": "Supermicro and IBM Announce New Inference Solution Featuring NVIDIA Technology",
-          "url": "https://www.prnewswire.com/news-releases/supermicro-launches-kv-cache-solution-with-ibm-and-nvidia-demonstrating-significant-inference-performance-benefits-302928472.html",
-          "time": "2026-11-05T14:31:28Z",
-          "sentiment": 0.15,
-          "reason": "New AI inference solution using NVIDIA hardware; supports demand narrative"
         }
       ]
     },
     "AMZN": {
-      "score": 0.143,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.01,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
+          "time": "2026-11-05T18:14:20Z",
+          "sentiment": -0.4,
+          "reason": "Data center expansion fears weigh on AWS growth outlook"
+        },
         {
           "headline": "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff",
           "url": "https://www.benzinga.com/markets/tech/26/11/62937542/coreweave-and-nebius-tumble-15-as-amazon-and-big-tech-hyperscalers-outlast-ai-data-center-selloff",
@@ -223,21 +237,21 @@
           "time": "2026-11-05T14:53:42Z",
           "sentiment": 0.2,
           "reason": "AI capex expected to persist despite political shifts"
-        },
-        {
-          "headline": "Ed Yardeni Says Slowing AI Boom Is Actually Bullish for Big Tech",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62917838/yardeni-ai-spending",
-          "time": "2026-11-05T13:45:09Z",
-          "sentiment": 0.2,
-          "reason": "Slower AI build-out could improve Big Tech cash flow"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.037,
+      "score": -0.038,
       "articles": 8,
       "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
+          "time": "2026-11-05T18:14:20Z",
+          "sentiment": -0.3,
+          "reason": "Broad tech rout and data center concerns pressure megacaps"
+        },
         {
           "headline": "Google Investing $17B For Data Center Construction In Wyoming",
           "url": "https://www.benzinga.com/news/26/11/62936363/google-investing-17b-data-center-construction-wyoming",
@@ -265,21 +279,21 @@
           "time": "2026-11-05T15:14:16Z",
           "sentiment": -0.2,
           "reason": "Lawsuit alleging Google AI harmed teen; regulatory and reputational risk"
-        },
-        {
-          "headline": "EXCLUSIVE: Democrats Took Congress. But AI's Spending Binge Isn't Going Anywhere, This CEO Says",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62924053/democrats-big-tech-ai-spending",
-          "time": "2026-11-05T14:53:42Z",
-          "sentiment": 0.2,
-          "reason": "AI capex expected to persist despite political shifts"
         }
       ]
     },
     "META": {
-      "score": -0.22,
+      "score": -0.261,
       "articles": 5,
       "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
+          "time": "2026-11-05T18:14:20Z",
+          "sentiment": -0.3,
+          "reason": "AI capex and data center worries drag megacap tech"
+        },
         {
           "headline": "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday",
           "url": "https://www.benzinga.com/markets/tech/26/11/62934964/us-tech-stocks-wipe-out-1-7-trillion-thursday-nvidia-amd-micron",
@@ -307,13 +321,6 @@
           "time": "2026-11-04T20:02:11Z",
           "sentiment": 0.2,
           "reason": "Small AI coding acquisition; limited near-term financial impact"
-        },
-        {
-          "headline": "'Meta Acquires AI Coding Startup Conductor' - Axios Exclusive",
-          "url": "https://www.benzinga.com/m/26/11/62880047/meta-acquires-ai-coding-startup-conductor-axios-exclusive",
-          "time": "2026-11-04T18:17:55Z",
-          "sentiment": 0.2,
-          "reason": "Acquisition of AI coding startup adds modest AI capability"
         }
       ]
     },
@@ -359,10 +366,24 @@
       ]
     },
     "MU": {
-      "score": -0.413,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.47,
+      "articles": 13,
+      "ai_articles": 13,
       "headlines": [
+        {
+          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
+          "time": "2026-11-05T18:14:20Z",
+          "sentiment": -0.6,
+          "reason": "Memory chipmakers sank in AI sell-off"
+        },
+        {
+          "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
+          "time": "2026-11-05T18:13:10Z",
+          "sentiment": -0.6,
+          "reason": "Micron sank in AI sell-off after midterm sweep"
+        },
         {
           "headline": "SanDisk Bears Hit Jackpot: Short ETF Rockets 35%, Bullish Funds Bite the Dust",
           "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/62937412/sandisk-bears-hit-jackpot-short-etf-rockets-35-bullish-funds-bite-the-dust",
@@ -383,20 +404,6 @@
           "time": "2026-11-05T16:47:29Z",
           "sentiment": -0.5,
           "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
-        },
-        {
-          "headline": "QUICK SPARK: Micron Stock Drops Below 200-Day Moving Average for First Time Since May 2025",
-          "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62930908/micron-stock-below-200-day-moving-average-first-since-may-2025",
-          "time": "2026-11-05T15:59:31Z",
-          "sentiment": -0.5,
-          "reason": "Breaks 200-day MA amid 24% weekly memory-stock selloff; technical and momentum pressure"
-        },
-        {
-          "headline": "What's Going On With Sandisk Stock Today?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62929082/whats-going-on-with-sandisk-stock-today",
-          "time": "2026-11-05T15:42:24Z",
-          "sentiment": -0.4,
-          "reason": "Memory chip rotation selloff; analysts divided on near-term direction"
         }
       ]
     },
@@ -407,10 +414,17 @@
       "headlines": []
     },
     "TSLA": {
-      "score": -0.325,
+      "score": -0.363,
       "articles": 4,
       "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
+          "time": "2026-11-05T18:13:10Z",
+          "sentiment": -0.4,
+          "reason": "High-beta tech sell-off likely pressures Tesla"
+        },
         {
           "headline": "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday",
           "url": "https://www.benzinga.com/markets/tech/26/11/62934964/us-tech-stocks-wipe-out-1-7-trillion-thursday-nvidia-amd-micron",
@@ -431,13 +445,6 @@
           "time": "2026-11-05T06:03:44Z",
           "sentiment": -0.3,
           "reason": "Pre-market drop on political persecution concerns; sentiment-driven risk"
-        },
-        {
-          "headline": "Elon Musk \u2018Needs to be Held Accountable\u2019: Tesla Takedown Says \u2018Voters Have Done Their Part, Now Its Congress\u2019 Turn\u2019",
-          "url": "https://www.benzinga.com/news/politics/26/11/62880177/elon-musk-needs-to-be-held-accountable-tesla-takedown-says-voters-have-done-their-part-now-its-congress-turn",
-          "time": "2026-11-04T18:20:24Z",
-          "sentiment": -0.2,
-          "reason": "Democratic House may increase scrutiny of Musk and DOGE"
         }
       ]
     },
@@ -448,10 +455,24 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.167,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.368,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
+          "time": "2026-11-05T18:14:20Z",
+          "sentiment": -0.6,
+          "reason": "AI sell-off and data center ban fears hit chip stocks"
+        },
+        {
+          "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
+          "time": "2026-11-05T18:13:10Z",
+          "sentiment": -0.6,
+          "reason": "AMD sank in AI tech rout; VIX spike signals stress"
+        },
         {
           "headline": "Nvidia, Micron, 8 Other AI Stocks Just Broke Below a Key Technical Support",
           "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62935903/nvidia-micron-ai-stocks-200-day-moving-average-break",
@@ -472,20 +493,6 @@
           "time": "2026-11-05T13:11:20Z",
           "sentiment": 0.2,
           "reason": "Quantum error-correction partnership with IBM and ORNL; modest positive."
-        },
-        {
-          "headline": "What Is Going On With Nvidia Stock on Thursday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62915715/what-is-going-on-with-nvidia-stock-on-thursday",
-          "time": "2026-11-05T13:07:06Z",
-          "sentiment": -0.3,
-          "reason": "Chipmaker selloff from tech rotation spills over to AMD."
-        },
-        {
-          "headline": "DZ Bank Adjusts Price Target on Advanced Micro Devices to $620",
-          "url": "https://www.marketscreener.com/news/dz-bank-adjusts-price-target-on-advanced-micro-devices-to-620-from-590-ce785fdcdd80f026",
-          "time": "2026-11-05T11:32:13Z",
-          "sentiment": 0.3,
-          "reason": "DZ Bank raised price target to $620"
         }
       ]
     }
