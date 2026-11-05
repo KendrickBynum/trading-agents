@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T19:35:18.930088+00:00",
-  "market_risk": 0.146,
+  "generated_at": "2026-11-05T20:35:24.219219+00:00",
+  "market_risk": 0.14,
   "tickers": {
     "SPY": {
       "score": -0.024,
@@ -87,9 +87,9 @@
       ]
     },
     "AAPL": {
-      "score": -0.018,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.0,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "DBS Downgrades Apple to Sell Rating",
@@ -104,13 +104,6 @@
           "time": "2026-11-05T11:31:30Z",
           "sentiment": 0.4,
           "reason": "Bernstein raises target to $380 on strong quarter and guidance"
-        },
-        {
-          "headline": "'Apple Cuts Internal AI Usage Budgets in Move to Reduce Spending' - Bloomberg Exclusive",
-          "url": "https://www.benzinga.com/news/26/11/62883916/apple-cuts-internal-ai-usage-budgets-move-reduce-spending-bloomberg-exclusive",
-          "time": "2026-11-04T19:50:43Z",
-          "sentiment": -0.2,
-          "reason": "Reduced AI spending could signal weaker AI investment appetite"
         }
       ]
     },
@@ -157,10 +150,24 @@
       ]
     },
     "NVDA": {
-      "score": -0.392,
-      "articles": 14,
-      "ai_articles": 14,
+      "score": -0.317,
+      "articles": 16,
+      "ai_articles": 16,
       "headlines": [
+        {
+          "headline": "'NVIDIA Has Approached Apollo About Creating A Network Of Small AI Data Centers Potentially Spanning 20 States Across The U.S.' - The Information",
+          "url": "https://www.benzinga.com/news/26/11/62945022/nvidia-has-approached-apollo-about-creating-network-small-ai-data-centers-potentially-spanning-20-st",
+          "time": "2026-11-05T19:50:25Z",
+          "sentiment": 0.3,
+          "reason": "Reported talks on AI data center network; speculative, unconfirmed demand driver"
+        },
+        {
+          "headline": "Nvidia Stock Is Now Cheaper Than a Toilet-Paper Company, Data Shows",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62944321/nvidia-stock-cheaper-than-toilet-paper-company-kimberly-clark-forward-pe",
+          "time": "2026-11-05T19:36:27Z",
+          "sentiment": 0.15,
+          "reason": "Valuation commentary on low forward P/E; opinion piece, not a new fundamental"
+        },
         {
           "headline": "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
           "url": "https://www.benzinga.com/markets/tech/26/11/62943088/sandisk-leads-memory-stocks-lower-a-look-inside-the-rout",
@@ -181,20 +188,6 @@
           "time": "2026-11-05T18:14:20Z",
           "sentiment": -0.6,
           "reason": "AI stock rout and data center ban threat hit Nvidia"
-        },
-        {
-          "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
-          "time": "2026-11-05T18:13:10Z",
-          "sentiment": -0.6,
-          "reason": "Nvidia sank as $2.2T tech value wiped out"
-        },
-        {
-          "headline": "Nvidia, Micron, 8 Other AI Stocks Just Broke Below a Key Technical Support",
-          "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62935903/nvidia-micron-ai-stocks-200-day-moving-average-break",
-          "time": "2026-11-05T17:01:46Z",
-          "sentiment": -0.5,
-          "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
         }
       ]
     },
@@ -283,9 +276,9 @@
       ]
     },
     "META": {
-      "score": -0.187,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.195,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Meta Platforms Introduces Voice, Expressive Avatars In Muse",
@@ -325,15 +318,23 @@
       ]
     },
     "JPM": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Senate Democrats Reportedly Planning Probe into JPMorgan Chase's Ties to Jeffrey Epstein",
+          "url": "https://www.tradingview.com/news/seekingalpha:2ba380dec094b:0-democrats-plan-to-probe-jpmorgan-s-banking-ties-with-epstein-when-in-control-of-congress-cnbc/",
+          "time": "2026-11-05T20:01:29Z",
+          "sentiment": -0.2,
+          "reason": "Reported Epstein probe is reputational, but not until next year"
+        }
+      ]
     },
     "XOM": {
-      "score": -0.15,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.228,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "'Iran Is Reviewing \u2018Concrete Proposals\u2019 On Nuclear Program, Officials Say; Iran\u2019s Willingness To Re-Engage On The Issue Suggests That Qatar-Led Diplomatic Efforts To Avert Full-Blown War Between The U.S. And Iran Have Had Some Success' - NY Times",
@@ -348,21 +349,21 @@
           "time": "2026-11-04T20:53:11Z",
           "sentiment": -0.4,
           "reason": "Oil fell 7%, which pressures energy producers like ExxonMobil"
-        },
-        {
-          "headline": "'Trump diesel deal with Russia falters as US fuel supplies hit 20-year low' - Financial Times",
-          "url": "https://www.benzinga.com/government/26/11/62884154/trump-diesel-deal-russia-falters-us-fuel-supplies-hit-20-year-low-financial-times",
-          "time": "2026-11-04T19:59:53Z",
-          "sentiment": 0.3,
-          "reason": "Tight US fuel supplies may support oil and energy prices"
         }
       ]
     },
     "MU": {
-      "score": -0.473,
-      "articles": 14,
-      "ai_articles": 14,
+      "score": -0.468,
+      "articles": 13,
+      "ai_articles": 13,
       "headlines": [
+        {
+          "headline": "One ETF Is Making a Killing on Micron's Stock Meltdown \u2014 Can It Keep Cashing In?",
+          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/62945242/one-etf-is-making-a-killing-on-micron-meltdown",
+          "time": "2026-11-05T19:55:37Z",
+          "sentiment": -0.3,
+          "reason": "Micron stock falling sharply; negative momentum, though partly priced in"
+        },
         {
           "headline": "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
           "url": "https://www.benzinga.com/markets/tech/26/11/62943088/sandisk-leads-memory-stocks-lower-a-look-inside-the-rout",
@@ -390,13 +391,6 @@
           "time": "2026-11-05T17:26:24Z",
           "sentiment": -0.2,
           "reason": "Memory sector sympathy selloff after SanDisk's 17% plunge"
-        },
-        {
-          "headline": "Nvidia, Micron, 8 Other AI Stocks Just Broke Below a Key Technical Support",
-          "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62935903/nvidia-micron-ai-stocks-200-day-moving-average-break",
-          "time": "2026-11-05T17:01:46Z",
-          "sentiment": -0.5,
-          "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
         }
       ]
     },
@@ -448,9 +442,9 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.372,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.404,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
