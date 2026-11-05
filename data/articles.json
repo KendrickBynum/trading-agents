@@ -2376,5 +2376,28 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "62946994",
+    "created_at": "2026-11-05T20:32:21Z",
+    "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62946994/amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "CEO reaffirms long-term AI demand amid sector selloff; executive commentary only"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "Defense of AI spending may support AI chip sentiment; indirect and modest"
+      }
+    ],
+    "scorer": "claude"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T20:35:24.219219+00:00",
-  "market_risk": 0.14,
+  "generated_at": "2026-11-05T20:38:58.045098+00:00",
+  "market_risk": 0.141,
   "tickers": {
     "SPY": {
       "score": -0.024,
@@ -150,10 +150,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.317,
-      "articles": 16,
-      "ai_articles": 16,
+      "score": -0.293,
+      "articles": 17,
+      "ai_articles": 17,
       "headlines": [
+        {
+          "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62946994/amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending",
+          "time": "2026-11-05T20:32:21Z",
+          "sentiment": 0.15,
+          "reason": "Defense of AI spending may support AI chip sentiment; indirect and modest"
+        },
         {
           "headline": "'NVIDIA Has Approached Apollo About Creating A Network Of Small AI Data Centers Potentially Spanning 20 States Across The U.S.' - The Information",
           "url": "https://www.benzinga.com/news/26/11/62945022/nvidia-has-approached-apollo-about-creating-network-small-ai-data-centers-potentially-spanning-20-st",
@@ -181,13 +188,6 @@
           "time": "2026-11-05T19:01:45Z",
           "sentiment": -0.3,
           "reason": "About 600,000 H200 chips stuck awaiting China import approval"
-        },
-        {
-          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
-          "time": "2026-11-05T18:14:20Z",
-          "sentiment": -0.6,
-          "reason": "AI stock rout and data center ban threat hit Nvidia"
         }
       ]
     },
@@ -442,10 +442,17 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.404,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.315,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62946994/amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending",
+          "time": "2026-11-05T20:32:21Z",
+          "sentiment": 0.3,
+          "reason": "CEO reaffirms long-term AI demand amid sector selloff; executive commentary only"
+        },
         {
           "headline": "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
           "url": "https://www.benzinga.com/markets/tech/26/11/62943088/sandisk-leads-memory-stocks-lower-a-look-inside-the-rout",
@@ -473,13 +480,6 @@
           "time": "2026-11-05T17:01:46Z",
           "sentiment": -0.4,
           "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
-        },
-        {
-          "headline": "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62934964/us-tech-stocks-wipe-out-1-7-trillion-thursday-nvidia-amd-micron",
-          "time": "2026-11-05T16:47:29Z",
-          "sentiment": -0.5,
-          "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
         }
       ]
     }
