@@ -1,174 +1,5 @@
 [
   {
-    "id": "62877866",
-    "created_at": "2026-11-04T17:31:02Z",
-    "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Broad tech-led rally after midterms lifts index"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Market rally benefits high-beta semiconductor leader"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Broad market rally supports megacap tech"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Broad market rally supports megacap tech"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": -0.5,
-        "confidence": 0.5,
-        "reason": "Oil sinking 7% directly pressures energy producers"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62877835",
-    "created_at": "2026-11-04T17:30:19Z",
-    "headline": "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550",
-    "url": "https://www.benzinga.com/news/26/11/62877835/morgan-stanley-maintains-equal-weight-advanced-micro-devices-raises-price-target-550",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Analyst raises price target; rating unchanged"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62876749",
-    "created_at": "2026-11-04T17:07:24Z",
-    "headline": "Piper Sandler Maintains Overweight on Advanced Micro Devices, Raises Price Target to $650",
-    "url": "https://www.benzinga.com/news/26/11/62876749/piper-sandler-maintains-overweight-advanced-micro-devices-raises-price-target-650",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Overweight rating with raised price target to $650"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62876539",
-    "created_at": "2026-11-04T17:03:06Z",
-    "headline": "Why Investors May Be Getting The Blue Wave Trade Wrong; Iran Remains The Wild Card",
-    "url": "https://www.benzinga.com/opinion/26/11/62876539/why-investors-may-be-getting-the-blue-wave-trade-wrong-iran-remains-the-wild-card",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62875824",
-    "created_at": "2026-11-04T16:48:46Z",
-    "headline": "Elon Musk Gets Double Miss From 2026 Midterm Elections: $474 Million Donated, Net Worth Drops by $23 Billion",
-    "url": "https://www.benzinga.com/news/politics/26/11/62875824/elon-musk-gets-double-miss-from-2026-midterm-elections-474-million-donated-net-worth-drops-by-23-billion",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Musk's political spending and net worth drop; sentiment noise"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62875724",
-    "created_at": "2026-11-04T16:46:55Z",
-    "headline": "Wells Fargo Maintains Overweight on Advanced Micro Devices, Lowers Price Target to $650",
-    "url": "https://www.benzinga.com/news/26/11/62875724/wells-fargo-maintains-overweight-advanced-micro-devices-lowers-price-target-650",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Price target cut despite maintained overweight rating"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62875451",
-    "created_at": "2026-11-04T16:42:34Z",
-    "headline": "\"President Trump Has Been Asking Advisers Around Him And On The Phone Whether Defense Secretary Pete Hegseth Should Stay In His Job, Following Republicans' Catastrophic Losses Tuesday Night, Says Multiple People Familiar With The Matter\" - CBS News",
-    "url": "https://www.benzinga.com/news/26/11/62875451/trump-asking-advisers-if-hegseth-should-go-sources-say-cbs-news",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Possible cabinet shake-up; political uncertainty, minimal direct market effect"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62875511",
-    "created_at": "2026-11-04T16:43:22Z",
-    "headline": "Overnight Trading On The S&P 500: Returns And Drawdowns In SPY",
-    "url": "https://www.benzinga.com/opinion/26/11/62875511/overnight-trading-on-sp500-returns-drawdowns-in-spy",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62874818",
-    "created_at": "2026-11-04T16:40:18Z",
-    "headline": "Senate Majority Leader Schumer Says We Will End The War, Some Republicans Have Joined Us",
-    "url": "https://www.benzinga.com/government/26/11/62874818/senate-majority-leader-schumer-says-we-will-end-war-some-republicans-have-joined-us",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Stated push to end war could ease geopolitical risk"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "War ending may reduce oil risk premium"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62880352",
     "created_at": "2026-11-04T18:24:17Z",
     "headline": "President Trump Says Iran War Will End Whenever I Want It To; Not Considering Replacing Hegseth",
@@ -336,26 +167,6 @@
         "reason": "Democratic House control and proposed tariff and war legislation; uncertain impact"
       }
     ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62878069",
-    "created_at": "2026-11-04T17:35:11Z",
-    "headline": "9 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/62878069/9-consumer-discretionary-stocks-whale-activity-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62878067",
-    "created_at": "2026-11-04T17:35:10Z",
-    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/62878067/10-information-technology-stocks-whale-alerts-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
     "scorer": "claude"
   },
   {
@@ -2302,6 +2113,243 @@
         "reason": "Smaller-than-expected gas storage build is mildly supportive of energy prices"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62937542",
+    "created_at": "2026-11-05T17:28:34Z",
+    "headline": "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62937542/coreweave-and-nebius-tumble-15-as-amazon-and-big-tech-hyperscalers-outlast-ai-data-center-selloff",
+    "source": "benzinga",
+    "market_risk": 0.45,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.2,
+        "confidence": 0.35,
+        "reason": "Hyperscalers held up better than neocloud peers during data center selloff"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Relative resilience versus AI infrastructure peers amid data center restrictions"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Relative resilience versus AI infrastructure peers amid data center restrictions"
+      },
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Relative resilience versus AI infrastructure peers amid data center restrictions"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62937412",
+    "created_at": "2026-11-05T17:26:24Z",
+    "headline": "SanDisk Bears Hit Jackpot: Short ETF Rockets 35%, Bullish Funds Bite the Dust",
+    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/62937412/sandisk-bears-hit-jackpot-short-etf-rockets-35-bullish-funds-bite-the-dust",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Memory sector sympathy selloff after SanDisk's 17% plunge"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62936736",
+    "created_at": "2026-11-05T17:13:39Z",
+    "headline": "Google Rolls Out Gemini Omni 1.2 Flash",
+    "url": "https://www.benzinga.com/news/26/11/62936736/google-rolls-out-gemini-omni-1-2-flash",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Routine model rollout, limited near-term stock impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62936509",
+    "created_at": "2026-11-05T17:10:32Z",
+    "headline": "'Marco Rubio \u2018on resignation watch\u2019 from Trump administration after midterms disaster' - Independent",
+    "url": "https://www.benzinga.com/news/26/11/62936509/marco-rubio-resignation-watch-trump-administration-after-midterms-disaster-independent",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62936363",
+    "created_at": "2026-11-05T17:08:11Z",
+    "headline": "Google Investing $17B For Data Center Construction In Wyoming",
+    "url": "https://www.benzinga.com/news/26/11/62936363/google-investing-17b-data-center-construction-wyoming",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "$17B data center investment signals sustained AI infrastructure spending"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62936226",
+    "created_at": "2026-11-05T17:06:21Z",
+    "headline": "'OpenAI says its new cybersecurity model is better at not hacking other companies' - The Verge",
+    "url": "https://www.benzinga.com/news/26/11/62936226/openai-says-its-new-cybersecurity-model-better-not-hacking-other-companies-verge",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62935903",
+    "created_at": "2026-11-05T17:01:46Z",
+    "headline": "Nvidia, Micron, 8 Other AI Stocks Just Broke Below a Key Technical Support",
+    "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62935903/nvidia-micron-ai-stocks-200-day-moving-average-break",
+    "source": "benzinga",
+    "market_risk": 0.5,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.5,
+        "confidence": 0.5,
+        "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": -0.5,
+        "confidence": 0.5,
+        "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": -0.4,
+        "confidence": 0.45,
+        "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62934964",
+    "created_at": "2026-11-05T16:47:29Z",
+    "headline": "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62934964/us-tech-stocks-wipe-out-1-7-trillion-thursday-nvidia-amd-micron",
+    "source": "benzinga",
+    "market_risk": 0.55,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.5,
+        "confidence": 0.45,
+        "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": -0.5,
+        "confidence": 0.45,
+        "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": -0.5,
+        "confidence": 0.45,
+        "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.3,
+        "confidence": 0.35,
+        "reason": "Part of broad $1.7T mega-cap tech selloff"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.3,
+        "confidence": 0.35,
+        "reason": "Part of broad $1.7T mega-cap tech selloff"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.3,
+        "confidence": 0.35,
+        "reason": "Part of broad $1.7T mega-cap tech selloff"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.3,
+        "confidence": 0.35,
+        "reason": "Part of broad $1.7T mega-cap tech selloff"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.3,
+        "confidence": 0.35,
+        "reason": "Part of broad $1.7T mega-cap tech selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62934299",
+    "created_at": "2026-11-05T16:38:10Z",
+    "headline": "'Iran Is Reviewing \u2018Concrete Proposals\u2019 On Nuclear Program, Officials Say; Iran\u2019s Willingness To Re-Engage On The Issue Suggests That Qatar-Led Diplomatic Efforts To Avert Full-Blown War Between The U.S. And Iran Have Had Some Success' - NY Times",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62934299/iran-reviewing-concrete-proposals-nuclear-program-officials-say-iran-s-willingness-re-engage-issue-s",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Diplomatic progress lowers US-Iran war risk premium"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": -0.15,
+        "confidence": 0.2,
+        "reason": "Reduced Middle East conflict risk may ease oil risk premium"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62934290",
+    "created_at": "2026-11-05T16:38:01Z",
+    "headline": "Dan Ives Rides the Blue Tidal Wave of 2026 Midterm Election by Being Selective: Here\u2019s His 10 Stock Picks",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62934290/dan-ives-rides-the-blue-tidal-wave-of-2026-midterm-election-by-being-selective-heres-his-10-stock-picks",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62933942",
+    "created_at": "2026-11-05T16:32:29Z",
+    "headline": "Reported Earlier: OpenAI Commits To No NDAs In Data Center Negotiations And Protecting Residents From AI Infrastructure Electricity Costs",
+    "url": "https://www.benzinga.com/news/26/11/62933942/reported-earlier-openai-commits-no-ndas-data-center-negotiations-and-protecting-residents-ai-infrast",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
