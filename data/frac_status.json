@@ -1,47 +1,65 @@
 {
-  "time": "2026-11-05T01:30:33.287042+00:00",
-  "halts": [
-    "Market closed"
-  ],
+  "time": "2026-11-05T14:36:21.941604+00:00",
+  "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "AAPL",
+      "side": "buy",
+      "reason": "limit buy 0.25 ATR below $352.97 (score +0.36, trend +0.65)",
+      "qty": 11.4741,
+      "limit": 350.88,
+      "notional": 4026.03,
+      "score": 0.357,
+      "factors": {
+        "trend": 0.648,
+        "levels": 0.94,
+        "flow": -0.015,
+        "pattern": 0.463,
+        "news": -0.012
+      },
+      "status": "order placed",
+      "order_id": "661b63a3-fbd9-4914-9251-d35a25739414",
+      "time": "2026-11-05T14:36:21.941604+00:00"
+    }
+  ],
   "settings": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,
-    "buy": 0.357
+    "buy": 0.353
   },
   "learned": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,
-    "buy_threshold": 0.357,
+    "buy_threshold": 0.353,
     "adopted_learned": true,
     "signals": 466,
     "best_on_train": {
       "limit_atr": 0.25,
       "stop_atr": 3.0,
       "signals": 310,
-      "fill_rate": 0.619,
-      "avg_trade": 0.0103,
-      "win_rate": 0.521,
-      "per_signal": 0.00641
+      "fill_rate": 0.606,
+      "avg_trade": 0.0104,
+      "win_rate": 0.516,
+      "per_signal": 0.00629
     },
     "test_best": {
       "signals": 156,
-      "fill_rate": 0.647,
-      "avg_trade": 0.0233,
-      "win_rate": 0.535,
-      "per_signal": 0.01512
+      "fill_rate": 0.654,
+      "avg_trade": 0.0208,
+      "win_rate": 0.51,
+      "per_signal": 0.01362
     },
     "test_default": {
       "signals": 156,
-      "fill_rate": 0.647,
-      "avg_trade": 0.0148,
-      "win_rate": 0.485,
-      "per_signal": 0.00955
+      "fill_rate": 0.654,
+      "avg_trade": 0.0128,
+      "win_rate": 0.461,
+      "per_signal": 0.00836
     },
     "test_period": [
-      "2025-12-03",
-      "2026-10-20"
+      "2025-12-10",
+      "2026-10-27"
     ]
   }
 }
