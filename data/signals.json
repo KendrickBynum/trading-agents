@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-05T14:35:19.331423+00:00",
-  "market_risk": 0.107,
+  "generated_at": "2026-11-05T15:35:23.078075+00:00",
+  "market_risk": 0.106,
   "tickers": {
     "SPY": {
-      "score": 0.001,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": -0.014,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "CORRECTION: Fed's Hammack Says Gradual Rate Hikes Less Disruptive To Economy And Financial System; Inflation Has Been Too High, Moving In Wrong Direction; It's Hard To See Dollar Losing Reserve Status",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62927163/correction-fed-s-hammack-says-gradual-rate-hikes-less-disruptive-economy-and-financial-system-inflat",
+          "time": "2026-11-05T15:23:07Z",
+          "sentiment": -0.15,
+          "reason": "Hawkish Fed tone: inflation too high, gradual hikes ahead"
+        },
         {
           "headline": "Fed's Barkin Says AI Buildout Has Definitely Had An Inflationary Impact In The Near Term",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62920379/fed-s-barkin-says-ai-buildout-has-definitely-had-inflationary-impact-near-term",
@@ -34,13 +41,6 @@
           "time": "2026-11-05T13:30:15Z",
           "sentiment": 0.3,
           "reason": "Q3 productivity beat strongly versus estimates; supportive growth signal."
-        },
-        {
-          "headline": "USA Initial Jobless Claims 189K Vs 197K Est.",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-05T13:30:15Z",
-          "sentiment": 0.15,
-          "reason": "Initial claims below estimates suggest a resilient labor market."
         }
       ]
     },
@@ -80,9 +80,9 @@
       ]
     },
     "AAPL": {
-      "score": -0.006,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.018,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "DBS Downgrades Apple to Sell Rating",
@@ -104,21 +104,21 @@
           "time": "2026-11-04T19:50:43Z",
           "sentiment": -0.2,
           "reason": "Reduced AI spending could signal weaker AI investment appetite"
-        },
-        {
-          "headline": "What Is Going On With Apple Stock on Wednesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62868935/what-is-going-on-with-apple-stock-on-wednesday-2",
-          "time": "2026-11-04T15:02:06Z",
-          "sentiment": 0.2,
-          "reason": "5% gain on AI monetization and share gains; some move may already be priced in"
         }
       ]
     },
     "MSFT": {
-      "score": 0.182,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.185,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "EXCLUSIVE: Democrats Took Congress. But AI's Spending Binge Isn't Going Anywhere, This CEO Says",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62924053/democrats-big-tech-ai-spending",
+          "time": "2026-11-05T14:53:42Z",
+          "sentiment": 0.2,
+          "reason": "AI capex expected to persist despite political shifts"
+        },
         {
           "headline": "Blitzy Announces Collaboration with Microsoft",
           "url": "https://www.prnewswire.com/news-releases/blitzy-announces-collaboration-with-microsoft-to-accelerate-legacy-modernization-and-software-development-at-scale-302930099.html",
@@ -146,21 +146,21 @@
           "time": "2026-11-05T10:30:55Z",
           "sentiment": -0.3,
           "reason": "Reported $5B AI spending shortfall and data center delays"
-        },
-        {
-          "headline": "Dow Jumps Over 1,500 Points After Midterms: Investor Sentiment Improves, Greed Index Moves To \u2018Fear\u2019 Zone",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62903627/dow-jumps-over-1500-points-after-midterms-investor-sentiment-improves-greed-index-moves-to-fear-zone",
-          "time": "2026-11-05T06:45:59Z",
-          "sentiment": 0.2,
-          "reason": "Broad post-midterm rally lifts megacap tech; oil decline helps"
         }
       ]
     },
     "NVDA": {
-      "score": -0.166,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.165,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62926393/amazon-google-nvidia",
+          "time": "2026-11-05T15:15:08Z",
+          "sentiment": -0.15,
+          "reason": "Rotation away from Nvidia toward infrastructure monetizers"
+        },
         {
           "headline": "Supermicro and IBM Announce New Inference Solution Featuring NVIDIA Technology",
           "url": "https://www.prnewswire.com/news-releases/supermicro-launches-kv-cache-solution-with-ibm-and-nvidia-demonstrating-significant-inference-performance-benefits-302928472.html",
@@ -188,21 +188,28 @@
           "time": "2026-11-05T13:07:06Z",
           "sentiment": -0.4,
           "reason": "Premarket drop below $200 on post-midterm chip sector rotation."
-        },
-        {
-          "headline": "China Has Yet To Approve Large-Quantity Imports Of Nvidia H200 Chips, Though Smaller Volumes Have Entered Through Unofficial Channels; ~600K H200 AI Chips Are In Hong Kong Awaiting Shipment To Mainland China; Major Chinese Internet Companies Have Each Received ~10K H200 Chips In Recent Months -- Reuters Exclusive",
-          "url": "https://www.benzinga.com/quote/TCEHY",
-          "time": "2026-11-05T11:41:59Z",
-          "sentiment": -0.25,
-          "reason": "China has not approved large H200 import volumes yet"
         }
       ]
     },
     "AMZN": {
-      "score": 0.309,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.271,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62926393/amazon-google-nvidia",
+          "time": "2026-11-05T15:15:08Z",
+          "sentiment": 0.25,
+          "reason": "Analyst view that Amazon could outperform as AI monetizes"
+        },
+        {
+          "headline": "EXCLUSIVE: Democrats Took Congress. But AI's Spending Binge Isn't Going Anywhere, This CEO Says",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62924053/democrats-big-tech-ai-spending",
+          "time": "2026-11-05T14:53:42Z",
+          "sentiment": 0.2,
+          "reason": "AI capex expected to persist despite political shifts"
+        },
         {
           "headline": "Ed Yardeni Says Slowing AI Boom Is Actually Bullish for Big Tech",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62917838/yardeni-ai-spending",
@@ -227,10 +234,31 @@
       ]
     },
     "GOOGL": {
-      "score": 0.028,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.057,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62926393/amazon-google-nvidia",
+          "time": "2026-11-05T15:15:08Z",
+          "sentiment": 0.25,
+          "reason": "Analyst view that Google could outperform as AI monetizes"
+        },
+        {
+          "headline": "'Google AI in School Triggered Teen\u2019s Mental Health Crisis, Lawsuit Says' - Bloomberg",
+          "url": "https://www.benzinga.com/news/26/11/62926303/google-ai-school-triggered-teen-s-mental-health-crisis-lawsuit-says-bloomberg",
+          "time": "2026-11-05T15:14:16Z",
+          "sentiment": -0.2,
+          "reason": "Lawsuit alleging Google AI harmed teen; regulatory and reputational risk"
+        },
+        {
+          "headline": "EXCLUSIVE: Democrats Took Congress. But AI's Spending Binge Isn't Going Anywhere, This CEO Says",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62924053/democrats-big-tech-ai-spending",
+          "time": "2026-11-05T14:53:42Z",
+          "sentiment": 0.2,
+          "reason": "AI capex expected to persist despite political shifts"
+        },
         {
           "headline": "Five Signals That Preceded Past Recessions Are Back \u2014 and AI Is at the Center",
           "url": "https://www.benzinga.com/markets/macro-economic-events/26/11/62917835/recession-signals-oxford-economics-2001-ai-boom-soxx",
@@ -244,20 +272,6 @@
           "time": "2026-11-04T21:34:55Z",
           "sentiment": 0.25,
           "reason": "New Gemini-focused AI laptop category could boost Google's AI platform"
-        },
-        {
-          "headline": "Alphabet Stock Jumps: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62879587/alphabet-stock-jumps-whats-going-on",
-          "time": "2026-11-04T18:08:34Z",
-          "sentiment": 0.3,
-          "reason": "Rebound from post-earnings slide amid broad market rally"
-        },
-        {
-          "headline": "Google's Latest AI Model Nearly Matches Anthropic at One-Third the Cost: Report",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62873862/google-ai-cost",
-          "time": "2026-11-04T16:30:19Z",
-          "sentiment": 0.3,
-          "reason": "Gemini model rivals Anthropic at one-third cost; competitive strength"
         }
       ]
     },
@@ -303,9 +317,9 @@
       "headlines": []
     },
     "XOM": {
-      "score": -0.141,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.18,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "QUICK SPARK: Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat",
@@ -393,9 +407,9 @@
       "headlines": []
     },
     "TSLA": {
-      "score": -0.324,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.326,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
@@ -441,9 +455,9 @@
       "headlines": []
     },
     "AMD": {
-      "score": 0.137,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.132,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "IBM, Oak Ridge National Laboratory And AMD Announce Quantum Error Correction Platform Linking IBM Quantum Computers To AMD-Powered Supercomputer",

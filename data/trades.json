@@ -319,5 +319,17 @@
     "reason": "stop loss (-56%)",
     "underlying": "GOOGL",
     "realized_pl": -630.0
+  },
+  {
+    "time": "2026-11-05T15:01:22.839822Z",
+    "book": "frac",
+    "symbol": "AAPL",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "661b63a3-fbd9-4914-9251-d35a25739414",
+    "qty": 11.4741,
+    "price": 350.735042,
+    "notional": 4024.37,
+    "reason": "limit buy 0.25 ATR below $352.97 (score +0.36, trend +0.65)"
   }
 ]
