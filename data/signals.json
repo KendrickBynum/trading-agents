@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T18:35:23.832307+00:00",
-  "market_risk": 0.151,
+  "generated_at": "2026-11-05T19:35:18.930088+00:00",
+  "market_risk": 0.146,
   "tickers": {
     "SPY": {
       "score": -0.024,
@@ -115,9 +115,9 @@
       ]
     },
     "MSFT": {
-      "score": 0.021,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": 0.015,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
         {
           "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
@@ -157,10 +157,24 @@
       ]
     },
     "NVDA": {
-      "score": -0.4,
-      "articles": 12,
-      "ai_articles": 12,
+      "score": -0.392,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62943088/sandisk-leads-memory-stocks-lower-a-look-inside-the-rout",
+          "time": "2026-11-05T19:13:37Z",
+          "sentiment": -0.4,
+          "reason": "AI chip sell-off tied to data-center delay fears"
+        },
+        {
+          "headline": "NVIDIA Faces Logistics and Regulatory Challenges for H200 Chips in China",
+          "url": "https://www.tradingview.com/news/gurufocus:88ae4b9a6094b:0-nvidia-faces-600-000-chip-china-bottleneck/",
+          "time": "2026-11-05T19:01:45Z",
+          "sentiment": -0.3,
+          "reason": "About 600,000 H200 chips stuck awaiting China import approval"
+        },
         {
           "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
           "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
@@ -181,20 +195,6 @@
           "time": "2026-11-05T17:01:46Z",
           "sentiment": -0.5,
           "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
-        },
-        {
-          "headline": "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62934964/us-tech-stocks-wipe-out-1-7-trillion-thursday-nvidia-amd-micron",
-          "time": "2026-11-05T16:47:29Z",
-          "sentiment": -0.5,
-          "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
-        },
-        {
-          "headline": "\"Microsoft Sours on Neoclouds Owing to Data Center Delays, Costs; Microsoft Is Tightening Oversight Of Some Data Center Projects From Nebius Group, IREN, And Nscale; IREN & Microsoft Officials Met And Negotiated Revised Timeline That May Push Back Texas Site\u2019s Completion By Several Weeks Or Months\" - Bloomberg Exclusive",
-          "url": "https://www.benzinga.com/news/26/11/62930518/microsoft-sours-on-neoclouds-owing-to-data-center-delays-costs-microsoft-is-tightening-oversight-of-some-data-center-projects-from-nebius-group-iren-and-nscale-bloomberg-exclusive",
-          "time": "2026-11-05T15:56:09Z",
-          "sentiment": -0.3,
-          "reason": "Neocloud data center delays could slow GPU purchases by key AI buyers"
         }
       ]
     },
@@ -241,10 +241,17 @@
       ]
     },
     "GOOGL": {
-      "score": -0.038,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.004,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "'Google Plans to Spend $17 Billion on Wyoming Data Center' - Bloomberg News",
+          "url": "https://www.benzinga.com/news/26/11/62942972/google-plans-spend-17-billion-wyoming-data-center-bloomberg-news",
+          "time": "2026-11-05T19:10:56Z",
+          "sentiment": 0.2,
+          "reason": "Large data center investment supports AI infrastructure demand, though largely expected"
+        },
         {
           "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
           "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
@@ -272,21 +279,21 @@
           "time": "2026-11-05T15:15:08Z",
           "sentiment": 0.25,
           "reason": "Analyst view that Google could outperform as AI monetizes"
-        },
-        {
-          "headline": "'Google AI in School Triggered Teen\u2019s Mental Health Crisis, Lawsuit Says' - Bloomberg",
-          "url": "https://www.benzinga.com/news/26/11/62926303/google-ai-school-triggered-teen-s-mental-health-crisis-lawsuit-says-bloomberg",
-          "time": "2026-11-05T15:14:16Z",
-          "sentiment": -0.2,
-          "reason": "Lawsuit alleging Google AI harmed teen; regulatory and reputational risk"
         }
       ]
     },
     "META": {
-      "score": -0.261,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.187,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Meta Platforms Introduces Voice, Expressive Avatars In Muse",
+          "url": "https://www.benzinga.com/news/26/11/62941161/meta-platforms-introduces-voice-expressive-avatars-muse",
+          "time": "2026-11-05T18:34:21Z",
+          "sentiment": 0.15,
+          "reason": "New expressive avatar product launch; modest engagement upside"
+        },
         {
           "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
           "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
@@ -314,13 +321,6 @@
           "time": "2026-11-05T11:32:05Z",
           "sentiment": -0.3,
           "reason": "Executive flags challenging post-midterm environment for data centers"
-        },
-        {
-          "headline": "Meta Platforms Acquires AI Coding Startup Conductor",
-          "url": "https://www.marketscreener.com/news/meta-platforms-acquires-ai-coding-startup-conductor-ce785fdfde8bf325",
-          "time": "2026-11-04T20:02:11Z",
-          "sentiment": 0.2,
-          "reason": "Small AI coding acquisition; limited near-term financial impact"
         }
       ]
     },
@@ -331,9 +331,9 @@
       "headlines": []
     },
     "XOM": {
-      "score": -0.107,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.15,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "'Iran Is Reviewing \u2018Concrete Proposals\u2019 On Nuclear Program, Officials Say; Iran\u2019s Willingness To Re-Engage On The Issue Suggests That Qatar-Led Diplomatic Efforts To Avert Full-Blown War Between The U.S. And Iran Have Had Some Success' - NY Times",
@@ -355,21 +355,21 @@
           "time": "2026-11-04T19:59:53Z",
           "sentiment": 0.3,
           "reason": "Tight US fuel supplies may support oil and energy prices"
-        },
-        {
-          "headline": "TD Cowen Maintains Buy on ExxonMobil Holdings, Raises Price Target to $193",
-          "url": "https://www.benzinga.com/news/26/11/62882687/td-cowen-maintains-buy-exxonmobil-holdings-raises-price-target-193",
-          "time": "2026-11-04T19:20:44Z",
-          "sentiment": 0.2,
-          "reason": "Buy rating maintained with price target raised to $193"
         }
       ]
     },
     "MU": {
-      "score": -0.47,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": -0.473,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62943088/sandisk-leads-memory-stocks-lower-a-look-inside-the-rout",
+          "time": "2026-11-05T19:13:37Z",
+          "sentiment": -0.5,
+          "reason": "Memory sell-off on fears of data-center delays and weaker chip demand"
+        },
         {
           "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
           "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
@@ -397,13 +397,6 @@
           "time": "2026-11-05T17:01:46Z",
           "sentiment": -0.5,
           "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
-        },
-        {
-          "headline": "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62934964/us-tech-stocks-wipe-out-1-7-trillion-thursday-nvidia-amd-micron",
-          "time": "2026-11-05T16:47:29Z",
-          "sentiment": -0.5,
-          "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
         }
       ]
     },
@@ -455,10 +448,17 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.368,
+      "score": -0.372,
       "articles": 9,
       "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62943088/sandisk-leads-memory-stocks-lower-a-look-inside-the-rout",
+          "time": "2026-11-05T19:13:37Z",
+          "sentiment": -0.35,
+          "reason": "Sector-wide AI chip rout on demand and delay concerns"
+        },
         {
           "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
           "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
@@ -486,13 +486,6 @@
           "time": "2026-11-05T16:47:29Z",
           "sentiment": -0.5,
           "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
-        },
-        {
-          "headline": "IBM, Oak Ridge National Laboratory And AMD Announce Quantum Error Correction Platform Linking IBM Quantum Computers To AMD-Powered Supercomputer",
-          "url": "https://www.benzinga.com/quote/AMD",
-          "time": "2026-11-05T13:11:20Z",
-          "sentiment": 0.2,
-          "reason": "Quantum error-correction partnership with IBM and ORNL; modest positive."
         }
       ]
     }
