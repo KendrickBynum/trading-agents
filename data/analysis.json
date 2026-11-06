@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T14:36:21.983500+00:00",
+  "generated_at": "2026-11-06T15:35:34.422709+00:00",
   "weights": {
     "news": 0.3,
     "trend": 0.2,
@@ -13,48 +13,48 @@
   },
   "symbols": {
     "SPY": {
-      "price": 735.27,
-      "combined": -0.138,
+      "price": 737.45,
+      "combined": -0.046,
       "factors": {
-        "trend": -0.486,
-        "levels": -0.857,
-        "flow": -0.465,
-        "pattern": 0.903,
-        "news": -0.078
+        "trend": -0.471,
+        "levels": -0.6,
+        "flow": -0.551,
+        "pattern": 0.907,
+        "news": 0.132
       },
-      "agreeing": 1,
+      "agreeing": 2,
       "opposing": 3,
-      "news_score": -0.039,
-      "news_articles": 8,
+      "news_score": 0.066,
+      "news_articles": 9,
       "trend": {
-        "sma20": 763.36,
-        "sma50": 765.15,
-        "rsi": 35.3
+        "sma20": 763.47,
+        "sma50": 765.19,
+        "rsi": 36.8
       },
       "levels": {
-        "support": 716.88,
-        "resistance": 736.68,
-        "atr": 10.7,
+        "support": 736.68,
+        "resistance": 750.57,
+        "atr": 11.12,
         "event": "broke below 750.57"
       },
       "flow": {
         "money_flow": -0.221,
-        "rel_volume": 1.62,
-        "vwap": 735.39
+        "rel_volume": 1.71,
+        "vwap": 738.66
       },
       "pattern": {
         "win_rate": 0.62,
-        "avg_return": 0.0265,
+        "avg_return": 0.0272,
         "matches": 50
       }
     },
     "QQQ": {
-      "price": 655.61,
-      "combined": -0.277,
+      "price": 656.11,
+      "combined": -0.294,
       "factors": {
-        "trend": -0.826,
+        "trend": -0.827,
         "levels": -0.6,
-        "flow": -0.62,
+        "flow": -0.733,
         "pattern": 0.95,
         "news": -0.396
       },
@@ -63,20 +63,20 @@
       "news_score": -0.198,
       "news_articles": 7,
       "trend": {
-        "sma20": 707.66,
+        "sma20": 707.65,
         "sma50": 720.75,
-        "rsi": 31.7
+        "rsi": 31.6
       },
       "levels": {
         "support": null,
         "resistance": 685.47,
-        "atr": 16.22,
+        "atr": 16.61,
         "event": "broke below 685.47"
       },
       "flow": {
-        "money_flow": -0.263,
-        "rel_volume": 1.61,
-        "vwap": 657.46
+        "money_flow": -0.273,
+        "rel_volume": 1.73,
+        "vwap": 660.28
       },
       "pattern": {
         "win_rate": 0.76,
@@ -85,58 +85,58 @@
       }
     },
     "AAPL": {
-      "price": 340.95,
-      "combined": 0.117,
+      "price": 343.65,
+      "combined": 0.41,
       "factors": {
-        "trend": 0.417,
-        "levels": -0.6,
-        "flow": -0.065,
-        "pattern": 0.491
+        "trend": 0.475,
+        "levels": 0.799,
+        "flow": 0.12,
+        "pattern": 0.272
       },
-      "agreeing": 2,
-      "opposing": 1,
+      "agreeing": 4,
+      "opposing": 0,
       "news_score": 0.2,
       "news_articles": 1,
       "trend": {
-        "sma20": 343.31,
-        "sma50": 335.98,
-        "rsi": 50.0
+        "sma20": 343.45,
+        "sma50": 336.04,
+        "rsi": 52.2
       },
       "levels": {
-        "support": 333.91,
-        "resistance": 342.82,
-        "atr": 8.9,
-        "event": "broke below 342.82"
+        "support": 342.82,
+        "resistance": 350.44,
+        "atr": 8.91,
+        "event": null
       },
       "flow": {
-        "money_flow": -0.081,
-        "rel_volume": 1.28,
-        "vwap": 340.64
+        "money_flow": -0.074,
+        "rel_volume": 1.34,
+        "vwap": 341.64
       },
       "pattern": {
-        "win_rate": 0.54,
-        "avg_return": 0.0164,
+        "win_rate": 0.5,
+        "avg_return": 0.0114,
         "matches": 50
       }
     },
     "MSFT": {
-      "price": 530.33,
-      "combined": 0.246,
+      "price": 533.91,
+      "combined": 0.272,
       "factors": {
-        "trend": 0.432,
-        "levels": 0.584,
-        "flow": 0.13,
-        "pattern": 0.29,
-        "news": -0.018
+        "trend": 0.48,
+        "levels": 0.511,
+        "flow": 0.313,
+        "pattern": 0.309,
+        "news": -0.032
       },
       "agreeing": 4,
       "opposing": 0,
-      "news_score": -0.009,
-      "news_articles": 9,
+      "news_score": -0.016,
+      "news_articles": 8,
       "trend": {
-        "sma20": 531.39,
-        "sma50": 516.64,
-        "rsi": 52.0
+        "sma20": 531.58,
+        "sma50": 516.71,
+        "rsi": 53.6
       },
       "levels": {
         "support": 513.66,
@@ -145,132 +145,132 @@
         "event": null
       },
       "flow": {
-        "money_flow": 0.013,
-        "rel_volume": 1.4,
-        "vwap": 529.94
+        "money_flow": 0.022,
+        "rel_volume": 1.46,
+        "vwap": 531.2
       },
       "pattern": {
-        "win_rate": 0.52,
-        "avg_return": 0.0023,
+        "win_rate": 0.54,
+        "avg_return": 0.0018,
         "matches": 50
       }
     },
     "NVDA": {
-      "price": 191.82,
-      "combined": -0.314,
+      "price": 188.45,
+      "combined": -0.374,
       "factors": {
-        "trend": -0.943,
-        "levels": -0.6,
-        "flow": -0.586,
-        "pattern": 0.866,
-        "news": -0.404
+        "trend": -0.946,
+        "levels": -0.902,
+        "flow": -0.792,
+        "pattern": 0.844,
+        "news": -0.33
       },
       "agreeing": 1,
       "opposing": 4,
-      "news_score": -0.202,
-      "news_articles": 25,
+      "news_score": -0.165,
+      "news_articles": 27,
       "trend": {
-        "sma20": 211.8,
-        "sma50": 219.87,
-        "rsi": 35.6
+        "sma20": 211.64,
+        "sma50": 219.81,
+        "rsi": 32.7
       },
       "levels": {
-        "support": 190.11,
-        "resistance": 198.44,
-        "atr": 7.92,
+        "support": null,
+        "resistance": 190.11,
+        "atr": 8.02,
         "event": "broke below 198.44"
       },
       "flow": {
-        "money_flow": -0.293,
-        "rel_volume": 1.58,
-        "vwap": 192.13
+        "money_flow": -0.311,
+        "rel_volume": 1.71,
+        "vwap": 192.5
       },
       "pattern": {
-        "win_rate": 0.72,
-        "avg_return": 0.0243,
+        "win_rate": 0.64,
+        "avg_return": 0.0217,
         "matches": 50
       }
     },
     "AMZN": {
-      "price": 261.02,
-      "combined": 0.156,
+      "price": 262.19,
+      "combined": 0.16,
       "factors": {
-        "trend": 0.2,
+        "trend": 0.212,
         "levels": 0.6,
-        "flow": 0.085,
-        "pattern": 0.167,
-        "news": -0.066
+        "flow": 0.05,
+        "pattern": 0.081,
+        "news": 0.012
       },
-      "agreeing": 3,
+      "agreeing": 2,
       "opposing": 0,
-      "news_score": -0.033,
-      "news_articles": 8,
+      "news_score": 0.006,
+      "news_articles": 7,
       "trend": {
-        "sma20": 254.4,
-        "sma50": 254.0,
-        "rsi": 56.2
+        "sma20": 254.42,
+        "sma50": 254.01,
+        "rsi": 56.5
       },
       "levels": {
         "support": 258.22,
         "resistance": 265.75,
-        "atr": 9.67,
+        "atr": 9.72,
         "event": "breakout above 258.22"
       },
       "flow": {
-        "money_flow": -0.029,
-        "rel_volume": 1.41,
-        "vwap": 260.62
+        "money_flow": -0.025,
+        "rel_volume": 1.47,
+        "vwap": 262.07
       },
       "pattern": {
         "win_rate": 0.54,
-        "avg_return": 0.0026,
+        "avg_return": 0.002,
         "matches": 50
       }
     },
     "GOOGL": {
-      "price": 287.36,
-      "combined": -0.12,
+      "price": 285.97,
+      "combined": -0.16,
       "factors": {
-        "trend": -0.968,
-        "levels": -0.032,
-        "flow": -0.314,
-        "pattern": 0.782,
-        "news": -0.104
+        "trend": -0.969,
+        "levels": -0.022,
+        "flow": -0.567,
+        "pattern": 0.803,
+        "news": -0.13
       },
       "agreeing": 1,
       "opposing": 3,
-      "news_score": -0.052,
-      "news_articles": 11,
+      "news_score": -0.065,
+      "news_articles": 8,
       "trend": {
-        "sma20": 317.57,
-        "sma50": 332.96,
-        "rsi": 32.2
+        "sma20": 317.5,
+        "sma50": 332.93,
+        "rsi": 31.1
       },
       "levels": {
         "support": null,
         "resistance": 329.19,
-        "atr": 11.15,
+        "atr": 11.3,
         "event": null
       },
       "flow": {
-        "money_flow": -0.231,
-        "rel_volume": 1.04,
-        "vwap": 287.11
+        "money_flow": -0.241,
+        "rel_volume": 1.1,
+        "vwap": 287.76
       },
       "pattern": {
-        "win_rate": 0.64,
-        "avg_return": 0.0174,
+        "win_rate": 0.66,
+        "avg_return": 0.0205,
         "matches": 50
       }
     },
     "META": {
-      "price": 615.4,
-      "combined": -0.212,
+      "price": 618.31,
+      "combined": -0.233,
       "factors": {
-        "trend": -0.822,
-        "levels": 0.53,
-        "flow": -0.34,
-        "pattern": -0.255,
+        "trend": -0.819,
+        "levels": 0.398,
+        "flow": -0.341,
+        "pattern": -0.261,
         "news": -0.084
       },
       "agreeing": 1,
@@ -278,142 +278,142 @@
       "news_score": -0.042,
       "news_articles": 5,
       "trend": {
-        "sma20": 662.98,
-        "sma50": 674.89,
-        "rsi": 39.0
+        "sma20": 663.09,
+        "sma50": 674.94,
+        "rsi": 39.7
       },
       "levels": {
         "support": 608.64,
         "resistance": 641.6,
-        "atr": 23.27,
+        "atr": 23.58,
         "event": null
       },
       "flow": {
-        "money_flow": -0.271,
-        "rel_volume": 0.88,
-        "vwap": 614.69
+        "money_flow": -0.267,
+        "rel_volume": 0.92,
+        "vwap": 617.65
       },
       "pattern": {
         "win_rate": 0.6,
-        "avg_return": -0.0048,
+        "avg_return": -0.0052,
         "matches": 50
       }
     },
     "JPM": {
-      "price": 335.75,
-      "combined": 0.077,
+      "price": 339.08,
+      "combined": -0.174,
       "factors": {
-        "trend": -0.012,
-        "levels": 0.58,
-        "flow": -0.174,
-        "pattern": -0.022
+        "trend": 0.057,
+        "levels": -0.289,
+        "flow": -0.071,
+        "pattern": -0.395
       },
-      "agreeing": 1,
-      "opposing": 1,
+      "agreeing": 0,
+      "opposing": 2,
       "news_score": -0.2,
       "news_articles": 1,
       "trend": {
-        "sma20": 337.1,
-        "sma50": 340.96,
-        "rsi": 47.8
+        "sma20": 337.26,
+        "sma50": 341.02,
+        "rsi": 50.4
       },
       "levels": {
         "support": 334.35,
         "resistance": 341.55,
-        "atr": 7.56,
+        "atr": 7.8,
         "event": null
       },
       "flow": {
-        "money_flow": -0.163,
-        "rel_volume": 1.16,
-        "vwap": 334.7
+        "money_flow": -0.16,
+        "rel_volume": 1.21,
+        "vwap": 337.59
       },
       "pattern": {
-        "win_rate": 0.54,
-        "avg_return": -0.001,
+        "win_rate": 0.48,
+        "avg_return": -0.0051,
         "matches": 50
       }
     },
     "XOM": {
-      "price": 164.6,
-      "combined": -0.183,
+      "price": 165.87,
+      "combined": -0.125,
       "factors": {
-        "trend": 0.368,
-        "levels": -0.767,
-        "flow": 0.02,
-        "pattern": 0.141,
-        "news": -0.576
+        "trend": 0.419,
+        "levels": -0.6,
+        "flow": -0.003,
+        "pattern": 0.214,
+        "news": -0.536
       },
       "agreeing": 2,
       "opposing": 2,
-      "news_score": -0.288,
-      "news_articles": 2,
+      "news_score": -0.268,
+      "news_articles": 4,
       "trend": {
-        "sma20": 177.29,
-        "sma50": 168.8,
-        "rsi": 37.7
+        "sma20": 177.36,
+        "sma50": 168.83,
+        "rsi": 39.4
       },
       "levels": {
-        "support": 159.18,
-        "resistance": 165.28,
-        "atr": 5.09,
+        "support": 165.28,
+        "resistance": 169.14,
+        "atr": 5.2,
         "event": "broke below 169.14"
       },
       "flow": {
-        "money_flow": -0.025,
-        "rel_volume": 1.21,
-        "vwap": 164.23
+        "money_flow": -0.022,
+        "rel_volume": 1.27,
+        "vwap": 165.58
       },
       "pattern": {
         "win_rate": 0.42,
-        "avg_return": 0.0046,
+        "avg_return": 0.0072,
         "matches": 50
       }
     },
     "MU": {
-      "price": 690.67,
-      "combined": -0.429,
+      "price": 678.34,
+      "combined": -0.371,
       "factors": {
         "trend": -0.998,
         "levels": -0.6,
-        "flow": -0.683,
-        "pattern": 0.924,
-        "news": -0.738
+        "flow": -0.736,
+        "pattern": 0.937,
+        "news": -0.528
       },
       "agreeing": 1,
       "opposing": 4,
-      "news_score": -0.369,
-      "news_articles": 18,
+      "news_score": -0.264,
+      "news_articles": 20,
       "trend": {
-        "sma20": 879.2,
-        "sma50": 961.62,
-        "rsi": 31.7
+        "sma20": 878.41,
+        "sma50": 961.3,
+        "rsi": 29.8
       },
       "levels": {
         "support": null,
         "resistance": 853.78,
-        "atr": 57.7,
+        "atr": 58.85,
         "event": "broke below 853.78"
       },
       "flow": {
-        "money_flow": -0.228,
-        "rel_volume": 1.49,
-        "vwap": 697.49
+        "money_flow": -0.248,
+        "rel_volume": 1.64,
+        "vwap": 705.91
       },
       "pattern": {
         "win_rate": 0.7,
-        "avg_return": 0.03,
+        "avg_return": 0.0306,
         "matches": 50
       }
     },
     "LRCX": {
-      "price": 201.2,
+      "price": 199.63,
       "combined": 0.057,
       "factors": {
         "trend": -1.0,
-        "levels": -0.055,
-        "flow": -0.751,
-        "pattern": 0.981,
+        "levels": -0.032,
+        "flow": -0.772,
+        "pattern": 0.976,
         "news": 0.606
       },
       "agreeing": 2,
@@ -421,9 +421,9 @@
       "news_score": 0.303,
       "news_articles": 5,
       "trend": {
-        "sma20": 249.44,
-        "sma50": 284.3,
-        "rsi": 31.4
+        "sma20": 249.3,
+        "sma50": 284.25,
+        "rsi": 30.0
       },
       "levels": {
         "support": null,
@@ -432,120 +432,120 @@
         "event": null
       },
       "flow": {
-        "money_flow": -0.331,
-        "rel_volume": 1.41,
-        "vwap": 204.53
+        "money_flow": -0.338,
+        "rel_volume": 1.51,
+        "vwap": 203.85
       },
       "pattern": {
-        "win_rate": 0.84,
-        "avg_return": 0.0397,
+        "win_rate": 0.82,
+        "avg_return": 0.0392,
         "matches": 50
       }
     },
     "TSLA": {
-      "price": 348.68,
-      "combined": 0.004,
+      "price": 358.41,
+      "combined": -0.088,
       "factors": {
-        "trend": -0.14,
-        "levels": 0.891,
-        "flow": -0.211,
-        "pattern": 0.426,
-        "news": -0.518
+        "trend": -0.021,
+        "levels": -0.076,
+        "flow": 0.17,
+        "pattern": 0.416,
+        "news": -0.604
       },
       "agreeing": 2,
-      "opposing": 3,
-      "news_score": -0.259,
-      "news_articles": 9,
+      "opposing": 1,
+      "news_score": -0.302,
+      "news_articles": 10,
       "trend": {
-        "sma20": 379.96,
-        "sma50": 371.95,
-        "rsi": 38.6
+        "sma20": 380.44,
+        "sma50": 372.14,
+        "rsi": 42.7
       },
       "levels": {
         "support": 347.95,
         "resistance": 367.55,
-        "atr": 17.13,
+        "atr": 17.88,
         "event": null
       },
       "flow": {
-        "money_flow": -0.011,
-        "rel_volume": 1.18,
-        "vwap": 349.99
+        "money_flow": -0.001,
+        "rel_volume": 1.27,
+        "vwap": 356.01
       },
       "pattern": {
         "win_rate": 0.6,
-        "avg_return": 0.0165,
+        "avg_return": 0.0114,
         "matches": 50
       }
     },
     "ASML": {
-      "price": 1423.34,
-      "combined": -0.31,
+      "price": 1412.47,
+      "combined": -0.302,
       "factors": {
-        "trend": -0.968,
+        "trend": -0.97,
         "levels": -0.6,
-        "flow": -0.729,
-        "pattern": 0.88
+        "flow": -0.769,
+        "pattern": 0.94
       },
       "agreeing": 1,
       "opposing": 3,
       "news_score": -0.5,
       "news_articles": 1,
       "trend": {
-        "sma20": 1598.72,
-        "sma50": 1675.76,
-        "rsi": 35.2
+        "sma20": 1597.9,
+        "sma50": 1675.44,
+        "rsi": 33.5
       },
       "levels": {
         "support": null,
         "resistance": 1556.19,
-        "atr": 71.34,
+        "atr": 71.37,
         "event": "broke below 1556.19"
       },
       "flow": {
-        "money_flow": -0.366,
-        "rel_volume": 1.32,
-        "vwap": 1434.1
+        "money_flow": -0.375,
+        "rel_volume": 1.41,
+        "vwap": 1431.76
       },
       "pattern": {
-        "win_rate": 0.66,
-        "avg_return": 0.0223,
+        "win_rate": 0.72,
+        "avg_return": 0.0275,
         "matches": 50
       }
     },
     "AMD": {
-      "price": 436.19,
-      "combined": -0.402,
+      "price": 438.52,
+      "combined": -0.323,
       "factors": {
-        "trend": -0.946,
-        "levels": -0.969,
-        "flow": -0.634,
-        "pattern": 0.9,
-        "news": -0.508
+        "trend": -0.945,
+        "levels": -0.675,
+        "flow": -0.786,
+        "pattern": 0.908,
+        "news": -0.322
       },
       "agreeing": 1,
       "opposing": 4,
-      "news_score": -0.254,
-      "news_articles": 11,
+      "news_score": -0.161,
+      "news_articles": 12,
       "trend": {
-        "sma20": 526.64,
-        "sma50": 546.55,
-        "rsi": 36.1
+        "sma20": 526.77,
+        "sma50": 546.6,
+        "rsi": 36.5
       },
       "levels": {
         "support": null,
-        "resistance": 438.19,
-        "atr": 37.01,
-        "event": "broke below 493.51"
+        "resistance": 467.92,
+        "atr": 38.02,
+        "event": "broke below 496.80"
       },
       "flow": {
-        "money_flow": -0.205,
-        "rel_volume": 1.92,
-        "vwap": 437.61
+        "money_flow": -0.216,
+        "rel_volume": 2.12,
+        "vwap": 447.98
       },
       "pattern": {
         "win_rate": 0.68,
-        "avg_return": 0.0247,
+        "avg_return": 0.0241,
         "matches": 50
       }
     }

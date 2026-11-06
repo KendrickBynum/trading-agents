@@ -1,144 +1,5 @@
 [
   {
-    "id": "62927163",
-    "created_at": "2026-11-05T15:23:07Z",
-    "headline": "CORRECTION: Fed's Hammack Says Gradual Rate Hikes Less Disruptive To Economy And Financial System; Inflation Has Been Too High, Moving In Wrong Direction; It's Hard To See Dollar Losing Reserve Status",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62927163/correction-fed-s-hammack-says-gradual-rate-hikes-less-disruptive-economy-and-financial-system-inflat",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Hawkish Fed tone: inflation too high, gradual hikes ahead"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62926393",
-    "created_at": "2026-11-05T15:15:08Z",
-    "headline": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62926393/amazon-google-nvidia",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.25,
-        "confidence": 0.25,
-        "reason": "Analyst view that Amazon could outperform as AI monetizes"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.25,
-        "confidence": 0.25,
-        "reason": "Analyst view that Google could outperform as AI monetizes"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.15,
-        "confidence": 0.2,
-        "reason": "Rotation away from Nvidia toward infrastructure monetizers"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62926303",
-    "created_at": "2026-11-05T15:14:16Z",
-    "headline": "'Google AI in School Triggered Teen\u2019s Mental Health Crisis, Lawsuit Says' - Bloomberg",
-    "url": "https://www.benzinga.com/news/26/11/62926303/google-ai-school-triggered-teen-s-mental-health-crisis-lawsuit-says-bloomberg",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Lawsuit alleging Google AI harmed teen; regulatory and reputational risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62925475",
-    "created_at": "2026-11-05T15:06:36Z",
-    "headline": "Meta Platforms Rolling Out Events Home, Invitations For Non-Users On WhatsApp",
-    "url": "https://www.benzinga.com/news/26/11/62925475/meta-platforms-rolling-out-events-home-invitations-non-users-whatsapp",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62924053",
-    "created_at": "2026-11-05T14:53:42Z",
-    "headline": "EXCLUSIVE: Democrats Took Congress. But AI's Spending Binge Isn't Going Anywhere, This CEO Says",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62924053/democrats-big-tech-ai-spending",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "AI capex expected to persist despite political shifts"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "AI capex expected to persist despite political shifts"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "AI capex expected to persist despite political shifts"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62923507",
-    "created_at": "2026-11-05T14:48:49Z",
-    "headline": "Trump Administration Proposes Rule Changes To Streamline Commercial Space Launch And Reentry Licensing",
-    "url": "https://www.benzinga.com/government/26/11/62923507/trump-administration-proposes-rule-changes-streamline-commercial-space-launch-and-reentry-licensing",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62921403",
-    "created_at": "2026-11-05T14:39:15Z",
-    "headline": "Fed's Barkin Says Credit Dynamics In The Banking Sector Are Reassuring At This Point",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62921403/fed-s-barkin-says-credit-dynamics-banking-sector-are-reassuring-point",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Fed sees reassuring banking credit conditions"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62921003",
-    "created_at": "2026-11-05T14:36:18Z",
-    "headline": "Fed's Barkin Says Changing The Pace Of Policy Meetings Does Has The Advantage Of A Better Flow Of Data For Each Session; On Communications The Fed Needs To Land At A Place Where Both The Chairman And The Committee Are Comfortable",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62921003/fed-s-barkin-says-changing-pace-policy-meetings-does-has-advantage-better-flow-data-each-session-com",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "114133606",
     "created_at": "2026-11-05T16:01:41Z",
     "headline": "IBM, AMD, and Oak Ridge National Laboratory Launch Quantum Error Correction Platform",
@@ -285,23 +146,6 @@
         "sentiment": -0.4,
         "confidence": 0.5,
         "reason": "Memory chip rotation selloff; analysts divided on near-term direction"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62928269",
-    "created_at": "2026-11-05T15:35:04Z",
-    "headline": "USA Natural Gas Storage 77B Vs 81B Est.",
-    "url": "https://www.benzinga.com/quote/UNG",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.1,
-        "confidence": 0.15,
-        "reason": "Smaller-than-expected gas storage build is mildly supportive of energy prices"
       }
     ],
     "scorer": "claude"
@@ -2745,6 +2589,258 @@
         "sentiment": -0.4,
         "confidence": 0.45,
         "reason": "High-beta growth stock likely to fall with Nasdaq selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62985680",
+    "created_at": "2026-11-06T15:30:08Z",
+    "headline": "Musk Winds Down Cybertruck After Sales Collapse, Shifts Tesla Focus to Cybercab",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62985680/tesla-cybertruck-cybercab",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Cybertruck wind-down after sales collapse signals weak demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62984520",
+    "created_at": "2026-11-06T15:19:21Z",
+    "headline": "'OPEC Output Neared Pre-War Levels on Saudi Rebound, Survey Shows' - Bloomberg",
+    "url": "https://www.benzinga.com/news/26/11/62984520/opec-output-neared-pre-war-levels-saudi-rebound-survey-shows-bloomberg",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "OPEC output recovery points to softer oil prices"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Easing supply tightness modestly supportive for broader market"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62983095",
+    "created_at": "2026-11-06T15:08:29Z",
+    "headline": "Western Digital Stock Rebounds as Wall Street Bets AI Storage Demand Outlasts Election Rout",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62983095/western-digital-stock-rebounds-as-wall-street-bets-ai-storage-demand-outlasts-election-rout",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Rebound as strategists say AI storage demand intact"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "AI data-center buildout seen intact despite selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62982039",
+    "created_at": "2026-11-06T15:00:19Z",
+    "headline": "Michigan Consumer Expectations For November 50.9 Vs 49.5 Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Consumer expectations modestly beat estimates"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62982002",
+    "created_at": "2026-11-06T15:00:11Z",
+    "headline": "Rep. Maria Elvira Salazar Has Bought Up to $60K Worth Of NVIDIA Stock: Here\u2019s What You Should Know",
+    "url": "https://www.benzinga.com/government/26/11/62982002/rep-maria-elvira-salazar-has-bought-60k-worth-nvidia-stock-here-s-what-you-should-know",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62982000",
+    "created_at": "2026-11-06T15:00:11Z",
+    "headline": "Pennsylvania Rep. Daniel Meuser Sold Up to $15K Worth of NVIDIA Stock",
+    "url": "https://www.benzinga.com/government/26/11/62982000/pennsylvania-rep-daniel-meuser-sold-15k-worth-nvidia-stock",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62981978",
+    "created_at": "2026-11-06T15:00:07Z",
+    "headline": "Michigan Consumer Sentiment For November 51.0 Vs 48.1 Est.",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Consumer sentiment beat estimates by a wide margin"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62981848",
+    "created_at": "2026-11-06T14:59:20Z",
+    "headline": "Watching Nvidia; Hunterbrook Media Issues Report Titled, \u201cThe Comprehensive Guide to the Bank of Nvidia\u201d",
+    "url": "https://www.benzinga.com/news/26/11/62981848/watching-nvidia-hunterbrook-media-issues-report-titled-comprehensive-guide-bank-nvidia",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.3,
+        "reason": "Hunterbrook critical report could pressure sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62980928",
+    "created_at": "2026-11-06T14:53:19Z",
+    "headline": "Tehran Is Dealing Positively With The Latest Proposal Presented By The Mediators; Tehran Is Awaiting Practical Steps From Washington To Build Trust; Iran Is Open To Negotiations That Ensure Its Legitimate Demands Are Met, AlArabiya Citing Source",
+    "url": "https://www.benzinga.com/news/26/11/62980928/tehran-dealing-positively-latest-proposal-presented-mediators-tehran-awaiting-practical-steps-washin",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Iran engaging on mediator proposal eases geopolitical risk"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "De-escalation with Iran may lower oil risk premium"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62980258",
+    "created_at": "2026-11-06T14:49:10Z",
+    "headline": "Congressman Swaps One Chip Stock for Another: Here Are the Moves",
+    "url": "https://www.benzinga.com/news/politics/26/11/62980258/congressman-swaps-one-chip-stock-for-another-here-are-the-moves",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62979609",
+    "created_at": "2026-11-06T14:45:14Z",
+    "headline": "If You Invested $1000 In Alphabet Stock 20 Years Ago, You Would Have This Much Today",
+    "url": "https://www.benzinga.com/news/26/11/62979609/if-you-invested-1000-alphabet-stock-20-years-ago-you-would-have-much-today",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62978298",
+    "created_at": "2026-11-06T14:38:16Z",
+    "headline": "'Trump administration scraps meeting of panel that includes Meta's Zuckerberg, Nvidia's Huang' - Reuters",
+    "url": "https://www.benzinga.com/news/26/11/62978298/trump-administration-scraps-meeting-panel-includes-meta-s-zuckerberg-nvidia-s-huang-reuters",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Scrapped advisory panel adds mild policy uncertainty"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Scrapped advisory panel adds mild policy uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62978103",
+    "created_at": "2026-11-06T14:37:30Z",
+    "headline": "Amazon Introduces Text-Based Shopping Through Alexa",
+    "url": "https://www.benzinga.com/news/26/11/62978103/amazon-introduces-text-based-shopping-through-alexa",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Alexa text-based shopping is a modest product expansion, mostly priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62977803",
+    "created_at": "2026-11-06T14:36:14Z",
+    "headline": "Micron, AMD, SanDisk Lead AI Stock Bounce as Investors Buy the Dip",
+    "url": "https://www.benzinga.com/markets/tech/26/11/62977803/micron-amd-sandisk-lead-ai-stock-bounce-as-investors-buy-the-dip",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Premarket rebound after prior-day losses; recovers only part of selloff"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Premarket rebound after prior-day losses; recovers only part of selloff"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "Tagged in chip rebound; not named in summary, sector-wide bounce"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Tech-led rebound, but AI sector fears persist; limited index impact"
       }
     ],
     "scorer": "claude"
