@@ -1,139 +1,5 @@
 [
   {
-    "id": "62940732",
-    "created_at": "2026-11-05T18:24:06Z",
-    "headline": "Amazon Stock Pulls Back: What's Going On?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62940732/amazon-stock-pulls-back-whats-going-on",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Routine intraday pullback after prior-day rally; little lasting signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62940088",
-    "created_at": "2026-11-05T18:14:20Z",
-    "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
-    "source": "benzinga",
-    "market_risk": 0.6,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "AI sell-off and data center ban fears hit chip stocks"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Data center expansion fears weigh on AWS growth outlook"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Broad tech rout and data center concerns pressure megacaps"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "AI capex and data center worries drag megacap tech"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Data center expansion fears pressure cloud and AI names"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "Memory chipmakers sank in AI sell-off"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "AI stock rout and data center ban threat hit Nvidia"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Nasdaq-heavy tech index falls with AI-driven selloff"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62939997",
-    "created_at": "2026-11-05T18:13:10Z",
-    "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
-    "source": "benzinga",
-    "market_risk": 0.7,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "AMD sank in AI tech rout; VIX spike signals stress"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "Micron sank in AI sell-off after midterm sweep"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "Nvidia sank as $2.2T tech value wiped out"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.5,
-        "confidence": 0.7,
-        "reason": "Tech-heavy index faces worst day since April 2025"
-      },
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "High-beta tech sell-off likely pressures Tesla"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62937968",
-    "created_at": "2026-11-05T17:37:12Z",
-    "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
-    "url": "https://www.benzinga.com/opinion/26/11/62937968/market-bets-on-democrats-magic-wands-why-you-should-be-skeptical",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Opinion piece on political market expectations; minimal direct impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62943516",
     "created_at": "2026-11-05T19:20:02Z",
     "headline": "Google Says Fuel Cells For Wyoming Project Will Be Made In America By Bloom Energy",
@@ -263,23 +129,6 @@
         "sentiment": 0.1,
         "confidence": 0.2,
         "reason": "Analyst commentary on buybacks after 8% drop; opinion, not new fundamentals"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62941161",
-    "created_at": "2026-11-05T18:34:21Z",
-    "headline": "Meta Platforms Introduces Voice, Expressive Avatars In Muse",
-    "url": "https://www.benzinga.com/news/26/11/62941161/meta-platforms-introduces-voice-expressive-avatars-muse",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "New expressive avatar product launch; modest engagement upside"
       }
     ],
     "scorer": "claude"
@@ -2825,6 +2674,322 @@
         "sentiment": 0.25,
         "confidence": 0.4,
         "reason": "Strong jobs data: ~400k private jobs in three months, manufacturing up"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63002288",
+    "created_at": "2026-11-06T18:25:32Z",
+    "headline": "AI Stocks Got Hammered After Midterms, but This Analyst Says the Panic Is Overblown",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63002288/ai-stocks-got-hammered-after-midterms-but-this-analyst-says-the-panic-is-overblown",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.25,
+        "confidence": 0.3,
+        "reason": "Bernstein says AI data center selloff is overblown, limited capacity impact"
+      },
+      {
+        "ticker": "META",
+        "sentiment": 0.25,
+        "confidence": 0.3,
+        "reason": "Bernstein says AI data center selloff is overblown, limited capacity impact"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.25,
+        "confidence": 0.3,
+        "reason": "Bernstein says AI data center selloff is overblown, limited capacity impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63002103",
+    "created_at": "2026-11-06T18:22:22Z",
+    "headline": "\"White House Weighs Executive Order Attaching Terrorist Label To Some Nonprofits; The Order, Which Hasn\u2019t Been Finalized, Would Immediately Suspend Groups\u2019 Tax-Exempt Status\" - WSJ Exclusive",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63002103/white-house-weighs-executive-order-attaching-terrorist-label-some-nonprofits-order-which-hasn-t-been",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63001596",
+    "created_at": "2026-11-06T18:15:46Z",
+    "headline": "OpenAI Announces Partnering With Hacktron To Find Vulnerabilities In OpenAI\u2019s Systems",
+    "url": "https://www.benzinga.com/news/26/11/63001596/openai-announces-partnering-hacktron-find-vulnerabilities-openai-s-systems",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63001484",
+    "created_at": "2026-11-06T18:14:10Z",
+    "headline": "Live On CNBC, Fed's Daly Says When You Step Back From 'painful' Volatility, This Is The Kind Of Rebalancing That You Would Hope For",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Fed's Daly describes routine rebalancing after volatility, no clear signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63001439",
+    "created_at": "2026-11-06T18:13:37Z",
+    "headline": "GOP Rep Massie Plans Articles Of Impeachment Against Secretary Of Defense Pete Hegseth",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63001439/gop-rep-massie-plans-articles-impeachment-against-secretary-defense-pete-hegseth",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63001345",
+    "created_at": "2026-11-06T18:12:43Z",
+    "headline": "Meta Introduces Spaces Feature In Muse App",
+    "url": "https://www.benzinga.com/news/26/11/63001345/meta-introduces-spaces-feature-muse-app",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Minor product feature launch, limited financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63001253",
+    "created_at": "2026-11-06T18:11:50Z",
+    "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63001253/ai-stocks-gpu-demand",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Research firm warns AI stocks could fall on rates and spending"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Research firm warns AI stocks could fall on rates and spending"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63000883",
+    "created_at": "2026-11-06T18:08:39Z",
+    "headline": "Unity Software Just Did Something It Hasn't Done Since Its IPO \u2014 and Wall Street Wants More",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63000883/unity-software-just-did-something-it-hasnt-done-since-its-ipo-and-wall-street-wants-more",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63000949",
+    "created_at": "2026-11-06T18:09:18Z",
+    "headline": "Live On CNBC, Fed's Daly Says Businesses Want Inflation To Come Down; Businesses Cautiously Optimistic About Outlook",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Fed's Daly notes businesses cautiously optimistic on outlook"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63000885",
+    "created_at": "2026-11-06T18:08:51Z",
+    "headline": "Live On CNBC, Fed's Daly Says Uncertainty On Tariffs, War, AI, But Inflation Is More Stubborn Than Would Like; Will Have To Tighten Policy Further; How Much More Tightening And When, Need More Information; Need To Be Deliberate; Prepared To Raise Rates If Its Called For; AI Repricing Trade Has Been Orderly So Far; If AI Repricing Signals Slowing Of Demand Might See Growth Come Down A Little; Not Worried Of Substantial Decline In Growth",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Fed's Daly hawkish: inflation sticky, ready to raise rates"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63000834",
+    "created_at": "2026-11-06T18:07:55Z",
+    "headline": "Live On CNBC, Fed's Daly Says Job Report Good News; Wage Growth Isn't Booming; Real Wages Are Falling; Feel Hopeful When Think About American Workforce; On Inflation, Would Like Confidence To Be Higher; High Inflation For Too Long; Inflation Has To Be Number 1 Priority; Strong Labor Market Gives Fed Latitude To Get Job Done On Inflation; Sept Rate Hike Was Right Move, Also Good To Be On Hold At Last Meeting",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Fed's Daly hawkish: strong jobs, high inflation, priority on inflation"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63000563",
+    "created_at": "2026-11-06T18:03:52Z",
+    "headline": "U.S. Baker Hughes Oil Rig Count +1 To 463; U.S. Baker Hughes NatGas Rig Count +1 To 131; U.S. Baker Hughes Total Rig Count 605 Vs 603 Prior",
+    "url": "https://www.benzinga.com/quote/USO",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63000379",
+    "created_at": "2026-11-06T18:01:35Z",
+    "headline": "CNBC Halftime Report Final Trades: Amazon, Clorox, ExxonMobil, Take-Two Interactive Software",
+    "url": "https://www.benzinga.com/quote/CLX",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62998873",
+    "created_at": "2026-11-06T17:43:16Z",
+    "headline": "'In Recent Months, Microsoft Has Been Turning Off Rented Computing Capacity From Oracle After Declining To Renew The Contract' - Bloomberg News",
+    "url": "https://www.benzinga.com/news/26/11/62998873/recent-months-microsoft-has-been-turning-rented-computing-capacity-oracle-after-declining-renew-cont",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Winding down Oracle capacity rental may signal softer AI cloud demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62998165",
+    "created_at": "2026-11-06T17:37:55Z",
+    "headline": "'Microsoft Is Winding Down Oracle Deal To Rent AI Cloud Capacity' - Bloomberg News",
+    "url": "https://www.benzinga.com/news/26/11/62998165/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.15,
+        "confidence": 0.35,
+        "reason": "Reported exit from Oracle AI cloud capacity deal; ambiguous for MSFT"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62998202",
+    "created_at": "2026-11-06T17:38:16Z",
+    "headline": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62998202/stock-market-today-nasdaq-100-rebounds-chip-stocks-payrolls-beat",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Chip rebound after worst day since 2020 and strong payrolls"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": 0.35,
+        "confidence": 0.45,
+        "reason": "Chipmakers bounce on broad risk-on rebound"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": 0.35,
+        "confidence": 0.45,
+        "reason": "Memory and chip names bounce with sector rebound"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.3,
+        "confidence": 0.5,
+        "reason": "Nasdaq 100 up 2%, near best day since September"
+      },
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.2,
+        "confidence": 0.35,
+        "reason": "High-beta rebound alongside Nasdaq 100 recovery"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62997867",
+    "created_at": "2026-11-06T17:35:08Z",
+    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/11/62997867/10-information-technology-stocks-whale-activity-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "62997841",
+    "created_at": "2026-11-06T17:34:51Z",
+    "headline": "U.S. And Iran Should Accept A Good Deal Over A Perfect One; U.S. And Iran Won\u2019t Be Able To Make A Perfect Deal",
+    "url": "https://www.benzinga.com/news/26/11/62997841/u-s-and-iran-should-accept-good-deal-over-perfect-one-u-s-and-iran-won-t-be-able-make-perfect-deal",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Opinion piece on US-Iran negotiations; no concrete market catalyst"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62997803",
+    "created_at": "2026-11-06T17:34:19Z",
+    "headline": "Treasury Secretary Scott Bessent Posts On X \"Today, @USTradeRep Greer and I spoke with Vice Premier He Lifeng about the U.S.-China economic relationship and implementation of the Busan arrangement. I emphasized the importance of China fully and immediately honoring its commitments, raised concerns about recent Chinese actions and underscored that progress depends on concrete results. The Trump Administration will continue pursuing policies that benefit American workers, farmers, and businesses...\"",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62997803/treasury-secretary-scott-bessent-posts-x-today-ustraderep-greer-and-i-spoke-vice-premier-he-lifeng-a",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Bessent flags Chinese non-compliance; raises US-China trade tension"
       }
     ],
     "scorer": "claude"
