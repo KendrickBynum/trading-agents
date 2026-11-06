@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T19:35:20.607268+00:00",
-  "market_risk": 0.187,
+  "generated_at": "2026-11-06T19:56:51.796275+00:00",
+  "market_risk": 0.184,
   "tickers": {
     "SPY": {
       "score": -0.025,
@@ -150,9 +150,9 @@
       ]
     },
     "NVDA": {
-      "score": -0.034,
-      "articles": 27,
-      "ai_articles": 27,
+      "score": -0.038,
+      "articles": 25,
+      "ai_articles": 25,
       "headlines": [
         {
           "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
@@ -353,9 +353,9 @@
       ]
     },
     "MU": {
-      "score": -0.074,
-      "articles": 16,
-      "ai_articles": 16,
+      "score": -0.071,
+      "articles": 15,
+      "ai_articles": 15,
       "headlines": [
         {
           "headline": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
@@ -437,10 +437,17 @@
       ]
     },
     "TSLA": {
-      "score": -0.189,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.191,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Reported Earlier: 'SpaceX, Tesla Merger Less Likely After Midterms. Texas Gov. Requests Pause On Land Talks' - Investor Business Daily",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63006843/reported-earlier-spacex-tesla-merger-less-likely-after-midterms-texas-gov-requests-pause-land-talks-",
+          "time": "2026-11-06T19:35:22Z",
+          "sentiment": -0.2,
+          "reason": "Reduced odds of SpaceX-Tesla merger, a speculative catalyst, likely partly priced in"
+        },
         {
           "headline": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/62998202/stock-market-today-nasdaq-100-rebounds-chip-stocks-payrolls-beat",
@@ -468,13 +475,6 @@
           "time": "2026-11-06T08:02:09Z",
           "sentiment": -0.2,
           "reason": "Cybertruck wind-down signals weak sales, partly offset by Cybercab focus"
-        },
-        {
-          "headline": "Tesla To Wind Down Cybertruck Production At Gigafactory Texas Around Mid-Next Year To Make Room For Increased Cybercab Production",
-          "url": "https://www.benzinga.com/news/26/11/62966983/tesla-wind-down-cybertruck-production-gigafactory-texas-around-mid-next-year-make-room-increased-cyb",
-          "time": "2026-11-06T07:09:21Z",
-          "sentiment": -0.2,
-          "reason": "Cybertruck production ending; capacity shifts to Cybercab"
         }
       ]
     },

@@ -34,84 +34,6 @@
     "scorer": "claude"
   },
   {
-    "id": "62945242",
-    "created_at": "2026-11-05T19:55:37Z",
-    "headline": "One ETF Is Making a Killing on Micron's Stock Meltdown \u2014 Can It Keep Cashing In?",
-    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/62945242/one-etf-is-making-a-killing-on-micron-meltdown",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Micron stock falling sharply; negative momentum, though partly priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62945061",
-    "created_at": "2026-11-05T19:50:59Z",
-    "headline": "'Rubio Considers Leaving Administration After GOP\u2019s Midterm Loss' - Bloomberg Exclusive",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62945061/rubio-considers-leaving-administration-after-gop-s-midterm-loss-bloomberg-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62945022",
-    "created_at": "2026-11-05T19:50:25Z",
-    "headline": "'NVIDIA Has Approached Apollo About Creating A Network Of Small AI Data Centers Potentially Spanning 20 States Across The U.S.' - The Information",
-    "url": "https://www.benzinga.com/news/26/11/62945022/nvidia-has-approached-apollo-about-creating-network-small-ai-data-centers-potentially-spanning-20-st",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.35,
-        "reason": "Reported talks on AI data center network; speculative, unconfirmed demand driver"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62944990",
-    "created_at": "2026-11-05T19:49:46Z",
-    "headline": "'NVIDIA Explores Retrofitting Old Telecom Buildings For AI Data Centers' - The Information",
-    "url": "https://www.benzinga.com/news/26/11/62944990/nvidia-explores-retrofitting-old-telecom-buildings-ai-data-centers-information",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Exploring telecom building retrofits for AI data centers; early-stage, minor"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62944321",
-    "created_at": "2026-11-05T19:36:27Z",
-    "headline": "Nvidia Stock Is Now Cheaper Than a Toilet-Paper Company, Data Shows",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62944321/nvidia-stock-cheaper-than-toilet-paper-company-kimberly-clark-forward-pe",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Valuation commentary on low forward P/E; opinion piece, not a new fundamental"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "62946994",
     "created_at": "2026-11-05T20:32:21Z",
     "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
@@ -2934,6 +2856,40 @@
         "sentiment": -0.15,
         "confidence": 0.35,
         "reason": "Reported pullback from Oracle AI compute deal may signal weaker AI demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63006892",
+    "created_at": "2026-11-06T19:35:50Z",
+    "headline": "Elon Musk Pardon Request Hits Change.org with Tesla Influencer Sharing: What Investors Should Know",
+    "url": "https://www.benzinga.com/news/politics/26/11/63006892/elon-musk-pardon-request-hits-change-org-with-tesla-influencer-sharing-what-investors-should-know",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Pardon petition is political noise with no clear earnings or operational impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63006843",
+    "created_at": "2026-11-06T19:35:22Z",
+    "headline": "Reported Earlier: 'SpaceX, Tesla Merger Less Likely After Midterms. Texas Gov. Requests Pause On Land Talks' - Investor Business Daily",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63006843/reported-earlier-spacex-tesla-merger-less-likely-after-midterms-texas-gov-requests-pause-land-talks-",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Reduced odds of SpaceX-Tesla merger, a speculative catalyst, likely partly priced in"
       }
     ],
     "scorer": "claude"
