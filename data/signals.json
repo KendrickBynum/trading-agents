@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-11-06T15:35:22.078458+00:00",
-  "market_risk": 0.196,
+  "generated_at": "2026-11-06T16:35:23.010201+00:00",
+  "market_risk": 0.206,
   "tickers": {
     "SPY": {
-      "score": 0.066,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.082,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Jobs Report Boosts December Fed Rate Hike Bets",
+          "url": "https://www.benzinga.com/opinion/26/11/62992619/jobs-report-boosts-december-fed-rate-hike-bets",
+          "time": "2026-11-06T16:28:32Z",
+          "sentiment": -0.15,
+          "reason": "Higher Fed hike odds weigh on broad equities"
+        },
+        {
+          "headline": "VIX Spikes Nearly 70%: History Says S&P 500 Usually Bounces Within a Month",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62986672/vix-spiked-nearly-70-history-says-sp-500-bounces-within-a-month",
+          "time": "2026-11-06T15:37:20Z",
+          "sentiment": 0.3,
+          "reason": "Historical post-VIX-spike rebounds favor S&P 500 recovery within a month"
+        },
         {
           "headline": "Michigan Consumer Sentiment For November 51.0 Vs 48.1 Est.",
           "url": "https://www.benzinga.com/quote/SPY",
@@ -27,28 +41,35 @@
           "time": "2026-11-06T13:30:15Z",
           "sentiment": 0.2,
           "reason": "Payrolls well above estimates signal a resilient economy"
-        },
-        {
-          "headline": "'US and Iran Edge Closer to Deal With Nuclear Issue Back in Play' - Bloomberg",
-          "url": "https://www.benzinga.com/news/26/11/62972724/us-and-iran-edge-closer-deal-nuclear-issue-back-play-bloomberg",
-          "time": "2026-11-06T12:38:22Z",
-          "sentiment": 0.2,
-          "reason": "Progress toward US-Iran nuclear deal eases geopolitical risk"
-        },
-        {
-          "headline": "Nasdaq\u2019s 5.5% Wipeout And AI's Next Reality Check\u2014IRS' New Tax Brackets",
-          "url": "https://www.benzinga.com/opinion/26/11/62970305/nasdaq-wipeout-ai-next-reality-check-irs-new-tax-brackets",
-          "time": "2026-11-06T11:38:52Z",
-          "sentiment": -0.2,
-          "reason": "Tech-led selloff weighs on broad market"
         }
       ]
     },
     "QQQ": {
-      "score": -0.198,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.073,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Jobs Report Boosts December Fed Rate Hike Bets",
+          "url": "https://www.benzinga.com/opinion/26/11/62992619/jobs-report-boosts-december-fed-rate-hike-bets",
+          "time": "2026-11-06T16:28:32Z",
+          "sentiment": -0.2,
+          "reason": "Stronger jobs data raises Fed hike odds, pressuring growth indexes"
+        },
+        {
+          "headline": "What's Going On With Marvell Technology Stock Friday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62989850/whats-going-on-with-marvell-technology-stock-friday-4",
+          "time": "2026-11-06T16:02:44Z",
+          "sentiment": 0.15,
+          "reason": "Tech rebound after rout supports Nasdaq-linked ETF"
+        },
+        {
+          "headline": "VIX Spikes Nearly 70%: History Says S&P 500 Usually Bounces Within a Month",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62986672/vix-spiked-nearly-70-history-says-sp-500-bounces-within-a-month",
+          "time": "2026-11-06T15:37:20Z",
+          "sentiment": 0.25,
+          "reason": "Historical post-VIX-spike rebounds favor Nasdaq recovery"
+        },
         {
           "headline": "Top Analyst Flags 'Golden Buying Opportunity' for AI Stocks, Comparing 'Massive Tech Sell-Off' to 2020 Crash",
           "url": "https://www.benzinga.com/markets/market-summary/26/11/62974026/top-analyst-flags-golden-buying-opportunity-for-ai-stocks-comparing-massive-tech-sell-off-to-2020-crash",
@@ -62,35 +83,21 @@
           "time": "2026-11-06T12:33:06Z",
           "sentiment": 0.2,
           "reason": "Strategist sees AI doom fears overshot after Nasdaq selloff"
-        },
-        {
-          "headline": "Nasdaq\u2019s 5.5% Wipeout And AI's Next Reality Check\u2014IRS' New Tax Brackets",
-          "url": "https://www.benzinga.com/opinion/26/11/62970305/nasdaq-wipeout-ai-next-reality-check-irs-new-tax-brackets",
-          "time": "2026-11-06T11:38:52Z",
-          "sentiment": -0.4,
-          "reason": "Nasdaq 5.5% wipeout led by AI stock unwinding"
-        },
-        {
-          "headline": "Trump Blames 'Dumocrats' as Stock Market Suffers $3 Trillion Rout After Democrats Win Congress: 'Your 401(k)s Have Dropped'",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62965277/donald-trump-democrats-stock-market-selloff-3-trillion-nasdaq-100-midterms",
-          "time": "2026-11-06T01:59:15Z",
-          "sentiment": -0.6,
-          "reason": "Nasdaq 100 worst day since 2020; severe tech-led selling pressure"
-        },
-        {
-          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
-          "time": "2026-11-05T18:14:20Z",
-          "sentiment": -0.5,
-          "reason": "Nasdaq-heavy tech index falls with AI-driven selloff"
         }
       ]
     },
     "AAPL": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.342,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Apple Captures Record Share of Global Smartphone Revenue in Q3",
+          "url": "https://appleosophy.com/wire/0qcu8mu/",
+          "time": "2026-11-06T16:01:38Z",
+          "sentiment": 0.4,
+          "reason": "Record share of global smartphone revenue signals strong pricing power"
+        },
         {
           "headline": "Phillip Securities Adjusts Price Target on Apple to $310 From $300",
           "url": "https://www.marketscreener.com/news/phillip-securities-adjusts-price-target-on-apple-to-310-from-300-ce785fddd08bf625",
@@ -101,10 +108,17 @@
       ]
     },
     "MSFT": {
-      "score": -0.016,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.075,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "'OpenAI will keep investing in AI data centers despite election results, CFO Says' - CNBC",
+          "url": "https://www.benzinga.com/news/26/11/62992632/openai-will-keep-investing-ai-data-centers-despite-election-results-cfo-says-cnbc",
+          "time": "2026-11-06T16:28:47Z",
+          "sentiment": 0.3,
+          "reason": "OpenAI commits to continued AI data center spending, supporting Azure demand"
+        },
         {
           "headline": "Softbank In Discussions To Invest Hundreds Of Millions Of Dollars In Latest OpenAI Funding Round Of $20B Across Two Parts; Emirati Group Including MGX Expected To Be Largest Investor At Latest Valuation Of $1.25T - NY Times DealBook",
           "url": "https://www.benzinga.com/news/26/11/62975126/softbank-discussions-invest-hundreds-millions-dollars-latest-openai-funding-round-20b-across-two-par",
@@ -132,21 +146,35 @@
           "time": "2026-11-06T09:28:34Z",
           "sentiment": 0.2,
           "reason": "Forecast of lower capital raises and strong future free cash flow"
-        },
-        {
-          "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
-          "time": "2026-11-05T18:14:20Z",
-          "sentiment": -0.3,
-          "reason": "Data center expansion fears pressure cloud and AI names"
         }
       ]
     },
     "NVDA": {
-      "score": -0.165,
-      "articles": 27,
-      "ai_articles": 27,
+      "score": -0.134,
+      "articles": 29,
+      "ai_articles": 29,
       "headlines": [
+        {
+          "headline": "Jobs Report Boosts December Fed Rate Hike Bets",
+          "url": "https://www.benzinga.com/opinion/26/11/62992619/jobs-report-boosts-december-fed-rate-hike-bets",
+          "time": "2026-11-06T16:28:32Z",
+          "sentiment": -0.2,
+          "reason": "Stronger jobs data raises Fed hike odds, pressuring high-multiple growth"
+        },
+        {
+          "headline": "EXCLUSIVE: Nasdaq 100 Suffers Worst Day Since 2020, but Credit Markets Aren't Panicking, Says S&P Global Analyst",
+          "url": "https://www.benzinga.com/markets/bonds/26/11/62990235/nasdaq-100-worst-day-credit-markets-coreweave-oracle-spacex-cds",
+          "time": "2026-11-06T16:06:15Z",
+          "sentiment": -0.15,
+          "reason": "Nasdaq 100 worst day since 2020 signals tech selloff momentum"
+        },
+        {
+          "headline": "What's Going On With Marvell Technology Stock Friday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62989850/whats-going-on-with-marvell-technology-stock-friday-4",
+          "time": "2026-11-06T16:02:44Z",
+          "sentiment": 0.3,
+          "reason": "Oversold AI chip stocks rebound as investors return"
+        },
         {
           "headline": "Western Digital Stock Rebounds as Wall Street Bets AI Storage Demand Outlasts Election Rout",
           "url": "https://www.benzinga.com/markets/tech/26/11/62983095/western-digital-stock-rebounds-as-wall-street-bets-ai-storage-demand-outlasts-election-rout",
@@ -160,27 +188,6 @@
           "time": "2026-11-06T14:59:20Z",
           "sentiment": -0.3,
           "reason": "Hunterbrook critical report could pressure sentiment"
-        },
-        {
-          "headline": "Micron, AMD, SanDisk Lead AI Stock Bounce as Investors Buy the Dip",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62977803/micron-amd-sandisk-lead-ai-stock-bounce-as-investors-buy-the-dip",
-          "time": "2026-11-06T14:36:14Z",
-          "sentiment": 0.15,
-          "reason": "Tagged in chip rebound; not named in summary, sector-wide bounce"
-        },
-        {
-          "headline": "Softbank In Discussions To Invest Hundreds Of Millions Of Dollars In Latest OpenAI Funding Round Of $20B Across Two Parts; Emirati Group Including MGX Expected To Be Largest Investor At Latest Valuation Of $1.25T - NY Times DealBook",
-          "url": "https://www.benzinga.com/news/26/11/62975126/softbank-discussions-invest-hundreds-millions-dollars-latest-openai-funding-round-20b-across-two-par",
-          "time": "2026-11-06T13:42:55Z",
-          "sentiment": 0.2,
-          "reason": "Large OpenAI funding supports AI compute demand and GPU spending"
-        },
-        {
-          "headline": "NVIDIA Enhances AI Chip Tracking in Southeast Asia",
-          "url": "https://www.marketscreener.com/news/nvidia-tightens-ai-chip-tracking-in-southeast-asia-amid-smuggling-concerns-ce785fd2d988f32d",
-          "time": "2026-11-06T12:32:02Z",
-          "sentiment": -0.2,
-          "reason": "Stricter chip tracking may add compliance costs and export scrutiny"
         }
       ]
     },
@@ -227,10 +234,17 @@
       ]
     },
     "GOOGL": {
-      "score": -0.065,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.0,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Google's $900 Million SpaceX Bet Is Now Worth $69 Billion. It Added Millions More Shares",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62992872/google-spacex-stake",
+          "time": "2026-11-06T16:31:21Z",
+          "sentiment": 0.2,
+          "reason": "Growing SpaceX stake adds balance-sheet value; largely known already"
+        },
         {
           "headline": "Nasdaq\u2019s 5.5% Wipeout And AI's Next Reality Check\u2014IRS' New Tax Brackets",
           "url": "https://www.benzinga.com/opinion/26/11/62970305/nasdaq-wipeout-ai-next-reality-check-irs-new-tax-brackets",
@@ -258,13 +272,6 @@
           "time": "2026-11-06T06:27:04Z",
           "sentiment": 0.15,
           "reason": "Waymo partnership growth and robotaxi demand, reassuring for Alphabet"
-        },
-        {
-          "headline": "'Google Plans to Spend $17 Billion on Wyoming Data Center' - Bloomberg News",
-          "url": "https://www.benzinga.com/news/26/11/62942972/google-plans-spend-17-billion-wyoming-data-center-bloomberg-news",
-          "time": "2026-11-05T19:10:56Z",
-          "sentiment": 0.2,
-          "reason": "Large data center investment supports AI infrastructure demand, though largely expected"
         }
       ]
     },
@@ -325,10 +332,17 @@
       ]
     },
     "XOM": {
-      "score": -0.268,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.277,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "The Proposals Stop Short Of Complete Dismantlement, But Do Address Iran\u2019s Stockpile Of Highly Enriched Uranium; The Offers Would See Iran Receive Significant Sanctions Relief From U.S.; Iranian Negotiators Are Reviewing Proposals Under Which The Islamic Republic Would Limit Its Nuclear Program, The Times Of Israel, Citing Diplomatic Source",
+          "url": "https://www.benzinga.com/news/26/11/62990388/proposals-stop-short-complete-dismantlement-do-address-iran-s-stockpile-highly-enriched-uranium-offe",
+          "time": "2026-11-06T16:07:16Z",
+          "sentiment": -0.3,
+          "reason": "Iran sanctions relief prospects could add oil supply, pressuring crude prices"
+        },
         {
           "headline": "'OPEC Output Neared Pre-War Levels on Saudi Rebound, Survey Shows' - Bloomberg",
           "url": "https://www.benzinga.com/news/26/11/62984520/opec-output-neared-pre-war-levels-saudi-rebound-survey-shows-bloomberg",
@@ -360,10 +374,24 @@
       ]
     },
     "MU": {
-      "score": -0.264,
+      "score": -0.203,
       "articles": 20,
       "ai_articles": 20,
       "headlines": [
+        {
+          "headline": "EXCLUSIVE: Nasdaq 100 Suffers Worst Day Since 2020, but Credit Markets Aren't Panicking, Says S&P Global Analyst",
+          "url": "https://www.benzinga.com/markets/bonds/26/11/62990235/nasdaq-100-worst-day-credit-markets-coreweave-oracle-spacex-cds",
+          "time": "2026-11-06T16:06:15Z",
+          "sentiment": -0.15,
+          "reason": "Sharp tech selloff hits semiconductor names; credit calm limits damage"
+        },
+        {
+          "headline": "What's Going On With Marvell Technology Stock Friday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62989850/whats-going-on-with-marvell-technology-stock-friday-4",
+          "time": "2026-11-06T16:02:44Z",
+          "sentiment": 0.3,
+          "reason": "Oversold AI chip stocks rebound as investors return"
+        },
         {
           "headline": "Western Digital Stock Rebounds as Wall Street Bets AI Storage Demand Outlasts Election Rout",
           "url": "https://www.benzinga.com/markets/tech/26/11/62983095/western-digital-stock-rebounds-as-wall-street-bets-ai-storage-demand-outlasts-election-rout",
@@ -384,20 +412,6 @@
           "time": "2026-11-06T14:27:57Z",
           "sentiment": -0.6,
           "reason": "40% DRAM ETF plunge signals unwinding of memory chip trade"
-        },
-        {
-          "headline": "'TSMC Weighs Making Advanced Memory Chips to Capture More AI Spending' - The Information",
-          "url": "https://www.benzinga.com/news/26/11/62976032/tsmc-weighs-making-advanced-memory-chips-to-capture-more-ai-spending-the-information",
-          "time": "2026-11-06T14:05:48Z",
-          "sentiment": -0.3,
-          "reason": "TSMC entering advanced memory could increase competition for Micron"
-        },
-        {
-          "headline": "Micron Technology Stock Is Surging Friday: What's Going On?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62971493/micron-technology-stock-is-surging-friday-whats-going-on",
-          "time": "2026-11-06T12:04:21Z",
-          "sentiment": 0.4,
-          "reason": "Sharp rebound after slide; memory pricing and AI demand supportive"
         }
       ]
     },
