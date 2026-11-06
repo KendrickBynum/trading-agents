@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T18:35:20.873747+00:00",
-  "market_risk": 0.193,
+  "generated_at": "2026-11-06T19:35:20.607268+00:00",
+  "market_risk": 0.187,
   "tickers": {
     "SPY": {
       "score": -0.025,
@@ -108,10 +108,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.069,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.04,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Oracle Stock Slides as Microsoft Reportedly Pulls Back From AI Computing Deal",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63003689/oracle-stock-slides-as-microsoft-reportedly-pulls-back-from-ai-computing-deal",
+          "time": "2026-11-06T18:45:10Z",
+          "sentiment": -0.15,
+          "reason": "Reported pullback from Oracle AI compute deal may signal weaker AI demand"
+        },
         {
           "headline": "AI Stocks Got Hammered After Midterms, but This Analyst Says the Panic Is Overblown",
           "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63002288/ai-stocks-got-hammered-after-midterms-but-this-analyst-says-the-panic-is-overblown",
@@ -139,20 +146,13 @@
           "time": "2026-11-06T16:41:56Z",
           "sentiment": 0.3,
           "reason": "OpenAI fundraising at ~50% higher valuation benefits key MSFT partner"
-        },
-        {
-          "headline": "'OpenAI will keep investing in AI data centers despite election results, CFO Says' - CNBC",
-          "url": "https://www.benzinga.com/news/26/11/62992632/openai-will-keep-investing-ai-data-centers-despite-election-results-cfo-says-cnbc",
-          "time": "2026-11-06T16:28:47Z",
-          "sentiment": 0.3,
-          "reason": "OpenAI commits to continued AI data center spending, supporting Azure demand"
         }
       ]
     },
     "NVDA": {
-      "score": -0.041,
-      "articles": 29,
-      "ai_articles": 29,
+      "score": -0.034,
+      "articles": 27,
+      "ai_articles": 27,
       "headlines": [
         {
           "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
@@ -234,10 +234,17 @@
       ]
     },
     "GOOGL": {
-      "score": 0.013,
+      "score": 0.063,
       "articles": 6,
       "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Crusoe Announces Wyoming Data Center Campus Update; Google Has Acquired Crusoe\u2019s Data Center Site In Southeast Wyoming, Completing Crusoe\u2019s Pre-Development Work On Site Selection, Governmental Approvals, And A Hybrid Power Strategy Developed With Tallgrass Energy",
+          "url": "https://www.benzinga.com/m/26/11/63004829/crusoe-announces-wyoming-data-center-campus-update-google-has-acquired-crusoe-s-data-center-site-sou",
+          "time": "2026-11-06T19:02:14Z",
+          "sentiment": 0.2,
+          "reason": "Google acquires Wyoming data center site, expanding AI infrastructure capacity"
+        },
         {
           "headline": "Google's $900 Million SpaceX Bet Is Now Worth $69 Billion. It Added Millions More Shares",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62992872/google-spacex-stake",
@@ -265,13 +272,6 @@
           "time": "2026-11-06T09:28:34Z",
           "sentiment": 0.2,
           "reason": "Forecast of lower capital raises and strong future free cash flow"
-        },
-        {
-          "headline": "Robotaxis Aren't Killing Lyft's Business: CEO Says Company Is Growing in AV Markets, Details Waymo Partnership",
-          "url": "https://www.benzinga.com/markets/earnings/26/11/62966806/robotaxis-arent-killing-lyfts-business-ceo-says-company-is-growing-in-av-markets-details-waymo-partnership",
-          "time": "2026-11-06T06:27:04Z",
-          "sentiment": 0.15,
-          "reason": "Waymo partnership growth and robotaxi demand, reassuring for Alphabet"
         }
       ]
     },
@@ -353,9 +353,9 @@
       ]
     },
     "MU": {
-      "score": -0.082,
-      "articles": 17,
-      "ai_articles": 17,
+      "score": -0.074,
+      "articles": 16,
+      "ai_articles": 16,
       "headlines": [
         {
           "headline": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
@@ -493,9 +493,9 @@
       ]
     },
     "AMD": {
-      "score": -0.009,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.001,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
         {
           "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",

@@ -1,139 +1,5 @@
 [
   {
-    "id": "62943516",
-    "created_at": "2026-11-05T19:20:02Z",
-    "headline": "Google Says Fuel Cells For Wyoming Project Will Be Made In America By Bloom Energy",
-    "url": "https://www.benzinga.com/news/26/11/62943516/google-says-fuel-cells-wyoming-project-will-be-made-america-bloom-energy",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Domestic fuel-cell sourcing for data center power; minor operational news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62943088",
-    "created_at": "2026-11-05T19:13:37Z",
-    "headline": "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62943088/sandisk-leads-memory-stocks-lower-a-look-inside-the-rout",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": -0.5,
-        "confidence": 0.55,
-        "reason": "Memory sell-off on fears of data-center delays and weaker chip demand"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "AI chip sell-off tied to data-center delay fears"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": -0.35,
-        "confidence": 0.45,
-        "reason": "Sector-wide AI chip rout on demand and delay concerns"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62942972",
-    "created_at": "2026-11-05T19:10:56Z",
-    "headline": "'Google Plans to Spend $17 Billion on Wyoming Data Center' - Bloomberg News",
-    "url": "https://www.benzinga.com/news/26/11/62942972/google-plans-spend-17-billion-wyoming-data-center-bloomberg-news",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Large data center investment supports AI infrastructure demand, though largely expected"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62942816",
-    "created_at": "2026-11-05T19:08:51Z",
-    "headline": "'GTA 6' Preorder Sales Hit $751 Million 2 Weeks Ahead of Release. Are Investors Ignoring Take-Two Stock Opportunity?",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62942816/gta-6-preorder-sales-hit-751-million-2-weeks-ahead-of-release-are-investors-ignoring-take-two-stock-opportunity",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "114508976",
-    "created_at": "2026-11-05T19:01:45Z",
-    "headline": "NVIDIA Faces Logistics and Regulatory Challenges for H200 Chips in China",
-    "url": "https://www.tradingview.com/news/gurufocus:88ae4b9a6094b:0-nvidia-faces-600-000-chip-china-bottleneck/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "About 600,000 H200 chips stuck awaiting China import approval"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "114508975",
-    "created_at": "2026-11-05T19:01:43Z",
-    "headline": "Meta, Google, and TikTok Sue to Block California Youth Social Media Law",
-    "url": "https://www.tradingview.com/news/seekingalpha:51f9438f3094b:0-meta-google-and-tiktok-sue-california-over-youth-social-media-law/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.25,
-        "reason": "Lawsuit against California youth law; litigation outcome uncertain, impact likely small"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62941594",
-    "created_at": "2026-11-05T18:42:24Z",
-    "headline": "'Apple Draws $31 Billion of Orders for High-Grade Bond Sale' - Bloomberg",
-    "url": "https://www.benzinga.com/news/26/11/62941594/apple-draws-31-billion-orders-high-grade-bond-sale-bloomberg",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62941579",
-    "created_at": "2026-11-05T18:42:08Z",
-    "headline": "Jim Cramer Says Nvidia Should Buy Shares on Thursday\u2019s 8% Drop: \u2018If the Cheapest Asset is Your Stock, You Should Buy It\u2019",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62941579/jim-cramer-says-nvidia-should-buy-shares-on-thursdays-8-drop-if-the-cheapest-asset-is-your-stock-you-should-buy-it",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Analyst commentary on buybacks after 8% drop; opinion, not new fundamentals"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "114654382",
     "created_at": "2026-11-05T20:01:30Z",
     "headline": "Scout Clean Energy's Nimbus Wind Farm Achieves Commercial Operations",
@@ -2990,6 +2856,84 @@
         "sentiment": -0.15,
         "confidence": 0.3,
         "reason": "Bessent flags Chinese non-compliance; raises US-China trade tension"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63005632",
+    "created_at": "2026-11-06T19:14:09Z",
+    "headline": "QQQ Vs. TQQQ: 3X Nasdaq ETFs Compounding Trap Is Costing Investors Big",
+    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63005632/qqq-vs-tqqq-3x-nasdaq-etfs-compounding-trap-is-costing-investors-big",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "General commentary on leveraged ETF decay; no fundamental QQQ catalyst"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63004829",
+    "created_at": "2026-11-06T19:02:14Z",
+    "headline": "Crusoe Announces Wyoming Data Center Campus Update; Google Has Acquired Crusoe\u2019s Data Center Site In Southeast Wyoming, Completing Crusoe\u2019s Pre-Development Work On Site Selection, Governmental Approvals, And A Hybrid Power Strategy Developed With Tallgrass Energy",
+    "url": "https://www.benzinga.com/m/26/11/63004829/crusoe-announces-wyoming-data-center-campus-update-google-has-acquired-crusoe-s-data-center-site-sou",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.2,
+        "confidence": 0.35,
+        "reason": "Google acquires Wyoming data center site, expanding AI infrastructure capacity"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "115910164",
+    "created_at": "2026-11-06T19:02:00Z",
+    "headline": "JPMorgan Chase Reiterates Buy Rating on Axon Enterprise",
+    "url": "https://de.marketscreener.com/boerse-nachrichten/axon-enterprise-inc-jpmorgan-chase-bekraeftigt-seine-kaufempfehlung-ce785fd2d88ff72c",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63004366",
+    "created_at": "2026-11-06T18:55:10Z",
+    "headline": "President Trump Posts On Truth Social \"I am pleased to announce that Mr. Stephen Miller, the current Deputy Chief of Staff of the Trump Administration, and one of my most trusted advisors, will become the Chief of Staff starting Monday, November 9, 2026. Susie Wiles, who has done an outstanding job, will be moving over to the Trump Political Operation. I want to thank her for her service as Chief of Staff \u2014 She has done a great job!\"",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63004366/president-trump-posts-truth-social-i-am-pleased-announce-mr-stephen-miller-current-deputy-chief-staf",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "White House staff change; political news with minimal expected market impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63003689",
+    "created_at": "2026-11-06T18:45:10Z",
+    "headline": "Oracle Stock Slides as Microsoft Reportedly Pulls Back From AI Computing Deal",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63003689/oracle-stock-slides-as-microsoft-reportedly-pulls-back-from-ai-computing-deal",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.15,
+        "confidence": 0.35,
+        "reason": "Reported pullback from Oracle AI compute deal may signal weaker AI demand"
       }
     ],
     "scorer": "claude"
