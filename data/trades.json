@@ -331,5 +331,18 @@
     "price": 350.735042,
     "notional": 4024.37,
     "reason": "limit buy 0.25 ATR below $352.97 (score +0.36, trend +0.65)"
+  },
+  {
+    "time": "2026-11-06T17:17:11.92535Z",
+    "book": "options",
+    "symbol": "AAPL261211C00345000",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
+    "qty": 1.0,
+    "price": 11.15,
+    "notional": 1115.0,
+    "reason": "CALL AAPL $345 exp 2026-12-11 (35d, delta +0.53) on score +0.47; max loss $1,115",
+    "underlying": "AAPL"
   }
 ]

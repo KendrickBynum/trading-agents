@@ -10,17 +10,8 @@
       "delta": 0.5273,
       "iv": 0.2528,
       "dte": 35,
-      "limit": 11.15
-    },
-    "NVDA261127P00195000": {
-      "time": "2026-11-06T16:35:45.718243+00:00",
-      "underlying": "NVDA",
-      "type": "put",
-      "score": -0.356,
-      "delta": -0.553,
-      "iv": 0.5808,
-      "dte": 21,
-      "limit": 13.6
+      "limit": 11.15,
+      "avg": 11.15
     }
   },
   "exits": {
@@ -30,16 +21,16 @@
   },
   "order_reasons": {
     "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180",
-    "ce8d07c3-dad3-47df-acf9-d1fb2c421287": "CALL AAPL $345 exp 2026-12-11 (35d, delta +0.53) on score +0.47; max loss $1,115",
     "6da196b9-9bc9-4fec-8f1a-4d18e0a6a3ec": "PUT NVDA $195 exp 2026-11-27 (21d, delta -0.55) on score -0.36; max loss $1,360"
   },
   "logged_orders": [
+    "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
+    "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
     "4fde783c-5790-4980-8b54-82b5bb8e20d5",
-    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
-    "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
-    "d4d6889e-22fd-46de-9a53-88417a40ec77",
     "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
-    "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20"
+    "d4d6889e-22fd-46de-9a53-88417a40ec77",
+    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
+    "58e92b03-69a5-4dab-928d-2ab5ad9316f9"
   ],
-  "last_order_check": "2026-11-06T16:35:45.718243+00:00"
+  "last_order_check": "2026-11-06T17:35:36.440500+00:00"
 }

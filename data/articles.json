@@ -1,232 +1,5 @@
 [
   {
-    "id": "62937542",
-    "created_at": "2026-11-05T17:28:34Z",
-    "headline": "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62937542/coreweave-and-nebius-tumble-15-as-amazon-and-big-tech-hyperscalers-outlast-ai-data-center-selloff",
-    "source": "benzinga",
-    "market_risk": 0.45,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.2,
-        "confidence": 0.35,
-        "reason": "Hyperscalers held up better than neocloud peers during data center selloff"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.25,
-        "reason": "Relative resilience versus AI infrastructure peers amid data center restrictions"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.25,
-        "reason": "Relative resilience versus AI infrastructure peers amid data center restrictions"
-      },
-      {
-        "ticker": "META",
-        "sentiment": 0.1,
-        "confidence": 0.25,
-        "reason": "Relative resilience versus AI infrastructure peers amid data center restrictions"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62937412",
-    "created_at": "2026-11-05T17:26:24Z",
-    "headline": "SanDisk Bears Hit Jackpot: Short ETF Rockets 35%, Bullish Funds Bite the Dust",
-    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/62937412/sandisk-bears-hit-jackpot-short-etf-rockets-35-bullish-funds-bite-the-dust",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Memory sector sympathy selloff after SanDisk's 17% plunge"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62936736",
-    "created_at": "2026-11-05T17:13:39Z",
-    "headline": "Google Rolls Out Gemini Omni 1.2 Flash",
-    "url": "https://www.benzinga.com/news/26/11/62936736/google-rolls-out-gemini-omni-1-2-flash",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Routine model rollout, limited near-term stock impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62936509",
-    "created_at": "2026-11-05T17:10:32Z",
-    "headline": "'Marco Rubio \u2018on resignation watch\u2019 from Trump administration after midterms disaster' - Independent",
-    "url": "https://www.benzinga.com/news/26/11/62936509/marco-rubio-resignation-watch-trump-administration-after-midterms-disaster-independent",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62936363",
-    "created_at": "2026-11-05T17:08:11Z",
-    "headline": "Google Investing $17B For Data Center Construction In Wyoming",
-    "url": "https://www.benzinga.com/news/26/11/62936363/google-investing-17b-data-center-construction-wyoming",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "$17B data center investment signals sustained AI infrastructure spending"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62936226",
-    "created_at": "2026-11-05T17:06:21Z",
-    "headline": "'OpenAI says its new cybersecurity model is better at not hacking other companies' - The Verge",
-    "url": "https://www.benzinga.com/news/26/11/62936226/openai-says-its-new-cybersecurity-model-better-not-hacking-other-companies-verge",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62935903",
-    "created_at": "2026-11-05T17:01:46Z",
-    "headline": "Nvidia, Micron, 8 Other AI Stocks Just Broke Below a Key Technical Support",
-    "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62935903/nvidia-micron-ai-stocks-200-day-moving-average-break",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.5,
-        "confidence": 0.5,
-        "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": -0.5,
-        "confidence": 0.5,
-        "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": -0.4,
-        "confidence": 0.45,
-        "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62934964",
-    "created_at": "2026-11-05T16:47:29Z",
-    "headline": "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62934964/us-tech-stocks-wipe-out-1-7-trillion-thursday-nvidia-amd-micron",
-    "source": "benzinga",
-    "market_risk": 0.55,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.5,
-        "confidence": 0.45,
-        "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": -0.5,
-        "confidence": 0.45,
-        "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": -0.5,
-        "confidence": 0.45,
-        "reason": "Led $1.7T tech selloff; momentum risk into next sessions"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.3,
-        "confidence": 0.35,
-        "reason": "Part of broad $1.7T mega-cap tech selloff"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.3,
-        "confidence": 0.35,
-        "reason": "Part of broad $1.7T mega-cap tech selloff"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.3,
-        "confidence": 0.35,
-        "reason": "Part of broad $1.7T mega-cap tech selloff"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.3,
-        "confidence": 0.35,
-        "reason": "Part of broad $1.7T mega-cap tech selloff"
-      },
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.3,
-        "confidence": 0.35,
-        "reason": "Part of broad $1.7T mega-cap tech selloff"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62934299",
-    "created_at": "2026-11-05T16:38:10Z",
-    "headline": "'Iran Is Reviewing \u2018Concrete Proposals\u2019 On Nuclear Program, Officials Say; Iran\u2019s Willingness To Re-Engage On The Issue Suggests That Qatar-Led Diplomatic Efforts To Avert Full-Blown War Between The U.S. And Iran Have Had Some Success' - NY Times",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62934299/iran-reviewing-concrete-proposals-nuclear-program-officials-say-iran-s-willingness-re-engage-issue-s",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Diplomatic progress lowers US-Iran war risk premium"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": -0.15,
-        "confidence": 0.2,
-        "reason": "Reduced Middle East conflict risk may ease oil risk premium"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62934290",
-    "created_at": "2026-11-05T16:38:01Z",
-    "headline": "Dan Ives Rides the Blue Tidal Wave of 2026 Midterm Election by Being Selective: Here\u2019s His 10 Stock Picks",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62934290/dan-ives-rides-the-blue-tidal-wave-of-2026-midterm-election-by-being-selective-heres-his-10-stock-picks",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "62940732",
     "created_at": "2026-11-05T18:24:06Z",
     "headline": "Amazon Stock Pulls Back: What's Going On?",
@@ -358,33 +131,6 @@
         "reason": "Opinion piece on political market expectations; minimal direct impact"
       }
     ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62937862",
-    "created_at": "2026-11-05T17:35:08Z",
-    "headline": "2 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/62937862/2-consumer-discretionary-stocks-whale-alerts-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Options whale alert is routine flow data, no fundamental news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62937768",
-    "created_at": "2026-11-05T17:33:44Z",
-    "headline": "Uber Q3 Mobility Miss On High Fuel Prices; Delivery, AV Momentum Intact",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
     "scorer": "claude"
   },
   {
@@ -2942,6 +2688,143 @@
         "sentiment": 0.25,
         "confidence": 0.4,
         "reason": "Historical post-VIX-spike rebounds favor Nasdaq recovery"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62997254",
+    "created_at": "2026-11-06T17:27:23Z",
+    "headline": "Live On CNBC, Jim Lebenthal Announces Bought More Amazon",
+    "url": "https://www.benzinga.com/quote/AMZN",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Media commentator says he bought more; minor, no fundamental news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62997112",
+    "created_at": "2026-11-06T17:25:01Z",
+    "headline": "Chip Stocks Are Now Cheaper Than the S&P 500 \u2014 Something Unseen During the Entire AI Boom",
+    "url": "https://www.benzinga.com/markets/equities/26/11/62997112/chip-stocks-cheaper-than-sp-500-ai-boom-semiconductor-discount",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Chip valuation discount may spur rebound, but sector drawdown signals stress"
+      },
+      {
+        "ticker": "LRCX",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Semis at discount to S&P after 38% SOX drop; possible mean reversion"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Semis at discount to S&P after 38% SOX drop; possible mean reversion"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Semis at discount to S&P after 38% SOX drop; possible mean reversion"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62997004",
+    "created_at": "2026-11-06T17:23:35Z",
+    "headline": "\"U.S. Warns China It Must 'Immediately\u2019 Meet Terms Of Busan Trade Deal\" - Financial Times",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62997004/u-s-warns-china-it-must-immediately-meet-terms-busan-trade-deal-financial-times",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "US demands China meet Busan trade terms; renewed trade tension risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62996919",
+    "created_at": "2026-11-06T17:22:32Z",
+    "headline": "Live On CNBC, Malcolm Ethridge Announces Trimmed Nvidia Position",
+    "url": "https://www.benzinga.com/quote/NVDA",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.25,
+        "reason": "Commentator trimmed position; minor signal, largely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62996907",
+    "created_at": "2026-11-06T17:22:20Z",
+    "headline": "Why Is Nebius Stock Surging on Friday?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62996907/why-is-nebius-stock-surging-on-friday-2",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Cloud and AI infrastructure rebound lifts sector sentiment ahead of earnings"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62993876",
+    "created_at": "2026-11-06T16:41:56Z",
+    "headline": "'OpenAI CFO Confirms Fundraising Talks At Almost A 50% Lift In Valuation From The Round Closed In March' - CNBC",
+    "url": "https://www.benzinga.com/news/26/11/62993876/openai-cfo-confirms-fundraising-talks-almost-50-lift-valuation-round-closed-march-cnbc",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "OpenAI fundraising at ~50% higher valuation benefits key MSFT partner"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "62993622",
+    "created_at": "2026-11-06T16:40:15Z",
+    "headline": "Treasury Secretary Scott Bessent Posts On X \"Thanks to America\u2019s unrivaled entrepreneurial spirit and dynamism, the re-industrialization and re-privatization of the American economy are gathering extraordinary force. Today\u2019s jobs report shows our great American companies have created nearly 400,000 private-sector jobs in the past three months. Manufacturing employment has now risen by over 100,000 in 2026 alone....\"",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62993622/treasury-secretary-scott-bessent-posts-x-thanks-america-s-unrivaled-entrepreneurial-spirit-and-dynam",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.25,
+        "confidence": 0.4,
+        "reason": "Strong jobs data: ~400k private jobs in three months, manufacturing up"
       }
     ],
     "scorer": "claude"

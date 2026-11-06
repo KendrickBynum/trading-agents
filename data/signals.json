@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-11-06T16:35:23.010201+00:00",
-  "market_risk": 0.206,
+  "generated_at": "2026-11-06T17:35:21.181835+00:00",
+  "market_risk": 0.2,
   "tickers": {
     "SPY": {
-      "score": 0.082,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.064,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "\"U.S. Warns China It Must 'Immediately\u2019 Meet Terms Of Busan Trade Deal\" - Financial Times",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62997004/u-s-warns-china-it-must-immediately-meet-terms-busan-trade-deal-financial-times",
+          "time": "2026-11-06T17:23:35Z",
+          "sentiment": -0.2,
+          "reason": "US demands China meet Busan trade terms; renewed trade tension risk"
+        },
+        {
+          "headline": "Treasury Secretary Scott Bessent Posts On X \"Thanks to America\u2019s unrivaled entrepreneurial spirit and dynamism, the re-industrialization and re-privatization of the American economy are gathering extraordinary force. Today\u2019s jobs report shows our great American companies have created nearly 400,000 private-sector jobs in the past three months. Manufacturing employment has now risen by over 100,000 in 2026 alone....\"",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62993622/treasury-secretary-scott-bessent-posts-x-thanks-america-s-unrivaled-entrepreneurial-spirit-and-dynam",
+          "time": "2026-11-06T16:40:15Z",
+          "sentiment": 0.25,
+          "reason": "Strong jobs data: ~400k private jobs in three months, manufacturing up"
+        },
         {
           "headline": "Jobs Report Boosts December Fed Rate Hike Bets",
           "url": "https://www.benzinga.com/opinion/26/11/62992619/jobs-report-boosts-december-fed-rate-hike-bets",
@@ -27,20 +41,6 @@
           "time": "2026-11-06T15:00:07Z",
           "sentiment": 0.2,
           "reason": "Consumer sentiment beat estimates by a wide margin"
-        },
-        {
-          "headline": "Tehran Is Dealing Positively With The Latest Proposal Presented By The Mediators; Tehran Is Awaiting Practical Steps From Washington To Build Trust; Iran Is Open To Negotiations That Ensure Its Legitimate Demands Are Met, AlArabiya Citing Source",
-          "url": "https://www.benzinga.com/news/26/11/62980928/tehran-dealing-positively-latest-proposal-presented-mediators-tehran-awaiting-practical-steps-washin",
-          "time": "2026-11-06T14:53:19Z",
-          "sentiment": 0.3,
-          "reason": "Iran engaging on mediator proposal eases geopolitical risk"
-        },
-        {
-          "headline": "USA Nonfarm Payrolls For Oct. 165K Vs 65K Est.",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-06T13:30:15Z",
-          "sentiment": 0.2,
-          "reason": "Payrolls well above estimates signal a resilient economy"
         }
       ]
     },
@@ -108,10 +108,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.075,
+      "score": 0.14,
       "articles": 7,
       "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "'OpenAI CFO Confirms Fundraising Talks At Almost A 50% Lift In Valuation From The Round Closed In March' - CNBC",
+          "url": "https://www.benzinga.com/news/26/11/62993876/openai-cfo-confirms-fundraising-talks-almost-50-lift-valuation-round-closed-march-cnbc",
+          "time": "2026-11-06T16:41:56Z",
+          "sentiment": 0.3,
+          "reason": "OpenAI fundraising at ~50% higher valuation benefits key MSFT partner"
+        },
         {
           "headline": "'OpenAI will keep investing in AI data centers despite election results, CFO Says' - CNBC",
           "url": "https://www.benzinga.com/news/26/11/62992632/openai-will-keep-investing-ai-data-centers-despite-election-results-cfo-says-cnbc",
@@ -139,21 +146,28 @@
           "time": "2026-11-06T10:56:26Z",
           "sentiment": -0.15,
           "reason": "Hyperscaler exposure to AI bubble fears amid tech selloff"
-        },
-        {
-          "headline": "Dan Ives Forecasts 25% Drop In Capital Raises for MSFT, META, GOOGL, AMZN as 2027 CapEx Peak Sets Up \u2018Massive\u2019 Cash Flow Ramp by 2029",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62968059/dan-ives-forecasts-25-drop-in-capital-raises-for-msft-meta-googl-amzn-as-2027-capex-peak-sets-up-massive-cash-flow-ramp-by-2029",
-          "time": "2026-11-06T09:28:34Z",
-          "sentiment": 0.2,
-          "reason": "Forecast of lower capital raises and strong future free cash flow"
         }
       ]
     },
     "NVDA": {
-      "score": -0.134,
+      "score": -0.082,
       "articles": 29,
       "ai_articles": 29,
       "headlines": [
+        {
+          "headline": "Chip Stocks Are Now Cheaper Than the S&P 500 \u2014 Something Unseen During the Entire AI Boom",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62997112/chip-stocks-cheaper-than-sp-500-ai-boom-semiconductor-discount",
+          "time": "2026-11-06T17:25:01Z",
+          "sentiment": 0.2,
+          "reason": "Semis at discount to S&P after 38% SOX drop; possible mean reversion"
+        },
+        {
+          "headline": "Why Is Nebius Stock Surging on Friday?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62996907/why-is-nebius-stock-surging-on-friday-2",
+          "time": "2026-11-06T17:22:20Z",
+          "sentiment": 0.2,
+          "reason": "Cloud and AI infrastructure rebound lifts sector sentiment ahead of earnings"
+        },
         {
           "headline": "Jobs Report Boosts December Fed Rate Hike Bets",
           "url": "https://www.benzinga.com/opinion/26/11/62992619/jobs-report-boosts-december-fed-rate-hike-bets",
@@ -174,27 +188,13 @@
           "time": "2026-11-06T16:02:44Z",
           "sentiment": 0.3,
           "reason": "Oversold AI chip stocks rebound as investors return"
-        },
-        {
-          "headline": "Western Digital Stock Rebounds as Wall Street Bets AI Storage Demand Outlasts Election Rout",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62983095/western-digital-stock-rebounds-as-wall-street-bets-ai-storage-demand-outlasts-election-rout",
-          "time": "2026-11-06T15:08:29Z",
-          "sentiment": 0.2,
-          "reason": "AI data-center buildout seen intact despite selloff"
-        },
-        {
-          "headline": "Watching Nvidia; Hunterbrook Media Issues Report Titled, \u201cThe Comprehensive Guide to the Bank of Nvidia\u201d",
-          "url": "https://www.benzinga.com/news/26/11/62981848/watching-nvidia-hunterbrook-media-issues-report-titled-comprehensive-guide-bank-nvidia",
-          "time": "2026-11-06T14:59:20Z",
-          "sentiment": -0.3,
-          "reason": "Hunterbrook critical report could pressure sentiment"
         }
       ]
     },
     "AMZN": {
-      "score": 0.006,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.012,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Amazon Introduces Text-Based Shopping Through Alexa",
@@ -234,9 +234,9 @@
       ]
     },
     "GOOGL": {
-      "score": -0.0,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.003,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "Google's $900 Million SpaceX Bet Is Now Worth $69 Billion. It Added Millions More Shares",
@@ -276,9 +276,9 @@
       ]
     },
     "META": {
-      "score": -0.042,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.016,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "AI Bubble About to Burst? Top Tech Investor Warns Most Neocloud Players Could Go to Zero",
@@ -307,13 +307,6 @@
           "time": "2026-11-05T18:14:20Z",
           "sentiment": -0.3,
           "reason": "AI capex and data center worries drag megacap tech"
-        },
-        {
-          "headline": "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62934964/us-tech-stocks-wipe-out-1-7-trillion-thursday-nvidia-amd-micron",
-          "time": "2026-11-05T16:47:29Z",
-          "sentiment": -0.3,
-          "reason": "Part of broad $1.7T mega-cap tech selloff"
         }
       ]
     },
@@ -332,9 +325,9 @@
       ]
     },
     "XOM": {
-      "score": -0.277,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.28,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "The Proposals Stop Short Of Complete Dismantlement, But Do Address Iran\u2019s Stockpile Of Highly Enriched Uranium; The Offers Would See Iran Receive Significant Sanctions Relief From U.S.; Iranian Negotiators Are Reviewing Proposals Under Which The Islamic Republic Would Limit Its Nuclear Program, The Times Of Israel, Citing Diplomatic Source",
@@ -363,21 +356,21 @@
           "time": "2026-11-06T12:38:22Z",
           "sentiment": -0.3,
           "reason": "Iran deal progress could ease oil supply risk premium"
-        },
-        {
-          "headline": "'Iran Is Reviewing \u2018Concrete Proposals\u2019 On Nuclear Program, Officials Say; Iran\u2019s Willingness To Re-Engage On The Issue Suggests That Qatar-Led Diplomatic Efforts To Avert Full-Blown War Between The U.S. And Iran Have Had Some Success' - NY Times",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62934299/iran-reviewing-concrete-proposals-nuclear-program-officials-say-iran-s-willingness-re-engage-issue-s",
-          "time": "2026-11-05T16:38:10Z",
-          "sentiment": -0.15,
-          "reason": "Reduced Middle East conflict risk may ease oil risk premium"
         }
       ]
     },
     "MU": {
-      "score": -0.203,
-      "articles": 20,
-      "ai_articles": 20,
+      "score": -0.155,
+      "articles": 18,
+      "ai_articles": 18,
       "headlines": [
+        {
+          "headline": "Chip Stocks Are Now Cheaper Than the S&P 500 \u2014 Something Unseen During the Entire AI Boom",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62997112/chip-stocks-cheaper-than-sp-500-ai-boom-semiconductor-discount",
+          "time": "2026-11-06T17:25:01Z",
+          "sentiment": 0.2,
+          "reason": "Semis at discount to S&P after 38% SOX drop; possible mean reversion"
+        },
         {
           "headline": "EXCLUSIVE: Nasdaq 100 Suffers Worst Day Since 2020, but Credit Markets Aren't Panicking, Says S&P Global Analyst",
           "url": "https://www.benzinga.com/markets/bonds/26/11/62990235/nasdaq-100-worst-day-credit-markets-coreweave-oracle-spacex-cds",
@@ -405,21 +398,21 @@
           "time": "2026-11-06T14:36:14Z",
           "sentiment": 0.3,
           "reason": "Premarket rebound after prior-day losses; recovers only part of selloff"
-        },
-        {
-          "headline": "$7 Billion Gone: DRAM ETF Investors Crushed As Memory Chip Mania Unravels",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62977178/7-billion-gone-dram-etf-investors-crushed-as-memory-chip-mania-unravels",
-          "time": "2026-11-06T14:27:57Z",
-          "sentiment": -0.6,
-          "reason": "40% DRAM ETF plunge signals unwinding of memory chip trade"
         }
       ]
     },
     "LRCX": {
-      "score": 0.303,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.275,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Chip Stocks Are Now Cheaper Than the S&P 500 \u2014 Something Unseen During the Entire AI Boom",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62997112/chip-stocks-cheaper-than-sp-500-ai-boom-semiconductor-discount",
+          "time": "2026-11-06T17:25:01Z",
+          "sentiment": 0.2,
+          "reason": "Semis at discount to S&P after 38% SOX drop; possible mean reversion"
+        },
         {
           "headline": "Lam Research Unleashes $25 Billion Stock Buyback",
           "url": "https://www.benzinga.com/markets/buybacks/26/11/62975570/lam-research-unleashes-25-billion-stock-buyback",
@@ -447,20 +440,13 @@
           "time": "2026-11-05T21:34:14Z",
           "sentiment": 0.5,
           "reason": "Large $25B buyback signals confidence and supports share price"
-        },
-        {
-          "headline": "Lam Research Announces $25 Billion Share Repurchase Authorization and Quarterly Dividend",
-          "url": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-25-billion-share-repurchase-authorization-and-declares-quarterly-dividend-302931288.html",
-          "time": "2026-11-05T21:32:39Z",
-          "sentiment": 0.5,
-          "reason": "$25B buyback plus dividend is a positive capital return signal"
         }
       ]
     },
     "TSLA": {
       "score": -0.302,
-      "articles": 10,
-      "ai_articles": 10,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "Musk Winds Down Cybertruck After Sales Collapse, Shifts Tesla Focus to Cybercab",
@@ -514,10 +500,17 @@
       ]
     },
     "AMD": {
-      "score": -0.161,
-      "articles": 12,
-      "ai_articles": 12,
+      "score": -0.079,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "Chip Stocks Are Now Cheaper Than the S&P 500 \u2014 Something Unseen During the Entire AI Boom",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62997112/chip-stocks-cheaper-than-sp-500-ai-boom-semiconductor-discount",
+          "time": "2026-11-06T17:25:01Z",
+          "sentiment": 0.2,
+          "reason": "Chip valuation discount may spur rebound, but sector drawdown signals stress"
+        },
         {
           "headline": "Micron, AMD, SanDisk Lead AI Stock Bounce as Investors Buy the Dip",
           "url": "https://www.benzinga.com/markets/tech/26/11/62977803/micron-amd-sandisk-lead-ai-stock-bounce-as-investors-buy-the-dip",
@@ -545,13 +538,6 @@
           "time": "2026-11-06T05:56:19Z",
           "sentiment": -0.5,
           "reason": "Asian chip rout and AI buildout fears weigh on semis"
-        },
-        {
-          "headline": "Trump Blames 'Dumocrats' as Stock Market Suffers $3 Trillion Rout After Democrats Win Congress: 'Your 401(k)s Have Dropped'",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62965277/donald-trump-democrats-stock-market-selloff-3-trillion-nasdaq-100-midterms",
-          "time": "2026-11-06T01:59:15Z",
-          "sentiment": -0.45,
-          "reason": "High-beta semiconductor exposure to the broad tech rout"
         }
       ]
     }
