@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-05T20:38:58.045098+00:00",
-  "market_risk": 0.141,
+  "generated_at": "2026-11-06T01:38:56.954426+00:00",
+  "market_risk": 0.137,
   "tickers": {
     "SPY": {
-      "score": -0.024,
+      "score": -0.051,
       "articles": 12,
       "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "'Trump-Backed Critical Minerals Deals Face Growing Pressure After Blue Wave' - Bloomberg News",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62947342/trump-backed-critical-minerals-deals-face-growing-pressure-after-blue-wave-bloomberg-news",
+          "time": "2026-11-05T20:40:04Z",
+          "sentiment": -0.2,
+          "reason": "Political shift may pressure Trump-backed critical minerals deals"
+        },
         {
           "headline": "'Iran Is Reviewing \u2018Concrete Proposals\u2019 On Nuclear Program, Officials Say; Iran\u2019s Willingness To Re-Engage On The Issue Suggests That Qatar-Led Diplomatic Efforts To Avert Full-Blown War Between The U.S. And Iran Have Had Some Success' - NY Times",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62934299/iran-reviewing-concrete-proposals-nuclear-program-officials-say-iran-s-willingness-re-engage-issue-s",
@@ -34,20 +41,13 @@
           "time": "2026-11-05T14:27:01Z",
           "sentiment": -0.2,
           "reason": "Fed official flags AI buildout as near-term inflationary; hawkish tilt"
-        },
-        {
-          "headline": "Fed's Hammack Says Fed's Hammack Says Gradual Rate Hikes Less Disruptive To Economy And Financial System; Inflation Has Been Too High, Moving In Wrong Direction; It's Hard To See Dollar Losing Reserve Status",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62918358/fed-s-hammack-says-fed-s-hammack-says-gradual-rate-hikes-less-disruptive-economy-and-financial-syste",
-          "time": "2026-11-05T13:55:28Z",
-          "sentiment": -0.2,
-          "reason": "Hawkish Fed official says inflation too high, favors gradual rate hikes"
         }
       ]
     },
     "QQQ": {
-      "score": -0.373,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.391,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
@@ -150,52 +150,59 @@
       ]
     },
     "NVDA": {
-      "score": -0.293,
-      "articles": 17,
-      "ai_articles": 17,
+      "score": -0.241,
+      "articles": 20,
+      "ai_articles": 20,
       "headlines": [
+        {
+          "headline": "NVIDIA Plans to Convert Telecom Facilities into AI Data Centers",
+          "url": "https://www.tradingview.com/news/stocktwits:f1672d0bc094b:0-nvidia-eyes-apollo-s-struggling-telecom-sites-to-sidestep-data-center-moratoriums-report/",
+          "time": "2026-11-06T00:01:31Z",
+          "sentiment": 0.3,
+          "reason": "Reported plan to accelerate AI deployment via telecom sites; still early"
+        },
+        {
+          "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market",
+          "time": "2026-11-05T23:16:48Z",
+          "sentiment": -0.5,
+          "reason": "Worst chip-sector day since 2020; broad semis weakness"
+        },
+        {
+          "headline": "Nvidia Stock Is Down Nearly 24% Ahead of Earnings: Is It a Buy?",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62956559/nvidia-stock-selloff",
+          "time": "2026-11-05T22:00:08Z",
+          "sentiment": 0.25,
+          "reason": "Pullback creates buy setup; strong chip demand supports forecasts"
+        },
+        {
+          "headline": "Michael Burry Asks Whether Anthropic\u2019s Partners Are Polishing Its IPO Numbers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62948723/michael-burry-asks-whether-anthropics-partners-are-polishing-its-ipo-numbers",
+          "time": "2026-11-05T21:02:04Z",
+          "sentiment": -0.15,
+          "reason": "Skeptical commentary on Anthropic IPO numbers may pressure AI cloud names"
+        },
         {
           "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
           "url": "https://www.benzinga.com/markets/tech/26/11/62946994/amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending",
           "time": "2026-11-05T20:32:21Z",
           "sentiment": 0.15,
           "reason": "Defense of AI spending may support AI chip sentiment; indirect and modest"
-        },
-        {
-          "headline": "'NVIDIA Has Approached Apollo About Creating A Network Of Small AI Data Centers Potentially Spanning 20 States Across The U.S.' - The Information",
-          "url": "https://www.benzinga.com/news/26/11/62945022/nvidia-has-approached-apollo-about-creating-network-small-ai-data-centers-potentially-spanning-20-st",
-          "time": "2026-11-05T19:50:25Z",
-          "sentiment": 0.3,
-          "reason": "Reported talks on AI data center network; speculative, unconfirmed demand driver"
-        },
-        {
-          "headline": "Nvidia Stock Is Now Cheaper Than a Toilet-Paper Company, Data Shows",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62944321/nvidia-stock-cheaper-than-toilet-paper-company-kimberly-clark-forward-pe",
-          "time": "2026-11-05T19:36:27Z",
-          "sentiment": 0.15,
-          "reason": "Valuation commentary on low forward P/E; opinion piece, not a new fundamental"
-        },
-        {
-          "headline": "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62943088/sandisk-leads-memory-stocks-lower-a-look-inside-the-rout",
-          "time": "2026-11-05T19:13:37Z",
-          "sentiment": -0.4,
-          "reason": "AI chip sell-off tied to data-center delay fears"
-        },
-        {
-          "headline": "NVIDIA Faces Logistics and Regulatory Challenges for H200 Chips in China",
-          "url": "https://www.tradingview.com/news/gurufocus:88ae4b9a6094b:0-nvidia-faces-600-000-chip-china-bottleneck/",
-          "time": "2026-11-05T19:01:45Z",
-          "sentiment": -0.3,
-          "reason": "About 600,000 H200 chips stuck awaiting China import approval"
         }
       ]
     },
     "AMZN": {
-      "score": 0.01,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": -0.007,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Michael Burry Asks Whether Anthropic\u2019s Partners Are Polishing Its IPO Numbers",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62948723/michael-burry-asks-whether-anthropics-partners-are-polishing-its-ipo-numbers",
+          "time": "2026-11-05T21:02:04Z",
+          "sentiment": -0.15,
+          "reason": "Questions on cloud partner accounting could weigh on AWS narrative"
+        },
         {
           "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
           "url": "https://www.benzinga.com/markets/tech/26/11/62940088/from-micron-to-amd-ai-stocks-crater-and-citi-just-flagged-an-exponential-new-threat-to-data-centers",
@@ -223,20 +230,13 @@
           "time": "2026-11-05T15:15:08Z",
           "sentiment": 0.25,
           "reason": "Analyst view that Amazon could outperform as AI monetizes"
-        },
-        {
-          "headline": "EXCLUSIVE: Democrats Took Congress. But AI's Spending Binge Isn't Going Anywhere, This CEO Says",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62924053/democrats-big-tech-ai-spending",
-          "time": "2026-11-05T14:53:42Z",
-          "sentiment": 0.2,
-          "reason": "AI capex expected to persist despite political shifts"
         }
       ]
     },
     "GOOGL": {
-      "score": -0.004,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.01,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "'Google Plans to Spend $17 Billion on Wyoming Data Center' - Bloomberg News",
@@ -332,9 +332,9 @@
       ]
     },
     "XOM": {
-      "score": -0.228,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "'Iran Is Reviewing \u2018Concrete Proposals\u2019 On Nuclear Program, Officials Say; Iran\u2019s Willingness To Re-Engage On The Issue Suggests That Qatar-Led Diplomatic Efforts To Avert Full-Blown War Between The U.S. And Iran Have Had Some Success' - NY Times",
@@ -342,21 +342,21 @@
           "time": "2026-11-05T16:38:10Z",
           "sentiment": -0.15,
           "reason": "Reduced Middle East conflict risk may ease oil risk premium"
-        },
-        {
-          "headline": "QUICK SPARK: Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62886507/trump-celebrates-stock-rally-fueled-by-his-own-partys-midterm-defeat",
-          "time": "2026-11-04T20:53:11Z",
-          "sentiment": -0.4,
-          "reason": "Oil fell 7%, which pressures energy producers like ExxonMobil"
         }
       ]
     },
     "MU": {
-      "score": -0.468,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": -0.472,
+      "articles": 14,
+      "ai_articles": 14,
       "headlines": [
+        {
+          "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market",
+          "time": "2026-11-05T23:16:48Z",
+          "sentiment": -0.5,
+          "reason": "Worst chip-sector day since 2020; broad semis weakness"
+        },
         {
           "headline": "One ETF Is Making a Killing on Micron's Stock Meltdown \u2014 Can It Keep Cashing In?",
           "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/62945242/one-etf-is-making-a-killing-on-micron-meltdown",
@@ -384,27 +384,63 @@
           "time": "2026-11-05T18:13:10Z",
           "sentiment": -0.6,
           "reason": "Micron sank in AI sell-off after midterm sweep"
-        },
-        {
-          "headline": "SanDisk Bears Hit Jackpot: Short ETF Rockets 35%, Bullish Funds Bite the Dust",
-          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/62937412/sandisk-bears-hit-jackpot-short-etf-rockets-35-bullish-funds-bite-the-dust",
-          "time": "2026-11-05T17:26:24Z",
-          "sentiment": -0.2,
-          "reason": "Memory sector sympathy selloff after SanDisk's 17% plunge"
         }
       ]
     },
     "LRCX": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.089,
+      "articles": 3,
+      "ai_articles": 3,
+      "headlines": [
+        {
+          "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market",
+          "time": "2026-11-05T23:16:48Z",
+          "sentiment": -0.5,
+          "reason": "Worst chip-sector day since 2020; broad semis weakness"
+        },
+        {
+          "headline": "Lam Research Announces $25B Buyback Plan",
+          "url": "https://www.benzinga.com/news/26/11/62954337/lam-research-announces-25b-buyback-plan",
+          "time": "2026-11-05T21:34:14Z",
+          "sentiment": 0.5,
+          "reason": "Large $25B buyback signals confidence and supports share price"
+        },
+        {
+          "headline": "Lam Research Announces $25 Billion Share Repurchase Authorization and Quarterly Dividend",
+          "url": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-25-billion-share-repurchase-authorization-and-declares-quarterly-dividend-302931288.html",
+          "time": "2026-11-05T21:32:39Z",
+          "sentiment": 0.5,
+          "reason": "$25B buyback plus dividend is a positive capital return signal"
+        }
+      ]
     },
     "TSLA": {
-      "score": -0.363,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.33,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Tesla Faces Potential Regulatory Headwinds in Texas Following Election Results",
+          "url": "https://www.tradingview.com/news/gurufocus:5b2c56cc2094b:0-elon-musk-faces-a-new-28-5-trillion-problem-after-texas-upset/",
+          "time": "2026-11-05T21:32:34Z",
+          "sentiment": -0.3,
+          "reason": "Possible Texas regulatory scrutiny of data center operations"
+        },
+        {
+          "headline": "GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target",
+          "url": "https://www.benzinga.com/news/26/11/62953587/glj-research-reiterates-sell-tesla-maintains-24-86-price-target",
+          "time": "2026-11-05T21:27:03Z",
+          "sentiment": -0.3,
+          "reason": "Sell rating with low $24.86 target is bearish"
+        },
+        {
+          "headline": "Elon Musk's SpaceX Default Risk Hits Record High as Democratic Sweep Adds to AI Rout",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62948387/elon-musks-spacex-default-risk-hits-record-high-as-democratic-sweep-adds-to-ai-rout",
+          "time": "2026-11-05T21:00:08Z",
+          "sentiment": -0.3,
+          "reason": "Musk-linked SpaceX default risk at record and political risks rising"
+        },
         {
           "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/62939997/stock-market-today-vix-spikes-ai-tech-rout-wipes-out-2-trillion-nvidia-amd",
@@ -418,34 +454,35 @@
           "time": "2026-11-05T16:47:29Z",
           "sentiment": -0.3,
           "reason": "Part of broad $1.7T mega-cap tech selloff"
-        },
-        {
-          "headline": "Tesla Bulls Could Get Burned? Gary Black Sees Trouble With SpaceX All-Stock Merger: Warns 24% Premium 'Can Quickly Go Negative'",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62904059/tesla-bulls-could-get-burned-gary-black-sees-trouble-with-spacex-all-stock-merger-warns-24-premium-can-quickly-go-negative",
-          "time": "2026-11-05T07:29:23Z",
-          "sentiment": -0.4,
-          "reason": "Proposed SpaceX all-stock merger risks dilution for Tesla holders"
-        },
-        {
-          "headline": "TSLA, SPCX Stocks Fall Pre-Market as Ted Cruz Says Democrats Will \u2018Persecute\u2019 Elon Musk: Ron DeSantis Warns \u2018I Guarantee You They Will Do That\u2019 (UPDATED)",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62903277/tsla-spcx-stocks-fall-overnight-ted-cruz-desantis-warn-democrats-persecute-elon-musk",
-          "time": "2026-11-05T06:03:44Z",
-          "sentiment": -0.3,
-          "reason": "Pre-market drop on political persecution concerns; sentiment-driven risk"
         }
       ]
     },
     "ASML": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.5,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market",
+          "time": "2026-11-05T23:16:48Z",
+          "sentiment": -0.5,
+          "reason": "Worst chip-sector day since 2020; broad semis weakness"
+        }
+      ]
     },
     "AMD": {
-      "score": -0.315,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.351,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market",
+          "time": "2026-11-05T23:16:48Z",
+          "sentiment": -0.5,
+          "reason": "Chip selloff; most semis in bear market, momentum weak"
+        },
         {
           "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
           "url": "https://www.benzinga.com/markets/tech/26/11/62946994/amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending",
@@ -473,13 +510,6 @@
           "time": "2026-11-05T18:13:10Z",
           "sentiment": -0.6,
           "reason": "AMD sank in AI tech rout; VIX spike signals stress"
-        },
-        {
-          "headline": "Nvidia, Micron, 8 Other AI Stocks Just Broke Below a Key Technical Support",
-          "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/62935903/nvidia-micron-ai-stocks-200-day-moving-average-break",
-          "time": "2026-11-05T17:01:46Z",
-          "sentiment": -0.4,
-          "reason": "Broke below 200-day moving average amid post-midterm AI spending fears"
         }
       ]
     }
