@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T19:56:51.796275+00:00",
-  "market_risk": 0.184,
+  "generated_at": "2026-11-06T20:35:21.294380+00:00",
+  "market_risk": 0.181,
   "tickers": {
     "SPY": {
       "score": -0.025,
@@ -150,10 +150,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.038,
+      "score": 0.005,
       "articles": 25,
       "ai_articles": 25,
       "headlines": [
+        {
+          "headline": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63010319/nvidia-chip-packaging",
+          "time": "2026-11-06T20:30:07Z",
+          "sentiment": 0.4,
+          "reason": "Reported billions in advanced packaging capacity addresses AI chip supply bottleneck"
+        },
         {
           "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63001253/ai-stocks-gpu-demand",
@@ -181,13 +188,6 @@
           "time": "2026-11-06T17:22:20Z",
           "sentiment": 0.2,
           "reason": "Cloud and AI infrastructure rebound lifts sector sentiment ahead of earnings"
-        },
-        {
-          "headline": "Jobs Report Boosts December Fed Rate Hike Bets",
-          "url": "https://www.benzinga.com/opinion/26/11/62992619/jobs-report-boosts-december-fed-rate-hike-bets",
-          "time": "2026-11-06T16:28:32Z",
-          "sentiment": -0.2,
-          "reason": "Stronger jobs data raises Fed hike odds, pressuring high-multiple growth"
         }
       ]
     },
@@ -304,18 +304,10 @@
       ]
     },
     "JPM": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Senate Democrats Reportedly Planning Probe into JPMorgan Chase's Ties to Jeffrey Epstein",
-          "url": "https://www.tradingview.com/news/seekingalpha:2ba380dec094b:0-democrats-plan-to-probe-jpmorgan-s-banking-ties-with-epstein-when-in-control-of-congress-cnbc/",
-          "time": "2026-11-05T20:01:29Z",
-          "sentiment": -0.2,
-          "reason": "Reported Epstein probe is reputational, but not until next year"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "XOM": {
       "score": -0.28,
@@ -493,9 +485,9 @@
       ]
     },
     "AMD": {
-      "score": -0.001,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.008,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",

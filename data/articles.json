@@ -1,62 +1,5 @@
 [
   {
-    "id": "114654382",
-    "created_at": "2026-11-05T20:01:30Z",
-    "headline": "Scout Clean Energy's Nimbus Wind Farm Achieves Commercial Operations",
-    "url": "https://www.globenewswire.com/news-release/2026/11/05/3396771/0/en/scout-clean-energy-s-nimbus-wind-farm-achieves-commercial-operations-supporting-microsoft-s-clean-energy-portfolio.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Routine power purchase agreement; minor clean-energy supply positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "114654381",
-    "created_at": "2026-11-05T20:01:29Z",
-    "headline": "Senate Democrats Reportedly Planning Probe into JPMorgan Chase's Ties to Jeffrey Epstein",
-    "url": "https://www.tradingview.com/news/seekingalpha:2ba380dec094b:0-democrats-plan-to-probe-jpmorgan-s-banking-ties-with-epstein-when-in-control-of-congress-cnbc/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Reported Epstein probe is reputational, but not until next year"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62946994",
-    "created_at": "2026-11-05T20:32:21Z",
-    "headline": "AMD CEO Lisa Su Calls This Market Moment \u2018Short-Sighted\u2019 on AI Spending",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62946994/amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "CEO reaffirms long-term AI demand amid sector selloff; executive commentary only"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Defense of AI spending may support AI chip sentiment; indirect and modest"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "115291327",
     "created_at": "2026-11-06T01:01:33Z",
     "headline": "JPMorgan Chase Bank Acts as Sole Arranger for $500 Million Debt Financing",
@@ -2892,6 +2835,91 @@
         "reason": "Reduced odds of SpaceX-Tesla merger, a speculative catalyst, likely partly priced in"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63010319",
+    "created_at": "2026-11-06T20:30:07Z",
+    "headline": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63010319/nvidia-chip-packaging",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Reported billions in advanced packaging capacity addresses AI chip supply bottleneck"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63010237",
+    "created_at": "2026-11-06T20:28:48Z",
+    "headline": "Jason Calacanis Is Buying These 8 Stocks After the Midterm Selloff: 'Markets Top Tick and Set New Records'",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63010237/jason-calacanis-is-buying-these-8-stocks-after-the-midterm-selloff-markets-top-tick-and-set-new-records",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "Single investor's bullish opinion; largely priced in and non-actionable"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "Investor commentary on buying; weak signal, no company-specific news"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Mentioned in investor's stock picks; no company-specific catalyst"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Mentioned in investor's stock picks; no company-specific catalyst"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Mentioned in investor's stock picks; no company-specific catalyst"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "116017333",
+    "created_at": "2026-11-06T20:02:39Z",
+    "headline": "Protesters Occupy Microsoft Data Center Construction Site in Amsterdam",
+    "url": "https://www.barchart.com/story/news/8702992/protesters-break-into-microsoft-data-center-site-in-amsterdam-as-europes-backlash-spreads",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Local protest at data center site; minor operational and reputational noise"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "116015538",
+    "created_at": "2026-11-06T20:01:41Z",
+    "headline": "JPMorgan Chase & Co. Files Major Holdings Notification for Delivery Hero SE",
+    "url": "https://www.tradingview.com/news/tradingview:e5f550686c362:0-delivery-hero-se-dher-reports-jpmorgan-chase-voting-rights-threshold-event/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
