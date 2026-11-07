@@ -34,364 +34,6 @@
     "scorer": "claude"
   },
   {
-    "id": "115290417",
-    "created_at": "2026-11-06T00:01:42Z",
-    "headline": "Micron Technology Announces Retirement of Board Member Linnie M. Haynesworth",
-    "url": "https://www.globenewswire.com/news-release/2026/11/05/3397160/14450/en/micron-announces-board-of-directors-retirement.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "115290414",
-    "created_at": "2026-11-06T00:01:31Z",
-    "headline": "NVIDIA Plans to Convert Telecom Facilities into AI Data Centers",
-    "url": "https://www.tradingview.com/news/stocktwits:f1672d0bc094b:0-nvidia-eyes-apollo-s-struggling-telecom-sites-to-sidestep-data-center-moratoriums-report/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Reported plan to accelerate AI deployment via telecom sites; still early"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "115290413",
-    "created_at": "2026-11-06T00:01:24Z",
-    "headline": "Apple Completes $7.5 Billion Bond Offering",
-    "url": "https://www.tradingview.com/news/stocktwits:339036295094b:0-apple-reportedly-set-to-raise-7-5b-from-bond-offering-amid-market-selloff/",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62961405",
-    "created_at": "2026-11-05T23:16:48Z",
-    "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
-    "url": "https://www.benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Chip selloff; most semis in bear market, momentum weak"
-      },
-      {
-        "ticker": "ASML",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Worst chip-sector day since 2020; broad semis weakness"
-      },
-      {
-        "ticker": "LRCX",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Worst chip-sector day since 2020; broad semis weakness"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Worst chip-sector day since 2020; broad semis weakness"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Worst chip-sector day since 2020; broad semis weakness"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62959284",
-    "created_at": "2026-11-05T22:38:21Z",
-    "headline": "'Rubio Rejects Reports He Will Leave His Jobs To Run For President; President Trump\u2019s Secretary Of State And National Security Adviser Said He Intended To Stick With The Administration To The End' - NY Times",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62959284/rubio-rejects-reports-he-will-leave-his-jobs-run-president-president-trump-s-secretary-state-and-nat",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "115024144",
-    "created_at": "2026-11-05T22:31:46Z",
-    "headline": "Concentrix Launches New AI Application for Microsoft Dynamics 365",
-    "url": "https://www.globenewswire.com/news-release/2026/11/05/3396551/0/en/concentrix-brings-agentic-ai-migration-engine-to-microsoft-marketplace.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "115024140",
-    "created_at": "2026-11-05T22:31:43Z",
-    "headline": "Amazon Announces 2027 Fulfillment Fee Adjustments for Marketplace Sellers",
-    "url": "https://www.pymnts.com/news/retail/2026/amazon-raises-seller-fees-walmart-expands-drone-delivery/",
-    "source": "fiscal.ai",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Seller fee increases support Amazon revenue, but effective only in 2027"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "115024139",
-    "created_at": "2026-11-05T22:31:43Z",
-    "headline": "Beijing Green Forest Certification Approved for Amazon Climate Pledge Friendly Standard",
-    "url": "https://www.streetinsider.com/ACCESS+Newswire/Beijing+Green+Forest+Certification+Approved+to+Certify+Electronics+Under+Amazon-Recognized+Recycled+Content+Standard/27295968.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.01,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "62957898",
-    "created_at": "2026-11-05T22:15:29Z",
-    "headline": "IREN Says At Microsoft\u2019s Request, We Are Implementing Network Design Change Across Horizon Deployments; Under Microsoft Agreement, Delivery Dates Are Extended, Without Delay Credits, For Delays Resulting From Microsoft-Requested Change; Expect Making Significant Investments For Foreseeable Future, Including Capital Requirements Related To Microsoft & NVIDIA Agreements; Expect Making Significant Investments For Foreseeable Future, Including GPU Acquisitions, Development Of Additional Data Center Capacity",
-    "url": "https://www.benzinga.com/news/26/11/62957898/iren-says-microsoft-s-request-we-are-implementing-network-design-change-across-horizon-deployments-u",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Microsoft-requested delays without credits for IREN capacity; minor"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62957030",
-    "created_at": "2026-11-05T22:06:12Z",
-    "headline": "OpenAI Could Go Public In 2027 As Greg Brockman Signals IPO Readiness",
-    "url": "https://www.benzinga.com/markets/private-markets/26/11/62957030/openai-could-go-public-in-2027-as-greg-brockman-signals-ipo-readiness",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Possible future OpenAI IPO underwriting; not near-term"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62956559",
-    "created_at": "2026-11-05T22:00:08Z",
-    "headline": "Nvidia Stock Is Down Nearly 24% Ahead of Earnings: Is It a Buy?",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62956559/nvidia-stock-selloff",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.25,
-        "confidence": 0.3,
-        "reason": "Pullback creates buy setup; strong chip demand supports forecasts"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62954337",
-    "created_at": "2026-11-05T21:34:14Z",
-    "headline": "Lam Research Announces $25B Buyback Plan",
-    "url": "https://www.benzinga.com/news/26/11/62954337/lam-research-announces-25b-buyback-plan",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "LRCX",
-        "sentiment": 0.5,
-        "confidence": 0.5,
-        "reason": "Large $25B buyback signals confidence and supports share price"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "114879603",
-    "created_at": "2026-11-05T21:33:21Z",
-    "headline": "Chase Travel Announces Expansion of 'The Edit' Collection",
-    "url": "https://investingnews.com/chase-travel-unveils-27-trips-to-take-in-2027-and-previews-expanded-luxury-vacation-homes-offering/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "114877119",
-    "created_at": "2026-11-05T21:32:39Z",
-    "headline": "Lam Research Announces $25 Billion Share Repurchase Authorization and Quarterly Dividend",
-    "url": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-25-billion-share-repurchase-authorization-and-declares-quarterly-dividend-302931288.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "LRCX",
-        "sentiment": 0.5,
-        "confidence": 0.5,
-        "reason": "$25B buyback plus dividend is a positive capital return signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "114877118",
-    "created_at": "2026-11-05T21:32:34Z",
-    "headline": "Tesla Faces Potential Regulatory Headwinds in Texas Following Election Results",
-    "url": "https://www.tradingview.com/news/gurufocus:5b2c56cc2094b:0-elon-musk-faces-a-new-28-5-trillion-problem-after-texas-upset/",
-    "source": "fiscal.ai",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.3,
-        "confidence": 0.3,
-        "reason": "Possible Texas regulatory scrutiny of data center operations"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62953587",
-    "created_at": "2026-11-05T21:27:03Z",
-    "headline": "GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target",
-    "url": "https://www.benzinga.com/news/26/11/62953587/glj-research-reiterates-sell-tesla-maintains-24-86-price-target",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.3,
-        "confidence": 0.3,
-        "reason": "Sell rating with low $24.86 target is bearish"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62948723",
-    "created_at": "2026-11-05T21:02:04Z",
-    "headline": "Michael Burry Asks Whether Anthropic\u2019s Partners Are Polishing Its IPO Numbers",
-    "url": "https://www.benzinga.com/markets/tech/26/11/62948723/michael-burry-asks-whether-anthropics-partners-are-polishing-its-ipo-numbers",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.15,
-        "confidence": 0.2,
-        "reason": "Skeptical commentary on Anthropic IPO numbers may pressure AI cloud names"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": -0.1,
-        "confidence": 0.15,
-        "reason": "AI sentiment cloud from Anthropic IPO skepticism"
-      },
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.15,
-        "confidence": 0.2,
-        "reason": "Questions on cloud partner accounting could weigh on AWS narrative"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.15,
-        "reason": "Questions on cloud partner accounting affect AI cloud sentiment"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.1,
-        "confidence": 0.15,
-        "reason": "Questions on cloud partner accounting affect AI cloud sentiment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62948387",
-    "created_at": "2026-11-05T21:00:08Z",
-    "headline": "Elon Musk's SpaceX Default Risk Hits Record High as Democratic Sweep Adds to AI Rout",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62948387/elon-musks-spacex-default-risk-hits-record-high-as-democratic-sweep-adds-to-ai-rout",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.3,
-        "confidence": 0.3,
-        "reason": "Musk-linked SpaceX default risk at record and political risks rising"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62948234",
-    "created_at": "2026-11-05T20:57:23Z",
-    "headline": "Republican Senator Who Won Reelection Is Selling Magnificent Seven Stocks: Here Are the Trades",
-    "url": "https://www.benzinga.com/news/politics/26/11/62948234/republican-senator-who-won-reelection-is-selling-magnificent-seven-stocks-here-are-the-trades",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Single senator's stock sales are routine and weakly informative"
-      },
-      {
-        "ticker": "META",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Single senator's stock sales are routine and weakly informative"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Single senator's stock sales are routine and weakly informative"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "62947342",
-    "created_at": "2026-11-05T20:40:04Z",
-    "headline": "'Trump-Backed Critical Minerals Deals Face Growing Pressure After Blue Wave' - Bloomberg News",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/62947342/trump-backed-critical-minerals-deals-face-growing-pressure-after-blue-wave-bloomberg-news",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Political shift may pressure Trump-backed critical minerals deals"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "115518179",
     "created_at": "2026-11-06T14:32:04Z",
     "headline": "JPMorgan Chase Downgrades Munich Re and Hannover R\u00fcck",
@@ -2920,6 +2562,171 @@
     "source": "fiscal.ai",
     "market_risk": 0.0,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "116177137",
+    "created_at": "2026-11-06T21:31:39Z",
+    "headline": "JPMorgan Chase & Co. Files Major Holdings Notification for Adtran Networks SE",
+    "url": "https://www.placera.se/pressmeddelanden/adtran-networks-adtran-networks-se-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-20261106",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "116177133",
+    "created_at": "2026-11-06T21:31:33Z",
+    "headline": "Meta Expands Muse Personal AI Agent Capabilities",
+    "url": "https://www.forbesmiddleeast.com/innovation/artificial-intelligence-machine-learning/meta-lets-muse-users-build-custom-spaces-for-planners-trackers-and-games",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Incremental product feature update to Muse AI agent; limited financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "116177132",
+    "created_at": "2026-11-06T21:31:32Z",
+    "headline": "Microsoft to Wind Down AI Computing Rental Agreement with Oracle",
+    "url": "https://www.fidelity.com/news/article/company-news/202611061346MIDNIGHTUSEQUITY_A3748788",
+    "source": "fiscal.ai",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Reported exit from Oracle compute contract; possible capacity or strategy shift"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "116177131",
+    "created_at": "2026-11-06T21:31:32Z",
+    "headline": "Microsoft Expands Copilot for Finance with New Skills and Partner Plugins",
+    "url": "https://cloudwars.com/ai/microsoft-is-building-copilot-for-finance-with-new-skills-and-industry-specific-plugins/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "New Copilot finance skills; incremental product expansion"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "116177130",
+    "created_at": "2026-11-06T21:31:30Z",
+    "headline": "UBS Reports Declining iPhone Wait Times",
+    "url": "https://www.moomoo.com/news/post/1003849998/apple-iphone-wait-times-ease-while-duo-availability-still-in",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Falling iPhone wait times may signal softening demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63012491",
+    "created_at": "2026-11-06T21:01:33Z",
+    "headline": "'OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value' - Bloomberg News",
+    "url": "https://www.benzinga.com/news/26/11/63012491/openai-completes-11-billion-portion-funding-1-25-trillion-value-bloomberg-news",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "OpenAI funding round supports partner ecosystem valuation; likely partly priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63012338",
+    "created_at": "2026-11-06T21:00:07Z",
+    "headline": "Nasdaq 100 Has Worst Day Since 2020, Jobs Beat Keeps Fed Hike Alive: This Week on Wall Street",
+    "url": "https://www.benzinga.com/markets/market-summary/26/11/63012338/nasdaq-100-worst-day-since-2020-midterm-sweep-ai-selloff-jobs-fed-this-week-on-wall-street",
+    "source": "benzinga",
+    "market_risk": 0.6,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "AI stock slide and worst Nasdaq day since 2020 hit semiconductor leaders"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Memory and AI-linked names sold off with broader AI selloff"
+      },
+      {
+        "ticker": "LRCX",
+        "sentiment": -0.45,
+        "confidence": 0.55,
+        "reason": "Semiconductor equipment exposed to AI slide and rate-hike risk"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Broad tech selloff and AI sentiment deterioration pressure megacaps"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.5,
+        "confidence": 0.65,
+        "reason": "Nasdaq 100 suffered worst day since 2020 on AI and rate concerns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63011202",
+    "created_at": "2026-11-06T20:44:36Z",
+    "headline": "Oracle\u2019s AI Trouble Is Wall Street\u2019s New Headache: 2 ETFs to Watch as Data Center Fears Grow",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63011202/oracles-ai-trouble-is-wall-street-headache-2-etfs-to-watch",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.25,
+        "confidence": 0.4,
+        "reason": "Oracle AI and data center concerns weigh on cloud infrastructure trade"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Data center fears could pressure AWS sentiment in AI infrastructure trade"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Data center boom doubts may weigh on cloud and AI capex sentiment"
+      }
+    ],
     "scorer": "claude"
   }
 ]

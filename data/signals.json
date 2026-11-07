@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T20:35:21.294380+00:00",
-  "market_risk": 0.181,
+  "generated_at": "2026-11-07T00:06:30.551324+00:00",
+  "market_risk": 0.182,
   "tickers": {
     "SPY": {
-      "score": -0.025,
-      "articles": 14,
-      "ai_articles": 14,
+      "score": -0.023,
+      "articles": 13,
+      "ai_articles": 13,
       "headlines": [
         {
           "headline": "Live On CNBC, Fed's Daly Says Uncertainty On Tariffs, War, AI, But Inflation Is More Stubborn Than Would Like; Will Have To Tighten Policy Further; How Much More Tightening And When, Need More Information; Need To Be Deliberate; Prepared To Raise Rates If Its Called For; AI Repricing Trade Has Been Orderly So Far; If AI Repricing Signals Slowing Of Demand Might See Growth Come Down A Little; Not Worried Of Substantial Decline In Growth",
@@ -45,10 +45,17 @@
       ]
     },
     "QQQ": {
-      "score": 0.04,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.108,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Has Worst Day Since 2020, Jobs Beat Keeps Fed Hike Alive: This Week on Wall Street",
+          "url": "https://www.benzinga.com/markets/market-summary/26/11/63012338/nasdaq-100-worst-day-since-2020-midterm-sweep-ai-selloff-jobs-fed-this-week-on-wall-street",
+          "time": "2026-11-06T21:00:07Z",
+          "sentiment": -0.5,
+          "reason": "Nasdaq 100 suffered worst day since 2020 on AI and rate concerns"
+        },
         {
           "headline": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/62998202/stock-market-today-nasdaq-100-rebounds-chip-stocks-payrolls-beat",
@@ -76,21 +83,21 @@
           "time": "2026-11-06T15:37:20Z",
           "sentiment": 0.25,
           "reason": "Historical post-VIX-spike rebounds favor Nasdaq recovery"
-        },
-        {
-          "headline": "Top Analyst Flags 'Golden Buying Opportunity' for AI Stocks, Comparing 'Massive Tech Sell-Off' to 2020 Crash",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/62974026/top-analyst-flags-golden-buying-opportunity-for-ai-stocks-comparing-massive-tech-sell-off-to-2020-crash",
-          "time": "2026-11-06T13:17:22Z",
-          "sentiment": 0.2,
-          "reason": "Bullish analyst call on AI-led tech selloff; opinion, not data"
         }
       ]
     },
     "AAPL": {
-      "score": 0.342,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.142,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "UBS Reports Declining iPhone Wait Times",
+          "url": "https://www.moomoo.com/news/post/1003849998/apple-iphone-wait-times-ease-while-duo-availability-still-in",
+          "time": "2026-11-06T21:31:30Z",
+          "sentiment": -0.15,
+          "reason": "Falling iPhone wait times may signal softening demand"
+        },
         {
           "headline": "Apple Captures Record Share of Global Smartphone Revenue in Q3",
           "url": "https://appleosophy.com/wire/0qcu8mu/",
@@ -108,10 +115,24 @@
       ]
     },
     "MSFT": {
-      "score": 0.04,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.017,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "'OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value' - Bloomberg News",
+          "url": "https://www.benzinga.com/news/26/11/63012491/openai-completes-11-billion-portion-funding-1-25-trillion-value-bloomberg-news",
+          "time": "2026-11-06T21:01:33Z",
+          "sentiment": 0.2,
+          "reason": "OpenAI funding round supports partner ecosystem valuation; likely partly priced in"
+        },
+        {
+          "headline": "Oracle\u2019s AI Trouble Is Wall Street\u2019s New Headache: 2 ETFs to Watch as Data Center Fears Grow",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63011202/oracles-ai-trouble-is-wall-street-headache-2-etfs-to-watch",
+          "time": "2026-11-06T20:44:36Z",
+          "sentiment": -0.25,
+          "reason": "Oracle AI and data center concerns weigh on cloud infrastructure trade"
+        },
         {
           "headline": "Oracle Stock Slides as Microsoft Reportedly Pulls Back From AI Computing Deal",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63003689/oracle-stock-slides-as-microsoft-reportedly-pulls-back-from-ai-computing-deal",
@@ -132,28 +153,21 @@
           "time": "2026-11-06T17:43:16Z",
           "sentiment": -0.2,
           "reason": "Winding down Oracle capacity rental may signal softer AI cloud demand"
-        },
-        {
-          "headline": "'Microsoft Is Winding Down Oracle Deal To Rent AI Cloud Capacity' - Bloomberg News",
-          "url": "https://www.benzinga.com/news/26/11/62998165/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity",
-          "time": "2026-11-06T17:37:55Z",
-          "sentiment": -0.15,
-          "reason": "Reported exit from Oracle AI cloud capacity deal; ambiguous for MSFT"
-        },
-        {
-          "headline": "'OpenAI CFO Confirms Fundraising Talks At Almost A 50% Lift In Valuation From The Round Closed In March' - CNBC",
-          "url": "https://www.benzinga.com/news/26/11/62993876/openai-cfo-confirms-fundraising-talks-almost-50-lift-valuation-round-closed-march-cnbc",
-          "time": "2026-11-06T16:41:56Z",
-          "sentiment": 0.3,
-          "reason": "OpenAI fundraising at ~50% higher valuation benefits key MSFT partner"
         }
       ]
     },
     "NVDA": {
-      "score": 0.005,
-      "articles": 25,
-      "ai_articles": 25,
+      "score": -0.05,
+      "articles": 22,
+      "ai_articles": 22,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Has Worst Day Since 2020, Jobs Beat Keeps Fed Hike Alive: This Week on Wall Street",
+          "url": "https://www.benzinga.com/markets/market-summary/26/11/63012338/nasdaq-100-worst-day-since-2020-midterm-sweep-ai-selloff-jobs-fed-this-week-on-wall-street",
+          "time": "2026-11-06T21:00:07Z",
+          "sentiment": -0.5,
+          "reason": "AI stock slide and worst Nasdaq day since 2020 hit semiconductor leaders"
+        },
         {
           "headline": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63010319/nvidia-chip-packaging",
@@ -181,21 +195,28 @@
           "time": "2026-11-06T17:25:01Z",
           "sentiment": 0.2,
           "reason": "Semis at discount to S&P after 38% SOX drop; possible mean reversion"
-        },
-        {
-          "headline": "Why Is Nebius Stock Surging on Friday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62996907/why-is-nebius-stock-surging-on-friday-2",
-          "time": "2026-11-06T17:22:20Z",
-          "sentiment": 0.2,
-          "reason": "Cloud and AI infrastructure rebound lifts sector sentiment ahead of earnings"
         }
       ]
     },
     "AMZN": {
-      "score": 0.127,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.087,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Has Worst Day Since 2020, Jobs Beat Keeps Fed Hike Alive: This Week on Wall Street",
+          "url": "https://www.benzinga.com/markets/market-summary/26/11/63012338/nasdaq-100-worst-day-since-2020-midterm-sweep-ai-selloff-jobs-fed-this-week-on-wall-street",
+          "time": "2026-11-06T21:00:07Z",
+          "sentiment": -0.3,
+          "reason": "Broad tech selloff and AI sentiment deterioration pressure megacaps"
+        },
+        {
+          "headline": "Oracle\u2019s AI Trouble Is Wall Street\u2019s New Headache: 2 ETFs to Watch as Data Center Fears Grow",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63011202/oracles-ai-trouble-is-wall-street-headache-2-etfs-to-watch",
+          "time": "2026-11-06T20:44:36Z",
+          "sentiment": -0.2,
+          "reason": "Data center fears could pressure AWS sentiment in AI infrastructure trade"
+        },
         {
           "headline": "AI Stocks Got Hammered After Midterms, but This Analyst Says the Panic Is Overblown",
           "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63002288/ai-stocks-got-hammered-after-midterms-but-this-analyst-says-the-panic-is-overblown",
@@ -216,28 +237,21 @@
           "time": "2026-11-06T10:56:26Z",
           "sentiment": -0.15,
           "reason": "Hyperscaler exposure to AI bubble fears amid tech selloff"
-        },
-        {
-          "headline": "Dan Ives Forecasts 25% Drop In Capital Raises for MSFT, META, GOOGL, AMZN as 2027 CapEx Peak Sets Up \u2018Massive\u2019 Cash Flow Ramp by 2029",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62968059/dan-ives-forecasts-25-drop-in-capital-raises-for-msft-meta-googl-amzn-as-2027-capex-peak-sets-up-massive-cash-flow-ramp-by-2029",
-          "time": "2026-11-06T09:28:34Z",
-          "sentiment": 0.2,
-          "reason": "Forecast of lower capital raises and strong future free cash flow"
-        },
-        {
-          "headline": "Michael Burry Asks Whether Anthropic\u2019s Partners Are Polishing Its IPO Numbers",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62948723/michael-burry-asks-whether-anthropics-partners-are-polishing-its-ipo-numbers",
-          "time": "2026-11-05T21:02:04Z",
-          "sentiment": -0.15,
-          "reason": "Questions on cloud partner accounting could weigh on AWS narrative"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.063,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.004,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Oracle\u2019s AI Trouble Is Wall Street\u2019s New Headache: 2 ETFs to Watch as Data Center Fears Grow",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63011202/oracles-ai-trouble-is-wall-street-headache-2-etfs-to-watch",
+          "time": "2026-11-06T20:44:36Z",
+          "sentiment": -0.2,
+          "reason": "Data center boom doubts may weigh on cloud and AI capex sentiment"
+        },
         {
           "headline": "Crusoe Announces Wyoming Data Center Campus Update; Google Has Acquired Crusoe\u2019s Data Center Site In Southeast Wyoming, Completing Crusoe\u2019s Pre-Development Work On Site Selection, Governmental Approvals, And A Hybrid Power Strategy Developed With Tallgrass Energy",
           "url": "https://www.benzinga.com/m/26/11/63004829/crusoe-announces-wyoming-data-center-campus-update-google-has-acquired-crusoe-s-data-center-site-sou",
@@ -265,13 +279,6 @@
           "time": "2026-11-06T10:56:26Z",
           "sentiment": -0.15,
           "reason": "Hyperscaler exposure to AI bubble fears amid tech selloff"
-        },
-        {
-          "headline": "Dan Ives Forecasts 25% Drop In Capital Raises for MSFT, META, GOOGL, AMZN as 2027 CapEx Peak Sets Up \u2018Massive\u2019 Cash Flow Ramp by 2029",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62968059/dan-ives-forecasts-25-drop-in-capital-raises-for-msft-meta-googl-amzn-as-2027-capex-peak-sets-up-massive-cash-flow-ramp-by-2029",
-          "time": "2026-11-06T09:28:34Z",
-          "sentiment": 0.2,
-          "reason": "Forecast of lower capital raises and strong future free cash flow"
         }
       ]
     },
@@ -345,10 +352,17 @@
       ]
     },
     "MU": {
-      "score": -0.071,
+      "score": -0.132,
       "articles": 15,
       "ai_articles": 15,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Has Worst Day Since 2020, Jobs Beat Keeps Fed Hike Alive: This Week on Wall Street",
+          "url": "https://www.benzinga.com/markets/market-summary/26/11/63012338/nasdaq-100-worst-day-since-2020-midterm-sweep-ai-selloff-jobs-fed-this-week-on-wall-street",
+          "time": "2026-11-06T21:00:07Z",
+          "sentiment": -0.5,
+          "reason": "Memory and AI-linked names sold off with broader AI selloff"
+        },
         {
           "headline": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/62998202/stock-market-today-nasdaq-100-rebounds-chip-stocks-payrolls-beat",
@@ -376,21 +390,21 @@
           "time": "2026-11-06T16:02:44Z",
           "sentiment": 0.3,
           "reason": "Oversold AI chip stocks rebound as investors return"
-        },
-        {
-          "headline": "Western Digital Stock Rebounds as Wall Street Bets AI Storage Demand Outlasts Election Rout",
-          "url": "https://www.benzinga.com/markets/tech/26/11/62983095/western-digital-stock-rebounds-as-wall-street-bets-ai-storage-demand-outlasts-election-rout",
-          "time": "2026-11-06T15:08:29Z",
-          "sentiment": 0.2,
-          "reason": "Rebound as strategists say AI storage demand intact"
         }
       ]
     },
     "LRCX": {
-      "score": 0.275,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.019,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Has Worst Day Since 2020, Jobs Beat Keeps Fed Hike Alive: This Week on Wall Street",
+          "url": "https://www.benzinga.com/markets/market-summary/26/11/63012338/nasdaq-100-worst-day-since-2020-midterm-sweep-ai-selloff-jobs-fed-this-week-on-wall-street",
+          "time": "2026-11-06T21:00:07Z",
+          "sentiment": -0.45,
+          "reason": "Semiconductor equipment exposed to AI slide and rate-hike risk"
+        },
         {
           "headline": "Chip Stocks Are Now Cheaper Than the S&P 500 \u2014 Something Unseen During the Entire AI Boom",
           "url": "https://www.benzinga.com/markets/equities/26/11/62997112/chip-stocks-cheaper-than-sp-500-ai-boom-semiconductor-discount",
@@ -411,27 +425,13 @@
           "time": "2026-11-06T12:41:56Z",
           "sentiment": -0.2,
           "reason": "Cramer expresses cold feet on Lam Research; opinion only"
-        },
-        {
-          "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market",
-          "time": "2026-11-05T23:16:48Z",
-          "sentiment": -0.5,
-          "reason": "Worst chip-sector day since 2020; broad semis weakness"
-        },
-        {
-          "headline": "Lam Research Announces $25B Buyback Plan",
-          "url": "https://www.benzinga.com/news/26/11/62954337/lam-research-announces-25b-buyback-plan",
-          "time": "2026-11-05T21:34:14Z",
-          "sentiment": 0.5,
-          "reason": "Large $25B buyback signals confidence and supports share price"
         }
       ]
     },
     "TSLA": {
-      "score": -0.191,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.181,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "Reported Earlier: 'SpaceX, Tesla Merger Less Likely After Midterms. Texas Gov. Requests Pause On Land Talks' - Investor Business Daily",
@@ -471,23 +471,15 @@
       ]
     },
     "ASML": {
-      "score": -0.5,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Chip Stocks Just Had Their Worst Day Since 2020: 28 of 30 Biggest Names Are in a Bear Market",
-          "url": "https://www.benzinga.com/markets/equities/26/11/62961405/chip-stocks-worst-day-since-2020-soxx-bear-market",
-          "time": "2026-11-05T23:16:48Z",
-          "sentiment": -0.5,
-          "reason": "Worst chip-sector day since 2020; broad semis weakness"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "AMD": {
-      "score": -0.008,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.016,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
