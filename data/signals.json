@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-09T20:35:22.158290+00:00",
-  "market_risk": 0.108,
+  "generated_at": "2026-11-09T22:58:40.617841+00:00",
+  "market_risk": 0.102,
   "tickers": {
     "SPY": {
-      "score": -0.026,
+      "score": 0.038,
       "articles": 9,
       "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "President Trump Says Seeing Positive Momentum Toward An End To Iran Conflict; Much Was Discussed With Qatar With Respect To Iran",
+          "url": "https://www.benzinga.com/news/26/11/63072145/president-trump-says-seeing-positive-momentum-toward-end-iran-conflict-much-was-discussed-qatar-resp",
+          "time": "2026-11-09T21:33:42Z",
+          "sentiment": 0.3,
+          "reason": "Reported progress toward ending Iran conflict supports broad risk appetite"
+        },
         {
           "headline": "President Trump Says Abu Dhabi Talks This Week On Ukraine Present Chance Of A Possible Breakthrough",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63065433/president-trump-says-abu-dhabi-talks-week-ukraine-present-chance-possible-breakthrough",
@@ -34,13 +41,6 @@
           "time": "2026-11-09T17:09:12Z",
           "sentiment": -0.2,
           "reason": "Hawkish Fed tone on inflation risks weighing on equities"
-        },
-        {
-          "headline": "Iran Won\u2019t Enter Any Talks With U.S. In Absence Of Practical Action On 7 Conditions",
-          "url": "https://www.benzinga.com/news/26/11/63042297/iran-won-t-enter-any-talks-u-s-absence-practical-action-7-conditions",
-          "time": "2026-11-09T15:39:55Z",
-          "sentiment": -0.2,
-          "reason": "Stalled US-Iran talks raise geopolitical risk and volatility"
         }
       ]
     },
@@ -87,10 +87,17 @@
       ]
     },
     "MSFT": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.033,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Microsoft and Northern Trust Expand AI Collaboration",
+          "url": "https://www.barchart.com/press-releases/8737579/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai",
+          "time": "2026-11-09T21:31:39Z",
+          "sentiment": 0.15,
+          "reason": "Expanded enterprise AI partnership with Northern Trust"
+        },
         {
           "headline": "CoreWeave Stock Hits Turbulence Monday: What's Going On?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63031070/coreweave-stock-hits-turbulence-monday-whats-going-on",
@@ -101,10 +108,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.273,
-      "articles": 42,
-      "ai_articles": 42,
+      "score": -0.271,
+      "articles": 40,
+      "ai_articles": 40,
       "headlines": [
+        {
+          "headline": "Shareholders File Class-Action Lawsuit Against NVIDIA And CEO For Concealing Ties With Suspected Chinese Spy",
+          "url": "https://www.benzinga.com/news/26/11/63075419/shareholders-file-class-action-lawsuit-against-nvidia-and-ceo-concealing-ties-suspected-chinese-spy",
+          "time": "2026-11-09T22:28:52Z",
+          "sentiment": -0.3,
+          "reason": "Securities class action over alleged concealed ties to suspected Chinese spy"
+        },
         {
           "headline": "House Democratic Minority Leader Hakeem Jeffries Says There Are Real Concerns That Need To Be Addressed With Respect To The NVIDIA Situation; Says NVIDIA Situation Came Up In Intelligence Briefing But Mostly About Iran; Says He Strongly Supports Chips Restrictions In Senate NDAA On China Becoming Law",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63066004/house-democratic-minority-leader-hakeem-jeffries-says-there-are-real-concerns-need-be-addressed-resp",
@@ -132,21 +146,21 @@
           "time": "2026-11-09T20:01:27Z",
           "sentiment": 0.2,
           "reason": "Sovereign AI partnership supports NVIDIA's AI infrastructure demand; incremental, not material"
-        },
-        {
-          "headline": "Benzinga Market Summary: S&P Rises As Tech Rebounds, Oil Drops As Trump Downplays Future Strikes On Iran, NVIDIA Drops After CEO Admitted Affair With Alleged Chinese Asset",
-          "url": "https://www.benzinga.com/quote/BNO",
-          "time": "2026-11-09T19:55:30Z",
-          "sentiment": -0.4,
-          "reason": "Stock drops on CEO personal-conduct report; reputational and governance overhang"
         }
       ]
     },
     "AMZN": {
-      "score": 0.361,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.32,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Anthropic\u2019s S-1 Hides Its Most Bullish Number, Says Larridin CEO",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63074897/anthropic-ai-spending",
+          "time": "2026-11-09T22:17:06Z",
+          "sentiment": 0.15,
+          "reason": "Opinion piece suggests enterprise AI spending has room to grow"
+        },
         {
           "headline": "JPMorgan Names Amazon a Top AI Pick, Citing AWS Growth Projections",
           "url": "https://www.barchart.com/story/news/8737564/why-amazon-amzn-stock-is-up-today",
@@ -178,10 +192,24 @@
       ]
     },
     "GOOGL": {
-      "score": 0.017,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.005,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Anthropic\u2019s S-1 Hides Its Most Bullish Number, Says Larridin CEO",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63074897/anthropic-ai-spending",
+          "time": "2026-11-09T22:17:06Z",
+          "sentiment": 0.15,
+          "reason": "Opinion piece suggests enterprise AI spending has room to grow"
+        },
+        {
+          "headline": "Waymo Faces Fresh Federal Probe as Robotaxis Keep Blowing Past Stopped School Buses",
+          "url": "https://www.benzinga.com/markets/private-markets/26/11/63071430/waymo-faces-fresh-federal-probe-as-robotaxis-keep-blowing-past-stopped-school-buses",
+          "time": "2026-11-09T21:23:49Z",
+          "sentiment": -0.15,
+          "reason": "New federal probe into Waymo robotaxi safety violations"
+        },
         {
           "headline": "NHTSA Opens Recall Query Into Waymo Robotaxis For Continued Reports Of Passing Stopped School Buses After 2025 Software Recall",
           "url": "https://www.benzinga.com/news/26/11/63059655/nhtsa-opens-recall-query-waymo-robotaxis-continued-reports-passing-stopped-school-buses-after-2025-s",
@@ -254,9 +282,9 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.109,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.103,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "President Trump Tells Reuters After Talks With Qatari Leader That Qatar Would Rather See A Peaceful Solution With Iran But The U.S. Is Ready For Strikes If Necessary; Says Saudi Arabia Would Also Prefer A Peaceful Solution To Iran Conflict",
