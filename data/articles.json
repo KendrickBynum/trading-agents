@@ -1115,5 +1115,283 @@
     "market_risk": 0.0,
     "impacts": [],
     "scorer": "claude"
+  },
+  {
+    "id": "63041285",
+    "created_at": "2026-11-09T15:30:29Z",
+    "headline": "Fed's Goolsbee Says Big Problem Has All Been On The Inflation Side; Employment And Growth Are Actually Pretty Stable; Starting To See Inflation Kicking Up In Services; Data Centers Looking Like Old-Fashioned Overheating; Consumer Spending Has Been Main Driver Of Growth",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63041285/fed-s-goolsbee-says-big-problem-has-all-been-inflation-side-employment-and-growth-are-actually-prett",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Fed official flags persistent services inflation; mildly hawkish for equities"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63039328",
+    "created_at": "2026-11-09T15:14:15Z",
+    "headline": "What Is Going on With Taiwan Semiconductor Stock on Monday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63039328/what-is-going-on-with-taiwan-semiconductor-stock-on-monday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Report TSMC may make 3D DRAM challenging Micron's memory position"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Possible TSMC manufacturing for NVIDIA memory chips is mildly supportive"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63039207",
+    "created_at": "2026-11-09T15:13:25Z",
+    "headline": "FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists Due to Potential Increased Risk of Rare But Serious Eye Condition",
+    "url": "https://www.benzinga.com/news/26/11/63039207/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-due-potential-increased-ri",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63038727",
+    "created_at": "2026-11-09T15:10:59Z",
+    "headline": "'Congressional Democrats Are Weighing Whether To Use A Dec. 11 Government Shutdown Deadline To Try To Pressure President Donald Trump To End The War In Iran' - Bloomberg News",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63038727/congressional-democrats-are-weighing-whether-use-dec-11-government-shutdown-deadline-try-pressure-pr",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Possible Dec. 11 shutdown fight tied to Iran war adds political uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63038377",
+    "created_at": "2026-11-09T15:08:46Z",
+    "headline": "Edgevana Announces Over $700M Agreements To Deploy Nvidia Blackwell Computing Systems Throughout North America, Europe",
+    "url": "https://www.benzinga.com/news/26/11/63038377/edgevana-announces-over-700m-agreements-deploy-nvidia-blackwell-computing-systems-throughout-north-a",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Over $700M in new Blackwell system deployment agreements signals strong demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63037773",
+    "created_at": "2026-11-09T15:04:18Z",
+    "headline": "Jensen Huang Is \u2018Core DNA of Nvidia and Its AI Success\u2019: Dan Ives Says CEO \u2018Not Replaceable\u2019",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63037773/jensen-huang-is-core-dna-of-nvidia-and-its-ai-success-dan-ives-says-ceo-not-replaceable",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Investigation into CEO Jensen Huang creates governance overhang, though analyst defends him"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63037375",
+    "created_at": "2026-11-09T15:01:01Z",
+    "headline": "CB Employment Trends Index For October 108.36 Vs 108.43 Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Employment trends index slightly below prior; negligible market effect"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63037323",
+    "created_at": "2026-11-09T15:00:42Z",
+    "headline": "USA Wholesale Inventories (MoM) For September 0.7% Vs 0.6% Est",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Wholesale inventories roughly in line with estimates; priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63037238",
+    "created_at": "2026-11-09T15:00:17Z",
+    "headline": "USA Wholesale Trade Sales (MoM) For September 2.8% Vs 2.0% Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Wholesale sales beat prior month; modest supportive economic data"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63037178",
+    "created_at": "2026-11-09T15:00:07Z",
+    "headline": "Congressional Trading Report: Rep. John McGuire Sold Over $1K In Western Digital Stock",
+    "url": "https://www.benzinga.com/government/26/11/63037178/congressional-trading-report-rep-john-mcguire-sold-over-1k-western-digital-stock",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63036991",
+    "created_at": "2026-11-09T14:59:06Z",
+    "headline": "B. Riley Securities Maintains Buy on Lam Research, Lowers Price Target to $310",
+    "url": "https://www.benzinga.com/news/26/11/63036991/b-riley-securities-maintains-buy-lam-research-lowers-price-target-310",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Buy rating kept but price target cut; slight negative signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63036780",
+    "created_at": "2026-11-09T14:57:25Z",
+    "headline": "U.S. Department Of Commerce And The U.S. ITC Issues Antidumping Duty Orders And Amended Final Determination On Solar Cells From India, Indonesia, And Laos",
+    "url": "https://www.benzinga.com/news/26/11/63036780/u-s-department-commerce-and-u-s-itc-issues-antidumping-duty-orders-and-amended-final-determination-s",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63036073",
+    "created_at": "2026-11-09T14:52:37Z",
+    "headline": "Jim Cramer Posts On X \"AMD viewed as a winner. It IS a winner. But a data center multi-year roadmap in this country is now suspect...\"",
+    "url": "https://www.benzinga.com/news/26/11/63036073/jim-cramer-posts-x-amd-viewed-winner-it-winner-data-center-multi-year-roadmap-country-now-suspect",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Cramer calls AMD a winner, but flags data center roadmap risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63035881",
+    "created_at": "2026-11-09T14:51:34Z",
+    "headline": "Google Turns Up the Heat on NVIDIA With New Offerings",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63035881/google-turns-up-the-heat-on-nvidia-with-new-offerings",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Google's new AI chips directly challenge NVIDIA's accelerator dominance"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Alphabet rose on AI chip launch; partly priced in already"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Added custom AI chip competition in data center accelerators"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63035615",
+    "created_at": "2026-11-09T14:49:41Z",
+    "headline": "Trump Administration Deepens Interagency Collaboration To Protect The Nation\u2019s Skies From Unmanned Threats",
+    "url": "https://www.benzinga.com/government/26/11/63035615/trump-administration-deepens-interagency-collaboration-protect-nation-s-skies-unmanned-threats",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63034915",
+    "created_at": "2026-11-09T14:45:06Z",
+    "headline": "Bitcoin, Monero Remain the Best Coins for Market in 'Despair,' Analyst Argues",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63034915/bitcoin-monero-remain-the-best-coins-for-market-in-despair-analyst-argues",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63033988",
+    "created_at": "2026-11-09T14:39:34Z",
+    "headline": "Nvidia\u2019s $540 Billion ETF Empire Has a Jensen Huang Problem",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63033988/nvidias-540-billion-etf-empire-has-a-jensen-huang-problem",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Scrutiny of CEO and heavy ETF concentration; no clear fundamental change"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "Concentration risk from NVIDIA's large ETF holdings"
+      }
+    ],
+    "scorer": "claude"
   }
 ]

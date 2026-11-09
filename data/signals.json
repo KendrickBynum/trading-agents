@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-09T14:35:19.819620+00:00",
-  "market_risk": 0.139,
+  "generated_at": "2026-11-09T15:35:22.983844+00:00",
+  "market_risk": 0.118,
   "tickers": {
     "SPY": {
-      "score": 0.118,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.002,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "'Congressional Democrats Are Weighing Whether To Use A Dec. 11 Government Shutdown Deadline To Try To Pressure President Donald Trump To End The War In Iran' - Bloomberg News",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63038727/congressional-democrats-are-weighing-whether-use-dec-11-government-shutdown-deadline-try-pressure-pr",
+          "time": "2026-11-09T15:10:59Z",
+          "sentiment": -0.2,
+          "reason": "Possible Dec. 11 shutdown fight tied to Iran war adds political uncertainty"
+        },
         {
           "headline": "U.S. Trade Representative Suspends Any Action Related To China Shipbuilding And Maritime Sector Until Jan. 10, 2027, To Allow For Further Discussion; Also Announces Determination To Further Extend All 178 Current Exclusions Related To China\u2019s Technology Transfer, Intellectual Property, Innovation",
           "url": "https://www.benzinga.com/government/26/11/63031644/u-s-trade-representative-suspends-any-action-related-china-shipbuilding-and-maritime-sector-until-ja",
@@ -65,10 +72,31 @@
       ]
     },
     "NVDA": {
-      "score": -0.216,
-      "articles": 20,
-      "ai_articles": 20,
+      "score": -0.175,
+      "articles": 23,
+      "ai_articles": 23,
       "headlines": [
+        {
+          "headline": "Edgevana Announces Over $700M Agreements To Deploy Nvidia Blackwell Computing Systems Throughout North America, Europe",
+          "url": "https://www.benzinga.com/news/26/11/63038377/edgevana-announces-over-700m-agreements-deploy-nvidia-blackwell-computing-systems-throughout-north-a",
+          "time": "2026-11-09T15:08:46Z",
+          "sentiment": 0.4,
+          "reason": "Over $700M in new Blackwell system deployment agreements signals strong demand"
+        },
+        {
+          "headline": "Jensen Huang Is \u2018Core DNA of Nvidia and Its AI Success\u2019: Dan Ives Says CEO \u2018Not Replaceable\u2019",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63037773/jensen-huang-is-core-dna-of-nvidia-and-its-ai-success-dan-ives-says-ceo-not-replaceable",
+          "time": "2026-11-09T15:04:18Z",
+          "sentiment": -0.3,
+          "reason": "Investigation into CEO Jensen Huang creates governance overhang, though analyst defends him"
+        },
+        {
+          "headline": "Google Turns Up the Heat on NVIDIA With New Offerings",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63035881/google-turns-up-the-heat-on-nvidia-with-new-offerings",
+          "time": "2026-11-09T14:51:34Z",
+          "sentiment": -0.3,
+          "reason": "Google's new AI chips directly challenge NVIDIA's accelerator dominance"
+        },
         {
           "headline": "Chip Stocks Are 38% Off Their Peak: 'Time to Buy the Dip,' Analysts Say",
           "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63032993/chip-stocks-buy-the-dip-cantor-fitzgerald-hsbc-sox-mid-cycle-correction",
@@ -82,27 +110,6 @@
           "time": "2026-11-09T13:49:24Z",
           "sentiment": -0.2,
           "reason": "CoreWeave, a major NVDA GPU customer, sliding on partnership doubts"
-        },
-        {
-          "headline": "Will Jensen Huang Survive Nvidia's Spy Scandal? What Prediction Markets Say",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63030834/jensen-huang-nvidia",
-          "time": "2026-11-09T13:42:46Z",
-          "sentiment": -0.5,
-          "reason": "Spy scandal and leadership-risk speculation intensify"
-        },
-        {
-          "headline": "NVIDIA Expands South Korea AI Push With New Startup Investments",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63030222/nvidia-expands-south-korea-ai-push-with-new-startup-investments",
-          "time": "2026-11-09T13:26:55Z",
-          "sentiment": 0.2,
-          "reason": "New South Korea sovereign AI infrastructure partnerships expand reach"
-        },
-        {
-          "headline": "'Google Escalates Nvidia Rivalry With Specialized Versions of AI Chips' - Bloomberg Exclusive",
-          "url": "https://www.benzinga.com/news/26/11/63028551/google-escalates-nvidia-rivalry-with-specialized-versions-of-ai-chips-bloomberg-exclusive",
-          "time": "2026-11-09T12:48:50Z",
-          "sentiment": -0.3,
-          "reason": "Google's custom AI chip push raises competitive pressure on Nvidia"
         }
       ]
     },
@@ -122,9 +129,16 @@
     },
     "GOOGL": {
       "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Google Turns Up the Heat on NVIDIA With New Offerings",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63035881/google-turns-up-the-heat-on-nvidia-with-new-offerings",
+          "time": "2026-11-09T14:51:34Z",
+          "sentiment": 0.2,
+          "reason": "Alphabet rose on AI chip launch; partly priced in already"
+        },
         {
           "headline": "'Google Escalates Nvidia Rivalry With Specialized Versions of AI Chips' - Bloomberg Exclusive",
           "url": "https://www.benzinga.com/news/26/11/63028551/google-escalates-nvidia-rivalry-with-specialized-versions-of-ai-chips-bloomberg-exclusive",
@@ -190,10 +204,17 @@
       ]
     },
     "MU": {
-      "score": 0.332,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.189,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "What Is Going on With Taiwan Semiconductor Stock on Monday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63039328/what-is-going-on-with-taiwan-semiconductor-stock-on-monday",
+          "time": "2026-11-09T15:14:15Z",
+          "sentiment": -0.2,
+          "reason": "Report TSMC may make 3D DRAM challenging Micron's memory position"
+        },
         {
           "headline": "Chip Stocks Are 38% Off Their Peak: 'Time to Buy the Dip,' Analysts Say",
           "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63032993/chip-stocks-buy-the-dip-cantor-fitzgerald-hsbc-sox-mid-cycle-correction",
@@ -274,10 +295,17 @@
       ]
     },
     "AMD": {
-      "score": 0.404,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": 0.385,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Jim Cramer Posts On X \"AMD viewed as a winner. It IS a winner. But a data center multi-year roadmap in this country is now suspect...\"",
+          "url": "https://www.benzinga.com/news/26/11/63036073/jim-cramer-posts-x-amd-viewed-winner-it-winner-data-center-multi-year-roadmap-country-now-suspect",
+          "time": "2026-11-09T14:52:37Z",
+          "sentiment": 0.2,
+          "reason": "Cramer calls AMD a winner, but flags data center roadmap risk"
+        },
         {
           "headline": "Chip Stocks Are 38% Off Their Peak: 'Time to Buy the Dip,' Analysts Say",
           "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63032993/chip-stocks-buy-the-dip-cantor-fitzgerald-hsbc-sox-mid-cycle-correction",
@@ -305,13 +333,6 @@
           "time": "2026-11-09T12:52:47Z",
           "sentiment": 0.3,
           "reason": "Analyst upgrade to bullish on AMD"
-        },
-        {
-          "headline": "Stone Fox Capital Projects Potential $100 Billion Revenue for AMD by 2027",
-          "url": "https://www.tradingview.com/news/gurufocus:fdf16478f094b:0-amd-s-100-billion-ai-opportunity-raises-a-wall-street-question/",
-          "time": "2026-11-09T12:31:38Z",
-          "sentiment": 0.4,
-          "reason": "Research firm projects $100B revenue by 2027 on AI demand"
         }
       ]
     }

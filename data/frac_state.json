@@ -13,8 +13,15 @@
       "time": "2026-11-05T15:35:34.975555+00:00",
       "atr": 8.37,
       "avg": 350.735042,
-      "hwm": 350.735042,
-      "stop": 325.63
+      "hwm": 350.89,
+      "stop": 325.78
+    },
+    "MSFT": {
+      "time": "2026-11-09T15:35:41.070995+00:00",
+      "atr": 16.48,
+      "avg": 539.797565,
+      "hwm": 541.41,
+      "stop": 491.97
     }
   },
   "exits": {
@@ -26,15 +33,15 @@
     "c0db3df5-630e-438d-8616-013534b49c18": "limit buy 0.25 ATR below $515.70 (score +0.39, trend +0.30)",
     "c88f7d95-130c-4306-b4d5-ea73aa206e4f": "limit buy 0.25 ATR below $351.04 (score +0.42, trend +0.24)",
     "ed69a975-d95f-417c-96c0-96368f7012d5": "limit buy 0.25 ATR below $350.83 (score +0.42, trend +0.24)",
-    "656d9758-f964-49f8-905f-e6adafd3d944": "limit buy 0.25 ATR below $534.24 (score +0.36, trend +0.48)",
-    "fbc8466a-1875-42ce-9b7b-8579de98803a": "limit buy 0.25 ATR below $544.17 (score +0.41, trend +0.60)"
+    "656d9758-f964-49f8-905f-e6adafd3d944": "limit buy 0.25 ATR below $534.24 (score +0.36, trend +0.48)"
   },
   "logged_orders": [
-    "661b63a3-fbd9-4914-9251-d35a25739414",
+    "fbc8466a-1875-42ce-9b7b-8579de98803a",
+    "7b1fd819-bf9b-4ec8-aa31-95ff34291e09",
     "468a967d-ae91-417c-8d1a-542dd43ffd98",
-    "7b1fd819-bf9b-4ec8-aa31-95ff34291e09"
+    "661b63a3-fbd9-4914-9251-d35a25739414"
   ],
-  "last_order_check": "2026-11-09T14:36:09.481818+00:00",
+  "last_order_check": "2026-11-09T15:35:41.070995+00:00",
   "pending": {
     "MSFT": {
       "atr": 16.48,

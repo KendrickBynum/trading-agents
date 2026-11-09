@@ -344,5 +344,17 @@
     "notional": 1115.0,
     "reason": "CALL AAPL $345 exp 2026-12-11 (35d, delta +0.53) on score +0.47; max loss $1,115",
     "underlying": "AAPL"
+  },
+  {
+    "time": "2026-11-09T14:54:04.86388Z",
+    "book": "frac",
+    "symbol": "MSFT",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "fbc8466a-1875-42ce-9b7b-8579de98803a",
+    "qty": 7.455,
+    "price": 539.797565,
+    "notional": 4024.19,
+    "reason": "limit buy 0.25 ATR below $544.17 (score +0.41, trend +0.60)"
   }
 ]
