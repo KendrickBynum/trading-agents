@@ -2209,5 +2209,286 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "63066004",
+    "created_at": "2026-11-09T20:31:30Z",
+    "headline": "House Democratic Minority Leader Hakeem Jeffries Says There Are Real Concerns That Need To Be Addressed With Respect To The NVIDIA Situation; Says NVIDIA Situation Came Up In Intelligence Briefing But Mostly About Iran; Says He Strongly Supports Chips Restrictions In Senate NDAA On China Becoming Law",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63066004/house-democratic-minority-leader-hakeem-jeffries-says-there-are-real-concerns-need-be-addressed-resp",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Congressional concerns over NVIDIA situation and China chip restrictions"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63065632",
+    "created_at": "2026-11-09T20:26:16Z",
+    "headline": "Broadcom Stock Now Trades 32% Cheaper than a Toothpaste Company: HSBC, Cantor Say the Gap Won't Last",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63065632/broadcom-stock-cheaper-than-colgate-palmolive-forward-pe",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Analysts say semiconductor valuation gap will close, mild sector support"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Analysts say semiconductor valuation gap will close, mild sector support"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63065581",
+    "created_at": "2026-11-09T20:25:34Z",
+    "headline": "House Democratic Minority Leader Hakeem Jeffries Says \u201cClearly Congress Needs More Information About NVIDIA Situation\u201d",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63065581/house-democratic-minority-leader-hakeem-jeffries-says-clearly-congress-needs-more-information-about-",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Congress demands more information on NVIDIA situation"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63065433",
+    "created_at": "2026-11-09T20:23:19Z",
+    "headline": "President Trump Says Abu Dhabi Talks This Week On Ukraine Present Chance Of A Possible Breakthrough",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63065433/president-trump-says-abu-dhabi-talks-week-ukraine-present-chance-possible-breakthrough",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Possible Ukraine peace breakthrough could ease broad market risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63065372",
+    "created_at": "2026-11-09T20:22:17Z",
+    "headline": "President Trump Defends Pentagon Chief Hegseth Against Impeachment Efforts, Says 'He Won Two Wars\u2019",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63065372/president-trump-defends-pentagon-chief-hegseth-against-impeachment-efforts-says-he-won-two-wars",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63065265",
+    "created_at": "2026-11-09T20:20:53Z",
+    "headline": "President Trump Tells Reuters After Talks With Qatari Leader That Qatar Would Rather See A Peaceful Solution With Iran But The U.S. Is Ready For Strikes If Necessary; Says Saudi Arabia Would Also Prefer A Peaceful Solution To Iran Conflict",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63065265/president-trump-tells-reuters-after-talks-qatari-leader-qatar-would-rather-see-peaceful-solution-ira",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "US ready for strikes on Iran raises geopolitical risk"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.3,
+        "confidence": 0.35,
+        "reason": "Iran conflict risk may lift oil prices and energy stocks"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63064974",
+    "created_at": "2026-11-09T20:16:43Z",
+    "headline": "'U.S. Government Lenders Don\u2019t Plan To Approve $1.6 Billion In Financing For A Trump Administration-Brokered Kazakh Mining Project In Which The President\u2019s Sons Are Investors Amid Concerns About The Deal\u2019s Viability' - Bloomberg Exclusive",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63064974/u-s-government-lenders-don-t-plan-approve-1-6-billion-financing-trump-administration-brokered-kazakh",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63064845",
+    "created_at": "2026-11-09T20:15:26Z",
+    "headline": "\"Elizabeth Warren Vows Scrutiny Of Prediction Markets, Trump Family Crypto Ventures As Senate Banking Chair; Sen. Warren Will Be Focused On Affordability, Artificial Intelligence, Prediction Markets, A Looming Potential Financial Crisis And Accountability, An Aide Said\" - The Block",
+    "url": "https://www.benzinga.com/markets/cryptocurrency/26/11/63064845/elizabeth-warren-vows-scrutiny-prediction-markets-trump-family-crypto-ventures-senate-banking-chair-",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63064828",
+    "created_at": "2026-11-09T20:15:20Z",
+    "headline": "$1000 Invested In Apple 10 Years Ago Would Be Worth This Much Today",
+    "url": "https://www.benzinga.com/news/26/11/63064828/1000-invested-apple-10-years-ago-would-be-worth-much-today",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63064273",
+    "created_at": "2026-11-09T20:07:25Z",
+    "headline": "NVIDIA Founder & CEO Jensen Huang Is Scheduled To Attend Semafor\u2019s Silicon Valley & The World, \"The Definitive New Initiative Connecting The Builders Of Transformative Technologies With The Global Leaders Shaping Their Impact.\"",
+    "url": "https://www.benzinga.com/news/26/11/63064273/nvidia-founder-ceo-jensen-huang-scheduled-attend-semafor-s-silicon-valley-world-definitive-new-initi",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63064111",
+    "created_at": "2026-11-09T20:04:53Z",
+    "headline": "'Leaders Of Three U.S. House Committees Have Summoned NVIDIA CEO Jensen Huang To A Closed-Door Briefing Over His Ties To Alice Huang, A Tech Executive Reportedly Identified As A Chinese Spy' - The Information",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63064111/leaders-three-u-s-house-committees-have-summoned-nvidia-ceo-jensen-huang-closed-door-briefing-over-h",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.6,
+        "confidence": 0.6,
+        "reason": "House committees summon Jensen Huang over reported Chinese spy ties"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117713371",
+    "created_at": "2026-11-09T20:01:43Z",
+    "headline": "JPMorgan Names Amazon a Top AI Pick, Citing AWS Growth Projections",
+    "url": "https://www.barchart.com/story/news/8737564/why-amazon-amzn-stock-is-up-today",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.5,
+        "confidence": 0.6,
+        "reason": "JPMorgan names Amazon top AI pick citing AWS growth outlook"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63063905",
+    "created_at": "2026-11-09T20:01:32Z",
+    "headline": "'U.S. Supreme Court Lifts Judicial Decision That Blocked Trump Administration From Building Border Barriers In Big Bend National Park In Texas' - Reuters News",
+    "url": "https://www.benzinga.com/news/26/11/63063905/u-s-supreme-court-lifts-judicial-decision-blocked-trump-administration-building-border-barriers-big-",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "117713364",
+    "created_at": "2026-11-09T20:01:27Z",
+    "headline": "NVIDIA, Rebellions, and SK Telecom Collaborate on Sovereign AI Infrastructure",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Rebellions-and-SK-Telecom-Announce-Collaboration-to-Advance-Sovereign-AI-Infrastructure-With-NVIDIA-NVLink-Fusion/default.aspx",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Sovereign AI partnership supports NVIDIA's AI infrastructure demand; incremental, not material"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63063574",
+    "created_at": "2026-11-09T19:57:18Z",
+    "headline": "Meta Platforms Rolls Out AI Age-Estimation Technology Globally In Teen Account Protections On Instagram",
+    "url": "https://www.benzinga.com/news/26/11/63063574/meta-platforms-rolls-out-ai-age-estimation-technology-globally-teen-account-protections-instagram",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Teen safety feature rollout; routine product news with little price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63063457",
+    "created_at": "2026-11-09T19:55:30Z",
+    "headline": "Benzinga Market Summary: S&P Rises As Tech Rebounds, Oil Drops As Trump Downplays Future Strikes On Iran, NVIDIA Drops After CEO Admitted Affair With Alleged Chinese Asset",
+    "url": "https://www.benzinga.com/quote/BNO",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.4,
+        "reason": "Stock drops on CEO personal-conduct report; reputational and governance overhang"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Broad market rebound led by tech, though Iran tensions persist"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63062517",
+    "created_at": "2026-11-09T19:43:00Z",
+    "headline": "'Hegseth Impeachment Articles Introduced By Rep. Massie' - CNBC",
+    "url": "https://www.benzinga.com/news/26/11/63062517/hegseth-impeachment-articles-introduced-by-rep-massie-cnbc",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63062467",
+    "created_at": "2026-11-09T19:42:23Z",
+    "headline": "Al Arabiya Sources Posts On X \"Arrangements Are Being Made To Discuss The Return Of IAEA Inspectors To Iran, Without Clarifying The Scope Of Their Duties\"",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63062467/al-arabiya-sources-posts-x-arrangements-are-being-made-discuss-return-iaea-inspectors-iran-without-c",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.15,
+        "confidence": 0.25,
+        "reason": "Possible Iran de-escalation could ease oil supply risk premium"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Diplomatic progress with Iran modestly reduces geopolitical risk"
+      }
+    ],
+    "scorer": "claude"
   }
 ]
