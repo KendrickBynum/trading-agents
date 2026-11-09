@@ -1,8 +1,28 @@
 {
-  "time": "2026-11-09T16:35:42.395478+00:00",
+  "time": "2026-11-09T17:35:31.788575+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "AMZN",
+      "side": "buy",
+      "reason": "limit buy 0.25 ATR below $269.09 (score +0.37, trend +0.39)",
+      "qty": 15.1099,
+      "limit": 266.45,
+      "notional": 4026.03,
+      "score": 0.367,
+      "factors": {
+        "trend": 0.394,
+        "levels": 0.852,
+        "flow": -0.32,
+        "pattern": 0.188,
+        "news": 0.57
+      },
+      "status": "order placed",
+      "order_id": "ae0ac3b4-6643-443e-a6a3-7f5e4a3b1f96",
+      "time": "2026-11-09T17:35:31.788575+00:00"
+    }
+  ],
   "settings": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,

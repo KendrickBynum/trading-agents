@@ -1097,16 +1097,6 @@
     "scorer": "claude"
   },
   {
-    "id": "63020328",
-    "created_at": "2026-11-08T17:30:07Z",
-    "headline": "Nebius Stock Ahead of Earnings: Options Traders Brace for a Big Move",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63020328/nebius-stock-ahead-of-earnings-options-traders-brace-for-a-big-move",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "63041285",
     "created_at": "2026-11-09T15:30:29Z",
     "headline": "Fed's Goolsbee Says Big Problem Has All Been On The Inflation Side; Employment And Growth Are Actually Pretty Stable; Starting To See Inflation Kicking Up In Services; Data Centers Looking Like Old-Fashioned Overheating; Consumer Spending Has Been Main Driver Of Growth",
@@ -1642,6 +1632,184 @@
         "sentiment": 0.05,
         "confidence": 0.1,
         "reason": "Minor ARK buying, largely priced in and immaterial"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63053048",
+    "created_at": "2026-11-09T17:33:03Z",
+    "headline": "QUICK SPARK: Nvidia Stock Eyes Worst Day Against S&P 500 Since DeepSeek's Shock",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63053048/nvidia-stock-worst-day-vs-sp-500-since-deepseek",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.6,
+        "confidence": 0.6,
+        "reason": "Lagging S&P 500 sharply on board probe into CEO Huang"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63051990",
+    "created_at": "2026-11-09T17:20:00Z",
+    "headline": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
+    "url": "https://www.benzinga.com/opinion/26/11/63051990/nvidia-stock-is-the-huang-controversy-a-long-term-risk",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.3,
+        "reason": "Huang controversy may pose longer-term governance risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63052419",
+    "created_at": "2026-11-09T17:25:42Z",
+    "headline": "'Jensen Huang Disappears From An Nyc Conference Lineup After Affair Admission' - Business Insider",
+    "url": "https://www.benzinga.com/news/26/11/63052419/jensen-huang-disappears-nyc-conference-lineup-after-affair-admission-business-insider",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "CEO absence from conference lineup after affair admission"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63052356",
+    "created_at": "2026-11-09T17:25:00Z",
+    "headline": "Live On CNBC, Karen Firestone Announces Trimmed Apple Position",
+    "url": "https://www.benzinga.com/quote/AAPL",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63052004",
+    "created_at": "2026-11-09T17:20:12Z",
+    "headline": "Jensen Huang\u2019s Scandal Could Hit CoreWeave, Nebius Where It Hurts",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63052004/jensen-huangs-scandal-could-hit-coreweave-nebius-where-it-hurts",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.25,
+        "confidence": 0.3,
+        "reason": "Scandal may indirectly pressure Nvidia-linked neocloud partners"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63051044",
+    "created_at": "2026-11-09T17:09:12Z",
+    "headline": "Fed's Barkin Says Risk Lies On The Inflation Side Of The Us Central Bank\u2019s Mandate; Direction Of Monetary Policy Is Straightforward, But Best To Move Policy With Care; U.S. Economy Is Remarkably Stable; Resilient Demand Alongside Broad-based Cost Increases Putting Upward Pressure On Prices; Firms Say They Will Be Trying To Pass On Higher Costs; Businesses Are Performing Well, With Remarkable Earnings",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63051044/fed-s-barkin-says-risk-lies-inflation-side-us-central-bank-s-mandate-direction-monetary-policy-strai",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Hawkish Fed tone on inflation risks weighing on equities"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63050593",
+    "created_at": "2026-11-09T17:02:21Z",
+    "headline": "What's Going On With Amazon Stock Monday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63050593/whats-going-on-with-amazon-stock-monday-5",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.35,
+        "confidence": 0.35,
+        "reason": "Rally on favor for hyperscalers with data-center infrastructure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63049759",
+    "created_at": "2026-11-09T16:51:46Z",
+    "headline": "Hims-Eli Lilly GLP-1 Deal Meets Summit\u2019s FDA Gamble: Which Biotech ETFs Stand to Gain?",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63049759/hims-eli-lilly-glp-1-deal-meets-summits-fda-gamble-which-biotech-etfs-stand-to-gain",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63049643",
+    "created_at": "2026-11-09T16:50:24Z",
+    "headline": "CNH Industrial, Planet Labs, Ferguson Enterprises And Other Big Stocks Moving Higher On Monday",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049643/cnh-industrial-planet-labs-ferguson-enterprises-and-other-big-stocks-moving-higher-on-monday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63049496",
+    "created_at": "2026-11-09T16:48:01Z",
+    "headline": "Why Is Marvell Stock Surging on Monday?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049496/why-is-marvell-stock-surging-on-monday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Broad semiconductor rebound after last week's losses"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Broad semiconductor rebound after last week's losses"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "Broad semiconductor rebound after last week's losses"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63049256",
+    "created_at": "2026-11-09T16:45:09Z",
+    "headline": "Bill Ackman Says Jensen Huang \u2018Has Done a Lot of Good for the World\u2019: Hopes Damage From Affair Is \u2018Minimal\u2019",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049256/bill-ackman-says-jensen-huang-has-done-a-lot-of-good-for-the-world-hopes-damage-from-affair-is-minimal",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "Ackman's public defense may limit reputational damage"
       }
     ],
     "scorer": "claude"
