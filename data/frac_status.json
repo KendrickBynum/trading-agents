@@ -1,7 +1,9 @@
 {
-  "time": "2026-11-09T18:35:36.753796+00:00",
+  "time": "2026-11-09T19:35:33.012807+00:00",
   "halts": [],
-  "alerts": [],
+  "alerts": [
+    "Could not place stop on MSFT: Alpaca POST https://paper-api.alpaca.markets/v2/orders -> 403: {\"available\":\"0\",\"code\":40310000,\"existing_qty\":\"7.455\",\""
+  ],
   "last_actions": [],
   "settings": {
     "limit_atr": 0.25,

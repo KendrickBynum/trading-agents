@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T18:35:21.655814+00:00",
-  "market_risk": 0.117,
+  "generated_at": "2026-11-09T19:35:19.643226+00:00",
+  "market_risk": 0.105,
   "tickers": {
     "SPY": {
       "score": -0.092,
@@ -101,10 +101,31 @@
       ]
     },
     "NVDA": {
-      "score": -0.254,
-      "articles": 35,
-      "ai_articles": 35,
+      "score": -0.258,
+      "articles": 37,
+      "ai_articles": 37,
       "headlines": [
+        {
+          "headline": "AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63061050/amd-google-tpu",
+          "time": "2026-11-09T19:16:48Z",
+          "sentiment": -0.2,
+          "reason": "Google-AMD AI chip push intensifies Nvidia competition"
+        },
+        {
+          "headline": "Short Nvidia, Long Drama: Traders Pile into Leveraged ETFs During Sell-Off",
+          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63060246/short-nvidia-long-drama-traders-pile-into-leveraged-etfs-during-sell-off",
+          "time": "2026-11-09T19:04:19Z",
+          "sentiment": -0.4,
+          "reason": "Ongoing sell-off and Jensen Huang controversy weigh on shares"
+        },
+        {
+          "headline": "Jensen Huang Net Worth Takes a Hit: Nvidia CEO Loses Two Spots Among Top 10 Billionaires",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63059675/jensen-huang-net-worth-takes-a-hit-nvidia-ceo-loses-two-spots-among-top-10-billionaires",
+          "time": "2026-11-09T18:57:12Z",
+          "sentiment": -0.2,
+          "reason": "CEO personal scandal; stock slide likely mostly priced in"
+        },
         {
           "headline": "Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout",
           "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/63055748/nvidia-stock-200-day-moving-average-gap-megaspeed-jensen-huang",
@@ -118,27 +139,6 @@
           "time": "2026-11-09T17:59:58Z",
           "sentiment": -0.4,
           "reason": "Worst day versus S&P 500 since DeepSeek on CEO probe"
-        },
-        {
-          "headline": "Apple Reclaims $5 Trillion Crown: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63054391/apple-reclaims-5-trillion-crown-whats-going-on",
-          "time": "2026-11-09T17:48:49Z",
-          "sentiment": -0.2,
-          "reason": "Overtaken by Apple in market capitalization"
-        },
-        {
-          "headline": "QUICK SPARK: Nvidia Stock Eyes Worst Day Against S&P 500 Since DeepSeek's Shock",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63053048/nvidia-stock-worst-day-vs-sp-500-since-deepseek",
-          "time": "2026-11-09T17:33:03Z",
-          "sentiment": -0.6,
-          "reason": "Lagging S&P 500 sharply on board probe into CEO Huang"
-        },
-        {
-          "headline": "'Jensen Huang Disappears From An Nyc Conference Lineup After Affair Admission' - Business Insider",
-          "url": "https://www.benzinga.com/news/26/11/63052419/jensen-huang-disappears-nyc-conference-lineup-after-affair-admission-business-insider",
-          "time": "2026-11-09T17:25:42Z",
-          "sentiment": -0.3,
-          "reason": "CEO absence from conference lineup after affair admission"
         }
       ]
     },
@@ -171,10 +171,17 @@
       ]
     },
     "GOOGL": {
-      "score": 0.2,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.017,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "NHTSA Opens Recall Query Into Waymo Robotaxis For Continued Reports Of Passing Stopped School Buses After 2025 Software Recall",
+          "url": "https://www.benzinga.com/news/26/11/63059655/nhtsa-opens-recall-query-waymo-robotaxis-continued-reports-passing-stopped-school-buses-after-2025-s",
+          "time": "2026-11-09T18:57:00Z",
+          "sentiment": -0.2,
+          "reason": "NHTSA recall query into Waymo; minor regulatory overhang"
+        },
         {
           "headline": "Google Turns Up the Heat on NVIDIA With New Offerings",
           "url": "https://www.benzinga.com/markets/tech/26/11/63035881/google-turns-up-the-heat-on-nvidia-with-new-offerings",
@@ -192,10 +199,17 @@
       ]
     },
     "META": {
-      "score": 0.221,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.269,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "JPMorgan Adds Meta Platforms to Analyst Focus List",
+          "url": "https://www.tradingview.com/news/stocktwits:c083f9213094b:0-meta-amzn-stocks-jump-as-jpmorgan-picks-pair-over-alphabet-sees-stronger-ai-returns-cloud-growth/",
+          "time": "2026-11-09T19:01:39Z",
+          "sentiment": 0.4,
+          "reason": "JPMorgan focus list addition signals analyst conviction in AI ads"
+        },
         {
           "headline": "Meta Platforms Rolling Out Releasing Muse Ember On Meta Model API, Muse Code",
           "url": "https://www.benzinga.com/news/26/11/63055168/meta-platforms-rolling-out-releasing-muse-ember-meta-model-api-muse-code",
@@ -223,13 +237,6 @@
           "time": "2026-11-09T14:25:12Z",
           "sentiment": 0.15,
           "reason": "Reported enterprise sales push could expand revenue opportunity"
-        },
-        {
-          "headline": "\u2018This Whole Thing\u2019s Crumbling\u2019: Scott Galloway Says AI Capex Now Rests on Just 2 Companies and Feels Exactly Like 1999",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63031360/scott-galloway-ai-boom-openai-anthropic-1999-dot-com-bubble",
-          "time": "2026-11-09T13:58:32Z",
-          "sentiment": -0.2,
-          "reason": "Bubble warning on AI capex could weigh on AI-spending sentiment"
         }
       ]
     },
@@ -345,10 +352,24 @@
       ]
     },
     "TSLA": {
-      "score": 0.038,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.101,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Tesla Expands Robotaxi Service to San Antonio",
+          "url": "https://www.techdogs.com/tech-news/td-newsdesk/tesla-expands-robotaxis-to-san-antonio-as-musk-plans-to-refund-some-cybertruck-customers",
+          "time": "2026-11-09T19:01:28Z",
+          "sentiment": 0.2,
+          "reason": "Robotaxi expansion to San Antonio supports autonomy narrative"
+        },
+        {
+          "headline": "Tesla Begins Construction on $10.1 Billion Solar Manufacturing Facility in Texas",
+          "url": "https://www.tradingview.com/news/stocktwits:60199669d094b:0-tesla-kicks-off-work-on-project-crystal-sun-its-biggest-us-solar-bet-yet/",
+          "time": "2026-11-09T19:01:28Z",
+          "sentiment": 0.15,
+          "reason": "$10B solar factory signals energy expansion; capex-heavy"
+        },
         {
           "headline": "Tesla Stock Moves Higher: What's Going On?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63054627/tesla-stock-moves-higher-whats-going-on-2",
@@ -387,10 +408,17 @@
       ]
     },
     "AMD": {
-      "score": 0.358,
-      "articles": 12,
-      "ai_articles": 12,
+      "score": 0.364,
+      "articles": 13,
+      "ai_articles": 13,
       "headlines": [
+        {
+          "headline": "AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63061050/amd-google-tpu",
+          "time": "2026-11-09T19:16:48Z",
+          "sentiment": 0.4,
+          "reason": "EPYC supply role in Google's AI TPU system is a win"
+        },
         {
           "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek",
@@ -418,13 +446,6 @@
           "time": "2026-11-09T14:52:37Z",
           "sentiment": 0.2,
           "reason": "Cramer calls AMD a winner, but flags data center roadmap risk"
-        },
-        {
-          "headline": "Chip Stocks Are 38% Off Their Peak: 'Time to Buy the Dip,' Analysts Say",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63032993/chip-stocks-buy-the-dip-cantor-fitzgerald-hsbc-sox-mid-cycle-correction",
-          "time": "2026-11-09T14:33:45Z",
-          "sentiment": 0.15,
-          "reason": "Sector-wide dip-buying call; AMD not named as pick"
         }
       ]
     }

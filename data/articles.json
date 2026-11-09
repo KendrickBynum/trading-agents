@@ -1063,23 +1063,6 @@
     "scorer": "claude"
   },
   {
-    "id": "63020421",
-    "created_at": "2026-11-08T18:45:23Z",
-    "headline": "CoreWeave Stock Is Eyeing Record Low Amid Insider Sales: Will It Rebound After Earnings?",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63020421/coreweave-stock-is-eyeing-a-record-low-amid-insider-sales-will-it-rebound-after-earnings",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.15,
-        "confidence": 0.25,
-        "reason": "Neocloud peer selling and insider sales weigh on AI infrastructure sentiment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63041285",
     "created_at": "2026-11-09T15:30:29Z",
     "headline": "Fed's Goolsbee Says Big Problem Has All Been On The Inflation Side; Employment And Growth Are Actually Pretty Stable; Starting To See Inflation Kicking Up In Services; Data Centers Looking Like Old-Fashioned Overheating; Consumer Spending Has Been Main Driver Of Growth",
@@ -1999,6 +1982,232 @@
     "source": "benzinga",
     "market_risk": 0.05,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63061540",
+    "created_at": "2026-11-09T19:24:56Z",
+    "headline": "'BLS Will Not Publish 12-Month CPI, Core CPI Figures For October' - Bloomberg New s",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63061540/bls-will-not-publish-12-month-cpi-core-cpi-figures-october-bloomberg-new-s",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Missing October CPI data adds macro uncertainty for markets"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63061050",
+    "created_at": "2026-11-09T19:16:48Z",
+    "headline": "AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63061050/amd-google-tpu",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "EPYC supply role in Google's AI TPU system is a win"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Google-AMD AI chip push intensifies Nvidia competition"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63060246",
+    "created_at": "2026-11-09T19:04:19Z",
+    "headline": "Short Nvidia, Long Drama: Traders Pile into Leveraged ETFs During Sell-Off",
+    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63060246/short-nvidia-long-drama-traders-pile-into-leveraged-etfs-during-sell-off",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Ongoing sell-off and Jensen Huang controversy weigh on shares"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117622219",
+    "created_at": "2026-11-09T19:01:41Z",
+    "headline": "Amazon Announces 'Early Haul-iday' Event and Expansion of Haul Marketplace",
+    "url": "https://www.pymnts.com/commerce/2026/amazon-haul-launches-pre-holiday-deals-as-users-jump-350percent/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Routine promotional event with minimal expected price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117622216",
+    "created_at": "2026-11-09T19:01:39Z",
+    "headline": "JPMorgan Adds Meta Platforms to Analyst Focus List",
+    "url": "https://www.tradingview.com/news/stocktwits:c083f9213094b:0-meta-amzn-stocks-jump-as-jpmorgan-picks-pair-over-alphabet-sees-stronger-ai-returns-cloud-growth/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "JPMorgan focus list addition signals analyst conviction in AI ads"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117622215",
+    "created_at": "2026-11-09T19:01:39Z",
+    "headline": "Meta Expands AI-Powered Age Estimation Technology Globally",
+    "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-expands-instagram-ai-age-detection-worldwide-even-for-teens-using-adult-birthdays",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "117622211",
+    "created_at": "2026-11-09T19:01:35Z",
+    "headline": "Typeface Inducted into JPMorgan Chase's 2026 Hall of Innovation",
+    "url": "https://www.digitaljournal.com/pr/news/access-newswire/typeface-inducted-jpmorganchase-s-2026-hall-1680449666.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "117622209",
+    "created_at": "2026-11-09T19:01:34Z",
+    "headline": "Apple Announces Multiyear Investment in T\u00fcrkiye",
+    "url": "https://appleosophy.com/wire/5nzgplq/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "117622208",
+    "created_at": "2026-11-09T19:01:34Z",
+    "headline": "Apple Introduces Paid 'Intelligence Usage Packs' for AI Features",
+    "url": "https://www.tradingview.com/news/seekingalpha:4683431d2094b:0-apple-adds-ability-to-buy-extra-usage-in-creator-studio-in-ai-monetization-push/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Paid AI usage packs add modest monetization potential"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117622207",
+    "created_at": "2026-11-09T19:01:34Z",
+    "headline": "Apple Releases iOS 27.2.1 Update",
+    "url": "https://appleosophy.com/wire/o6s1yss/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "117622204",
+    "created_at": "2026-11-09T19:01:28Z",
+    "headline": "Tesla Expands Robotaxi Service to San Antonio",
+    "url": "https://www.techdogs.com/tech-news/td-newsdesk/tesla-expands-robotaxis-to-san-antonio-as-musk-plans-to-refund-some-cybertruck-customers",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.2,
+        "confidence": 0.35,
+        "reason": "Robotaxi expansion to San Antonio supports autonomy narrative"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117622203",
+    "created_at": "2026-11-09T19:01:28Z",
+    "headline": "Tesla Begins Construction on $10.1 Billion Solar Manufacturing Facility in Texas",
+    "url": "https://www.tradingview.com/news/stocktwits:60199669d094b:0-tesla-kicks-off-work-on-project-crystal-sun-its-biggest-us-solar-bet-yet/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "$10B solar factory signals energy expansion; capex-heavy"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63058912",
+    "created_at": "2026-11-09T18:46:56Z",
+    "headline": "'The Trump Administration Proposed Narrowing Who\u2019s Eligible To Receive Federal Food Assistance, A Change That Officials Estimate Could Block 6.3 Million People From Using The Supplemental Nutrition Assistance Program' - Bloomberg Law",
+    "url": "https://www.benzinga.com/news/26/11/63058912/the-trump-administration-proposed-narrowing-whos-eligible-to-receive-federal-food-assistance-a-change-that-officials-estimate-could-block-6-3-million-people-from-using-the-supplemental-nutr",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63059675",
+    "created_at": "2026-11-09T18:57:12Z",
+    "headline": "Jensen Huang Net Worth Takes a Hit: Nvidia CEO Loses Two Spots Among Top 10 Billionaires",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63059675/jensen-huang-net-worth-takes-a-hit-nvidia-ceo-loses-two-spots-among-top-10-billionaires",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "CEO personal scandal; stock slide likely mostly priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63059655",
+    "created_at": "2026-11-09T18:57:00Z",
+    "headline": "NHTSA Opens Recall Query Into Waymo Robotaxis For Continued Reports Of Passing Stopped School Buses After 2025 Software Recall",
+    "url": "https://www.benzinga.com/news/26/11/63059655/nhtsa-opens-recall-query-waymo-robotaxis-continued-reports-passing-stopped-school-buses-after-2025-s",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "NHTSA recall query into Waymo; minor regulatory overhang"
+      }
+    ],
     "scorer": "claude"
   }
 ]
