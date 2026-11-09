@@ -1107,16 +1107,6 @@
     "scorer": "claude"
   },
   {
-    "id": "63020265",
-    "created_at": "2026-11-08T16:30:07Z",
-    "headline": "EXCLUSIVE: Ollyball Brings Toy of the Year Success to \u2018Shark Tank\u2019 for Next Growth Phase \u2014 \u2018We Own a Category\u2019",
-    "url": "https://www.benzinga.com/personal-finance/entrepreneurship/26/11/63020265/exclusive-ollyball-brings-toy-of-the-year-success-to-shark-tank-for-next-growth-phase-we-own-a-category",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "63041285",
     "created_at": "2026-11-09T15:30:29Z",
     "headline": "Fed's Goolsbee Says Big Problem Has All Been On The Inflation Side; Employment And Growth Are Actually Pretty Stable; Starting To See Inflation Kicking Up In Services; Data Centers Looking Like Old-Fashioned Overheating; Consumer Spending Has Been Main Driver Of Growth",
@@ -1390,6 +1380,268 @@
         "sentiment": -0.05,
         "confidence": 0.15,
         "reason": "Concentration risk from NVIDIA's large ETF holdings"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63047691",
+    "created_at": "2026-11-09T16:31:03Z",
+    "headline": "'AI safety groups outline their plans for a new Washington' - Semafor Exclusive",
+    "url": "https://www.benzinga.com/news/26/11/63047691/ai-safety-groups-outline-their-plans-new-washington-semafor-exclusive",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63047062",
+    "created_at": "2026-11-09T16:25:31Z",
+    "headline": "QUICK SPARK: Nvidia Stock Eyes a Negative Streak Unseen Since 2012",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63047062/nvidia-stock-six-week-losing-streak-2012-jensen-huang-probe",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.6,
+        "reason": "Six-week losing streak and CEO board probe weigh on shares"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63046755",
+    "created_at": "2026-11-09T16:21:31Z",
+    "headline": "'East\u2013West pipeline targeted in Madinah, no injuries or disruption' - Ajel News",
+    "url": "https://www.benzinga.com/news/26/11/63046755/east-west-pipeline-targeted-madinah-no-injuries-or-disruption-ajel-news",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Attack on Saudi pipeline may lift oil supply risk premium"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63046141",
+    "created_at": "2026-11-09T16:15:16Z",
+    "headline": "Here's How Much $1000 Invested In Lam Research 20 Years Ago Would Be Worth Today",
+    "url": "https://www.benzinga.com/news/26/11/63046141/here-s-how-much-1000-invested-lam-research-20-years-ago-would-be-worth-today",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63046130",
+    "created_at": "2026-11-09T16:15:06Z",
+    "headline": "Jensen Huang's Reported Affair With Suspected Chinese Spy Pushes Nvidia Stock to Most Oversold Level Since 2019",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63046130/nvidia-stock-oversold-jensen-huang-affair-spy-probe",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "CEO probe and affair report; oversold, but governance overhang persists"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63045335",
+    "created_at": "2026-11-09T16:08:09Z",
+    "headline": "'Commerce Dept. Chip Inquiry Was Halted After Nvidia Intervention' - The New York Times",
+    "url": "https://www.benzinga.com/government/26/11/63045335/commerce-dept-chip-inquiry-was-halted-after-nvidia-intervention-new-york-times",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Report of halted Commerce chip probe raises governance and regulatory concerns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117405843",
+    "created_at": "2026-11-09T16:03:13Z",
+    "headline": "Meta Reportedly Partnering with Consulting Firms to Expand AI Product Sales",
+    "url": "https://www.marketscreener.com/news/meta-forging-relationships-with-consulting-firms-to-sell-ai-products-to-corporate-customers-ce785fd3dc8ef020",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Consulting partnerships could broaden enterprise AI product sales"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117405842",
+    "created_at": "2026-11-09T16:03:13Z",
+    "headline": "Meta Chief Strategy Officer Dave Wehner to Depart for AI Startup Fireworks",
+    "url": "https://www.pymnts.com/personnel/2026/meta-strategy-chief-dave-wehner-departs-ai-startup-fireworks/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Senior strategy executive departure, minor and likely routine"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117403680",
+    "created_at": "2026-11-09T16:01:37Z",
+    "headline": "Deerfield Management Announces Collaboration with AWS for Healthcare AI Development",
+    "url": "https://www.prnewswire.com/news-releases/deerfield-management-announces-collaboration-with-aws-to-accelerate-ai-driven-healthcare-innovation-and-care-delivery-302931285.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Healthcare AI collaboration with AWS, small near-term revenue relevance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "117403679",
+    "created_at": "2026-11-09T16:01:35Z",
+    "headline": "Akamai Technologies Amends Credit Agreement with JPMorgan Chase",
+    "url": "https://www.tradingview.com/news/tradingview:6d53922903065:0-akamai-amends-credit-agreement-raising-leverage-limits-through-march-2028/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "117403678",
+    "created_at": "2026-11-09T16:01:29Z",
+    "headline": "Apple Discloses Tax Savings from Earnings Allocation to Singapore",
+    "url": "https://www.tradingview.com/news/seekingalpha:05506371d094b:0-apple-cut-tax-bill-by-2-7b-by-moving-some-earnings-to-singapore/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63044502",
+    "created_at": "2026-11-09T16:00:24Z",
+    "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63044502/11-of-11-sectors-rise-monday-as-growth-leads",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.2,
+        "confidence": 0.4,
+        "reason": "Broad sector gains with growth leading on Monday"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63043400",
+    "created_at": "2026-11-09T15:49:35Z",
+    "headline": "U.S. Secretary Of State Marco Rubio, On AI, Says We Need Industry-Led Partnerships, Not More Regulation And Unnecessary Red Tape",
+    "url": "https://www.benzinga.com/news/26/11/63043400/u-s-secretary-state-marco-rubio-ai-says-we-need-industry-led-partnerships-not-more-regulation-and-un",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Policy stance favoring AI industry is broadly known and minor"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63042297",
+    "created_at": "2026-11-09T15:39:55Z",
+    "headline": "Iran Won\u2019t Enter Any Talks With U.S. In Absence Of Practical Action On 7 Conditions",
+    "url": "https://www.benzinga.com/news/26/11/63042297/iran-won-t-enter-any-talks-u-s-absence-practical-action-7-conditions",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Stalled US-Iran talks raise geopolitical risk and volatility"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.3,
+        "confidence": 0.3,
+        "reason": "Middle East tension could lift oil prices and energy stocks"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63041933",
+    "created_at": "2026-11-09T15:36:04Z",
+    "headline": "Stock of the Day: Where is the Bottom for NVIDIA?",
+    "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/63041933/stock-of-the-day-where-is-the-bottom-for-nvidia-2",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Executive scandal drives selling; bottom not yet confirmed"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63041788",
+    "created_at": "2026-11-09T15:35:08Z",
+    "headline": "Cathie Wood Buys More Nvidia and AMD, Sells Broadcom in Latest ARK Trades",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63041788/cathie-wood-buys-more-nvidia-and-amd-sells-broadcom-in-latest-ark-trades",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "ARK buying is a modest signal of institutional interest"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": 0.15,
+        "confidence": 0.2,
+        "reason": "ARK accumulation adds small bullish sentiment"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Minor ARK buying, largely priced in and immaterial"
       }
     ],
     "scorer": "claude"

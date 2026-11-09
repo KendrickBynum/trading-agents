@@ -1,21 +1,8 @@
 {
-  "time": "2026-11-09T15:35:41.070995+00:00",
+  "time": "2026-11-09T16:35:42.395478+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [
-    {
-      "time": "2026-11-09T14:54:04.86388Z",
-      "book": "frac",
-      "symbol": "MSFT",
-      "side": "buy",
-      "status": "filled",
-      "order_id": "fbc8466a-1875-42ce-9b7b-8579de98803a",
-      "qty": 7.455,
-      "price": 539.797565,
-      "notional": 4024.19,
-      "reason": "limit buy 0.25 ATR below $544.17 (score +0.41, trend +0.60)"
-    }
-  ],
+  "last_actions": [],
   "settings": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,

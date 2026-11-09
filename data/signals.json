@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-09T15:35:22.983844+00:00",
-  "market_risk": 0.118,
+  "generated_at": "2026-11-09T16:35:25.237827+00:00",
+  "market_risk": 0.114,
   "tickers": {
     "SPY": {
-      "score": -0.002,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.064,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Iran Won\u2019t Enter Any Talks With U.S. In Absence Of Practical Action On 7 Conditions",
+          "url": "https://www.benzinga.com/news/26/11/63042297/iran-won-t-enter-any-talks-u-s-absence-practical-action-7-conditions",
+          "time": "2026-11-09T15:39:55Z",
+          "sentiment": -0.2,
+          "reason": "Stalled US-Iran talks raise geopolitical risk and volatility"
+        },
         {
           "headline": "'Congressional Democrats Are Weighing Whether To Use A Dec. 11 Government Shutdown Deadline To Try To Pressure President Donald Trump To End The War In Iran' - Bloomberg News",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63038727/congressional-democrats-are-weighing-whether-use-dec-11-government-shutdown-deadline-try-pressure-pr",
@@ -38,10 +45,18 @@
       ]
     },
     "QQQ": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63044502/11-of-11-sectors-rise-monday-as-growth-leads",
+          "time": "2026-11-09T16:00:24Z",
+          "sentiment": 0.2,
+          "reason": "Broad sector gains with growth leading on Monday"
+        }
+      ]
     },
     "AAPL": {
       "score": 0.2,
@@ -72,44 +87,44 @@
       ]
     },
     "NVDA": {
-      "score": -0.175,
-      "articles": 23,
-      "ai_articles": 23,
+      "score": -0.231,
+      "articles": 27,
+      "ai_articles": 27,
       "headlines": [
+        {
+          "headline": "QUICK SPARK: Nvidia Stock Eyes a Negative Streak Unseen Since 2012",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63047062/nvidia-stock-six-week-losing-streak-2012-jensen-huang-probe",
+          "time": "2026-11-09T16:25:31Z",
+          "sentiment": -0.4,
+          "reason": "Six-week losing streak and CEO board probe weigh on shares"
+        },
+        {
+          "headline": "Jensen Huang's Reported Affair With Suspected Chinese Spy Pushes Nvidia Stock to Most Oversold Level Since 2019",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63046130/nvidia-stock-oversold-jensen-huang-affair-spy-probe",
+          "time": "2026-11-09T16:15:06Z",
+          "sentiment": -0.4,
+          "reason": "CEO probe and affair report; oversold, but governance overhang persists"
+        },
+        {
+          "headline": "'Commerce Dept. Chip Inquiry Was Halted After Nvidia Intervention' - The New York Times",
+          "url": "https://www.benzinga.com/government/26/11/63045335/commerce-dept-chip-inquiry-was-halted-after-nvidia-intervention-new-york-times",
+          "time": "2026-11-09T16:08:09Z",
+          "sentiment": -0.4,
+          "reason": "Report of halted Commerce chip probe raises governance and regulatory concerns"
+        },
+        {
+          "headline": "Stock of the Day: Where is the Bottom for NVIDIA?",
+          "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/63041933/stock-of-the-day-where-is-the-bottom-for-nvidia-2",
+          "time": "2026-11-09T15:36:04Z",
+          "sentiment": -0.3,
+          "reason": "Executive scandal drives selling; bottom not yet confirmed"
+        },
         {
           "headline": "Edgevana Announces Over $700M Agreements To Deploy Nvidia Blackwell Computing Systems Throughout North America, Europe",
           "url": "https://www.benzinga.com/news/26/11/63038377/edgevana-announces-over-700m-agreements-deploy-nvidia-blackwell-computing-systems-throughout-north-a",
           "time": "2026-11-09T15:08:46Z",
           "sentiment": 0.4,
           "reason": "Over $700M in new Blackwell system deployment agreements signals strong demand"
-        },
-        {
-          "headline": "Jensen Huang Is \u2018Core DNA of Nvidia and Its AI Success\u2019: Dan Ives Says CEO \u2018Not Replaceable\u2019",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63037773/jensen-huang-is-core-dna-of-nvidia-and-its-ai-success-dan-ives-says-ceo-not-replaceable",
-          "time": "2026-11-09T15:04:18Z",
-          "sentiment": -0.3,
-          "reason": "Investigation into CEO Jensen Huang creates governance overhang, though analyst defends him"
-        },
-        {
-          "headline": "Google Turns Up the Heat on NVIDIA With New Offerings",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63035881/google-turns-up-the-heat-on-nvidia-with-new-offerings",
-          "time": "2026-11-09T14:51:34Z",
-          "sentiment": -0.3,
-          "reason": "Google's new AI chips directly challenge NVIDIA's accelerator dominance"
-        },
-        {
-          "headline": "Chip Stocks Are 38% Off Their Peak: 'Time to Buy the Dip,' Analysts Say",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63032993/chip-stocks-buy-the-dip-cantor-fitzgerald-hsbc-sox-mid-cycle-correction",
-          "time": "2026-11-09T14:33:45Z",
-          "sentiment": 0.5,
-          "reason": "Analysts call selloff overdone and name NVDA a top pick"
-        },
-        {
-          "headline": "CoreWeave Stock Hits Turbulence Monday: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63031070/coreweave-stock-hits-turbulence-monday-whats-going-on",
-          "time": "2026-11-09T13:49:24Z",
-          "sentiment": -0.2,
-          "reason": "CoreWeave, a major NVDA GPU customer, sliding on partnership doubts"
         }
       ]
     },
@@ -149,10 +164,17 @@
       ]
     },
     "META": {
-      "score": -0.022,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.12,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Meta Reportedly Partnering with Consulting Firms to Expand AI Product Sales",
+          "url": "https://www.marketscreener.com/news/meta-forging-relationships-with-consulting-firms-to-sell-ai-products-to-corporate-customers-ce785fd3dc8ef020",
+          "time": "2026-11-09T16:03:13Z",
+          "sentiment": 0.3,
+          "reason": "Consulting partnerships could broaden enterprise AI product sales"
+        },
         {
           "headline": "'Meta Plans Sales Team, Consulting Partnerships to Win Over Big Companies' - The Information",
           "url": "https://www.benzinga.com/news/26/11/63032720/meta-plans-sales-team-consulting-partnerships-win-over-big-companies-information",
@@ -176,10 +198,24 @@
       "headlines": []
     },
     "XOM": {
-      "score": -0.065,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.102,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "'East\u2013West pipeline targeted in Madinah, no injuries or disruption' - Ajel News",
+          "url": "https://www.benzinga.com/news/26/11/63046755/east-west-pipeline-targeted-madinah-no-injuries-or-disruption-ajel-news",
+          "time": "2026-11-09T16:21:31Z",
+          "sentiment": 0.2,
+          "reason": "Attack on Saudi pipeline may lift oil supply risk premium"
+        },
+        {
+          "headline": "Iran Won\u2019t Enter Any Talks With U.S. In Absence Of Practical Action On 7 Conditions",
+          "url": "https://www.benzinga.com/news/26/11/63042297/iran-won-t-enter-any-talks-u-s-absence-practical-action-7-conditions",
+          "time": "2026-11-09T15:39:55Z",
+          "sentiment": 0.3,
+          "reason": "Middle East tension could lift oil prices and energy stocks"
+        },
         {
           "headline": "GTA Owner Take-Two, ExxonMobil, Clorox And A Financial Stock On CNBC\u2019s \u2018Final Trades\u2019",
           "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63028131/take-two-exxonmobil-clorox-cnbc-final-trades",
@@ -295,10 +331,17 @@
       ]
     },
     "AMD": {
-      "score": 0.385,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.37,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Cathie Wood Buys More Nvidia and AMD, Sells Broadcom in Latest ARK Trades",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63041788/cathie-wood-buys-more-nvidia-and-amd-sells-broadcom-in-latest-ark-trades",
+          "time": "2026-11-09T15:35:08Z",
+          "sentiment": 0.15,
+          "reason": "ARK accumulation adds small bullish sentiment"
+        },
         {
           "headline": "Jim Cramer Posts On X \"AMD viewed as a winner. It IS a winner. But a data center multi-year roadmap in this country is now suspect...\"",
           "url": "https://www.benzinga.com/news/26/11/63036073/jim-cramer-posts-x-amd-viewed-winner-it-winner-data-center-multi-year-roadmap-country-now-suspect",
@@ -326,13 +369,6 @@
           "time": "2026-11-09T13:11:26Z",
           "sentiment": 0.3,
           "reason": "AMD EPYC chosen to power Google Cloud TPU infrastructure"
-        },
-        {
-          "headline": "This AMD Analyst Turns Bullish; Here Are Top 5 Upgrades For Monday",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/11/63028729/this-amd-analyst-turns-bullish-here-are-top-5-upgrades-for-monday",
-          "time": "2026-11-09T12:52:47Z",
-          "sentiment": 0.3,
-          "reason": "Analyst upgrade to bullish on AMD"
         }
       ]
     }
