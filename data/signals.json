@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T17:35:19.201908+00:00",
-  "market_risk": 0.113,
+  "generated_at": "2026-11-09T18:35:21.655814+00:00",
+  "market_risk": 0.117,
   "tickers": {
     "SPY": {
       "score": -0.092,
@@ -45,10 +45,17 @@
       ]
     },
     "QQQ": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.379,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek",
+          "time": "2026-11-09T17:59:58Z",
+          "sentiment": 0.5,
+          "reason": "Nasdaq 100 up 3% on chip rebound after prior rout"
+        },
         {
           "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
           "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63044502/11-of-11-sectors-rise-monday-as-growth-leads",
@@ -59,10 +66,17 @@
       ]
     },
     "AAPL": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.339,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Apple Reclaims $5 Trillion Crown: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63054391/apple-reclaims-5-trillion-crown-whats-going-on",
+          "time": "2026-11-09T17:48:49Z",
+          "sentiment": 0.4,
+          "reason": "Reclaimed $5T market cap; China AI approvals boost sentiment"
+        },
         {
           "headline": "Philippines Department of Education Secures 172,654 Apple MacBook Laptops",
           "url": "https://www.manilatimes.net/2026/11/09/tmt-newswire/deped-secures-over-172k-macbook-neos-with-five-year-warranty-laptop-awards-for-teachers-top-231k-so-far/2464994",
@@ -87,10 +101,31 @@
       ]
     },
     "NVDA": {
-      "score": -0.238,
-      "articles": 33,
-      "ai_articles": 33,
+      "score": -0.254,
+      "articles": 35,
+      "ai_articles": 35,
       "headlines": [
+        {
+          "headline": "Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout",
+          "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/63055748/nvidia-stock-200-day-moving-average-gap-megaspeed-jensen-huang",
+          "time": "2026-11-09T18:05:08Z",
+          "sentiment": -0.4,
+          "reason": "Stock far below 200-day average amid Megaspeed probe"
+        },
+        {
+          "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek",
+          "time": "2026-11-09T17:59:58Z",
+          "sentiment": -0.4,
+          "reason": "Worst day versus S&P 500 since DeepSeek on CEO probe"
+        },
+        {
+          "headline": "Apple Reclaims $5 Trillion Crown: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63054391/apple-reclaims-5-trillion-crown-whats-going-on",
+          "time": "2026-11-09T17:48:49Z",
+          "sentiment": -0.2,
+          "reason": "Overtaken by Apple in market capitalization"
+        },
         {
           "headline": "QUICK SPARK: Nvidia Stock Eyes Worst Day Against S&P 500 Since DeepSeek's Shock",
           "url": "https://www.benzinga.com/markets/equities/26/11/63053048/nvidia-stock-worst-day-vs-sp-500-since-deepseek",
@@ -104,35 +139,21 @@
           "time": "2026-11-09T17:25:42Z",
           "sentiment": -0.3,
           "reason": "CEO absence from conference lineup after affair admission"
-        },
-        {
-          "headline": "Jensen Huang\u2019s Scandal Could Hit CoreWeave, Nebius Where It Hurts",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63052004/jensen-huangs-scandal-could-hit-coreweave-nebius-where-it-hurts",
-          "time": "2026-11-09T17:20:12Z",
-          "sentiment": -0.25,
-          "reason": "Scandal may indirectly pressure Nvidia-linked neocloud partners"
-        },
-        {
-          "headline": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
-          "url": "https://www.benzinga.com/opinion/26/11/63051990/nvidia-stock-is-the-huang-controversy-a-long-term-risk",
-          "time": "2026-11-09T17:20:00Z",
-          "sentiment": -0.3,
-          "reason": "Huang controversy may pose longer-term governance risk"
-        },
-        {
-          "headline": "Why Is Marvell Stock Surging on Monday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049496/why-is-marvell-stock-surging-on-monday",
-          "time": "2026-11-09T16:48:01Z",
-          "sentiment": 0.2,
-          "reason": "Broad semiconductor rebound after last week's losses"
         }
       ]
     },
     "AMZN": {
-      "score": 0.285,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.233,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Amazon Leo To Launch 40 Satellites On Its First Vulcan Mission",
+          "url": "https://www.benzinga.com/news/26/11/63054464/amazon-leo-launch-40-satellites-its-first-vulcan-mission",
+          "time": "2026-11-09T17:49:50Z",
+          "sentiment": 0.15,
+          "reason": "Amazon Leo satellite launch advances broadband constellation"
+        },
         {
           "headline": "What's Going On With Amazon Stock Monday?",
           "url": "https://www.benzinga.com/markets/tech/26/11/63050593/whats-going-on-with-amazon-stock-monday-5",
@@ -171,10 +192,24 @@
       ]
     },
     "META": {
-      "score": 0.12,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.221,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Meta Platforms Rolling Out Releasing Muse Ember On Meta Model API, Muse Code",
+          "url": "https://www.benzinga.com/news/26/11/63055168/meta-platforms-rolling-out-releasing-muse-ember-meta-model-api-muse-code",
+          "time": "2026-11-09T17:58:39Z",
+          "sentiment": 0.3,
+          "reason": "New Muse model releases expand Meta AI developer offerings"
+        },
+        {
+          "headline": "Meta Stock Climbs on Muse Launch Reports in UK",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63053758/meta-stock-climbs-on-muse-launch-reports-in-uk",
+          "time": "2026-11-09T17:41:25Z",
+          "sentiment": 0.35,
+          "reason": "Reports of Meta AI UK launch and expanded AI sales push"
+        },
         {
           "headline": "Meta Reportedly Partnering with Consulting Firms to Expand AI Product Sales",
           "url": "https://www.marketscreener.com/news/meta-forging-relationships-with-consulting-firms-to-sell-ai-products-to-corporate-customers-ce785fd3dc8ef020",
@@ -310,10 +345,17 @@
       ]
     },
     "TSLA": {
-      "score": -0.344,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.038,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Tesla Stock Moves Higher: What's Going On?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63054627/tesla-stock-moves-higher-whats-going-on-2",
+          "time": "2026-11-09T17:51:44Z",
+          "sentiment": 0.4,
+          "reason": "Robotaxi rides starting in San Antonio this week; stock rising"
+        },
         {
           "headline": "Elon Musk Says Tesla Will Have to Return Cybertruck Deposits to 'A Lot of People,' Rejects Unprofitability Reports",
           "url": "https://www.benzinga.com/markets/tech/26/11/63024653/elon-musk-says-tesla-will-have-to-return-cybertruck-deposits-to-a-lot-of-people-rejects-unprofitability-reports",
@@ -345,10 +387,17 @@
       ]
     },
     "AMD": {
-      "score": 0.352,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": 0.358,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek",
+          "time": "2026-11-09T17:59:58Z",
+          "sentiment": 0.4,
+          "reason": "Chip sector rebound lifts semiconductor names"
+        },
         {
           "headline": "Why Is Marvell Stock Surging on Monday?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049496/why-is-marvell-stock-surging-on-monday",
@@ -376,13 +425,6 @@
           "time": "2026-11-09T14:33:45Z",
           "sentiment": 0.15,
           "reason": "Sector-wide dip-buying call; AMD not named as pick"
-        },
-        {
-          "headline": "AMD 5th Gen EPYC Processors Power New Google Cloud TPU 8tx Infrastructure",
-          "url": "https://www.globenewswire.com/news-release/2026/11/09/3398340/0/en/amd-epyc-expands-its-leadership-at-the-foundation-of-ai.html",
-          "time": "2026-11-09T14:32:20Z",
-          "sentiment": 0.2,
-          "reason": "EPYC chips powering new Google Cloud TPU infrastructure"
         }
       ]
     }
