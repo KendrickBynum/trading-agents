@@ -1,22 +1,5 @@
 [
   {
-    "id": "63066004",
-    "created_at": "2026-11-09T20:31:30Z",
-    "headline": "House Democratic Minority Leader Hakeem Jeffries Says There Are Real Concerns That Need To Be Addressed With Respect To The NVIDIA Situation; Says NVIDIA Situation Came Up In Intelligence Briefing But Mostly About Iran; Says He Strongly Supports Chips Restrictions In Senate NDAA On China Becoming Law",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63066004/house-democratic-minority-leader-hakeem-jeffries-says-there-are-real-concerns-need-be-addressed-resp",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Congressional concerns over NVIDIA situation and China chip restrictions"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "117947839",
     "created_at": "2026-11-09T22:31:36Z",
     "headline": "JPMorgan Chase Announces $1.75 Million in Philanthropic Support for Veterans",
@@ -2523,6 +2506,64 @@
         "sentiment": -0.3,
         "confidence": 0.4,
         "reason": "Possible congressional subpoena of Nvidia CEO creates governance overhang"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63119548",
+    "created_at": "2026-11-10T20:32:22Z",
+    "headline": "Fed\u2019s Bowman Says Persistent Inflation, Firming Labor Conditions Suggest \u2018Still Work To Do';  Financial Conditions Have Tightened, Fed Must Weigh Costs Of Additional Policy Tightening; Bringing Inflation Down Remains A Priority; Core PCE Likely Rose 3.3% In October On Energy Prices, AI-Related Demand; As Shocks Unwind, Forecast Core PCE To Move Closer To 2% Next Year; Economic Growth Gained Momentum This Year; CPI Data Suggests Inflation Pressures May Persist; Labor Market Has Improved, Not Tight",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63119548/fed-s-bowman-says-persistent-inflation-firming-labor-conditions-suggest-still-work-do-financial-cond",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Hawkish Fed signals persistent inflation and possible further tightening"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63119292",
+    "created_at": "2026-11-10T20:28:33Z",
+    "headline": "Anthropic IPO Pricing Impresses Dan Ives: 'A Deal of This Size Gets One Shot at Its Debut'",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63119292/anthropic-ipo-pricing-impresses-dan-ives-a-deal-of-this-size-gets-one-shot-at-its-debut",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.25,
+        "confidence": 0.35,
+        "reason": "Strong Anthropic IPO could lift AI-sector sentiment; analyst optimism only"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Successful Anthropic IPO may boost tech sentiment; indirect and speculative"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Successful Anthropic IPO may boost tech sentiment; indirect and speculative"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "Broad AI-sector optimism from Anthropic IPO; weak direct link"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "Broad AI-sector optimism from Anthropic IPO; weak direct link"
       }
     ],
     "scorer": "claude"
