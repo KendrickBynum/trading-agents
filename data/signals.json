@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T16:35:22.113500+00:00",
-  "market_risk": 0.16,
+  "generated_at": "2026-11-10T17:35:23.544826+00:00",
+  "market_risk": 0.166,
   "tickers": {
     "SPY": {
-      "score": -0.297,
-      "articles": 20,
-      "ai_articles": 20,
+      "score": -0.298,
+      "articles": 19,
+      "ai_articles": 19,
       "headlines": [
         {
           "headline": "Iran's Major General Rezaei To Al Mayadeen, Says We Asked The Americans To Provide A Frank And Clear Response To Our Conditions, And To This Day They Have Not Done So; They May Provide This Response In The Future; Hormuz Will Not Be Reopened Until Iran\u2019s 7 Conditions Are Met",
@@ -129,10 +129,24 @@
       ]
     },
     "NVDA": {
-      "score": -0.217,
-      "articles": 33,
-      "ai_articles": 33,
+      "score": -0.22,
+      "articles": 29,
+      "ai_articles": 29,
       "headlines": [
+        {
+          "headline": "AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63107011/amd-stock-reverses-morning-gains-slowly-recovers-after-google-ai-deal",
+          "time": "2026-11-10T17:17:16Z",
+          "sentiment": -0.2,
+          "reason": "Capital rotation out of Nvidia toward AMD"
+        },
+        {
+          "headline": "Steve Eisman: Oracle Could Suffer if OpenAI 'Demise' Causes US Recession",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63104820/eisman-ai-bear-market",
+          "time": "2026-11-10T16:52:58Z",
+          "sentiment": -0.3,
+          "reason": "Prominent bear warns of AI boom ending in bear market"
+        },
         {
           "headline": "NVIDIA Introduces Alpamayo; Open AI Models, Simulation Tools And Datasets For Autonomous Vehicles And Robotaxis; Combines Explainable Reasoning AI With Full-Stack Driving Software And Safety Technologies",
           "url": "https://www.benzinga.com/news/26/11/63102068/nvidia-introduces-alpamayo-open-ai-models-simulation-tools-and-datasets-autonomous-vehicles-and-robo",
@@ -153,27 +167,13 @@
           "time": "2026-11-10T16:00:59Z",
           "sentiment": -0.3,
           "reason": "Broad selling pressure on high-beta semiconductor and tech names"
-        },
-        {
-          "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
-          "time": "2026-11-10T14:57:56Z",
-          "sentiment": 0.2,
-          "reason": "Chip selloff may rebound on dip-buying, but policy uncertainty persists"
-        },
-        {
-          "headline": "Nvidia\u2019s $7.5 Billion China Chip Scandal Leads to This Shanghai-Listed AI Company",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63088843/nvidia-china-chip-scandal",
-          "time": "2026-11-10T14:01:49Z",
-          "sentiment": -0.4,
-          "reason": "Reported $7.5B China chip diversion scandal raises export-control and regulatory risk"
         }
       ]
     },
     "AMZN": {
-      "score": 0.274,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.27,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Amazon Stock Climbs: What's Going On?",
@@ -255,10 +255,17 @@
       ]
     },
     "META": {
-      "score": 0.231,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.219,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Meta Defies Market Slump: Why IMAX, Pixelworks Deals Fuel Investor Confidence",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63103698/meta-defies-market-slump-why-imax-pixelworks-deals-fuel-investor-confidence",
+          "time": "2026-11-10T16:39:31Z",
+          "sentiment": 0.2,
+          "reason": "Stock rose against market selloff on partnership news"
+        },
         {
           "headline": "Meta and IMAX Announce Partnership for Upcoming VR Glasses",
           "url": "https://www.barchart.com/press-releases/8756645/meta-vr-glasses-to-be-first-ever-imax-certified-vr-device",
@@ -346,10 +353,17 @@
       ]
     },
     "MU": {
-      "score": 0.176,
+      "score": -0.019,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Steve Eisman: Oracle Could Suffer if OpenAI 'Demise' Causes US Recession",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63104820/eisman-ai-bear-market",
+          "time": "2026-11-10T16:52:58Z",
+          "sentiment": -0.3,
+          "reason": "AI bust scenario would hit memory demand expectations"
+        },
         {
           "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
           "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
@@ -363,13 +377,6 @@
           "time": "2026-11-10T14:31:42Z",
           "sentiment": 0.2,
           "reason": "$1B commitment to Anthropic IPO; AI demand sentiment, modest"
-        },
-        {
-          "headline": "Why Is Marvell Stock Surging on Monday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049496/why-is-marvell-stock-surging-on-monday",
-          "time": "2026-11-09T16:48:01Z",
-          "sentiment": 0.2,
-          "reason": "Broad semiconductor rebound after last week's losses"
         }
       ]
     },
@@ -444,10 +451,17 @@
       ]
     },
     "AMD": {
-      "score": 0.102,
+      "score": 0.2,
       "articles": 6,
       "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63107011/amd-stock-reverses-morning-gains-slowly-recovers-after-google-ai-deal",
+          "time": "2026-11-10T17:17:16Z",
+          "sentiment": 0.4,
+          "reason": "Major Google cloud processor deal supports AMD's AI business"
+        },
         {
           "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
           "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
@@ -475,13 +489,6 @@
           "time": "2026-11-09T19:16:48Z",
           "sentiment": 0.4,
           "reason": "EPYC supply role in Google's AI TPU system is a win"
-        },
-        {
-          "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek",
-          "time": "2026-11-09T17:59:58Z",
-          "sentiment": 0.4,
-          "reason": "Chip sector rebound lifts semiconductor names"
         }
       ]
     }

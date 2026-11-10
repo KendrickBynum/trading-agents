@@ -1,183 +1,5 @@
 [
   {
-    "id": "63053048",
-    "created_at": "2026-11-09T17:33:03Z",
-    "headline": "QUICK SPARK: Nvidia Stock Eyes Worst Day Against S&P 500 Since DeepSeek's Shock",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63053048/nvidia-stock-worst-day-vs-sp-500-since-deepseek",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.6,
-        "confidence": 0.6,
-        "reason": "Lagging S&P 500 sharply on board probe into CEO Huang"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63051990",
-    "created_at": "2026-11-09T17:20:00Z",
-    "headline": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
-    "url": "https://www.benzinga.com/opinion/26/11/63051990/nvidia-stock-is-the-huang-controversy-a-long-term-risk",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.3,
-        "reason": "Huang controversy may pose longer-term governance risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63052419",
-    "created_at": "2026-11-09T17:25:42Z",
-    "headline": "'Jensen Huang Disappears From An Nyc Conference Lineup After Affair Admission' - Business Insider",
-    "url": "https://www.benzinga.com/news/26/11/63052419/jensen-huang-disappears-nyc-conference-lineup-after-affair-admission-business-insider",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "CEO absence from conference lineup after affair admission"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63052356",
-    "created_at": "2026-11-09T17:25:00Z",
-    "headline": "Live On CNBC, Karen Firestone Announces Trimmed Apple Position",
-    "url": "https://www.benzinga.com/quote/AAPL",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63052004",
-    "created_at": "2026-11-09T17:20:12Z",
-    "headline": "Jensen Huang\u2019s Scandal Could Hit CoreWeave, Nebius Where It Hurts",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63052004/jensen-huangs-scandal-could-hit-coreweave-nebius-where-it-hurts",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.25,
-        "confidence": 0.3,
-        "reason": "Scandal may indirectly pressure Nvidia-linked neocloud partners"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63051044",
-    "created_at": "2026-11-09T17:09:12Z",
-    "headline": "Fed's Barkin Says Risk Lies On The Inflation Side Of The Us Central Bank\u2019s Mandate; Direction Of Monetary Policy Is Straightforward, But Best To Move Policy With Care; U.S. Economy Is Remarkably Stable; Resilient Demand Alongside Broad-based Cost Increases Putting Upward Pressure On Prices; Firms Say They Will Be Trying To Pass On Higher Costs; Businesses Are Performing Well, With Remarkable Earnings",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63051044/fed-s-barkin-says-risk-lies-inflation-side-us-central-bank-s-mandate-direction-monetary-policy-strai",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Hawkish Fed tone on inflation risks weighing on equities"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63050593",
-    "created_at": "2026-11-09T17:02:21Z",
-    "headline": "What's Going On With Amazon Stock Monday?",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63050593/whats-going-on-with-amazon-stock-monday-5",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.35,
-        "confidence": 0.35,
-        "reason": "Rally on favor for hyperscalers with data-center infrastructure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63049759",
-    "created_at": "2026-11-09T16:51:46Z",
-    "headline": "Hims-Eli Lilly GLP-1 Deal Meets Summit\u2019s FDA Gamble: Which Biotech ETFs Stand to Gain?",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63049759/hims-eli-lilly-glp-1-deal-meets-summits-fda-gamble-which-biotech-etfs-stand-to-gain",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63049643",
-    "created_at": "2026-11-09T16:50:24Z",
-    "headline": "CNH Industrial, Planet Labs, Ferguson Enterprises And Other Big Stocks Moving Higher On Monday",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049643/cnh-industrial-planet-labs-ferguson-enterprises-and-other-big-stocks-moving-higher-on-monday",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63049496",
-    "created_at": "2026-11-09T16:48:01Z",
-    "headline": "Why Is Marvell Stock Surging on Monday?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049496/why-is-marvell-stock-surging-on-monday",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Broad semiconductor rebound after last week's losses"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Broad semiconductor rebound after last week's losses"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Broad semiconductor rebound after last week's losses"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63049256",
-    "created_at": "2026-11-09T16:45:09Z",
-    "headline": "Bill Ackman Says Jensen Huang \u2018Has Done a Lot of Good for the World\u2019: Hopes Damage From Affair Is \u2018Minimal\u2019",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049256/bill-ackman-says-jensen-huang-has-done-a-lot-of-good-for-the-world-hopes-damage-from-affair-is-minimal",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Ackman's public defense may limit reputational damage"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63057669",
     "created_at": "2026-11-09T18:30:08Z",
     "headline": "\u2018Texas Is Not For Sale': Gov.-Elect Gina Hinojosa Asks State to Hold Off on Boca Chica Land Near SpaceX's Starbase",
@@ -369,16 +191,6 @@
         "reason": "Reports of Meta AI UK launch and expanded AI sales push"
       }
     ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63053234",
-    "created_at": "2026-11-09T17:35:08Z",
-    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/63053234/10-information-technology-stocks-whale-activity-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
     "scorer": "claude"
   },
   {
@@ -2742,6 +2554,164 @@
     "source": "benzinga",
     "market_risk": 0.05,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63108037",
+    "created_at": "2026-11-10T17:30:12Z",
+    "headline": "CoreWeave Earnings Prediction Market Preview: Can Michael Intrator Steady the Ship?",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63108037/coreweave-earnings-preview",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Earnings preview of a customer; expectations largely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63107011",
+    "created_at": "2026-11-10T17:17:16Z",
+    "headline": "AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63107011/amd-stock-reverses-morning-gains-slowly-recovers-after-google-ai-deal",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Major Google cloud processor deal supports AMD's AI business"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Capital rotation out of Nvidia toward AMD"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Cloud processor deal may improve Google's AI infrastructure costs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63106305",
+    "created_at": "2026-11-10T17:08:12Z",
+    "headline": "AMD Announces Availability Of 6th Gen AMD EPYC Server Sp7 Processors",
+    "url": "https://www.benzinga.com/news/26/11/63106305/amd-announces-availability-6th-gen-amd-epyc-server-sp7-processors",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63106241",
+    "created_at": "2026-11-10T17:07:16Z",
+    "headline": "Google Announces Availability Of Gemini 4 Carbon",
+    "url": "https://www.benzinga.com/news/26/11/63106241/google-announces-availability-gemini-4-carbon",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "New Gemini model release; incremental product news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63105755",
+    "created_at": "2026-11-10T17:02:42Z",
+    "headline": "Mark Zuckerberg Net Worth Tops $225 Billion: Meta Founder\u2019s Shares Won\u2019t Go to Family",
+    "url": "https://www.benzinga.com/markets/large-cap/26/11/63105755/mark-zuckerberg-net-worth-tops-225-billion-meta-ceo-family",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63104820",
+    "created_at": "2026-11-10T16:52:58Z",
+    "headline": "Steve Eisman: Oracle Could Suffer if OpenAI 'Demise' Causes US Recession",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63104820/eisman-ai-bear-market",
+    "source": "benzinga",
+    "market_risk": 0.45,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Prominent bear warns of AI boom ending in bear market"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "AI bust scenario would hit memory demand expectations"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Broad AI-downturn risk, indirect exposure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63103905",
+    "created_at": "2026-11-10T16:43:08Z",
+    "headline": "The Conviction Gap: Bank of America Pulls 3 High-Fly AI Stocks Off Its Top List",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63103905/the-conviction-gap-bank-of-america-pulls-3-high-fly-ai-stocks-off-its-top-list",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Removed from BofA top list though Buy rating kept"
+      },
+      {
+        "ticker": "MU",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Removed from BofA top list though Buy rating kept"
+      },
+      {
+        "ticker": "LRCX",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Removed from BofA top list though Buy rating kept"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63103698",
+    "created_at": "2026-11-10T16:39:31Z",
+    "headline": "Meta Defies Market Slump: Why IMAX, Pixelworks Deals Fuel Investor Confidence",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63103698/meta-defies-market-slump-why-imax-pixelworks-deals-fuel-investor-confidence",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Stock rose against market selloff on partnership news"
+      }
+    ],
     "scorer": "claude"
   }
 ]
