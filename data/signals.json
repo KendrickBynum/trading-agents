@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T14:35:23.498473+00:00",
-  "market_risk": 0.152,
+  "generated_at": "2026-11-10T15:35:34.814899+00:00",
+  "market_risk": 0.157,
   "tickers": {
     "SPY": {
-      "score": -0.267,
-      "articles": 18,
-      "ai_articles": 18,
+      "score": -0.268,
+      "articles": 17,
+      "ai_articles": 17,
       "headlines": [
         {
           "headline": "White House Senior Adviser Hassett Says CPI Report Was Disappointing",
@@ -122,10 +122,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.339,
-      "articles": 36,
-      "ai_articles": 36,
+      "score": -0.308,
+      "articles": 34,
+      "ai_articles": 34,
       "headlines": [
+        {
+          "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
+          "time": "2026-11-10T14:57:56Z",
+          "sentiment": 0.2,
+          "reason": "Chip selloff may rebound on dip-buying, but policy uncertainty persists"
+        },
         {
           "headline": "Nvidia\u2019s $7.5 Billion China Chip Scandal Leads to This Shanghai-Listed AI Company",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63088843/nvidia-china-chip-scandal",
@@ -153,13 +160,6 @@
           "time": "2026-11-10T12:10:12Z",
           "sentiment": -0.5,
           "reason": "Federal probe into CEO over alleged Chinese spy links"
-        },
-        {
-          "headline": "NVIDIA's Jensen Huang Unlikely to Exit Despite Scandal, Analyst Says History Offers Clues",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63082443/nvidias-jensen-huang-unlikely-to-exit-despite-scandal-analyst-says-history-offers-clues",
-          "time": "2026-11-10T11:58:05Z",
-          "sentiment": -0.3,
-          "reason": "Analyst sees CEO exit unlikely but succession concerns persist"
         }
       ]
     },
@@ -206,9 +206,9 @@
       ]
     },
     "GOOGL": {
-      "score": 0.116,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.112,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Adobe Expands Collaboration With Google To Introduce Adobe's Tools To More Google Products, Google's AI Models To Adobe Apps",
@@ -331,10 +331,17 @@
       ]
     },
     "MU": {
-      "score": 0.163,
+      "score": 0.176,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
+          "time": "2026-11-10T14:57:56Z",
+          "sentiment": 0.15,
+          "reason": "Memory names near trough per analysts; data center policy uncertainty"
+        },
         {
           "headline": "Micron Technology to Participate in Anthropic IPO",
           "url": "https://www.morningstar.com/news/marketwatch/2026111038/anthropic-officially-sets-the-stage-for-an-ipo-valuing-the-company-north-of-1-trillion",
@@ -348,21 +355,22 @@
           "time": "2026-11-09T16:48:01Z",
           "sentiment": 0.2,
           "reason": "Broad semiconductor rebound after last week's losses"
-        },
-        {
-          "headline": "What Is Going on With Taiwan Semiconductor Stock on Monday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63039328/what-is-going-on-with-taiwan-semiconductor-stock-on-monday",
-          "time": "2026-11-09T15:14:15Z",
-          "sentiment": -0.2,
-          "reason": "Report TSMC may make 3D DRAM challenging Micron's memory position"
         }
       ]
     },
     "LRCX": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
+          "time": "2026-11-10T14:57:56Z",
+          "sentiment": 0.15,
+          "reason": "Semi-equipment exposed to data center policy; trough view is mixed"
+        }
+      ]
     },
     "TSLA": {
       "score": 0.018,
@@ -407,16 +415,31 @@
       ]
     },
     "ASML": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
+          "time": "2026-11-10T14:57:56Z",
+          "sentiment": 0.15,
+          "reason": "Sector trough at 9x forward earnings; dip-buying case, policy risk remains"
+        }
+      ]
     },
     "AMD": {
-      "score": 0.09,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.102,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
+          "time": "2026-11-10T14:57:56Z",
+          "sentiment": 0.15,
+          "reason": "Sector trough at 9x forward earnings; dip-buying case, policy risk remains"
+        },
         {
           "headline": "AMD to Invest $2.5 Billion in Anthropic IPO",
           "url": "https://www.morningstar.com/news/marketwatch/2026111038/anthropic-officially-sets-the-stage-for-an-ipo-valuing-the-company-north-of-1-trillion",
@@ -444,13 +467,6 @@
           "time": "2026-11-09T17:59:58Z",
           "sentiment": 0.4,
           "reason": "Chip sector rebound lifts semiconductor names"
-        },
-        {
-          "headline": "Why Is Marvell Stock Surging on Monday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049496/why-is-marvell-stock-surging-on-monday",
-          "time": "2026-11-09T16:48:01Z",
-          "sentiment": 0.15,
-          "reason": "Broad semiconductor rebound after last week's losses"
         }
       ]
     }
