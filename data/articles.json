@@ -1,199 +1,5 @@
 [
   {
-    "id": "63057669",
-    "created_at": "2026-11-09T18:30:08Z",
-    "headline": "\u2018Texas Is Not For Sale': Gov.-Elect Gina Hinojosa Asks State to Hold Off on Boca Chica Land Near SpaceX's Starbase",
-    "url": "https://www.benzinga.com/news/politics/26/11/63057669/texas-is-not-for-sale-gov-elect-gina-hinojosa-asks-state-to-hold-off-on-boca-chica-land-near-spacexs-starbase",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Political pushback on potential Musk-linked land sale near Starbase"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63057401",
-    "created_at": "2026-11-09T18:27:01Z",
-    "headline": "CORRECTION: auto-related companies are trading higher",
-    "url": "https://www.benzinga.com/quote/GM",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Vague correction note on auto stocks; no substantive detail"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63057072",
-    "created_at": "2026-11-09T18:22:55Z",
-    "headline": "Fed\u2019s Barkin Says No Base Case For December Meeting; Hard To Know Impact Of Elections On The Economy; Current Policy Rate Likely Around Or Slightly Below Neutral; Would An Advantage If Each Fed Policy Meeting Were Set To Include Two Full Months Of Economy Data; Last Job Report Was \u201cHealthy,\u201d But Still See Firms In Low-Hire, Low-Fire Environment; Do Not Think Ballot Measures Approved In Recent Elections Will Impede Data Center Expansion, Firms Will Find Somewhere To Build",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63057072/fed-s-barkin-says-no-base-case-december-meeting-hard-know-impact-elections-economy-current-policy-ra",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Fed official sees no December move; economy described as healthy"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63055748",
-    "created_at": "2026-11-09T18:05:08Z",
-    "headline": "Nvidia Stock Trades at Widest Gap Versus 200-Day Average Since Trump's Tariffs Rout",
-    "url": "https://www.benzinga.com/trading-ideas/technicals/26/11/63055748/nvidia-stock-200-day-moving-average-gap-megaspeed-jensen-huang",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Stock far below 200-day average amid Megaspeed probe"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Semiconductor ETF rallying; modest sector tailwind"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63055270",
-    "created_at": "2026-11-09T17:59:58Z",
-    "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.5,
-        "confidence": 0.5,
-        "reason": "Nasdaq 100 up 3% on chip rebound after prior rout"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": 0.4,
-        "confidence": 0.4,
-        "reason": "Chip sector rebound lifts semiconductor names"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Worst day versus S&P 500 since DeepSeek on CEO probe"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63055168",
-    "created_at": "2026-11-09T17:58:39Z",
-    "headline": "Meta Platforms Rolling Out Releasing Muse Ember On Meta Model API, Muse Code",
-    "url": "https://www.benzinga.com/news/26/11/63055168/meta-platforms-rolling-out-releasing-muse-ember-meta-model-api-muse-code",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.3,
-        "confidence": 0.35,
-        "reason": "New Muse model releases expand Meta AI developer offerings"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63054627",
-    "created_at": "2026-11-09T17:51:44Z",
-    "headline": "Tesla Stock Moves Higher: What's Going On?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63054627/tesla-stock-moves-higher-whats-going-on-2",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.4,
-        "confidence": 0.45,
-        "reason": "Robotaxi rides starting in San Antonio this week; stock rising"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63054464",
-    "created_at": "2026-11-09T17:49:50Z",
-    "headline": "Amazon Leo To Launch 40 Satellites On Its First Vulcan Mission",
-    "url": "https://www.benzinga.com/news/26/11/63054464/amazon-leo-launch-40-satellites-its-first-vulcan-mission",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Amazon Leo satellite launch advances broadband constellation"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63054391",
-    "created_at": "2026-11-09T17:48:49Z",
-    "headline": "Apple Reclaims $5 Trillion Crown: What's Going On?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63054391/apple-reclaims-5-trillion-crown-whats-going-on",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.4,
-        "confidence": 0.4,
-        "reason": "Reclaimed $5T market cap; China AI approvals boost sentiment"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Overtaken by Apple in market capitalization"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63053758",
-    "created_at": "2026-11-09T17:41:25Z",
-    "headline": "Meta Stock Climbs on Muse Launch Reports in UK",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63053758/meta-stock-climbs-on-muse-launch-reports-in-uk",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.35,
-        "confidence": 0.4,
-        "reason": "Reports of Meta AI UK launch and expanded AI sales push"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63061540",
     "created_at": "2026-11-09T19:24:56Z",
     "headline": "'BLS Will Not Publish 12-Month CPI, Core CPI Figures For October' - Bloomberg New s",
@@ -2712,6 +2518,97 @@
         "reason": "Stock rose against market selloff on partnership news"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63110842",
+    "created_at": "2026-11-10T18:06:02Z",
+    "headline": "Why Is SMCI Stock Falling on Tuesday?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63110842/why-is-smci-stock-falling-on-tuesday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "China export-control concerns tied to Nvidia partner weigh on sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63110520",
+    "created_at": "2026-11-10T18:01:15Z",
+    "headline": "CNBC Halftime Report Final Trades: Broadcom, Amazon, EQT Corp.",
+    "url": "https://www.benzinga.com/quote/AVGO",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63110214",
+    "created_at": "2026-11-10T17:56:26Z",
+    "headline": "What's Going on With Alphabet Stock on Tuesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63110214/whats-going-on-with-alphabet-stock-on-tuesday",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Modest dip amid TPU and Gemini 4 product announcements; mixed signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63109340",
+    "created_at": "2026-11-10T17:45:15Z",
+    "headline": "Nvidia Has No Obvious Jensen Huang Successor. That\u2019s Becoming a Bigger Problem",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63109340/nvidia-jensen-huang-successor",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "Speculative CEO succession question; no concrete near-term catalyst"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63108940",
+    "created_at": "2026-11-10T17:41:52Z",
+    "headline": "Billionaire Investor Took a Core Scientific Stake Before Its AI Pivot",
+    "url": "https://www.benzinga.com/markets/mid-cap/26/11/63108940/billionaire-investor-took-a-core-scientific-stake-before-its-ai-pivot",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63108379",
+    "created_at": "2026-11-10T17:35:08Z",
+    "headline": "3 Communication Services Stocks Whale Activity In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/11/63108379/3-communication-services-stocks-whale-activity-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63108376",
+    "created_at": "2026-11-10T17:35:08Z",
+    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
+    "url": "https://www.benzinga.com/markets/options/26/11/63108376/10-information-technology-stocks-whale-activity-today-s-session",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
