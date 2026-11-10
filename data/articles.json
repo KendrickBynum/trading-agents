@@ -1,231 +1,5 @@
 [
   {
-    "id": "63061540",
-    "created_at": "2026-11-09T19:24:56Z",
-    "headline": "'BLS Will Not Publish 12-Month CPI, Core CPI Figures For October' - Bloomberg New s",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63061540/bls-will-not-publish-12-month-cpi-core-cpi-figures-october-bloomberg-new-s",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Missing October CPI data adds macro uncertainty for markets"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63061050",
-    "created_at": "2026-11-09T19:16:48Z",
-    "headline": "AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63061050/amd-google-tpu",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "EPYC supply role in Google's AI TPU system is a win"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Google-AMD AI chip push intensifies Nvidia competition"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63060246",
-    "created_at": "2026-11-09T19:04:19Z",
-    "headline": "Short Nvidia, Long Drama: Traders Pile into Leveraged ETFs During Sell-Off",
-    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63060246/short-nvidia-long-drama-traders-pile-into-leveraged-etfs-during-sell-off",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Ongoing sell-off and Jensen Huang controversy weigh on shares"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "117622219",
-    "created_at": "2026-11-09T19:01:41Z",
-    "headline": "Amazon Announces 'Early Haul-iday' Event and Expansion of Haul Marketplace",
-    "url": "https://www.pymnts.com/commerce/2026/amazon-haul-launches-pre-holiday-deals-as-users-jump-350percent/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Routine promotional event with minimal expected price impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "117622216",
-    "created_at": "2026-11-09T19:01:39Z",
-    "headline": "JPMorgan Adds Meta Platforms to Analyst Focus List",
-    "url": "https://www.tradingview.com/news/stocktwits:c083f9213094b:0-meta-amzn-stocks-jump-as-jpmorgan-picks-pair-over-alphabet-sees-stronger-ai-returns-cloud-growth/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "JPMorgan focus list addition signals analyst conviction in AI ads"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "117622215",
-    "created_at": "2026-11-09T19:01:39Z",
-    "headline": "Meta Expands AI-Powered Age Estimation Technology Globally",
-    "url": "https://www.techdogs.com/tech-news/td-newsdesk/meta-expands-instagram-ai-age-detection-worldwide-even-for-teens-using-adult-birthdays",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "117622211",
-    "created_at": "2026-11-09T19:01:35Z",
-    "headline": "Typeface Inducted into JPMorgan Chase's 2026 Hall of Innovation",
-    "url": "https://www.digitaljournal.com/pr/news/access-newswire/typeface-inducted-jpmorganchase-s-2026-hall-1680449666.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "117622209",
-    "created_at": "2026-11-09T19:01:34Z",
-    "headline": "Apple Announces Multiyear Investment in T\u00fcrkiye",
-    "url": "https://appleosophy.com/wire/5nzgplq/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "117622208",
-    "created_at": "2026-11-09T19:01:34Z",
-    "headline": "Apple Introduces Paid 'Intelligence Usage Packs' for AI Features",
-    "url": "https://www.tradingview.com/news/seekingalpha:4683431d2094b:0-apple-adds-ability-to-buy-extra-usage-in-creator-studio-in-ai-monetization-push/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Paid AI usage packs add modest monetization potential"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "117622207",
-    "created_at": "2026-11-09T19:01:34Z",
-    "headline": "Apple Releases iOS 27.2.1 Update",
-    "url": "https://appleosophy.com/wire/o6s1yss/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "117622204",
-    "created_at": "2026-11-09T19:01:28Z",
-    "headline": "Tesla Expands Robotaxi Service to San Antonio",
-    "url": "https://www.techdogs.com/tech-news/td-newsdesk/tesla-expands-robotaxis-to-san-antonio-as-musk-plans-to-refund-some-cybertruck-customers",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.2,
-        "confidence": 0.35,
-        "reason": "Robotaxi expansion to San Antonio supports autonomy narrative"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "117622203",
-    "created_at": "2026-11-09T19:01:28Z",
-    "headline": "Tesla Begins Construction on $10.1 Billion Solar Manufacturing Facility in Texas",
-    "url": "https://www.tradingview.com/news/stocktwits:60199669d094b:0-tesla-kicks-off-work-on-project-crystal-sun-its-biggest-us-solar-bet-yet/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "$10B solar factory signals energy expansion; capex-heavy"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63058912",
-    "created_at": "2026-11-09T18:46:56Z",
-    "headline": "'The Trump Administration Proposed Narrowing Who\u2019s Eligible To Receive Federal Food Assistance, A Change That Officials Estimate Could Block 6.3 Million People From Using The Supplemental Nutrition Assistance Program' - Bloomberg Law",
-    "url": "https://www.benzinga.com/news/26/11/63058912/the-trump-administration-proposed-narrowing-whos-eligible-to-receive-federal-food-assistance-a-change-that-officials-estimate-could-block-6-3-million-people-from-using-the-supplemental-nutr",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63059675",
-    "created_at": "2026-11-09T18:57:12Z",
-    "headline": "Jensen Huang Net Worth Takes a Hit: Nvidia CEO Loses Two Spots Among Top 10 Billionaires",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63059675/jensen-huang-net-worth-takes-a-hit-nvidia-ceo-loses-two-spots-among-top-10-billionaires",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "CEO personal scandal; stock slide likely mostly priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63059655",
-    "created_at": "2026-11-09T18:57:00Z",
-    "headline": "NHTSA Opens Recall Query Into Waymo Robotaxis For Continued Reports Of Passing Stopped School Buses After 2025 Software Recall",
-    "url": "https://www.benzinga.com/news/26/11/63059655/nhtsa-opens-recall-query-waymo-robotaxis-continued-reports-passing-stopped-school-buses-after-2025-s",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.2,
-        "confidence": 0.35,
-        "reason": "NHTSA recall query into Waymo; minor regulatory overhang"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63066004",
     "created_at": "2026-11-09T20:31:30Z",
     "headline": "House Democratic Minority Leader Hakeem Jeffries Says There Are Real Concerns That Need To Be Addressed With Respect To The NVIDIA Situation; Says NVIDIA Situation Came Up In Intelligence Briefing But Mostly About Iran; Says He Strongly Supports Chips Restrictions In Senate NDAA On China Becoming Law",
@@ -2609,6 +2383,273 @@
     "source": "benzinga",
     "market_risk": 0.05,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63115849",
+    "created_at": "2026-11-10T19:30:08Z",
+    "headline": "AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is \u2018at Her Best\u2019",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63115849/amd-lisa-su",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.5,
+        "confidence": 0.5,
+        "reason": "Rally on analyst praise for execution and supply strategy"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Shares slipped as AMD gained share in relative trading"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63115648",
+    "created_at": "2026-11-10T19:26:25Z",
+    "headline": "Punchbowl News Founder Jake Sherman Posts On X \"JIM JORDAN is the next House minority leader\" \"JORDAN: 106, SCALISE: 73\"",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63115648/punchbowl-news-founder-jake-sherman-posts-x-jim-jordan-next-house-minority-leader-jordan-106-scalise",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63114893",
+    "created_at": "2026-11-10T19:13:23Z",
+    "headline": "Google Fi Wireless Launches Super Network With Dual 5G And Wi-Fi Access",
+    "url": "https://www.benzinga.com/news/26/11/63114893/google-fi-wireless-launches-super-network-dual-5g-and-wi-fi-access",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63114776",
+    "created_at": "2026-11-10T19:10:59Z",
+    "headline": "'UK data centre pioneer considers delaying $35bn listing after AI sell-off' - The Telegraph",
+    "url": "https://www.benzinga.com/news/26/11/63114776/uk-data-centre-pioneer-considers-delaying-35bn-listing-after-ai-sell-telegraph",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Reported AI sell-off weighs on AI infrastructure sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63114602",
+    "created_at": "2026-11-10T19:07:44Z",
+    "headline": "'Nvidia Hires Wachtell Lipton to Investigate C.E.O.\u2019s Affair With Chinese Executive; Wachtell Partner Joon H. Kim, A Former Acting U.S. Attorney, Is Leading The Inquiry Into The Chip Maker\u2019s Chief Executive' - NY Times",
+    "url": "https://www.benzinga.com/news/26/11/63114602/nvidia-hires-wachtell-lipton-investigate-c-e-o-s-affair-chinese-executive-wachtell-partner-joon-h-ki",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "CEO affair probe with Chinese executive creates governance uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63114494",
+    "created_at": "2026-11-10T19:06:26Z",
+    "headline": "Fed's Schmid Says A Lot Of Interesting Data Points Between Now And Fed\u2019s December Meeting",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63114494/fed-s-schmid-says-lot-interesting-data-points-between-now-and-fed-s-december-meeting",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63114257",
+    "created_at": "2026-11-10T19:02:29Z",
+    "headline": "Dan Ives Says \u2018Spy Soap Opera\u2019 Could Send Nvidia Stock 30% Lower Without CEO: \u2018There is Only One Jensen\u2019",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63114257/dan-ives-says-spy-soap-opera-could-send-nvidia-stock-30-lower-without-ceo-there-is-only-one-jensen",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Analyst warns of 30% downside if CEO Jensen Huang departs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "118734087",
+    "created_at": "2026-11-10T19:01:44Z",
+    "headline": "AMD and Cornelis Networks Launch Joint Go-to-Market Program for HPC and AI",
+    "url": "https://natlawreview.com/press-releases/amd-and-cornelis-expand-collaboration-hpc-and-ai-science-gwdg-deploys-emmy",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Minor partnership for HPC and AI deployments"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "118734086",
+    "created_at": "2026-11-10T19:01:44Z",
+    "headline": "AMD Announces General Availability of 6th Gen EPYC Server Processors",
+    "url": "https://www.globenewswire.com/news-release/2026/11/10/3400032/0/en/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.25,
+        "confidence": 0.4,
+        "reason": "Launch of 6th Gen EPYC server chips supports data center growth"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "118734078",
+    "created_at": "2026-11-10T19:01:37Z",
+    "headline": "BofA Global Research Removes Lam Research from US 1 List",
+    "url": "https://www.moomoo.com/news/flash/1004130362/lam-research-bofa-global-research-removes-stock-from-its-us",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "BofA removes Lam Research from its US 1 recommended list"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "118734077",
+    "created_at": "2026-11-10T19:01:37Z",
+    "headline": "Meta Launches Muse AI Agent App for Apple Watch",
+    "url": "https://appleosophy.com/wire/ca1tp9t/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Minor consumer app launch with little financial materiality"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "118734076",
+    "created_at": "2026-11-10T19:01:34Z",
+    "headline": "Rackspace and Together AI Announce Strategic AI Infrastructure Agreement Using NVIDIA Systems",
+    "url": "https://www.globenewswire.com/news-release/2026/11/10/3399517/0/en/rackspace-and-together-ai-announce-strategic-agreement-to-support-enterprise-ai-inference.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Multiyear deal deploying NVIDIA GB300 systems for inference"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "118734074",
+    "created_at": "2026-11-10T19:01:32Z",
+    "headline": "JPMorgan Chase Supports Financial Health Network Report on Homeowners Insurance",
+    "url": "https://www.globenewswire.com/news-release/2026/11/10/3399622/0/en/new-financial-health-network-report-finds-rising-home-insurance-costs-put-financial-stability-at-risk-for-households-across-the-u-s.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.03,
+        "confidence": 0.1,
+        "reason": "Routine sponsorship of an insurance cost report; no direct financial effect"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "118734073",
+    "created_at": "2026-11-10T19:01:28Z",
+    "headline": "ShiftCam ProRig Filmmaker Kit Launches at Apple Stores",
+    "url": "https://www.globenewswire.com/news-release/2026/11/10/3400016/0/en/shiftcam-prorig-now-available-in-apple-stores-and-online.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.01,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.02,
+        "confidence": 0.1,
+        "reason": "Third-party accessory launch at Apple Stores; immaterial to Apple"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63113931",
+    "created_at": "2026-11-10T18:57:41Z",
+    "headline": "Fed's Schmid Says Predicting Instant Payments Will Leap Over Digital Asset Structures",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63113931/fed-s-schmid-says-predicting-instant-payments-will-leap-over-digital-asset-structures",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63113603",
+    "created_at": "2026-11-10T18:51:43Z",
+    "headline": "Fed\u2019s Schmid Says Some Concerning Trends In Prices, Underneath The Whole Energy Story; Didnt Think Rate Was Restrictive Last Year, Believes Its Fairly Accommodative Today; U.S. Hiring Pretty Robust Lately; Could Argue Housing Is Going Through An \u2018interesting Dynamic\u2019 But Elsewhere Can\u2019t Find Any Restriction; Inflation Is Top Of Mind",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63113603/fed-s-schmid-says-some-concerning-trends-prices-underneath-whole-energy-story-didnt-think-rate-was-r",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Fed official flags inflation concerns and sees policy as accommodative"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63113429",
+    "created_at": "2026-11-10T18:48:39Z",
+    "headline": "Democratic Senate Leader Schumer Calls Trump\u2019s Defense Of NVIDIA\u2019s Huang \u201cTroubling\u201d; Says Full Accounting For Trump\u2019s Alleged \u201cFailure To Address Foreign Espionage In The American Tech Industry\u201d Needed; Says Congress Must Pass AI Chip Related Legislation Including AI Overwatch Act, The Match Act, And Chip Security Act; Says U.S. Needs Answers On NVIDIA\u2019s Influence Over Trump Administration\u2019s National Security Decisions",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63113429/democratic-senate-leader-schumer-calls-trump-s-defense-nvidia-s-huang-troubling-says-full-accounting",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Senate leader scrutinizes NVIDIA's influence and pushes AI chip legislation"
+      }
+    ],
     "scorer": "claude"
   }
 ]
