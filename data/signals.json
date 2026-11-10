@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-09T22:58:40.617841+00:00",
-  "market_risk": 0.102,
+  "generated_at": "2026-11-10T03:39:06.686359+00:00",
+  "market_risk": 0.111,
   "tickers": {
     "SPY": {
-      "score": 0.038,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.097,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Trump Sees 'Positive Momentum' to End Iran War After Qatar PM Meeting, But Tehran Tells Washington to 'Surrender'",
+          "url": "https://www.benzinga.com/news/politics/26/11/63077638/trump-iran-war-end-peace-talks-oil-prices",
+          "time": "2026-11-10T02:50:05Z",
+          "sentiment": 0.3,
+          "reason": "Iran war end hopes lift broad market sentiment"
+        },
         {
           "headline": "President Trump Says Seeing Positive Momentum Toward An End To Iran Conflict; Much Was Discussed With Qatar With Respect To Iran",
           "url": "https://www.benzinga.com/news/26/11/63072145/president-trump-says-seeing-positive-momentum-toward-end-iran-conflict-much-was-discussed-qatar-resp",
@@ -34,21 +41,21 @@
           "time": "2026-11-09T19:55:30Z",
           "sentiment": 0.2,
           "reason": "Broad market rebound led by tech, though Iran tensions persist"
-        },
-        {
-          "headline": "Fed's Barkin Says Risk Lies On The Inflation Side Of The Us Central Bank\u2019s Mandate; Direction Of Monetary Policy Is Straightforward, But Best To Move Policy With Care; U.S. Economy Is Remarkably Stable; Resilient Demand Alongside Broad-based Cost Increases Putting Upward Pressure On Prices; Firms Say They Will Be Trying To Pass On Higher Costs; Businesses Are Performing Well, With Remarkable Earnings",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63051044/fed-s-barkin-says-risk-lies-inflation-side-us-central-bank-s-mandate-direction-monetary-policy-strai",
-          "time": "2026-11-09T17:09:12Z",
-          "sentiment": -0.2,
-          "reason": "Hawkish Fed tone on inflation risks weighing on equities"
         }
       ]
     },
     "QQQ": {
-      "score": 0.379,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.339,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Trump Sees 'Positive Momentum' to End Iran War After Qatar PM Meeting, But Tehran Tells Washington to 'Surrender'",
+          "url": "https://www.benzinga.com/news/politics/26/11/63077638/trump-iran-war-end-peace-talks-oil-prices",
+          "time": "2026-11-10T02:50:05Z",
+          "sentiment": 0.3,
+          "reason": "Iran war end hopes lift broad tech and market sentiment"
+        },
         {
           "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
           "url": "https://www.benzinga.com/markets/equities/26/11/63055270/stock-market-today-nasdaq-100-chip-rebound-nvidia-deepseek",
@@ -66,10 +73,17 @@
       ]
     },
     "AAPL": {
-      "score": 0.339,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.442,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Apple Receives Regulatory Clearance for AI Services in China",
+          "url": "https://www.tradingview.com/news/gurufocus:5a33038c4094b:0-apple-clears-major-hurdle-as-ai-push-gains-momentum/",
+          "time": "2026-11-10T01:01:34Z",
+          "sentiment": 0.5,
+          "reason": "China regulatory approval unlocks AI services on iPads and Macs"
+        },
         {
           "headline": "Apple Reclaims $5 Trillion Crown: What's Going On?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63054391/apple-reclaims-5-trillion-crown-whats-going-on",
@@ -108,10 +122,24 @@
       ]
     },
     "NVDA": {
-      "score": -0.271,
-      "articles": 40,
-      "ai_articles": 40,
+      "score": -0.273,
+      "articles": 39,
+      "ai_articles": 39,
       "headlines": [
+        {
+          "headline": "Securities Class Action Lawsuit Filed Against NVIDIA Corporation",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399115/32716/en/nvda-investor-alert-hagens-berman-urges-nvidia-corporation-nasdaq-nvda-investors-with-substantial-losses-to-contact-firm-ahead-of-january-8-2027-lead-plaintiff-deadline.html",
+          "time": "2026-11-10T03:01:19Z",
+          "sentiment": -0.3,
+          "reason": "Securities class action lawsuit adds legal and reputational overhang"
+        },
+        {
+          "headline": "'Materially False and Misleading': Nvidia, Jensen Huang Sued Over Alleged Chinese Spy Affair, Shareholder Says NVDA Stock Was 'Artificially Inflated'",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63077533/nvidia-jensen-huang-sued-class-action-megaspeed-alice-huang-chinese-spy",
+          "time": "2026-11-10T02:14:11Z",
+          "sentiment": -0.4,
+          "reason": "Shareholder suit alleges inflated stock over CEO relationship disclosure"
+        },
         {
           "headline": "Shareholders File Class-Action Lawsuit Against NVIDIA And CEO For Concealing Ties With Suspected Chinese Spy",
           "url": "https://www.benzinga.com/news/26/11/63075419/shareholders-file-class-action-lawsuit-against-nvidia-and-ceo-concealing-ties-suspected-chinese-spy",
@@ -132,20 +160,6 @@
           "time": "2026-11-09T20:25:34Z",
           "sentiment": -0.3,
           "reason": "Congress demands more information on NVIDIA situation"
-        },
-        {
-          "headline": "'Leaders Of Three U.S. House Committees Have Summoned NVIDIA CEO Jensen Huang To A Closed-Door Briefing Over His Ties To Alice Huang, A Tech Executive Reportedly Identified As A Chinese Spy' - The Information",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63064111/leaders-three-u-s-house-committees-have-summoned-nvidia-ceo-jensen-huang-closed-door-briefing-over-h",
-          "time": "2026-11-09T20:04:53Z",
-          "sentiment": -0.6,
-          "reason": "House committees summon Jensen Huang over reported Chinese spy ties"
-        },
-        {
-          "headline": "NVIDIA, Rebellions, and SK Telecom Collaborate on Sovereign AI Infrastructure",
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Rebellions-and-SK-Telecom-Announce-Collaboration-to-Advance-Sovereign-AI-Infrastructure-With-NVIDIA-NVLink-Fusion/default.aspx",
-          "time": "2026-11-09T20:01:27Z",
-          "sentiment": 0.2,
-          "reason": "Sovereign AI partnership supports NVIDIA's AI infrastructure demand; incremental, not material"
         }
       ]
     },
@@ -282,10 +296,24 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.103,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.097,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "ExxonMobil Signs Memorandum of Understanding to Explore Upstream Opportunities in Venezuela",
+          "url": "https://www.tradingview.com/news/seekingalpha:7d41c2789094b:0-exxon-signs-mou-to-explore-oil-opportunities-in-formerly-uninvestable-venezuela/",
+          "time": "2026-11-10T03:01:34Z",
+          "sentiment": 0.4,
+          "reason": "Venezuela upstream exploration MOU opens potential new oil reserves"
+        },
+        {
+          "headline": "Trump Sees 'Positive Momentum' to End Iran War After Qatar PM Meeting, But Tehran Tells Washington to 'Surrender'",
+          "url": "https://www.benzinga.com/news/politics/26/11/63077638/trump-iran-war-end-peace-talks-oil-prices",
+          "time": "2026-11-10T02:50:05Z",
+          "sentiment": -0.3,
+          "reason": "Falling oil prices on peace hopes hurt upstream energy earnings"
+        },
         {
           "headline": "President Trump Tells Reuters After Talks With Qatari Leader That Qatar Would Rather See A Peaceful Solution With Iran But The U.S. Is Ready For Strikes If Necessary; Says Saudi Arabia Would Also Prefer A Peaceful Solution To Iran Conflict",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63065265/president-trump-tells-reuters-after-talks-qatari-leader-qatar-would-rather-see-peaceful-solution-ira",
@@ -306,20 +334,6 @@
           "time": "2026-11-09T16:21:31Z",
           "sentiment": 0.2,
           "reason": "Attack on Saudi pipeline may lift oil supply risk premium"
-        },
-        {
-          "headline": "Iran Won\u2019t Enter Any Talks With U.S. In Absence Of Practical Action On 7 Conditions",
-          "url": "https://www.benzinga.com/news/26/11/63042297/iran-won-t-enter-any-talks-u-s-absence-practical-action-7-conditions",
-          "time": "2026-11-09T15:39:55Z",
-          "sentiment": 0.3,
-          "reason": "Middle East tension could lift oil prices and energy stocks"
-        },
-        {
-          "headline": "GTA Owner Take-Two, ExxonMobil, Clorox And A Financial Stock On CNBC\u2019s \u2018Final Trades\u2019",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63028131/take-two-exxonmobil-clorox-cnbc-final-trades",
-          "time": "2026-11-09T12:35:31Z",
-          "sentiment": 0.15,
-          "reason": "CNBC analyst picks ExxonMobil citing upcoming earnings"
         }
       ]
     },
