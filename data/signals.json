@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-11-10T19:35:21.838779+00:00",
-  "market_risk": 0.141,
+  "generated_at": "2026-11-10T20:27:37.954687+00:00",
+  "market_risk": 0.143,
   "tickers": {
     "SPY": {
-      "score": -0.298,
-      "articles": 19,
-      "ai_articles": 19,
+      "score": -0.307,
+      "articles": 18,
+      "ai_articles": 18,
       "headlines": [
+        {
+          "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63117496/stock-market-today-hot-cpi-treasury-yields-5-percent-nvidia-slides",
+          "time": "2026-11-10T20:00:07Z",
+          "sentiment": -0.3,
+          "reason": "Hot CPI lifts 10-year yield to 5%, pressuring equities"
+        },
+        {
+          "headline": "Wall Street Hasn't Ignored Earnings Beats Like This Since the Dot-Com Bust",
+          "url": "https://www.benzinga.com/markets/earnings/26/11/63117154/earnings-beats-ignored-dot-com-bust-bofa-factset-sp-500",
+          "time": "2026-11-10T19:54:54Z",
+          "sentiment": -0.3,
+          "reason": "Smallest earnings-beat reward since 2001 signals weak sentiment"
+        },
         {
           "headline": "Iran's Major General Rezaei To Al Mayadeen, Says We Asked The Americans To Provide A Frank And Clear Response To Our Conditions, And To This Day They Have Not Done So; They May Provide This Response In The Future; Hormuz Will Not Be Reopened Until Iran\u2019s 7 Conditions Are Met",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63102781/iran-s-major-general-rezaei-al-mayadeen-says-we-asked-americans-provide-frank-and-clear-response-our",
@@ -27,28 +41,21 @@
           "time": "2026-11-10T15:54:43Z",
           "sentiment": -0.3,
           "reason": "Hawkish Fed signal: inflation above target, further tightening risk"
-        },
-        {
-          "headline": "Fed's Logan Says Excess Inflation Is Unacceptable; Clear That Fed Needs At Least Two More Quarter-Percentage-Point Rate Increases; Says It May Be Possible To Raise Interest Rates More Rapidly This Winter Than Us Central Bank Has Moved So Far; Important To 'Promptly' Achieve Balance In Outlook, Risks For Inflation And Employment; Adjusting Policy Gradually Can Reduce Risk That Economic Activity Deteriorates More Sharply Than Necessary",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63099648/fed-s-logan-says-excess-inflation-unacceptable-clear-fed-needs-least-two-more-quarter-percentage-poi",
-          "time": "2026-11-10T15:53:10Z",
-          "sentiment": -0.4,
-          "reason": "Hawkish Fed signals two more hikes, possibly faster; raises equity discount-rate pressure"
-        },
-        {
-          "headline": "White House Senior Adviser Hassett Says CPI Report Was Disappointing",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63090406/white-house-senior-adviser-hassett-says-cpi-report-was-disappointing",
-          "time": "2026-11-10T14:30:25Z",
-          "sentiment": -0.3,
-          "reason": "Official calls CPI disappointing; reinforces hawkish rate concerns"
         }
       ]
     },
     "QQQ": {
-      "score": -0.299,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.317,
+      "articles": 12,
+      "ai_articles": 12,
       "headlines": [
+        {
+          "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63117496/stock-market-today-hot-cpi-treasury-yields-5-percent-nvidia-slides",
+          "time": "2026-11-10T20:00:07Z",
+          "sentiment": -0.4,
+          "reason": "Nasdaq 100 weighed by Nvidia slide and higher yields"
+        },
         {
           "headline": "Iran's Major General Rezaei To Al Mayadeen, Says We Asked The Americans To Provide A Frank And Clear Response To Our Conditions, And To This Day They Have Not Done So; They May Provide This Response In The Future; Hormuz Will Not Be Reopened Until Iran\u2019s 7 Conditions Are Met",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63102781/iran-s-major-general-rezaei-al-mayadeen-says-we-asked-americans-provide-frank-and-clear-response-our",
@@ -76,13 +83,6 @@
           "time": "2026-11-10T14:30:12Z",
           "sentiment": -0.35,
           "reason": "Hotter inflation raises rate-hike odds; pressures growth/tech valuations"
-        },
-        {
-          "headline": "USA CPI (MoM) For Oct. 0.4% Vs 0.3% Est.",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-10T13:30:12Z",
-          "sentiment": -0.4,
-          "reason": "Hot inflation raises rate-hike risk, pressuring long-duration growth stocks"
         }
       ]
     },
@@ -108,10 +108,17 @@
       ]
     },
     "MSFT": {
-      "score": 0.15,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.113,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63117496/stock-market-today-hot-cpi-treasury-yields-5-percent-nvidia-slides",
+          "time": "2026-11-10T20:00:07Z",
+          "sentiment": -0.15,
+          "reason": "Higher yields and tech selloff weigh on megacap software"
+        },
         {
           "headline": "Microsoft and Northern Trust Expand AI Collaboration",
           "url": "https://www.barchart.com/press-releases/8737579/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai",
@@ -122,51 +129,51 @@
       ]
     },
     "NVDA": {
-      "score": -0.259,
+      "score": -0.254,
       "articles": 29,
       "ai_articles": 29,
       "headlines": [
+        {
+          "headline": "'U.S. Commerce Department Delays MegaSpeed\u2019s Inclusion On Trade Blacklist' - Financial Times",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63118264/u-s-commerce-department-delays-megaspeed-s-inclusion-trade-blacklist-financial-times",
+          "time": "2026-11-10T20:12:01Z",
+          "sentiment": 0.3,
+          "reason": "Delayed blacklist listing eases near-term export-restriction risk"
+        },
+        {
+          "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63117496/stock-market-today-hot-cpi-treasury-yields-5-percent-nvidia-slides",
+          "time": "2026-11-10T20:00:07Z",
+          "sentiment": -0.6,
+          "reason": "Nvidia drops 6% on hot CPI and rate fears"
+        },
+        {
+          "headline": "Wall Street Hasn't Ignored Earnings Beats Like This Since the Dot-Com Bust",
+          "url": "https://www.benzinga.com/markets/earnings/26/11/63117154/earnings-beats-ignored-dot-com-bust-bofa-factset-sp-500",
+          "time": "2026-11-10T19:54:54Z",
+          "sentiment": -0.2,
+          "reason": "AI risk concerns weigh on AI-linked names"
+        },
+        {
+          "headline": "'House Republicans Consider Issuing Subpoena To NVIDIA CEO Jensen Huang' - ABC News",
+          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63116676/house-republicans-consider-issuing-subpoena-nvidia-ceo-jensen-huang-abc-news",
+          "time": "2026-11-10T19:45:12Z",
+          "sentiment": -0.3,
+          "reason": "Possible congressional subpoena of Nvidia CEO creates governance overhang"
+        },
         {
           "headline": "AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is \u2018at Her Best\u2019",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63115849/amd-lisa-su",
           "time": "2026-11-10T19:30:08Z",
           "sentiment": -0.2,
           "reason": "Shares slipped as AMD gained share in relative trading"
-        },
-        {
-          "headline": "'UK data centre pioneer considers delaying $35bn listing after AI sell-off' - The Telegraph",
-          "url": "https://www.benzinga.com/news/26/11/63114776/uk-data-centre-pioneer-considers-delaying-35bn-listing-after-ai-sell-telegraph",
-          "time": "2026-11-10T19:10:59Z",
-          "sentiment": -0.2,
-          "reason": "Reported AI sell-off weighs on AI infrastructure sentiment"
-        },
-        {
-          "headline": "'Nvidia Hires Wachtell Lipton to Investigate C.E.O.\u2019s Affair With Chinese Executive; Wachtell Partner Joon H. Kim, A Former Acting U.S. Attorney, Is Leading The Inquiry Into The Chip Maker\u2019s Chief Executive' - NY Times",
-          "url": "https://www.benzinga.com/news/26/11/63114602/nvidia-hires-wachtell-lipton-investigate-c-e-o-s-affair-chinese-executive-wachtell-partner-joon-h-ki",
-          "time": "2026-11-10T19:07:44Z",
-          "sentiment": -0.5,
-          "reason": "CEO affair probe with Chinese executive creates governance uncertainty"
-        },
-        {
-          "headline": "Dan Ives Says \u2018Spy Soap Opera\u2019 Could Send Nvidia Stock 30% Lower Without CEO: \u2018There is Only One Jensen\u2019",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63114257/dan-ives-says-spy-soap-opera-could-send-nvidia-stock-30-lower-without-ceo-there-is-only-one-jensen",
-          "time": "2026-11-10T19:02:29Z",
-          "sentiment": -0.4,
-          "reason": "Analyst warns of 30% downside if CEO Jensen Huang departs"
-        },
-        {
-          "headline": "Democratic Senate Leader Schumer Calls Trump\u2019s Defense Of NVIDIA\u2019s Huang \u201cTroubling\u201d; Says Full Accounting For Trump\u2019s Alleged \u201cFailure To Address Foreign Espionage In The American Tech Industry\u201d Needed; Says Congress Must Pass AI Chip Related Legislation Including AI Overwatch Act, The Match Act, And Chip Security Act; Says U.S. Needs Answers On NVIDIA\u2019s Influence Over Trump Administration\u2019s National Security Decisions",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63113429/democratic-senate-leader-schumer-calls-trump-s-defense-nvidia-s-huang-troubling-says-full-accounting",
-          "time": "2026-11-10T18:48:39Z",
-          "sentiment": -0.3,
-          "reason": "Senate leader scrutinizes NVIDIA's influence and pushes AI chip legislation"
         }
       ]
     },
     "AMZN": {
-      "score": 0.277,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.24,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "Amazon Stock Climbs: What's Going On?",
@@ -188,13 +195,6 @@
           "time": "2026-11-09T22:17:06Z",
           "sentiment": 0.15,
           "reason": "Opinion piece suggests enterprise AI spending has room to grow"
-        },
-        {
-          "headline": "JPMorgan Names Amazon a Top AI Pick, Citing AWS Growth Projections",
-          "url": "https://www.barchart.com/story/news/8737564/why-amazon-amzn-stock-is-up-today",
-          "time": "2026-11-09T20:01:43Z",
-          "sentiment": 0.5,
-          "reason": "JPMorgan names Amazon top AI pick citing AWS growth outlook"
         }
       ]
     },
@@ -269,9 +269,9 @@
       ]
     },
     "XOM": {
-      "score": 0.296,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.305,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
         {
           "headline": "Reported Earlier: Trump Administration Pouring $480M Loan Into Gulf Of America Oil And Gas Project",
