@@ -1,73 +1,5 @@
 [
   {
-    "id": "63096066",
-    "created_at": "2026-11-10T15:16:35Z",
-    "headline": "Iran\u2019s Foreign Minister Says Claims About Meeting Between Security Chief Rezaei And Vance Are Baseless Media Speculation",
-    "url": "https://www.benzinga.com/news/26/11/63096066/iran-s-foreign-minister-says-claims-about-meeting-between-security-chief-rezaei-and-vance-are-basele",
-    "source": "benzinga",
-    "market_risk": 0.25,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Denial of Iran meeting report is unverified geopolitical noise, little index impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63093536",
-    "created_at": "2026-11-10T14:57:56Z",
-    "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Chip selloff may rebound on dip-buying, but policy uncertainty persists"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": 0.15,
-        "confidence": 0.35,
-        "reason": "Sector trough at 9x forward earnings; dip-buying case, policy risk remains"
-      },
-      {
-        "ticker": "ASML",
-        "sentiment": 0.15,
-        "confidence": 0.35,
-        "reason": "Sector trough at 9x forward earnings; dip-buying case, policy risk remains"
-      },
-      {
-        "ticker": "LRCX",
-        "sentiment": 0.15,
-        "confidence": 0.35,
-        "reason": "Semi-equipment exposed to data center policy; trough view is mixed"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": 0.15,
-        "confidence": 0.35,
-        "reason": "Memory names near trough per analysts; data center policy uncertainty"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63092390",
-    "created_at": "2026-11-10T14:48:07Z",
-    "headline": "FMR LLC Cuts Share Stake In SpaceX By 17.9% To 248.3M Class A Shares; Cuts Share Stake In NVIDIA Corporation By 9.1% To 932.8M Shares; Cuts Share Stake In Amazon By 11.8% To 322.6M Shares",
-    "url": "https://www.benzinga.com/news/26/11/63092390/fmr-llc-cuts-share-stake-in-spacex-by-17-9-to-248-3m-class-a-shares-cuts-share-stake-in-nvidia-corporation-by-9-1-to-932-8m-shares",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "63103014",
     "created_at": "2026-11-10T16:29:13Z",
     "headline": "Google Agrees To Additional Privacy Protections In Acquisition Of Employee Data From Defunct Spirit Airlines",
@@ -357,16 +289,6 @@
         "reason": "Shares rising on new Ring products and early Black Friday/Cyber Monday deal dates"
       }
     ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63097812",
-    "created_at": "2026-11-10T15:35:06Z",
-    "headline": "Space Stock Tracker: Moon Contracts, Earnings and Midterms Rock the Sector",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63097812/space-stock-tracker-moon-contracts-earnings-and-midterms-rock-the-sector",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
     "scorer": "claude"
   },
   {
@@ -2511,6 +2433,143 @@
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63145301",
+    "created_at": "2026-11-11T15:31:27Z",
+    "headline": "What Is Going on With Super Micro Stock on Wednesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63145301/what-is-going-on-with-super-micro-stock-on-wednesday-2",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Premarket gain tied to EPYC H15 server portfolio rollout"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Improving AI sentiment lifts sector peers modestly"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63145055",
+    "created_at": "2026-11-11T15:29:27Z",
+    "headline": "What Is Going on With Broadcom Stock on Wednesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63145055/what-is-going-on-with-broadcom-stock-on-wednesday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Broadcom AI demand rally has indirect read-through to Google"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "Strong AI compute demand signal supports sector sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63144401",
+    "created_at": "2026-11-11T15:22:35Z",
+    "headline": "'Bessent confronts Lutnick over China inaction'- Axios",
+    "url": "https://www.benzinga.com/news/26/11/63144401/bessent-confronts-lutnick-over-china-inaction-axios",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Internal US-China policy friction adds mild trade uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63144204",
+    "created_at": "2026-11-11T15:20:36Z",
+    "headline": "What Is Going on With AMD Stock on Wednesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63144204/what-is-going-on-with-amd-stock-on-wednesday-3",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.6,
+        "confidence": 0.6,
+        "reason": "Google selecting EPYC for TPU 8tx is a major design win"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63141935",
+    "created_at": "2026-11-11T15:00:30Z",
+    "headline": "Iran's National Security Head Rezaei Says We Are Working On Nuclear-Powered Ships And Submarines, So We Need Our Enriched Materials; If The U.S. Attacks Iran, We Will Attack Not Only Nearby American Bases, But U.S. Military Bases In European Countries",
+    "url": "https://www.benzinga.com/content/63141935/iran-s-national-security-head-rezaei-says-we-are-working-nuclear-powered-ships-and-submarines-so-we-",
+    "source": "benzinga",
+    "market_risk": 0.45,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Explicit threat of attacks on US bases raises geopolitical risk"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Middle East escalation risk could support oil prices"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63140460",
+    "created_at": "2026-11-11T14:48:22Z",
+    "headline": "Live On CNBC, CoreWeave CEO Says NVIDIA Is Not One Person, It Is An Extraordinary Company",
+    "url": "https://www.benzinga.com/quote/NVDA",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Non-material CEO commentary; minimal price relevance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63140011",
+    "created_at": "2026-11-11T14:45:06Z",
+    "headline": "Nvidia Stock Gets Rare Downgrade: Baird Slashes Target 60% on Jensen Huang Scandal",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63140011/nvidia-stock-gets-rare-downgrade-baird-slashes-target-60-on-jensen-huang-scandal",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.7,
+        "confidence": 0.7,
+        "reason": "Rare downgrade to Neutral with sharp target cut and China risk"
+      }
+    ],
     "scorer": "claude"
   }
 ]

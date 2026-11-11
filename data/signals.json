@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-11T14:35:20.606123+00:00",
-  "market_risk": 0.1,
+  "generated_at": "2026-11-11T15:35:24.505415+00:00",
+  "market_risk": 0.106,
   "tickers": {
     "SPY": {
-      "score": -0.216,
-      "articles": 18,
-      "ai_articles": 18,
+      "score": -0.247,
+      "articles": 19,
+      "ai_articles": 19,
       "headlines": [
+        {
+          "headline": "Iran's National Security Head Rezaei Says We Are Working On Nuclear-Powered Ships And Submarines, So We Need Our Enriched Materials; If The U.S. Attacks Iran, We Will Attack Not Only Nearby American Bases, But U.S. Military Bases In European Countries",
+          "url": "https://www.benzinga.com/content/63141935/iran-s-national-security-head-rezaei-says-we-are-working-nuclear-powered-ships-and-submarines-so-we-",
+          "time": "2026-11-11T15:00:30Z",
+          "sentiment": -0.4,
+          "reason": "Explicit threat of attacks on US bases raises geopolitical risk"
+        },
         {
           "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Bessent Urges US-China to \u2018De-Risk\u2019\u2014 Alcon, CoreWeave, Telefonica Brasil in Focus (UPDATED)",
           "url": "https://www.benzinga.com/markets/equities/26/11/63132394/stock-market-today-dow-jones-sp-500-futures-rise-as-bessent-urges-us-china-to-de-risk-crwv-rgti-fnv-in-focus",
@@ -34,13 +41,6 @@
           "time": "2026-11-11T04:37:21Z",
           "sentiment": -0.3,
           "reason": "Hotter-than-expected inflation data weighs on broad market"
-        },
-        {
-          "headline": "Fed\u2019s Paulson Said Exact Path Of Rate Policy Depends On How Economy Evolves; Monetary Policy Needs To Be Somewhat Restrictive",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-10T23:57:12Z",
-          "sentiment": -0.3,
-          "reason": "Hawkish Fed comments: restrictive policy, rate path data-dependent"
         }
       ]
     },
@@ -150,10 +150,24 @@
       ]
     },
     "NVDA": {
-      "score": -0.206,
-      "articles": 41,
-      "ai_articles": 41,
+      "score": -0.237,
+      "articles": 42,
+      "ai_articles": 42,
       "headlines": [
+        {
+          "headline": "What Is Going on With Broadcom Stock on Wednesday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63145055/what-is-going-on-with-broadcom-stock-on-wednesday",
+          "time": "2026-11-11T15:29:27Z",
+          "sentiment": 0.15,
+          "reason": "Strong AI compute demand signal supports sector sentiment"
+        },
+        {
+          "headline": "Nvidia Stock Gets Rare Downgrade: Baird Slashes Target 60% on Jensen Huang Scandal",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63140011/nvidia-stock-gets-rare-downgrade-baird-slashes-target-60-on-jensen-huang-scandal",
+          "time": "2026-11-11T14:45:06Z",
+          "sentiment": -0.7,
+          "reason": "Rare downgrade to Neutral with sharp target cut and China risk"
+        },
         {
           "headline": "Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday",
           "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63137631/nvidia-to-200-here-are-10-top-analyst-forecasts-for-wednesday",
@@ -174,20 +188,6 @@
           "time": "2026-11-11T13:59:00Z",
           "sentiment": -0.3,
           "reason": "China spy allegations and CEO succession concerns weigh on sentiment"
-        },
-        {
-          "headline": "Why Is NVIDIA Stock Gaining Wednesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63136565/why-is-nvidia-stock-gaining-wednesday",
-          "time": "2026-11-11T13:44:25Z",
-          "sentiment": 0.15,
-          "reason": "Rebound into earnings offset by CEO-exit downside warnings"
-        },
-        {
-          "headline": "Microsoft Warns Trump Administration's Proposed China Data-Center Tech Ban Could Slow US AI Buildout, Raise Costs: Report",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63136492/microsoft-warns-trump-administrations-proposed-china-data-center-tech-ban-could-slow-us-ai-buildout-raise-costs-report",
-          "time": "2026-11-11T13:40:24Z",
-          "sentiment": -0.25,
-          "reason": "Proposed China tech ban could raise costs and slow AI buildout"
         }
       ]
     },
@@ -262,10 +262,17 @@
       ]
     },
     "XOM": {
-      "score": 0.008,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.082,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Iran's National Security Head Rezaei Says We Are Working On Nuclear-Powered Ships And Submarines, So We Need Our Enriched Materials; If The U.S. Attacks Iran, We Will Attack Not Only Nearby American Bases, But U.S. Military Bases In European Countries",
+          "url": "https://www.benzinga.com/content/63141935/iran-s-national-security-head-rezaei-says-we-are-working-nuclear-powered-ships-and-submarines-so-we-",
+          "time": "2026-11-11T15:00:30Z",
+          "sentiment": 0.2,
+          "reason": "Middle East escalation risk could support oil prices"
+        },
         {
           "headline": "Goldman Sachs Adjusts Exxon Mobil Price Target to $169 From $179",
           "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-exxon-mobil-price-target-to-169-from-179-ce785edbdf8bf620",
@@ -297,9 +304,9 @@
       ]
     },
     "MU": {
-      "score": 0.17,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.173,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "Micron (MU) Stock Is Trending Pre-Market: Here\u2019s What You Should Know",
@@ -321,20 +328,13 @@
           "time": "2026-11-10T16:52:58Z",
           "sentiment": -0.3,
           "reason": "AI bust scenario would hit memory demand expectations"
-        },
-        {
-          "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
-          "time": "2026-11-10T14:57:56Z",
-          "sentiment": 0.15,
-          "reason": "Memory names near trough per analysts; data center policy uncertainty"
         }
       ]
     },
     "LRCX": {
-      "score": -0.129,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.3,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "BofA Global Research Removes Lam Research from US 1 List",
@@ -342,13 +342,6 @@
           "time": "2026-11-10T19:01:37Z",
           "sentiment": -0.3,
           "reason": "BofA removes Lam Research from its US 1 recommended list"
-        },
-        {
-          "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
-          "time": "2026-11-10T14:57:56Z",
-          "sentiment": 0.15,
-          "reason": "Semi-equipment exposed to data center policy; trough view is mixed"
         }
       ]
     },
@@ -388,24 +381,30 @@
       ]
     },
     "ASML": {
-      "score": 0.15,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Chip Stocks Trade at 9 Times 2028 Earnings. Cantor Calls It a Gift, Bank of America Says Wait for Policy Clarity",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63093536/chip-stocks-9-times-2028-earnings-cantor-bank-of-america",
-          "time": "2026-11-10T14:57:56Z",
-          "sentiment": 0.15,
-          "reason": "Sector trough at 9x forward earnings; dip-buying case, policy risk remains"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "AMD": {
-      "score": 0.132,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.289,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "What Is Going on With Super Micro Stock on Wednesday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63145301/what-is-going-on-with-super-micro-stock-on-wednesday-2",
+          "time": "2026-11-11T15:31:27Z",
+          "sentiment": 0.3,
+          "reason": "Premarket gain tied to EPYC H15 server portfolio rollout"
+        },
+        {
+          "headline": "What Is Going on With AMD Stock on Wednesday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63144204/what-is-going-on-with-amd-stock-on-wednesday-3",
+          "time": "2026-11-11T15:20:36Z",
+          "sentiment": 0.6,
+          "reason": "Google selecting EPYC for TPU 8tx is a major design win"
+        },
         {
           "headline": "Super Micro Computer Begins Shipments Of Its H15 Generation Servers With AMD EPYC 9006 Series Processors",
           "url": "https://www.benzinga.com/news/26/11/63137529/super-micro-computer-begins-shipments-its-h15-generation-servers-amd-epyc-9006-series-processors",
@@ -426,20 +425,6 @@
           "time": "2026-11-11T12:31:37Z",
           "sentiment": 0.2,
           "reason": "New buy initiation with $620 target from smaller brokerage"
-        },
-        {
-          "headline": "AMD and Samsung Electronics Announce Partnership for Semiconductor Manufacturing Test Infrastructure",
-          "url": "https://www.marketscreener.com/news/amd-samsung-electronics-collaborate-on-semiconductor-manufacturing-test-technology-ce785edbda80f422",
-          "time": "2026-11-11T11:32:23Z",
-          "sentiment": 0.15,
-          "reason": "Partnership with Samsung on chip manufacturing test infrastructure"
-        },
-        {
-          "headline": "Anthropic IPO Pricing Impresses Dan Ives: 'A Deal of This Size Gets One Shot at Its Debut'",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63119292/anthropic-ipo-pricing-impresses-dan-ives-a-deal-of-this-size-gets-one-shot-at-its-debut",
-          "time": "2026-11-10T20:28:33Z",
-          "sentiment": 0.15,
-          "reason": "Broad AI-sector optimism from Anthropic IPO; weak direct link"
         }
       ]
     }
