@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T17:35:21.895458+00:00",
-  "market_risk": 0.094,
+  "generated_at": "2026-11-11T18:35:22.417850+00:00",
+  "market_risk": 0.099,
   "tickers": {
     "SPY": {
       "score": -0.149,
@@ -45,10 +45,17 @@
       ]
     },
     "QQQ": {
-      "score": 0.011,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.096,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia",
+          "time": "2026-11-11T17:53:02Z",
+          "sentiment": 0.4,
+          "reason": "Nasdaq 100 up 2.8% on broad AI and chip rally"
+        },
         {
           "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
           "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63148059/cyclicals-lead-sectors-in-wednesday-trading-as-defensives-trail",
@@ -76,21 +83,21 @@
           "time": "2026-11-11T12:46:58Z",
           "sentiment": -0.25,
           "reason": "Hedge funds unwinding tech/AI at record pace; institutional selling pressure"
-        },
-        {
-          "headline": "\u2018Sinking Under Water\u2019: Americans Feel the Inflation Squeeze as Prices Outpace Wage Growth, Economist Says \u2014 Warns 50-Basis-Point Fed Hike Is Back on the Table",
-          "url": "https://www.benzinga.com/markets/economic-data/26/11/63131120/sinking-under-water-americans-feel-the-inflation-squeeze-as-prices-outpace-wage-growth-economist-says-warns-50-basis-point-fed-hike-is-back-on-the-table",
-          "time": "2026-11-11T07:45:22Z",
-          "sentiment": -0.4,
-          "reason": "Hot inflation and possible 50bp Fed hike pressure valuations"
         }
       ]
     },
     "AAPL": {
-      "score": 0.379,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.356,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "What's Going On With Apple Stock Wednesday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63157383/whats-going-on-with-apple-stock-wednesday-4",
+          "time": "2026-11-11T17:55:02Z",
+          "sentiment": 0.3,
+          "reason": "Bond sale and Siri AI roadmap support sentiment, partly priced in"
+        },
         {
           "headline": "This Apple Analyst Turns Bullish; Here Are Top 5 Upgrades For Wednesday",
           "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/11/63149012/this-apple-analyst-turns-bullish-here-are-top-5-upgrades-for-wednesday",
@@ -115,10 +122,17 @@
       ]
     },
     "MSFT": {
-      "score": -0.167,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.319,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "Microsoft Stock Slides After Anthropic Launches Productivity Tools: What to Know",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63155981/microsoft-stock-slides-after-anthropic-launches-productivity-tools-what-to-know",
+          "time": "2026-11-11T17:36:20Z",
+          "sentiment": -0.5,
+          "reason": "Stock down ~2.5% on Anthropic's competing workplace tools"
+        },
         {
           "headline": "What's Going On With Microsoft Stock Wednesday?",
           "url": "https://www.benzinga.com/markets/tech/26/11/63155458/whats-going-on-with-microsoft-stock-wednesday-4",
@@ -146,21 +160,35 @@
           "time": "2026-11-10T20:28:33Z",
           "sentiment": 0.2,
           "reason": "Successful Anthropic IPO may boost tech sentiment; indirect and speculative"
-        },
-        {
-          "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63117496/stock-market-today-hot-cpi-treasury-yields-5-percent-nvidia-slides",
-          "time": "2026-11-10T20:00:07Z",
-          "sentiment": -0.15,
-          "reason": "Higher yields and tech selloff weigh on megacap software"
         }
       ]
     },
     "NVDA": {
-      "score": -0.121,
-      "articles": 42,
-      "ai_articles": 42,
+      "score": -0.144,
+      "articles": 44,
+      "ai_articles": 44,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia",
+          "time": "2026-11-11T17:53:02Z",
+          "sentiment": 0.2,
+          "reason": "Shrugged off Baird downgrade while rallying with AI trade"
+        },
+        {
+          "headline": "Michael Burry Says Jensen\u2019s Affair Won\u2019t Sink Nvidia, But Regulators Might",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63156711/michael-burry-says-jensens-affair-wont-sink-nvidia-but-regulators-might",
+          "time": "2026-11-11T17:45:45Z",
+          "sentiment": -0.4,
+          "reason": "Huang scandal may bring antitrust and China regulatory scrutiny"
+        },
+        {
+          "headline": "'Nvidia Partners See Early Signs Customers Are Unnerved By Jensen Huang Investigation' - CRN",
+          "url": "https://www.benzinga.com/news/26/11/63156281/nvidia-partners-see-early-signs-customers-are-unnerved-jensen-huang-investigation-crn",
+          "time": "2026-11-11T17:41:19Z",
+          "sentiment": -0.5,
+          "reason": "Partners report customers unnerved by Huang investigation"
+        },
         {
           "headline": "What Is Going on With Arm Holdings Stock on Wednesday?",
           "url": "https://www.benzinga.com/markets/tech/26/11/63153896/what-is-going-on-with-arm-holdings-stock-on-wednesday",
@@ -174,27 +202,6 @@
           "time": "2026-11-11T16:46:52Z",
           "sentiment": 0.2,
           "reason": "Intel's AI-driven chip rally lifts broader semiconductor sentiment"
-        },
-        {
-          "headline": "CoreWeave CEO Says He Has Buyers for All Its Future AI Capacity but Won\u2019t Sell Yet",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63151452/coreweave-ai-capacity",
-          "time": "2026-11-11T16:37:20Z",
-          "sentiment": 0.3,
-          "reason": "CoreWeave reports very strong AI capacity demand and rising prices"
-        },
-        {
-          "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63148059/cyclicals-lead-sectors-in-wednesday-trading-as-defensives-trail",
-          "time": "2026-11-11T16:00:22Z",
-          "sentiment": 0.2,
-          "reason": "Tech sector strength provides mild positive sector tailwind"
-        },
-        {
-          "headline": "Tech Stocks Add Over $500 Billion as CoreWeave's Blockbuster Results Rescue AI Rally",
-          "url": "https://www.benzinga.com/markets/earnings/26/11/63148039/tech-stocks-500-billion-coreweave-results-ai-rally",
-          "time": "2026-11-11T16:00:14Z",
-          "sentiment": 0.4,
-          "reason": "AI chip rally from CoreWeave results lifts NVIDIA"
         }
       ]
     },
@@ -274,10 +281,24 @@
       ]
     },
     "MU": {
-      "score": 0.449,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.399,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "QUICK SPARK: CoreWeave, 16 Other AI Stocks Are Up More Than 10% on Wednesday",
+          "url": "https://www.benzinga.com/markets/earnings/26/11/63158536/coreweave-ai-stocks-up-10-percent-wednesday",
+          "time": "2026-11-11T18:15:08Z",
+          "sentiment": 0.3,
+          "reason": "AI rally lifts memory and chip peers after CoreWeave beat"
+        },
+        {
+          "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia",
+          "time": "2026-11-11T17:53:02Z",
+          "sentiment": 0.3,
+          "reason": "Memory stocks rallied with chipmakers on AI momentum"
+        },
         {
           "headline": "Micron Stock Jumps 13% as CoreWeave Outlook Eases AI Spending Fears",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63152060/micron-stock-jumps-13-as-coreweave-outlook-eases-ai-spending-fears",
@@ -298,20 +319,6 @@
           "time": "2026-11-11T15:49:47Z",
           "sentiment": 0.4,
           "reason": "Micron among stocks moving higher amid tech rally"
-        },
-        {
-          "headline": "Micron (MU) Stock Is Trending Pre-Market: Here\u2019s What You Should Know",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63131455/micron-shares-rise-premarket-anthropic-ipo-investment",
-          "time": "2026-11-11T08:29:13Z",
-          "sentiment": 0.3,
-          "reason": "Premarket gain on joining Anthropic IPO investor group"
-        },
-        {
-          "headline": "Anthropic IPO Pricing Impresses Dan Ives: 'A Deal of This Size Gets One Shot at Its Debut'",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63119292/anthropic-ipo-pricing-impresses-dan-ives-a-deal-of-this-size-gets-one-shot-at-its-debut",
-          "time": "2026-11-10T20:28:33Z",
-          "sentiment": 0.15,
-          "reason": "Broad AI-sector optimism from Anthropic IPO; weak direct link"
         }
       ]
     },
