@@ -1,160 +1,5 @@
 [
   {
-    "id": "117947839",
-    "created_at": "2026-11-09T22:31:36Z",
-    "headline": "JPMorgan Chase Announces $1.75 Million in Philanthropic Support for Veterans",
-    "url": "https://investingnews.com/jpmorganchase-provides-1-75-million-to-help-thousands-of-veteran-and-military-spouse-entrepreneurs-grow-their-businesses-compete-for-contracts-and-create-jobs/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63075419",
-    "created_at": "2026-11-09T22:28:52Z",
-    "headline": "Shareholders File Class-Action Lawsuit Against NVIDIA And CEO For Concealing Ties With Suspected Chinese Spy",
-    "url": "https://www.benzinga.com/news/26/11/63075419/shareholders-file-class-action-lawsuit-against-nvidia-and-ceo-concealing-ties-suspected-chinese-spy",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Securities class action over alleged concealed ties to suspected Chinese spy"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63074897",
-    "created_at": "2026-11-09T22:17:06Z",
-    "headline": "Anthropic\u2019s S-1 Hides Its Most Bullish Number, Says Larridin CEO",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63074897/anthropic-ai-spending",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Opinion piece suggests enterprise AI spending has room to grow"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Opinion piece suggests enterprise AI spending has room to grow"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63073903",
-    "created_at": "2026-11-09T22:00:06Z",
-    "headline": "Bitcoin\u2019s \u2018Glory Days Are Over,\u2019 Bloomberg Expert Says as Bulls Push Back",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63073903/bitcoins-glory-days-are-over-bloomberg-expert-says-as-bulls-push-back",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63072145",
-    "created_at": "2026-11-09T21:33:42Z",
-    "headline": "President Trump Says Seeing Positive Momentum Toward An End To Iran Conflict; Much Was Discussed With Qatar With Respect To Iran",
-    "url": "https://www.benzinga.com/news/26/11/63072145/president-trump-says-seeing-positive-momentum-toward-end-iran-conflict-much-was-discussed-qatar-resp",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Reported progress toward ending Iran conflict supports broad risk appetite"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "117852529",
-    "created_at": "2026-11-09T21:31:39Z",
-    "headline": "Microsoft and Northern Trust Expand AI Collaboration",
-    "url": "https://www.barchart.com/press-releases/8737579/northern-trust-and-microsoft-frontier-company-collaborate-to-transform-client-onboarding-through-ai",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Expanded enterprise AI partnership with Northern Trust"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63071430",
-    "created_at": "2026-11-09T21:23:49Z",
-    "headline": "Waymo Faces Fresh Federal Probe as Robotaxis Keep Blowing Past Stopped School Buses",
-    "url": "https://www.benzinga.com/markets/private-markets/26/11/63071430/waymo-faces-fresh-federal-probe-as-robotaxis-keep-blowing-past-stopped-school-buses",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "New federal probe into Waymo robotaxi safety violations"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63067723",
-    "created_at": "2026-11-09T20:54:46Z",
-    "headline": "Elon Musk Goes From SNL Host to Joke Punchline: \u2018My Car Did a Flip\u2019",
-    "url": "https://www.benzinga.com/news/entertainment/26/11/63067723/elon-musk-goes-from-snl-host-to-joke-punchline-my-car-did-a-flip",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63067409",
-    "created_at": "2026-11-09T20:50:04Z",
-    "headline": "Nvidia Is Now Nearly 3 Times Cheaper Than Intel on Forward Earnings",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63067409/nvidia-is-now-nearly-3-times-cheaper-than-intel-on-forward-earnings",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Valuation discount vs Intel reflects cooling AI sentiment and CEO scandal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63067264",
-    "created_at": "2026-11-09T20:47:55Z",
-    "headline": "'Nvidia-Backed Fireworks AI Notifies Customers of Its Second Hack in Weeks' - Bloomberg Exclusive",
-    "url": "https://www.benzinga.com/news/26/11/63067264/nvidia-backed-fireworks-ai-notifies-customers-its-second-hack-weeks-bloomberg-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Nvidia-backed partner's repeated hack is minor indirect reputational concern"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63077754",
     "created_at": "2026-11-10T03:32:54Z",
     "headline": "'Objectively Hilarious': Anthony Pompliano Sees Jensen Huang Affair Potentially Marking the Bottom for AI Stocks \u2014 What Do Crypto Bettors Think?",
@@ -247,23 +92,6 @@
         "sentiment": -0.4,
         "confidence": 0.45,
         "reason": "Shareholder suit alleges inflated stock over CEO relationship disclosure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "118120577",
-    "created_at": "2026-11-10T01:01:34Z",
-    "headline": "Apple Receives Regulatory Clearance for AI Services in China",
-    "url": "https://www.tradingview.com/news/gurufocus:5a33038c4094b:0-apple-clears-major-hurdle-as-ai-push-gains-momentum/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.5,
-        "confidence": 0.55,
-        "reason": "China regulatory approval unlocks AI services on iPads and Macs"
       }
     ],
     "scorer": "claude"
@@ -2566,6 +2394,389 @@
         "reason": "Broad AI-sector optimism from Anthropic IPO; weak direct link"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "119301234",
+    "created_at": "2026-11-11T01:01:38Z",
+    "headline": "JPMorgan Chase to Present at Goldman Sachs Financial Services Conference",
+    "url": "https://investingnews.com/jpmorganchase-to-present-at-the-goldman-sachs-financial-services-conference/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Routine conference appearance by CFO; minimal price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "119301232",
+    "created_at": "2026-11-11T01:01:29Z",
+    "headline": "Apple Adds Sign Language Interpretation to Apple TV Originals",
+    "url": "https://appleosophy.com/wire/ghjxmy6/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "119300748",
+    "created_at": "2026-11-11T00:01:27Z",
+    "headline": "AI Investing App Ulys Launches on Apple App Store",
+    "url": "https://www.newswire.com/news/ulys-unveils-ai-app-that-builds-investment-portfolios-from-simple-text-prompts",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63129148",
+    "created_at": "2026-11-10T23:57:12Z",
+    "headline": "Fed\u2019s Paulson Said Exact Path Of Rate Policy Depends On How Economy Evolves; Monetary Policy Needs To Be Somewhat Restrictive",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Hawkish Fed comments: restrictive policy, rate path data-dependent"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63129128",
+    "created_at": "2026-11-10T23:54:46Z",
+    "headline": "Philadelphia Fed President Paulson, Speaking At  81st Annual Field Meeting Capstone, Said Further Gradual Rate Hikes Appropriate Given High Inflation; Fed Will Move More Aggressively If Inflation Landscape Worsens",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.35,
+        "confidence": 0.5,
+        "reason": "Fed official backs further hikes due to high inflation"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63129103",
+    "created_at": "2026-11-10T23:48:37Z",
+    "headline": "Fed\u2019s Goolsbee On PBS NewsHour: We Have A Real Inflation Issue That Must Be Addressed",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.25,
+        "confidence": 0.4,
+        "reason": "Fed's Goolsbee calls inflation a real issue needing action"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63129089",
+    "created_at": "2026-11-10T23:47:31Z",
+    "headline": "Chicago Fed\u2019s Goolsbee, On PBS NewsHour, Said CPI Was Borderline Disturbing On Inflation; Most Troubling Is That Services Inflation Is Not Coming Down",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.3,
+        "confidence": 0.45,
+        "reason": "Goolsbee: CPI disturbing, services inflation not easing"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63128576",
+    "created_at": "2026-11-10T23:10:07Z",
+    "headline": "The Musk Midterms Trade: SPCX Flat, TSLA Drops 5% but DOGE Plunges 7%",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63128576/the-musk-midterms-trade-spcx-flat-tsla-drops-5-but-doge-plunges-7",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Tesla fell 5% since midterms; move largely already occurred"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63128428",
+    "created_at": "2026-11-10T23:00:16Z",
+    "headline": "Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63128428/microsoft-overtakes-nvidia",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Jensen Huang affair selloff erased $1.8T valuation lead"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "Briefly overtook Nvidia in market cap on relative selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "119112858",
+    "created_at": "2026-11-10T22:31:29Z",
+    "headline": "Amazon Web Services Launches $100 Million Health Impact Initiative",
+    "url": "https://af.net/realtime/aws-pledges-100m-in-ai-and-cloud-credits-for-healthcare-access/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Philanthropic AWS initiative; limited financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63126331",
+    "created_at": "2026-11-10T21:57:24Z",
+    "headline": "API Crude Oil Stock 9.800M Barrel Draw Vs 5.267M Barrel Draw Prior",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Larger-than-expected crude inventory draw supports oil prices"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63125711",
+    "created_at": "2026-11-10T21:39:59Z",
+    "headline": "Fed May Be Falling Behind on Inflation, Bank of America Says, Opening the Door to a Half-Point Hike",
+    "url": "https://www.benzinga.com/markets/macro-economic-events/26/11/63125711/fed-falling-behind-inflation-bank-of-america-half-point-hike-december",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.4,
+        "confidence": 0.55,
+        "reason": "Possible December half-point Fed hike; yields jumping, bonds sliding"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Rising rate expectations pressure long-duration growth stocks"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63125636",
+    "created_at": "2026-11-10T21:38:48Z",
+    "headline": "'Wall Street regulator poised to bring charges against prediction market giant Kalshi' - Politico",
+    "url": "https://www.benzinga.com/government/26/11/63125636/wall-street-regulator-poised-bring-charges-against-prediction-market-giant-kalshi-politico",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63125531",
+    "created_at": "2026-11-10T21:37:43Z",
+    "headline": "Fed's Bowman Says The Fact That Inflation Is Not On Downward Trend, Should Give Us Pause; Need To Think About What Pace And What Timeline To Address It",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63125531/fed-s-bowman-says-fact-inflation-not-downward-trend-should-give-us-pause-need-think-about-what-pace-",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Fed official flags sticky inflation, hawkish tilt for markets"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "119002269",
+    "created_at": "2026-11-10T21:31:17Z",
+    "headline": "SketchUp Introduces Spatial Preview for Apple Vision Pro",
+    "url": "https://www.prnewswire.com/news-releases/trimble-expands-design-and-constructability-workflows-with-new-sketchup-capabilities-302933970.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Third-party Vision Pro extension, minor ecosystem news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63124625",
+    "created_at": "2026-11-10T21:28:03Z",
+    "headline": "Fed's Bowman Says Fed Does Ongoing Cybersecurity Examinations Of Banks, Have Seen A Great Deal Of Focus On Identifying, Patching Vulnerabilities; Fed Cut Rates Gradually Last Year And Then Paused Before Resuming, In Same Way That We May Work To Address Inflation In Coming Months; Hope And Expect To Finalize Rules On GSIB Surcharge, Basel III In Coming Weeks; Have Shifted Focus To Smaller Bank Rules And Supervisory Approaches",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63124625/fed-s-bowman-says-fed-does-ongoing-cybersecurity-examinations-banks-have-seen-great-deal-focus-ident",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Fed regulatory update, mostly routine; mild inflation caution"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63123244",
+    "created_at": "2026-11-10T21:15:30Z",
+    "headline": "Fed\u2019s Bowman Says Would Need To See AI, Middle East Risks Abate Before Could Be Confident Inflation Will Come Down Next Year; I\u2019m Shifting My Focus To Inflation; Open Lines Of Communication With Treasury Are Critically Important; Don't Think AI Will Rob U.S. Economy Of Jobs; AI Will Make Workers More Productive, Create New Jobs, Eliminate Less-Necessary Jobs",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63123244/fed-s-bowman-says-would-need-see-ai-middle-east-risks-abate-could-be-confident-inflation-will-come-d",
+    "source": "benzinga",
+    "market_risk": 0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63123225",
+    "created_at": "2026-11-10T21:15:15Z",
+    "headline": "If You Invested $100 In Micron Technology Stock 10 Years Ago, You Would Have This Much Today",
+    "url": "https://www.benzinga.com/news/26/11/63123225/if-you-invested-100-micron-technology-stock-10-years-ago-you-would-have-much-today",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63123069",
+    "created_at": "2026-11-10T21:14:22Z",
+    "headline": "'OpenAI Revenue Jumps to $10B in Third Quarter'- The Information",
+    "url": "https://www.benzinga.com/news/26/11/63123069/openai-revenue-jumps-10b-third-quarter-information",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "OpenAI revenue growth benefits Microsoft's major stake and Azure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63122164",
+    "created_at": "2026-11-10T21:06:17Z",
+    "headline": "Jensen Huang\u2019s Love Life Just Made Nvidia the Dow\u2019s Cheapest Stock",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63122164/jensen-huangs-love-life-just-made-nvidia-the-dows-cheapest-stock",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "CEO personal scandal and spy probe triggered selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63121292",
+    "created_at": "2026-11-10T21:00:21Z",
+    "headline": "Semiconductor Rally Defies Nvidia Scandal; Hot CPI; CoreWeave Earnings Ahead",
+    "url": "https://www.benzinga.com/opinion/26/11/63121292/semiconductor-rally-defies-nvidia-scandal-hot-cpi-coreweave-earnings-ahead",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Semiconductor rally shrugs off scandal, supports sector sentiment"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Hot CPI print raises rate-hike and valuation pressure"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Hot CPI print raises rate-hike and valuation pressure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63121599",
+    "created_at": "2026-11-10T21:02:15Z",
+    "headline": "Fed Vice Chair Of Supervision Bowman Says Longer-Term Inflation Expectations Very Well Anchored; Inflation Expectations An Important Data Point, But Not Necessarily Controlling How I Think About Things",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63121599/fed-vice-chair-supervision-bowman-says-longer-term-inflation-expectations-very-well-anchored-inflati",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Anchored inflation expectations are mildly reassuring"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63121272",
+    "created_at": "2026-11-10T21:00:07Z",
+    "headline": "SpaceX Could Profit From AI Data Center Crackdown, Deutsche Bank Says as It Raises 2028 Forecast",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63121272/spacex-data-center-crackdown",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63121170",
+    "created_at": "2026-11-10T20:59:12Z",
+    "headline": "'Thune Wins Another Term as Senate GOP Leader After Midterm Rout' - Bloomberg News",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63121170/thune-wins-another-term-senate-gop-leader-after-midterm-rout-bloomberg-news",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
