@@ -17,128 +17,6 @@
     "scorer": "claude"
   },
   {
-    "id": "63117928",
-    "created_at": "2026-11-10T20:06:42Z",
-    "headline": "'U.S. Regulator Postpones Wall Street Push To Trade AI Computing Futures; Commodity Futures Trading Commission Is Extending The Review Period Of Futures Contracts By At Least 60 Days' - Financial Times",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63117928/u-s-regulator-postpones-wall-street-push-trade-ai-computing-futures-commodity-futures-trading-commis",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "118840484",
-    "created_at": "2026-11-10T20:01:54Z",
-    "headline": "Tesla Executives Explain Removal of Opening Sunroof in Model Y L",
-    "url": "https://www.businessinsider.com/tesla-killing-off-sunroof-option-model-y-2026-11",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "118840483",
-    "created_at": "2026-11-10T20:01:54Z",
-    "headline": "Sargasso Capital Management Proposes Tesla and SpaceX Combination",
-    "url": "https://markets.businessinsider.com/news/stocks/sargasso-capital-management-announces-project-kepler-the-case-for-combining-tesla-spacex-1036743771",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Speculative hedge fund merger proposal, not an actual deal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "118840473",
-    "created_at": "2026-11-10T20:01:29Z",
-    "headline": "The Ohio State University and Microsoft Announce Five-Year Strategic Partnership",
-    "url": "https://www.morningstar.com/news/pr-newswire/20261110ny93626/the-ohio-state-university-and-microsoft-announce-five-year-strategic-partnership-to-accelerate-innovation-across-clinical-care-education-and-research",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63117496",
-    "created_at": "2026-11-10T20:00:07Z",
-    "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63117496/stock-market-today-hot-cpi-treasury-yields-5-percent-nvidia-slides",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.6,
-        "confidence": 0.6,
-        "reason": "Nvidia drops 6% on hot CPI and rate fears"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.4,
-        "confidence": 0.6,
-        "reason": "Nasdaq 100 weighed by Nvidia slide and higher yields"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Hot CPI lifts 10-year yield to 5%, pressuring equities"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Higher yields and tech selloff weigh on megacap software"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63117154",
-    "created_at": "2026-11-10T19:54:54Z",
-    "headline": "Wall Street Hasn't Ignored Earnings Beats Like This Since the Dot-Com Bust",
-    "url": "https://www.benzinga.com/markets/earnings/26/11/63117154/earnings-beats-ignored-dot-com-bust-bofa-factset-sp-500",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Smallest earnings-beat reward since 2001 signals weak sentiment"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "AI risk concerns weigh on AI-linked names"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63116676",
-    "created_at": "2026-11-10T19:45:12Z",
-    "headline": "'House Republicans Consider Issuing Subpoena To NVIDIA CEO Jensen Huang' - ABC News",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63116676/house-republicans-consider-issuing-subpoena-nvidia-ceo-jensen-huang-abc-news",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Possible congressional subpoena of Nvidia CEO creates governance overhang"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63119548",
     "created_at": "2026-11-10T20:32:22Z",
     "headline": "Fed\u2019s Bowman Says Persistent Inflation, Firming Labor Conditions Suggest \u2018Still Work To Do';  Financial Conditions Have Tightened, Fed Must Weigh Costs Of Additional Policy Tightening; Bringing Inflation Down Remains A Priority; Core PCE Likely Rose 3.3% In October On Energy Prices, AI-Related Demand; As Shocks Unwind, Forecast Core PCE To Move Closer To 2% Next Year; Economic Growth Gained Momentum This Year; CPI Data Suggests Inflation Pressures May Persist; Labor Market Has Improved, Not Tight",
@@ -2357,6 +2235,91 @@
         "reason": "Jensen Huang controversy may overshadow strong record revenue results"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63165023",
+    "created_at": "2026-11-11T20:05:28Z",
+    "headline": "Traders Circulating Headline Iran\u2019s Brigadier General Heydari Says We Have Closed The Strait Of Hormuz And We Will Not Open It Except By The Order Of The Leader Of The Revolution",
+    "url": "https://www.benzinga.com/quote/SPY",
+    "source": "benzinga",
+    "market_risk": 0.6,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.4,
+        "confidence": 0.3,
+        "reason": "Unverified Hormuz closure claim would lift oil prices and energy names"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.4,
+        "confidence": 0.3,
+        "reason": "Unverified Hormuz closure threat raises broad market risk-off pressure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63164916",
+    "created_at": "2026-11-11T20:03:00Z",
+    "headline": "Anthropic Perp Rallies 8%: Traders Price the Claude Maker at $1.8 Trillion",
+    "url": "https://www.benzinga.com/markets/ipos/26/11/63164916/anthropic-perp-rallies-8-traders-price-claude-maker-1-8-trillion",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Anthropic valuation rally modestly supports AI-linked sentiment"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Anthropic valuation rally modestly supports AI-linked sentiment"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.15,
+        "confidence": 0.2,
+        "reason": "AI sentiment lift from Anthropic rally and CoreWeave move"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Mild AI-driven tech strength from Anthropic valuation rally"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "120020241",
+    "created_at": "2026-11-11T20:01:34Z",
+    "headline": "AMD Disclosed as Strategic Partner and Investor in Anthropic IPO Filing",
+    "url": "https://www.newswire.ca/fr/news-releases/an-ai-developer-starts-its-ipo-roadshow-and-its-filing-names-chip-and-cloud-partners-851388308.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.5,
+        "confidence": 0.55,
+        "reason": "$5B purchase commitment and Helios supply deal with Anthropic"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "120020239",
+    "created_at": "2026-11-11T20:01:20Z",
+    "headline": "SEC Completes Distribution of Fair Fund from 2018 Tesla Settlement",
+    "url": "https://www.manilatimes.net/2026/11/12/business/foreign-business/closure-of-musk-tesla-settlement-fund-sought/2467800",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
     "scorer": "claude"
   }
 ]

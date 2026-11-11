@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-11T19:35:24.742015+00:00",
-  "market_risk": 0.102,
+  "generated_at": "2026-11-11T20:11:22.549481+00:00",
+  "market_risk": 0.108,
   "tickers": {
     "SPY": {
-      "score": -0.107,
-      "articles": 18,
-      "ai_articles": 18,
+      "score": -0.133,
+      "articles": 17,
+      "ai_articles": 17,
       "headlines": [
+        {
+          "headline": "Traders Circulating Headline Iran\u2019s Brigadier General Heydari Says We Have Closed The Strait Of Hormuz And We Will Not Open It Except By The Order Of The Leader Of The Revolution",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-11T20:05:28Z",
+          "sentiment": -0.4,
+          "reason": "Unverified Hormuz closure threat raises broad market risk-off pressure"
+        },
         {
           "headline": "'Vance Considers Direct Talks With Iran Hardliner in Push to End War' -WSJ Report",
           "url": "https://www.benzinga.com/news/26/11/63163032/vance-considers-direct-talks-iran-hardliner-push-end-war-wsj-report",
@@ -34,20 +41,13 @@
           "time": "2026-11-11T15:00:30Z",
           "sentiment": -0.4,
           "reason": "Explicit threat of attacks on US bases raises geopolitical risk"
-        },
-        {
-          "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise as Bessent Urges US-China to \u2018De-Risk\u2019\u2014 Alcon, CoreWeave, Telefonica Brasil in Focus (UPDATED)",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63132394/stock-market-today-dow-jones-sp-500-futures-rise-as-bessent-urges-us-china-to-de-risk-crwv-rgti-fnv-in-focus",
-          "time": "2026-11-11T13:36:01Z",
-          "sentiment": 0.3,
-          "reason": "Futures rising on US-China de-risking hopes; modest broad market support"
         }
       ]
     },
     "QQQ": {
-      "score": 0.096,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": 0.117,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
         {
           "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
@@ -122,9 +122,9 @@
       ]
     },
     "MSFT": {
-      "score": -0.319,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.326,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Microsoft Stock Slides After Anthropic Launches Productivity Tools: What to Know",
@@ -164,10 +164,17 @@
       ]
     },
     "NVDA": {
-      "score": -0.144,
-      "articles": 40,
-      "ai_articles": 40,
+      "score": -0.131,
+      "articles": 38,
+      "ai_articles": 38,
       "headlines": [
+        {
+          "headline": "Anthropic Perp Rallies 8%: Traders Price the Claude Maker at $1.8 Trillion",
+          "url": "https://www.benzinga.com/markets/ipos/26/11/63164916/anthropic-perp-rallies-8-traders-price-claude-maker-1-8-trillion",
+          "time": "2026-11-11T20:03:00Z",
+          "sentiment": 0.15,
+          "reason": "AI sentiment lift from Anthropic rally and CoreWeave move"
+        },
         {
           "headline": "EXCLUSIVE: Jensen Huang Drama Puts Q3 Financials on Backburner, Expert Says \u2018No One Cares About Their Record Revenues\u2019",
           "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63160921/exclusive-jensen-huang-drama-puts-q3-financials-on-backburner-expert-says-no-one-cares-about-their-record-revenues",
@@ -195,13 +202,6 @@
           "time": "2026-11-11T17:41:19Z",
           "sentiment": -0.5,
           "reason": "Partners report customers unnerved by Huang investigation"
-        },
-        {
-          "headline": "What Is Going on With Arm Holdings Stock on Wednesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63153896/what-is-going-on-with-arm-holdings-stock-on-wednesday",
-          "time": "2026-11-11T17:08:52Z",
-          "sentiment": 0.4,
-          "reason": "Sector rally on strong CoreWeave earnings and Nvidia rebound"
         }
       ]
     },
@@ -253,10 +253,17 @@
       "headlines": []
     },
     "XOM": {
-      "score": -0.086,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.059,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Traders Circulating Headline Iran\u2019s Brigadier General Heydari Says We Have Closed The Strait Of Hormuz And We Will Not Open It Except By The Order Of The Leader Of The Revolution",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-11T20:05:28Z",
+          "sentiment": 0.4,
+          "reason": "Unverified Hormuz closure claim would lift oil prices and energy names"
+        },
         {
           "headline": "'Vance Considers Direct Talks With Iran Hardliner in Push to End War' -WSJ Report",
           "url": "https://www.benzinga.com/news/26/11/63163032/vance-considers-direct-talks-iran-hardliner-push-end-war-wsj-report",
@@ -385,10 +392,17 @@
       ]
     },
     "AMD": {
-      "score": 0.263,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.317,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "AMD Disclosed as Strategic Partner and Investor in Anthropic IPO Filing",
+          "url": "https://www.newswire.ca/fr/news-releases/an-ai-developer-starts-its-ipo-roadshow-and-its-filing-names-chip-and-cloud-partners-851388308.html",
+          "time": "2026-11-11T20:01:34Z",
+          "sentiment": 0.5,
+          "reason": "$5B purchase commitment and Helios supply deal with Anthropic"
+        },
         {
           "headline": "POET Stock Soars After CoreWeave's Strong Q3 Results and FY26 Guidance",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63162605/poet-stock-soars-after-coreweaves-strong-q3-results-and-fy26-guidance",
@@ -416,13 +430,6 @@
           "time": "2026-11-11T15:20:36Z",
           "sentiment": 0.6,
           "reason": "Google selecting EPYC for TPU 8tx is a major design win"
-        },
-        {
-          "headline": "Super Micro Computer Begins Shipments Of Its H15 Generation Servers With AMD EPYC 9006 Series Processors",
-          "url": "https://www.benzinga.com/news/26/11/63137529/super-micro-computer-begins-shipments-its-h15-generation-servers-amd-epyc-9006-series-processors",
-          "time": "2026-11-11T14:07:42Z",
-          "sentiment": 0.15,
-          "reason": "Server shipments using AMD EPYC processors support demand"
         }
       ]
     }
