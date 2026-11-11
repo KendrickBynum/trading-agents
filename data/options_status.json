@@ -1,28 +1,20 @@
 {
-  "time": "2026-11-11T15:35:42.364641+00:00",
+  "time": "2026-11-11T16:35:37.030017+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
+      "time": "2026-11-11T15:35:51.420128Z",
+      "book": "options",
       "symbol": "SPY261211P00764000",
       "side": "buy",
-      "qty": 1,
-      "limit": 14.55,
-      "underlying": "SPY",
-      "notional": 1455.0,
-      "score": -0.409,
-      "factors": {
-        "trend": -0.383,
-        "levels": -0.467,
-        "flow": -0.308,
-        "pattern": -0.341,
-        "news": -0.494
-      },
-      "reason": "PUT SPY $764 exp 2026-12-11 (30d, delta -0.55) on score -0.41; max loss $1,455",
-      "status": "order placed",
+      "status": "filled",
       "order_id": "d67d5966-c817-4b8b-8a04-0fe0d9395767",
-      "book": "options",
-      "time": "2026-11-11T15:35:42.364641+00:00"
+      "qty": 1.0,
+      "price": 14.54,
+      "notional": 1454.0,
+      "reason": "PUT SPY $764 exp 2026-12-11 (30d, delta -0.55) on score -0.41; max loss $1,455",
+      "underlying": "SPY"
     }
   ],
   "options_level": 3,

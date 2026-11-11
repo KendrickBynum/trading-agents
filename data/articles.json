@@ -1,297 +1,5 @@
 [
   {
-    "id": "63103014",
-    "created_at": "2026-11-10T16:29:13Z",
-    "headline": "Google Agrees To Additional Privacy Protections In Acquisition Of Employee Data From Defunct Spirit Airlines",
-    "url": "https://www.benzinga.com/m/26/11/63103014/google-agrees-additional-privacy-protections-acquisition-employee-data-defunct-spirit-airlines",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63102996",
-    "created_at": "2026-11-10T16:28:56Z",
-    "headline": "Reported Earlier: Trump Administration Pouring $480M Loan Into Gulf Of America Oil And Gas Project",
-    "url": "https://www.benzinga.com/news/26/11/63102996/reported-earlier-trump-administration-pouring-480m-loan-gulf-america-oil-and-gas-project",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.15,
-        "confidence": 0.25,
-        "reason": "Federal loan supports Gulf oil and gas project; modest upstream tailwind"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63102781",
-    "created_at": "2026-11-10T16:26:06Z",
-    "headline": "Iran's Major General Rezaei To Al Mayadeen, Says We Asked The Americans To Provide A Frank And Clear Response To Our Conditions, And To This Day They Have Not Done So; They May Provide This Response In The Future; Hormuz Will Not Be Reopened Until Iran\u2019s 7 Conditions Are Met",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63102781/iran-s-major-general-rezaei-al-mayadeen-says-we-asked-americans-provide-frank-and-clear-response-our",
-    "source": "benzinga",
-    "market_risk": 0.6,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.5,
-        "confidence": 0.6,
-        "reason": "Hormuz stays closed; oil supply disruption supports crude prices"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Prolonged Strait of Hormuz closure raises geopolitical and energy risk"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.25,
-        "confidence": 0.4,
-        "reason": "Geopolitical escalation and energy shock pressure growth stocks"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63102068",
-    "created_at": "2026-11-10T16:16:16Z",
-    "headline": "NVIDIA Introduces Alpamayo; Open AI Models, Simulation Tools And Datasets For Autonomous Vehicles And Robotaxis; Combines Explainable Reasoning AI With Full-Stack Driving Software And Safety Technologies",
-    "url": "https://www.benzinga.com/news/26/11/63102068/nvidia-introduces-alpamayo-open-ai-models-simulation-tools-and-datasets-autonomous-vehicles-and-robo",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "New open AV models and simulation tools expand NVIDIA's autonomous driving platform"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63100955",
-    "created_at": "2026-11-10T16:04:38Z",
-    "headline": "NY Fed Says Q3 Total Household Debt Rises $334B To $19.1T; Q3 Mortgage Debt Rises $257B To $13.4T; Overall Q3 Delinquency Rate Rose Relative To Q2; Q3 Credit Card Debt Rises $22B To $1.3T; At September\u2019s End 5% Of Debt In Some Form Of Delinquency; Q3 Overall Flow Into \u2018Serious\u2019 Delinquency Down From Q3 2025; Mortgage Transitions Into Delinquency Up But Still Historically Low; Q3 Transition Into Delinquency Mixed By Borrowing Type",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63100955/ny-fed-says-q3-total-household-debt-rises-334b-19-1t-q3-mortgage-debt-rises-257b-13-4t-overall-q3-de",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Household delinquency rose quarter over quarter; consumer credit stress mild"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "118460760",
-    "created_at": "2026-11-10T16:01:35Z",
-    "headline": "NVIDIA and Commvault Collaborate to Enhance Enterprise Data for AI",
-    "url": "https://www.prnewswire.com/news-releases/commvault-to-help-enterprises-put-more-data-to-work-safely-for-ai-with-nvidia-302934299.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Commvault partnership on enterprise AI data; incremental ecosystem positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "118460755",
-    "created_at": "2026-11-10T16:01:31Z",
-    "headline": "Meta and IMAX Announce Partnership for Upcoming VR Glasses",
-    "url": "https://www.barchart.com/press-releases/8756645/meta-vr-glasses-to-be-first-ever-imax-certified-vr-device",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "IMAX Enhanced certification for upcoming Meta VR glasses; minor positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "118460753",
-    "created_at": "2026-11-10T16:01:27Z",
-    "headline": "AvePoint Expands Strategic Partnership with Microsoft for AI Governance",
-    "url": "https://www.globenewswire.com/news-release/2026/11/10/3399566/0/en/avepoint-deepens-strategic-partnership-with-microsoft-to-advance-trusted-ai-adoption.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Third-party AI governance partnership; limited impact on Microsoft"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63100567",
-    "created_at": "2026-11-10T16:00:59Z",
-    "headline": "11 Of 11 Sectors Fall In Tuesday Trading As Leaders Move Together",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63100567/11-of-11-sectors-fall-in-tuesday-trading-as-leaders-move-together",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.4,
-        "confidence": 0.6,
-        "reason": "All 11 sectors lower; broad market selloff in regular session"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.4,
-        "confidence": 0.6,
-        "reason": "Broad sector decline weighs on Nasdaq-100 constituents"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Broad selling pressure on high-beta semiconductor and tech names"
-      },
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Broad selloff across sectors, including mega-cap tech"
-      },
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "High-beta stock likely amplifies broad market decline"
-      },
-      {
-        "ticker": "JPM",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Financials sector also lower; modest drag on bank stock"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63100322",
-    "created_at": "2026-11-10T15:59:11Z",
-    "headline": "'Trump Administration Moves To Cut Food Stamps For 6.3 Million People' - Reuters News",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63100322/trump-administration-moves-cut-food-stamps-6-3-million-people-reuters-news",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63099854",
-    "created_at": "2026-11-10T15:54:43Z",
-    "headline": "Fed's Logan Says Concerned That Higher-Than-Expected Consumer Price Index Means Personal Consumption Expenditures Inflation Could Rise; Inflation Is Trending Meaningfully Higher Than 2% Goal; Labor Market Is Balanced And Even Tightening A Bit; Economic Growth Is Strong, Consumer Spending Solid, Business Spending Robust; Price Pressures Also Broader Than Tariffs, And Broad Trend Is Likely To Persist",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63099854/fed-s-logan-says-concerned-higher-expected-consumer-price-index-means-personal-consumption-expenditu",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Hawkish Fed signal: inflation above target, further tightening risk"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Higher-for-longer rate expectations pressure long-duration growth stocks"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63099711",
-    "created_at": "2026-11-10T15:53:49Z",
-    "headline": "Fed's Logan Says After Two More Rate Hikes, It Would Make Sense To Pause And Assess What Further Action May Be Appropriate; Higher Bond-Market Rates Signal Monetary Policy Has Work To Do, Not An Independent Tailwind For Activity; Fed Policy Rate Is At Least 50 Basis Points Below A Modestly Restrictive Level; Accommodative Policy Is Adding To Inflationary Pressures; Real Fed Funds Rate Is 78 Basis Points, Data Suggest; Wartime Energy Disruptions Not The Only Source Of Price Pressures",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63099711/fed-s-logan-says-after-two-more-rate-hikes-it-would-make-sense-pause-and-assess-what-further-action-",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Fed signals pause after two hikes, but policy still seen restrictive-light"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63099648",
-    "created_at": "2026-11-10T15:53:10Z",
-    "headline": "Fed's Logan Says Excess Inflation Is Unacceptable; Clear That Fed Needs At Least Two More Quarter-Percentage-Point Rate Increases; Says It May Be Possible To Raise Interest Rates More Rapidly This Winter Than Us Central Bank Has Moved So Far; Important To 'Promptly' Achieve Balance In Outlook, Risks For Inflation And Employment; Adjusting Policy Gradually Can Reduce Risk That Economic Activity Deteriorates More Sharply Than Necessary",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63099648/fed-s-logan-says-excess-inflation-unacceptable-clear-fed-needs-least-two-more-quarter-percentage-poi",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Hawkish Fed signals two more hikes, possibly faster; raises equity discount-rate pressure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63099179",
-    "created_at": "2026-11-10T15:48:59Z",
-    "headline": "India Official Says Talks With U.S. Continuing Over Finalization Of First Tranche Of Bilateral Trade Deal; U.S. Officials Visited India For In-Person Discussions Over Customs And Trade Facilitation Aspects Of The Deal Earlier This Month",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63099179/india-official-says-talks-u-s-continuing-over-finalization-first-tranche-bilateral-trade-deal-u-s-of",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63098901",
-    "created_at": "2026-11-10T15:45:43Z",
-    "headline": "Al Jazeera Reports Prime Minister Of Israel Benjamin Netanyahu Says Iran Is Working To Revive Its Nuclear Program, And The Only Way To Eliminate This Threat Is To Topple Its Regime.;  They Are Trying To Force Us To Establish A Palestinian State Under Iran\u2019s Sponsorship; We Call For The Formation Of A National Unity Government In Israel; Soon We Will Face Pressure To Accept Iran As A Nuclear State As A Fait Accompli",
-    "url": "https://www.benzinga.com/news/26/11/63098901/al-jazeera-reports-prime-minister-of-israel-says-iran-is-working-to-revive-its-nuclear-program-and-the-only-way-to-eliminate-this-threat-is-to-topple-its-regime-they-are-trying-to-force-us-to-esta",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63098630",
-    "created_at": "2026-11-10T15:43:32Z",
-    "headline": "Amazon Stock Climbs: What's Going On?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63098630/amazon-stock-climbs-whats-going-on",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Shares rising on new Ring products and early Black Friday/Cyber Monday deal dates"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63108037",
     "created_at": "2026-11-10T17:30:12Z",
     "headline": "CoreWeave Earnings Prediction Market Preview: Can Michael Intrator Steady the Ship?",
@@ -2570,6 +2278,187 @@
         "reason": "Rare downgrade to Neutral with sharp target cut and China risk"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "119690454",
+    "created_at": "2026-11-11T16:31:34Z",
+    "headline": "Reports Indicate Increased EUV Lithography Machine Purchases by Samsung and SK Hynix",
+    "url": "https://www.moomoo.com/community/feed/today-s-pre-market-movers-and-top-ratings-nvda-amd-117597990813701",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "ASML",
+        "sentiment": 0.5,
+        "confidence": 0.6,
+        "reason": "Rising EUV orders from Samsung and SK hynix support demand outlook"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63149434",
+    "created_at": "2026-11-11T16:14:14Z",
+    "headline": "Meta\u2019s Head Of Infrastructure Engineering Santosh Janardhan To Step Down In 2027; Dave Brown To Succeed",
+    "url": "https://www.benzinga.com/news/26/11/63149434/meta-s-head-infrastructure-engineering-santosh-janardhan-step-down-2027-dave-brown-succeed",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63149012",
+    "created_at": "2026-11-11T16:09:29Z",
+    "headline": "This Apple Analyst Turns Bullish; Here Are Top 5 Upgrades For Wednesday",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/11/63149012/this-apple-analyst-turns-bullish-here-are-top-5-upgrades-for-wednesday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Analyst upgrade with raised price target to $425"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "119649789",
+    "created_at": "2026-11-11T16:02:09Z",
+    "headline": "Meta Fined by Brazil Electoral Court",
+    "url": "https://www.marketscreener.com/news/meta-fined-by-brazil-electoral-court-for-allegedly-failing-to-provide-equal-content-during-president-ce785edbdf8ef726",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Brazil electoral fine is modest and regionally limited"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63148059",
+    "created_at": "2026-11-11T16:00:22Z",
+    "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63148059/cyclicals-lead-sectors-in-wednesday-trading-as-defensives-trail",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Cyclicals leading and tech strong signals broad risk-on tone"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Technology sector leads by a wide margin in session"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Tech sector strength provides mild positive sector tailwind"
+      },
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Cyclical sector strength provides only indirect support"
+      },
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Cyclical sector strength provides only indirect support"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63148039",
+    "created_at": "2026-11-11T16:00:14Z",
+    "headline": "Tech Stocks Add Over $500 Billion as CoreWeave's Blockbuster Results Rescue AI Rally",
+    "url": "https://www.benzinga.com/markets/earnings/26/11/63148039/tech-stocks-500-billion-coreweave-results-ai-rally",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.5,
+        "confidence": 0.6,
+        "reason": "AI memory stocks rallied on CoreWeave-driven sector momentum"
+      },
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "AI chip rally from CoreWeave results lifts NVIDIA"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "AI-led rally adds over $500B to tech market value"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Tech-led rally gives modest broad-market lift"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63148023",
+    "created_at": "2026-11-11T16:00:09Z",
+    "headline": "Ford CEO Jim Farley Says It's 'Too Late' to Save Europe From Chinese EVs, Warns the U.S. Must 'Be Extremely Careful' Before They Arrive Here",
+    "url": "https://www.benzinga.com/news/politics/26/11/63148023/ford-ceo-jim-farley-says-its-too-late-to-save-europe-from-chinese-evs-warns-the-u-s-must-be-extremely-careful-before-they-arrive-here",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Possible US restrictions on Chinese EVs could benefit domestic makers"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63147086",
+    "created_at": "2026-11-11T15:49:47Z",
+    "headline": "Riskified, CoreWeave, Micron And Other Big Stocks Moving Higher On Wednesday",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63147086/riskified-coreweave-micron-and-other-big-stocks-moving-higher-on-wednesday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.4,
+        "confidence": 0.4,
+        "reason": "Micron among stocks moving higher amid tech rally"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63146701",
+    "created_at": "2026-11-11T15:45:28Z",
+    "headline": "If You Invested $100 In NVIDIA Stock 15 Years Ago, You Would Have This Much Today",
+    "url": "https://www.benzinga.com/news/26/11/63146701/if-you-invested-100-nvidia-stock-15-years-ago-you-would-have-much-today",
+    "source": "benzinga",
+    "market_risk": 0.0,
+    "impacts": [],
     "scorer": "claude"
   }
 ]

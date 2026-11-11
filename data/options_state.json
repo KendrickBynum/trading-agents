@@ -21,7 +21,8 @@
       "delta": -0.5536,
       "iv": 0.1388,
       "dte": 30,
-      "limit": 14.55
+      "limit": 14.55,
+      "avg": 14.54
     }
   },
   "exits": {
@@ -32,17 +33,17 @@
   "order_reasons": {
     "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180",
     "6da196b9-9bc9-4fec-8f1a-4d18e0a6a3ec": "PUT NVDA $195 exp 2026-11-27 (21d, delta -0.55) on score -0.36; max loss $1,360",
-    "d63b6045-dab8-40b8-bb7e-eba623f813c2": "PUT NVDA $175 exp 2026-12-04 (24d, delta -0.55) on score -0.32; max loss $1,415",
-    "d67d5966-c817-4b8b-8a04-0fe0d9395767": "PUT SPY $764 exp 2026-12-11 (30d, delta -0.55) on score -0.41; max loss $1,455"
+    "d63b6045-dab8-40b8-bb7e-eba623f813c2": "PUT NVDA $175 exp 2026-12-04 (24d, delta -0.55) on score -0.32; max loss $1,415"
   },
   "logged_orders": [
-    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
     "4fde783c-5790-4980-8b54-82b5bb8e20d5",
-    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
-    "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
-    "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
     "d4d6889e-22fd-46de-9a53-88417a40ec77",
-    "58e92b03-69a5-4dab-928d-2ab5ad9316f9"
+    "d67d5966-c817-4b8b-8a04-0fe0d9395767",
+    "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
+    "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
+    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
+    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
+    "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20"
   ],
-  "last_order_check": "2026-11-11T15:35:42.364641+00:00"
+  "last_order_check": "2026-11-11T16:35:37.030017+00:00"
 }
