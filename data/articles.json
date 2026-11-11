@@ -1,163 +1,5 @@
 [
   {
-    "id": "63108037",
-    "created_at": "2026-11-10T17:30:12Z",
-    "headline": "CoreWeave Earnings Prediction Market Preview: Can Michael Intrator Steady the Ship?",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63108037/coreweave-earnings-preview",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Earnings preview of a customer; expectations largely priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63107011",
-    "created_at": "2026-11-10T17:17:16Z",
-    "headline": "AMD Stock Reverses Morning Gains, Slowly Recovers After Google AI Deal",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63107011/amd-stock-reverses-morning-gains-slowly-recovers-after-google-ai-deal",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Major Google cloud processor deal supports AMD's AI business"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Capital rotation out of Nvidia toward AMD"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Cloud processor deal may improve Google's AI infrastructure costs"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63106305",
-    "created_at": "2026-11-10T17:08:12Z",
-    "headline": "AMD Announces Availability Of 6th Gen AMD EPYC Server Sp7 Processors",
-    "url": "https://www.benzinga.com/news/26/11/63106305/amd-announces-availability-6th-gen-amd-epyc-server-sp7-processors",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63106241",
-    "created_at": "2026-11-10T17:07:16Z",
-    "headline": "Google Announces Availability Of Gemini 4 Carbon",
-    "url": "https://www.benzinga.com/news/26/11/63106241/google-announces-availability-gemini-4-carbon",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "New Gemini model release; incremental product news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63105755",
-    "created_at": "2026-11-10T17:02:42Z",
-    "headline": "Mark Zuckerberg Net Worth Tops $225 Billion: Meta Founder\u2019s Shares Won\u2019t Go to Family",
-    "url": "https://www.benzinga.com/markets/large-cap/26/11/63105755/mark-zuckerberg-net-worth-tops-225-billion-meta-ceo-family",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63104820",
-    "created_at": "2026-11-10T16:52:58Z",
-    "headline": "Steve Eisman: Oracle Could Suffer if OpenAI 'Demise' Causes US Recession",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63104820/eisman-ai-bear-market",
-    "source": "benzinga",
-    "market_risk": 0.45,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Prominent bear warns of AI boom ending in bear market"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "AI bust scenario would hit memory demand expectations"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Broad AI-downturn risk, indirect exposure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63103905",
-    "created_at": "2026-11-10T16:43:08Z",
-    "headline": "The Conviction Gap: Bank of America Pulls 3 High-Fly AI Stocks Off Its Top List",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63103905/the-conviction-gap-bank-of-america-pulls-3-high-fly-ai-stocks-off-its-top-list",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Removed from BofA top list though Buy rating kept"
-      },
-      {
-        "ticker": "MU",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Removed from BofA top list though Buy rating kept"
-      },
-      {
-        "ticker": "LRCX",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Removed from BofA top list though Buy rating kept"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63103698",
-    "created_at": "2026-11-10T16:39:31Z",
-    "headline": "Meta Defies Market Slump: Why IMAX, Pixelworks Deals Fuel Investor Confidence",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63103698/meta-defies-market-slump-why-imax-pixelworks-deals-fuel-investor-confidence",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Stock rose against market selloff on partnership news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63110842",
     "created_at": "2026-11-10T18:06:02Z",
     "headline": "Why Is SMCI Stock Falling on Tuesday?",
@@ -223,26 +65,6 @@
     "created_at": "2026-11-10T17:41:52Z",
     "headline": "Billionaire Investor Took a Core Scientific Stake Before Its AI Pivot",
     "url": "https://www.benzinga.com/markets/mid-cap/26/11/63108940/billionaire-investor-took-a-core-scientific-stake-before-its-ai-pivot",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63108379",
-    "created_at": "2026-11-10T17:35:08Z",
-    "headline": "3 Communication Services Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/63108379/3-communication-services-stocks-whale-activity-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63108376",
-    "created_at": "2026-11-10T17:35:08Z",
-    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/63108376/10-information-technology-stocks-whale-activity-today-s-session",
     "source": "benzinga",
     "market_risk": 0.05,
     "impacts": [],
@@ -2459,6 +2281,128 @@
     "source": "benzinga",
     "market_risk": 0.0,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63155458",
+    "created_at": "2026-11-11T17:30:07Z",
+    "headline": "What's Going On With Microsoft Stock Wednesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63155458/whats-going-on-with-microsoft-stock-wednesday-4",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Stock slips on potential China component bans and AI workplace pressure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63154352",
+    "created_at": "2026-11-11T17:14:32Z",
+    "headline": "Hims & Hers Under Fire: Five More States Join Federal Crackdown Over Alleged Privacy Violations",
+    "url": "https://www.benzinga.com/news/health-care/26/11/63154352/hims-hers-under-fire-five-more-states-join-federal-crackdown-over-alleged-privacy-violations",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63153896",
+    "created_at": "2026-11-11T17:08:52Z",
+    "headline": "What Is Going on With Arm Holdings Stock on Wednesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63153896/what-is-going-on-with-arm-holdings-stock-on-wednesday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.4,
+        "confidence": 0.5,
+        "reason": "Sector rally on strong CoreWeave earnings and Nvidia rebound"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63153119",
+    "created_at": "2026-11-11T17:00:07Z",
+    "headline": "Google Could Buy Uber to Win the Robotaxi Wars, Reuters Columnist Argues",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63153119/google-uber-robotaxis",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Speculative columnist idea of Uber acquisition, no concrete action"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63152158",
+    "created_at": "2026-11-11T16:46:52Z",
+    "headline": "What's Going On With Intel Stock Wednesday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63152158/whats-going-on-with-intel-stock-wednesday-10",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Intel's AI-driven chip rally lifts broader semiconductor sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63152060",
+    "created_at": "2026-11-11T16:45:35Z",
+    "headline": "Micron Stock Jumps 13% as CoreWeave Outlook Eases AI Spending Fears",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63152060/micron-stock-jumps-13-as-coreweave-outlook-eases-ai-spending-fears",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.5,
+        "confidence": 0.6,
+        "reason": "Shares jump 13% as CoreWeave raises outlook, easing AI spending fears"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63152040",
+    "created_at": "2026-11-11T16:45:29Z",
+    "headline": "Here\u2019s How Much You Would Have Made Owning JPMorgan Chase Stock In The Last 5 Years",
+    "url": "https://www.benzinga.com/news/26/11/63152040/here-s-how-much-you-would-have-made-owning-jpmorgan-chase-stock-last-5-years",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63151452",
+    "created_at": "2026-11-11T16:37:20Z",
+    "headline": "CoreWeave CEO Says He Has Buyers for All Its Future AI Capacity but Won\u2019t Sell Yet",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63151452/coreweave-ai-capacity",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "CoreWeave reports very strong AI capacity demand and rising prices"
+      }
+    ],
     "scorer": "claude"
   }
 ]
