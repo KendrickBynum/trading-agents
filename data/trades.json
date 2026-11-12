@@ -401,5 +401,19 @@
     "status": "submitted",
     "order_id": "38a4218e-1c90-4246-b639-b2d17d465ab1",
     "book": "stock"
+  },
+  {
+    "time": "2026-11-12T15:35:39.040461223Z",
+    "book": "options",
+    "symbol": "AAPL261211C00345000",
+    "side": "sell",
+    "status": "filled",
+    "order_id": "c9b5b03b-cefa-41f5-85df-e249813cc1a0",
+    "qty": 1.0,
+    "price": 17.2,
+    "notional": 1720.0,
+    "reason": "take profit (+54%)",
+    "underlying": "AAPL",
+    "realized_pl": 605.0
   }
 ]
