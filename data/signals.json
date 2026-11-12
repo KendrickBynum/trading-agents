@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-11T20:11:22.549481+00:00",
-  "market_risk": 0.108,
+  "generated_at": "2026-11-12T01:53:55.993452+00:00",
+  "market_risk": 0.106,
   "tickers": {
     "SPY": {
-      "score": -0.133,
-      "articles": 17,
-      "ai_articles": 17,
+      "score": -0.128,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "'Bessent Moved to Military Housing Following Iranian Threats'- Bloomberg",
+          "url": "https://www.benzinga.com/news/26/11/63169436/bessent-moved-military-housing-following-iranian-threats-bloomberg",
+          "time": "2026-11-11T21:20:15Z",
+          "sentiment": -0.3,
+          "reason": "Iranian threats against US officials raise geopolitical risk aversion"
+        },
         {
           "headline": "Traders Circulating Headline Iran\u2019s Brigadier General Heydari Says We Have Closed The Strait Of Hormuz And We Will Not Open It Except By The Order Of The Leader Of The Revolution",
           "url": "https://www.benzinga.com/quote/SPY",
@@ -34,20 +41,13 @@
           "time": "2026-11-11T16:00:14Z",
           "sentiment": 0.2,
           "reason": "Tech-led rally gives modest broad-market lift"
-        },
-        {
-          "headline": "Iran's National Security Head Rezaei Says We Are Working On Nuclear-Powered Ships And Submarines, So We Need Our Enriched Materials; If The U.S. Attacks Iran, We Will Attack Not Only Nearby American Bases, But U.S. Military Bases In European Countries",
-          "url": "https://www.benzinga.com/content/63141935/iran-s-national-security-head-rezaei-says-we-are-working-nuclear-powered-ships-and-submarines-so-we-",
-          "time": "2026-11-11T15:00:30Z",
-          "sentiment": -0.4,
-          "reason": "Explicit threat of attacks on US bases raises geopolitical risk"
         }
       ]
     },
     "QQQ": {
-      "score": 0.117,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": 0.146,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
         {
           "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
@@ -122,9 +122,9 @@
       ]
     },
     "MSFT": {
-      "score": -0.326,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.41,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Microsoft Stock Slides After Anthropic Launches Productivity Tools: What to Know",
@@ -139,82 +139,69 @@
           "time": "2026-11-11T17:30:07Z",
           "sentiment": -0.3,
           "reason": "Stock slips on potential China component bans and AI workplace pressure"
-        },
-        {
-          "headline": "Microsoft Briefly Overtakes Nvidia as Jensen Huang Affair Helps Erase $1.8 Trillion Lead",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63128428/microsoft-overtakes-nvidia",
-          "time": "2026-11-10T23:00:16Z",
-          "sentiment": 0.15,
-          "reason": "Briefly overtook Nvidia in market cap on relative selloff"
-        },
-        {
-          "headline": "'OpenAI Revenue Jumps to $10B in Third Quarter'- The Information",
-          "url": "https://www.benzinga.com/news/26/11/63123069/openai-revenue-jumps-10b-third-quarter-information",
-          "time": "2026-11-10T21:14:22Z",
-          "sentiment": 0.3,
-          "reason": "OpenAI revenue growth benefits Microsoft's major stake and Azure"
-        },
-        {
-          "headline": "Anthropic IPO Pricing Impresses Dan Ives: 'A Deal of This Size Gets One Shot at Its Debut'",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63119292/anthropic-ipo-pricing-impresses-dan-ives-a-deal-of-this-size-gets-one-shot-at-its-debut",
-          "time": "2026-11-10T20:28:33Z",
-          "sentiment": 0.2,
-          "reason": "Successful Anthropic IPO may boost tech sentiment; indirect and speculative"
         }
       ]
     },
     "NVDA": {
-      "score": -0.131,
-      "articles": 38,
-      "ai_articles": 38,
+      "score": -0.241,
+      "articles": 43,
+      "ai_articles": 43,
       "headlines": [
         {
-          "headline": "Anthropic Perp Rallies 8%: Traders Price the Claude Maker at $1.8 Trillion",
-          "url": "https://www.benzinga.com/markets/ipos/26/11/63164916/anthropic-perp-rallies-8-traders-price-claude-maker-1-8-trillion",
-          "time": "2026-11-11T20:03:00Z",
-          "sentiment": 0.15,
-          "reason": "AI sentiment lift from Anthropic rally and CoreWeave move"
+          "headline": "Jensen Huang Heat Intensifies As Taiwan Revokes Entry for Alleged Spy Who Slipped In On Hong Kong Passport",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63171508/taiwan-china-spy-jensen-huang-permit",
+          "time": "2026-11-12T01:44:54Z",
+          "sentiment": -0.2,
+          "reason": "Spy controversy tied to CEO adds minor reputational noise"
         },
         {
-          "headline": "EXCLUSIVE: Jensen Huang Drama Puts Q3 Financials on Backburner, Expert Says \u2018No One Cares About Their Record Revenues\u2019",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63160921/exclusive-jensen-huang-drama-puts-q3-financials-on-backburner-expert-says-no-one-cares-about-their-record-revenues",
-          "time": "2026-11-11T18:50:57Z",
-          "sentiment": -0.3,
-          "reason": "Jensen Huang controversy may overshadow strong record revenue results"
-        },
-        {
-          "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia",
-          "time": "2026-11-11T17:53:02Z",
+          "headline": "The Washington Post Reported White House Not Intervening In NVIDIA Board Decision Regarding CEO Jensen Huang",
+          "url": "https://www.benzinga.com/news/26/11/63171413/washington-post-reported-white-house-not-intervening-nvidia-board-decision-regarding-ceo-jensen-huan",
+          "time": "2026-11-12T00:58:38Z",
           "sentiment": 0.2,
-          "reason": "Shrugged off Baird downgrade while rallying with AI trade"
+          "reason": "Reduces perceived government-driven leadership uncertainty"
         },
         {
-          "headline": "Michael Burry Says Jensen\u2019s Affair Won\u2019t Sink Nvidia, But Regulators Might",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63156711/michael-burry-says-jensens-affair-wont-sink-nvidia-but-regulators-might",
-          "time": "2026-11-11T17:45:45Z",
-          "sentiment": -0.4,
-          "reason": "Huang scandal may bring antitrust and China regulatory scrutiny"
-        },
-        {
-          "headline": "'Nvidia Partners See Early Signs Customers Are Unnerved By Jensen Huang Investigation' - CRN",
-          "url": "https://www.benzinga.com/news/26/11/63156281/nvidia-partners-see-early-signs-customers-are-unnerved-jensen-huang-investigation-crn",
-          "time": "2026-11-11T17:41:19Z",
+          "headline": "Nvidia Stock Sinks as Jensen Huang Ouster Report Sends Investors Toward AMD, Broadcom",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63171278/nvidia-stock-sinks-jensen-huang-ouster-report-amd-broadcom",
+          "time": "2026-11-12T00:25:04Z",
           "sentiment": -0.5,
-          "reason": "Partners report customers unnerved by Huang investigation"
+          "reason": "Leadership turmoil report driving selloff in NVDA shares"
+        },
+        {
+          "headline": "Bloomberg Reported, Nvidia Working With Outside Firm to Identify CEO Candidates",
+          "url": "https://www.benzinga.com/news/26/11/63171177/bloomberg-reported-nvidia-working-outside-firm-identify-ceo-candidates",
+          "time": "2026-11-12T00:07:51Z",
+          "sentiment": -0.3,
+          "reason": "CEO succession search signals likely leadership change"
+        },
+        {
+          "headline": "NVIDIA Board Reportedly Considering CEO Removal Amid Leadership Scandal",
+          "url": "https://www.morningstar.com/news/marketwatch/20261111357/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang",
+          "time": "2026-11-12T00:01:45Z",
+          "sentiment": -0.5,
+          "reason": "Board reportedly weighing CEO removal over scandal"
         }
       ]
     },
     "AMZN": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Court Grants Class Certification in Amazon Photos Biometric Privacy Lawsuit",
+          "url": "https://www.globenewswire.com/news-release/2026/11/11/3401049/0/en/wexler-boley-elgersma-announces-court-certification-of-class-action-against-amazon-over-alleged-collection-of-biometric-data-through-amazon-photos.html",
+          "time": "2026-11-11T21:31:33Z",
+          "sentiment": -0.2,
+          "reason": "Class certification raises biometric privacy liability exposure; financial impact likely modest"
+        }
+      ]
     },
     "GOOGL": {
-      "score": -0.081,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "\u2018That\u2019s The Bet\u2019: Palmer Luckey Backs Elon Musk\u2019s $150 Billion Robotaxi Ambitions as Tesla Tops Waymo in Texas",
@@ -222,13 +209,6 @@
           "time": "2026-11-11T06:19:42Z",
           "sentiment": -0.2,
           "reason": "Tesla robotaxi gains in Texas could pressure Waymo's position"
-        },
-        {
-          "headline": "Anthropic IPO Pricing Impresses Dan Ives: 'A Deal of This Size Gets One Shot at Its Debut'",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63119292/anthropic-ipo-pricing-impresses-dan-ives-a-deal-of-this-size-gets-one-shot-at-its-debut",
-          "time": "2026-11-10T20:28:33Z",
-          "sentiment": 0.2,
-          "reason": "Successful Anthropic IPO may boost tech sentiment; indirect and speculative"
         }
       ]
     },
@@ -253,10 +233,17 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.059,
+      "score": 0.116,
       "articles": 5,
       "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "'Bessent Moved to Military Housing Following Iranian Threats'- Bloomberg",
+          "url": "https://www.benzinga.com/news/26/11/63169436/bessent-moved-military-housing-following-iranian-threats-bloomberg",
+          "time": "2026-11-11T21:20:15Z",
+          "sentiment": 0.3,
+          "reason": "Middle East tensions with Iran may lift oil prices and energy stocks"
+        },
         {
           "headline": "Traders Circulating Headline Iran\u2019s Brigadier General Heydari Says We Have Closed The Strait Of Hormuz And We Will Not Open It Except By The Order Of The Leader Of The Revolution",
           "url": "https://www.benzinga.com/quote/SPY",
@@ -284,21 +271,21 @@
           "time": "2026-11-11T14:33:14Z",
           "sentiment": -0.2,
           "reason": "Goldman trims price target by about 5%; still a routine analyst revision"
-        },
-        {
-          "headline": "API Crude Oil Stock 9.800M Barrel Draw Vs 5.267M Barrel Draw Prior",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-10T21:57:24Z",
-          "sentiment": 0.2,
-          "reason": "Larger-than-expected crude inventory draw supports oil prices"
         }
       ]
     },
     "MU": {
-      "score": 0.399,
+      "score": 0.453,
       "articles": 7,
       "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Micron, Sandisk Soar as CoreWeave CEO Says AI Demand Outpaces World's Capacity",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63169587/ai-memory-stocks",
+          "time": "2026-11-11T21:25:11Z",
+          "sentiment": 0.6,
+          "reason": "CoreWeave says AI demand outpaces capacity, lifting memory stocks"
+        },
         {
           "headline": "QUICK SPARK: CoreWeave, 16 Other AI Stocks Are Up More Than 10% on Wednesday",
           "url": "https://www.benzinga.com/markets/earnings/26/11/63158536/coreweave-ai-stocks-up-10-percent-wednesday",
@@ -326,26 +313,27 @@
           "time": "2026-11-11T16:00:14Z",
           "sentiment": 0.5,
           "reason": "AI memory stocks rallied on CoreWeave-driven sector momentum"
-        },
-        {
-          "headline": "Riskified, CoreWeave, Micron And Other Big Stocks Moving Higher On Wednesday",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63147086/riskified-coreweave-micron-and-other-big-stocks-moving-higher-on-wednesday",
-          "time": "2026-11-11T15:49:47Z",
-          "sentiment": 0.4,
-          "reason": "Micron among stocks moving higher amid tech rally"
         }
       ]
     },
     "LRCX": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Nvidia\u2019s Brutal Selloff Triggers a Signal Unseen Since 2019 \u2014 Is the Worst Over?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63168922/nvidias-brutal-selloff-triggers-a-signal-unseen-since-2019-is-the-worst-over",
+          "time": "2026-11-11T21:09:03Z",
+          "sentiment": -0.2,
+          "reason": "Semiconductor selloff and scandal fears weigh on chip equipment sentiment"
+        }
+      ]
     },
     "TSLA": {
-      "score": 0.213,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.249,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "Ford CEO Jim Farley Says It's 'Too Late' to Save Europe From Chinese EVs, Warns the U.S. Must 'Be Extremely Careful' Before They Arrive Here",
@@ -367,13 +355,6 @@
           "time": "2026-11-11T06:19:42Z",
           "sentiment": 0.4,
           "reason": "Texas robotaxi fleet reportedly surpasses Waymo's"
-        },
-        {
-          "headline": "The Musk Midterms Trade: SPCX Flat, TSLA Drops 5% but DOGE Plunges 7%",
-          "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63128576/the-musk-midterms-trade-spcx-flat-tsla-drops-5-but-doge-plunges-7",
-          "time": "2026-11-10T23:10:07Z",
-          "sentiment": -0.15,
-          "reason": "Tesla fell 5% since midterms; move largely already occurred"
         }
       ]
     },
@@ -392,10 +373,17 @@
       ]
     },
     "AMD": {
-      "score": 0.317,
+      "score": 0.316,
       "articles": 10,
       "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Nvidia Stock Sinks as Jensen Huang Ouster Report Sends Investors Toward AMD, Broadcom",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63171278/nvidia-stock-sinks-jensen-huang-ouster-report-amd-broadcom",
+          "time": "2026-11-12T00:25:04Z",
+          "sentiment": 0.3,
+          "reason": "Investors rotating to rival chipmakers amid Nvidia turmoil"
+        },
         {
           "headline": "AMD Disclosed as Strategic Partner and Investor in Anthropic IPO Filing",
           "url": "https://www.newswire.ca/fr/news-releases/an-ai-developer-starts-its-ipo-roadshow-and-its-filing-names-chip-and-cloud-partners-851388308.html",
@@ -423,13 +411,6 @@
           "time": "2026-11-11T15:31:27Z",
           "sentiment": 0.3,
           "reason": "Premarket gain tied to EPYC H15 server portfolio rollout"
-        },
-        {
-          "headline": "What Is Going on With AMD Stock on Wednesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63144204/what-is-going-on-with-amd-stock-on-wednesday-3",
-          "time": "2026-11-11T15:20:36Z",
-          "sentiment": 0.6,
-          "reason": "Google selecting EPYC for TPU 8tx is a major design win"
         }
       ]
     }
