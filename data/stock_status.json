@@ -1,12 +1,31 @@
 {
-  "time": "2026-11-12T02:19:04.098303+00:00",
-  "halts": [
-    "Market closed"
-  ],
+  "time": "2026-11-12T14:36:29.160072+00:00",
+  "halts": [],
   "alerts": [],
-  "last_actions": [],
-  "buy_threshold": 0.429,
-  "exit_threshold": -0.297,
+  "last_actions": [
+    {
+      "time": "2026-11-12T14:36:29.160072+00:00",
+      "symbol": "TSLA",
+      "side": "buy",
+      "reason": "score +0.44 (5/5 agree: trend +0.62, news +0.58, levels +0.42, flow +0.34, pattern +0.15)",
+      "score": 0.441,
+      "factors": {
+        "trend": 0.622,
+        "levels": 0.419,
+        "flow": 0.342,
+        "pattern": 0.147,
+        "news": 0.576
+      },
+      "news_score": 0.288,
+      "notional": 9843.75,
+      "trailing_stop": "4%",
+      "status": "submitted",
+      "order_id": "38a4218e-1c90-4246-b639-b2d17d465ab1",
+      "book": "stock"
+    }
+  ],
+  "buy_threshold": 0.422,
+  "exit_threshold": -0.292,
   "trailing_stop_pct": 0.04,
   "max_hold_days": 14
 }
