@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-12T14:35:24.061959+00:00",
+  "generated_at": "2026-11-12T15:35:20.221711+00:00",
   "market_risk": 0.115,
   "tickers": {
     "SPY": {
-      "score": -0.182,
+      "score": -0.167,
       "articles": 9,
       "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "USA Existing Home Sales (MoM) For October -5.5% Vs 1.0% Prior",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-12T15:00:21Z",
+          "sentiment": -0.15,
+          "reason": "October existing home sales fell 5.5% MoM, signaling weak housing"
+        },
         {
           "headline": "Fed's Hammack Says Fed Has Been Missing On Inflation Mandate For Years; Most Recent Inflation Data Show It's Moving In The Wrong Direction; Fed Doing Very Well On Job Side Of Its Mandate",
           "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63184414/fed-s-hammack-says-fed-has-been-missing-inflation-mandate-years-most-recent-inflation-data-show-it-s",
@@ -34,21 +41,21 @@
           "time": "2026-11-11T21:20:15Z",
           "sentiment": -0.3,
           "reason": "Iranian threats against US officials raise geopolitical risk aversion"
-        },
-        {
-          "headline": "Traders Circulating Headline Iran\u2019s Brigadier General Heydari Says We Have Closed The Strait Of Hormuz And We Will Not Open It Except By The Order Of The Leader Of The Revolution",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-11T20:05:28Z",
-          "sentiment": -0.4,
-          "reason": "Unverified Hormuz closure threat raises broad market risk-off pressure"
         }
       ]
     },
     "QQQ": {
-      "score": -0.142,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.182,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Nasdaq Falls Over 100 Points; Nvidia CEO Jensen Huang Resigns",
+          "url": "https://www.benzinga.com/markets/market-summary/26/11/63190229/nasdaq-falls-over-100-points-nvidia-ceo-jensen-huang-resigns",
+          "time": "2026-11-12T14:46:36Z",
+          "sentiment": -0.3,
+          "reason": "Nasdaq fell over 0.5%, with NVDA CEO departure weighing"
+        },
         {
           "headline": "Stock Market Today: NVDA Stock Sinks Nasdaq, S&P 500 Futures as Board Weighs Jensen Huang\u2019s Future \u2014 CRWV, TTEK, FNV in Focus (UPDATED)",
           "url": "https://www.benzinga.com/markets/equities/26/11/63174263/stock-market-today-nvda-rout-drags-nasdaq-sp-500-futures-lower-as-nvidia-board-weighs-jensen-huangs-future-crwv-ttek-fnv-in-focus",
@@ -76,13 +83,6 @@
           "time": "2026-11-11T17:53:02Z",
           "sentiment": 0.4,
           "reason": "Nasdaq 100 up 2.8% on broad AI and chip rally"
-        },
-        {
-          "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63148059/cyclicals-lead-sectors-in-wednesday-trading-as-defensives-trail",
-          "time": "2026-11-11T16:00:22Z",
-          "sentiment": 0.3,
-          "reason": "Technology sector leads by a wide margin in session"
         }
       ]
     },
@@ -129,44 +129,44 @@
       ]
     },
     "NVDA": {
-      "score": -0.424,
-      "articles": 61,
-      "ai_articles": 61,
+      "score": -0.4,
+      "articles": 63,
+      "ai_articles": 63,
       "headlines": [
+        {
+          "headline": "'Alice Huang\u2019s Companies\u2019 Investment Aims To Secure NVIDIA Blackwell Chip Supply For Deepseek' -The Information",
+          "url": "https://www.benzinga.com/news/26/11/63192778/alice-huang-s-companies-investment-aims-secure-nvidia-blackwell-chip-supply-deepseek-information",
+          "time": "2026-11-12T15:02:50Z",
+          "sentiment": 0.3,
+          "reason": "Investment aims to secure Blackwell chip supply for DeepSeek"
+        },
+        {
+          "headline": "'Alice Huang\u2019s Companies Invested in DeepSeek, Promising Nvidia Chips' -The Information",
+          "url": "https://www.benzinga.com/news/26/11/63192727/alice-huang-s-companies-invested-deepseek-promising-nvidia-chips-information",
+          "time": "2026-11-12T15:02:32Z",
+          "sentiment": 0.2,
+          "reason": "Report of investors promising Nvidia chip purchases; same story as prior"
+        },
+        {
+          "headline": "OpenAI Raises $15B At $1.25T Valuation",
+          "url": "https://www.benzinga.com/news/26/11/63191088/openai-raises-15b-1-25t-valuation",
+          "time": "2026-11-12T14:51:55Z",
+          "sentiment": 0.2,
+          "reason": "OpenAI's $15B raise supports AI demand; likely partly priced in"
+        },
+        {
+          "headline": "Nasdaq Falls Over 100 Points; Nvidia CEO Jensen Huang Resigns",
+          "url": "https://www.benzinga.com/markets/market-summary/26/11/63190229/nasdaq-falls-over-100-points-nvidia-ceo-jensen-huang-resigns",
+          "time": "2026-11-12T14:46:36Z",
+          "sentiment": -0.6,
+          "reason": "CEO Jensen Huang resignation is a major leadership shock"
+        },
         {
           "headline": "NVIDIA Announces CEO Resignation and Leadership Transition",
           "url": "https://www.moomoo.com/news/post/1004449396/press-release-nvidia-announces-ceo-transition",
           "time": "2026-11-12T14:32:03Z",
           "sentiment": -0.5,
           "reason": "CEO Jensen Huang resigned abruptly; leadership uncertainty for key AI chip firm"
-        },
-        {
-          "headline": "Nvidia CEO Jensen Huang Resigns \u2014 CFO Collette Kress in as Interim CEO",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63186620/nvidia-ceo-jensen-huang-resigns-cfo-collette-kress-in-as-interim-ceo",
-          "time": "2026-11-12T14:21:00Z",
-          "sentiment": -0.5,
-          "reason": "Jensen Huang resigns after 33 years; CFO interim CEO"
-        },
-        {
-          "headline": "Seeing Reports U.S. Speaker Johnson Says He Is In Favor Of Limiting Chip Exports To China",
-          "url": "https://www.benzinga.com/quote/NVDA",
-          "time": "2026-11-12T14:20:46Z",
-          "sentiment": -0.3,
-          "reason": "Push to limit chip exports to China threatens NVDA China revenue"
-        },
-        {
-          "headline": "Michael Burry Says Nvidia Just Lost Its Enforcer: \u2018The Don Has Fallen\u2019",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63184853/michael-burry-says-nvidia-lost-its-enforcer-don-has-fallen",
-          "time": "2026-11-12T13:57:55Z",
-          "sentiment": -0.6,
-          "reason": "Prominent short seller urges selling over leadership, antitrust, and financing risks"
-        },
-        {
-          "headline": "Quantum Stocks Slide as Rigetti, D-Wave Results Disappoint, Nvidia Turmoil Overshadows IonQ",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63184851/quantum-stocks-slide-as-rigetti-d-wave-results-disappoint-nvidia-turmoil-overshadows-ionq",
-          "time": "2026-11-12T13:57:54Z",
-          "sentiment": -0.4,
-          "reason": "Nvidia turmoil and broader tech selloff weigh on sector sentiment"
         }
       ]
     },
@@ -200,9 +200,16 @@
     },
     "META": {
       "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Meta's $27B Off-Balance-Sheet AI Deal Reminds Steve Eisman of Enron\u2014 Joseph Carlson Disagrees",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63194360/meta-ai-enron",
+          "time": "2026-11-12T15:15:06Z",
+          "sentiment": -0.2,
+          "reason": "Off-balance-sheet $27B AI financing draws Enron comparisons; disputed"
+        },
         {
           "headline": "Meta Fined by Brazil Electoral Court",
           "url": "https://www.marketscreener.com/news/meta-fined-by-brazil-electoral-court-for-allegedly-failing-to-provide-equal-content-during-president-ce785edbdf8ef726",
@@ -219,9 +226,9 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.169,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": 0.163,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "'Bessent Moved to Military Housing Following Iranian Threats'- Bloomberg",
@@ -243,13 +250,6 @@
           "time": "2026-11-11T19:27:39Z",
           "sentiment": -0.25,
           "reason": "Peace prospects could lower oil prices and pressure energy producers"
-        },
-        {
-          "headline": "Iran's National Security Head Rezaei Says We Are Working On Nuclear-Powered Ships And Submarines, So We Need Our Enriched Materials; If The U.S. Attacks Iran, We Will Attack Not Only Nearby American Bases, But U.S. Military Bases In European Countries",
-          "url": "https://www.benzinga.com/content/63141935/iran-s-national-security-head-rezaei-says-we-are-working-nuclear-powered-ships-and-submarines-so-we-",
-          "time": "2026-11-11T15:00:30Z",
-          "sentiment": 0.2,
-          "reason": "Middle East escalation risk could support oil prices"
         }
       ]
     },
@@ -310,10 +310,17 @@
       ]
     },
     "TSLA": {
-      "score": 0.288,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.064,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "How the SpaceX Stock Slump Complicates Elon Musk\u2019s Tesla Merger",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63190512/spacex-tesla-merger",
+          "time": "2026-11-12T14:48:18Z",
+          "sentiment": -0.2,
+          "reason": "SpaceX slump complicates potential Tesla merger terms"
+        },
         {
           "headline": "Elon Musk Says 'Robotaxi Works 168 Hours A Week' as Tesla Highlights 24/7 Operations Across All Active Cities",
           "url": "https://www.benzinga.com/news/travel/26/11/63177389/elon-musk-says-robotaxi-works-168-hours-a-week-as-tesla-highlights-24-7-operations-across-all-active-cities",
@@ -345,9 +352,9 @@
       ]
     },
     "AMD": {
-      "score": 0.327,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": 0.319,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
         {
           "headline": "AMD and PsiQuantum Expand Partnership for Quantum Computing Infrastructure",

@@ -1,8 +1,22 @@
 {
-  "time": "2026-11-12T14:36:39.509222+00:00",
+  "time": "2026-11-12T15:35:38.249081+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "AAPL261211C00345000",
+      "side": "sell",
+      "reason": "take profit (+54%)",
+      "qty": 1,
+      "underlying": "AAPL",
+      "notional": 1720.0,
+      "status": "order placed",
+      "order_id": "c9b5b03b-cefa-41f5-85df-e249813cc1a0",
+      "limit": 17.1,
+      "book": "options",
+      "time": "2026-11-12T15:35:38.249081+00:00"
+    }
+  ],
   "options_level": 3,
   "learned": {
     "closed_trades": 3,
