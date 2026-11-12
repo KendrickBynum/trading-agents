@@ -14,14 +14,14 @@
       "avg": 14.54
     },
     "XOM261224C00170000": {
-      "time": "2026-11-12T20:35:37.549088+00:00",
+      "time": "2026-11-12T20:48:03.475319+00:00",
       "underlying": "XOM",
       "type": "call",
-      "score": 0.435,
-      "delta": 0.5478,
-      "iv": 0.2623,
+      "score": 0.432,
+      "delta": 0.5417,
+      "iv": 0.2616,
       "dte": 42,
-      "limit": 6.6
+      "limit": 6.45
     }
   },
   "exits": {
@@ -35,18 +35,19 @@
     "6da196b9-9bc9-4fec-8f1a-4d18e0a6a3ec": "PUT NVDA $195 exp 2026-11-27 (21d, delta -0.55) on score -0.36; max loss $1,360",
     "d63b6045-dab8-40b8-bb7e-eba623f813c2": "PUT NVDA $175 exp 2026-12-04 (24d, delta -0.55) on score -0.32; max loss $1,415",
     "8401c0ad-f5d3-4045-93d9-3a764858f20f": "CALL XOM $170 exp 2026-12-04 (22d, delta +0.55) on score +0.42; max loss $1,380",
-    "23aafec9-ecb8-470e-96c5-d94dfd85ca76": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.55) on score +0.43; max loss $1,320"
+    "23aafec9-ecb8-470e-96c5-d94dfd85ca76": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.55) on score +0.43; max loss $1,320",
+    "b9c6793d-f37f-4d55-ab61-7d6c4c890e05": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.54) on score +0.43; max loss $1,290"
   },
   "logged_orders": [
     "d67d5966-c817-4b8b-8a04-0fe0d9395767",
+    "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
     "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
-    "d4d6889e-22fd-46de-9a53-88417a40ec77",
     "4fde783c-5790-4980-8b54-82b5bb8e20d5",
-    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
+    "d4d6889e-22fd-46de-9a53-88417a40ec77",
     "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
     "c9b5b03b-cefa-41f5-85df-e249813cc1a0",
-    "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
-    "fea96f75-5b1f-4afe-9437-4e679fcff3e2"
+    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
+    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c"
   ],
-  "last_order_check": "2026-11-12T20:35:37.549088+00:00"
+  "last_order_check": "2026-11-12T20:48:03.475319+00:00"
 }
