@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-12T17:35:25.041914+00:00",
+  "generated_at": "2026-11-12T18:35:24.521122+00:00",
   "market_risk": 0.151,
   "tickers": {
     "SPY": {
-      "score": -0.222,
-      "articles": 10,
-      "ai_articles": 10,
+      "score": -0.235,
+      "articles": 11,
+      "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "Yemen\u2019s Houthis Say They Attacked Aramco Building In Riyadh",
+          "url": "https://www.benzinga.com/news/26/11/63209790/yemen-s-houthis-say-they-attacked-aramco-building-riyadh",
+          "time": "2026-11-12T17:58:03Z",
+          "sentiment": -0.3,
+          "reason": "Middle East escalation raises geopolitical risk-off pressure"
+        },
         {
           "headline": "Fed's Goolsbee Says Seeing 'Unanchoring Of Inflation Expectations'",
           "url": "https://www.benzinga.com/news/26/11/63201585/fed-s-goolsbee-says-seeing-unanchoring-inflation-expectations",
@@ -34,20 +41,13 @@
           "time": "2026-11-12T15:00:21Z",
           "sentiment": -0.15,
           "reason": "October existing home sales fell 5.5% MoM, signaling weak housing"
-        },
-        {
-          "headline": "Fed's Hammack Says Fed Has Been Missing On Inflation Mandate For Years; Most Recent Inflation Data Show It's Moving In The Wrong Direction; Fed Doing Very Well On Job Side Of Its Mandate",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63184414/fed-s-hammack-says-fed-has-been-missing-inflation-mandate-years-most-recent-inflation-data-show-it-s",
-          "time": "2026-11-12T13:48:20Z",
-          "sentiment": -0.2,
-          "reason": "Hawkish Fed comments on rising inflation may pressure equities"
         }
       ]
     },
     "QQQ": {
-      "score": -0.215,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.244,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "Why Is IREN Stock Falling on Thursday?",
@@ -87,80 +87,79 @@
       ]
     },
     "AAPL": {
-      "score": 0.3,
+      "score": 0.2,
       "articles": 1,
       "ai_articles": 1,
       "headlines": [
         {
-          "headline": "What's Going On With Apple Stock Wednesday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63157383/whats-going-on-with-apple-stock-wednesday-4",
-          "time": "2026-11-11T17:55:02Z",
-          "sentiment": 0.3,
-          "reason": "Bond sale and Siri AI roadmap support sentiment, partly priced in"
+          "headline": "What Is Going on With Apple Stock on Thursday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63211602/what-is-going-on-with-apple-stock-on-thursday-2",
+          "time": "2026-11-12T18:27:39Z",
+          "sentiment": 0.2,
+          "reason": "Stock up ~1% on valuation, pricing power, and AI plans"
         }
       ]
     },
     "MSFT": {
-      "score": -0.5,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Microsoft Stock Slides After Anthropic Launches Productivity Tools: What to Know",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63155981/microsoft-stock-slides-after-anthropic-launches-productivity-tools-what-to-know",
-          "time": "2026-11-11T17:36:20Z",
-          "sentiment": -0.5,
-          "reason": "Stock down ~2.5% on Anthropic's competing workplace tools"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "NVDA": {
-      "score": -0.406,
-      "articles": 76,
-      "ai_articles": 76,
+      "score": -0.412,
+      "articles": 77,
+      "ai_articles": 77,
       "headlines": [
+        {
+          "headline": "Can Nvidia Pull A Tim Cook? Apple's Post-Jobs Performance Offers Clues",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63211242/nvidia-jensen-huang-resigns-apple-tim-cook",
+          "time": "2026-11-12T18:22:01Z",
+          "sentiment": -0.5,
+          "reason": "CEO Jensen Huang resigns; leadership uncertainty ahead of earnings"
+        },
+        {
+          "headline": "Melius Research Downgrades NVIDIA to Hold, Lowers Price Target to $185",
+          "url": "https://www.benzinga.com/news/26/11/63211135/melius-research-downgrades-nvidia-hold-lowers-price-target-185",
+          "time": "2026-11-12T18:19:32Z",
+          "sentiment": -0.5,
+          "reason": "Melius downgrades to Hold with $185 price target"
+        },
+        {
+          "headline": "Nasdaq 100 Turns Green Despite Nvidia's 5% Drop on Huang Exit: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63210863/stock-market-today-nvidia-huang-exit-amd-broadcom-rally",
+          "time": "2026-11-12T18:16:23Z",
+          "sentiment": -0.3,
+          "reason": "Shares plunged 14% on Huang exit, partially recovered"
+        },
+        {
+          "headline": "Craig-Hallum Downgrades NVIDIA to Hold, Announces $180 Price Target",
+          "url": "https://www.benzinga.com/news/26/11/63209437/craig-hallum-downgrades-nvidia-hold-announces-180-price-target",
+          "time": "2026-11-12T17:53:13Z",
+          "sentiment": -0.5,
+          "reason": "Analyst downgrade to Hold; the $180 target is far below the price implied by other targets"
+        },
         {
           "headline": "What's Going on with Taiwan Semiconductor Stock on Thursday?",
           "url": "https://www.benzinga.com/markets/tech/26/11/63206696/whats-going-on-with-taiwan-semiconductor-stock-on-thursday-4",
           "time": "2026-11-12T17:15:10Z",
           "sentiment": -0.4,
           "reason": "CEO resignation creates leadership uncertainty and weighs on shares"
-        },
-        {
-          "headline": "AMD Stock Upgraded as AI Chip Rival Nvidia Spirals",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63206489/amd-stock-upgraded-as-nvidia-spirals",
-          "time": "2026-11-12T17:13:03Z",
-          "sentiment": -0.4,
-          "reason": "Leadership turmoil cited as threat to AI-chip share"
-        },
-        {
-          "headline": "Wall Street Now Values Nvidia Like a Package-Delivery Company, Data Shows",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63205423/nvidia-stock-forward-pe-below-ups-jensen-huang",
-          "time": "2026-11-12T17:00:09Z",
-          "sentiment": -0.3,
-          "reason": "Forward P/E derating after CEO exit; sentiment and multiple pressure"
-        },
-        {
-          "headline": "Signapore Announces Investigation Into Alice Huang, Megaspeed International",
-          "url": "https://www.benzinga.com/news/26/11/63205356/signapore-announces-investigation-alice-huang-megaspeed-international",
-          "time": "2026-11-12T16:59:45Z",
-          "sentiment": -0.3,
-          "reason": "Singapore probe into associated firm; possible chip-diversion or compliance risk"
-        },
-        {
-          "headline": "BMO Capital Maintains Outperform on NVIDIA, Lowers Price Target to $240",
-          "url": "https://www.benzinga.com/news/26/11/63204812/bmo-capital-maintains-outperform-nvidia-lowers-price-target-240",
-          "time": "2026-11-12T16:53:50Z",
-          "sentiment": -0.15,
-          "reason": "Price target cut despite maintained Outperform rating"
         }
       ]
     },
     "AMZN": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.144,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "What Is Going on with Amazon Stock on Thursday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63211264/what-is-going-on-with-amazon-stock-on-thursday",
+          "time": "2026-11-12T18:22:13Z",
+          "sentiment": 0.2,
+          "reason": "Rising on Anthropic note valuation and holiday hiring"
+        },
         {
           "headline": "Court Grants Class Certification in Amazon Photos Biometric Privacy Lawsuit",
           "url": "https://www.globenewswire.com/news-release/2026/11/11/3401049/0/en/wexler-boley-elgersma-announces-court-certification-of-class-action-against-amazon-over-alleged-collection-of-biometric-data-through-amazon-photos.html",
@@ -171,10 +170,17 @@
       ]
     },
     "GOOGL": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.285,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "What's Going On With Alphabet Stock Thursday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63211052/whats-going-on-with-alphabet-stock-thursday-2",
+          "time": "2026-11-12T18:17:43Z",
+          "sentiment": 0.4,
+          "reason": "Shares up 3% on AI smart glasses launch and bond raise"
+        },
         {
           "headline": "Voters Rejected Data Centers In 10 States, Raising Regulatory Risk for CoreWeave, Nvidia and AI Build-Out",
           "url": "https://www.benzinga.com/markets/tech/26/11/63172887/nvidia-ai-stocks-data-center-regulations-midterms",
@@ -186,9 +192,16 @@
     },
     "META": {
       "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "What's Going On With Alphabet Stock Thursday?",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63211052/whats-going-on-with-alphabet-stock-thursday-2",
+          "time": "2026-11-12T18:17:43Z",
+          "sentiment": -0.2,
+          "reason": "Google's AI glasses launch is a direct competitive threat"
+        },
         {
           "headline": "Meta's $27B Off-Balance-Sheet AI Deal Reminds Steve Eisman of Enron\u2014 Joseph Carlson Disagrees",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63194360/meta-ai-enron",
@@ -205,10 +218,17 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.163,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.427,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "Yemen\u2019s Houthis Say They Attacked Aramco Building In Riyadh",
+          "url": "https://www.benzinga.com/news/26/11/63209790/yemen-s-houthis-say-they-attacked-aramco-building-riyadh",
+          "time": "2026-11-12T17:58:03Z",
+          "sentiment": 0.5,
+          "reason": "Houthi attack on Saudi Aramco raises oil supply risk"
+        },
         {
           "headline": "'Bessent Moved to Military Housing Following Iranian Threats'- Bloomberg",
           "url": "https://www.benzinga.com/news/26/11/63169436/bessent-moved-military-housing-following-iranian-threats-bloomberg",
@@ -233,9 +253,9 @@
       ]
     },
     "MU": {
-      "score": -0.019,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.092,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "What Is Going on With Micron Stock on Thursday?",
@@ -250,20 +270,6 @@
           "time": "2026-11-11T21:25:11Z",
           "sentiment": 0.6,
           "reason": "CoreWeave says AI demand outpaces capacity, lifting memory stocks"
-        },
-        {
-          "headline": "QUICK SPARK: CoreWeave, 16 Other AI Stocks Are Up More Than 10% on Wednesday",
-          "url": "https://www.benzinga.com/markets/earnings/26/11/63158536/coreweave-ai-stocks-up-10-percent-wednesday",
-          "time": "2026-11-11T18:15:08Z",
-          "sentiment": 0.3,
-          "reason": "AI rally lifts memory and chip peers after CoreWeave beat"
-        },
-        {
-          "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia",
-          "time": "2026-11-11T17:53:02Z",
-          "sentiment": 0.3,
-          "reason": "Memory stocks rallied with chipmakers on AI momentum"
         }
       ]
     },
@@ -309,10 +315,24 @@
       "headlines": []
     },
     "AMD": {
-      "score": 0.384,
-      "articles": 13,
-      "ai_articles": 13,
+      "score": 0.398,
+      "articles": 15,
+      "ai_articles": 15,
       "headlines": [
+        {
+          "headline": "Nasdaq 100 Turns Green Despite Nvidia's 5% Drop on Huang Exit: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63210863/stock-market-today-nvidia-huang-exit-amd-broadcom-rally",
+          "time": "2026-11-12T18:16:23Z",
+          "sentiment": 0.4,
+          "reason": "AMD rallied while Nvidia sold off on Huang exit"
+        },
+        {
+          "headline": "B of A Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $700",
+          "url": "https://www.benzinga.com/news/26/11/63208691/b-securities-maintains-buy-advanced-micro-devices-raises-price-target-700",
+          "time": "2026-11-12T17:41:52Z",
+          "sentiment": 0.5,
+          "reason": "Buy rating maintained and price target raised to $700"
+        },
         {
           "headline": "AMD Stock Upgraded as AI Chip Rival Nvidia Spirals",
           "url": "https://www.benzinga.com/markets/tech/26/11/63206489/amd-stock-upgraded-as-nvidia-spirals",
@@ -333,20 +353,6 @@
           "time": "2026-11-12T14:31:38Z",
           "sentiment": 0.2,
           "reason": "Expanded PsiQuantum partnership with AMD equity stake; modest positive"
-        },
-        {
-          "headline": "This AMD Analyst Turns Bullish; Here Are Top 5 Upgrades For Thursday",
-          "url": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/11/63185579/this-amd-analyst-turns-bullish-here-are-top-5-upgrades-for-thursday-2",
-          "time": "2026-11-12T14:05:37Z",
-          "sentiment": 0.4,
-          "reason": "Analyst upgrade signals bullish sentiment, though AMD-specific detail is thin"
-        },
-        {
-          "headline": "AMD Announces Expanded Partnership With PsiQuantum To Co-Design Quantum Computing Infrastructure, Plans Equity Investment In PsiQuantum; Terms Not Disclosed",
-          "url": "https://www.benzinga.com/quote/AMD",
-          "time": "2026-11-12T13:05:07Z",
-          "sentiment": 0.15,
-          "reason": "Expanded quantum partnership and equity stake; terms undisclosed, limited near-term impact"
         }
       ]
     }
