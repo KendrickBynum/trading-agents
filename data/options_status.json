@@ -1,28 +1,28 @@
 {
-  "time": "2026-11-12T19:35:44.381043+00:00",
+  "time": "2026-11-12T20:35:37.549088+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
-      "symbol": "XOM261204C00170000",
+      "symbol": "XOM261224C00170000",
       "side": "buy",
-      "qty": 3,
-      "limit": 4.6,
+      "qty": 2,
+      "limit": 6.6,
       "underlying": "XOM",
-      "notional": 1380.0,
-      "score": 0.425,
+      "notional": 1320.0,
+      "score": 0.435,
       "factors": {
-        "trend": 0.089,
-        "levels": 0.862,
-        "flow": 0.406,
-        "pattern": -0.344,
-        "news": 0.952
+        "trend": 0.083,
+        "levels": 0.876,
+        "flow": 0.392,
+        "pattern": -0.306,
+        "news": 0.964
       },
-      "reason": "CALL XOM $170 exp 2026-12-04 (22d, delta +0.55) on score +0.42; max loss $1,380",
+      "reason": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.55) on score +0.43; max loss $1,320",
       "status": "order placed",
-      "order_id": "8401c0ad-f5d3-4045-93d9-3a764858f20f",
+      "order_id": "23aafec9-ecb8-470e-96c5-d94dfd85ca76",
       "book": "options",
-      "time": "2026-11-12T19:35:44.381043+00:00"
+      "time": "2026-11-12T20:35:37.549088+00:00"
     }
   ],
   "options_level": 3,
