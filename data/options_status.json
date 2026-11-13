@@ -1,30 +1,10 @@
 {
-  "time": "2026-11-12T20:48:03.475319+00:00",
-  "halts": [],
-  "alerts": [],
-  "last_actions": [
-    {
-      "symbol": "XOM261224C00170000",
-      "side": "buy",
-      "qty": 2,
-      "limit": 6.45,
-      "underlying": "XOM",
-      "notional": 1290.0,
-      "score": 0.432,
-      "factors": {
-        "trend": 0.07,
-        "levels": 0.902,
-        "flow": 0.363,
-        "pattern": -0.306,
-        "news": 0.964
-      },
-      "reason": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.54) on score +0.43; max loss $1,290",
-      "status": "order placed",
-      "order_id": "b9c6793d-f37f-4d55-ab61-7d6c4c890e05",
-      "book": "options",
-      "time": "2026-11-12T20:48:03.475319+00:00"
-    }
+  "time": "2026-11-13T01:57:15.555779+00:00",
+  "halts": [
+    "Market closed"
   ],
+  "alerts": [],
+  "last_actions": [],
   "options_level": 3,
   "learned": {
     "closed_trades": 4,
