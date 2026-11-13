@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T19:35:21.031504+00:00",
-  "market_risk": 0.165,
+  "generated_at": "2026-11-13T20:28:44.899685+00:00",
+  "market_risk": 0.159,
   "tickers": {
     "SPY": {
       "score": -0.24,
@@ -93,10 +93,17 @@
       "headlines": []
     },
     "MSFT": {
-      "score": -0.264,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.254,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Microsoft Says Infrastructure Stabilizes As Queued Messages Drain And Traffic Rebalances, With No ETA For Full Recovery",
+          "url": "https://www.benzinga.com/news/26/11/63265115/microsoft-says-infrastructure-stabilizes-queued-messages-drain-and-traffic-rebalances-no-eta-full-re",
+          "time": "2026-11-13T20:14:22Z",
+          "sentiment": -0.2,
+          "reason": "Ongoing infrastructure disruption with no full-recovery timeline; operational risk"
+        },
         {
           "headline": "Microsoft Experiences Widespread Global Service Outage",
           "url": "https://www.newswire.lk/2026/11/13/widespread-microsoft-outage-takes-down-outlook-and-other-365-services/",
@@ -124,21 +131,21 @@
           "time": "2026-11-13T16:22:20Z",
           "sentiment": -0.4,
           "reason": "Widespread 365 outage disrupts Outlook, Teams, Copilot"
-        },
-        {
-          "headline": "Microsoft Just Relived the CrowdStrike Nightmare. But There\u2019s One Crucial Difference",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63247949/microsoft-crowdstrike-outage",
-          "time": "2026-11-13T15:56:09Z",
-          "sentiment": -0.2,
-          "reason": "CrowdStrike comparison raises enterprise reliability concerns"
         }
       ]
     },
     "NVDA": {
-      "score": -0.346,
-      "articles": 51,
-      "ai_articles": 51,
+      "score": -0.35,
+      "articles": 50,
+      "ai_articles": 50,
       "headlines": [
+        {
+          "headline": "QUICK SPARK: Broadcom Scores Historic Win Over Nvidia as AVGO-NVDA Gap Explodes",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63264147/broadcom-stock-beating-nvidia-record-week-jensen-huang",
+          "time": "2026-11-13T19:58:07Z",
+          "sentiment": -0.5,
+          "reason": "Record AVGO outperformance after Huang's exit suggests share and sentiment loss"
+        },
         {
           "headline": "Jensen Huang Joins Wall Street\u2019s Fallen-Founder Hall of Fame: 13 Founders Who Fell Before Him",
           "url": "https://www.benzinga.com/markets/equities/26/11/63262520/jensen-huang-joins-wall-streets-fallen-founder-hall-of-fame-13-founders-who-fell-before-him",
@@ -166,13 +173,6 @@
           "time": "2026-11-13T18:27:09Z",
           "sentiment": -0.4,
           "reason": "Report of restricted NVIDIA chips in China raises export-control risk"
-        },
-        {
-          "headline": "Why Is IREN Stock Falling on Friday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63258769/why-is-iren-stock-falling-on-friday-3",
-          "time": "2026-11-13T18:19:49Z",
-          "sentiment": -0.5,
-          "reason": "Jensen Huang resignation creates leadership uncertainty at NVIDIA"
         }
       ]
     },
@@ -309,10 +309,17 @@
       ]
     },
     "TSLA": {
-      "score": -0.133,
+      "score": -0.158,
       "articles": 5,
       "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Texas Attorney General Threatens Potential Tesla-SpaceX Merger",
+          "url": "https://www.marketscreener.com/news/tesla-spacex-merger-threatened-by-newly-elected-texas-attorney-general-ce785ed9de8cf523",
+          "time": "2026-11-13T20:01:49Z",
+          "sentiment": -0.2,
+          "reason": "Political opposition raises uncertainty over a possible Tesla-SpaceX merger"
+        },
         {
           "headline": "'Texas\u2019 Next AG Vows \u2018Tremendous Scrutiny\u2019 of Tesla-SpaceX Deal' - Bloomberg Interview",
           "url": "https://www.benzinga.com/news/26/11/63234329/texas-next-ag-vows-tremendous-scrutiny-tesla-spacex-deal-bloomberg-interview",
@@ -340,13 +347,6 @@
           "time": "2026-11-12T21:02:07Z",
           "sentiment": 0.2,
           "reason": "Strong 5-day rally on merger push; momentum partly priced in"
-        },
-        {
-          "headline": "Lawsuit Filed Against Tesla Over San Mateo Street-Racing Incident",
-          "url": "https://newsfilter.io/sources/businesswire",
-          "time": "2026-11-12T20:01:33Z",
-          "sentiment": -0.15,
-          "reason": "Lawsuit over crash is a minor legal and reputational cost"
         }
       ]
     },

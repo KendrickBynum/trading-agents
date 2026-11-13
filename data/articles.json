@@ -10,57 +10,6 @@
     "scorer": "claude"
   },
   {
-    "id": "63217739",
-    "created_at": "2026-11-12T20:22:09Z",
-    "headline": "Jensen Huang Scandal Widens: Former Nvidia CEO Linked to Second Employee",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63217739/jensen-huang-scandal-widens-former-nvidia-ceo-linked-to-second-employee",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Expanding executive scandal raises governance and leadership concerns"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121013086",
-    "created_at": "2026-11-12T20:01:33Z",
-    "headline": "Lawsuit Filed Against Tesla Over San Mateo Street-Racing Incident",
-    "url": "https://newsfilter.io/sources/businesswire",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Lawsuit over crash is a minor legal and reputational cost"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63216627",
-    "created_at": "2026-11-12T19:58:54Z",
-    "headline": "Wall Street Takes the Chainsaw to Nvidia Targets: One Bank Slashes $465 to $186",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63216627/nvidia-price-targets-cut-evercore-apple-jensen-huang",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.7,
-        "confidence": 0.7,
-        "reason": "Nine banks cut targets sharply after Huang's exit; major downgrade wave"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63218891",
     "created_at": "2026-11-12T20:40:06Z",
     "headline": "Short Seller Flagged Nvidia China Worries Months Ago: Here\u2019s How Much Stock Has Fallen Since",
@@ -2715,6 +2664,118 @@
         "sentiment": -0.6,
         "confidence": 0.7,
         "reason": "Nasdaq 100 down 1.7% on chip-led selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63265115",
+    "created_at": "2026-11-13T20:14:22Z",
+    "headline": "Microsoft Says Infrastructure Stabilizes As Queued Messages Drain And Traffic Rebalances, With No ETA For Full Recovery",
+    "url": "https://www.benzinga.com/news/26/11/63265115/microsoft-says-infrastructure-stabilizes-queued-messages-drain-and-traffic-rebalances-no-eta-full-re",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Ongoing infrastructure disruption with no full-recovery timeline; operational risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63264694",
+    "created_at": "2026-11-13T20:06:46Z",
+    "headline": "Nancy Pelosi\u2019s Nvidia Bet Just Cost Her Most Of A Year\u2019s Pay \u2014 Thanks To Jensen Huang",
+    "url": "https://www.benzinga.com/news/politics/26/11/63264694/nancy-pelosis-nvidia-bet-just-cost-her-most-of-a-years-pay-thanks-to-jensen-huang",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Recent price decline is already known; recap adds little new information"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "122097917",
+    "created_at": "2026-11-13T20:01:49Z",
+    "headline": "Texas Attorney General Threatens Potential Tesla-SpaceX Merger",
+    "url": "https://www.marketscreener.com/news/tesla-spacex-merger-threatened-by-newly-elected-texas-attorney-general-ce785ed9de8cf523",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Political opposition raises uncertainty over a possible Tesla-SpaceX merger"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63264147",
+    "created_at": "2026-11-13T19:58:07Z",
+    "headline": "QUICK SPARK: Broadcom Scores Historic Win Over Nvidia as AVGO-NVDA Gap Explodes",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63264147/broadcom-stock-beating-nvidia-record-week-jensen-huang",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.5,
+        "confidence": 0.5,
+        "reason": "Record AVGO outperformance after Huang's exit suggests share and sentiment loss"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63263848",
+    "created_at": "2026-11-13T19:51:56Z",
+    "headline": "'Meta Testing New Prediction-Market App With Employees'- WSJ",
+    "url": "https://www.benzinga.com/news/26/11/63263848/meta-testing-new-prediction-market-app-employees-wsj",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Internal testing of prediction-market app is early and unlikely to move price"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63263618",
+    "created_at": "2026-11-13T19:46:27Z",
+    "headline": "'Hassett Denies Report He\u2019s Leaving White House: \u2018Not True'- CNBC",
+    "url": "https://www.benzinga.com/news/26/11/63263618/hassett-denies-report-he-s-leaving-white-house-not-true-cnbc",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63263558",
+    "created_at": "2026-11-13T19:45:06Z",
+    "headline": "Elon Musk's SpaceX\u2013Tesla Merger 'Almost Inconceivable' to Avoid, Biographer Says",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63263558/spacex-tesla-merger-2",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Commentary on merger likelihood is speculative; minimal near-term impact"
       }
     ],
     "scorer": "claude"
