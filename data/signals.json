@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-11-13T15:35:21.998987+00:00",
-  "market_risk": 0.138,
+  "generated_at": "2026-11-13T16:35:23.682838+00:00",
+  "market_risk": 0.153,
   "tickers": {
     "SPY": {
-      "score": -0.228,
-      "articles": 11,
-      "ai_articles": 11,
+      "score": -0.26,
+      "articles": 10,
+      "ai_articles": 10,
       "headlines": [
+        {
+          "headline": "Live On Bloomberg TV, Fed\u2019s Collins Says Possible Fed May Have To Raise More Than Expected; Best Case Scenario Is \u2018careful Adjustment\u2019 Of Monetary Policy; Energy Is An Inflation Driver, But I See It As Broader; Many Firms Expect To Pass On Higher Costs To Consumers",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-13T15:49:57Z",
+          "sentiment": -0.25,
+          "reason": "Fed official signals possible further rate hikes, tightening risk"
+        },
+        {
+          "headline": "Live On Bloomberg TV, Fed\u2019s Collins Says Inflation Is Too High And Appears To Be Broadening; Recent Inflation Data Less Promising Than I Hope; I Would Think Some Additional Policy Tightening Warranted Soon",
+          "url": "https://www.benzinga.com/quote/SPY",
+          "time": "2026-11-13T15:47:34Z",
+          "sentiment": -0.4,
+          "reason": "Fed official says inflation broadening, more tightening likely soon"
+        },
         {
           "headline": "'Israeli spy chief in D.C. as Netanyahu presses Trump to resume war'- Axios",
           "url": "https://www.benzinga.com/news/26/11/63244259/israeli-spy-chief-d-c-netanyahu-presses-trump-resume-war-axios",
@@ -27,28 +41,21 @@
           "time": "2026-11-13T13:49:37Z",
           "sentiment": -0.35,
           "reason": "Goolsbee says inflation broadening; Fed has work to do"
-        },
-        {
-          "headline": "Fed's Goolsbee Says Can't Look Through Inflation If Demand Is Overheating; Data Center Buildout Is Pushing Up Prices; Inflation Is Rising And Proving Far More Persistent Than Expected When It Was Just A Matter Of Supply Shocks",
-          "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63236837/fed-s-goolsbee-says-can-t-look-through-inflation-if-demand-overheating-data-center-buildout-pushing-",
-          "time": "2026-11-13T13:48:29Z",
-          "sentiment": -0.35,
-          "reason": "Overheating demand and persistent inflation imply tighter policy risk"
-        },
-        {
-          "headline": "USA PPI (MoM) For Oct. Revises Prior From 1.3% To 1.4%",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-13T13:30:24Z",
-          "sentiment": -0.15,
-          "reason": "Upward revision to October PPI MoM signals hotter inflation"
         }
       ]
     },
     "QQQ": {
-      "score": 0.111,
+      "score": -0.053,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Consumer Staples Leads Sectors As Technology Trails",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63248349/consumer-staples-leads-sectors-as-technology-trails",
+          "time": "2026-11-13T16:00:18Z",
+          "sentiment": -0.3,
+          "reason": "Technology lagging sectors signals weakness in Nasdaq"
+        },
         {
           "headline": "Nvidia Crisis Fails to Stop ETF Buying Frenzy: VOO, QQQ, SOXL Leads $37.5B ETF Inflow Surge",
           "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63238767/nvidia-crisis-fails-to-stop-etf-buying-frenzy-voo-qqq-soxl-leads-37-5b-etf-inflow-surge",
@@ -62,13 +69,6 @@
           "time": "2026-11-13T06:35:51Z",
           "sentiment": -0.2,
           "reason": "Nasdaq down 100 points led by Nvidia weakness"
-        },
-        {
-          "headline": "Why Is IREN Stock Falling on Thursday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63201719/why-is-iren-stock-falling-on-thursday-4",
-          "time": "2026-11-12T16:20:54Z",
-          "sentiment": -0.2,
-          "reason": "AI infrastructure selloff weighs on tech-heavy index"
         }
       ]
     },
@@ -87,10 +87,24 @@
       ]
     },
     "MSFT": {
-      "score": -0.218,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.272,
+      "articles": 7,
+      "ai_articles": 7,
       "headlines": [
+        {
+          "headline": "Microsoft Stock in Focus as Massive 365 Outage Hits Outlook, Teams and Copilot: What Investors Should Know",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63250443/microsoft-stock-in-focus-as-massive-365-outage-hits-outlook-teams-and-copilot-what-investors-should-know",
+          "time": "2026-11-13T16:22:20Z",
+          "sentiment": -0.4,
+          "reason": "Widespread 365 outage disrupts Outlook, Teams, Copilot"
+        },
+        {
+          "headline": "Microsoft Just Relived the CrowdStrike Nightmare. But There\u2019s One Crucial Difference",
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63247949/microsoft-crowdstrike-outage",
+          "time": "2026-11-13T15:56:09Z",
+          "sentiment": -0.2,
+          "reason": "CrowdStrike comparison raises enterprise reliability concerns"
+        },
         {
           "headline": "Microsoft Outage Hit More Than Outlook: Even Its Cybersecurity Defenses Were Affected",
           "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63240632/microsoft-outage-defender-security",
@@ -111,70 +125,63 @@
           "time": "2026-11-13T04:41:35Z",
           "sentiment": -0.3,
           "reason": "Widespread Microsoft 365 outage across Outlook, Teams, Copilot ongoing"
-        },
-        {
-          "headline": "Microsoft 365 Experiences Service Outage",
-          "url": "https://www.manilatimes.net/2026/11/13/world/americas-emea/major-outage-hits-microsoft-outlook/2469181",
-          "time": "2026-11-12T22:31:35Z",
-          "sentiment": -0.15,
-          "reason": "Microsoft 365 outage across regions; short-lived reputational hit"
-        },
-        {
-          "headline": "EXCLUSIVE: Google, Microsoft \u2018Fail to Sway\u2019 Democrats With AI Power Pledge",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63214835/google-microsoft-ai-power-scrutiny",
-          "time": "2026-11-12T19:24:59Z",
-          "sentiment": -0.2,
-          "reason": "Democrats unsatisfied with AI power pledge raises regulatory risk"
         }
       ]
     },
     "NVDA": {
-      "score": -0.303,
-      "articles": 58,
-      "ai_articles": 58,
+      "score": -0.316,
+      "articles": 56,
+      "ai_articles": 56,
       "headlines": [
         {
-          "headline": "Gene Munster Says This is Nvidia\u2019s Biggest \u2018Long-Term Challenge\u2019 After Replacing Jensen Huang",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63242763/gene-munster-says-this-is-nvidias-biggest-long-term-challenge-after-replacing-jensen-huang",
-          "time": "2026-11-13T15:09:46Z",
-          "sentiment": -0.3,
-          "reason": "Analyst flags major long-term challenge after CEO Jensen Huang's exit"
+          "headline": "Why Is Applied Digital Stock Falling on Friday?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63250819/why-is-applied-digital-stock-falling-on-friday",
+          "time": "2026-11-13T16:26:30Z",
+          "sentiment": -0.5,
+          "reason": "CEO departure and sector pressure weigh on Nvidia shares"
         },
         {
-          "headline": "Nvidia Crisis Fails to Stop ETF Buying Frenzy: VOO, QQQ, SOXL Leads $37.5B ETF Inflow Surge",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63238767/nvidia-crisis-fails-to-stop-etf-buying-frenzy-voo-qqq-soxl-leads-37-5b-etf-inflow-surge",
-          "time": "2026-11-13T14:37:28Z",
-          "sentiment": -0.3,
-          "reason": "Described as a leadership crisis amid market volatility"
-        },
-        {
-          "headline": "Truist Securities Downgrades NVIDIA to Hold, Lowers Price Target to $174",
-          "url": "https://www.benzinga.com/news/26/11/63238422/truist-securities-downgrades-nvidia-hold-lowers-price-target-174",
-          "time": "2026-11-13T14:35:24Z",
-          "sentiment": -0.4,
-          "reason": "Analyst downgrade to Hold with lowered $174 price target"
-        },
-        {
-          "headline": "Jim Cramer Questions If Jensen Huang Betrayed Nvidia Shareholders, Says Former CEO Let Investors Down: \u2018Yes. End Of Story\u2019",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63238024/jim-cramer-questions-if-jensen-huang-betrayed-nvidia-shareholders-says-former-ceo-let-investors-down-yes-end-of-story",
-          "time": "2026-11-13T14:22:24Z",
+          "headline": "Michael Burry Says WSJ Missed the Real Nvidia Story",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63249664/michael-burry-says-wsj-missed-the-real-nvidia-story",
+          "time": "2026-11-13T16:14:21Z",
           "sentiment": -0.2,
-          "reason": "Cramer's public criticism of Huang adds governance-related uncertainty"
+          "reason": "Burry raises AI bubble and excess supply concerns"
         },
         {
-          "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100  Futures Rise as Nvidia CEO Exit Remains in Focus\u2014 CSCO, AMAT, NU in Focus(UPDATED)",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63231225/stock-market-today-dow-jones-sp-500-futures-rise-nvidia-ceo-exit-remains-in-focus-csco-amat-nu-in-focus",
-          "time": "2026-11-13T13:40:44Z",
-          "sentiment": -0.15,
-          "reason": "CEO exit remains in focus, adding leadership uncertainty"
+          "headline": "Super Micro Extends DOJ-Probe Selloff as Nvidia, Nasdaq Slide",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63249030/super-micro-extends-doj-probe-selloff-as-nvidia-nasdaq-slide",
+          "time": "2026-11-13T16:08:02Z",
+          "sentiment": -0.4,
+          "reason": "Nvidia slides amid DOJ-probe-driven tech weakness"
+        },
+        {
+          "headline": "NVIDIA Faces Multiple US Department of Justice Probes",
+          "url": "https://www.marketscreener.com/news/nvidia-draws-scrutiny-from-3-us-justice-department-probes-ce785ed9df8df320",
+          "time": "2026-11-13T16:02:08Z",
+          "sentiment": -0.6,
+          "reason": "Three separate DOJ investigations create significant legal risk"
+        },
+        {
+          "headline": "Consumer Staples Leads Sectors As Technology Trails",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63248349/consumer-staples-leads-sectors-as-technology-trails",
+          "time": "2026-11-13T16:00:18Z",
+          "sentiment": -0.2,
+          "reason": "Tech sector weakness weighs on semiconductor leaders"
         }
       ]
     },
     "AMZN": {
-      "score": 0.033,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.162,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Amazon Introduces Alexa for Shopping, Your Personalized, Agentic AI Assistant On Amazon",
+          "url": "https://www.benzinga.com/news/26/11/63248830/amazon-introduces-alexa-shopping-your-personalized-agentic-ai-assistant-amazon",
+          "time": "2026-11-13T16:05:53Z",
+          "sentiment": 0.2,
+          "reason": "Agentic AI shopping assistant could support engagement and sales"
+        },
         {
           "headline": "EXCLUSIVE: Google, Microsoft \u2018Fail to Sway\u2019 Democrats With AI Power Pledge",
           "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63214835/google-microsoft-ai-power-scrutiny",
@@ -297,9 +304,9 @@
       ]
     },
     "MU": {
-      "score": 0.113,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "What Is Going on With Micron Stock on Friday?",
@@ -307,13 +314,6 @@
           "time": "2026-11-13T13:12:57Z",
           "sentiment": 0.2,
           "reason": "Strong recent momentum and bullish analyst targets ahead of earnings"
-        },
-        {
-          "headline": "What Is Going on With Micron Stock on Thursday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63199251/what-is-going-on-with-micron-stock-on-thursday-4",
-          "time": "2026-11-12T15:59:09Z",
-          "sentiment": -0.3,
-          "reason": "Sympathy selloff following Nvidia CEO resignation news"
         }
       ]
     },
@@ -380,10 +380,24 @@
       "headlines": []
     },
     "AMD": {
-      "score": 0.379,
-      "articles": 7,
-      "ai_articles": 7,
+      "score": 0.214,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "AMD Benefits From Nvidia's Troubles, Smart Money Sells Nvidia; Cooler PPI; Bitcoin Below $70K",
+          "url": "https://www.benzinga.com/opinion/26/11/63250990/amd-benefits-from-nvidias-troubles-smart-money-sells-nvidia-cooler-ppi-bitcoin-below-70k",
+          "time": "2026-11-13T16:28:35Z",
+          "sentiment": 0.3,
+          "reason": "Possible share gains as Nvidia faces troubles; thin evidence"
+        },
+        {
+          "headline": "Super Micro Extends DOJ-Probe Selloff as Nvidia, Nasdaq Slide",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63249030/super-micro-extends-doj-probe-selloff-as-nvidia-nasdaq-slide",
+          "time": "2026-11-13T16:08:02Z",
+          "sentiment": -0.2,
+          "reason": "Broader tech and AI-hardware selloff pressures AMD"
+        },
         {
           "headline": "What's Going On With AMD Stock Today?",
           "url": "https://www.benzinga.com/markets/tech/26/11/63234451/whats-going-on-with-amd-stock-today-2",
@@ -404,20 +418,6 @@
           "time": "2026-11-12T18:44:45Z",
           "sentiment": 0.3,
           "reason": "Benefits from capital rotation into competing AI semiconductor stocks"
-        },
-        {
-          "headline": "Nasdaq 100 Turns Green Despite Nvidia's 5% Drop on Huang Exit: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63210863/stock-market-today-nvidia-huang-exit-amd-broadcom-rally",
-          "time": "2026-11-12T18:16:23Z",
-          "sentiment": 0.4,
-          "reason": "AMD rallied while Nvidia sold off on Huang exit"
-        },
-        {
-          "headline": "B of A Securities Maintains Buy on Advanced Micro Devices, Raises Price Target to $700",
-          "url": "https://www.benzinga.com/news/26/11/63208691/b-securities-maintains-buy-advanced-micro-devices-raises-price-target-700",
-          "time": "2026-11-12T17:41:52Z",
-          "sentiment": 0.5,
-          "reason": "Buy rating maintained and price target raised to $700"
         }
       ]
     }
