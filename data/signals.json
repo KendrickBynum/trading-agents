@@ -1,12 +1,19 @@
 {
-  "generated_at": "2026-11-13T14:35:20.713272+00:00",
-  "market_risk": 0.149,
+  "generated_at": "2026-11-13T15:35:21.998987+00:00",
+  "market_risk": 0.138,
   "tickers": {
     "SPY": {
-      "score": -0.231,
+      "score": -0.228,
       "articles": 11,
       "ai_articles": 11,
       "headlines": [
+        {
+          "headline": "'Israeli spy chief in D.C. as Netanyahu presses Trump to resume war'- Axios",
+          "url": "https://www.benzinga.com/news/26/11/63244259/israeli-spy-chief-d-c-netanyahu-presses-trump-resume-war-axios",
+          "time": "2026-11-13T15:21:28Z",
+          "sentiment": -0.2,
+          "reason": "Report of Netanyahu pressing to resume war raises geopolitical risk"
+        },
         {
           "headline": "Fed's Goolsbee Says Services Inflation And Rising Health Care Costs Don't Feel Like They Will Change Quickly; FOMC Trying To Figure Out The Same Thing As Bessent, Which Is Persistence Of Inflation; To The Extent Data Suggest Inflation Is Getting Worse It Would Make The Fed More Aggressive",
           "url": "https://www.benzinga.com/quote/SPY",
@@ -34,21 +41,21 @@
           "time": "2026-11-13T13:30:24Z",
           "sentiment": -0.15,
           "reason": "Upward revision to October PPI MoM signals hotter inflation"
-        },
-        {
-          "headline": "USA PPI (MoM) For Oct. 0.3% Vs 0.4% Est.",
-          "url": "https://www.benzinga.com/quote/SPY",
-          "time": "2026-11-13T13:30:11Z",
-          "sentiment": 0.2,
-          "reason": "PPI printed softer than expected, easing inflation concerns"
         }
       ]
     },
     "QQQ": {
-      "score": -0.217,
+      "score": 0.111,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Nvidia Crisis Fails to Stop ETF Buying Frenzy: VOO, QQQ, SOXL Leads $37.5B ETF Inflow Surge",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63238767/nvidia-crisis-fails-to-stop-etf-buying-frenzy-voo-qqq-soxl-leads-37-5b-etf-inflow-surge",
+          "time": "2026-11-13T14:37:28Z",
+          "sentiment": 0.3,
+          "reason": "Large ETF inflows show dip-buying support for QQQ"
+        },
         {
           "headline": "Nasdaq Down 100 Points As Nvidia Shares Fall: Investor Sentiment Improves, But Greed Index Remains In \u2018Fear\u2019 Zone",
           "url": "https://www.benzinga.com/markets/market-summary/26/11/63229932/nasdaq-down-100-points-as-nvidia-shares-fall-investor-sentiment-improves-but-greed-index-remains-in-fear-zone",
@@ -62,13 +69,6 @@
           "time": "2026-11-12T16:20:54Z",
           "sentiment": -0.2,
           "reason": "AI infrastructure selloff weighs on tech-heavy index"
-        },
-        {
-          "headline": "Nasdaq Falls Over 100 Points; Nvidia CEO Jensen Huang Resigns",
-          "url": "https://www.benzinga.com/markets/market-summary/26/11/63190229/nasdaq-falls-over-100-points-nvidia-ceo-jensen-huang-resigns",
-          "time": "2026-11-12T14:46:36Z",
-          "sentiment": -0.3,
-          "reason": "Nasdaq fell over 0.5%, with NVDA CEO departure weighing"
         }
       ]
     },
@@ -87,10 +87,17 @@
       ]
     },
     "MSFT": {
-      "score": -0.229,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.218,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Microsoft Outage Hit More Than Outlook: Even Its Cybersecurity Defenses Were Affected",
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63240632/microsoft-outage-defender-security",
+          "time": "2026-11-13T14:50:45Z",
+          "sentiment": -0.2,
+          "reason": "Outage disrupted Defender and Purview, raising enterprise reliability concerns"
+        },
         {
           "headline": "Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release",
           "url": "https://www.benzinga.com/markets/tech/26/11/63230820/microsoft-outlook-outage-hits-colorado-jail-forces-families-to-post-bail-in-person-to-secure-release",
@@ -122,10 +129,31 @@
       ]
     },
     "NVDA": {
-      "score": -0.293,
-      "articles": 61,
-      "ai_articles": 61,
+      "score": -0.303,
+      "articles": 58,
+      "ai_articles": 58,
       "headlines": [
+        {
+          "headline": "Gene Munster Says This is Nvidia\u2019s Biggest \u2018Long-Term Challenge\u2019 After Replacing Jensen Huang",
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63242763/gene-munster-says-this-is-nvidias-biggest-long-term-challenge-after-replacing-jensen-huang",
+          "time": "2026-11-13T15:09:46Z",
+          "sentiment": -0.3,
+          "reason": "Analyst flags major long-term challenge after CEO Jensen Huang's exit"
+        },
+        {
+          "headline": "Nvidia Crisis Fails to Stop ETF Buying Frenzy: VOO, QQQ, SOXL Leads $37.5B ETF Inflow Surge",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63238767/nvidia-crisis-fails-to-stop-etf-buying-frenzy-voo-qqq-soxl-leads-37-5b-etf-inflow-surge",
+          "time": "2026-11-13T14:37:28Z",
+          "sentiment": -0.3,
+          "reason": "Described as a leadership crisis amid market volatility"
+        },
+        {
+          "headline": "Truist Securities Downgrades NVIDIA to Hold, Lowers Price Target to $174",
+          "url": "https://www.benzinga.com/news/26/11/63238422/truist-securities-downgrades-nvidia-hold-lowers-price-target-174",
+          "time": "2026-11-13T14:35:24Z",
+          "sentiment": -0.4,
+          "reason": "Analyst downgrade to Hold with lowered $174 price target"
+        },
         {
           "headline": "Jim Cramer Questions If Jensen Huang Betrayed Nvidia Shareholders, Says Former CEO Let Investors Down: \u2018Yes. End Of Story\u2019",
           "url": "https://www.benzinga.com/markets/tech/26/11/63238024/jim-cramer-questions-if-jensen-huang-betrayed-nvidia-shareholders-says-former-ceo-let-investors-down-yes-end-of-story",
@@ -139,27 +167,6 @@
           "time": "2026-11-13T13:40:44Z",
           "sentiment": -0.15,
           "reason": "CEO exit remains in focus, adding leadership uncertainty"
-        },
-        {
-          "headline": "SemiAnalysis Suspects US Intelligence Role in Jensen Huang\u2019s Exit as China Chip Crackdown Looms",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63236044/jensen-huang-intelligence",
-          "time": "2026-11-13T13:30:13Z",
-          "sentiment": -0.3,
-          "reason": "Speculation of US intelligence role and looming China chip restrictions"
-        },
-        {
-          "headline": "Jensen Huang Faces Subpoena Threat As 3 Republican-Led House Committees Demand Closed-Door Testimony Over Nvidia\u2019s China Ties",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63235908/jensen-huang-faces-subpoena-threat-as-3-republican-led-house-committees-demand-closed-door-testimony-over-nvidias-china-ties",
-          "time": "2026-11-13T13:26:33Z",
-          "sentiment": -0.5,
-          "reason": "Congressional subpoena threat over Nvidia's China ties"
-        },
-        {
-          "headline": "NVIDIA Confirms South Korea GPU Supply Commitment",
-          "url": "https://www.koreaherald.com/article/10936791",
-          "time": "2026-11-13T13:01:39Z",
-          "sentiment": 0.4,
-          "reason": "Reaffirmed 260,000 GPU supply deal with South Korea"
         }
       ]
     },
@@ -213,9 +220,9 @@
       ]
     },
     "META": {
-      "score": -0.183,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.176,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "EXCLUSIVE: Google, Microsoft \u2018Fail to Sway\u2019 Democrats With AI Power Pledge",
@@ -230,13 +237,6 @@
           "time": "2026-11-12T18:17:43Z",
           "sentiment": -0.2,
           "reason": "Google's AI glasses launch is a direct competitive threat"
-        },
-        {
-          "headline": "Meta's $27B Off-Balance-Sheet AI Deal Reminds Steve Eisman of Enron\u2014 Joseph Carlson Disagrees",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63194360/meta-ai-enron",
-          "time": "2026-11-12T15:15:06Z",
-          "sentiment": -0.2,
-          "reason": "Off-balance-sheet $27B AI financing draws Enron comparisons; disputed"
         }
       ]
     },
@@ -255,10 +255,24 @@
       ]
     },
     "XOM": {
-      "score": 0.23,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": 0.215,
+      "articles": 8,
+      "ai_articles": 8,
       "headlines": [
+        {
+          "headline": "Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $206",
+          "url": "https://www.benzinga.com/news/26/11/63245473/barclays-maintains-overweight-exxonmobil-holdings-raises-price-target-206",
+          "time": "2026-11-13T15:31:31Z",
+          "sentiment": 0.2,
+          "reason": "Barclays reaffirms overweight and raises price target to $206"
+        },
+        {
+          "headline": "What's Going On With ExxonMobil Stock Friday?",
+          "url": "https://www.benzinga.com/markets/large-cap/26/11/63240016/whats-going-on-with-exxonmobil-stock-friday",
+          "time": "2026-11-13T14:46:18Z",
+          "sentiment": 0.2,
+          "reason": "Guyana project advancing and recent Q3 earnings beat"
+        },
         {
           "headline": "'UN watchdog calls on Iran to reopen nuclear facilities to inspection; Tehran has told the IAEA that it is not possible to resume inspections in the current security situation' - Al Jazeera",
           "url": "https://www.benzinga.com/news/26/11/63236935/un-watchdog-calls-iran-reopen-nuclear-facilities-inspection-tehran-has-told-iaea-it-not-possible-res",
@@ -279,20 +293,6 @@
           "time": "2026-11-13T03:01:59Z",
           "sentiment": 0.2,
           "reason": "Exploration evaluation of Venezuelan areas is a potential long-term growth option"
-        },
-        {
-          "headline": "ExxonMobil Advances Next Phase of Guyana Development with Longtail",
-          "url": "https://www.barchart.com/press-releases/8810194/exxonmobil-advances-next-phase-of-guyana-development-with-longtail",
-          "time": "2026-11-12T22:32:01Z",
-          "sentiment": 0.25,
-          "reason": "Final investment decision on Guyana Longtail project, production 2030"
-        },
-        {
-          "headline": "ExxonMobil Announces $12.5B Final Investment Decision For Longtail Gas Development Offshore Guyana, Targets 2030 Start-Up",
-          "url": "https://www.benzinga.com/quote/XOM",
-          "time": "2026-11-12T21:43:00Z",
-          "sentiment": 0.2,
-          "reason": "$12.5B Guyana project FID; long-term production growth, 2030 start"
         }
       ]
     },
@@ -332,9 +332,9 @@
       ]
     },
     "TSLA": {
-      "score": -0.136,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.133,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
         {
           "headline": "'Texas\u2019 Next AG Vows \u2018Tremendous Scrutiny\u2019 of Tesla-SpaceX Deal' - Bloomberg Interview",

@@ -1,8 +1,22 @@
 {
-  "time": "2026-11-13T14:36:12.131196+00:00",
+  "time": "2026-11-13T15:35:37.628312+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "time": "2026-11-13T14:38:45.432128Z",
+      "book": "stock",
+      "symbol": "TSLA",
+      "side": "sell",
+      "status": "filled",
+      "order_id": "d55ef9fd-c359-44b8-b16d-82f7371ff184",
+      "qty": 25.0,
+      "price": 388.338,
+      "notional": 9708.45,
+      "reason": "trailing stop hit (fell from its high)",
+      "realized_pl": -170.8
+    }
+  ],
   "buy_threshold": 0.422,
   "exit_threshold": -0.292,
   "trailing_stop_pct": 0.04,

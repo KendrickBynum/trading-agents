@@ -427,5 +427,18 @@
     "price": 523.97,
     "notional": 4021.99,
     "reason": "limit buy 0.25 ATR below $528.86 (score +0.38, trend +0.22)"
+  },
+  {
+    "time": "2026-11-13T14:38:45.432128Z",
+    "book": "stock",
+    "symbol": "TSLA",
+    "side": "sell",
+    "status": "filled",
+    "order_id": "d55ef9fd-c359-44b8-b16d-82f7371ff184",
+    "qty": 25.0,
+    "price": 388.338,
+    "notional": 9708.45,
+    "reason": "trailing stop hit (fell from its high)",
+    "realized_pl": -170.8
   }
 ]
