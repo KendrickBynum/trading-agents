@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T18:35:18.383550+00:00",
-  "market_risk": 0.169,
+  "generated_at": "2026-11-13T19:35:21.031504+00:00",
+  "market_risk": 0.165,
   "tickers": {
     "SPY": {
       "score": -0.24,
@@ -45,10 +45,17 @@
       ]
     },
     "QQQ": {
-      "score": -0.094,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.299,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63259862/stock-market-today-amd-nvidia-chip-selloff-cisco-modine-november-13",
+          "time": "2026-11-13T18:41:08Z",
+          "sentiment": -0.6,
+          "reason": "Nasdaq 100 down 1.7% on chip-led selloff"
+        },
         {
           "headline": "Why Is IREN Stock Falling on Friday?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63258769/why-is-iren-stock-falling-on-friday-3",
@@ -86,10 +93,24 @@
       "headlines": []
     },
     "MSFT": {
-      "score": -0.267,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.264,
+      "articles": 9,
+      "ai_articles": 9,
       "headlines": [
+        {
+          "headline": "Microsoft Experiences Widespread Global Service Outage",
+          "url": "https://www.newswire.lk/2026/11/13/widespread-microsoft-outage-takes-down-outlook-and-other-365-services/",
+          "time": "2026-11-13T19:01:22Z",
+          "sentiment": -0.3,
+          "reason": "Global Microsoft 365 outage hurts users and enterprise trust, likely brief"
+        },
+        {
+          "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63259862/stock-market-today-amd-nvidia-chip-selloff-cisco-modine-november-13",
+          "time": "2026-11-13T18:41:08Z",
+          "sentiment": -0.2,
+          "reason": "Fell with broader Nasdaq tech selloff"
+        },
         {
           "headline": "Analyst Shrugs Off Nebius Data Center Delay As 'Slight Blemish' on Strong Quarter",
           "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63256318/analyst-shrugs-off-nebius-data-center-delay-as-slight-blemish-on-strong-quarter",
@@ -110,28 +131,35 @@
           "time": "2026-11-13T15:56:09Z",
           "sentiment": -0.2,
           "reason": "CrowdStrike comparison raises enterprise reliability concerns"
-        },
-        {
-          "headline": "Microsoft Outage Hit More Than Outlook: Even Its Cybersecurity Defenses Were Affected",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63240632/microsoft-outage-defender-security",
-          "time": "2026-11-13T14:50:45Z",
-          "sentiment": -0.2,
-          "reason": "Outage disrupted Defender and Purview, raising enterprise reliability concerns"
-        },
-        {
-          "headline": "Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63230820/microsoft-outlook-outage-hits-colorado-jail-forces-families-to-post-bail-in-person-to-secure-release",
-          "time": "2026-11-13T09:09:58Z",
-          "sentiment": -0.2,
-          "reason": "Outage disrupting customer services; limited, likely short-lived impact"
         }
       ]
     },
     "NVDA": {
-      "score": -0.336,
-      "articles": 53,
-      "ai_articles": 53,
+      "score": -0.346,
+      "articles": 51,
+      "ai_articles": 51,
       "headlines": [
+        {
+          "headline": "Jensen Huang Joins Wall Street\u2019s Fallen-Founder Hall of Fame: 13 Founders Who Fell Before Him",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63262520/jensen-huang-joins-wall-streets-fallen-founder-hall-of-fame-13-founders-who-fell-before-him",
+          "time": "2026-11-13T19:26:33Z",
+          "sentiment": -0.4,
+          "reason": "Framing Huang's exit as scandal-driven adds leadership and reputational overhang"
+        },
+        {
+          "headline": "CNBC Reporter Seema Mody Posts On X \"Nvidia board to @CNBC:\"We are in the process of selecting a search firm for the NVIDIA CEO role. We have not formally engaged any potential candidates. Any speculation regarding individual candidates, whether internal or external, is premature.\"",
+          "url": "https://www.benzinga.com/news/26/11/63261821/cnbc-reporter-seema-mody-posts-x-nvidia-board-cnbc-we-are-process-selecting-search-firm-nvidia-ceo-r",
+          "time": "2026-11-13T19:15:28Z",
+          "sentiment": -0.2,
+          "reason": "CEO succession search with no named candidate adds near-term uncertainty"
+        },
+        {
+          "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63259862/stock-market-today-amd-nvidia-chip-selloff-cisco-modine-november-13",
+          "time": "2026-11-13T18:41:08Z",
+          "sentiment": -0.6,
+          "reason": "China scandal deepened while chip rally reversed sharply"
+        },
         {
           "headline": "How Did Dell Servers With Restricted NVIDIA Chips End Up in China?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63259145/how-did-dell-servers-with-restricted-nvidia-chips-end-up-in-china",
@@ -145,34 +173,13 @@
           "time": "2026-11-13T18:19:49Z",
           "sentiment": -0.5,
           "reason": "Jensen Huang resignation creates leadership uncertainty at NVIDIA"
-        },
-        {
-          "headline": "Nvidia Courting a Former Insider: Arm CEO Rene Haas",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63258750/nvidia-courting-a-former-insider-arm-ceo-rene-haas",
-          "time": "2026-11-13T18:19:35Z",
-          "sentiment": -0.4,
-          "reason": "Reported CEO succession search and interim CEO signal turmoil"
-        },
-        {
-          "headline": "Bessent Points Finger at Lutnick as White House Feud Over Nvidia Erupts",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63257278/bessent-lutnick-feud",
-          "time": "2026-11-13T17:53:00Z",
-          "sentiment": -0.45,
-          "reason": "Public White House feud over China chip scandal adds policy uncertainty"
-        },
-        {
-          "headline": "What Is Going on With SanDisk Stock on Friday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63256679/what-is-going-on-with-sandisk-stock-on-friday",
-          "time": "2026-11-13T17:44:10Z",
-          "sentiment": -0.3,
-          "reason": "Leadership turmoil contributed to broader tech selloff"
         }
       ]
     },
     "AMZN": {
-      "score": 0.157,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Amazon Introduces Alexa for Shopping, Your Personalized, Agentic AI Assistant On Amazon",
@@ -180,20 +187,13 @@
           "time": "2026-11-13T16:05:53Z",
           "sentiment": 0.2,
           "reason": "Agentic AI shopping assistant could support engagement and sales"
-        },
-        {
-          "headline": "EXCLUSIVE: Google, Microsoft \u2018Fail to Sway\u2019 Democrats With AI Power Pledge",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63214835/google-microsoft-ai-power-scrutiny",
-          "time": "2026-11-12T19:24:59Z",
-          "sentiment": -0.15,
-          "reason": "Political pressure on AI data center power use raises regulatory risk"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.092,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "11 AI Stocks to Buy on Dips: 'Don't Waste a Good Sell-Off,' Analyst Says",
@@ -201,29 +201,14 @@
           "time": "2026-11-13T14:07:17Z",
           "sentiment": 0.15,
           "reason": "HSBC buy rating on AI names as correction seen overdone"
-        },
-        {
-          "headline": "EXCLUSIVE: Google, Microsoft \u2018Fail to Sway\u2019 Democrats With AI Power Pledge",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63214835/google-microsoft-ai-power-scrutiny",
-          "time": "2026-11-12T19:24:59Z",
-          "sentiment": -0.2,
-          "reason": "Democrats unsatisfied with AI power pledge raises regulatory risk"
         }
       ]
     },
     "META": {
-      "score": -0.15,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "EXCLUSIVE: Google, Microsoft \u2018Fail to Sway\u2019 Democrats With AI Power Pledge",
-          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63214835/google-microsoft-ai-power-scrutiny",
-          "time": "2026-11-12T19:24:59Z",
-          "sentiment": -0.15,
-          "reason": "Political pressure on AI data center power use raises regulatory risk"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "JPM": {
       "score": -0.15,
@@ -372,10 +357,24 @@
       "headlines": []
     },
     "AMD": {
-      "score": 0.165,
+      "score": -0.28,
       "articles": 5,
       "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "AMD Bulls Make a Killing With 2X ETFs, But Friday\u2019s 20% Rout Delivers a Reality Check",
+          "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63260317/amd-bulls-make-a-killing-with-2x-etfs-but-fridays-20-rout-delivers-a-reality-check",
+          "time": "2026-11-13T18:48:28Z",
+          "sentiment": -0.3,
+          "reason": "Sharp 20% reversal after leveraged-ETF-fueled rally signals unwinding momentum"
+        },
+        {
+          "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63259862/stock-market-today-amd-nvidia-chip-selloff-cisco-modine-november-13",
+          "time": "2026-11-13T18:41:08Z",
+          "sentiment": -0.7,
+          "reason": "Stock fell 10.5% as chip rally unwound and sector rotated out"
+        },
         {
           "headline": "AMD Benefits From Nvidia's Troubles, Smart Money Sells Nvidia; Cooler PPI; Bitcoin Below $70K",
           "url": "https://www.benzinga.com/opinion/26/11/63250990/amd-benefits-from-nvidias-troubles-smart-money-sells-nvidia-cooler-ppi-bitcoin-below-70k",
@@ -396,20 +395,6 @@
           "time": "2026-11-13T12:46:50Z",
           "sentiment": 0.3,
           "reason": "AI chip diversification benefits AMD, though 30% rally partly priced in"
-        },
-        {
-          "headline": "AMD Management Expresses Confidence in CPU Revenue Doubling by 2027",
-          "url": "https://www.marketscreener.com/news/advanced-micro-devices-management-confident-about-cpu-revenue-doubling-in-2027-rbc-says-ce785ed8d188ff27",
-          "time": "2026-11-12T19:02:50Z",
-          "sentiment": 0.4,
-          "reason": "Management signals confidence in CPU revenue doubling by 2027"
-        },
-        {
-          "headline": "Why Is Qualcomm Stock Surging on Thursday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63212585/why-is-qualcomm-stock-surging-on-thursday",
-          "time": "2026-11-12T18:44:45Z",
-          "sentiment": 0.3,
-          "reason": "Benefits from capital rotation into competing AI semiconductor stocks"
         }
       ]
     }
