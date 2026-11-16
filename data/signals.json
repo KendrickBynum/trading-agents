@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T18:35:18.619675+00:00",
-  "market_risk": 0.159,
+  "generated_at": "2026-11-16T19:35:21.832327+00:00",
+  "market_risk": 0.15,
   "tickers": {
     "SPY": {
       "score": -0.144,
@@ -93,44 +93,44 @@
       ]
     },
     "NVDA": {
-      "score": -0.293,
-      "articles": 40,
-      "ai_articles": 40,
+      "score": -0.287,
+      "articles": 44,
+      "ai_articles": 44,
       "headlines": [
+        {
+          "headline": "Nvidia China Trouble Could Spill Over to These AI Chip Stocks",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63315070/nvidia-china-chip-stock-fallout",
+          "time": "2026-11-16T19:30:11Z",
+          "sentiment": -0.5,
+          "reason": "New AI chip export restrictions threaten China revenue exposure"
+        },
+        {
+          "headline": "NVIDIA Launches Vera CPU Platform for High-Performance Computing",
+          "url": "https://www.globenewswire.com/news-release/2026/11/16/3403879/0/en/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery.html",
+          "time": "2026-11-16T19:01:25Z",
+          "sentiment": 0.2,
+          "reason": "Vera data center CPU expands NVIDIA's compute platform offering"
+        },
+        {
+          "headline": "Nvidia Board Not Considering Jensen Huang Comeback, Source Says",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63311788/nvidia-board-not-considering-jensen-huang-comeback-source-says",
+          "time": "2026-11-16T18:40:08Z",
+          "sentiment": -0.3,
+          "reason": "Board not pursuing Huang return amid investigation; leadership uncertainty persists"
+        },
+        {
+          "headline": "NVDA? \u2018I Wouldn\u2019t Touch It With a Barge Pole,\u2019 Says Quantum Strategy\u2019s David Roche",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63311476/nvidia-david-roche",
+          "time": "2026-11-16T18:35:06Z",
+          "sentiment": -0.15,
+          "reason": "Bearish analyst opinion; Huang exit already known, limited new information"
+        },
         {
           "headline": "Elon Musk Backs Jensen Huang With One Word After Saying Hiring Him Would Be 'An Honor' and Signing a Petition to Reinstate the Ousted Nvidia CEO",
           "url": "https://www.benzinga.com/news/movers-shakers/26/11/63311041/elon-musk-backs-jensen-huang-with-one-word-after-saying-hiring-him-would-be-an-honor-and-signing-a-petition-to-reinstate-the-ousted-nvidia-ceo",
           "time": "2026-11-16T18:30:13Z",
           "sentiment": -0.15,
           "reason": "Musk praise for ousted CEO Huang adds to leadership uncertainty, mostly noise"
-        },
-        {
-          "headline": "NVIDIA's Leadership Vacuum Hands AMD Its Biggest Opportunity in Years: Analysts",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63310158/nvidias-leadership-vacuum-hands-amd-its-biggest-opportunity-in-years-analysts",
-          "time": "2026-11-16T18:13:57Z",
-          "sentiment": -0.3,
-          "reason": "Leadership transition may weaken Nvidia's AI chip dominance"
-        },
-        {
-          "headline": "Semiconductor Sell-Off Slams TSMC Stock: What Investors Should Know",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63309104/semiconductor-sell-off-slams-tsmc-stock-what-investors-should-know",
-          "time": "2026-11-16T17:58:42Z",
-          "sentiment": -0.4,
-          "reason": "Broad semiconductor sell-off pressures chipmakers including Nvidia"
-        },
-        {
-          "headline": "'Nvidia board is not considering bringing Jensen Huang back as CEO' -CNBC Report",
-          "url": "https://www.benzinga.com/news/26/11/63307640/nvidia-board-not-considering-bringing-jensen-huang-back-ceo-cnbc-report",
-          "time": "2026-11-16T17:39:39Z",
-          "sentiment": -0.15,
-          "reason": "Board not reinstating Huang prolongs leadership uncertainty at Nvidia"
-        },
-        {
-          "headline": "What Is Going on With Supermicro Stock on Monday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63306168/what-is-going-on-with-supermicro-stock-on-monday",
-          "time": "2026-11-16T17:16:09Z",
-          "sentiment": -0.3,
-          "reason": "DOJ China smuggling probe and leadership uncertainty weigh on NVDA"
         }
       ]
     },
@@ -205,10 +205,18 @@
       ]
     },
     "JPM": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "JPMorgan Chase and Other Major Banks Experience Online Banking Outages",
+          "url": "https://www.barchart.com/story/news/8859950/customers-at-some-of-the-nation-s-largest-banks-are-reporting-difficulty-accessing-accounts-online",
+          "time": "2026-11-16T19:01:43Z",
+          "sentiment": -0.2,
+          "reason": "Online banking outage may raise operational and reputational concerns"
+        }
+      ]
     },
     "XOM": {
       "score": 0.179,
@@ -314,10 +322,17 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.091,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.182,
+      "articles": 5,
+      "ai_articles": 5,
       "headlines": [
+        {
+          "headline": "Nvidia China Trouble Could Spill Over to These AI Chip Stocks",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63315070/nvidia-china-chip-stock-fallout",
+          "time": "2026-11-16T19:30:11Z",
+          "sentiment": -0.4,
+          "reason": "Export restrictions could hit AMD's AI chip sales and global growth"
+        },
         {
           "headline": "NVIDIA's Leadership Vacuum Hands AMD Its Biggest Opportunity in Years: Analysts",
           "url": "https://www.benzinga.com/markets/tech/26/11/63310158/nvidias-leadership-vacuum-hands-amd-its-biggest-opportunity-in-years-analysts",

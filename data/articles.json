@@ -2095,5 +2095,275 @@
     "market_risk": 0.05,
     "impacts": [],
     "scorer": "claude"
+  },
+  {
+    "id": "63315199",
+    "created_at": "2026-11-16T19:32:15Z",
+    "headline": "EXCLUSIVE: Ryan Detrick Isn\u2019t Worried About Midterm Election Outcome \u2013 \u2018Focus on the Fundamentals\u2019",
+    "url": "https://www.benzinga.com/news/politics/26/11/63315199/exclusive-ryan-detrick-isnt-worried-about-midterm-election-outcome-focus-on-the-fundamentals",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63315070",
+    "created_at": "2026-11-16T19:30:11Z",
+    "headline": "Nvidia China Trouble Could Spill Over to These AI Chip Stocks",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63315070/nvidia-china-chip-stock-fallout",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "New AI chip export restrictions threaten China revenue exposure"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Export restrictions could hit AMD's AI chip sales and global growth"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63314439",
+    "created_at": "2026-11-16T19:19:32Z",
+    "headline": "Fed's Hammack Says Businesses Are Passing On More Price Increases; Says Job Market Has Been Largely In Balance, But Is Not Dynamic",
+    "url": "https://www.benzinga.com/news/26/11/63314439/fed-s-hammack-says-businesses-are-passing-more-price-increases-says-job-market-has-been-largely-bala",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Fed official flags businesses passing on price increases, hawkish tone"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63314158",
+    "created_at": "2026-11-16T19:14:27Z",
+    "headline": "Fed's Hamack Says Worried Businesses Are More Accepting Of Price Rises; Says \u2018I Like Moving In Smaller Increments\u2019 To Allow Economy To Adjust To Policy Changes'",
+    "url": "https://www.benzinga.com/news/26/11/63314158/fed-s-hamack-says-worried-businesses-are-more-accepting-price-rises-says-i-moving-smaller-increments",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Fed official worries businesses accepting price rises, hawkish tone"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63314056",
+    "created_at": "2026-11-16T19:12:32Z",
+    "headline": "Fed's Hammack Says He Goes Into All FOMC Meetings With Open Mind",
+    "url": "https://www.benzinga.com/news/26/11/63314056/fed-s-hammack-says-he-goes-all-fomc-meetings-open-mind",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "123772877",
+    "created_at": "2026-11-16T19:01:43Z",
+    "headline": "JPMorgan Chase and Other Major Banks Experience Online Banking Outages",
+    "url": "https://www.barchart.com/story/news/8859950/customers-at-some-of-the-nation-s-largest-banks-are-reporting-difficulty-accessing-accounts-online",
+    "source": "fiscal.ai",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Online banking outage may raise operational and reputational concerns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123772854",
+    "created_at": "2026-11-16T19:01:36Z",
+    "headline": "Apple and OpenEvidence Launch Virtual Health AI Research Study",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/apple-and-openevidence-seek-200000-consumers-for-health-ai-study/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Minor health AI research study, unlikely to move the stock"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123772846",
+    "created_at": "2026-11-16T19:01:33Z",
+    "headline": "Amnesty International Reports Continued Labor Issues at Amazon Saudi Arabia Facilities",
+    "url": "https://www.manilatimes.net/2026/11/17/business/foreign-business/amnesty-amazons-migrant-workers-still-being-exploited/2471194",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Amnesty labor allegations are reputational, with limited near-term financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123772835",
+    "created_at": "2026-11-16T19:01:25Z",
+    "headline": "NVIDIA Announces Quantum Computing Collaborations with IBM and Fermilab",
+    "url": "https://www.globenewswire.com/news-release/2026/11/16/3403878/0/en/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practi.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Quantum computing research partnerships, long-term and largely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123772834",
+    "created_at": "2026-11-16T19:01:25Z",
+    "headline": "NVIDIA Introduces Nemotron for Science Platform",
+    "url": "https://www.globenewswire.com/news-release/2026/11/16/3403880/0/en/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "New science AI platform, incremental product news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123772833",
+    "created_at": "2026-11-16T19:01:25Z",
+    "headline": "NVIDIA Launches Vera CPU Platform for High-Performance Computing",
+    "url": "https://www.globenewswire.com/news-release/2026/11/16/3403879/0/en/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.35,
+        "reason": "Vera data center CPU expands NVIDIA's compute platform offering"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "NVIDIA's custom data center CPU may compete with AMD server CPUs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123772832",
+    "created_at": "2026-11-16T19:01:24Z",
+    "headline": "Graid Technology Announces VROC Support for AMD EPYC Platforms",
+    "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70143180-graid-technology-inc-graid-technology-extends-vroc-to-amd-epyc-platforms-expanding-choice-in-enterprise-raid-200.htm",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Third-party RAID support for EPYC, minor ecosystem news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123772831",
+    "created_at": "2026-11-16T19:01:20Z",
+    "headline": "Thread AI Joins Microsoft for Startups Pegasus Program",
+    "url": "https://www.prnewswire.com/news-releases/thread-ai-joins-the-microsoft-for-startups-pegasus-program-to-deliver-its-ai-workflow-orchestration-platform-on-microsoft-marketplace-302940646.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Routine startup program acceptance; minimal financial significance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63311788",
+    "created_at": "2026-11-16T18:40:08Z",
+    "headline": "Nvidia Board Not Considering Jensen Huang Comeback, Source Says",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63311788/nvidia-board-not-considering-jensen-huang-comeback-source-says",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.5,
+        "reason": "Board not pursuing Huang return amid investigation; leadership uncertainty persists"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63311476",
+    "created_at": "2026-11-16T18:35:06Z",
+    "headline": "NVDA? \u2018I Wouldn\u2019t Touch It With a Barge Pole,\u2019 Says Quantum Strategy\u2019s David Roche",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63311476/nvidia-david-roche",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Bearish analyst opinion; Huang exit already known, limited new information"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63311261",
+    "created_at": "2026-11-16T18:32:22Z",
+    "headline": "Vice President Vance Confirms Earlier Comments From President Trump, Says U.S. Cannot Confirm Whether Alice Huang Is A Chinese Spy",
+    "url": "https://www.benzinga.com/quote/FXI",
+    "source": "benzinga",
+    "market_risk": 0.15,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.25,
+        "reason": "Political spy allegation touching Nvidia executive; unclear market impact"
+      }
+    ],
+    "scorer": "claude"
   }
 ]
