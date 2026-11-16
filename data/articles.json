@@ -1038,29 +1038,6 @@
     "scorer": "claude"
   },
   {
-    "id": "63277688",
-    "created_at": "2026-11-15T21:35:06Z",
-    "headline": "Anthropic IPO Is Coming Up: Top Companies Set to Benefit if ANT Stock Jumps",
-    "url": "https://www.benzinga.com/markets/ipos/26/11/63277688/anthropic-ipo-is-coming-up-top-companies-set-to-benefit-if-ant-stock-jumps",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.25,
-        "confidence": 0.3,
-        "reason": "Anthropic IPO may lift Amazon, a major Anthropic investor"
-      },
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.25,
-        "confidence": 0.3,
-        "reason": "Anthropic IPO may lift Google, a major Anthropic investor"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63297489",
     "created_at": "2026-11-16T15:29:12Z",
     "headline": "IREN Stock Is Falling Monday: What's Going On?",
@@ -2493,6 +2470,74 @@
         "sentiment": -0.2,
         "confidence": 0.4,
         "reason": "Elevated Nasdaq-100 daily swings signal heightened volatility"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "124041552",
+    "created_at": "2026-11-16T22:31:22Z",
+    "headline": "Instagram Launches Integration for Amazon Affiliate Links",
+    "url": "https://newsfilter.io/articles/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts-2c6d5f0747ae5ab0a3c96b0d6d701a1b",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Expands affiliate sales channel via Instagram; modest, incremental revenue benefit"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "124041551",
+    "created_at": "2026-11-16T22:31:21Z",
+    "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
+    "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Proposed class action over 365 outage; legal and reputational cost, likely small"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123962947",
+    "created_at": "2026-11-16T21:31:25Z",
+    "headline": "Apple Releases iOS 27.3 Developer Beta Featuring 'Face Unlock' for iPhone Duo",
+    "url": "https://newsfilter.io/articles/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id-4bcfeb7f1ab45ccd98350e3cc94c1985",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine developer beta feature; no material near-term price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123962946",
+    "created_at": "2026-11-16T21:31:25Z",
+    "headline": "Apple Appoints 26-Year Veteran Corey Fugman to Lead Payments and Wallet Unit",
+    "url": "https://appleosophy.com/wire/qv14pwk/",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Internal executive appointment; routine and unlikely to move the stock"
       }
     ],
     "scorer": "claude"

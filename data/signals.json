@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T20:35:22.890888+00:00",
-  "market_risk": 0.168,
+  "generated_at": "2026-11-16T22:53:13.482585+00:00",
+  "market_risk": 0.162,
   "tickers": {
     "SPY": {
       "score": -0.054,
@@ -93,10 +93,17 @@
       "headlines": []
     },
     "MSFT": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.166,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
+          "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html",
+          "time": "2026-11-16T22:31:21Z",
+          "sentiment": -0.15,
+          "reason": "Proposed class action over 365 outage; legal and reputational cost, likely small"
+        },
         {
           "headline": "Nebius Group Stock Slides Again Monday: What's Going On?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63288393/nebius-group-stock-slides-again-monday-whats-going-on",
@@ -149,9 +156,9 @@
       ]
     },
     "AMZN": {
-      "score": 0.184,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": 0.18,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
         {
           "headline": "Amazon\u2019s Big Week: First a New James Bond, Then Anthropic\u2019s IPO",
@@ -180,29 +187,14 @@
           "time": "2026-11-16T02:01:27Z",
           "sentiment": -0.3,
           "reason": "Loss of 40 Kuiper satellites delays broadband constellation"
-        },
-        {
-          "headline": "Anthropic IPO Is Coming Up: Top Companies Set to Benefit if ANT Stock Jumps",
-          "url": "https://www.benzinga.com/markets/ipos/26/11/63277688/anthropic-ipo-is-coming-up-top-companies-set-to-benefit-if-ant-stock-jumps",
-          "time": "2026-11-15T21:35:06Z",
-          "sentiment": 0.25,
-          "reason": "Anthropic IPO may lift Amazon, a major Anthropic investor"
         }
       ]
     },
     "GOOGL": {
-      "score": 0.25,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Anthropic IPO Is Coming Up: Top Companies Set to Benefit if ANT Stock Jumps",
-          "url": "https://www.benzinga.com/markets/ipos/26/11/63277688/anthropic-ipo-is-coming-up-top-companies-set-to-benefit-if-ant-stock-jumps",
-          "time": "2026-11-15T21:35:06Z",
-          "sentiment": 0.25,
-          "reason": "Anthropic IPO may lift Google, a major Anthropic investor"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "META": {
       "score": -0.3,
