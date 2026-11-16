@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T15:35:27.740277+00:00",
-  "market_risk": 0.15,
+  "generated_at": "2026-11-16T16:35:29.164713+00:00",
+  "market_risk": 0.138,
   "tickers": {
     "SPY": {
       "score": -0.177,
@@ -39,9 +39,16 @@
     },
     "QQQ": {
       "score": -0.2,
-      "articles": 2,
-      "ai_articles": 2,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Defensives Lead Sectors Monday As Growth Trails",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63300846/defensives-lead-sectors-monday-as-growth-trails",
+          "time": "2026-11-16T16:00:35Z",
+          "sentiment": -0.2,
+          "reason": "Growth lagging defensive sectors; rotation away from tech"
+        },
         {
           "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Over China Chips \u2014 BIDU, RKLB, MSTR in Focus (UPDATED)",
           "url": "https://www.benzinga.com/markets/equities/26/11/63280484/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-scott-bessent-presses-nvidia-over-china-chips-bidu-rklb-mstr-in-focus",
@@ -79,10 +86,31 @@
       ]
     },
     "NVDA": {
-      "score": -0.258,
-      "articles": 29,
-      "ai_articles": 29,
+      "score": -0.269,
+      "articles": 32,
+      "ai_articles": 32,
       "headlines": [
+        {
+          "headline": "Jensen Huang Said 'I Don't Have an Endgame' Weeks Before Quitting Nvidia After 33 Years \u2014 Now Allies Are Building a 'War Room' for His Comeback",
+          "url": "https://www.benzinga.com/news/26/11/63303105/jensen-huang-said-i-dont-have-an-endgame-weeks-before-quitting-nvidia-after-33-years-now-allies-are-building-a-war-room-for-his-comeback",
+          "time": "2026-11-16T16:30:08Z",
+          "sentiment": -0.4,
+          "reason": "CEO Jensen Huang resigned; leadership uncertainty weighs on stock"
+        },
+        {
+          "headline": "Michael Burry Smells a Rat in Nvidia\u2019s Vanishing Singapore Revenue",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63302458/michael-burry-smells-a-rat-in-nvidias-vanishing-singapore-revenue",
+          "time": "2026-11-16T16:22:41Z",
+          "sentiment": -0.3,
+          "reason": "Burry alleges revenue reporting change masks China exposure"
+        },
+        {
+          "headline": "Why Is Applied Digital Stock Falling on Monday?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63299337/why-is-applied-digital-stock-falling-on-monday",
+          "time": "2026-11-16T15:45:40Z",
+          "sentiment": -0.3,
+          "reason": "AI sector selloff and Nvidia leadership news pressure shares"
+        },
         {
           "headline": "IREN Stock Is Falling Monday: What's Going On?",
           "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63297489/iren-stock-is-falling-monday-whats-going-on-2",
@@ -96,27 +124,6 @@
           "time": "2026-11-16T15:26:35Z",
           "sentiment": -0.4,
           "reason": "Remote-access chip rule could restrict NVDA AI chip sales abroad"
-        },
-        {
-          "headline": "Bloom Energy Shares Drop: What\u2019s Going On With the AI Power Stock Monday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63297209/bloom-energy-shares-drop-whats-going-on-with-the-ai-power-stock-monday",
-          "time": "2026-11-16T15:26:02Z",
-          "sentiment": -0.35,
-          "reason": "Reported turmoil at NVIDIA is weighing on AI infrastructure stocks"
-        },
-        {
-          "headline": "Rocket Lab, Firefly, AST SpaceMobile Stocks Drop: What\u2019s Going On With Space Stocks Monday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63295932/rocket-lab-firefly-ast-spacemobile-stocks-drop-whats-going-on-with-space-stocks-monday",
-          "time": "2026-11-16T15:13:57Z",
-          "sentiment": -0.3,
-          "reason": "Treasury Secretary calls for NVIDIA shakeup, pressuring the stock"
-        },
-        {
-          "headline": "'US moves to tighten AI chip export rules' - Financial Times",
-          "url": "https://www.benzinga.com/news/26/11/63292997/us-moves-tighten-ai-chip-export-rules-financial-times",
-          "time": "2026-11-16T14:46:33Z",
-          "sentiment": -0.4,
-          "reason": "Tighter AI chip export rules threaten NVDA international revenue"
         }
       ]
     },
@@ -190,10 +197,17 @@
       "headlines": []
     },
     "XOM": {
-      "score": -0.15,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.051,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "ExxonMobil Commences Production at Uaru Development in Guyana",
+          "url": "https://www.businesswire.com/newsroom/industry/energy/oil-gas",
+          "time": "2026-11-16T16:01:32Z",
+          "sentiment": 0.2,
+          "reason": "Uaru start-up adds Guyana production; modest volume growth"
+        },
         {
           "headline": "President Trump Says Putin Is 'Backing Down' From War In Ukraine",
           "url": "https://www.benzinga.com/quote/VGK",
@@ -245,10 +259,17 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.025,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.214,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Tesla Announces \u20ac3 Billion Expansion of German Gigafactory",
+          "url": "https://www.fidelity.com/news/article/company-news/202611160938RTRSNEWSCOMBINED_KCN3WR1QL-OUSBS_1",
+          "time": "2026-11-16T16:01:24Z",
+          "sentiment": 0.4,
+          "reason": "\u20ac3B German gigafactory expansion for Cybercab production"
+        },
         {
           "headline": "Tesla To Invest Additional \u20ac3B In Its Gr\u00fcnheide Gigfactory In Germany - FAZ",
           "url": "https://www.benzinga.com/news/26/11/63289648/tesla-invest-additional-3b-its-gr-nheide-gigfactory-germany-faz",

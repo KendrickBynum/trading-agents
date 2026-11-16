@@ -452,5 +452,19 @@
     "order_id": "c4d2849d-9e5a-4b12-be38-418e53e4e6c0",
     "book": "frac",
     "time": "2026-11-16T14:36:14.283393+00:00"
+  },
+  {
+    "time": "2026-11-16T15:36:55.077614Z",
+    "book": "options",
+    "symbol": "SPY261211P00764000",
+    "side": "sell",
+    "status": "filled",
+    "order_id": "f2c0bcb0-32f7-4141-82e4-fbbff1093471",
+    "qty": 1.0,
+    "price": 22.82,
+    "notional": 2282.0,
+    "reason": "take profit (+54%)",
+    "underlying": "SPY",
+    "realized_pl": 828.0
   }
 ]

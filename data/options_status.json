@@ -1,31 +1,32 @@
 {
-  "time": "2026-11-16T15:35:45.326967+00:00",
+  "time": "2026-11-16T16:35:40.108406+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
+      "time": "2026-11-16T15:36:55.077614Z",
+      "book": "options",
       "symbol": "SPY261211P00764000",
       "side": "sell",
-      "reason": "take profit (+54%)",
-      "qty": 1,
-      "underlying": "SPY",
-      "notional": 2238.0,
-      "status": "order placed",
+      "status": "filled",
       "order_id": "f2c0bcb0-32f7-4141-82e4-fbbff1093471",
-      "limit": 22.8,
-      "book": "options",
-      "time": "2026-11-16T15:35:45.326967+00:00"
+      "qty": 1.0,
+      "price": 22.82,
+      "notional": 2282.0,
+      "reason": "take profit (+54%)",
+      "underlying": "SPY",
+      "realized_pl": 828.0
     }
   ],
   "options_level": 3,
   "learned": {
-    "closed_trades": 4,
+    "closed_trades": 5,
     "min_for_conclusions": 20,
     "by_type": {
       "put": {
-        "n": 2,
-        "win_rate": 0.5,
-        "total": 5.0
+        "n": 3,
+        "win_rate": 0.667,
+        "total": 833.0
       },
       "call": {
         "n": 2,
