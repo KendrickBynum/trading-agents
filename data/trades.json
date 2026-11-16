@@ -466,5 +466,17 @@
     "reason": "take profit (+54%)",
     "underlying": "SPY",
     "realized_pl": 828.0
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "reason": "max hold reached (11 days)",
+    "qty": 11.4741,
+    "notional": 4051.39,
+    "realized_pl": 27.02,
+    "status": "submitted",
+    "order_id": "46701c7e-cb97-42d1-9bb4-78427ea83397",
+    "book": "frac",
+    "time": "2026-11-16T17:35:36.969111+00:00"
   }
 ]
