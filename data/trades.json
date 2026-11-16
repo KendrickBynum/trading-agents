@@ -440,5 +440,17 @@
     "notional": 9708.45,
     "reason": "trailing stop hit (fell from its high)",
     "realized_pl": -170.8
+  },
+  {
+    "symbol": "XOM",
+    "side": "sell",
+    "reason": "max hold reached (12 days)",
+    "qty": 23.4536,
+    "notional": 3949.47,
+    "realized_pl": -75.8,
+    "status": "submitted",
+    "order_id": "c4d2849d-9e5a-4b12-be38-418e53e4e6c0",
+    "book": "frac",
+    "time": "2026-11-16T14:36:14.283393+00:00"
   }
 ]

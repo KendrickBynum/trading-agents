@@ -1,1047 +1,278 @@
 [
   {
-    "id": "63228620",
-    "created_at": "2026-11-13T01:47:09Z",
-    "headline": "Jim Cramer Says Interim Nvidia CEO Colette Kress Leads With \u2018Steel Fist\u2019 After Jensen Huang Exit: \u2018Absolutely The One You Need Right Now\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63228620/jim-cramer-nvidia-interim-ceo-colette-kress-steel-fist-jensen-huang-exit",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Analyst endorsement of interim CEO; leadership continuity, mostly opinion"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121622922",
-    "created_at": "2026-11-13T14:33:05Z",
-    "headline": "JPMorgan Chase's Indirect Stake in Ubisoft Surpasses 10%",
-    "url": "https://www.marketscreener.com/news/jpmorgan-chase-s-indirect-stake-in-ubisoft-surpasses-10-ce785ed9d188fe23",
+    "id": "123508614",
+    "created_at": "2026-11-16T14:31:25Z",
+    "headline": "Corvex Signs $103 Million Agreement for NVIDIA Blackwell Capacity",
+    "url": "https://www.prnewswire.com/news-releases/corvex-signs-103-million-take-or-pay-agreement-for-nvidia-blackwell-capacity-21-million-of-annual-contract-revenue-per-megawatt-302940368.html",
     "source": "fiscal.ai",
     "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63238225",
-    "created_at": "2026-11-13T14:29:24Z",
-    "headline": "Fed\u2019s Collins Does Not Comment On Economic Outlook Or Monetary Policy; Says Ensuring Price Stability Is A Long-Run Benefit For Housing Market; Notes Persistent Housing Shortage; Higher Productivity Has Helped Limit Some Inflationary Pressures",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63238225/fed-s-collins-does-not-comment-economic-outlook-or-monetary-policy-says-ensuring-price-stability-lon",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63238024",
-    "created_at": "2026-11-13T14:22:24Z",
-    "headline": "Jim Cramer Questions If Jensen Huang Betrayed Nvidia Shareholders, Says Former CEO Let Investors Down: \u2018Yes. End Of Story\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63238024/jim-cramer-questions-if-jensen-huang-betrayed-nvidia-shareholders-says-former-ceo-let-investors-down-yes-end-of-story",
-    "source": "benzinga",
-    "market_risk": 0.2,
     "impacts": [
       {
         "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Cramer's public criticism of Huang adds governance-related uncertainty"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63237574",
-    "created_at": "2026-11-13T14:07:17Z",
-    "headline": "11 AI Stocks to Buy on Dips: 'Don't Waste a Good Sell-Off,' Analyst Says",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63237574/hsbc-ai-stocks-buy-dip-oracle-alphabet-vertiv-ge-vernova",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "HSBC buy rating on AI names as correction seen overdone"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Analyst calls equity correction overdone, supportive dip-buying view"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63237248",
-    "created_at": "2026-11-13T13:59:39Z",
-    "headline": "Fed's Goolsbee Says Even If The Price Of Oil Drops Rapidly, Refining Capacity Remains 'Problematic' And Will Keep Diesel And Jet Fuel Prices Elevated",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63237248/fed-s-goolsbee-says-even-if-price-oil-drops-rapidly-refining-capacity-remains-problematic-and-will-k",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Elevated refining-driven fuel prices keep inflation pressure high"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63237042",
-    "created_at": "2026-11-13T13:54:47Z",
-    "headline": "Fed's Goolsbee Says Services Inflation And Rising Health Care Costs Don't Feel Like They Will Change Quickly; FOMC Trying To Figure Out The Same Thing As Bessent, Which Is Persistence Of Inflation; To The Extent Data Suggest Inflation Is Getting Worse It Would Make The Fed More Aggressive",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.45,
-        "reason": "Persistent services inflation; Fed could turn more aggressive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63236935",
-    "created_at": "2026-11-13T13:52:03Z",
-    "headline": "'UN watchdog calls on Iran to reopen nuclear facilities to inspection; Tehran has told the IAEA that it is not possible to resume inspections in the current security situation' - Al Jazeera",
-    "url": "https://www.benzinga.com/news/26/11/63236935/un-watchdog-calls-iran-reopen-nuclear-facilities-inspection-tehran-has-told-iaea-it-not-possible-res",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.25,
-        "reason": "Iran nuclear inspection standoff adds geopolitical risk"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Middle East tensions support oil price and energy sentiment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63236878",
-    "created_at": "2026-11-13T13:49:37Z",
-    "headline": "Fed's Goolsbee Says Inflation Has Spread Into Categories Where Prices Are Not Being Driven By Energy; The Fed 'Definitely Has Work To Do' To Maintain Its Credibility; Need To Be Careful About Assessing Labor Market Impact On Inflation, Because Wages Are A Lagging Indicator Of Price Pressures",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63236878/fed-s-goolsbee-says-inflation-has-spread-categories-where-prices-are-not-being-driven-energy-fed-def",
-    "source": "benzinga",
-    "market_risk": 0.45,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.35,
-        "confidence": 0.5,
-        "reason": "Goolsbee says inflation broadening; Fed has work to do"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63236837",
-    "created_at": "2026-11-13T13:48:29Z",
-    "headline": "Fed's Goolsbee Says Can't Look Through Inflation If Demand Is Overheating; Data Center Buildout Is Pushing Up Prices; Inflation Is Rising And Proving Far More Persistent Than Expected When It Was Just A Matter Of Supply Shocks",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63236837/fed-s-goolsbee-says-can-t-look-through-inflation-if-demand-overheating-data-center-buildout-pushing-",
-    "source": "benzinga",
-    "market_risk": 0.45,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.35,
-        "confidence": 0.5,
-        "reason": "Overheating demand and persistent inflation imply tighter policy risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63231225",
-    "created_at": "2026-11-13T13:40:44Z",
-    "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100  Futures Rise as Nvidia CEO Exit Remains in Focus\u2014 CSCO, AMAT, NU in Focus(UPDATED)",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63231225/stock-market-today-dow-jones-sp-500-futures-rise-nvidia-ceo-exit-remains-in-focus-csco-amat-nu-in-focus",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.15,
-        "confidence": 0.35,
-        "reason": "CEO exit remains in focus, adding leadership uncertainty"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Mixed futures after weak close; tech sentiment cautious"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63236079",
-    "created_at": "2026-11-13T13:30:24Z",
-    "headline": "USA PPI (MoM) For Oct. Revises Prior From 1.3% To 1.4%",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.15,
-        "confidence": 0.35,
-        "reason": "Upward revision to October PPI MoM signals hotter inflation"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63236047",
-    "created_at": "2026-11-13T13:30:18Z",
-    "headline": "USA PPI (YoY) For October 6.5% Vs 6.6% Est.",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.3,
-        "reason": "PPI YoY slightly below estimate, a mildly offsetting signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63236044",
-    "created_at": "2026-11-13T13:30:13Z",
-    "headline": "SemiAnalysis Suspects US Intelligence Role in Jensen Huang\u2019s Exit as China Chip Crackdown Looms",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63236044/jensen-huang-intelligence",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Speculation of US intelligence role and looming China chip restrictions"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63236041",
-    "created_at": "2026-11-13T13:30:11Z",
-    "headline": "USA PPI (MoM) For Oct. 0.3% Vs 0.4% Est.",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
         "sentiment": 0.2,
         "confidence": 0.3,
-        "reason": "PPI printed softer than expected, easing inflation concerns"
+        "reason": "$103M Blackwell capacity deal signals continued GPU demand, though small in scale"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63236040",
-    "created_at": "2026-11-13T13:30:11Z",
-    "headline": "USA Core PPI (YoY) For October 5.0% Vs 5.0% Est.; 5.0% Prior",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Core PPI YoY in line with estimates, little surprise"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63236039",
-    "created_at": "2026-11-13T13:30:11Z",
-    "headline": "JPMorgan Raised Its MSTR Stake 36% Before Strategy\u2019s MSCI Exit Blow",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63236039/jpmorgan-raised-its-mstr-stake-36-before-strategys-msci-exit-blow",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": -0.1,
-        "confidence": 0.15,
-        "reason": "Strategy stake losses and MSCI removal create minor exposure risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63236014",
-    "created_at": "2026-11-13T13:30:07Z",
-    "headline": "USA Core PPI (MoM) For October 0.3% Vs 0.3% Est. 0.7% Prior",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Core PPI MoM in line, prior month's hot reading cooled"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63235975",
-    "created_at": "2026-11-13T13:29:50Z",
-    "headline": "Newsmax Delivers Its Strongest Quarter Since Going Public",
-    "url": "https://www.benzinga.com/markets/earnings/26/11/63235975/newsmax-delivers-its-strongest-quarter-since-going-public",
-    "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63235908",
-    "created_at": "2026-11-13T13:26:33Z",
-    "headline": "Jensen Huang Faces Subpoena Threat As 3 Republican-Led House Committees Demand Closed-Door Testimony Over Nvidia\u2019s China Ties",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63235908/jensen-huang-faces-subpoena-threat-as-3-republican-led-house-committees-demand-closed-door-testimony-over-nvidias-china-ties",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Congressional subpoena threat over Nvidia's China ties"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63235454",
-    "created_at": "2026-11-13T13:12:57Z",
-    "headline": "What Is Going on With Micron Stock on Friday?",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63235454/what-is-going-on-with-micron-stock-on-friday",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Strong recent momentum and bullish analyst targets ahead of earnings"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "CEO transition overhang, though largely already known"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121549062",
-    "created_at": "2026-11-13T13:02:08Z",
-    "headline": "JPMorgan Chase Blocking AI Shopping Agent Payments",
-    "url": "https://www.marketscreener.com/news/jpmorgan-blocking-ai-shopping-agent-payments-ce785ed9dc8df125",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Blocking AI agent payments may limit fee revenue, minor impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121548455",
-    "created_at": "2026-11-13T13:01:39Z",
-    "headline": "NVIDIA Confirms South Korea GPU Supply Commitment",
-    "url": "https://www.koreaherald.com/article/10936791",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.4,
-        "confidence": 0.5,
-        "reason": "Reaffirmed 260,000 GPU supply deal with South Korea"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121548450",
-    "created_at": "2026-11-13T13:01:32Z",
-    "headline": "Tesla Releases Cybertruck RC Racer Model",
-    "url": "https://techbuzzireland.com/2026/11/13/you-can-now-buy-a-tesla-cybertruck-rc-racer/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63234451",
-    "created_at": "2026-11-13T12:46:50Z",
-    "headline": "What's Going On With AMD Stock Today?",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63234451/whats-going-on-with-amd-stock-today-2",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "AI chip diversification benefits AMD, though 30% rally partly priced in"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Customers diversifying away from Nvidia after CEO exit"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63234374",
-    "created_at": "2026-11-13T12:44:58Z",
-    "headline": "Broadcom Is 'Very, Very Capable,' Analyst Says As NVIDIA's Troubles Mount",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63234374/broadcom-is-very-very-capable-analyst-says-as-nvidias-troubles-mount",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Tech giants looking beyond NVIDIA amid leadership challenges and custom chip demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63234329",
-    "created_at": "2026-11-13T12:42:34Z",
-    "headline": "'Texas\u2019 Next AG Vows \u2018Tremendous Scrutiny\u2019 of Tesla-SpaceX Deal' - Bloomberg Interview",
-    "url": "https://www.benzinga.com/news/26/11/63234329/texas-next-ag-vows-tremendous-scrutiny-tesla-spacex-deal-bloomberg-interview",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Texas AG pledges heavy scrutiny of Tesla-SpaceX deal, regulatory overhang"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63234038",
-    "created_at": "2026-11-13T12:33:24Z",
-    "headline": "Jensen Huang Divorce Odds Hit 37%, but Top Lawyer Says Couple May Wait Out Scandal",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63234038/jensen-huang-divorce",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "CEO personal scandal headlines, limited direct business impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121532245",
-    "created_at": "2026-11-13T12:31:24Z",
-    "headline": "Amazon Bedrock Expands Model Offerings with OpenAI and Google DeepMind Integration",
-    "url": "https://aimagazine.com/news/what-is-an-ai-marketplace-aws-hugging-face-openrouter",
+    "id": "123508609",
+    "created_at": "2026-11-16T14:31:20Z",
+    "headline": "Blackstone Digital Infrastructure Trust to Acquire 75% Interest in AWS Data Center Joint Ventures",
+    "url": "https://www.businesswire.com/newsroom/subject/merger-acquisition",
     "source": "fiscal.ai",
     "market_risk": 0.05,
     "impacts": [
       {
         "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.25,
-        "reason": "Bedrock adds OpenAI and Google models; incremental platform expansion"
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "$5B sale of 75% AWS data center JV interests; capital recycling, modestly positive"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63233955",
-    "created_at": "2026-11-13T12:30:50Z",
-    "headline": "GLJ Research Reiterates Sell on Tesla, Maintains $24.86 Price Target",
-    "url": "https://www.benzinga.com/news/26/11/63233955/glj-research-reiterates-sell-tesla-maintains-24-86-price-target",
+    "id": "123508607",
+    "created_at": "2026-11-16T14:31:14Z",
+    "headline": "Meta Secures Multi-Year Agreements for Low-Carbon Data Center Materials",
+    "url": "https://sustainabilitymag.com/news/why-meta-is-expanding-us-clean-industrial-supply-chains",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "123508606",
+    "created_at": "2026-11-16T14:31:10Z",
+    "headline": "ExxonMobil Announces Cash Tender Offers for Outstanding Notes",
+    "url": "https://www.businesswire.com/newsroom/industry/energy",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63291088",
+    "created_at": "2026-11-16T14:30:01Z",
+    "headline": "Steve Eisman Says Slower AI Spending Could Help Big Tech and Hurt CoreWeave",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63291088/coreweave-ai-slowdown",
     "source": "benzinga",
-    "market_risk": 0.05,
+    "market_risk": 0.1,
     "impacts": [
       {
-        "ticker": "TSLA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Bearish analyst reiterates Sell with $24.86 target"
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Analyst view that slower AI capex could aid Big Tech margins; opinion only"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63233737",
-    "created_at": "2026-11-13T12:15:18Z",
-    "headline": "Chamath Palihapitiya Says Nvidia Oversight Would Be A \u2018Disaster\u2019 After Jensen Huang's Exit, Warns Against Repeating Microsoft\u2019s DOJ Era",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63233737/chamath-palihapitiya-says-nvidia-oversight-would-be-a-disaster-after-jensen-huangs-exit-warns-against-repeating-microsofts-doj-era",
+    "id": "63290811",
+    "created_at": "2026-11-16T14:23:47Z",
+    "headline": "Biotech ETFs Brace for FDA Showdown: Two Drug Decisions Could Test Investor Sentiment",
+    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63290811/biotech-etfs-brace-for-fda-showdown-two-drug-decisions-could-test-investor-sentiment",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63290113",
+    "created_at": "2026-11-16T14:07:52Z",
+    "headline": "Nvidia Gets 10 Bank Downgrades After Huang Exit: What to Expect Ahead of Q3 Results",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/11/63290113/nvidia-downgrades-huang-exit-third-quarter-earnings-preview",
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [
       {
         "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.35,
-        "reason": "Warning that Nvidia oversight after Huang's exit would be disastrous"
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "Ten bank downgrades after CEO exit; most still Buy, but near-term pressure ahead of Q3"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63232830",
-    "created_at": "2026-11-13T11:45:50Z",
-    "headline": "NVIDIA's Board Was 'Very Deferential' To Jensen Huang: Expert",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63232830/nvidias-board-was-very-deferential-to-jensen-huang-expert",
+    "id": "63290090",
+    "created_at": "2026-11-16T14:07:19Z",
+    "headline": "NVIDIA To $200? Here Are 10 Top Analyst Forecasts For Monday",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63290090/nvidia-to-200-here-are-10-top-analyst-forecasts-for-monday",
     "source": "benzinga",
     "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63232649",
-    "created_at": "2026-11-13T11:33:39Z",
-    "headline": "'Amazon\u2019s plan to own the world\u2019s product data and fight AI shopping agents' - Reuters Exclusive",
-    "url": "https://www.benzinga.com/news/26/11/63232649/amazon-s-plan-own-world-s-product-data-and-fight-ai-shopping-agents-reuters-exclusive",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Reported plan to own product data and counter AI shopping agents"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121506107",
-    "created_at": "2026-11-13T11:31:44Z",
-    "headline": "NVIDIA-Linked Chinese AI Projects Face Increased US Scrutiny",
-    "url": "https://news.futunn.com/en/post/1004458006/market-chatter-nvidia-linked-chinese-ai-projects-worth-over-3",
-    "source": "fiscal.ai",
-    "market_risk": 0.15,
     "impacts": [
       {
         "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Increased US scrutiny of NVIDIA-linked Chinese AI projects, export risk"
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Analyst target cut for NVDA, offset by other target raises across the market"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "121506103",
-    "created_at": "2026-11-13T11:31:41Z",
-    "headline": "United Microelectronics Acquires Equipment from Lam Research",
-    "url": "https://news.futunn.com/post/1004440608/united-microelectronics-acquires-nt-7-52-billion-of-machinery-equipment",
-    "source": "fiscal.ai",
+    "id": "63290060",
+    "created_at": "2026-11-16T14:07:11Z",
+    "headline": "ExxonMobil Tender Priority: Pioneer 1.900% 2030s First, Then Pioneer 2.150% 2031s, Exxon 3.482% 2030s & 4.227% 2040s; Pricing Nov 20 At 14:00 ET",
+    "url": "https://www.benzinga.com/quote/XOM",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63290045",
+    "created_at": "2026-11-16T14:06:53Z",
+    "headline": "ExxonMobil Launches Cash Tender Offers For Up To $3B Of Exxon & Pioneer Notes Due 2030\u20132040; Expires Nov 20",
+    "url": "https://www.benzinga.com/quote/XOM",
+    "source": "benzinga",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63290031",
+    "created_at": "2026-11-16T14:06:24Z",
+    "headline": "EXCLUSIVE: Huang\u2019s Exit Echoes Profumo, but Intelligence Expert Says Chip CEOs Are the New Spy Targets",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63290031/nvidia-jensen-huang-profumo-espionage-risk-adam-irwin-heligan",
+    "source": "benzinga",
     "market_risk": 0.05,
     "impacts": [
       {
-        "ticker": "LRCX",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "UMC purchase of Lam Research equipment, about NT$7.52B, signals demand"
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Commentary on security risks after CEO exit; speculative and largely qualitative"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "121506099",
-    "created_at": "2026-11-13T11:31:37Z",
-    "headline": "Cohesity Expands Data Resilience Capabilities for Microsoft Ecosystem",
-    "url": "https://www.kipost.net/news/articleViewAmp.html?idxno=343273",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
+    "id": "63289928",
+    "created_at": "2026-11-16T14:05:26Z",
+    "headline": "'OpenAI Explored $5 Billion\u2013Plus Acquisition of Startup That Decodes How AI \u2018Thinks\u2019' - The Information",
+    "url": "https://www.benzinga.com/m/26/11/63289928/openai-explored-5-billion-plus-acquisition-startup-decodes-how-ai-thinks-information",
+    "source": "benzinga",
+    "market_risk": 0.03,
     "impacts": [],
     "scorer": "claude"
   },
   {
-    "id": "121506097",
-    "created_at": "2026-11-13T11:31:33Z",
-    "headline": "ExxonMobil Named in Report on Fossil Fuel Lobbying at COP31 Climate Summit",
-    "url": "https://www.finanzen.at/nachrichten/aktien/umweltverbande-ruegen-einfluss-von-oel-lobby-auf-klimagipfel-1036761113",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63231752",
-    "created_at": "2026-11-13T10:58:16Z",
-    "headline": "NVIDIA\u2019s Shakeup Clouds Copper\u2019s AI Boom",
-    "url": "https://www.benzinga.com/markets/commodities/26/11/63231752/nvidias-shakeup-clouds-coppers-ai-boom",
+    "id": "63289274",
+    "created_at": "2026-11-16T13:54:47Z",
+    "headline": "What's Going On With Micron Technology Stock Monday?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63289274/whats-going-on-with-micron-technology-stock-monday-9",
     "source": "benzinga",
     "market_risk": 0.3,
     "impacts": [
       {
-        "ticker": "NVDA",
-        "sentiment": -0.6,
-        "confidence": 0.4,
-        "reason": "Reported 38% plunge on CEO exit; key-person risk, unverified claims"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63231528",
-    "created_at": "2026-11-13T10:33:36Z",
-    "headline": "Ed Bastian Says Delta Will Take \u2018Nuanced\u2019 Approach to AI Agents, Warns Oil Shock May Not Be \u2018Behind Us\u2019",
-    "url": "https://www.benzinga.com/news/travel/26/11/63231528/ed-bastian-says-delta-will-be-nuanced-in-its-approach-to-ai-agents-looking-for-cheaper-fares-warns-oil-shock-may-not-be-behind-us",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63231543",
-    "created_at": "2026-11-13T10:34:27Z",
-    "headline": "Kevin O\u2019Leary Backs Elon Musk\u2019s Starlink as United CEO Calls It \u2018Biggest Near-Term Competitive Advantage\u2019 in 100 Years, Says Amazon Leo Is \u2018A Mistake\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63231543/kevin-oleary-backs-elon-musks-starlink-as-united-ceo-calls-it-biggest-near-term-competitive-advantage-in-100-years-says-amazon-leo-is-a-mistake",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Executive criticism of Amazon Leo satellite choice; minor, opinion-based"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63231493",
-    "created_at": "2026-11-13T10:28:50Z",
-    "headline": "Cathie Wood Says Nvidia \u2018Cannot Be Just The Jensen Show\u2019 After Huang\u2019s Exit, Warns NVDA\u2019s Five-Year CAGR Could Be Cut in Half",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63231493/cathie-wood-says-nvidia-cannot-be-just-the-jensen-show-after-huangs-exit-warns-nvdas-five-year-cagr-could-be-cut-in-half",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Analyst warns growth could halve amid leadership change and competition"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63231331",
-    "created_at": "2026-11-13T10:10:30Z",
-    "headline": "Nvidia-Backed Nscale Warns It Needs More 'Financing' Amid $44.6B Anthropic Contract Ahead of US IPO As Nine-Month Loss Widens to $1.69 Billion",
-    "url": "https://www.benzinga.com/markets/private-markets/26/11/63231331/nvidia-backed-nscale-warns-it-needs-more-financing-amid-44-6b-anthropic-contract-ahead-of-us-ipo-as-nine-month-loss-widens-to-1-69-billion",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Nvidia-backed Nscale's large losses and financing needs; indirect exposure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63231089",
-    "created_at": "2026-11-13T09:42:39Z",
-    "headline": "Jensen Huang Repeatedly Said \u2018Whatever\u2019 and \u2018I Don\u2019t Care\u2019 as Affair Scandal Shatters His Image, Dims Star Power in Taiwan: Report",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63231089/jensen-huang-affair-scandal-taiwan",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.3,
-        "reason": "Reported affair scandal damaging CEO image; reputational, not fundamental"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63230972",
-    "created_at": "2026-11-13T09:21:17Z",
-    "headline": "\u2018AI Is Bigger Than Jensen\u2019: Strategy CEO Phong Le Weighs in on Nvidia CEO\u2019s Sudden Exit",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63230972/jensen-huang-ai-strategy-ceo-defends-nvidia",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63230833",
-    "created_at": "2026-11-13T09:14:43Z",
-    "headline": "Cerebras (CBRS) Stock Is Trending Pre-Market: Here's Why",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63230833/cerebras-stock-surges-premarket-q3-results-microsoft-deal",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Cerebras cloud deal with Microsoft; small positive for Azure AI"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63230820",
-    "created_at": "2026-11-13T09:09:58Z",
-    "headline": "Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63230820/microsoft-outlook-outage-hits-colorado-jail-forces-families-to-post-bail-in-person-to-secure-release",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Outage disrupting customer services; limited, likely short-lived impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63230772",
-    "created_at": "2026-11-13T08:54:20Z",
-    "headline": "Alice Huang-Linked Firms Joined DeepSeek's $15.8 Billion Funding Round In Bid to Access Nvidia Blackwell Chips Despite US Curbs: Report",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63230772/alice-huang-linked-firms-joined-deepseeks-15-8-billion-funding-round-in-bid-to-access-nvidia-blackwell-chips-despite-us-curbs-report",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Reported export-control circumvention risk around restricted Blackwell chips"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63229102",
-    "created_at": "2026-11-13T04:41:35Z",
-    "headline": "Microsoft Outage Triggers Chaos Across Outlook, Teams and Copilot \u2014 Spills Over to OpenAI and Anthropic (UPDATED)",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63229102/microsoft-outage-triggers-chaos-across-outlook-teams-and-copilot-spills-over-to-openai-and-anthropic",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.3,
+        "ticker": "MU",
+        "sentiment": -0.4,
         "confidence": 0.5,
-        "reason": "Widespread Microsoft 365 outage across Outlook, Teams, Copilot ongoing"
+        "reason": "Shares down 6% in broad tech selloff; technicals point lower"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63230622",
-    "created_at": "2026-11-13T08:30:27Z",
-    "headline": "Trump Says Ex-Nvidia CEO Jensen Huang Is \u2018Going Through Hell\u2019 After Resignation: \u2018He Called Me\u2019",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63230622/trump-says-nvidia-ceo-jensen-huang-going-through-hell-after-resignation",
+    "id": "123487558",
+    "created_at": "2026-11-16T14:01:12Z",
+    "headline": "ASML Reports Weekly Share Buyback Transactions",
+    "url": "https://www.globenewswire.com/news-release/2026/11/16/3403452/0/en/asml-reports-transactions-under-its-current-share-buyback-program.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63289648",
+    "created_at": "2026-11-16T14:00:42Z",
+    "headline": "Tesla To Invest Additional \u20ac3B In Its Gr\u00fcnheide Gigfactory In Germany - FAZ",
+    "url": "https://www.benzinga.com/news/26/11/63289648/tesla-invest-additional-3b-its-gr-nheide-gigfactory-germany-faz",
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [
       {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Trump comments on ousted CEO; mostly commentary, limited fundamental impact"
+        "ticker": "TSLA",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Additional \u20ac3B Gigafactory Gr\u00fcnheide investment is modestly positive"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63230596",
-    "created_at": "2026-11-13T08:24:04Z",
-    "headline": "Elon Musk Predicted Trouble For Delta Over SpaceX Starlink Snub: CEO Ed Bastian Says Airline Is Playing \u2018Long Game\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63230596/elon-musk-predicted-trouble-for-delta-over-spacex-starlink-snub-ceo-ed-bastian-says-airline-is-playing-long-game",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Delta endorsing Amazon Leo is a minor customer win"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63230584",
-    "created_at": "2026-11-13T08:21:42Z",
-    "headline": "Reported Earlier, South Korea Says Google Removed Map Coordinates, Will Delete Military And Security Facility Street View Imagery Under February Data Export Permit",
-    "url": "https://www.benzinga.com/news/26/11/63230584/reported-earlier-south-korea-says-google-removed-map-coordinates-will-delete-military-and-security-f",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "GOOGL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Forced removal of South Korean map imagery is a minor regulatory cost"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63230428",
-    "created_at": "2026-11-13T08:10:26Z",
-    "headline": "Microsoft 365 Incident: Microsoft Not Aware Of Malicious Activity, Sees Stability Gains After Partial Patch, Working To Expand Fix To Active Regions",
-    "url": "https://www.benzinga.com/news/26/11/63230428/microsoft-365-incident-microsoft-not-aware-malicious-activity-sees-stability-gains-after-partial-pat",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.1,
-        "confidence": 0.25,
-        "reason": "Microsoft 365 incident partly patched; stability improving"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63230368",
-    "created_at": "2026-11-13T07:55:52Z",
-    "headline": "Trump Tech Advisor David Sacks Says \u2018Spy Narrative Is Collapsing\u2019 as US Officials Question Evidence Against Nvidia\u2019s Jensen Huang",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63230368/trump-tech-advisor-david-sacks-says-spy-narrative-is-collapsing-as-us-officials-question-evidence-against-nvidias-jensen-huang",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Probe against Nvidia's Huang appears to be weakening"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63230067",
-    "created_at": "2026-11-13T07:02:45Z",
-    "headline": "Gavin Newsom Calls Trump \u2018Wholly Owned Subsidiary of Big Oil\u2019 as Iran Tensions Rattle Oil Markets: Says President\u2019s \u2018Head Is Stuck in Sand Soaked With Oil\u2019",
-    "url": "https://www.benzinga.com/news/politics/26/11/63230067/gavin-newsom-blasts-trump-big-oil-iran-war",
+    "id": "63288393",
+    "created_at": "2026-11-16T13:35:31Z",
+    "headline": "Nebius Group Stock Slides Again Monday: What's Going On?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63288393/nebius-group-stock-slides-again-monday-whats-going-on",
     "source": "benzinga",
     "market_risk": 0.2,
     "impacts": [
       {
-        "ticker": "XOM",
-        "sentiment": 0.25,
-        "confidence": 0.35,
-        "reason": "Iran tensions may lift oil prices, benefiting producers"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63229955",
-    "created_at": "2026-11-13T06:45:10Z",
-    "headline": "Anthony Scaramucci Rips Howard Lutnick Over Nvidia Chip Crackdown: \u2018Incompetence Is Random. This Broke The Same Way Every Time\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63229955/anthony-scaramucci-howard-lutnick-nvidia-chip-crackdown-criticism",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Scrutiny of slow chip-smuggling crackdown adds regulatory uncertainty"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63229932",
-    "created_at": "2026-11-13T06:35:51Z",
-    "headline": "Nasdaq Down 100 Points As Nvidia Shares Fall: Investor Sentiment Improves, But Greed Index Remains In \u2018Fear\u2019 Zone",
-    "url": "https://www.benzinga.com/markets/market-summary/26/11/63229932/nasdaq-down-100-points-as-nvidia-shares-fall-investor-sentiment-improves-but-greed-index-remains-in-fear-zone",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Nvidia shares falling, dragging Nasdaq down amid CEO exit"
-      },
-      {
-        "ticker": "QQQ",
+        "ticker": "MSFT",
         "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Nasdaq down 100 points led by Nvidia weakness"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.12,
-        "confidence": 0.35,
-        "reason": "Broad market slipped on Nvidia and weak jobless claims"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63229921",
-    "created_at": "2026-11-13T06:34:51Z",
-    "headline": "Trump Urged Jensen Huang To \u2018Keep Fighting\u2019 for His Nvidia CEO Job Two Days Before Resignation: Report",
-    "url": "https://www.benzinga.com/news/politics/26/11/63229921/trump-urged-jensen-huang-to-keep-fighting-for-his-nvidia-ceo-job-two-days-before-resignation-report",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "Jensen Huang resigned as CEO; Kress is interim leader"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63229873",
-    "created_at": "2026-11-13T06:26:11Z",
-    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63229873/stock-market-will-sp-500-open-up-or-down-today-77",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Wall Street digesting Nvidia CEO exit; futures flat"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.1,
         "confidence": 0.3,
-        "reason": "Flat futures and CEO exit weigh on Nasdaq sentiment"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.25,
-        "reason": "Flat futures and easing oil prices leave index roughly unchanged"
+        "reason": "Reported data center delays weigh on Microsoft's AI capacity outlook"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63229805",
-    "created_at": "2026-11-13T06:18:15Z",
-    "headline": "Vertiv Holdings (VRT) Stock Is Trending After Hours: Here's Why",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63229805/vertiv-shares-rise-after-hours-ai-data-center-power-system-launch",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63229612",
-    "created_at": "2026-11-13T05:48:39Z",
-    "headline": "Nvidia Funded AI Boom Under Jensen Huang, but Gary Marcus Questions if New CEO Will Keep Writing the Checks: \u2018Whole Thing Might Collapse\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63229612/nvidia-ai-boom-jensen-huang-gary-marcus-colette-kress-funding-concerns",
+    "id": "63280484",
+    "created_at": "2026-11-16T13:25:57Z",
+    "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Over China Chips \u2014 BIDU, RKLB, MSTR in Focus (UPDATED)",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63280484/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-scott-bessent-presses-nvidia-over-china-chips-bidu-rklb-mstr-in-focus",
     "source": "benzinga",
     "market_risk": 0.3,
     "impacts": [
       {
         "ticker": "NVDA",
         "sentiment": -0.4,
-        "confidence": 0.4,
-        "reason": "Analyst warns Nvidia may scale back AI investment after CEO exit"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63229525",
-    "created_at": "2026-11-13T05:46:54Z",
-    "headline": "Elon Musk Warns Against Pushing Founders Out \u2014 Steve Jobs and Travis Kalanick Lessons Resurface as Jensen Huang Exits Nvidia",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63229525/elon-musk-warns-founders-out-steve-jobs-travis-kalanick-jensen-huang-nvidia-exit",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
+        "confidence": 0.5,
+        "reason": "Bessent pressing Nvidia over China chip sales; futures falling"
+      },
       {
-        "ticker": "NVDA",
+        "ticker": "QQQ",
         "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Founder-removal concerns amid Huang exit add leadership uncertainty"
+        "confidence": 0.4,
+        "reason": "Nasdaq 100 futures trading lower on tech weakness"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.15,
+        "confidence": 0.4,
+        "reason": "S&P 500 futures falling with broad market pressure"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63229364",
-    "created_at": "2026-11-13T05:17:26Z",
-    "headline": "Elizabeth Warren, GOP Senator Turn the Heat on Jensen Huang, Howard Lutnick Over Nvidia-China Spy Concerns \u2014 \u2018Huang\u2019s Decision to Resign From Nvidia Does Not Absolve Him\u2019",
-    "url": "https://www.benzinga.com/news/politics/26/11/63229364/elizabeth-warren-gop-senator-turn-the-heat-on-jensen-huang-howard-lutnick-over-nvidia-china-spy-concerns-huangs-decision-to-resign-from-nvidia-does-not-absolve-him",
+    "id": "63287514",
+    "created_at": "2026-11-16T13:21:23Z",
+    "headline": "Uber Riders in Vegas Can Now Get Driverless Zoox Robotaxi",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63287514/uber-riders-in-vegas-can-now-get-driverless-zoox-robotaxi",
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [
       {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Congressional probe into ex-CEO's ties to alleged Chinese spy adds regulatory overhang"
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.25,
+        "reason": "Zoox robotaxi launch in Las Vegas is a small positive for Amazon"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63229070",
-    "created_at": "2026-11-13T04:38:06Z",
-    "headline": "Tesla (TSLA) Stock Trends After Hours As SpaceX Merger Talks Heat Up, Elon Musk Extends Cybertruck Production",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63229070/tesla-shares-rise-after-hours-spacex-merger-talks",
+    "id": "63286305",
+    "created_at": "2026-11-16T13:03:16Z",
+    "headline": "Tesla-SpaceX Merger Is 'Almost Inconceivable' to Avoid, Says Elon Musk Biographer \u2014 'You'll Know More' on Dec. 3",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63286305/tesla-spacex-merger-is-almost-inconceivable-to-avoid-says-elon-musk-biographer-youll-know-more-on-dec-3",
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [
@@ -1049,50 +280,53 @@
         "ticker": "TSLA",
         "sentiment": 0.1,
         "confidence": 0.3,
-        "reason": "SpaceX merger talks advancing; deal details and dilution still uncertain"
+        "reason": "Speculative Tesla-SpaceX merger talk; unconfirmed, possible catalyst Dec. 3"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63229044",
-    "created_at": "2026-11-13T04:26:38Z",
-    "headline": "Michael Burry Hints At Bigger Nvidia Asia \u2018Reveal\u2019 As Jensen Huang\u2019s \u2018Deer In The Headlights\u2019 Dig At Colette Kress Resurfaces",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63229044/michael-burry-nvidia-jensen-huang-ai-chips-china-colette-kress",
-    "source": "benzinga",
+    "id": "123460387",
+    "created_at": "2026-11-16T13:01:21Z",
+    "headline": "Microsoft Authorizes Parallels Desktop for Windows on Apple Silicon",
+    "url": "https://www.prnewswire.com/news-releases/best-windows-software-for-mac-2026-parallels-named-top-pick-for-easy-setup-and-mac-integration-by-software-experts-302939773.html",
+    "source": "fiscal.ai",
     "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "123460386",
+    "created_at": "2026-11-16T13:01:21Z",
+    "headline": "Microsoft Verifies InTouch123 Inc. in Partner Center",
+    "url": "https://natlawreview.com/press-releases/microsoft-verifies-referna-partner-center",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63285887",
+    "created_at": "2026-11-16T13:00:02Z",
+    "headline": "AMD Stock Is Falling Monday: What's Going On?",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63285887/amd-stock-is-falling-monday-whats-going-on",
+    "source": "benzinga",
+    "market_risk": 0.3,
     "impacts": [
       {
-        "ticker": "NVDA",
+        "ticker": "AMD",
         "sentiment": -0.3,
-        "confidence": 0.3,
-        "reason": "Burry flags China export scrutiny, hidden Asia revenue, and AI financing risks"
+        "confidence": 0.4,
+        "reason": "Stock falling with tech selloff; AI share opportunity largely known"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63228995",
-    "created_at": "2026-11-13T04:15:39Z",
-    "headline": "Alice Huang, Who Allegedly Spied for China, Had Stakes in Businesses Linked to Nvidia Rival Huawei: Report",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63228995/jensen-huang-alleged-affair-huawei",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.35,
-        "reason": "Espionage allegations with Huawei-linked ties raise national security concerns"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63228901",
-    "created_at": "2026-11-13T03:24:18Z",
-    "headline": "Nvidia Stock Trends After Hours As Colette Kress Vows To Build On \u2018Foundation\u2019 Laid By Ousted CEO Jensen Huang",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63228901/nvidia-shares-rise-after-hours-jensen-huang-resigns",
+    "id": "63285602",
+    "created_at": "2026-11-16T12:53:31Z",
+    "headline": "TD Cowen Maintains Buy on NVIDIA, Lowers Price Target to $200",
+    "url": "https://www.benzinga.com/news/26/11/63285602/td-cowen-maintains-buy-nvidia-lowers-price-target-200",
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [
@@ -1100,1661 +334,808 @@
         "ticker": "NVDA",
         "sentiment": -0.1,
         "confidence": 0.3,
-        "reason": "CEO resignation creates leadership uncertainty; after-hours shares still rose"
+        "reason": "Buy rating kept but price target cut to $200"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63228855",
-    "created_at": "2026-11-13T03:06:24Z",
-    "headline": "Mike Johnson Sees Growing Support For China Chip Restrictions As Nvidia\u2019s Jensen Huang Exit Rocks Washington: \u2018Developing Consensus in Congress\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63228855/johnson-china-chip-restrictions-nvidia",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.35,
-        "confidence": 0.4,
-        "reason": "Growing bipartisan momentum for tighter China advanced AI chip restrictions"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121408118",
-    "created_at": "2026-11-13T03:01:59Z",
-    "headline": "ExxonMobil to Evaluate Seven Areas in Venezuela for Potential Oil and Gas Projects",
-    "url": "https://www.marketscreener.com/news/exxon-mobil-to-evaluate-seven-areas-in-venezuela-for-potential-oil-and-gas-projects-ce785ed8da89f022",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Exploration evaluation of Venezuelan areas is a potential long-term growth option"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121408042",
-    "created_at": "2026-11-13T03:01:37Z",
-    "headline": "JPMorgan Chase & Co. Reports Change in Voting Rights in K+S Aktiengesellschaft",
-    "url": "https://www.placera.se/pressmeddelanden/k-s-k-s-aktiengesellschaft-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-20261112",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "121408039",
-    "created_at": "2026-11-13T03:01:29Z",
-    "headline": "Apple Releases HomeView Software 27.2",
-    "url": "https://appleosophy.com/wire/pegq6zg/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63228681",
-    "created_at": "2026-11-13T02:08:26Z",
-    "headline": "Cathie Wood Buys the Dip in CoreWeave, Sells Palantir Stock: Ark Also Trades Archer Aviation, Rocket Lab, Amazon",
-    "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/11/63228681/cathie-wood-ark-buys-coreweave-sells-palantir-archer-rocket-lab-amazon",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Ark trimmed Amazon holdings; minor signal, likely already priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63245473",
-    "created_at": "2026-11-13T15:31:31Z",
-    "headline": "Barclays Maintains Overweight on ExxonMobil Holdings, Raises Price Target to $206",
-    "url": "https://www.benzinga.com/news/26/11/63245473/barclays-maintains-overweight-exxonmobil-holdings-raises-price-target-206",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Barclays reaffirms overweight and raises price target to $206"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63244586",
-    "created_at": "2026-11-13T15:23:55Z",
-    "headline": "Your AI Health Advice May Be Influenced by Drug Ads, Study Finds",
-    "url": "https://www.benzinga.com/news/health-care/26/11/63244586/your-ai-health-advice-may-be-influenced-by-drug-ads-study-finds",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63244259",
-    "created_at": "2026-11-13T15:21:28Z",
-    "headline": "'Israeli spy chief in D.C. as Netanyahu presses Trump to resume war'- Axios",
-    "url": "https://www.benzinga.com/news/26/11/63244259/israeli-spy-chief-d-c-netanyahu-presses-trump-resume-war-axios",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Report of Netanyahu pressing to resume war raises geopolitical risk"
-      },
-      {
-        "ticker": "XOM",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Renewed Middle East conflict could lift oil prices"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63243745",
-    "created_at": "2026-11-13T15:18:00Z",
-    "headline": "Micron, Moody\u2019s, Digital Realty and a Health Care Stock on CNBC\u2019s \u2018Final Trades\u2019",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63243745/micron-moodys-digital-realty-and-a-health-care-stock-on-cnbcs-final-trades",
-    "source": "benzinga",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Mentioned as a CNBC Final Trades pick; minor attention"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63243156",
-    "created_at": "2026-11-13T15:14:13Z",
-    "headline": "Michael Burry Posts On X \"My Thesis On NVIDIA Was Not About Illicit Affairs Because It Goes Far Beyond Illicit Affairs.\"",
-    "url": "https://www.benzinga.com/news/26/11/63243156/michael-burry-posts-x-my-thesis-nvidia-was-not-about-illicit-affairs-because-it-goes-far-beyond-illi",
-    "source": "benzinga",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Burry, a known bear, publicly defending his NVIDIA thesis"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63242763",
-    "created_at": "2026-11-13T15:09:46Z",
-    "headline": "Gene Munster Says This is Nvidia\u2019s Biggest \u2018Long-Term Challenge\u2019 After Replacing Jensen Huang",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63242763/gene-munster-says-this-is-nvidias-biggest-long-term-challenge-after-replacing-jensen-huang",
-    "source": "benzinga",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Analyst flags major long-term challenge after CEO Jensen Huang's exit"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63242244",
-    "created_at": "2026-11-13T15:04:53Z",
-    "headline": "OpenAI Introduces ChatGPT Wallet; Built In Partnership With American Express, MasterCard, And Visa, ChatGPT Wallet Will Initially Be Available Through Dots\u2060 For ChatGPT Pro Subscribers In The US",
-    "url": "https://www.benzinga.com/news/26/11/63242244/openai-introduces-chatgpt-wallet-built-partnership-american-express-mastercard-and-visa-chatgpt-wall",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63240720",
-    "created_at": "2026-11-13T14:51:22Z",
-    "headline": "Options Traders Expect Nvidia's Biggest Earnings Move Since 2024",
-    "url": "https://www.benzinga.com/opinion/26/11/63240720/options-traders-expect-nvidia-biggest-earnings-move-since-2024",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.3,
-        "reason": "Options imply largest earnings move since 2024; direction unclear"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63240634",
-    "created_at": "2026-11-13T14:50:51Z",
-    "headline": "'Elon Musk\u2019s AI Group Guts Grok Video Generation Team'- The Information",
-    "url": "https://www.benzinga.com/news/26/11/63240634/elon-musk-s-ai-group-guts-grok-video-generation-team-information",
-    "source": "benzinga",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63240632",
-    "created_at": "2026-11-13T14:50:45Z",
-    "headline": "Microsoft Outage Hit More Than Outlook: Even Its Cybersecurity Defenses Were Affected",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63240632/microsoft-outage-defender-security",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.2,
-        "confidence": 0.35,
-        "reason": "Outage disrupted Defender and Purview, raising enterprise reliability concerns"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63240016",
-    "created_at": "2026-11-13T14:46:18Z",
-    "headline": "What's Going On With ExxonMobil Stock Friday?",
-    "url": "https://www.benzinga.com/markets/large-cap/26/11/63240016/whats-going-on-with-exxonmobil-stock-friday",
-    "source": "benzinga",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.2,
-        "confidence": 0.35,
-        "reason": "Guyana project advancing and recent Q3 earnings beat"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63239820",
-    "created_at": "2026-11-13T14:44:56Z",
-    "headline": "Fed\u2019s Logan Does Not Comment On Monetary Policy Or Economic Outlook In Remarks To Dallas Fed Conference On Bank Funding; Says Fed Should Further Develop Its Operational Readiness To Lend To Designated Financial Market Utilities; Treasury Market Currently Functioning Very Well, Trading Proceeding Smoothly Even Amid Substantial Rate Volatility",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63239820/fed-s-logan-does-not-comment-monetary-policy-or-economic-outlook-remarks-dallas-fed-conference-bank-",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63239519",
-    "created_at": "2026-11-13T14:42:40Z",
-    "headline": "Colette Kress\u2019 First Nvidia Earnings Call Without Jensen Huang: 5 Things Investors Need to Hear",
-    "url": "https://www.benzinga.com/trading-ideas/previews/26/11/63239519/colette-kress-nvidia-earnings",
+    "id": "63285307",
+    "created_at": "2026-11-16T12:45:52Z",
+    "headline": "Nvidia Stock's 'Icarus' Fall Isn\u2019t Over Yet, But Microsoft, Apple Show Path to Recovery, Says Top Strategist: 'Wildly Profitable'",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63285307/nvidia-stocks-icarus-fall-isnt-over-yet-but-microsoft-apple-show-path-to-recovery-says-top-strategist-wildly-profitable",
     "source": "benzinga",
     "market_risk": 0.2,
     "impacts": [
       {
         "ticker": "NVDA",
-        "sentiment": -0.1,
+        "sentiment": -0.15,
         "confidence": 0.3,
-        "reason": "First earnings call without Huang creates leadership-transition uncertainty"
+        "reason": "Strategist sees Nvidia fall continuing despite bullish long-term view"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Recovery noted as a positive signal for Microsoft"
+      },
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Recovery cited as a positive signal; minimal direct impact"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63238952",
-    "created_at": "2026-11-13T14:38:28Z",
-    "headline": "Meta\u2019s TikTok Threat Just Became Bigger Than Oracle",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63238952/meta-tiktok-threat-bytedance",
+    "id": "123450323",
+    "created_at": "2026-11-16T12:31:25Z",
+    "headline": "BlackRock Reduces Position in Lam Research",
+    "url": "https://www.moomoo.com/news/post/1004722673/blackrock-q3-portfolio-adjustments-significant-increase-in-meta-position-complete",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Routine 13F position reduction by BlackRock; minimal signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63284659",
+    "created_at": "2026-11-16T12:28:23Z",
+    "headline": "EBay, Amazon, Caterpillar and More on CNBC\u2019s \u2018Final Trades\u2019",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63284659/ebay-amazon-caterpillar-on-cnbc-final-trades",
+    "source": "benzinga",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "TV analyst pick for growth; generic, likely priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63284205",
+    "created_at": "2026-11-16T12:17:27Z",
+    "headline": "DOJ Warns Elizabeth Warren of \u2018Significant Legal Consequences\u2019 Ahead of Potential Probes Into Trump, Corporate Allies: 'Strong Smoke \u200bSignal'",
+    "url": "https://www.benzinga.com/news/politics/26/11/63284205/doj-warns-elizabeth-warren-of-significant-legal-consequences-ahead-of-potential-probes-into-trump-corporate-allies-strong-smoke-signal",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63283899",
+    "created_at": "2026-11-16T12:11:44Z",
+    "headline": "Mizuho Maintains Outperform on NVIDIA, Lowers Price Target to $220",
+    "url": "https://www.benzinga.com/news/26/11/63283899/mizuho-maintains-outperform-nvidia-lowers-price-target-220",
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Price target cut to $220, though rating stays Outperform"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63283689",
+    "created_at": "2026-11-16T12:05:59Z",
+    "headline": "'Soft Recession or Something More Dramatic:' Former SEC Chair Gary Gensler Warns AI Boom Could End in Dot-Com-Scale Bust \u2014 'They Loaned Too Much Money, Too Fast'",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63283689/soft-recession-or-something-more-dramatic-former-sec-chair-gary-gensler-warns-ai-boom-could-end-in-dot-com-scale-bust-they-loaned-too-much-money-too-fast",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.3,
+        "reason": "Former SEC chair warns of AI bubble and possible recession"
+      },
       {
         "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "ByteDance's rising valuation signals stronger TikTok competition; largely known"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63238767",
-    "created_at": "2026-11-13T14:37:28Z",
-    "headline": "Nvidia Crisis Fails to Stop ETF Buying Frenzy: VOO, QQQ, SOXL Leads $37.5B ETF Inflow Surge",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63238767/nvidia-crisis-fails-to-stop-etf-buying-frenzy-voo-qqq-soxl-leads-37-5b-etf-inflow-surge",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
         "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Described as a leadership crisis amid market volatility"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Large ETF inflows show dip-buying support for QQQ"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63238422",
-    "created_at": "2026-11-13T14:35:24Z",
-    "headline": "Truist Securities Downgrades NVIDIA to Hold, Lowers Price Target to $174",
-    "url": "https://www.benzinga.com/news/26/11/63238422/truist-securities-downgrades-nvidia-hold-lowers-price-target-174",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.6,
-        "reason": "Analyst downgrade to Hold with lowered $174 price target"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63250990",
-    "created_at": "2026-11-13T16:28:35Z",
-    "headline": "AMD Benefits From Nvidia's Troubles, Smart Money Sells Nvidia; Cooler PPI; Bitcoin Below $70K",
-    "url": "https://www.benzinga.com/opinion/26/11/63250990/amd-benefits-from-nvidias-troubles-smart-money-sells-nvidia-cooler-ppi-bitcoin-below-70k",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.3,
         "confidence": 0.3,
-        "reason": "Possible share gains as Nvidia faces troubles; thin evidence"
+        "reason": "AI bubble warning could hit AI-exposed megacap valuations"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63250819",
-    "created_at": "2026-11-13T16:26:30Z",
-    "headline": "Why Is Applied Digital Stock Falling on Friday?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63250819/why-is-applied-digital-stock-falling-on-friday",
+    "id": "63283480",
+    "created_at": "2026-11-16T12:03:21Z",
+    "headline": "Amazon\u2019s Zoox Robotaxis Now Available On Uber In Las Vegas",
+    "url": "https://www.benzinga.com/quote/AMZN",
     "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "CEO departure and sector pressure weigh on Nvidia shares"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63250443",
-    "created_at": "2026-11-13T16:22:20Z",
-    "headline": "Microsoft Stock in Focus as Massive 365 Outage Hits Outlook, Teams and Copilot: What Investors Should Know",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63250443/microsoft-stock-in-focus-as-massive-365-outage-hits-outlook-teams-and-copilot-what-investors-should-know",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Widespread 365 outage disrupts Outlook, Teams, Copilot"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63249664",
-    "created_at": "2026-11-13T16:14:21Z",
-    "headline": "Michael Burry Says WSJ Missed the Real Nvidia Story",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63249664/michael-burry-says-wsj-missed-the-real-nvidia-story",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Burry raises AI bubble and excess supply concerns"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Nvidia-related AI bubble worries weigh on Nasdaq sentiment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63249620",
-    "created_at": "2026-11-13T16:13:55Z",
-    "headline": "'US wants Japan to nearly triple budget for hosting American troops'- Nikkei Asia",
-    "url": "https://www.benzinga.com/news/26/11/63249620/us-wants-japan-nearly-triple-budget-hosting-american-troops-nikkei-asia",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63249030",
-    "created_at": "2026-11-13T16:08:02Z",
-    "headline": "Super Micro Extends DOJ-Probe Selloff as Nvidia, Nasdaq Slide",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63249030/super-micro-extends-doj-probe-selloff-as-nvidia-nasdaq-slide",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Nvidia slides amid DOJ-probe-driven tech weakness"
-      },
-      {
-        "ticker": "AMD",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Broader tech and AI-hardware selloff pressures AMD"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63248830",
-    "created_at": "2026-11-13T16:05:53Z",
-    "headline": "Amazon Introduces Alexa for Shopping, Your Personalized, Agentic AI Assistant On Amazon",
-    "url": "https://www.benzinga.com/news/26/11/63248830/amazon-introduces-alexa-shopping-your-personalized-agentic-ai-assistant-amazon",
-    "source": "benzinga",
-    "market_risk": 0.1,
+    "market_risk": 0.05,
     "impacts": [
       {
         "ticker": "AMZN",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Agentic AI shopping assistant could support engagement and sales"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121741401",
-    "created_at": "2026-11-13T16:02:08Z",
-    "headline": "NVIDIA Faces Multiple US Department of Justice Probes",
-    "url": "https://www.marketscreener.com/news/nvidia-draws-scrutiny-from-3-us-justice-department-probes-ce785ed9df8df320",
-    "source": "fiscal.ai",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "Three separate DOJ investigations create significant legal risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "121740028",
-    "created_at": "2026-11-13T16:01:39Z",
-    "headline": "Form Energy Appoints Former Tesla Executive Jon McNeill to Board of Directors",
-    "url": "https://www.morningstar.com/news/globe-newswire/9877273/form-energy-adds-meta-and-tesla-veterans-lori-goler-and-jon-mcneill-to-board-as-it-ramps-production-for-commercial-growth",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63248349",
-    "created_at": "2026-11-13T16:00:18Z",
-    "headline": "Consumer Staples Leads Sectors As Technology Trails",
-    "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63248349/consumer-staples-leads-sectors-as-technology-trails",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Technology lagging sectors signals weakness in Nasdaq"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Tech underperformance drags broad index modestly"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Tech sector weakness weighs on semiconductor leaders"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63248201",
-    "created_at": "2026-11-13T15:58:46Z",
-    "headline": "Nebius Stock Falls Nearly 17%; Weak Outlook, Nvidia Turmoil and Nscale\u2019s Wider Loss Rattle Neoclouds",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63248201/nebius-stock-falls-nearly-17-weak-outlook-nvidia-turmoil-and-nscales-wider-loss-rattle-neoclouds",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Neocloud selloff tied to Nvidia turmoil and weak demand outlook"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.1,
+        "sentiment": 0.1,
         "confidence": 0.2,
-        "reason": "Neocloud weakness may dent sentiment on AI infrastructure spend"
+        "reason": "Zoox robotaxi expands to Uber platform in Las Vegas"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63247949",
-    "created_at": "2026-11-13T15:56:09Z",
-    "headline": "Microsoft Just Relived the CrowdStrike Nightmare. But There\u2019s One Crucial Difference",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63247949/microsoft-crowdstrike-outage",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "CrowdStrike comparison raises enterprise reliability concerns"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63247369",
-    "created_at": "2026-11-13T15:49:57Z",
-    "headline": "Live On Bloomberg TV, Fed\u2019s Collins Says Possible Fed May Have To Raise More Than Expected; Best Case Scenario Is \u2018careful Adjustment\u2019 Of Monetary Policy; Energy Is An Inflation Driver, But I See It As Broader; Many Firms Expect To Pass On Higher Costs To Consumers",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.25,
-        "confidence": 0.45,
-        "reason": "Fed official signals possible further rate hikes, tightening risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63247338",
-    "created_at": "2026-11-13T15:49:36Z",
-    "headline": "Bitcoin Could Crash Below $10,000, Peter Schiff Warns: \u2018Get the Hell Out\u2019",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63247338/bitcoin-could-crash-below-10000-peter-schiff-warns-get-the-hell-out",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Bitcoin crash prediction from a commentator; weak read-through to NVDA"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Crypto sentiment pessimism; minimal broad-market effect"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63247160",
-    "created_at": "2026-11-13T15:47:34Z",
-    "headline": "Live On Bloomberg TV, Fed\u2019s Collins Says Inflation Is Too High And Appears To Be Broadening; Recent Inflation Data Less Promising Than I Hope; I Would Think Some Additional Policy Tightening Warranted Soon",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.4,
-        "confidence": 0.55,
-        "reason": "Fed official says inflation broadening, more tightening likely soon"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63247055",
-    "created_at": "2026-11-13T15:46:37Z",
-    "headline": "'Senate Republicans eye defense-only spending bill' - Semafor",
-    "url": "https://www.benzinga.com/news/26/11/63247055/senate-republicans-eye-defense-only-spending-bill-semafor",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Defense-only spending bill is a minor, largely priced-in fiscal headline"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63246432",
-    "created_at": "2026-11-13T15:40:15Z",
-    "headline": "Barclays Maintains Overweight on NVIDIA, Lowers Price Target to $210",
-    "url": "https://www.benzinga.com/news/26/11/63246432/barclays-maintains-overweight-nvidia-lowers-price-target-210",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Price target cut despite maintained Overweight rating; mildly negative"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63255728",
-    "created_at": "2026-11-13T17:29:23Z",
-    "headline": "Fed\u2019s Daly Says A Myriad Of Things Are Pushing Up Inflation, Which Makes It Concerning; Consumer Spending Surprisingly Resilient",
-    "url": "https://www.benzinga.com/news/26/11/63255728/fed-s-daly-says-myriad-things-are-pushing-inflation-which-makes-it-concerning-consumer-spending-surp",
+    "id": "63282757",
+    "created_at": "2026-11-16T11:41:40Z",
+    "headline": "NVIDIA Must Now Prove It's Bigger Than Jensen Huang",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63282757/nvidia-must-now-prove-its-bigger-than-jensen-huang",
     "source": "benzinga",
     "market_risk": 0.3,
     "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Hawkish Fed commentary on persistent inflation weighs on equities"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63255354",
-    "created_at": "2026-11-13T17:22:42Z",
-    "headline": "Fed's Daly Says Bias Is That Rates Need To Go Up; Markets Understand Fed's Reaction Function; In All Likelihood We Will Need To Raise Rates",
-    "url": "https://www.benzinga.com/news/26/11/63255354/fed-s-daly-says-bias-rates-need-go-markets-understand-fed-s-reaction-function-all-likelihood-we-will",
-    "source": "benzinga",
-    "market_risk": 0.35,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Fed official signals likely rate hikes, a headwind for equities"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63255026",
-    "created_at": "2026-11-13T17:17:43Z",
-    "headline": "Fed\u2019s Daly Says Key Problem We Have Is Inflation; A Good Economy With One Problem, Inflation; Not Much Evidence That AI Is Driving Labor Productivity Up",
-    "url": "https://www.benzinga.com/news/26/11/63255026/fed-s-daly-says-key-problem-we-have-inflation-good-economy-one-problem-inflation-not-much-evidence-a",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Inflation focus and weak AI productivity evidence modestly bearish"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63254548",
-    "created_at": "2026-11-13T17:11:57Z",
-    "headline": "'OpenAI disbands its robotics team as its general models start running robots'- Fortune",
-    "url": "https://www.benzinga.com/news/26/11/63254548/openai-disbands-its-robotics-team-its-general-models-start-running-robots-fortune",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "OpenAI robotics retreat is a minor signal on partner strategy"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63253675",
-    "created_at": "2026-11-13T16:59:54Z",
-    "headline": "What's Going On With Lam Research Stock Friday?",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63253675/whats-going-on-with-lam-research-stock-friday-2",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "LRCX",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Semiconductor equipment peers sold off after Nvidia CEO departure"
-      },
       {
         "ticker": "NVDA",
         "sentiment": -0.5,
         "confidence": 0.6,
-        "reason": "Jensen Huang's departure creates leadership uncertainty and selling pressure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63253422",
-    "created_at": "2026-11-13T16:56:59Z",
-    "headline": "'Arm boss Rene Haas approached in Nvidia CEO search'- Financial Times",
-    "url": "https://www.benzinga.com/news/26/11/63253422/arm-boss-rene-haas-approached-nvidia-ceo-search-financial-times",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Ongoing CEO search prolongs leadership uncertainty"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63251937",
-    "created_at": "2026-11-13T16:38:56Z",
-    "headline": "'Bessent Blames Lutnick\u2019s Commerce As He slams Nvidia Chip \u2018Leakage\u2019 To China'- CNBC",
-    "url": "https://www.benzinga.com/news/26/11/63251937/bessent-blames-lutnick-s-commerce-he-slams-nvidia-chip-leakage-china-cnbc",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Chip leakage to China scrutiny could bring tighter export controls"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63259145",
-    "created_at": "2026-11-13T18:27:09Z",
-    "headline": "How Did Dell Servers With Restricted NVIDIA Chips End Up in China?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63259145/how-did-dell-servers-with-restricted-nvidia-chips-end-up-in-china",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Report of restricted NVIDIA chips in China raises export-control risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63258802",
-    "created_at": "2026-11-13T18:20:03Z",
-    "headline": "U.S. Trade Representative, Alongside Treasury, Held First Official U.S.-China Board Of Trade Meeting",
-    "url": "https://www.benzinga.com/news/26/11/63258802/u-s-trade-representative-alongside-treasury-held-first-official-u-s-china-board-trade-meeting",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "US-China trade board meeting may modestly ease trade tensions"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63258769",
-    "created_at": "2026-11-13T18:19:49Z",
-    "headline": "Why Is IREN Stock Falling on Friday?",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63258769/why-is-iren-stock-falling-on-friday-3",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.5,
-        "confidence": 0.5,
-        "reason": "Jensen Huang resignation creates leadership uncertainty at NVIDIA"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Rising yields and NVIDIA CEO exit weigh on tech"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Rising Treasury yields and Bitcoin slide weigh on risk appetite"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63258750",
-    "created_at": "2026-11-13T18:19:35Z",
-    "headline": "Nvidia Courting a Former Insider: Arm CEO Rene Haas",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63258750/nvidia-courting-a-former-insider-arm-ceo-rene-haas",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.5,
-        "reason": "Reported CEO succession search and interim CEO signal turmoil"
+        "reason": "Stock slips on leadership exit, export risks, and AI competition ahead of earnings"
       },
       {
         "ticker": "AMD",
         "sentiment": 0.1,
         "confidence": 0.2,
-        "reason": "NVIDIA leadership turmoil could marginally benefit rival chipmakers"
+        "reason": "Rising AI competition could benefit rival chipmakers modestly"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63258274",
-    "created_at": "2026-11-13T18:10:59Z",
-    "headline": "BZ Analysis: Long Non-Dealer Positioning In US Equity Futures Is Up To +$330B, Its 2nd-highest On Record",
-    "url": "https://www.benzinga.com/economics/26/11/63258274/bz-analysis-long-non-dealer-positioning-us-equity-futures-330b-its-2nd-highest-record",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Near-record crowded long futures positioning raises pullback risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63257775",
-    "created_at": "2026-11-13T18:01:27Z",
-    "headline": "CNBC Halftime Report Final: Caterpillar, Amazon, eBay",
-    "url": "https://www.benzinga.com/quote/EBAY",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63257546",
-    "created_at": "2026-11-13T17:57:54Z",
-    "headline": "'Trump to Extend Shipping Waiver for Oil, Fertilizer for 90 Days'- Bloomberg",
-    "url": "https://www.benzinga.com/news/26/11/63257546/trump-extend-shipping-waiver-oil-fertilizer-90-days-bloomberg",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Shipping waiver for oil and fertilizer eases near-term supply costs"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63257278",
-    "created_at": "2026-11-13T17:53:00Z",
-    "headline": "Bessent Points Finger at Lutnick as White House Feud Over Nvidia Erupts",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63257278/bessent-lutnick-feud",
-    "source": "benzinga",
+    "id": "123438232",
+    "created_at": "2026-11-16T11:32:01Z",
+    "headline": "NVIDIA Faces Potential Lawsuits Following CEO Resignation",
+    "url": "https://www.marketscreener.com/news/nvidia-exposed-to-potential-lawsuits-after-jensen-huang-s-resignation-ce785eded080f626",
+    "source": "fiscal.ai",
     "market_risk": 0.3,
     "impacts": [
       {
         "ticker": "NVDA",
-        "sentiment": -0.45,
+        "sentiment": -0.5,
         "confidence": 0.5,
-        "reason": "Public White House feud over China chip scandal adds policy uncertainty"
+        "reason": "Potential lawsuits following CEO Jensen Huang's resignation"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63257127",
-    "created_at": "2026-11-13T17:50:00Z",
-    "headline": "Fed\u2019s Daly Says Just Starting To Hear That The Consumer May Be Running Out Of Gas",
-    "url": "https://www.benzinga.com/news/26/11/63257127/fed-s-daly-says-just-starting-hear-consumer-may-be-running-out-gas",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.25,
-        "confidence": 0.4,
-        "reason": "Fed official flags consumer spending slowdown, a growth headwind"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63256679",
-    "created_at": "2026-11-13T17:44:10Z",
-    "headline": "What Is Going on With SanDisk Stock on Friday?",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63256679/what-is-going-on-with-sandisk-stock-on-friday",
-    "source": "benzinga",
-    "market_risk": 0.4,
+    "id": "123438035",
+    "created_at": "2026-11-16T11:31:53Z",
+    "headline": "Micron, Samsung, and SK Hynix Fail to Dismiss DRAM Price-Fixing Lawsuit",
+    "url": "https://www.marketscreener.com/news/micron-samsung-sk-hynix-fail-to-get-dram-price-fixing-lawsuit-dismissed-ce785eded088f123",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
     "impacts": [
       {
         "ticker": "MU",
-        "sentiment": -0.3,
+        "sentiment": -0.2,
         "confidence": 0.4,
-        "reason": "Rising NAND competition pressures memory pricing and sentiment"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.35,
-        "reason": "Leadership turmoil contributed to broader tech selloff"
+        "reason": "Court denies dismissal of DRAM price-fixing lawsuit; legal overhang"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63256475",
-    "created_at": "2026-11-13T17:39:39Z",
-    "headline": "SpaceX, Tesla Merger Could Hit Democratic Roadblock: Jay Woods Unsure if Elon Musk Can 'Work His Magic'",
-    "url": "https://www.benzinga.com/m-a/26/11/63256475/elon-musk-spacex-tesla-merger-democrat-roadblock-work-his-magic",
-    "source": "benzinga",
-    "market_risk": 0.1,
+    "id": "123438026",
+    "created_at": "2026-11-16T11:31:42Z",
+    "headline": "Coatue Management LLC Increases Stake in Lam Research Corporation",
+    "url": "https://www.moomoo.com/news/flash/1004739940/coatue-management-llc-raises-share-stake-in-lam-research-corp",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Coatue raises Lam Research stake 5.1%; modest institutional signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123438014",
+    "created_at": "2026-11-16T11:31:28Z",
+    "headline": "Unplugged Performance Proposes Investor-Backed Plan to Continue Cybertruck Production",
+    "url": "https://www.moomoo.com/news/post/1004729099/tesla-aftermarket-company-proposes-investor-backed-deal-to-continue-cybertruck",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
     "impacts": [
       {
         "ticker": "TSLA",
         "sentiment": -0.1,
-        "confidence": 0.25,
-        "reason": "Possible political roadblock to SpaceX-Tesla merger is speculative"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63256318",
-    "created_at": "2026-11-13T17:36:47Z",
-    "headline": "Analyst Shrugs Off Nebius Data Center Delay As 'Slight Blemish' on Strong Quarter",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63256318/analyst-shrugs-off-nebius-data-center-delay-as-slight-blemish-on-strong-quarter",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.25,
-        "confidence": 0.35,
-        "reason": "Reported Microsoft data center delays may slow AI capacity growth"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
         "confidence": 0.3,
-        "reason": "Sector sell-off tied to NVIDIA news and AI data center delays"
+        "reason": "Third-party plan to continue Cybertruck production after Tesla wind-down"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63256181",
-    "created_at": "2026-11-13T17:35:15Z",
-    "headline": "Fed\u2019s Daly: Looking At How The Gap Between Consumer Sentiment And Behavior Gets Closed; Watch Services Ex-Housing Inflation Carefully, It\u2019s Not Moving In The Correct Direction",
-    "url": "https://www.benzinga.com/news/26/11/63256181/fed-s-daly-looking-how-gap-between-consumer-sentiment-and-behavior-gets-closed-watch-services-ex-hou",
-    "source": "benzinga",
-    "market_risk": 0.15,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Fed official flags sticky services inflation, mildly hawkish for rate expectations"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63256171",
-    "created_at": "2026-11-13T17:35:08Z",
-    "headline": "7 Financials Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/63256171/7-financials-stocks-whale-activity-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.0,
-        "confidence": 0.05,
-        "reason": "Routine options whale-activity roundup with no fundamental news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63256170",
-    "created_at": "2026-11-13T17:35:08Z",
-    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-    "url": "https://www.benzinga.com/markets/options/26/11/63256170/10-information-technology-stocks-whale-activity-today-s-session",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.0,
-        "confidence": 0.05,
-        "reason": "Routine options whale-activity roundup with no fundamental news"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.05,
-        "reason": "Routine options whale-activity roundup with no fundamental news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63262520",
-    "created_at": "2026-11-13T19:26:33Z",
-    "headline": "Jensen Huang Joins Wall Street\u2019s Fallen-Founder Hall of Fame: 13 Founders Who Fell Before Him",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63262520/jensen-huang-joins-wall-streets-fallen-founder-hall-of-fame-13-founders-who-fell-before-him",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.4,
-        "reason": "Framing Huang's exit as scandal-driven adds leadership and reputational overhang"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63262456",
-    "created_at": "2026-11-13T19:25:47Z",
-    "headline": "Amazon Issues An Update On Labour Proceedings In Delta, BC",
-    "url": "https://www.benzinga.com/news/26/11/63262456/amazon-issues-update-labour-proceedings-delta-bc",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63261821",
-    "created_at": "2026-11-13T19:15:28Z",
-    "headline": "CNBC Reporter Seema Mody Posts On X \"Nvidia board to @CNBC:\"We are in the process of selecting a search firm for the NVIDIA CEO role. We have not formally engaged any potential candidates. Any speculation regarding individual candidates, whether internal or external, is premature.\"",
-    "url": "https://www.benzinga.com/news/26/11/63261821/cnbc-reporter-seema-mody-posts-x-nvidia-board-cnbc-we-are-process-selecting-search-firm-nvidia-ceo-r",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "CEO succession search with no named candidate adds near-term uncertainty"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63261679",
-    "created_at": "2026-11-13T19:13:01Z",
-    "headline": "'Hassett expected to depart White House'- Semafor",
-    "url": "https://www.benzinga.com/news/26/11/63261679/hassett-expected-depart-white-house-semafor",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "122000976",
-    "created_at": "2026-11-13T19:01:24Z",
-    "headline": "Apple Launches HomeView Smart Home Hub",
-    "url": "https://appleosophy.com/wire/l1uksdi/",
+    "id": "123438013",
+    "created_at": "2026-11-16T11:31:23Z",
+    "headline": "KakaoBank Launches Apple Pay in South Korea",
+    "url": "https://www.moomoo.com/news/post/1004736305/market-chatter-apple-pay-launched-by-kakaobank-in-south-korea",
     "source": "fiscal.ai",
     "market_risk": 0.02,
     "impacts": [
       {
         "ticker": "AAPL",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "New smart home hub product launch, modest incremental news"
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "KakaoBank Apple Pay launch in South Korea; immaterial to Apple"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "122000975",
-    "created_at": "2026-11-13T19:01:22Z",
-    "headline": "Microsoft Experiences Widespread Global Service Outage",
-    "url": "https://www.newswire.lk/2026/11/13/widespread-microsoft-outage-takes-down-outlook-and-other-365-services/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
+    "id": "63282182",
+    "created_at": "2026-11-16T11:24:55Z",
+    "headline": "What's Going On With Nokia Stock Monday?",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63282182/whats-going-on-with-nokia-stock-monday-6",
+    "source": "benzinga",
+    "market_risk": 0.15,
     "impacts": [
       {
-        "ticker": "MSFT",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Global Microsoft 365 outage hurts users and enterprise trust, likely brief"
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Broader tech weakness noted; Nvidia not the focus"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63260317",
-    "created_at": "2026-11-13T18:48:28Z",
-    "headline": "AMD Bulls Make a Killing With 2X ETFs, But Friday\u2019s 20% Rout Delivers a Reality Check",
-    "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63260317/amd-bulls-make-a-killing-with-2x-etfs-but-fridays-20-rout-delivers-a-reality-check",
+    "id": "63281183",
+    "created_at": "2026-11-16T10:52:32Z",
+    "headline": "Dan Ives Dismisses Jensen Huang's Nvidia Comeback Speculation, Floats Tim Cook and Rene Haas for Top Job: 'Gone for Good'",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63281183/dan-ives-dismisses-jensen-huangs-nvidia-comeback-speculation-floats-tim-cook-and-rene-haas-for-top-job-gone-for-good",
     "source": "benzinga",
     "market_risk": 0.2,
     "impacts": [
       {
-        "ticker": "AMD",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Sharp 20% reversal after leveraged-ETF-fueled rally signals unwinding momentum"
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "CEO succession uncertainty; analyst names replacements"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63259929",
-    "created_at": "2026-11-13T18:42:16Z",
-    "headline": "AMD Stock Has Outrun Nvidia 5X Since 2024. But There\u2019s a Valuation Catch",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63259929/amd-stock-nvidia-valuation-catch",
+    "id": "63281039",
+    "created_at": "2026-11-16T10:46:20Z",
+    "headline": "From Coding to Finance and Life Sciences: Box CEO Aaron Levie Says AI Agents Are Getting the Skills to Transform Professional Work",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63281039/from-coding-to-finance-and-life-sciences-box-ceo-aaron-levie-says-ai-agents-are-getting-the-skills-to-transform-professional-work",
     "source": "benzinga",
     "market_risk": 0.05,
     "impacts": [
       {
-        "ticker": "AMD",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Valuation premium is a known concern, mostly priced in"
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "General AI-agent commentary; largely priced in"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "General AI-agent commentary; largely priced in"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63259862",
-    "created_at": "2026-11-13T18:41:08Z",
-    "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63259862/stock-market-today-amd-nvidia-chip-selloff-cisco-modine-november-13",
+    "id": "63280915",
+    "created_at": "2026-11-16T10:33:22Z",
+    "headline": "\u2018That Math Is Obvious and Trivial\u2019: Elon Musk Says Solar Will Supply 100% of Civilization\u2019s Energy as SpaceX and Tesla Ramp Up Manufacturing",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63280915/that-math-is-obvious-and-trivial-elon-musk-says-solar-will-supply-100-of-civilizations-energy-as-spacex-and-tesla-ramp-up-manufacturing",
     "source": "benzinga",
-    "market_risk": 0.4,
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63280757",
+    "created_at": "2026-11-16T10:19:33Z",
+    "headline": "Reported November 15, 'Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites' - Reuters",
+    "url": "https://www.benzinga.com/news/26/11/63280757/reported-november-15-rocket-boeing-lockheed-firm-fails-mid-flight-destroys-payload-amazon-satellites",
+    "source": "benzinga",
+    "market_risk": 0.1,
     "impacts": [
       {
+        "ticker": "AMZN",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Launch failure destroyed Amazon Kuiper satellites, delaying deployment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63280740",
+    "created_at": "2026-11-16T10:17:13Z",
+    "headline": "House Intel Chair Says It\u2019s \u2018Premature\u2019 to Blame Howard Lutnick Over Nvidia China Chip Scandal After Scott Bessent Declares \u2018Commerce Has the Pen\u2019",
+    "url": "https://www.benzinga.com/news/politics/26/11/63280740/house-intel-chair-says-its-premature-to-blame-howard-lutnick-over-nvidia-china-chip-scandal-after-scott-bessent-declares-commerce-has-the-pen",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Congressional probe into delayed China chip export curbs"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63280714",
+    "created_at": "2026-11-16T10:14:25Z",
+    "headline": "Why Is Rocket Lab Stock Falling Monday?",
+    "url": "https://www.benzinga.com/news/space/26/11/63280714/why-is-rocket-lab-stock-falling-monday",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.25,
+        "reason": "Launch failure hits Kuiper timeline; space sector selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63280517",
+    "created_at": "2026-11-16T10:00:06Z",
+    "headline": "Big Short Investor Michael Burry Takes Aim at Nvidia's Jensen Huang \u2014 Says 'Sad That It Took a Lurid Affair' to Expose How Chinese Firms Accessed Restricted AI Chips",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63280517/big-short-investor-michael-burry-takes-aim-at-nvidias-jensen-huang-says-sad-that-it-took-a-lurid-affair-to-expose-how-chinese-firms-accessed-restricted-ai-chips",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Burry highlights China restricted-chip leakage; reputational overhang"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63280256",
+    "created_at": "2026-11-16T09:22:17Z",
+    "headline": "Fallout From Last Week's News May Be More Severe Than Market Action Suggests",
+    "url": "https://www.benzinga.com/opinion/26/11/63280256/fallout-from-last-week-news-may-be-more-severe-than-market-action-suggests",
+    "source": "benzinga",
+    "market_risk": 0.35,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.6,
+        "confidence": 0.6,
+        "reason": "Huang affairs and resignation; leadership shock likely underpriced"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Nvidia's large index weight adds drag"
+      },
+      {
+        "ticker": "META",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "No direct exposure to Nvidia fallout"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63280126",
+    "created_at": "2026-11-16T09:06:00Z",
+    "headline": "Elizabeth Warren Takes Aim at Big Tech Billionaires Over China AI Access \u2014 '...Put Our National Security Above Their Bottom Line'",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63280126/elizabeth-warren-big-tech-ceos-us-national-security-china-ai-technology",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.25,
+        "confidence": 0.35,
+        "reason": "Political push to restrict China AI chip access"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.05,
+        "confidence": 0.15,
+        "reason": "Possible scrutiny of Big Tech China AI access"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63280028",
+    "created_at": "2026-11-16T08:51:14Z",
+    "headline": "Nvidia's Jensen Huang Controversy Could Backfire on China, Chamath Palihapitiya Says \u2014 Washington May Get the Chip Controls It's Been Seeking",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63280028/nvidia-chamath-us-government-chip-control",
+    "source": "benzinga",
+    "market_risk": 0.25,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Turmoil may prompt tighter US government chip controls"
+      },
+      {
         "ticker": "AMD",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Possible share gains if Nvidia is disrupted, offset by China risk"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Indirect mention; no clear impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63279833",
+    "created_at": "2026-11-16T08:09:04Z",
+    "headline": "Scott Bessent Gives Nvidia 10 Days to Explain China Chip Concerns, Calls for External CEO to Replace Jensen Huang: 'Dramatic Shakeup'",
+    "url": "https://www.benzinga.com/news/politics/26/11/63279833/scott-bessent-gives-nvidia-10-days-to-explain-china-chip-concerns-calls-for-external-ceo-to-replace-jensen-huang-dramatic-shakeup",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
         "sentiment": -0.7,
         "confidence": 0.7,
-        "reason": "Stock fell 10.5% as chip rally unwound and sector rotated out"
-      },
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "China scandal deepened while chip rally reversed sharply"
-      },
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Fell with broader Nasdaq tech selloff"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.6,
-        "confidence": 0.7,
-        "reason": "Nasdaq 100 down 1.7% on chip-led selloff"
+        "reason": "Treasury 10-day deadline, CEO replacement demand, export violation probe"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63265115",
-    "created_at": "2026-11-13T20:14:22Z",
-    "headline": "Microsoft Says Infrastructure Stabilizes As Queued Messages Drain And Traffic Rebalances, With No ETA For Full Recovery",
-    "url": "https://www.benzinga.com/news/26/11/63265115/microsoft-says-infrastructure-stabilizes-queued-messages-drain-and-traffic-rebalances-no-eta-full-re",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "Ongoing infrastructure disruption with no full-recovery timeline; operational risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63264694",
-    "created_at": "2026-11-13T20:06:46Z",
-    "headline": "Nancy Pelosi\u2019s Nvidia Bet Just Cost Her Most Of A Year\u2019s Pay \u2014 Thanks To Jensen Huang",
-    "url": "https://www.benzinga.com/news/politics/26/11/63264694/nancy-pelosis-nvidia-bet-just-cost-her-most-of-a-years-pay-thanks-to-jensen-huang",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Recent price decline is already known; recap adds little new information"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "122097917",
-    "created_at": "2026-11-13T20:01:49Z",
-    "headline": "Texas Attorney General Threatens Potential Tesla-SpaceX Merger",
-    "url": "https://www.marketscreener.com/news/tesla-spacex-merger-threatened-by-newly-elected-texas-attorney-general-ce785ed9de8cf523",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Political opposition raises uncertainty over a possible Tesla-SpaceX merger"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63264147",
-    "created_at": "2026-11-13T19:58:07Z",
-    "headline": "QUICK SPARK: Broadcom Scores Historic Win Over Nvidia as AVGO-NVDA Gap Explodes",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63264147/broadcom-stock-beating-nvidia-record-week-jensen-huang",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.5,
-        "confidence": 0.5,
-        "reason": "Record AVGO outperformance after Huang's exit suggests share and sentiment loss"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63263848",
-    "created_at": "2026-11-13T19:51:56Z",
-    "headline": "'Meta Testing New Prediction-Market App With Employees'- WSJ",
-    "url": "https://www.benzinga.com/news/26/11/63263848/meta-testing-new-prediction-market-app-employees-wsj",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Internal testing of prediction-market app is early and unlikely to move price"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63263618",
-    "created_at": "2026-11-13T19:46:27Z",
-    "headline": "'Hassett Denies Report He\u2019s Leaving White House: \u2018Not True'- CNBC",
-    "url": "https://www.benzinga.com/news/26/11/63263618/hassett-denies-report-he-s-leaving-white-house-not-true-cnbc",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63263558",
-    "created_at": "2026-11-13T19:45:06Z",
-    "headline": "Elon Musk's SpaceX\u2013Tesla Merger 'Almost Inconceivable' to Avoid, Biographer Says",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63263558/spacex-tesla-merger-2",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Commentary on merger likelihood is speculative; minimal near-term impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63266095",
-    "created_at": "2026-11-13T20:28:59Z",
-    "headline": "Nvidia In Process Of Selecting Search Firm, No Formal Candidates Engaged To Succeed Jensen Huang - CNBC",
-    "url": "https://www.benzinga.com/news/26/11/63266095/nvidia-process-selecting-search-firm-no-formal-candidates-engaged-succeed-jensen-huang-cnbc",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "CEO succession search begun; leadership uncertainty, but no candidates yet."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "122730650",
-    "created_at": "2026-11-14T00:01:27Z",
-    "headline": "JPMorgan Chase Declares Dividends on Series II, OO, and PP Preferred Stock",
-    "url": "https://www.moomoo.com/hans/news/post/1004625917/press-release-jpmorganchase-declares-preferred-stock-dividends",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63272299",
-    "created_at": "2026-11-13T22:47:18Z",
-    "headline": "'Outages Include Air Traffic Control Radars And Radio Frequencies, Source Says'- CNN",
-    "url": "https://www.benzinga.com/news/26/11/63272299/outages-include-air-traffic-control-radars-and-radio-frequencies-source-says-cnn",
+    "id": "63279788",
+    "created_at": "2026-11-16T07:57:41Z",
+    "headline": "Chip Stocks Have 'Flushed Out Everybody:' Ryan Detrick Calls the 17% SOXX Rebound a Historic 'Buying Thrust'",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63279788/chip-stocks-have-flushed-out-everybody-ryan-detrick-calls-the-17-soxx-rebound-a-historic-buying-thrust",
     "source": "benzinga",
     "market_risk": 0.2,
     "impacts": [
       {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Nationwide FAA ground stop disrupts air travel; limited market impact"
+        "ticker": "MU",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Strong chip-sector rebound and bullish buying thrust signal"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "122569509",
-    "created_at": "2026-11-13T22:32:09Z",
-    "headline": "Amazon YVR2 Fulfillment Center Workers Covered by Binding Collective Agreement",
-    "url": "https://www.newswire.ca/news-releases/amazon-workers-in-delta-win-first-union-contract-in-north-america-888332994.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "122569502",
-    "created_at": "2026-11-13T22:32:03Z",
-    "headline": "AMD Insider Sells Shares Worth Over $5 Million",
-    "url": "https://www.marketscreener.com/news/advanced-micro-devices-insider-sold-shares-worth-5-083-920-according-to-a-recent-sec-filing-ce785eded98ef023",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "122567730",
-    "created_at": "2026-11-13T22:31:27Z",
-    "headline": "Epic Games Files Response Brief in Supreme Court Contempt Case Against Apple",
-    "url": "https://appleosophy.com/wire/0f4obpw/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Epic's brief keeps App Store contempt ruling and commission-policy risk alive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "122567729",
-    "created_at": "2026-11-13T22:31:24Z",
-    "headline": "Lam Research CFO Douglas Bettinger Appointed to Marvell Technology Board",
-    "url": "https://ai-techpark.com/marvell-names-three-new-independent-directors-to-its-board/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63271680",
-    "created_at": "2026-11-13T22:11:16Z",
-    "headline": "'FBI Said to Probe Whether Software Update Caused Mass FAA Outage'- Bloomberg",
-    "url": "https://www.benzinga.com/news/26/11/63271680/fbi-said-probe-whether-software-update-caused-mass-faa-outage-bloomberg",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "FBI probe into FAA outage cause; no clear market effect"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63271367",
-    "created_at": "2026-11-13T22:00:08Z",
-    "headline": "Bitcoin, Ethereum, XRP Bottom Calls Get Louder but Prediction Markets Disagree",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/11/63271367/bitcoin-ethereum-xrp-bottom-calls-get-louder-but-prediction-markets-disagree",
+    "id": "63279667",
+    "created_at": "2026-11-16T07:33:26Z",
+    "headline": "America's AI Boom Has a Hidden Cost \u2014 Top Economist Warns Inflation Is Rising, Capital Is Being Sucked Away, and the Rest of the Economy Is Falling Behind",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63279667/moodys-economist-warns-ai-spending-squeezing-us-growth-investment-slowdown",
     "source": "benzinga",
     "market_risk": 0.3,
     "impacts": [],
     "scorer": "claude"
   },
   {
-    "id": "63271193",
-    "created_at": "2026-11-13T21:52:02Z",
-    "headline": "'The Reason For The Ground Stop Was Not Immediately Clear; Preliminary Reports Indicate This Is Not A Cyberattack, According To Two Law Enforcement Officials'-CNN",
-    "url": "https://www.benzinga.com/news/26/11/63271193/reason-ground-stop-was-not-immediately-clear-preliminary-reports-indicate-not-cyberattack-according-",
+    "id": "63279519",
+    "created_at": "2026-11-16T07:17:22Z",
+    "headline": "Elon Musk Admits Tesla Cybercab's $300 Monthly Fee Is Too High \u2014 MKBHD Says His Headshave Bet Isn't Over as Deliveries Remain Invite-Only",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63279519/elon-musk-admits-tesla-cybercabs-300-monthly-fee-is-too-high-mkbhd-says-his-headshave-bet-isnt-over-as-deliveries-remain-invite-only",
     "source": "benzinga",
-    "market_risk": 0.15,
+    "market_risk": 0.1,
     "impacts": [
       {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Ground stop cause unclear; not a cyberattack per preliminary reports"
+        "ticker": "TSLA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Cybercab fee admitted too high; deliveries invite-only"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63271091",
-    "created_at": "2026-11-13T21:48:57Z",
-    "headline": "\u2018Nvidia Letting Jensen Go is Terrible for America\u2019: Podcaster Lex Fridman Compares Chipmaker to Apple Firing Steve Jobs",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63271091/nvidia-letting-jensen-go-is-terrible-for-america-podcaster-lex-fridman-compares-chipmaker-to-apple-firing-steve-jobs",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Reported CEO departure controversy; unverified commentary on leadership change"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63270821",
-    "created_at": "2026-11-13T21:43:25Z",
-    "headline": "'US Treasury Weighs Short-Term Loan to Help Venezuela Pay IDB Debt'- Bloomberg",
-    "url": "https://www.benzinga.com/news/26/11/63270821/us-treasury-weighs-short-term-loan-help-venezuela-pay-idb-debt-bloomberg",
-    "source": "benzinga",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63270748",
-    "created_at": "2026-11-13T21:41:05Z",
-    "headline": "Total Delays Into Or Out Of U.S. Today Reaches 6,575",
-    "url": "https://www.benzinga.com/news/26/11/63270748/total-delays-or-out-u-s-today-reaches-6-575",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.05,
-        "confidence": 0.2,
-        "reason": "Flight delays reach 6,575; ongoing FAA disruption"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63270399",
-    "created_at": "2026-11-13T21:33:05Z",
-    "headline": "Rosenblatt Maintains Buy on NVIDIA, Lowers Price Target to $300",
-    "url": "https://www.benzinga.com/news/26/11/63270399/rosenblatt-maintains-buy-nvidia-lowers-price-target-300",
+    "id": "63279232",
+    "created_at": "2026-11-16T06:31:33Z",
+    "headline": "'Trump Administration to Name Nvidia Among AI \u2018National Champions\u2019' - WSJ Exclusive",
+    "url": "https://www.benzinga.com/news/26/11/63279232/trump-administration-name-nvidia-among-ai-national-champions-wsj-exclusive",
     "source": "benzinga",
     "market_risk": 0.1,
     "impacts": [
       {
         "ticker": "NVDA",
-        "sentiment": -0.1,
+        "sentiment": 0.5,
+        "confidence": 0.6,
+        "reason": "WSJ reports Nvidia named AI national champion by administration"
+      },
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
         "confidence": 0.3,
-        "reason": "Buy rating kept, but price target cut to $300"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "122469078",
-    "created_at": "2026-11-13T21:31:27Z",
-    "headline": "Apple Releases tvOS 27.2.1 Update",
-    "url": "https://appleosophy.com/2026/11/13/apple-rolls-out-tvos-27-2-1-with-support-for-siri-ai-on-older-apple-tv-models/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "122469077",
-    "created_at": "2026-11-13T21:31:27Z",
-    "headline": "Amazon Developing 'World Product Graph' to Expand Shopping Data",
-    "url": "https://www.pymnts.com/commerce/ecommerce/2026/amazon-targets-google-walmart-with-plan-catalog-every-product-online/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
+        "reason": "Named among AI champions; indirect policy tailwind"
+      },
       {
         "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Named among AI champions; indirect policy tailwind"
+      },
+      {
+        "ticker": "SPY",
         "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Early-stage reported product data initiative; minor relevance"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63269869",
-    "created_at": "2026-11-13T21:21:29Z",
-    "headline": "'Trump will have historic meeting with Xi, Putin in China to talk nuclear arms control' - NY Post",
-    "url": "https://www.benzinga.com/news/26/11/63269869/trump-will-have-historic-meeting-xi-putin-china-talk-nuclear-arms-control-ny-post",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.0,
         "confidence": 0.2,
-        "reason": "Geopolitical summit headline; impact unclear, likely limited"
+        "reason": "Minor index effect from mega-cap AI policy news"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63269765",
-    "created_at": "2026-11-13T21:19:20Z",
-    "headline": "'FAA confirms nationwide ground stop due to widespread ATC frequency issues' - The Air Current",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63269765/faa-confirms-nationwide-ground-stop-due-widespread-atc-frequency-issues-air-current",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.35,
-        "reason": "Nationwide ground stop could cause short-term market disruption"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63269563",
-    "created_at": "2026-11-13T21:17:32Z",
-    "headline": "Nvidia Loses Its Founder, AMD and Broadcom Take the Crown: This Week on Wall Street",
-    "url": "https://www.benzinga.com/markets/market-summary/26/11/63269563/this-week-on-wall-street-nvidia-huang-amd-broadcom-fed-hike",
+    "id": "63279213",
+    "created_at": "2026-11-16T06:29:37Z",
+    "headline": "What Big Money Bought In Q3 While Friday The 13th Lived Up To Its Name",
+    "url": "https://www.benzinga.com/opinion/26/11/63279213/what-big-money-bought-in-q3-while-friday-the-13th-lived-up-to-its-name",
     "source": "benzinga",
     "market_risk": 0.5,
     "impacts": [
       {
-        "ticker": "AMD",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "18% weekly gain, but hot inflation raises rate-hike risk"
-      },
-      {
         "ticker": "NVDA",
         "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Founder departure news plus rate-hike fears weigh on sentiment"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.2,
-        "confidence": 0.35,
-        "reason": "Hot inflation and 5.15% 10-year yield pressure growth stocks"
-      },
-      {
-        "ticker": "SPY",
-        "sentiment": -0.15,
-        "confidence": 0.35,
-        "reason": "Fed hike possibility and rising yields weigh on broad market"
+        "confidence": 0.3,
+        "reason": "Hot 6.5% PPI and Fed hike talk pressure high-multiple tech"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63268257",
-    "created_at": "2026-11-13T21:01:37Z",
-    "headline": "Federal Aviation Administration Issues National Ground Stop, Citing 'Extraordinary Circumstances'",
-    "url": "https://www.benzinga.com/content/63268257/federal-aviation-administration-issues-national-ground-stop-citing-extraordinary-circumstances",
+    "id": "63279199",
+    "created_at": "2026-11-16T06:27:59Z",
+    "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63279199/stock-market-will-sp-500-open-up-or-down-today-78",
+    "source": "benzinga",
+    "market_risk": 0.5,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.5,
+        "reason": "CEO exit weighs on Nvidia; futures weak"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Nasdaq-heavy weakness from Nvidia CEO exit"
+      },
+      {
+        "ticker": "SPY",
+        "sentiment": -0.15,
+        "confidence": 0.4,
+        "reason": "Broad open weakness tied to Nvidia leadership news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63278805",
+    "created_at": "2026-11-16T05:18:49Z",
+    "headline": "Nasdaq Falls Over 200 Points but Still Posts Weekly Gain; Investor Sentiment Weakens as Fear & Greed Index Remains in 'Fear' Zone",
+    "url": "https://www.benzinga.com/markets/market-summary/26/11/63278805/nasdaq-falls-over-200-points-but-still-posts-weekly-gain-investor-sentiment-weakens-as-fear-greed-index-remains-in-fear-zone",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Nasdaq down 0.91%; fear sentiment weighs on chip leaders"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63278668",
+    "created_at": "2026-11-16T04:32:41Z",
+    "headline": "\u2018The FBI Doesn\u2019t Take Petitions\u2019: Anthony Scaramucci Says \u2018Stop Comparing\u2019 Jensen Huang With Sam Altman",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63278668/the-fbi-doesnt-take-petitions-anthony-scaramucci-says-stop-comparing-jensen-huang-with-sam-altman",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Commentary on CEO resignation; limited new information"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123387001",
+    "created_at": "2026-11-16T02:01:37Z",
+    "headline": "ExxonMobil Updates Production Timelines for Guyana Projects",
+    "url": "https://www.moomoo.com/hans/news/flash/1004486261/exxonmobil-whiptail-anticipated-to-begin-production-in-2027-hammerhead-expected",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Guyana project timeline updates may imply modest delays"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123386992",
+    "created_at": "2026-11-16T02:01:27Z",
+    "headline": "Vulcan Rocket Failure Impacts Amazon Kuiper Satellite Mission",
+    "url": "https://www.kyfreepress.com.au/world/rocket-from-boeing-lockheed-firm-fails-mid-flight/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Loss of 40 Kuiper satellites delays broadband constellation"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63278302",
+    "created_at": "2026-11-16T01:45:31Z",
+    "headline": "Jensen Huang Could Return to Nvidia as Silicon Valley Plans \u2018War Room,\u2019 While Anthony Scaramucci Says \u2018Not Happening\u2019",
+    "url": "https://www.benzinga.com/markets/tech/26/11/63278302/jensen-huang-nvidia-comeback-scaramucci",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Huang comeback odds rising; uncertain, investigations may block"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63278275",
+    "created_at": "2026-11-16T01:26:08Z",
+    "headline": "Xinhua Reported Meeting Of Chinese, Russian, U.S. Heads Of State To Be Held In China's Shenzhen November 19",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63278275/xinhua-reported-meeting-chinese-russian-u-s-heads-state-be-held-china-s-shenzhen-november-19",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Possible US-China-Russia summit may ease geopolitical tension"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63277688",
+    "created_at": "2026-11-15T21:35:06Z",
+    "headline": "Anthropic IPO Is Coming Up: Top Companies Set to Benefit if ANT Stock Jumps",
+    "url": "https://www.benzinga.com/markets/ipos/26/11/63277688/anthropic-ipo-is-coming-up-top-companies-set-to-benefit-if-ant-stock-jumps",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.25,
+        "confidence": 0.3,
+        "reason": "Anthropic IPO may lift Amazon, a major Anthropic investor"
+      },
+      {
+        "ticker": "GOOGL",
+        "sentiment": 0.25,
+        "confidence": 0.3,
+        "reason": "Anthropic IPO may lift Google, a major Anthropic investor"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63277592",
+    "created_at": "2026-11-15T20:30:08Z",
+    "headline": "Dow Jones, Nasdaq 100, and S&P 500 Outlooks: Key Stock Market News This Week",
+    "url": "https://www.benzinga.com/markets/equities/26/11/63277592/dow-jones-nasdaq-100-and-sp-500-outlooks-key-stock-market-news-this-week",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "63277576",
+    "created_at": "2026-11-15T20:20:05Z",
+    "headline": "Financial Times Reported Sunday, Jensen Huang Discusses Comeback As Nvidia CEO With Allies",
+    "url": "https://www.benzinga.com/news/26/11/63277576/financial-times-reported-sunday-jensen-huang-discusses-comeback-nvidia-ceo-allies",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Huang's comeback framing hints at leadership uncertainty"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63277561",
+    "created_at": "2026-11-15T20:16:10Z",
+    "headline": "Fed's Schmid Said Work Involving Inflation Has Only Become Tougher Since Warsh\u2019s Jackson Hole Speech",
+    "url": "https://www.benzinga.com/quote/SPY",
     "source": "benzinga",
     "market_risk": 0.3,
     "impacts": [
       {
         "ticker": "SPY",
-        "sentiment": -0.2,
-        "confidence": 0.35,
-        "reason": "National FAA ground stop may cause short-term market disruption"
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Hawkish Fed signal on sticky inflation weighs on equities"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63267180",
-    "created_at": "2026-11-13T20:46:17Z",
-    "headline": "\u2018Amazon Revives Deal With Troubled Data Centre Venture Backed By Rick Perry\u2019 - FT",
-    "url": "https://www.benzinga.com/news/26/11/63267180/amazon-revives-deal-troubled-data-centre-venture-backed-rick-perry-ft",
+    "id": "63277539",
+    "created_at": "2026-11-15T20:14:04Z",
+    "headline": "KC Fed President Schmid, Speaking At A Banking Conference In Hawaii Sunday, Said Inflation Is Running Too High, Uncomfortably Above 2% Target And Moving In Wrong Direction, Said Fed Has More Work To Do On Inflation",
+    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63277539/kc-fed-president-schmid-speaking-banking-conference-hawaii-sunday-said-inflation-running-too-high-un",
     "source": "benzinga",
-    "market_risk": 0.0,
+    "market_risk": 0.3,
     "impacts": [
       {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Reviving deal with troubled data centre venture is a modest risk"
+        "ticker": "SPY",
+        "sentiment": -0.25,
+        "confidence": 0.35,
+        "reason": "Fed official says inflation too high, more tightening work needed"
       }
     ],
     "scorer": "claude"
   },
   {
-    "id": "63266602",
-    "created_at": "2026-11-13T20:37:21Z",
-    "headline": "Josh Kushner Bets Big on Elon Musk, More Than Doubles Thrive Capital Stake in SpaceX Stock in Q3",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63266602/josh-kushner-bets-big-on-elon-musk-more-than-doubles-thrive-capital-stake-in-spacex-stock-in-q3",
+    "id": "63277522",
+    "created_at": "2026-11-15T20:00:30Z",
+    "headline": "Nvidia Earnings Without Jensen Huang Could Trigger $341 Billion Stock Swing As Options Traders Brace For Volatility",
+    "url": "https://www.benzinga.com/markets/options/26/11/63277522/nvidia-earnings-without-jensen-huang-could-trigger-341-billion-stock-swing-as-options-traders-brace-for-volatility",
     "source": "benzinga",
-    "market_risk": 0.0,
-    "impacts": [],
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.0,
+        "confidence": 0.3,
+        "reason": "Large expected earnings move, but direction unclear"
+      }
+    ],
     "scorer": "claude"
   }
 ]

@@ -1,10 +1,21 @@
 {
-  "time": "2026-11-14T01:29:56.738006+00:00",
-  "halts": [
-    "Market closed"
-  ],
+  "time": "2026-11-16T14:36:14.283393+00:00",
+  "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "XOM",
+      "side": "sell",
+      "reason": "max hold reached (12 days)",
+      "qty": 23.4536,
+      "notional": 3949.47,
+      "realized_pl": -75.8,
+      "status": "submitted",
+      "order_id": "c4d2849d-9e5a-4b12-be38-418e53e4e6c0",
+      "book": "frac",
+      "time": "2026-11-16T14:36:14.283393+00:00"
+    }
+  ],
   "settings": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,
