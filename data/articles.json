@@ -1061,84 +1061,6 @@
     "scorer": "claude"
   },
   {
-    "id": "63277592",
-    "created_at": "2026-11-15T20:30:08Z",
-    "headline": "Dow Jones, Nasdaq 100, and S&P 500 Outlooks: Key Stock Market News This Week",
-    "url": "https://www.benzinga.com/markets/equities/26/11/63277592/dow-jones-nasdaq-100-and-sp-500-outlooks-key-stock-market-news-this-week",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "63277576",
-    "created_at": "2026-11-15T20:20:05Z",
-    "headline": "Financial Times Reported Sunday, Jensen Huang Discusses Comeback As Nvidia CEO With Allies",
-    "url": "https://www.benzinga.com/news/26/11/63277576/financial-times-reported-sunday-jensen-huang-discusses-comeback-nvidia-ceo-allies",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Huang's comeback framing hints at leadership uncertainty"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63277561",
-    "created_at": "2026-11-15T20:16:10Z",
-    "headline": "Fed's Schmid Said Work Involving Inflation Has Only Become Tougher Since Warsh\u2019s Jackson Hole Speech",
-    "url": "https://www.benzinga.com/quote/SPY",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Hawkish Fed signal on sticky inflation weighs on equities"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63277539",
-    "created_at": "2026-11-15T20:14:04Z",
-    "headline": "KC Fed President Schmid, Speaking At A Banking Conference In Hawaii Sunday, Said Inflation Is Running Too High, Uncomfortably Above 2% Target And Moving In Wrong Direction, Said Fed Has More Work To Do On Inflation",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63277539/kc-fed-president-schmid-speaking-banking-conference-hawaii-sunday-said-inflation-running-too-high-un",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.25,
-        "confidence": 0.35,
-        "reason": "Fed official says inflation too high, more tightening work needed"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63277522",
-    "created_at": "2026-11-15T20:00:30Z",
-    "headline": "Nvidia Earnings Without Jensen Huang Could Trigger $341 Billion Stock Swing As Options Traders Brace For Volatility",
-    "url": "https://www.benzinga.com/markets/options/26/11/63277522/nvidia-earnings-without-jensen-huang-could-trigger-341-billion-stock-swing-as-options-traders-brace-for-volatility",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.3,
-        "reason": "Large expected earnings move, but direction unclear"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63297489",
     "created_at": "2026-11-16T15:29:12Z",
     "headline": "IREN Stock Is Falling Monday: What's Going On?",
@@ -2362,6 +2284,215 @@
         "sentiment": -0.1,
         "confidence": 0.25,
         "reason": "Political spy allegation touching Nvidia executive; unclear market impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63319325",
+    "created_at": "2026-11-16T20:30:26Z",
+    "headline": "NVIDIA, Home Depot On Deck Tuesday As AI Demand, Consumer Spending Face Test",
+    "url": "https://www.benzinga.com/news/26/11/63319325/nvidia-home-depot-on-deck-tuesday-as-ai-demand-consumer-spending-face-test",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.1,
+        "confidence": 0.4,
+        "reason": "Earnings test amid weaker stock setup and AI spending doubts"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63319299",
+    "created_at": "2026-11-16T20:30:09Z",
+    "headline": "TSMC Slumps Nearly 6% as Jensen Huang\u2019s Exit and AI Debt Fears Rattle Investors Ahead of Nvidia Earnings",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63319299/tsmc-nvidia-financing",
+    "source": "benzinga",
+    "market_risk": 0.5,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.6,
+        "confidence": 0.6,
+        "reason": "Huang exit and AI financing fears drive chain-wide selloff"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63319155",
+    "created_at": "2026-11-16T20:28:11Z",
+    "headline": "Applied Optoelectronics Stock Sinks Amid AI Outlook Fears",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63319155/applied-optoelectronics-stock-sinks-amid-ai-outlook-fears",
+    "source": "benzinga",
+    "market_risk": 0.3,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.3,
+        "reason": "Peer selloff cites Nvidia uncertainty and AI funding worries"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63318314",
+    "created_at": "2026-11-16T20:18:01Z",
+    "headline": "'A Zelle representative said that a technical issue on its platform originated with Chase' -NBC Report",
+    "url": "https://www.benzinga.com/news/26/11/63318314/zelle-representative-said-technical-issue-its-platform-originated-chase-nbc-report",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Zelle platform technical outage tied to Chase, possibly minor"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "123849783",
+    "created_at": "2026-11-16T20:02:56Z",
+    "headline": "JPMorgan Chase Discloses 5.22% Stake in Sibanye-Stillwater",
+    "url": "https://irw-press.com/de/mitteilung-ueber-den-erwerb-einer-wirtschaftlichen-beteiligung-an-wertpapieren-durch-jpmorgan-chase-co/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "123849780",
+    "created_at": "2026-11-16T20:02:25Z",
+    "headline": "AMD-Powered Lux Supercomputer Opens to Scientific Users",
+    "url": "https://www.globenewswire.com/en/news/technology-telecom",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "AMD-powered supercomputer enters service for DOE science users"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63317156",
+    "created_at": "2026-11-16T20:00:07Z",
+    "headline": "Sen. John Kennedy\u2019s Jaw Is \u2018Stuck on the Floor\u2019 After Jensen Huang\u2019s Nvidia Exit: If You\u2019re Going to Have an Affair, \u2018Make Sure It\u2019s Not With a Chinese Spy\u2019",
+    "url": "https://www.benzinga.com/news/politics/26/11/63317156/sen-john-kennedys-jaw-is-stuck-on-the-floor-after-jensen-huangs-nvidia-exit-if-youre-going-to-have-an-affair-make-sure-its-not-with-a",
+    "source": "benzinga",
+    "market_risk": 0.6,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.7,
+        "confidence": 0.7,
+        "reason": "CEO resignation over scandal; senators question $4B China chip sales"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63315498",
+    "created_at": "2026-11-16T19:36:42Z",
+    "headline": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63315498/palantir-dips-as-anthropic-ipo-nvidia-turmoil-and-rate-hike-bets-rattle-tech",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.4,
+        "confidence": 0.4,
+        "reason": "Nvidia uncertainty and rate-hike fears pressure tech stocks"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.3,
+        "confidence": 0.3,
+        "reason": "Rate-hike bets and Nvidia turmoil weigh on Nasdaq tech"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63315471",
+    "created_at": "2026-11-16T19:36:25Z",
+    "headline": "BZ Analysis: The 3x Leveraged Semiconductor ETF SOXL Recorded Its Largest Weekly Outflow Ever, At $4.2B",
+    "url": "https://www.benzinga.com/economics/26/11/63315471/bz-analysis-3x-leveraged-semiconductor-etf-soxl-recorded-its-largest-weekly-outflow-ever-4-2b",
+    "source": "benzinga",
+    "market_risk": 0.4,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Record semiconductor ETF outflow signals sector risk-off"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63315383",
+    "created_at": "2026-11-16T19:35:20Z",
+    "headline": "Goldman Sachs Research Expects Steady Global Economic Growth In 2027 Amid Lower Energy Prices And Ongoing Investment In AI",
+    "url": "https://www.benzinga.com/economics/26/11/63315383/goldman-sachs-research-expects-steady-global-economic-growth-2027-amid-lower-energy-prices-and-ongoi",
+    "source": "benzinga",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Goldman expects steady global growth and AI investment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63315340",
+    "created_at": "2026-11-16T19:34:28Z",
+    "headline": "BZ Analysis: Global Equity Funds Attracted +$98B In Inflows In The Week Ending November 11th, Their 2nd-largest Weekly Inflow On Record; The 4-Week Moving Average Of Inflows Is Up To ~$75B , Its Largest Reading On Record",
+    "url": "https://www.benzinga.com/economics/26/11/63315340/bz-analysis-global-equity-funds-attracted-98b-inflows-week-ending-november-11th-their-2nd-largest-we",
+    "source": "benzinga",
+    "market_risk": 0.2,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Record equity fund inflows support broad market demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "63315244",
+    "created_at": "2026-11-16T19:32:57Z",
+    "headline": "BZ Analysis: The NASDAQ 100 Has Recorded An Average Daily Swing Of 2.4% So Far In November, Putting It On Track For Its Most Volatile Month Since April 2025",
+    "url": "https://www.benzinga.com/economics/26/11/63315244/bz-analysis-nasdaq-100-has-recorded-average-daily-swing-2-4-so-far-november-putting-it-track-its-mos",
+    "source": "benzinga",
+    "market_risk": 0.5,
+    "impacts": [
+      {
+        "ticker": "SPY",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Nasdaq-100 on track for most volatile month since April 2025"
+      },
+      {
+        "ticker": "QQQ",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Elevated Nasdaq-100 daily swings signal heightened volatility"
       }
     ],
     "scorer": "claude"
