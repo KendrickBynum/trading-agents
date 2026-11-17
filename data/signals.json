@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T03:59:30.111978+00:00",
-  "market_risk": 0.157,
+  "generated_at": "2026-11-17T14:35:31.794119+00:00",
+  "market_risk": 0.124,
   "tickers": {
     "SPY": {
-      "score": -0.054,
-      "articles": 8,
-      "ai_articles": 8,
+      "score": -0.036,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "Goldman Sachs Research Expects Steady Global Economic Growth In 2027 Amid Lower Energy Prices And Ongoing Investment In AI",
@@ -45,9 +45,9 @@
       ]
     },
     "QQQ": {
-      "score": -0.223,
-      "articles": 5,
-      "ai_articles": 5,
+      "score": -0.233,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
@@ -69,33 +69,27 @@
           "time": "2026-11-16T16:00:35Z",
           "sentiment": -0.2,
           "reason": "Growth lagging defensive sectors; rotation away from tech"
-        },
-        {
-          "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Over China Chips \u2014 BIDU, RKLB, MSTR in Focus (UPDATED)",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63280484/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-scott-bessent-presses-nvidia-over-china-chips-bidu-rklb-mstr-in-focus",
-          "time": "2026-11-16T13:25:57Z",
-          "sentiment": -0.2,
-          "reason": "Nasdaq 100 futures trading lower on tech weakness"
-        },
-        {
-          "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63279199/stock-market-will-sp-500-open-up-or-down-today-78",
-          "time": "2026-11-16T06:27:59Z",
-          "sentiment": -0.2,
-          "reason": "Nasdaq-heavy weakness from Nvidia CEO exit"
         }
       ]
     },
     "AAPL": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Apple Faces French Trial Over Alleged Planned Obsolescence",
+          "url": "https://www.manilatimes.net/2026/11/17/world/apple-faces-french-trial-over-alleged-planned-obsolescence-of-iphones-source/2471819",
+          "time": "2026-11-17T11:31:18Z",
+          "sentiment": -0.2,
+          "reason": "French planned-obsolescence trial poses legal and reputational risk"
+        }
+      ]
     },
     "MSFT": {
-      "score": -0.166,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
@@ -103,21 +97,28 @@
           "time": "2026-11-16T22:31:21Z",
           "sentiment": -0.15,
           "reason": "Proposed class action over 365 outage; legal and reputational cost, likely small"
-        },
-        {
-          "headline": "Nebius Group Stock Slides Again Monday: What's Going On?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63288393/nebius-group-stock-slides-again-monday-whats-going-on",
-          "time": "2026-11-16T13:35:31Z",
-          "sentiment": -0.2,
-          "reason": "Reported data center delays weigh on Microsoft's AI capacity outlook"
         }
       ]
     },
     "NVDA": {
-      "score": -0.329,
-      "articles": 47,
-      "ai_articles": 47,
+      "score": -0.307,
+      "articles": 29,
+      "ai_articles": 29,
       "headlines": [
+        {
+          "headline": "NVIDIA Issues Warning to Chip Buyers Regarding US Export Compliance",
+          "url": "https://www.marketscreener.com/news/nvidia-cautions-chip-buyers-over-potential-us-legal-action-tied-to-remote-access-for-chinese-firms-ce785edfd08af42c",
+          "time": "2026-11-17T12:32:23Z",
+          "sentiment": -0.2,
+          "reason": "Warning on export compliance risks could constrain China chip sales"
+        },
+        {
+          "headline": "AMD Shares Decline Following New Export Restrictions on AI Chips",
+          "url": "https://www.moomoo.com/community/feed/the-capital-breakdown-tuesday-november-17-2026-117631511494661",
+          "time": "2026-11-17T12:31:29Z",
+          "sentiment": -0.2,
+          "reason": "AI chip export restrictions create sector-wide demand and revenue risk"
+        },
         {
           "headline": "TSMC Slumps Nearly 6% as Jensen Huang\u2019s Exit and AI Debt Fears Rattle Investors Ahead of Nvidia Earnings",
           "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63319299/tsmc-nvidia-financing",
@@ -138,27 +139,13 @@
           "time": "2026-11-16T20:00:07Z",
           "sentiment": -0.7,
           "reason": "CEO resignation over scandal; senators question $4B China chip sales"
-        },
-        {
-          "headline": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63315498/palantir-dips-as-anthropic-ipo-nvidia-turmoil-and-rate-hike-bets-rattle-tech",
-          "time": "2026-11-16T19:36:42Z",
-          "sentiment": -0.4,
-          "reason": "Nvidia uncertainty and rate-hike fears pressure tech stocks"
-        },
-        {
-          "headline": "Nvidia China Trouble Could Spill Over to These AI Chip Stocks",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63315070/nvidia-china-chip-stock-fallout",
-          "time": "2026-11-16T19:30:11Z",
-          "sentiment": -0.5,
-          "reason": "New AI chip export restrictions threaten China revenue exposure"
         }
       ]
     },
     "AMZN": {
-      "score": 0.234,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.4,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Amazon\u2019s Big Week: First a New James Bond, Then Anthropic\u2019s IPO",
@@ -166,20 +153,6 @@
           "time": "2026-11-16T18:22:57Z",
           "sentiment": 0.4,
           "reason": "Anthropic stake could be worth about $150B at IPO pricing"
-        },
-        {
-          "headline": "Blackstone Digital Infrastructure Trust to Acquire 75% Interest in AWS Data Center Joint Ventures",
-          "url": "https://www.businesswire.com/newsroom/subject/merger-acquisition",
-          "time": "2026-11-16T14:31:20Z",
-          "sentiment": 0.15,
-          "reason": "$5B sale of 75% AWS data center JV interests; capital recycling, modestly positive"
-        },
-        {
-          "headline": "Reported November 15, 'Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites' - Reuters",
-          "url": "https://www.benzinga.com/news/26/11/63280757/reported-november-15-rocket-boeing-lockheed-firm-fails-mid-flight-destroys-payload-amazon-satellites",
-          "time": "2026-11-16T10:19:33Z",
-          "sentiment": -0.2,
-          "reason": "Launch failure destroyed Amazon Kuiper satellites, delaying deployment"
         }
       ]
     },
@@ -190,24 +163,31 @@
       "headlines": []
     },
     "META": {
-      "score": -0.3,
+      "score": -0.2,
       "articles": 1,
       "ai_articles": 1,
       "headlines": [
         {
-          "headline": "'Soft Recession or Something More Dramatic:' Former SEC Chair Gary Gensler Warns AI Boom Could End in Dot-Com-Scale Bust \u2014 'They Loaned Too Much Money, Too Fast'",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63283689/soft-recession-or-something-more-dramatic-former-sec-chair-gary-gensler-warns-ai-boom-could-end-in-dot-com-scale-bust-they-loaned-too-much-money-too-fast",
-          "time": "2026-11-16T12:05:59Z",
-          "sentiment": -0.3,
-          "reason": "AI bubble warning could hit AI-exposed megacap valuations"
+          "headline": "Meta, Amazon, and Google Lobbying Fails to Stop China Data Center Curbs",
+          "url": "https://www.marketscreener.com/news/amazon-google-meta-lobbying-fails-to-stop-trump-from-pursuing-china-data-center-curbs-ce785edcd88df327",
+          "time": "2026-11-17T13:01:56Z",
+          "sentiment": -0.2,
+          "reason": "Failed lobbying against China data center restrictions limits growth options"
         }
       ]
     },
     "JPM": {
-      "score": -0.2,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.277,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "JPMorgan Chase Reports Widespread Banking Disruption Due to Software Bug",
+          "url": "https://www.newswire.lk/2026/11/17/why-us-banks-faced-widespread-outages-on-monday/",
+          "time": "2026-11-17T11:31:32Z",
+          "sentiment": -0.3,
+          "reason": "Software-bug outage disrupted customer banking; reputational and operational risk"
+        },
         {
           "headline": "'A Zelle representative said that a technical issue on its platform originated with Chase' -NBC Report",
           "url": "https://www.benzinga.com/news/26/11/63318314/zelle-representative-said-technical-issue-its-platform-originated-chase-nbc-report",
@@ -253,37 +233,23 @@
       ]
     },
     "MU": {
-      "score": -0.187,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.287,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Situational Awareness Fund Liquidates Micron Technology Stake",
+          "url": "https://www.barchart.com/story/news/8870481/leopold-aschenbrenners-situational-awareness-reports-92-drop-in-holdings-exits-micron-stake",
+          "time": "2026-11-17T11:31:45Z",
+          "sentiment": -0.3,
+          "reason": "Full exit by a notable fund may signal weakening institutional conviction"
+        },
         {
           "headline": "'US moves to tighten AI chip export rules' - Financial Times",
           "url": "https://www.benzinga.com/news/26/11/63292997/us-moves-tighten-ai-chip-export-rules-financial-times",
           "time": "2026-11-16T14:46:33Z",
           "sentiment": -0.2,
           "reason": "AI chip export tightening may reduce memory demand from China"
-        },
-        {
-          "headline": "What's Going On With Micron Technology Stock Monday?",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63289274/whats-going-on-with-micron-technology-stock-monday-9",
-          "time": "2026-11-16T13:54:47Z",
-          "sentiment": -0.4,
-          "reason": "Shares down 6% in broad tech selloff; technicals point lower"
-        },
-        {
-          "headline": "Micron, Samsung, and SK Hynix Fail to Dismiss DRAM Price-Fixing Lawsuit",
-          "url": "https://www.marketscreener.com/news/micron-samsung-sk-hynix-fail-to-get-dram-price-fixing-lawsuit-dismissed-ce785eded088f123",
-          "time": "2026-11-16T11:31:53Z",
-          "sentiment": -0.2,
-          "reason": "Court denies dismissal of DRAM price-fixing lawsuit; legal overhang"
-        },
-        {
-          "headline": "Chip Stocks Have 'Flushed Out Everybody:' Ryan Detrick Calls the 17% SOXX Rebound a Historic 'Buying Thrust'",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63279788/chip-stocks-have-flushed-out-everybody-ryan-detrick-calls-the-17-soxx-rebound-a-historic-buying-thrust",
-          "time": "2026-11-16T07:57:41Z",
-          "sentiment": 0.3,
-          "reason": "Strong chip-sector rebound and bullish buying thrust signal"
         }
       ]
     },
@@ -294,30 +260,23 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.214,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.196,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Elon Musk Hints at Robotaxi Expansion for Model Y Owners",
+          "url": "https://www.moomoo.com/stock/TSLA261106C350000-US?chain_id=Name1K9-3FXPhg.1lfo5sg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F151699427%22%7D",
+          "time": "2026-11-17T12:33:00Z",
+          "sentiment": 0.15,
+          "reason": "Speculative Robotaxi expansion hint supports autonomy narrative, unconfirmed"
+        },
         {
           "headline": "Tesla Announces \u20ac3 Billion Expansion of German Gigafactory",
           "url": "https://www.fidelity.com/news/article/company-news/202611160938RTRSNEWSCOMBINED_KCN3WR1QL-OUSBS_1",
           "time": "2026-11-16T16:01:24Z",
           "sentiment": 0.4,
           "reason": "\u20ac3B German gigafactory expansion for Cybercab production"
-        },
-        {
-          "headline": "Tesla To Invest Additional \u20ac3B In Its Gr\u00fcnheide Gigfactory In Germany - FAZ",
-          "url": "https://www.benzinga.com/news/26/11/63289648/tesla-invest-additional-3b-its-gr-nheide-gigfactory-germany-faz",
-          "time": "2026-11-16T14:00:42Z",
-          "sentiment": 0.15,
-          "reason": "Additional \u20ac3B Gigafactory Gr\u00fcnheide investment is modestly positive"
-        },
-        {
-          "headline": "Elon Musk Admits Tesla Cybercab's $300 Monthly Fee Is Too High \u2014 MKBHD Says His Headshave Bet Isn't Over as Deliveries Remain Invite-Only",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63279519/elon-musk-admits-tesla-cybercabs-300-monthly-fee-is-too-high-mkbhd-says-his-headshave-bet-isnt-over-as-deliveries-remain-invite-only",
-          "time": "2026-11-16T07:17:22Z",
-          "sentiment": -0.2,
-          "reason": "Cybercab fee admitted too high; deliveries invite-only"
         }
       ]
     },
@@ -328,10 +287,17 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.122,
+      "score": -0.265,
       "articles": 6,
       "ai_articles": 6,
       "headlines": [
+        {
+          "headline": "AMD Shares Decline Following New Export Restrictions on AI Chips",
+          "url": "https://www.moomoo.com/community/feed/the-capital-breakdown-tuesday-november-17-2026-117631511494661",
+          "time": "2026-11-17T12:31:29Z",
+          "sentiment": -0.4,
+          "reason": "New AI chip export restrictions already drove a 5.6% share drop"
+        },
         {
           "headline": "AMD-Powered Lux Supercomputer Opens to Scientific Users",
           "url": "https://www.globenewswire.com/en/news/technology-telecom",
@@ -359,13 +325,6 @@
           "time": "2026-11-16T15:26:35Z",
           "sentiment": -0.3,
           "reason": "Export restrictions on advanced AI chips weigh on AMD accelerator demand"
-        },
-        {
-          "headline": "'US moves to tighten AI chip export rules' - Financial Times",
-          "url": "https://www.benzinga.com/news/26/11/63292997/us-moves-tighten-ai-chip-export-rules-financial-times",
-          "time": "2026-11-16T14:46:33Z",
-          "sentiment": -0.3,
-          "reason": "Tighter export rules limit AMD AI chip sales"
         }
       ]
     }
