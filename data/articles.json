@@ -970,74 +970,6 @@
     "scorer": "claude"
   },
   {
-    "id": "123387001",
-    "created_at": "2026-11-16T02:01:37Z",
-    "headline": "ExxonMobil Updates Production Timelines for Guyana Projects",
-    "url": "https://www.moomoo.com/hans/news/flash/1004486261/exxonmobil-whiptail-anticipated-to-begin-production-in-2027-hammerhead-expected",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Guyana project timeline updates may imply modest delays"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "123386992",
-    "created_at": "2026-11-16T02:01:27Z",
-    "headline": "Vulcan Rocket Failure Impacts Amazon Kuiper Satellite Mission",
-    "url": "https://www.kyfreepress.com.au/world/rocket-from-boeing-lockheed-firm-fails-mid-flight/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Loss of 40 Kuiper satellites delays broadband constellation"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63278302",
-    "created_at": "2026-11-16T01:45:31Z",
-    "headline": "Jensen Huang Could Return to Nvidia as Silicon Valley Plans \u2018War Room,\u2019 While Anthony Scaramucci Says \u2018Not Happening\u2019",
-    "url": "https://www.benzinga.com/markets/tech/26/11/63278302/jensen-huang-nvidia-comeback-scaramucci",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Huang comeback odds rising; uncertain, investigations may block"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63278275",
-    "created_at": "2026-11-16T01:26:08Z",
-    "headline": "Xinhua Reported Meeting Of Chinese, Russian, U.S. Heads Of State To Be Held In China's Shenzhen November 19",
-    "url": "https://www.benzinga.com/economics/macro-economic-events/26/11/63278275/xinhua-reported-meeting-chinese-russian-u-s-heads-state-be-held-china-s-shenzhen-november-19",
-    "source": "benzinga",
-    "market_risk": 0.2,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Possible US-China-Russia summit may ease geopolitical tension"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "63297489",
     "created_at": "2026-11-16T15:29:12Z",
     "headline": "IREN Stock Is Falling Monday: What's Going On?",
@@ -2540,6 +2472,33 @@
         "reason": "Internal executive appointment; routine and unlikely to move the stock"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "124187195",
+    "created_at": "2026-11-17T03:01:25Z",
+    "headline": "Microsoft Releases Preliminary Report on Recent 365 Service Outage",
+    "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Preliminary outage report; disruption likely already known and minor"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "124178455",
+    "created_at": "2026-11-17T00:01:27Z",
+    "headline": "Teamsters Organize Rally for Terminated Amazon Delivery Drivers in New York City",
+    "url": "https://www.prnewswire.com/news-releases/teamsters-rally-to-support-amazon-e-bike-delivery-drivers-illegally-fired-by-company-302941100.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
