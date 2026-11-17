@@ -1,40 +1,31 @@
 {
-  "generated_at": "2026-11-17T19:35:19.759749+00:00",
-  "market_risk": 0.066,
+  "generated_at": "2026-11-17T20:35:27.559505+00:00",
+  "market_risk": 0.048,
   "tickers": {
     "SPY": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Goldman Sachs Research Expects Steady Global Economic Growth In 2027 Amid Lower Energy Prices And Ongoing Investment In AI",
-          "url": "https://www.benzinga.com/economics/26/11/63315383/goldman-sachs-research-expects-steady-global-economic-growth-2027-amid-lower-energy-prices-and-ongoi",
-          "time": "2026-11-16T19:35:20Z",
-          "sentiment": 0.2,
-          "reason": "Goldman expects steady global growth and AI investment"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "QQQ": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63315498/palantir-dips-as-anthropic-ipo-nvidia-turmoil-and-rate-hike-bets-rattle-tech",
-          "time": "2026-11-16T19:36:42Z",
-          "sentiment": -0.3,
-          "reason": "Rate-hike bets and Nvidia turmoil weigh on Nasdaq tech"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "AAPL": {
-      "score": 0.087,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.083,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Apple Reports Widespread Internal and Consumer Service Outages",
+          "url": "https://appleosophy.com/wire/lu3evxk/",
+          "time": "2026-11-17T20:01:26Z",
+          "sentiment": -0.3,
+          "reason": "Widespread service outages may hurt sales and reputation short-term"
+        },
         {
           "headline": "Apple Reportedly Nearing Long-Term DRAM Supply Agreement With Samsung",
           "url": "https://appleosophy.com/wire/k4cb19g/",
@@ -66,9 +57,9 @@
       ]
     },
     "NVDA": {
-      "score": -0.343,
-      "articles": 6,
-      "ai_articles": 6,
+      "score": -0.2,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "NVIDIA Issues Warning to Chip Buyers Regarding US Export Compliance",
@@ -83,27 +74,6 @@
           "time": "2026-11-17T12:31:29Z",
           "sentiment": -0.2,
           "reason": "AI chip export restrictions create sector-wide demand and revenue risk"
-        },
-        {
-          "headline": "TSMC Slumps Nearly 6% as Jensen Huang\u2019s Exit and AI Debt Fears Rattle Investors Ahead of Nvidia Earnings",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63319299/tsmc-nvidia-financing",
-          "time": "2026-11-16T20:30:09Z",
-          "sentiment": -0.6,
-          "reason": "Huang exit and AI financing fears drive chain-wide selloff"
-        },
-        {
-          "headline": "Applied Optoelectronics Stock Sinks Amid AI Outlook Fears",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63319155/applied-optoelectronics-stock-sinks-amid-ai-outlook-fears",
-          "time": "2026-11-16T20:28:11Z",
-          "sentiment": -0.3,
-          "reason": "Peer selloff cites Nvidia uncertainty and AI funding worries"
-        },
-        {
-          "headline": "Sen. John Kennedy\u2019s Jaw Is \u2018Stuck on the Floor\u2019 After Jensen Huang\u2019s Nvidia Exit: If You\u2019re Going to Have an Affair, \u2018Make Sure It\u2019s Not With a Chinese Spy\u2019",
-          "url": "https://www.benzinga.com/news/politics/26/11/63317156/sen-john-kennedys-jaw-is-stuck-on-the-floor-after-jensen-huangs-nvidia-exit-if-youre-going-to-have-an-affair-make-sure-its-not-with-a",
-          "time": "2026-11-16T20:00:07Z",
-          "sentiment": -0.7,
-          "reason": "CEO resignation over scandal; senators question $4B China chip sales"
         }
       ]
     },
@@ -141,9 +111,9 @@
       ]
     },
     "JPM": {
-      "score": -0.286,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.3,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "JPMorgan Chase Reports Widespread Banking Disruption Due to Software Bug",
@@ -151,13 +121,6 @@
           "time": "2026-11-17T11:31:32Z",
           "sentiment": -0.3,
           "reason": "Software-bug outage disrupted customer banking; reputational and operational risk"
-        },
-        {
-          "headline": "'A Zelle representative said that a technical issue on its platform originated with Chase' -NBC Report",
-          "url": "https://www.benzinga.com/news/26/11/63318314/zelle-representative-said-technical-issue-its-platform-originated-chase-nbc-report",
-          "time": "2026-11-16T20:18:01Z",
-          "sentiment": -0.2,
-          "reason": "Zelle platform technical outage tied to Chase, possibly minor"
         }
       ]
     },
@@ -216,23 +179,23 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.325,
+      "score": 0.024,
       "articles": 2,
       "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "AMD Gains Market Momentum Amid Nvidia Leadership Transition",
+          "url": "https://www.barchart.com/story/news/8881290/nvidias-leadership-crisis-could-be-a-major-opportunity-for-amd-stock",
+          "time": "2026-11-17T20:01:57Z",
+          "sentiment": 0.3,
+          "reason": "Growing data-center and AI developer interest; modest positive momentum"
+        },
         {
           "headline": "AMD Shares Decline Following New Export Restrictions on AI Chips",
           "url": "https://www.moomoo.com/community/feed/the-capital-breakdown-tuesday-november-17-2026-117631511494661",
           "time": "2026-11-17T12:31:29Z",
           "sentiment": -0.4,
           "reason": "New AI chip export restrictions already drove a 5.6% share drop"
-        },
-        {
-          "headline": "AMD-Powered Lux Supercomputer Opens to Scientific Users",
-          "url": "https://www.globenewswire.com/en/news/technology-telecom",
-          "time": "2026-11-16T20:02:25Z",
-          "sentiment": 0.2,
-          "reason": "AMD-powered supercomputer enters service for DOE science users"
         }
       ]
     }

@@ -1,174 +1,5 @@
 [
   {
-    "id": "63319325",
-    "created_at": "2026-11-16T20:30:26Z",
-    "headline": "NVIDIA, Home Depot On Deck Tuesday As AI Demand, Consumer Spending Face Test",
-    "url": "https://www.benzinga.com/news/26/11/63319325/nvidia-home-depot-on-deck-tuesday-as-ai-demand-consumer-spending-face-test",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.1,
-        "confidence": 0.4,
-        "reason": "Earnings test amid weaker stock setup and AI spending doubts"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63319299",
-    "created_at": "2026-11-16T20:30:09Z",
-    "headline": "TSMC Slumps Nearly 6% as Jensen Huang\u2019s Exit and AI Debt Fears Rattle Investors Ahead of Nvidia Earnings",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63319299/tsmc-nvidia-financing",
-    "source": "benzinga",
-    "market_risk": 0.5,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.6,
-        "confidence": 0.6,
-        "reason": "Huang exit and AI financing fears drive chain-wide selloff"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63319155",
-    "created_at": "2026-11-16T20:28:11Z",
-    "headline": "Applied Optoelectronics Stock Sinks Amid AI Outlook Fears",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63319155/applied-optoelectronics-stock-sinks-amid-ai-outlook-fears",
-    "source": "benzinga",
-    "market_risk": 0.3,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.3,
-        "reason": "Peer selloff cites Nvidia uncertainty and AI funding worries"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63318314",
-    "created_at": "2026-11-16T20:18:01Z",
-    "headline": "'A Zelle representative said that a technical issue on its platform originated with Chase' -NBC Report",
-    "url": "https://www.benzinga.com/news/26/11/63318314/zelle-representative-said-technical-issue-its-platform-originated-chase-nbc-report",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Zelle platform technical outage tied to Chase, possibly minor"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "123849783",
-    "created_at": "2026-11-16T20:02:56Z",
-    "headline": "JPMorgan Chase Discloses 5.22% Stake in Sibanye-Stillwater",
-    "url": "https://irw-press.com/de/mitteilung-ueber-den-erwerb-einer-wirtschaftlichen-beteiligung-an-wertpapieren-durch-jpmorgan-chase-co/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "123849780",
-    "created_at": "2026-11-16T20:02:25Z",
-    "headline": "AMD-Powered Lux Supercomputer Opens to Scientific Users",
-    "url": "https://www.globenewswire.com/en/news/technology-telecom",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "AMD-powered supercomputer enters service for DOE science users"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63317156",
-    "created_at": "2026-11-16T20:00:07Z",
-    "headline": "Sen. John Kennedy\u2019s Jaw Is \u2018Stuck on the Floor\u2019 After Jensen Huang\u2019s Nvidia Exit: If You\u2019re Going to Have an Affair, \u2018Make Sure It\u2019s Not With a Chinese Spy\u2019",
-    "url": "https://www.benzinga.com/news/politics/26/11/63317156/sen-john-kennedys-jaw-is-stuck-on-the-floor-after-jensen-huangs-nvidia-exit-if-youre-going-to-have-an-affair-make-sure-its-not-with-a",
-    "source": "benzinga",
-    "market_risk": 0.6,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.7,
-        "confidence": 0.7,
-        "reason": "CEO resignation over scandal; senators question $4B China chip sales"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63315498",
-    "created_at": "2026-11-16T19:36:42Z",
-    "headline": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63315498/palantir-dips-as-anthropic-ipo-nvidia-turmoil-and-rate-hike-bets-rattle-tech",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.4,
-        "confidence": 0.4,
-        "reason": "Nvidia uncertainty and rate-hike fears pressure tech stocks"
-      },
-      {
-        "ticker": "QQQ",
-        "sentiment": -0.3,
-        "confidence": 0.3,
-        "reason": "Rate-hike bets and Nvidia turmoil weigh on Nasdaq tech"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63315471",
-    "created_at": "2026-11-16T19:36:25Z",
-    "headline": "BZ Analysis: The 3x Leveraged Semiconductor ETF SOXL Recorded Its Largest Weekly Outflow Ever, At $4.2B",
-    "url": "https://www.benzinga.com/economics/26/11/63315471/bz-analysis-3x-leveraged-semiconductor-etf-soxl-recorded-its-largest-weekly-outflow-ever-4-2b",
-    "source": "benzinga",
-    "market_risk": 0.4,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Record semiconductor ETF outflow signals sector risk-off"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "63315383",
-    "created_at": "2026-11-16T19:35:20Z",
-    "headline": "Goldman Sachs Research Expects Steady Global Economic Growth In 2027 Amid Lower Energy Prices And Ongoing Investment In AI",
-    "url": "https://www.benzinga.com/economics/26/11/63315383/goldman-sachs-research-expects-steady-global-economic-growth-2027-amid-lower-energy-prices-and-ongoi",
-    "source": "benzinga",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "SPY",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Goldman expects steady global growth and AI investment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "124041552",
     "created_at": "2026-11-16T22:31:22Z",
     "headline": "Instagram Launches Integration for Amazon Affiliate Links",
@@ -637,6 +468,57 @@
         "sentiment": 0.2,
         "confidence": 0.4,
         "reason": "Reported long-term DRAM supply deal may secure memory costs and supply."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "124874624",
+    "created_at": "2026-11-17T20:01:57Z",
+    "headline": "AMD Gains Market Momentum Amid Nvidia Leadership Transition",
+    "url": "https://www.barchart.com/story/news/8881290/nvidias-leadership-crisis-could-be-a-major-opportunity-for-amd-stock",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Growing data-center and AI developer interest; modest positive momentum"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "124874617",
+    "created_at": "2026-11-17T20:01:29Z",
+    "headline": "Meta Testing Standalone Messaging App 'Direct'",
+    "url": "https://newscord.org/article/meta-tests-direct-standalone-instagram-messaging-app-without-account-in-thailand--Story_20261117_MetalaunchesDirectas387ae1a0",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Limited regional test of standalone messaging app; minimal near-term impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "124874616",
+    "created_at": "2026-11-17T20:01:26Z",
+    "headline": "Apple Reports Widespread Internal and Consumer Service Outages",
+    "url": "https://appleosophy.com/wire/lu3evxk/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Widespread service outages may hurt sales and reputation short-term"
       }
     ],
     "scorer": "claude"
