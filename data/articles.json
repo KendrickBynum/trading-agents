@@ -34,40 +34,6 @@
     "scorer": "claude"
   },
   {
-    "id": "123962947",
-    "created_at": "2026-11-16T21:31:25Z",
-    "headline": "Apple Releases iOS 27.3 Developer Beta Featuring 'Face Unlock' for iPhone Duo",
-    "url": "https://newsfilter.io/articles/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id-4bcfeb7f1ab45ccd98350e3cc94c1985",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Routine developer beta feature; no material near-term price impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "123962946",
-    "created_at": "2026-11-16T21:31:25Z",
-    "headline": "Apple Appoints 26-Year Veteran Corey Fugman to Lead Payments and Wallet Unit",
-    "url": "https://appleosophy.com/wire/qv14pwk/",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Internal executive appointment; routine and unlikely to move the stock"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "124187195",
     "created_at": "2026-11-17T03:01:25Z",
     "headline": "Microsoft Releases Preliminary Report on Recent 365 Service Outage",
@@ -519,6 +485,40 @@
         "sentiment": -0.3,
         "confidence": 0.4,
         "reason": "Widespread service outages may hurt sales and reputation short-term"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125028099",
+    "created_at": "2026-11-17T21:31:35Z",
+    "headline": "Lam Research Corporation Announces Participation at Upcoming Conference",
+    "url": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-participation-at-upcoming-conference-302942787.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": 0.0,
+        "confidence": 0.9,
+        "reason": "Routine conference participation announcement; no fundamental information."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125028091",
+    "created_at": "2026-11-17T21:31:18Z",
+    "headline": "Oxide Computer Company Integrates Micron Data Center Memory and Storage",
+    "url": "https://www.finanznachrichten.de/nachrichten-aktien/micron-technology-inc.htm",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Minor partner integration; small customer win, unlikely to move price."
       }
     ],
     "scorer": "claude"
