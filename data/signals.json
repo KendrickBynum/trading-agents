@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T18:35:21.295863+00:00",
-  "market_risk": 0.09,
+  "generated_at": "2026-11-17T19:35:19.759749+00:00",
+  "market_risk": 0.066,
   "tickers": {
     "SPY": {
-      "score": 0.04,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Goldman Sachs Research Expects Steady Global Economic Growth In 2027 Amid Lower Energy Prices And Ongoing Investment In AI",
@@ -13,27 +13,13 @@
           "time": "2026-11-16T19:35:20Z",
           "sentiment": 0.2,
           "reason": "Goldman expects steady global growth and AI investment"
-        },
-        {
-          "headline": "BZ Analysis: Global Equity Funds Attracted +$98B In Inflows In The Week Ending November 11th, Their 2nd-largest Weekly Inflow On Record; The 4-Week Moving Average Of Inflows Is Up To ~$75B , Its Largest Reading On Record",
-          "url": "https://www.benzinga.com/economics/26/11/63315340/bz-analysis-global-equity-funds-attracted-98b-inflows-week-ending-november-11th-their-2nd-largest-we",
-          "time": "2026-11-16T19:34:28Z",
-          "sentiment": 0.2,
-          "reason": "Record equity fund inflows support broad market demand"
-        },
-        {
-          "headline": "BZ Analysis: The NASDAQ 100 Has Recorded An Average Daily Swing Of 2.4% So Far In November, Putting It On Track For Its Most Volatile Month Since April 2025",
-          "url": "https://www.benzinga.com/economics/26/11/63315244/bz-analysis-nasdaq-100-has-recorded-average-daily-swing-2-4-so-far-november-putting-it-track-its-mos",
-          "time": "2026-11-16T19:32:57Z",
-          "sentiment": -0.2,
-          "reason": "Nasdaq-100 on track for most volatile month since April 2025"
         }
       ]
     },
     "QQQ": {
-      "score": -0.243,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.3,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
@@ -41,21 +27,21 @@
           "time": "2026-11-16T19:36:42Z",
           "sentiment": -0.3,
           "reason": "Rate-hike bets and Nvidia turmoil weigh on Nasdaq tech"
-        },
-        {
-          "headline": "BZ Analysis: The NASDAQ 100 Has Recorded An Average Daily Swing Of 2.4% So Far In November, Putting It On Track For Its Most Volatile Month Since April 2025",
-          "url": "https://www.benzinga.com/economics/26/11/63315244/bz-analysis-nasdaq-100-has-recorded-average-daily-swing-2-4-so-far-november-putting-it-track-its-mos",
-          "time": "2026-11-16T19:32:57Z",
-          "sentiment": -0.2,
-          "reason": "Elevated Nasdaq-100 daily swings signal heightened volatility"
         }
       ]
     },
     "AAPL": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.087,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Apple Reportedly Nearing Long-Term DRAM Supply Agreement With Samsung",
+          "url": "https://appleosophy.com/wire/k4cb19g/",
+          "time": "2026-11-17T19:01:26Z",
+          "sentiment": 0.2,
+          "reason": "Reported long-term DRAM supply deal may secure memory costs and supply."
+        },
         {
           "headline": "Apple Faces French Trial Over Alleged Planned Obsolescence",
           "url": "https://www.manilatimes.net/2026/11/17/world/apple-faces-french-trial-over-alleged-planned-obsolescence-of-iphones-source/2471819",
@@ -80,9 +66,9 @@
       ]
     },
     "NVDA": {
-      "score": -0.327,
-      "articles": 9,
-      "ai_articles": 9,
+      "score": -0.343,
+      "articles": 6,
+      "ai_articles": 6,
       "headlines": [
         {
           "headline": "NVIDIA Issues Warning to Chip Buyers Regarding US Export Compliance",
@@ -134,10 +120,17 @@
       "headlines": []
     },
     "META": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.269,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "JPMorgan Blocks Meta's 'Muse' AI Agent from Customer Accounts",
+          "url": "https://www.barchart.com/story/news/8879129/you-dont-want-rogue-agents-jamie-dimon-shuts-metas-muse-ai-agent-out-of-jpmorgan-what-it-means-for-meta-stock",
+          "time": "2026-11-17T19:02:06Z",
+          "sentiment": -0.3,
+          "reason": "Major bank blocks Meta AI agent, raising security and adoption concerns."
+        },
         {
           "headline": "Meta, Amazon, and Google Lobbying Fails to Stop China Data Center Curbs",
           "url": "https://www.marketscreener.com/news/amazon-google-meta-lobbying-fails-to-stop-trump-from-pursuing-china-data-center-curbs-ce785edcd88df327",
@@ -148,9 +141,9 @@
       ]
     },
     "JPM": {
-      "score": -0.277,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.286,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "JPMorgan Chase Reports Widespread Banking Disruption Due to Software Bug",
@@ -165,13 +158,6 @@
           "time": "2026-11-16T20:18:01Z",
           "sentiment": -0.2,
           "reason": "Zelle platform technical outage tied to Chase, possibly minor"
-        },
-        {
-          "headline": "JPMorgan Chase and Other Major Banks Experience Online Banking Outages",
-          "url": "https://www.barchart.com/story/news/8859950/customers-at-some-of-the-nation-s-largest-banks-are-reporting-difficulty-accessing-accounts-online",
-          "time": "2026-11-16T19:01:43Z",
-          "sentiment": -0.2,
-          "reason": "Online banking outage may raise operational and reputational concerns"
         }
       ]
     },
@@ -230,9 +216,9 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.337,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.325,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "AMD Shares Decline Following New Export Restrictions on AI Chips",
@@ -247,13 +233,6 @@
           "time": "2026-11-16T20:02:25Z",
           "sentiment": 0.2,
           "reason": "AMD-powered supercomputer enters service for DOE science users"
-        },
-        {
-          "headline": "Nvidia China Trouble Could Spill Over to These AI Chip Stocks",
-          "url": "https://www.benzinga.com/markets/tech/26/11/63315070/nvidia-china-chip-stock-fallout",
-          "time": "2026-11-16T19:30:11Z",
-          "sentiment": -0.4,
-          "reason": "Export restrictions could hit AMD's AI chip sales and global growth"
         }
       ]
     }
