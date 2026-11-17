@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T15:35:24.268680+00:00",
-  "market_risk": 0.12,
+  "generated_at": "2026-11-17T16:35:21.724496+00:00",
+  "market_risk": 0.111,
   "tickers": {
     "SPY": {
       "score": -0.036,
@@ -45,9 +45,9 @@
       ]
     },
     "QQQ": {
-      "score": -0.233,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.243,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
@@ -62,13 +62,6 @@
           "time": "2026-11-16T19:32:57Z",
           "sentiment": -0.2,
           "reason": "Elevated Nasdaq-100 daily swings signal heightened volatility"
-        },
-        {
-          "headline": "Defensives Lead Sectors Monday As Growth Trails",
-          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63300846/defensives-lead-sectors-monday-as-growth-trails",
-          "time": "2026-11-16T16:00:35Z",
-          "sentiment": -0.2,
-          "reason": "Growth lagging defensive sectors; rotation away from tech"
         }
       ]
     },
@@ -101,9 +94,9 @@
       ]
     },
     "NVDA": {
-      "score": -0.33,
-      "articles": 21,
-      "ai_articles": 21,
+      "score": -0.331,
+      "articles": 17,
+      "ai_articles": 17,
       "headlines": [
         {
           "headline": "NVIDIA Issues Warning to Chip Buyers Regarding US Export Compliance",
@@ -205,23 +198,23 @@
       ]
     },
     "XOM": {
-      "score": 0.265,
+      "score": 0.219,
       "articles": 2,
       "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "ExxonMobil Authorizes Saipem to Proceed with Longtail Project in Guyana",
+          "url": "https://www.milanofinanza.it/news/saipem-via-libera-al-progetto-longtail-in-guyana-contratto-da-1-5-miliardi-di-dollari-202611171241087723",
+          "time": "2026-11-17T16:01:47Z",
+          "sentiment": 0.2,
+          "reason": "Guyana Longtail project advancing; incremental production growth, largely expected"
+        },
         {
           "headline": "What's Going On With ExxonMobil Stock Monday?",
           "url": "https://www.benzinga.com/markets/large-cap/26/11/63305551/whats-going-on-with-exxonmobil-stock-monday",
           "time": "2026-11-16T17:06:31Z",
           "sentiment": 0.3,
           "reason": "Guyana Uaru production start and $3B buyback are positive catalysts"
-        },
-        {
-          "headline": "ExxonMobil Commences Production at Uaru Development in Guyana",
-          "url": "https://www.businesswire.com/newsroom/industry/energy/oil-gas",
-          "time": "2026-11-16T16:01:32Z",
-          "sentiment": 0.2,
-          "reason": "Uaru start-up adds Guyana production; modest volume growth"
         }
       ]
     },
@@ -246,9 +239,9 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.196,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Elon Musk Hints at Robotaxi Expansion for Model Y Owners",
@@ -256,13 +249,6 @@
           "time": "2026-11-17T12:33:00Z",
           "sentiment": 0.15,
           "reason": "Speculative Robotaxi expansion hint supports autonomy narrative, unconfirmed"
-        },
-        {
-          "headline": "Tesla Announces \u20ac3 Billion Expansion of German Gigafactory",
-          "url": "https://www.fidelity.com/news/article/company-news/202611160938RTRSNEWSCOMBINED_KCN3WR1QL-OUSBS_1",
-          "time": "2026-11-16T16:01:24Z",
-          "sentiment": 0.4,
-          "reason": "\u20ac3B German gigafactory expansion for Cybercab production"
         }
       ]
     },
