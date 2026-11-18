@@ -1,8 +1,47 @@
 {
-  "time": "2026-11-18T16:35:29.310813+00:00",
+  "time": "2026-11-18T17:35:23.950646+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "time": "2026-11-18T17:35:23.950646+00:00",
+      "symbol": "AMZN",
+      "side": "buy",
+      "reason": "score +0.47 (3/4 agree: levels +0.96, trend +0.47, pattern +0.45)",
+      "score": 0.466,
+      "factors": {
+        "trend": 0.47,
+        "levels": 0.96,
+        "flow": -0.017,
+        "pattern": 0.452
+      },
+      "news_score": 0.0,
+      "notional": 9865.31,
+      "trailing_stop": "4%",
+      "status": "submitted",
+      "order_id": "21af523f-a4c3-4c58-85d3-aba8a7a2a1a2",
+      "book": "stock"
+    },
+    {
+      "time": "2026-11-18T17:35:23.950646+00:00",
+      "symbol": "TSLA",
+      "side": "buy",
+      "reason": "score +0.46 (3/4 agree: levels +0.95, trend +0.68, flow +0.26)",
+      "score": 0.459,
+      "factors": {
+        "trend": 0.675,
+        "levels": 0.947,
+        "flow": 0.255,
+        "pattern": 0.031
+      },
+      "news_score": -0.3,
+      "notional": 9644.0,
+      "trailing_stop": "4%",
+      "status": "submitted",
+      "order_id": "d4af66b9-5375-417d-acd3-5b095a129d50",
+      "book": "stock"
+    }
+  ],
   "buy_threshold": 0.422,
   "exit_threshold": -0.292,
   "trailing_stop_pct": 0.04,

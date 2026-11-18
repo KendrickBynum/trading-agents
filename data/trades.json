@@ -491,5 +491,56 @@
     "notional": 1260.0,
     "reason": "PUT NVDA $162 exp 2026-12-18 (30d, delta -0.55) on score -0.30; max loss $1,260",
     "underlying": "NVDA"
+  },
+  {
+    "time": "2026-11-18T17:35:23.950646+00:00",
+    "symbol": "AMZN",
+    "side": "buy",
+    "reason": "score +0.47 (3/4 agree: levels +0.96, trend +0.47, pattern +0.45)",
+    "score": 0.466,
+    "factors": {
+      "trend": 0.47,
+      "levels": 0.96,
+      "flow": -0.017,
+      "pattern": 0.452
+    },
+    "news_score": 0.0,
+    "notional": 9865.31,
+    "trailing_stop": "4%",
+    "status": "submitted",
+    "order_id": "21af523f-a4c3-4c58-85d3-aba8a7a2a1a2",
+    "book": "stock"
+  },
+  {
+    "time": "2026-11-18T17:35:23.950646+00:00",
+    "symbol": "TSLA",
+    "side": "buy",
+    "reason": "score +0.46 (3/4 agree: levels +0.95, trend +0.68, flow +0.26)",
+    "score": 0.459,
+    "factors": {
+      "trend": 0.675,
+      "levels": 0.947,
+      "flow": 0.255,
+      "pattern": 0.031
+    },
+    "news_score": -0.3,
+    "notional": 9644.0,
+    "trailing_stop": "4%",
+    "status": "submitted",
+    "order_id": "d4af66b9-5375-417d-acd3-5b095a129d50",
+    "book": "stock"
+  },
+  {
+    "time": "2026-11-18T17:16:37.053526Z",
+    "book": "options",
+    "symbol": "GOOGL261211P00285000",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "ec257555-2b15-444b-8320-1d402f0efcca",
+    "qty": 1.0,
+    "price": 12.0,
+    "notional": 1200.0,
+    "reason": "PUT GOOGL $285 exp 2026-12-11 (23d, delta -0.53) on score -0.30; max loss $1,200",
+    "underlying": "GOOGL"
   }
 ]
