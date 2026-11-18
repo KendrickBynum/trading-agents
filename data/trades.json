@@ -478,5 +478,18 @@
     "order_id": "46701c7e-cb97-42d1-9bb4-78427ea83397",
     "book": "frac",
     "time": "2026-11-16T17:35:36.969111+00:00"
+  },
+  {
+    "time": "2026-11-18T14:35:50.281226Z",
+    "book": "options",
+    "symbol": "NVDA261218P00162000",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "e0e68159-512d-40bf-b8fc-eb0063a7bb9c",
+    "qty": 1.0,
+    "price": 12.6,
+    "notional": 1260.0,
+    "reason": "PUT NVDA $162 exp 2026-12-18 (30d, delta -0.55) on score -0.30; max loss $1,260",
+    "underlying": "NVDA"
   }
 ]

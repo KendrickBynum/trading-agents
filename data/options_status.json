@@ -1,28 +1,20 @@
 {
-  "time": "2026-11-18T14:35:38.873319+00:00",
+  "time": "2026-11-18T15:35:25.203415+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
+      "time": "2026-11-18T14:35:50.281226Z",
+      "book": "options",
       "symbol": "NVDA261218P00162000",
       "side": "buy",
-      "qty": 1,
-      "limit": 12.6,
-      "underlying": "NVDA",
-      "notional": 1260.0,
-      "score": -0.301,
-      "factors": {
-        "trend": -0.999,
-        "levels": -0.183,
-        "flow": -0.352,
-        "pattern": 0.982,
-        "news": -0.726
-      },
-      "reason": "PUT NVDA $162 exp 2026-12-18 (30d, delta -0.55) on score -0.30; max loss $1,260",
-      "status": "order placed",
+      "status": "filled",
       "order_id": "e0e68159-512d-40bf-b8fc-eb0063a7bb9c",
-      "book": "options",
-      "time": "2026-11-18T14:35:38.873319+00:00"
+      "qty": 1.0,
+      "price": 12.6,
+      "notional": 1260.0,
+      "reason": "PUT NVDA $162 exp 2026-12-18 (30d, delta -0.55) on score -0.30; max loss $1,260",
+      "underlying": "NVDA"
     }
   ],
   "options_level": 3,
