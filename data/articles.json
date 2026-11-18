@@ -1,49 +1,5 @@
 [
   {
-    "id": "124509351",
-    "created_at": "2026-11-17T16:01:47Z",
-    "headline": "ExxonMobil Authorizes Saipem to Proceed with Longtail Project in Guyana",
-    "url": "https://www.milanofinanza.it/news/saipem-via-libera-al-progetto-longtail-in-guyana-contratto-da-1-5-miliardi-di-dollari-202611171241087723",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Guyana Longtail project advancing; incremental production growth, largely expected"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124509336",
-    "created_at": "2026-11-17T16:01:25Z",
-    "headline": "Rockwell Automation Launches GPU-Enabled Industrial Computing with NVIDIA",
-    "url": "https://www.newswire.ca/news-releases/rockwell-automation-expands-edge-computing-options-for-industrial-ai-with-nvidia-gpus-847579242.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Rockwell partnership extends NVIDIA edge AI reach; minor, incremental news"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124509333",
-    "created_at": "2026-11-17T16:01:17Z",
-    "headline": "Meta Testing Internal Prediction Market App 'Takes'",
-    "url": "https://cdcgaming.com/brief/meta-tests-prediction-market-app-with-employees/",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "124682505",
     "created_at": "2026-11-17T18:01:21Z",
     "headline": "Bernstein Research Maintains Outperform Rating on ASML",
@@ -596,6 +552,50 @@
         "sentiment": 0.1,
         "confidence": 0.2,
         "reason": "Expanded AI partnership with Transamerica; limited near-term impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125543605",
+    "created_at": "2026-11-18T16:01:41Z",
+    "headline": "ExxonMobil Foundation Announces Winners of STEM Africa Regional Finals",
+    "url": "https://africa.com/apo/mentes-brilhantes-wins-year-3-exxonmobil-foundation-science-technology-engineering-and-mathematics-stem-africa-regional-finals",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "125543600",
+    "created_at": "2026-11-18T16:01:33Z",
+    "headline": "BCG and Microsoft Expand Collaboration for AI-Powered Business Reimagination",
+    "url": "https://www.prnewswire.com/news-releases/bcg-and-microsoft-expand-collaboration-with-new-model-for-ai-powered-business-reimagination-302943516.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Expanded BCG partnership on AI services; incremental, likely already priced in"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125543599",
+    "created_at": "2026-11-18T16:01:33Z",
+    "headline": "Akamai Integrates Enterprise Security with Microsoft Edge for Business on Mobile",
+    "url": "https://www.morningstar.com/news/globe-newswire/9879516/akamai-extends-its-enterprise-security-controls-to-microsoft-edge-for-business-browser-on-mobile",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Minor Edge security integration with Akamai; routine product news"
       }
     ],
     "scorer": "claude"
