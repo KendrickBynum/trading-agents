@@ -1,56 +1,5 @@
 [
   {
-    "id": "124874624",
-    "created_at": "2026-11-17T20:01:57Z",
-    "headline": "AMD Gains Market Momentum Amid Nvidia Leadership Transition",
-    "url": "https://www.barchart.com/story/news/8881290/nvidias-leadership-crisis-could-be-a-major-opportunity-for-amd-stock",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Growing data-center and AI developer interest; modest positive momentum"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124874617",
-    "created_at": "2026-11-17T20:01:29Z",
-    "headline": "Meta Testing Standalone Messaging App 'Direct'",
-    "url": "https://newscord.org/article/meta-tests-direct-standalone-instagram-messaging-app-without-account-in-thailand--Story_20261117_MetalaunchesDirectas387ae1a0",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Limited regional test of standalone messaging app; minimal near-term impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124874616",
-    "created_at": "2026-11-17T20:01:26Z",
-    "headline": "Apple Reports Widespread Internal and Consumer Service Outages",
-    "url": "https://appleosophy.com/wire/lu3evxk/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Widespread service outages may hurt sales and reputation short-term"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "125028099",
     "created_at": "2026-11-17T21:31:35Z",
     "headline": "Lam Research Corporation Announces Participation at Upcoming Conference",
@@ -600,6 +549,60 @@
     "url": "https://www.globenewswire.com/news-release/2026/11/18/3405750/0/en/infoblox-brings-preemptive-threat-protection-to-amazon-route-53-dns-firewall.html",
     "source": "fiscal.ai",
     "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "125831085",
+    "created_at": "2026-11-18T20:01:36Z",
+    "headline": "Wells Fargo to Name JPMorgan Executive Allison Beer as COO",
+    "url": "https://www.fidelity.com/news/article/company-news/202611180923MIDNIGHTUSEQUITY_A3756531",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Senior executive departure to rival Wells Fargo; minor talent-loss signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125831084",
+    "created_at": "2026-11-18T20:01:31Z",
+    "headline": "Splashtop Joins Microsoft Virus Initiative",
+    "url": "https://www.globenewswire.com/news-release/2026/11/18/3406049/0/en/splashtop-joins-microsoft-virus-initiative-strengthening-protection-for-microsoft-environments.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "125831083",
+    "created_at": "2026-11-18T20:01:31Z",
+    "headline": "Amazon Announces $7 Billion Renewable Energy Investment in India",
+    "url": "https://energydigital.com/news/amazon-to-invest-us-7bn-in-renewable-energy-in-india-by-2030",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Long-dated renewable investment in India; limited near-term price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125831082",
+    "created_at": "2026-11-18T20:01:25Z",
+    "headline": "Apple Announces Finalists for 2026 App Store Awards",
+    "url": "https://appleosophy.com/wire/oy1ri1h/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
     "impacts": [],
     "scorer": "claude"
   }
