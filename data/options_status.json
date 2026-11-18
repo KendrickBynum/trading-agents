@@ -1,40 +1,20 @@
 {
-  "time": "2026-11-18T17:35:30.967020+00:00",
+  "time": "2026-11-18T18:35:25.991009+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
-      "time": "2026-11-18T17:16:37.053526Z",
+      "time": "2026-11-18T17:35:52.313867Z",
       "book": "options",
-      "symbol": "GOOGL261211P00285000",
-      "side": "buy",
-      "status": "filled",
-      "order_id": "ec257555-2b15-444b-8320-1d402f0efcca",
-      "qty": 1.0,
-      "price": 12.0,
-      "notional": 1200.0,
-      "reason": "PUT GOOGL $285 exp 2026-12-11 (23d, delta -0.53) on score -0.30; max loss $1,200",
-      "underlying": "GOOGL"
-    },
-    {
       "symbol": "AMZN261211C00265000",
       "side": "buy",
-      "qty": 1,
-      "limit": 11.4,
-      "underlying": "AMZN",
-      "notional": 1140.0,
-      "score": 0.466,
-      "factors": {
-        "trend": 0.47,
-        "levels": 0.96,
-        "flow": -0.017,
-        "pattern": 0.452
-      },
-      "reason": "CALL AMZN $265 exp 2026-12-11 (23d, delta +0.55) on score +0.47; max loss $1,140",
-      "status": "order placed",
+      "status": "filled",
       "order_id": "a3f8a155-dcda-47e7-98f7-0824bfc6668b",
-      "book": "options",
-      "time": "2026-11-18T17:35:30.967020+00:00"
+      "qty": 1.0,
+      "price": 11.4,
+      "notional": 1140.0,
+      "reason": "CALL AMZN $265 exp 2026-12-11 (23d, delta +0.55) on score +0.47; max loss $1,140",
+      "underlying": "AMZN"
     }
   ],
   "options_level": 3,
