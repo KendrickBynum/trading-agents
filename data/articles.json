@@ -1,39 +1,5 @@
 [
   {
-    "id": "124041552",
-    "created_at": "2026-11-16T22:31:22Z",
-    "headline": "Instagram Launches Integration for Amazon Affiliate Links",
-    "url": "https://newsfilter.io/articles/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts-2c6d5f0747ae5ab0a3c96b0d6d701a1b",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Expands affiliate sales channel via Instagram; modest, incremental revenue benefit"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124041551",
-    "created_at": "2026-11-16T22:31:21Z",
-    "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
-    "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Proposed class action over 365 outage; legal and reputational cost, likely small"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "124187195",
     "created_at": "2026-11-17T03:01:25Z",
     "headline": "Microsoft Releases Preliminary Report on Recent 365 Service Outage",
@@ -48,16 +14,6 @@
         "reason": "Preliminary outage report; disruption likely already known and minor"
       }
     ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124178455",
-    "created_at": "2026-11-17T00:01:27Z",
-    "headline": "Teamsters Organize Rally for Terminated Amazon Delivery Drivers in New York City",
-    "url": "https://www.prnewswire.com/news-releases/teamsters-rally-to-support-amazon-e-bike-delivery-drivers-illegally-fired-by-company-302941100.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [],
     "scorer": "claude"
   },
   {
@@ -519,6 +475,57 @@
         "sentiment": 0.1,
         "confidence": 0.3,
         "reason": "Minor partner integration; small customer win, unlikely to move price."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125306632",
+    "created_at": "2026-11-18T01:01:19Z",
+    "headline": "Teamsters Rally Following Amazon's Termination of Delivery Partner",
+    "url": "https://www.prnewswire.com/news-releases/teamsters-rally-for-200-e-bike-drivers-terminated-by-amazon-in-new-york-302942866.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Labor protest over contract cancellation; limited financial impact expected"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125306205",
+    "created_at": "2026-11-18T00:01:31Z",
+    "headline": "NVIDIA Reports Financial Results for Third Quarter Fiscal 2027",
+    "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.6,
+        "confidence": 0.7,
+        "reason": "Q3 FY27 revenue of $115.8B, up 103% YoY, signals strong demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125132742",
+    "created_at": "2026-11-17T22:31:59Z",
+    "headline": "AMD Insider Executes $5.06 Million Share Sale",
+    "url": "https://www.marketscreener.com/news/advanced-micro-devices-insider-sold-shares-worth-5-060-653-according-to-a-recent-sec-filing-ce785edcdf89f625",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.1,
+        "confidence": 0.15,
+        "reason": "Routine insider share sale; weak signal, usually already priced in"
       }
     ],
     "scorer": "claude"

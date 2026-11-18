@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T21:45:24.185624+00:00",
-  "market_risk": 0.048,
+  "generated_at": "2026-11-18T02:57:43.939558+00:00",
+  "market_risk": 0.047,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -43,24 +43,23 @@
       ]
     },
     "MSFT": {
-      "score": -0.15,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
-          "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html",
-          "time": "2026-11-16T22:31:21Z",
-          "sentiment": -0.15,
-          "reason": "Proposed class action over 365 outage; legal and reputational cost, likely small"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "NVDA": {
-      "score": -0.2,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.384,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "NVIDIA Reports Financial Results for Third Quarter Fiscal 2027",
+          "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html",
+          "time": "2026-11-18T00:01:31Z",
+          "sentiment": 0.6,
+          "reason": "Q3 FY27 revenue of $115.8B, up 103% YoY, signals strong demand"
+        },
         {
           "headline": "NVIDIA Issues Warning to Chip Buyers Regarding US Export Compliance",
           "url": "https://www.marketscreener.com/news/nvidia-cautions-chip-buyers-over-potential-us-legal-action-tied-to-remote-access-for-chinese-firms-ce785edfd08af42c",
