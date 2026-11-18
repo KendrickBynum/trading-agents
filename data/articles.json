@@ -1,90 +1,5 @@
 [
   {
-    "id": "124775308",
-    "created_at": "2026-11-17T19:02:45Z",
-    "headline": "Viking Global Investors Increases Stake in Tesla",
-    "url": "https://www.moomoo.com/stock/TSLA261106C350000-US?chain_id=Name1K9-3FXPhg.1lfo5sg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F151699427%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Routine institutional stake increase; minimal expected price effect."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124775296",
-    "created_at": "2026-11-17T19:02:25Z",
-    "headline": "JPMorgan-Led Banks Reduce Borrowing Costs for CCC Intelligent Solutions Debt Deal",
-    "url": "https://www.marketscreener.com/news/jpmorgan-led-banks-cut-borrowing-costs-on-2-85-billion-debt-deal-for-ccc-intelligent-solutions-acqu-ce785edcda80f22c",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Lead arranger role on debt deal; routine, small fee income relevance."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124775288",
-    "created_at": "2026-11-17T19:02:16Z",
-    "headline": "Microsoft Launches AI Transparency Initiative",
-    "url": "https://stockhouse.com/news/newswire/2026/11/17/microsoft-launches-ai-transparency-initiative-with-40-organisations",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Generic AI governance initiative; largely PR, limited near-term impact."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124775259",
-    "created_at": "2026-11-17T19:02:06Z",
-    "headline": "JPMorgan Blocks Meta's 'Muse' AI Agent from Customer Accounts",
-    "url": "https://www.barchart.com/story/news/8879129/you-dont-want-rogue-agents-jamie-dimon-shuts-metas-muse-ai-agent-out-of-jpmorgan-what-it-means-for-meta-stock",
-    "source": "fiscal.ai",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Major bank blocks Meta AI agent, raising security and adoption concerns."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "124773547",
-    "created_at": "2026-11-17T19:01:26Z",
-    "headline": "Apple Reportedly Nearing Long-Term DRAM Supply Agreement With Samsung",
-    "url": "https://appleosophy.com/wire/k4cb19g/",
-    "source": "fiscal.ai",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.2,
-        "confidence": 0.4,
-        "reason": "Reported long-term DRAM supply deal may secure memory costs and supply."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "124874624",
     "created_at": "2026-11-17T20:01:57Z",
     "headline": "AMD Gains Market Momentum Amid Nvidia Leadership Transition",
@@ -581,6 +496,111 @@
         "reason": "Minor Edge security integration with Akamai; routine product news"
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125752606",
+    "created_at": "2026-11-18T19:03:47Z",
+    "headline": "Microsoft and Intel Announce Joint Infrastructure Investments",
+    "url": "https://stockhouse.com/news/newswire/2026/11/18/microsoft-and-intel-expand-azure-infrastructure-agreement",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Joint infrastructure investment with Intel supports cloud and AI capacity growth"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125752605",
+    "created_at": "2026-11-18T19:03:47Z",
+    "headline": "Ema Launches AI Employees for HR, IT, and Finance on Microsoft Marketplace",
+    "url": "https://www.globenewswire.com/news-release/2026/11/18/3405850/0/en/ema-ai-employees-for-hr-it-and-finance-now-available-in-microsoft-marketplace.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Third-party AI product on Azure Marketplace; routine partner listing"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125751207",
+    "created_at": "2026-11-18T19:02:11Z",
+    "headline": "OpenAI Integrates Frontier Model Feedback Tools with AMD Hardware",
+    "url": "https://www.moomoo.com/stock/AMD-US?chain_id=Name1K9-3FXPhg.1lfrmcg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fmalaysia-moo-102698803%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.15,
+        "confidence": 0.25,
+        "reason": "OpenAI collaboration with AMD hardware on design automation tools"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125749859",
+    "created_at": "2026-11-18T19:01:37Z",
+    "headline": "Roamly Announces Insurance Coverage for Tesla Cybercab",
+    "url": "https://www.globenewswire.com/news-release/2026/11/18/3406023/0/en/roamly-announces-insurance-for-tesla-cybercab.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "125749853",
+    "created_at": "2026-11-18T19:01:33Z",
+    "headline": "Meta's Muse AI Agent Faces Operational and Privacy Scrutiny",
+    "url": "https://www.fidelity.com/news/article/company-news/202611180600RTRSNEWSCOMBINED_L6N46Y1DP_1",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.2,
+        "confidence": 0.3,
+        "reason": "Operational errors and privacy scrutiny around Muse AI agent"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125749852",
+    "created_at": "2026-11-18T19:01:32Z",
+    "headline": "NVIDIA Announces Expanded Multiyear Supply Chain Commitments",
+    "url": "https://supplychaindigital.com/news/nvidia-extends-ai-supply-chain-with-long-term-supply-deals",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.35,
+        "confidence": 0.4,
+        "reason": "Expanded multiyear supply commitments signal secured AI infrastructure capacity"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "125749851",
+    "created_at": "2026-11-18T19:01:31Z",
+    "headline": "Infoblox Integrates Threat Defense with Amazon Route 53 DNS Firewall",
+    "url": "https://www.globenewswire.com/news-release/2026/11/18/3405750/0/en/infoblox-brings-preemptive-threat-protection-to-amazon-route-53-dns-firewall.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [],
     "scorer": "claude"
   }
 ]

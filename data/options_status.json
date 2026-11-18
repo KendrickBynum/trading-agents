@@ -1,22 +1,8 @@
 {
-  "time": "2026-11-18T18:35:25.991009+00:00",
+  "time": "2026-11-18T19:35:34.010013+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [
-    {
-      "time": "2026-11-18T17:35:52.313867Z",
-      "book": "options",
-      "symbol": "AMZN261211C00265000",
-      "side": "buy",
-      "status": "filled",
-      "order_id": "a3f8a155-dcda-47e7-98f7-0824bfc6668b",
-      "qty": 1.0,
-      "price": 11.4,
-      "notional": 1140.0,
-      "reason": "CALL AMZN $265 exp 2026-12-11 (23d, delta +0.55) on score +0.47; max loss $1,140",
-      "underlying": "AMZN"
-    }
-  ],
+  "last_actions": [],
   "options_level": 3,
   "learned": {
     "closed_trades": 5,
