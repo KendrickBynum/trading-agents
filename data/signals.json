@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T02:57:43.939558+00:00",
-  "market_risk": 0.047,
+  "generated_at": "2026-11-18T14:35:23.324013+00:00",
+  "market_risk": 0.051,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -15,10 +15,17 @@
       "headlines": []
     },
     "AAPL": {
-      "score": -0.083,
+      "score": -0.22,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Apple Services Experience Outage Following Internal Update",
+          "url": "https://www.euro2day.gr/news/world/article/2380680/update-prokalese-haos-se-yphresies-ths-apple-se-ex.html",
+          "time": "2026-11-18T13:01:21Z",
+          "sentiment": -0.3,
+          "reason": "Widespread service outage from internal update; likely short-lived but reputational."
+        },
         {
           "headline": "Apple Reports Widespread Internal and Consumer Service Outages",
           "url": "https://appleosophy.com/wire/lu3evxk/",
@@ -32,13 +39,6 @@
           "time": "2026-11-17T19:01:26Z",
           "sentiment": 0.2,
           "reason": "Reported long-term DRAM supply deal may secure memory costs and supply."
-        },
-        {
-          "headline": "Apple Faces French Trial Over Alleged Planned Obsolescence",
-          "url": "https://www.manilatimes.net/2026/11/17/world/apple-faces-french-trial-over-alleged-planned-obsolescence-of-iphones-source/2471819",
-          "time": "2026-11-17T11:31:18Z",
-          "sentiment": -0.2,
-          "reason": "French planned-obsolescence trial poses legal and reputational risk"
         }
       ]
     },
@@ -49,30 +49,30 @@
       "headlines": []
     },
     "NVDA": {
-      "score": 0.384,
+      "score": -0.363,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "NVIDIA Faces SEC Investigation and Delays Quarterly 10-Q Filing",
+          "url": "https://www.morningstar.com/news/marketwatch/2026111879/why-nvidia-broke-with-its-usual-practice-in-holding-back-its-quarterly-sec-report",
+          "time": "2026-11-18T13:01:26Z",
+          "sentiment": -0.7,
+          "reason": "SEC investigation and delayed 10-Q filing create serious governance and disclosure risk."
+        },
+        {
+          "headline": "NVIDIA Establishes Export Control Committee and Delays 10-Q Filing",
+          "url": "https://www.morningstar.com/news/marketwatch/2026111879/why-nvidia-broke-with-its-usual-practice-in-holding-back-its-quarterly-sec-report",
+          "time": "2026-11-18T11:31:26Z",
+          "sentiment": -0.4,
+          "reason": "Delayed 10-Q filing may signal accounting or regulatory issues"
+        },
         {
           "headline": "NVIDIA Reports Financial Results for Third Quarter Fiscal 2027",
           "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html",
           "time": "2026-11-18T00:01:31Z",
           "sentiment": 0.6,
           "reason": "Q3 FY27 revenue of $115.8B, up 103% YoY, signals strong demand"
-        },
-        {
-          "headline": "NVIDIA Issues Warning to Chip Buyers Regarding US Export Compliance",
-          "url": "https://www.marketscreener.com/news/nvidia-cautions-chip-buyers-over-potential-us-legal-action-tied-to-remote-access-for-chinese-firms-ce785edfd08af42c",
-          "time": "2026-11-17T12:32:23Z",
-          "sentiment": -0.2,
-          "reason": "Warning on export compliance risks could constrain China chip sales"
-        },
-        {
-          "headline": "AMD Shares Decline Following New Export Restrictions on AI Chips",
-          "url": "https://www.moomoo.com/community/feed/the-capital-breakdown-tuesday-november-17-2026-117631511494661",
-          "time": "2026-11-17T12:31:29Z",
-          "sentiment": -0.2,
-          "reason": "AI chip export restrictions create sector-wide demand and revenue risk"
         }
       ]
     },
@@ -89,9 +89,9 @@
       "headlines": []
     },
     "META": {
-      "score": -0.269,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": -0.3,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "JPMorgan Blocks Meta's 'Muse' AI Agent from Customer Accounts",
@@ -99,35 +99,27 @@
           "time": "2026-11-17T19:02:06Z",
           "sentiment": -0.3,
           "reason": "Major bank blocks Meta AI agent, raising security and adoption concerns."
-        },
-        {
-          "headline": "Meta, Amazon, and Google Lobbying Fails to Stop China Data Center Curbs",
-          "url": "https://www.marketscreener.com/news/amazon-google-meta-lobbying-fails-to-stop-trump-from-pursuing-china-data-center-curbs-ce785edcd88df327",
-          "time": "2026-11-17T13:01:56Z",
-          "sentiment": -0.2,
-          "reason": "Failed lobbying against China data center restrictions limits growth options"
         }
       ]
     },
     "JPM": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "JPMorgan Chase Reports Widespread Banking Disruption Due to Software Bug",
-          "url": "https://www.newswire.lk/2026/11/17/why-us-banks-faced-widespread-outages-on-monday/",
-          "time": "2026-11-17T11:31:32Z",
-          "sentiment": -0.3,
-          "reason": "Software-bug outage disrupted customer banking; reputational and operational risk"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "XOM": {
       "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Mozambique Approves Amended Development Plan for Rovuma LNG Project",
+          "url": "https://www.rigzone.com/news/wire/mozambique_approves_amended_plan_for_rovuma_lng-18-nov-2026-185108-article/",
+          "time": "2026-11-18T11:31:25Z",
+          "sentiment": 0.2,
+          "reason": "Approved Rovuma LNG development plan; modest long-term positive"
+        },
         {
           "headline": "ExxonMobil Authorizes Saipem to Proceed with Longtail Project in Guyana",
           "url": "https://www.milanofinanza.it/news/saipem-via-libera-al-progetto-longtail-in-guyana-contratto-da-1-5-miliardi-di-dollari-202611171241087723",
@@ -138,18 +130,10 @@
       ]
     },
     "MU": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Situational Awareness Fund Liquidates Micron Technology Stake",
-          "url": "https://www.barchart.com/story/news/8870481/leopold-aschenbrenners-situational-awareness-reports-92-drop-in-holdings-exits-micron-stake",
-          "time": "2026-11-17T11:31:45Z",
-          "sentiment": -0.3,
-          "reason": "Full exit by a notable fund may signal weakening institutional conviction"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "LRCX": {
       "score": 0.0,
@@ -158,29 +142,37 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.15,
+      "score": -0.3,
       "articles": 1,
       "ai_articles": 1,
       "headlines": [
         {
-          "headline": "Elon Musk Hints at Robotaxi Expansion for Model Y Owners",
-          "url": "https://www.moomoo.com/stock/TSLA261106C350000-US?chain_id=Name1K9-3FXPhg.1lfo5sg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2F151699427%22%7D",
-          "time": "2026-11-17T12:33:00Z",
-          "sentiment": 0.15,
-          "reason": "Speculative Robotaxi expansion hint supports autonomy narrative, unconfirmed"
+          "headline": "Tesla Receives Analyst Downgrade to Sell",
+          "url": "https://www.moomoo.com/community/feed/tesla-receives-a-downgrade-to-sell-by-gil-rotsein-the-117636526047238?chain_id=Name1K9-3FXPhg.1lfqmo0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A109%2C%22f%22%3A%22www.moomoo.com%2Fsectors%2FDeepSeek-Beneficiaries-BK23585%22%7D",
+          "time": "2026-11-18T11:31:23Z",
+          "sentiment": -0.3,
+          "reason": "Sell downgrade citing valuation and profitability concerns"
         }
       ]
     },
     "ASML": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.3,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "AlphaValue/Baader Europe Upgrades ASML to Add Rating",
+          "url": "https://www.marketscreener.com/news/alphavalue-baader-europe-upgrades-asml-to-add-rating-ce785edddb8ff22d",
+          "time": "2026-11-18T14:02:17Z",
+          "sentiment": 0.3,
+          "reason": "Analyst upgrade from reduce to add; positive sentiment shift."
+        }
+      ]
     },
     "AMD": {
-      "score": 0.024,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.3,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "AMD Gains Market Momentum Amid Nvidia Leadership Transition",
@@ -188,13 +180,6 @@
           "time": "2026-11-17T20:01:57Z",
           "sentiment": 0.3,
           "reason": "Growing data-center and AI developer interest; modest positive momentum"
-        },
-        {
-          "headline": "AMD Shares Decline Following New Export Restrictions on AI Chips",
-          "url": "https://www.moomoo.com/community/feed/the-capital-breakdown-tuesday-november-17-2026-117631511494661",
-          "time": "2026-11-17T12:31:29Z",
-          "sentiment": -0.4,
-          "reason": "New AI chip export restrictions already drove a 5.6% share drop"
         }
       ]
     }
