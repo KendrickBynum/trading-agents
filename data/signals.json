@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T02:39:47.295412+00:00",
-  "market_risk": 0.036,
+  "generated_at": "2026-11-19T14:35:20.536301+00:00",
+  "market_risk": 0.046,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -15,24 +15,23 @@
       "headlines": []
     },
     "AAPL": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Apple Services Experience Outage Following Internal Update",
-          "url": "https://www.euro2day.gr/news/world/article/2380680/update-prokalese-haos-se-yphresies-ths-apple-se-ex.html",
-          "time": "2026-11-18T13:01:21Z",
-          "sentiment": -0.3,
-          "reason": "Widespread service outage from internal update; likely short-lived but reputational."
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "MSFT": {
       "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Microsoft Announces AI Innovations and Salesforce Partnership at Ignite",
+          "url": "https://aimagazine.com/news/microsoft-unveils-copilot-workspaces-and-salesforce-deal",
+          "time": "2026-11-19T12:31:20Z",
+          "sentiment": 0.2,
+          "reason": "Ignite AI announcements and Salesforce partnership are mildly positive"
+        },
         {
           "headline": "Microsoft and Intel Announce Joint Infrastructure Investments",
           "url": "https://stockhouse.com/news/newswire/2026/11/18/microsoft-and-intel-expand-azure-infrastructure-agreement",
@@ -43,30 +42,37 @@
       ]
     },
     "NVDA": {
-      "score": -0.21,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": -0.158,
+      "articles": 4,
+      "ai_articles": 4,
       "headlines": [
+        {
+          "headline": "NVIDIA Receives Analyst Downgrades Following CEO Resignation",
+          "url": "https://www.morningstar.com/news/marketwatch/20261119102/nvidias-turmoil-has-me-spooked-should-i-sell-my-stocks-and-buy-real-estate-or-ride-out-the-storm",
+          "time": "2026-11-19T14:31:01Z",
+          "sentiment": -0.6,
+          "reason": "Analyst downgrades after CEO Jensen Huang's resignation; leadership uncertainty"
+        },
+        {
+          "headline": "Daiwa Securities Adjusts Price Target on Nvidia to $185 From $245",
+          "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lftllg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Falex-gui-102899785%22%7D",
+          "time": "2026-11-19T13:02:23Z",
+          "sentiment": -0.3,
+          "reason": "Daiwa cuts price target sharply from $245 to $185"
+        },
+        {
+          "headline": "US Commerce Department Expedited H200 China Export Approvals for NVIDIA",
+          "url": "https://www.marketscreener.com/news/nvidia-s-h200-china-export-approvals-were-rushed-by-us-commerce-department-ce785ed2d98af026",
+          "time": "2026-11-19T12:32:36Z",
+          "sentiment": 0.5,
+          "reason": "Faster H200 China export approvals support NVIDIA China revenue"
+        },
         {
           "headline": "NVIDIA Announces Expanded Multiyear Supply Chain Commitments",
           "url": "https://supplychaindigital.com/news/nvidia-extends-ai-supply-chain-with-long-term-supply-deals",
           "time": "2026-11-18T19:01:32Z",
           "sentiment": 0.35,
           "reason": "Expanded multiyear supply commitments signal secured AI infrastructure capacity"
-        },
-        {
-          "headline": "NVIDIA Faces SEC Investigation and Delays Quarterly 10-Q Filing",
-          "url": "https://www.morningstar.com/news/marketwatch/2026111879/why-nvidia-broke-with-its-usual-practice-in-holding-back-its-quarterly-sec-report",
-          "time": "2026-11-18T13:01:26Z",
-          "sentiment": -0.7,
-          "reason": "SEC investigation and delayed 10-Q filing create serious governance and disclosure risk."
-        },
-        {
-          "headline": "NVIDIA Establishes Export Control Committee and Delays 10-Q Filing",
-          "url": "https://www.morningstar.com/news/marketwatch/2026111879/why-nvidia-broke-with-its-usual-practice-in-holding-back-its-quarterly-sec-report",
-          "time": "2026-11-18T11:31:26Z",
-          "sentiment": -0.4,
-          "reason": "Delayed 10-Q filing may signal accounting or regulatory issues"
         }
       ]
     },
@@ -83,10 +89,17 @@
       "headlines": []
     },
     "META": {
-      "score": -0.2,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.239,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "UBS Raises Meta Platforms Price Target Following Muse AI Adoption",
+          "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfti50&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Flouou-70661856%22%7D",
+          "time": "2026-11-19T14:31:58Z",
+          "sentiment": 0.4,
+          "reason": "UBS price target raise on AI agent monetization progress"
+        },
         {
           "headline": "UBS Adjusts Meta Platforms Price Target",
           "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfrtdg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fequity-investor-74339429%2Fpost%2Fall%22%7D",
@@ -104,24 +117,24 @@
       ]
     },
     "JPM": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
-    },
-    "XOM": {
-      "score": 0.2,
+      "score": -0.3,
       "articles": 1,
       "ai_articles": 1,
       "headlines": [
         {
-          "headline": "Mozambique Approves Amended Development Plan for Rovuma LNG Project",
-          "url": "https://www.rigzone.com/news/wire/mozambique_approves_amended_plan_for_rovuma_lng-18-nov-2026-185108-article/",
-          "time": "2026-11-18T11:31:25Z",
-          "sentiment": 0.2,
-          "reason": "Approved Rovuma LNG development plan; modest long-term positive"
+          "headline": "JPMorgan Chase Reports Widespread Banking Disruptions",
+          "url": "https://www.newswire.lk/category/international/",
+          "time": "2026-11-19T11:31:30Z",
+          "sentiment": -0.3,
+          "reason": "Widespread service outage may cause customer churn and reputational harm"
         }
       ]
+    },
+    "XOM": {
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "MU": {
       "score": 0.5,
@@ -144,32 +157,24 @@
       "headlines": []
     },
     "TSLA": {
-      "score": -0.3,
+      "score": 0.15,
       "articles": 1,
       "ai_articles": 1,
       "headlines": [
         {
-          "headline": "Tesla Receives Analyst Downgrade to Sell",
-          "url": "https://www.moomoo.com/community/feed/tesla-receives-a-downgrade-to-sell-by-gil-rotsein-the-117636526047238?chain_id=Name1K9-3FXPhg.1lfqmo0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A109%2C%22f%22%3A%22www.moomoo.com%2Fsectors%2FDeepSeek-Beneficiaries-BK23585%22%7D",
-          "time": "2026-11-18T11:31:23Z",
-          "sentiment": -0.3,
-          "reason": "Sell downgrade citing valuation and profitability concerns"
+          "headline": "Tesla to Continue Boosting Production at China Factory",
+          "url": "https://www.marketscreener.com/news/tesla-to-continue-boosting-production-at-china-factory-ce785ed2d98bf024",
+          "time": "2026-11-19T11:31:39Z",
+          "sentiment": 0.15,
+          "reason": "Reported China production expansion; modest positive for volume"
         }
       ]
     },
     "ASML": {
-      "score": 0.3,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "AlphaValue/Baader Europe Upgrades ASML to Add Rating",
-          "url": "https://www.marketscreener.com/news/alphavalue-baader-europe-upgrades-asml-to-add-rating-ce785edddb8ff22d",
-          "time": "2026-11-18T14:02:17Z",
-          "sentiment": 0.3,
-          "reason": "Analyst upgrade from reduce to add; positive sentiment shift."
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "AMD": {
       "score": 0.15,
