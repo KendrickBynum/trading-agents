@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T18:35:22.606413+00:00",
-  "market_risk": 0.044,
+  "generated_at": "2026-11-19T19:35:33.243473+00:00",
+  "market_risk": 0.047,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -22,8 +22,8 @@
     },
     "MSFT": {
       "score": 0.2,
-      "articles": 2,
-      "ai_articles": 2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Microsoft Announces AI Innovations and Salesforce Partnership at Ignite",
@@ -31,20 +31,13 @@
           "time": "2026-11-19T12:31:20Z",
           "sentiment": 0.2,
           "reason": "Ignite AI announcements and Salesforce partnership are mildly positive"
-        },
-        {
-          "headline": "Microsoft and Intel Announce Joint Infrastructure Investments",
-          "url": "https://stockhouse.com/news/newswire/2026/11/18/microsoft-and-intel-expand-azure-infrastructure-agreement",
-          "time": "2026-11-18T19:03:47Z",
-          "sentiment": 0.2,
-          "reason": "Joint infrastructure investment with Intel supports cloud and AI capacity growth"
         }
       ]
     },
     "NVDA": {
-      "score": -0.158,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.186,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "NVIDIA Receives Analyst Downgrades Following CEO Resignation",
@@ -66,13 +59,6 @@
           "time": "2026-11-19T12:32:36Z",
           "sentiment": 0.5,
           "reason": "Faster H200 China export approvals support NVIDIA China revenue"
-        },
-        {
-          "headline": "NVIDIA Announces Expanded Multiyear Supply Chain Commitments",
-          "url": "https://supplychaindigital.com/news/nvidia-extends-ai-supply-chain-with-long-term-supply-deals",
-          "time": "2026-11-18T19:01:32Z",
-          "sentiment": 0.35,
-          "reason": "Expanded multiyear supply commitments signal secured AI infrastructure capacity"
         }
       ]
     },
@@ -89,9 +75,9 @@
       "headlines": []
     },
     "META": {
-      "score": 0.239,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.288,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "UBS Raises Meta Platforms Price Target Following Muse AI Adoption",
@@ -106,13 +92,6 @@
           "time": "2026-11-18T21:32:00Z",
           "sentiment": -0.2,
           "reason": "UBS cuts price target on infrastructure spending concerns; still Buy"
-        },
-        {
-          "headline": "Meta's Muse AI Agent Faces Operational and Privacy Scrutiny",
-          "url": "https://www.fidelity.com/news/article/company-news/202611180600RTRSNEWSCOMBINED_L6N46Y1DP_1",
-          "time": "2026-11-18T19:01:33Z",
-          "sentiment": -0.2,
-          "reason": "Operational errors and privacy scrutiny around Muse AI agent"
         }
       ]
     },
@@ -184,16 +163,16 @@
       "headlines": []
     },
     "AMD": {
-      "score": 0.15,
+      "score": -0.35,
       "articles": 1,
       "ai_articles": 1,
       "headlines": [
         {
-          "headline": "OpenAI Integrates Frontier Model Feedback Tools with AMD Hardware",
-          "url": "https://www.moomoo.com/stock/AMD-US?chain_id=Name1K9-3FXPhg.1lfrmcg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fmalaysia-moo-102698803%22%7D",
-          "time": "2026-11-18T19:02:11Z",
-          "sentiment": 0.15,
-          "reason": "OpenAI collaboration with AMD hardware on design automation tools"
+          "headline": "Advanced Micro Devices Shares Decline Following Hunterbrook Media Report on China Ties",
+          "url": "https://www.marketscreener.com/news/advanced-micro-devices-shares-fall-amid-hunterbrook-media-report-on-china-ties-ce785ed2dd8ff126",
+          "time": "2026-11-19T19:01:52Z",
+          "sentiment": -0.35,
+          "reason": "Hunterbrook report alleging sanctioned China ties could drive further selling or probes"
         }
       ]
     }
