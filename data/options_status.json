@@ -1,8 +1,22 @@
 {
-  "time": "2026-11-19T19:35:41.570277+00:00",
+  "time": "2026-11-19T20:35:28.837823+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "AMZN261211C00265000",
+      "side": "sell",
+      "reason": "signals turned against the call (-0.12)",
+      "qty": 1,
+      "underlying": "AMZN",
+      "notional": 650.0,
+      "status": "order placed",
+      "order_id": "f1d4687c-fcc6-4afa-9b34-a674269a67be",
+      "limit": 6.6,
+      "book": "options",
+      "time": "2026-11-19T20:35:28.837823+00:00"
+    }
+  ],
   "options_level": 3,
   "learned": {
     "closed_trades": 6,

@@ -30,7 +30,8 @@
     "NVDA": "2026-10-30T17:35:42.176483652Z",
     "XOM": "2026-11-03T15:35:39.63261818Z",
     "AAPL": "2026-11-12T15:35:39.040461223Z",
-    "SPY": "2026-11-16T15:36:55.077614Z"
+    "SPY": "2026-11-16T15:36:55.077614Z",
+    "AMZN": "2026-11-19T20:35:28.837823+00:00"
   },
   "order_reasons": {
     "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180",
@@ -38,23 +39,24 @@
     "d63b6045-dab8-40b8-bb7e-eba623f813c2": "PUT NVDA $175 exp 2026-12-04 (24d, delta -0.55) on score -0.32; max loss $1,415",
     "8401c0ad-f5d3-4045-93d9-3a764858f20f": "CALL XOM $170 exp 2026-12-04 (22d, delta +0.55) on score +0.42; max loss $1,380",
     "23aafec9-ecb8-470e-96c5-d94dfd85ca76": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.55) on score +0.43; max loss $1,320",
-    "b9c6793d-f37f-4d55-ab61-7d6c4c890e05": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.54) on score +0.43; max loss $1,290"
+    "b9c6793d-f37f-4d55-ab61-7d6c4c890e05": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.54) on score +0.43; max loss $1,290",
+    "f1d4687c-fcc6-4afa-9b34-a674269a67be": "signals turned against the call (-0.12)"
   },
   "logged_orders": [
-    "c9b5b03b-cefa-41f5-85df-e249813cc1a0",
     "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
-    "f952b0e8-6cfd-4a4a-b6e3-972eb4e8b632",
-    "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
-    "f2c0bcb0-32f7-4141-82e4-fbbff1093471",
-    "a3f8a155-dcda-47e7-98f7-0824bfc6668b",
     "e0e68159-512d-40bf-b8fc-eb0063a7bb9c",
-    "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
-    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
     "ec257555-2b15-444b-8320-1d402f0efcca",
-    "d4d6889e-22fd-46de-9a53-88417a40ec77",
     "4fde783c-5790-4980-8b54-82b5bb8e20d5",
+    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
     "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
-    "d67d5966-c817-4b8b-8a04-0fe0d9395767"
+    "d67d5966-c817-4b8b-8a04-0fe0d9395767",
+    "a3f8a155-dcda-47e7-98f7-0824bfc6668b",
+    "f2c0bcb0-32f7-4141-82e4-fbbff1093471",
+    "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
+    "f952b0e8-6cfd-4a4a-b6e3-972eb4e8b632",
+    "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
+    "d4d6889e-22fd-46de-9a53-88417a40ec77",
+    "c9b5b03b-cefa-41f5-85df-e249813cc1a0"
   ],
-  "last_order_check": "2026-11-19T19:35:41.570277+00:00"
+  "last_order_check": "2026-11-19T20:35:28.837823+00:00"
 }

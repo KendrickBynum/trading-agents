@@ -1,59 +1,5 @@
 [
   {
-    "id": "125831085",
-    "created_at": "2026-11-18T20:01:36Z",
-    "headline": "Wells Fargo to Name JPMorgan Executive Allison Beer as COO",
-    "url": "https://www.fidelity.com/news/article/company-news/202611180923MIDNIGHTUSEQUITY_A3756531",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Senior executive departure to rival Wells Fargo; minor talent-loss signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "125831084",
-    "created_at": "2026-11-18T20:01:31Z",
-    "headline": "Splashtop Joins Microsoft Virus Initiative",
-    "url": "https://www.globenewswire.com/news-release/2026/11/18/3406049/0/en/splashtop-joins-microsoft-virus-initiative-strengthening-protection-for-microsoft-environments.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "125831083",
-    "created_at": "2026-11-18T20:01:31Z",
-    "headline": "Amazon Announces $7 Billion Renewable Energy Investment in India",
-    "url": "https://energydigital.com/news/amazon-to-invest-us-7bn-in-renewable-energy-in-india-by-2030",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Long-dated renewable investment in India; limited near-term price impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "125831082",
-    "created_at": "2026-11-18T20:01:25Z",
-    "headline": "Apple Announces Finalists for 2026 App Store Awards",
-    "url": "https://appleosophy.com/wire/oy1ri1h/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "126039731",
     "created_at": "2026-11-18T22:32:02Z",
     "headline": "AMD Insider Executes Significant Share Sale",
@@ -461,6 +407,40 @@
     "source": "fiscal.ai",
     "market_risk": 0.05,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "126880359",
+    "created_at": "2026-11-19T20:01:30Z",
+    "headline": "JPMorgan Chase Named Associate Sponsor for Wreaths Across America Radio",
+    "url": "https://markets.businessinsider.com/news/stocks/wreaths-across-america-radio-is-proud-to-announce-the-2026-escort-to-arlington-coverage-sponsors-1036784720",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.0,
+        "confidence": 0.9,
+        "reason": "Routine charity sponsorship with no financial or business impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "126880356",
+    "created_at": "2026-11-19T20:01:24Z",
+    "headline": "Apple Camera and Photos Software Chief Jon McCormack Departs",
+    "url": "https://appleosophy.com/wire/pe7xh2x/",
+    "source": "fiscal.ai",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.1,
+        "confidence": 0.3,
+        "reason": "Mid-level software exec departure; limited expected price impact"
+      }
+    ],
     "scorer": "claude"
   }
 ]
