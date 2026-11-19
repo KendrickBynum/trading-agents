@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T21:25:34.236424+00:00",
-  "market_risk": 0.038,
+  "generated_at": "2026-11-19T02:39:47.295412+00:00",
+  "market_risk": 0.036,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -43,9 +43,9 @@
       ]
     },
     "NVDA": {
-      "score": -0.116,
-      "articles": 4,
-      "ai_articles": 4,
+      "score": -0.21,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
         {
           "headline": "NVIDIA Announces Expanded Multiyear Supply Chain Commitments",
@@ -67,13 +67,6 @@
           "time": "2026-11-18T11:31:26Z",
           "sentiment": -0.4,
           "reason": "Delayed 10-Q filing may signal accounting or regulatory issues"
-        },
-        {
-          "headline": "NVIDIA Reports Financial Results for Third Quarter Fiscal 2027",
-          "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html",
-          "time": "2026-11-18T00:01:31Z",
-          "sentiment": 0.6,
-          "reason": "Q3 FY27 revenue of $115.8B, up 103% YoY, signals strong demand"
         }
       ]
     },
@@ -91,9 +84,16 @@
     },
     "META": {
       "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "UBS Adjusts Meta Platforms Price Target",
+          "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfrtdg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fequity-investor-74339429%2Fpost%2Fall%22%7D",
+          "time": "2026-11-18T21:32:00Z",
+          "sentiment": -0.2,
+          "reason": "UBS cuts price target on infrastructure spending concerns; still Buy"
+        },
         {
           "headline": "Meta's Muse AI Agent Faces Operational and Privacy Scrutiny",
           "url": "https://www.fidelity.com/news/article/company-news/202611180600RTRSNEWSCOMBINED_L6N46Y1DP_1",
@@ -124,10 +124,18 @@
       ]
     },
     "MU": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.5,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Micron Sees Tighter Memory Supply Through 2028 as AI Demand Remains Strong, RBC Says",
+          "url": "https://www.moomoo.com/news/post/1005067452/micron-sees-tighter-memory-supply-through-2028-as-ai-demand",
+          "time": "2026-11-18T21:31:48Z",
+          "sentiment": 0.5,
+          "reason": "RBC sees memory supply tightening through 2028 on AI demand"
+        }
+      ]
     },
     "LRCX": {
       "score": 0.0,
