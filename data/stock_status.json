@@ -1,35 +1,8 @@
 {
-  "time": "2026-11-19T17:35:35.330344+00:00",
+  "time": "2026-11-19T18:35:24.706756+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [
-    {
-      "time": "2026-11-19T16:52:31.650708Z",
-      "book": "stock",
-      "symbol": "TSLA",
-      "side": "sell",
-      "status": "filled",
-      "order_id": "cdc3b1d3-4e82-4e13-af17-9ecbf1cb72c4",
-      "qty": 25.0,
-      "price": 377.66,
-      "notional": 9441.5,
-      "reason": "trailing stop hit (fell from its high)",
-      "realized_pl": -198.5
-    },
-    {
-      "time": "2026-11-19T17:06:00.03702Z",
-      "book": "stock",
-      "symbol": "AMZN",
-      "side": "sell",
-      "status": "filled",
-      "order_id": "e48c8cab-6cc6-4de1-9956-eb85a07ab235",
-      "qty": 37.0,
-      "price": 263.01,
-      "notional": 9731.37,
-      "reason": "trailing stop hit (fell from its high)",
-      "realized_pl": -134.31
-    }
-  ],
+  "last_actions": [],
   "buy_threshold": 0.429,
   "exit_threshold": -0.298,
   "trailing_stop_pct": 0.04,

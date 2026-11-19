@@ -1,25 +1,19 @@
 {
-  "time": "2026-11-19T17:35:36.092911+00:00",
+  "time": "2026-11-19T18:35:25.874613+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
+      "time": "2026-11-19T18:13:47.743832Z",
+      "book": "frac",
       "symbol": "AAPL",
       "side": "buy",
-      "reason": "limit buy 0.25 ATR below $350.40 (score +0.36, trend +0.54)",
-      "qty": 11.5641,
-      "limit": 348.15,
-      "notional": 4026.04,
-      "score": 0.362,
-      "factors": {
-        "trend": 0.539,
-        "levels": 0.643,
-        "flow": -0.042,
-        "pattern": 0.276
-      },
-      "status": "order placed",
+      "status": "filled",
       "order_id": "2ac2c852-5ef6-4ac9-98b3-7cde2c7f275a",
-      "time": "2026-11-19T17:35:36.092911+00:00"
+      "qty": 11.5641,
+      "price": 348.14,
+      "notional": 4025.93,
+      "reason": "limit buy 0.25 ATR below $350.40 (score +0.36, trend +0.54)"
     }
   ],
   "settings": {

@@ -595,5 +595,17 @@
     "notional": 9731.37,
     "reason": "trailing stop hit (fell from its high)",
     "realized_pl": -134.31
+  },
+  {
+    "time": "2026-11-19T18:13:47.743832Z",
+    "book": "frac",
+    "symbol": "AAPL",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "2ac2c852-5ef6-4ac9-98b3-7cde2c7f275a",
+    "qty": 11.5641,
+    "price": 348.14,
+    "notional": 4025.93,
+    "reason": "limit buy 0.25 ATR below $350.40 (score +0.36, trend +0.54)"
   }
 ]
