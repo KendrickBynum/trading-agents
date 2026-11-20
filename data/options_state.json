@@ -2,28 +2,6 @@
   "started_at": "2026-10-29T05:36:36.483559+00:00",
   "capital": 15097.67,
   "entries": {
-    "NVDA261218P00162000": {
-      "time": "2026-11-18T14:35:38.873319+00:00",
-      "underlying": "NVDA",
-      "type": "put",
-      "score": -0.301,
-      "delta": -0.5533,
-      "iv": 0.5383,
-      "dte": 30,
-      "limit": 12.6,
-      "avg": 12.6
-    },
-    "AMZN261211C00265000": {
-      "time": "2026-11-18T17:35:30.967020+00:00",
-      "underlying": "AMZN",
-      "type": "call",
-      "score": 0.466,
-      "delta": 0.5529,
-      "iv": 0.386,
-      "dte": 23,
-      "limit": 11.4,
-      "avg": 11.4
-    },
     "GOOGL261211P00280000": {
       "time": "2026-11-20T14:35:36.501338+00:00",
       "underlying": "GOOGL",
@@ -32,16 +10,17 @@
       "delta": -0.53,
       "iv": 0.3924,
       "dte": 21,
-      "limit": 12.1
+      "limit": 12.1,
+      "avg": 11.7
     }
   },
   "exits": {
     "GOOGL": "2026-11-19T14:35:31.173092287Z",
-    "NVDA": "2026-11-20T14:35:36.501338+00:00",
+    "NVDA": "2026-11-20T14:40:26.205707Z",
     "XOM": "2026-11-03T15:35:39.63261818Z",
     "AAPL": "2026-11-12T15:35:39.040461223Z",
     "SPY": "2026-11-16T15:36:55.077614Z",
-    "AMZN": "2026-11-20T14:35:36.501338+00:00"
+    "AMZN": "2026-11-20T14:36:21.291368Z"
   },
   "order_reasons": {
     "d1e897b2-42db-427f-adf3-ea0219e36a2f": "PUT GOOGL $290 exp 2026-11-27 (29d, delta -0.55) on score -0.34; max loss $1,180",
@@ -50,26 +29,26 @@
     "8401c0ad-f5d3-4045-93d9-3a764858f20f": "CALL XOM $170 exp 2026-12-04 (22d, delta +0.55) on score +0.42; max loss $1,380",
     "23aafec9-ecb8-470e-96c5-d94dfd85ca76": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.55) on score +0.43; max loss $1,320",
     "b9c6793d-f37f-4d55-ab61-7d6c4c890e05": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.54) on score +0.43; max loss $1,290",
-    "f1d4687c-fcc6-4afa-9b34-a674269a67be": "signals turned against the call (-0.12)",
-    "82552973-390d-4301-a1b7-1e2420954f51": "stop loss (-60%)",
-    "e10bbfc0-c09a-476f-b490-7e3d35fa0f31": "take profit (+83%)",
-    "64697f3e-dba8-46d6-b794-cb96f75543a5": "PUT GOOGL $280 exp 2026-12-11 (21d, delta -0.53) on score -0.47; max loss $1,210"
+    "f1d4687c-fcc6-4afa-9b34-a674269a67be": "signals turned against the call (-0.12)"
   },
   "logged_orders": [
-    "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
-    "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
-    "e0e68159-512d-40bf-b8fc-eb0063a7bb9c",
-    "ec257555-2b15-444b-8320-1d402f0efcca",
-    "d4d6889e-22fd-46de-9a53-88417a40ec77",
-    "f952b0e8-6cfd-4a4a-b6e3-972eb4e8b632",
-    "f2c0bcb0-32f7-4141-82e4-fbbff1093471",
-    "a3f8a155-dcda-47e7-98f7-0824bfc6668b",
     "d67d5966-c817-4b8b-8a04-0fe0d9395767",
-    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
+    "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
+    "f952b0e8-6cfd-4a4a-b6e3-972eb4e8b632",
     "4fde783c-5790-4980-8b54-82b5bb8e20d5",
+    "64697f3e-dba8-46d6-b794-cb96f75543a5",
+    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
+    "d4d6889e-22fd-46de-9a53-88417a40ec77",
+    "ec257555-2b15-444b-8320-1d402f0efcca",
+    "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
+    "a3f8a155-dcda-47e7-98f7-0824bfc6668b",
+    "e10bbfc0-c09a-476f-b490-7e3d35fa0f31",
     "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
     "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
-    "c9b5b03b-cefa-41f5-85df-e249813cc1a0"
+    "e0e68159-512d-40bf-b8fc-eb0063a7bb9c",
+    "f2c0bcb0-32f7-4141-82e4-fbbff1093471",
+    "c9b5b03b-cefa-41f5-85df-e249813cc1a0",
+    "82552973-390d-4301-a1b7-1e2420954f51"
   ],
-  "last_order_check": "2026-11-20T14:35:36.501338+00:00"
+  "last_order_check": "2026-11-20T15:35:22.183317+00:00"
 }
