@@ -456,5 +456,22 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "127846342",
+    "created_at": "2026-11-20T21:01:34Z",
+    "headline": "ASML Faces Potential Revenue Risk from U.S. Export Policy",
+    "url": "https://www.moomoo.com/news/post/1005359134/asml-tumbles-on-us-china-export-fears-market-talk",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "ASML",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Jefferies says possible U.S. export restrictions could put ~15% of revenue at risk"
+      }
+    ],
+    "scorer": "claude"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T20:35:28.847605+00:00",
-  "market_risk": 0.058,
+  "generated_at": "2026-11-20T21:03:35.332080+00:00",
+  "market_risk": 0.061,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -148,10 +148,18 @@
       ]
     },
     "ASML": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.5,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "ASML Faces Potential Revenue Risk from U.S. Export Policy",
+          "url": "https://www.moomoo.com/news/post/1005359134/asml-tumbles-on-us-china-export-fears-market-talk",
+          "time": "2026-11-20T21:01:34Z",
+          "sentiment": -0.5,
+          "reason": "Jefferies says possible U.S. export restrictions could put ~15% of revenue at risk"
+        }
+      ]
     },
     "AMD": {
       "score": -0.3,
