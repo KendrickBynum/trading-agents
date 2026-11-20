@@ -1,39 +1,5 @@
 [
   {
-    "id": "126880359",
-    "created_at": "2026-11-19T20:01:30Z",
-    "headline": "JPMorgan Chase Named Associate Sponsor for Wreaths Across America Radio",
-    "url": "https://markets.businessinsider.com/news/stocks/wreaths-across-america-radio-is-proud-to-announce-the-2026-escort-to-arlington-coverage-sponsors-1036784720",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.0,
-        "confidence": 0.9,
-        "reason": "Routine charity sponsorship with no financial or business impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "126880356",
-    "created_at": "2026-11-19T20:01:24Z",
-    "headline": "Apple Camera and Photos Software Chief Jon McCormack Departs",
-    "url": "https://appleosophy.com/wire/pe7xh2x/",
-    "source": "fiscal.ai",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Mid-level software exec departure; limited expected price impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "127299796",
     "created_at": "2026-11-20T01:01:32Z",
     "headline": "Meta Reevaluating 2030 Net Zero Emissions Goal",
@@ -470,6 +436,23 @@
         "sentiment": -0.3,
         "confidence": 0.4,
         "reason": "Short-seller allegation on blacklisted Chinese entity; law firm probes are routine"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127778837",
+    "created_at": "2026-11-20T20:01:18Z",
+    "headline": "Compute Exchange Announces Live GPU Capacity Auction at NVIDIA GTC DC",
+    "url": "https://www.einnews.com/pr_news/957765130/compute-exchange-announces-live-gpu-capacity-auction-at-nvidia-gtc-dc",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "Event promotes GPU demand, but it is a minor, routine announcement"
       }
     ],
     "scorer": "claude"
