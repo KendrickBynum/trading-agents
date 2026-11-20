@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T18:35:22.248207+00:00",
-  "market_risk": 0.04,
+  "generated_at": "2026-11-20T19:35:25.153614+00:00",
+  "market_risk": 0.062,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -42,10 +42,24 @@
       "headlines": []
     },
     "NVDA": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": -0.383,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "NVIDIA Subject to Congressional Probe Regarding China Sales",
+          "url": "https://www.marketscreener.com/news/nvidia-subject-to-congressional-probe-over-ties-to-commerce-department-possible-china-sales-ce785ed3d888f620",
+          "time": "2026-11-20T19:01:43Z",
+          "sentiment": -0.4,
+          "reason": "Congressional probe over China chip sales adds regulatory and export risk"
+        },
+        {
+          "headline": "California Attorney General Launches Investigation into NVIDIA",
+          "url": "https://www.manilatimes.net/2026/11/21/business/foreign-business/california-probes-nvidia-over-china-chips-access/2475093",
+          "time": "2026-11-20T19:01:43Z",
+          "sentiment": -0.4,
+          "reason": "California AG probe alleges misleading investors on China chip presence"
+        },
         {
           "headline": "Democrats Open Probe Into Nvidia Influence on US Megaspeed Investigation",
           "url": "https://www.fidelity.com/news/article/technology/202611200600PR_NEWS_USPR_____SF03279",
@@ -140,16 +154,16 @@
       "headlines": []
     },
     "AMD": {
-      "score": -0.35,
+      "score": -0.3,
       "articles": 1,
       "ai_articles": 1,
       "headlines": [
         {
-          "headline": "Advanced Micro Devices Shares Decline Following Hunterbrook Media Report on China Ties",
-          "url": "https://www.marketscreener.com/news/advanced-micro-devices-shares-fall-amid-hunterbrook-media-report-on-china-ties-ce785ed2dd8ff126",
-          "time": "2026-11-19T19:01:52Z",
-          "sentiment": -0.35,
-          "reason": "Hunterbrook report alleging sanctioned China ties could drive further selling or probes"
+          "headline": "Law Firms Announce Securities Investigations into Advanced Micro Devices, Inc.",
+          "url": "https://www.globenewswire.com/news-release/2026/11/20/3407759/0/en/amd-investors-have-opportunity-to-join-advanced-micro-devices-inc-fraud-investigation-with-sbs-law.html",
+          "time": "2026-11-20T19:01:32Z",
+          "sentiment": -0.3,
+          "reason": "Short-seller allegation on blacklisted Chinese entity; law firm probes are routine"
         }
       ]
     }

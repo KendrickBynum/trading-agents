@@ -648,5 +648,17 @@
     "notional": 1170.0,
     "reason": "PUT GOOGL $280 exp 2026-12-11 (21d, delta -0.53) on score -0.47; max loss $1,210",
     "underlying": "GOOGL"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "reason": "signals turned negative (-0.34)",
+    "qty": 7.676,
+    "notional": 3736.29,
+    "realized_pl": -285.7,
+    "status": "submitted",
+    "order_id": "5324fcad-11f4-4740-a604-340cb1e87efe",
+    "book": "frac",
+    "time": "2026-11-20T19:35:31.800005+00:00"
   }
 ]

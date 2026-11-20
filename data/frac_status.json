@@ -1,8 +1,21 @@
 {
-  "time": "2026-11-20T18:35:25.238943+00:00",
+  "time": "2026-11-20T19:35:31.800005+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "reason": "signals turned negative (-0.34)",
+      "qty": 7.676,
+      "notional": 3736.29,
+      "realized_pl": -285.7,
+      "status": "submitted",
+      "order_id": "5324fcad-11f4-4740-a604-340cb1e87efe",
+      "book": "frac",
+      "time": "2026-11-20T19:35:31.800005+00:00"
+    }
+  ],
   "settings": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,
