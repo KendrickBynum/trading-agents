@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T02:25:11.306621+00:00",
-  "market_risk": 0.048,
+  "generated_at": "2026-11-20T14:35:25.346298+00:00",
+  "market_risk": 0.036,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -15,10 +15,17 @@
       "headlines": []
     },
     "AAPL": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.097,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Apple Developing Autonomous AI Agent",
+          "url": "https://www.moomoo.com/stock/AAPL-US?chain_id=Name1K9-3FXPhg.1lg030g&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FPDD-US%22%7D",
+          "time": "2026-11-20T12:31:54Z",
+          "sentiment": 0.2,
+          "reason": "Reported autonomous AI agent development; early-stage and unconfirmed"
+        },
         {
           "headline": "U.K. Tribunal Orders Government to Confirm Secret Demand for Apple Customer Data",
           "url": "https://newsfilter.io/articles/u-k-government-forced-to-disclose-secret-apple-backdoor-order-89f07cb47e5859b18ddafa5e02d91f83",
@@ -29,44 +36,22 @@
       ]
     },
     "MSFT": {
-      "score": 0.2,
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
+    },
+    "NVDA": {
+      "score": -0.3,
       "articles": 1,
       "ai_articles": 1,
       "headlines": [
         {
-          "headline": "Microsoft Announces AI Innovations and Salesforce Partnership at Ignite",
-          "url": "https://aimagazine.com/news/microsoft-unveils-copilot-workspaces-and-salesforce-deal",
-          "time": "2026-11-19T12:31:20Z",
-          "sentiment": 0.2,
-          "reason": "Ignite AI announcements and Salesforce partnership are mildly positive"
-        }
-      ]
-    },
-    "NVDA": {
-      "score": -0.186,
-      "articles": 3,
-      "ai_articles": 3,
-      "headlines": [
-        {
-          "headline": "NVIDIA Receives Analyst Downgrades Following CEO Resignation",
-          "url": "https://www.morningstar.com/news/marketwatch/20261119102/nvidias-turmoil-has-me-spooked-should-i-sell-my-stocks-and-buy-real-estate-or-ride-out-the-storm",
-          "time": "2026-11-19T14:31:01Z",
-          "sentiment": -0.6,
-          "reason": "Analyst downgrades after CEO Jensen Huang's resignation; leadership uncertainty"
-        },
-        {
-          "headline": "Daiwa Securities Adjusts Price Target on Nvidia to $185 From $245",
-          "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lftllg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Falex-gui-102899785%22%7D",
-          "time": "2026-11-19T13:02:23Z",
+          "headline": "Democrats Open Probe Into Nvidia Influence on US Megaspeed Investigation",
+          "url": "https://www.fidelity.com/news/article/technology/202611200600PR_NEWS_USPR_____SF03279",
+          "time": "2026-11-20T11:32:28Z",
           "sentiment": -0.3,
-          "reason": "Daiwa cuts price target sharply from $245 to $185"
-        },
-        {
-          "headline": "US Commerce Department Expedited H200 China Export Approvals for NVIDIA",
-          "url": "https://www.marketscreener.com/news/nvidia-s-h200-china-export-approvals-were-rushed-by-us-commerce-department-ce785ed2d98af026",
-          "time": "2026-11-19T12:32:36Z",
-          "sentiment": 0.5,
-          "reason": "Faster H200 China export approvals support NVIDIA China revenue"
+          "reason": "Congressional Democrats probe Nvidia's influence; regulatory and headline risk"
         }
       ]
     },
@@ -91,23 +76,15 @@
       "headlines": []
     },
     "META": {
-      "score": 0.4,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "UBS Raises Meta Platforms Price Target Following Muse AI Adoption",
-          "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfti50&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Flouou-70661856%22%7D",
-          "time": "2026-11-19T14:31:58Z",
-          "sentiment": 0.4,
-          "reason": "UBS price target raise on AI agent monetization progress"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "JPM": {
       "score": -0.3,
-      "articles": 2,
-      "ai_articles": 2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "JPMorgan Chase Reports Cyberattack on Third-Party Vendors",
@@ -115,13 +92,6 @@
           "time": "2026-11-19T16:01:12Z",
           "sentiment": -0.3,
           "reason": "Cyberattack exposed customer data; possible reputational and regulatory cost"
-        },
-        {
-          "headline": "JPMorgan Chase Reports Widespread Banking Disruptions",
-          "url": "https://www.newswire.lk/category/international/",
-          "time": "2026-11-19T11:31:30Z",
-          "sentiment": -0.3,
-          "reason": "Widespread service outage may cause customer churn and reputational harm"
         }
       ]
     },
@@ -144,23 +114,23 @@
       "headlines": []
     },
     "TSLA": {
-      "score": -0.063,
+      "score": 0.123,
       "articles": 2,
       "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Tesla Receives Regulatory Approval for Assisted Driving in Italy",
+          "url": "https://www.marketscreener.com/news/tesla-secures-approval-for-assisted-driving-in-italy-ce785ed3d88ef127",
+          "time": "2026-11-20T12:31:45Z",
+          "sentiment": 0.2,
+          "reason": "Italian approval of assisted driving; regional, small step toward EU rollout"
+        },
         {
           "headline": "ISS Recommends Shareholders Vote Against Tesla Chair Robyn Denholm",
           "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lfula0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FENPH-US%22%7D",
           "time": "2026-11-20T00:02:07Z",
           "sentiment": -0.15,
           "reason": "ISS vote-against recommendation signals governance concerns about chair"
-        },
-        {
-          "headline": "Tesla to Continue Boosting Production at China Factory",
-          "url": "https://www.marketscreener.com/news/tesla-to-continue-boosting-production-at-china-factory-ce785ed2d98bf024",
-          "time": "2026-11-19T11:31:39Z",
-          "sentiment": 0.15,
-          "reason": "Reported China production expansion; modest positive for volume"
         }
       ]
     },
