@@ -1,93 +1,5 @@
 [
   {
-    "id": "126039731",
-    "created_at": "2026-11-18T22:32:02Z",
-    "headline": "AMD Insider Executes Significant Share Sale",
-    "url": "https://www.marketscreener.com/news/advanced-micro-devices-insider-sold-shares-worth-35-489-904-according-to-a-recent-sec-filing-ce785edddf89f121",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMD",
-        "sentiment": -0.1,
-        "confidence": 0.3,
-        "reason": "Large insider share sale; routine but mildly negative signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "125955611",
-    "created_at": "2026-11-18T21:32:14Z",
-    "headline": "JPMorgan-led Banks Reduce Yield on Proofpoint Bond",
-    "url": "https://www.moomoo.com/stock/JPM-US?chain_id=Name1K9-3FXPhg.1lfrpt0&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fbuy-low-sell-low-107785341%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "125955603",
-    "created_at": "2026-11-18T21:32:00Z",
-    "headline": "UBS Adjusts Meta Platforms Price Target",
-    "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfrtdg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fequity-investor-74339429%2Fpost%2Fall%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "UBS cuts price target on infrastructure spending concerns; still Buy"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "125955602",
-    "created_at": "2026-11-18T21:32:00Z",
-    "headline": "Reports Indicate Meta Proposed Ending News Blackout in Canada",
-    "url": "https://newsfilter.io/articles/minister-says-discussions-with-meta-confidential-following-reports-of-possible-d88ccd8ccd8c5cc388ed918f1cc8b03a",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Reported Canada news-blackout compromise; minor, unconfirmed financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "125954218",
-    "created_at": "2026-11-18T21:31:48Z",
-    "headline": "Micron Sees Tighter Memory Supply Through 2028 as AI Demand Remains Strong, RBC Says",
-    "url": "https://www.moomoo.com/news/post/1005067452/micron-sees-tighter-memory-supply-through-2028-as-ai-demand",
-    "source": "fiscal.ai",
-    "market_risk": 0.03,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": 0.5,
-        "confidence": 0.6,
-        "reason": "RBC sees memory supply tightening through 2028 on AI demand"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "125954216",
-    "created_at": "2026-11-18T21:31:41Z",
-    "headline": "Apple Releases HomeView Software 27.2.1 Update",
-    "url": "https://appleosophy.com/wire/gwm546z/",
-    "source": "fiscal.ai",
-    "market_risk": 0.01,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "126408845",
     "created_at": "2026-11-19T14:31:58Z",
     "headline": "UBS Raises Meta Platforms Price Target Following Muse AI Adoption",
@@ -439,6 +351,159 @@
         "sentiment": -0.1,
         "confidence": 0.3,
         "reason": "Mid-level software exec departure; limited expected price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127299796",
+    "created_at": "2026-11-20T01:01:32Z",
+    "headline": "Meta Reevaluating 2030 Net Zero Emissions Goal",
+    "url": "https://www.manilatimes.net/2026/11/20/world/americas-emea/meta-says-reevaluating-2030-net-zero-target-amid-ai-buildout/2474624",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Walking back net zero goal may draw ESG criticism; limited price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127299793",
+    "created_at": "2026-11-20T01:01:26Z",
+    "headline": "Third Point LLC Exits Entire Stake in Amazon",
+    "url": "https://www.barchart.com/story/news/8926361/dan-loebs-third-point-exits-its-entire-stake-in-amazon-stock-where-it-invested-instead",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.15,
+        "reason": "Hedge fund exit from 13F filing; minor, likely already known"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127299081",
+    "created_at": "2026-11-20T00:02:07Z",
+    "headline": "ISS Recommends Shareholders Vote Against Tesla Chair Robyn Denholm",
+    "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lfula0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FENPH-US%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.15,
+        "confidence": 0.25,
+        "reason": "ISS vote-against recommendation signals governance concerns about chair"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127132169",
+    "created_at": "2026-11-19T22:32:06Z",
+    "headline": "Meta to Price Muse Charm AI Device at $300",
+    "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lfuhpg&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fvchong-888-105336580%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Consumer AI device launch with pricing; modest product news"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127130376",
+    "created_at": "2026-11-19T22:31:33Z",
+    "headline": "NVIDIA to Present at 30th Annual UBS Global Technology and AI Conference",
+    "url": "https://www.globenewswire.com/news-release/2026/11/19/3407166/0/en/nvidia-announces-upcoming-event-for-financial-community.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Routine conference participation announcement; negligible impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127130373",
+    "created_at": "2026-11-19T22:31:27Z",
+    "headline": "U.K. Tribunal Orders Government to Confirm Secret Demand for Apple Customer Data",
+    "url": "https://newsfilter.io/articles/u-k-government-forced-to-disclose-secret-apple-backdoor-order-89f07cb47e5859b18ddafa5e02d91f83",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Government encryption-access demand raises privacy and regulatory risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127029149",
+    "created_at": "2026-11-19T21:31:49Z",
+    "headline": "TechnipFMC Awarded Subsea Contract for ExxonMobil's Longtail Project",
+    "url": "https://www.businesswire.com/newsroom/industry/energy/oil-gas",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.1,
+        "confidence": 0.15,
+        "reason": "Subsea contract benefits partner TechnipFMC; ExxonMobil project progressing"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127029144",
+    "created_at": "2026-11-19T21:31:42Z",
+    "headline": "Micron Technology Schedules Fiscal First Quarter 2027 Earnings Call",
+    "url": "https://www.moomoo.com/news/post/1005226276/micron-technology-to-report-fiscal-first-quarter-results-on-december",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Earnings call scheduling is routine; no fundamental information"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "127029141",
+    "created_at": "2026-11-19T21:31:33Z",
+    "headline": "Anthropic IPO Valuation and Amazon's Stake Disclosure",
+    "url": "https://newsfilter.io/articles/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test-a8f2d6fda3135f21896995b1454f23c1",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.25,
+        "confidence": 0.4,
+        "reason": "Large Anthropic stake gains value after IPO; supportive for Amazon"
       }
     ],
     "scorer": "claude"

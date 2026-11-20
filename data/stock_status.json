@@ -1,5 +1,5 @@
 {
-  "time": "2026-11-19T21:29:48.128922+00:00",
+  "time": "2026-11-20T02:25:20.426470+00:00",
   "halts": [
     "Market closed"
   ],
@@ -7,6 +7,10 @@
   "last_actions": [],
   "buy_threshold": 0.429,
   "exit_threshold": -0.298,
-  "trailing_stop_pct": 0.04,
+  "trailing_stop_atr": 3.0,
+  "trailing_stop_range": [
+    0.04,
+    0.15
+  ],
   "max_hold_days": 14
 }

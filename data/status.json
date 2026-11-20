@@ -1,26 +1,30 @@
 {
-  "last_run": "2026-11-19T21:29:49.680078+00:00",
+  "last_run": "2026-11-20T02:25:21.897135+00:00",
   "paper": true,
   "market_open": false,
   "next_open": "2026-11-20T09:30:00-05:00",
-  "equity": 98267.87,
+  "equity": 98285.9,
   "cash": 87914.96,
-  "day_pnl": -1201.18,
-  "day_pnl_pct": -0.01208,
+  "day_pnl": -1183.15,
+  "day_pnl_pct": -0.01189,
   "starting_equity": 100000.0,
-  "total_pnl": -1732.13,
-  "total_pnl_pct": -0.01732,
+  "total_pnl": -1714.1,
+  "total_pnl_pct": -0.01714,
   "halts": [
     "Market closed"
   ],
   "alerts": [],
   "last_actions": [],
-  "market_risk": 0.045,
-  "signals_at": "2026-11-19T21:29:46.752850+00:00",
-  "analysis_at": "2026-11-19T21:29:47.114060+00:00",
+  "market_risk": 0.048,
+  "signals_at": "2026-11-20T02:25:11.306621+00:00",
+  "analysis_at": "2026-11-20T02:25:19.314342+00:00",
   "buy_threshold": 0.429,
   "exit_threshold": -0.298,
-  "trailing_stop_pct": 0.04,
+  "trailing_stop_atr": 3.0,
+  "trailing_stop_range": [
+    0.04,
+    0.15
+  ],
   "max_hold_days": 14,
   "books": {
     "stock": {
@@ -42,11 +46,11 @@
     },
     "frac": {
       "capital": 20130.23,
-      "value": 7857.91,
+      "value": 7875.94,
       "realized": -143.03,
-      "unrealized": -190.01,
-      "pnl": -333.04,
-      "pnl_pct": -0.01654,
+      "unrealized": -171.98,
+      "pnl": -315.01,
+      "pnl_pct": -0.01565,
       "open": 2,
       "closed_trades": 4,
       "win_rate": 0.5,
@@ -137,14 +141,15 @@
       "book": "frac",
       "qty": 11.5641,
       "avg_entry": 348.14,
-      "price": 348.35,
-      "value": 4028.354235,
-      "pl": 2.428461,
-      "pl_pct": 0.0006,
+      "price": 352.0,
+      "value": 4070.5632,
+      "pl": 44.637426,
+      "pl_pct": 0.01109,
       "opened": "2026-11-19T18:35:25.874613+00:00",
       "stop_price": null,
-      "high_water": 350.11,
-      "stop_type": null
+      "high_water": 352.0,
+      "stop_type": null,
+      "trail_pct": null
     },
     {
       "symbol": "AMZN261211C00265000",
@@ -159,25 +164,27 @@
       "stop_price": null,
       "high_water": null,
       "stop_type": null,
+      "trail_pct": null,
       "underlying": "AMZN",
       "option_type": "call",
       "strike": 265.0,
       "expiry": "2026-12-11",
-      "dte": 22
+      "dte": 21
     },
     {
       "symbol": "MSFT",
       "book": "frac",
       "qty": 7.676,
       "avg_entry": 523.97,
-      "price": 498.9,
-      "value": 3829.5564,
-      "pl": -192.43732,
-      "pl_pct": -0.04785,
+      "price": 495.75,
+      "value": 3805.377,
+      "pl": -216.61672,
+      "pl_pct": -0.05386,
       "opened": "2026-11-12T18:35:47.623753+00:00",
       "stop_price": null,
       "high_water": 527.95,
-      "stop_type": null
+      "stop_type": null,
+      "trail_pct": null
     },
     {
       "symbol": "NVDA261218P00162000",
@@ -192,11 +199,12 @@
       "stop_price": null,
       "high_water": null,
       "stop_type": null,
+      "trail_pct": null,
       "underlying": "NVDA",
       "option_type": "put",
       "strike": 162.0,
       "expiry": "2026-12-18",
-      "dte": 29
+      "dte": 28
     }
   ]
 }
