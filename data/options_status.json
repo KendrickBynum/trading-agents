@@ -1,50 +1,8 @@
 {
-  "time": "2026-11-20T15:35:22.183317+00:00",
+  "time": "2026-11-20T16:35:40.088651+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [
-    {
-      "time": "2026-11-20T14:36:21.291368Z",
-      "book": "options",
-      "symbol": "AMZN261211C00265000",
-      "side": "sell",
-      "status": "filled",
-      "order_id": "82552973-390d-4301-a1b7-1e2420954f51",
-      "qty": 1.0,
-      "price": 4.65,
-      "notional": 465.0,
-      "reason": "stop loss (-60%)",
-      "underlying": "AMZN",
-      "realized_pl": -675.0
-    },
-    {
-      "time": "2026-11-20T14:40:26.205707Z",
-      "book": "options",
-      "symbol": "NVDA261218P00162000",
-      "side": "sell",
-      "status": "filled",
-      "order_id": "e10bbfc0-c09a-476f-b490-7e3d35fa0f31",
-      "qty": 1.0,
-      "price": 23.6,
-      "notional": 2360.0,
-      "reason": "take profit (+83%)",
-      "underlying": "NVDA",
-      "realized_pl": 1100.0
-    },
-    {
-      "time": "2026-11-20T14:38:27.300374Z",
-      "book": "options",
-      "symbol": "GOOGL261211P00280000",
-      "side": "buy",
-      "status": "filled",
-      "order_id": "64697f3e-dba8-46d6-b794-cb96f75543a5",
-      "qty": 1.0,
-      "price": 11.7,
-      "notional": 1170.0,
-      "reason": "PUT GOOGL $280 exp 2026-12-11 (21d, delta -0.53) on score -0.47; max loss $1,210",
-      "underlying": "GOOGL"
-    }
-  ],
+  "last_actions": [],
   "options_level": 3,
   "learned": {
     "closed_trades": 8,

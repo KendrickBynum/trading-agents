@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T15:35:18.811608+00:00",
-  "market_risk": 0.036,
+  "generated_at": "2026-11-20T16:35:31.789245+00:00",
+  "market_risk": 0.04,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -82,18 +82,10 @@
       "headlines": []
     },
     "JPM": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "JPMorgan Chase Reports Cyberattack on Third-Party Vendors",
-          "url": "https://wjno.iheart.com/content/2026-11-19-jpmorganchase-says-vendor-cyberattack-exposed-customer-data/",
-          "time": "2026-11-19T16:01:12Z",
-          "sentiment": -0.3,
-          "reason": "Cyberattack exposed customer data; possible reputational and regulatory cost"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "XOM": {
       "score": 0.0,
@@ -114,10 +106,17 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.123,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.163,
+      "articles": 3,
+      "ai_articles": 3,
       "headlines": [
+        {
+          "headline": "Tesla Plans Live Optimus Demonstration",
+          "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lg030g&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FSHOP-CA%22%7D",
+          "time": "2026-11-20T16:02:05Z",
+          "sentiment": 0.2,
+          "reason": "Planned Optimus demo could generate short-term AI/robotics enthusiasm"
+        },
         {
           "headline": "Tesla Receives Regulatory Approval for Assisted Driving in Italy",
           "url": "https://www.marketscreener.com/news/tesla-secures-approval-for-assisted-driving-in-italy-ce785ed3d88ef127",
