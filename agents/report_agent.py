@@ -60,7 +60,8 @@ def main() -> int:
                "stop_price": float(so["stop_price"]) if so.get("stop_price") else None,
                "high_water": float(so["hwm"]) if so.get("hwm") else
                (bstate["frac"].get("entries", {}).get(sym) or {}).get("hwm") if book == "frac" else None,
-               "stop_type": so.get("type")}
+               "stop_type": so.get("type"),
+               "trail_pct": float(so["trail_percent"]) / 100 if so.get("trail_percent") else None}
         if book == "options":
             occ = books.parse_occ(sym)
             row.update(underlying=occ["underlying"], option_type=occ["type"], strike=occ["strike"],
@@ -79,7 +80,8 @@ def main() -> int:
         "market_risk": signals.get("market_risk"), "signals_at": signals.get("generated_at"),
         "analysis_at": analysis.get("generated_at"),
         "buy_threshold": st["stock"].get("buy_threshold"), "exit_threshold": st["stock"].get("exit_threshold"),
-        "trailing_stop_pct": st["stock"].get("trailing_stop_pct"), "max_hold_days": st["stock"].get("max_hold_days"),
+        "trailing_stop_atr": st["stock"].get("trailing_stop_atr"),
+        "trailing_stop_range": st["stock"].get("trailing_stop_range"), "max_hold_days": st["stock"].get("max_hold_days"),
         "books": summary, "positions": rows,
     }
     write_json("status.json", status)

@@ -24,6 +24,26 @@ def thresholds(cfg: dict, analysis: dict) -> tuple[float, float]:
     return buy, sell
 
 
+def trail_mult(cfg: dict, weights: dict) -> float:
+    """How many 'normal daily moves' (ATR) the trailing stop sits below the
+    high. 'auto' uses the value the weekly learning step found works best."""
+    m = cfg["risk"].get("trailing_stop_atr", "auto")
+    if m == "auto":
+        return float((weights.get("frac") or {}).get("stop_atr") or cfg["risk"].get("trailing_stop_atr_default", 3.0))
+    return float(m)
+
+
+def trail_pct(a: dict | None, risk: dict, mult: float) -> float:
+    """Trailing stop width for one stock: mult x its average daily move
+    (ATR as a % of price), kept between the configured min and max."""
+    lo, hi = risk.get("trailing_stop_min_pct", 0.04), risk.get("trailing_stop_max_pct", 0.15)
+    atr = ((a or {}).get("levels") or {}).get("atr")
+    px = (a or {}).get("price")
+    if not atr or not px:
+        return round(max(lo, risk.get("trailing_stop_pct", lo)), 4)
+    return round(min(max(mult * atr / px, lo), hi), 4)
+
+
 def hours_since(ts: str | None, now: dt.datetime) -> float:
     return (now - parse_time(ts)).total_seconds() / 3600 if ts else float("inf")
 
@@ -31,7 +51,7 @@ def hours_since(ts: str | None, now: dt.datetime) -> float:
 def decide(positions: list[dict], analysis: dict, signals: dict, equity: float, cash: float,
            day_pnl_pct: float, cfg: dict, pending: set[str], now: dt.datetime,
            state: dict, book_budget: float | None = None,
-           blocked: set[str] = frozenset()) -> tuple[list[dict], list[str]]:
+           blocked: set[str] = frozenset(), mult: float = 3.0) -> tuple[list[dict], list[str]]:
     """Pure decision function (unit-tested). Returns (actions, halt_reasons)."""
     risk = cfg["risk"]
     watch = {s.upper() for s in cfg["watchlist"]}
@@ -50,14 +70,16 @@ def decide(positions: list[dict], analysis: dict, signals: dict, equity: float, 
             actions += [{"action": "sell", "symbol": p["symbol"], "reason": "kill switch liquidation"} for p in held]
         return actions, halts
 
-    # ---- sells (the 4% trailing stop itself lives at the broker) ----------
+    # ---- sells (the trailing stop itself lives at the broker) -------------
     selling = set()
     for p in held:
         sym, plpc = p["symbol"], float(p["unrealized_plpc"])
         a, sig = syms.get(sym), news.get(sym, {})
         held_days = hours_since(entries.get(sym, {}).get("time"), now) / 24
         reason = None
-        if plpc <= -risk["stop_loss_pct"]:
+        trail = entries.get(sym, {}).get("trail") or trail_pct(a, risk, mult)
+        hard = max(risk["stop_loss_pct"], trail + 0.01)   # backup, just beyond the trailing stop
+        if plpc <= -hard:
             reason = f"stop loss ({plpc:+.1%})"
         elif risk.get("take_profit_pct") and plpc >= risk["take_profit_pct"]:
             reason = f"take profit ({plpc:+.1%})"
@@ -108,14 +130,20 @@ def decide(positions: list[dict], analysis: dict, signals: dict, equity: float, 
     for sym, a in candidates:
         if slots <= 0:
             break
-        notional = min(equity * risk["max_position_pct"], budget)
+        # Size so that a stop-out loses about the same dollars on any stock:
+        # jumpy stocks get a wider stop and a smaller position.
+        trail = trail_pct(a, risk, mult)
+        notional = min(equity * risk["max_position_pct"], equity * risk.get("risk_per_trade_pct", 0.005) / trail,
+                       budget)
         qty = math.floor(notional / a["price"]) if a["price"] > 0 else 0
         if qty < 1:
             continue
         f = a["factors"]
         why = ", ".join(f"{k} {v:+.2f}" for k, v in sorted(f.items(), key=lambda kv: -kv[1]) if v > 0.1)
         actions.append({"action": "buy", "symbol": sym, "qty": qty, "notional": round(qty * a["price"], 2),
-                        "reason": f"score {a['combined']:+.2f} ({a['agreeing']}/{len(f)} agree: {why})"})
+                        "trail": trail,
+                        "reason": f"score {a['combined']:+.2f} ({a['agreeing']}/{len(f)} agree: {why}); "
+                                  f"{trail:.1%} trailing stop"})
         budget -= qty * a["price"]
         slots -= 1
     return actions, halts
@@ -153,6 +181,7 @@ def main() -> int:
     entries = state.setdefault("entries", {})
     state.setdefault("exits", {})
     signals = read_json("signals.json", {})
+    mult = trail_mult(cfg, read_json("weights.json", {}))
     analysis = read_json("analysis.json", {})
     trades = read_json("trades.json", [])
     for t in trades:
@@ -215,7 +244,7 @@ def main() -> int:
         held_by_others = {s for s, b in owners.items() if b != "stock"}
         avail = books.budget("stock", cfg, equity, all_positions, owners, all_orders)
         actions, halts = decide(positions, analysis, signals, equity, cash, (equity - last_equity) / last_equity
-                                if last_equity else 0.0, cfg, pending, now, state, avail, held_by_others)
+                                if last_equity else 0.0, cfg, pending, now, state, avail, held_by_others, mult)
         for a in actions:
             sym = a["symbol"]
             info = analysis.get("symbols", {}).get(sym, {})
@@ -236,13 +265,13 @@ def main() -> int:
                 else:
                     owners[sym] = "stock"
                     order = alpaca.buy_shares(sym, a["qty"], books.cid("stock"))
-                    entries[sym] = {"time": now.isoformat(), "avg": info.get("price")}
+                    entries[sym] = {"time": now.isoformat(), "avg": info.get("price"), "trail": a["trail"]}
                     for _ in range(10):  # wait briefly for the fill, then protect it
                         o = alpaca.get_order(order["id"])
                         if o["status"] == "filled":
-                            alpaca.trailing_stop(sym, int(float(o["filled_qty"])), risk["trailing_stop_pct"] * 100,
+                            alpaca.trailing_stop(sym, int(float(o["filled_qty"])), a["trail"] * 100,
                                                  books.cid("stock"))
-                            rec["trailing_stop"] = f"{risk['trailing_stop_pct']:.0%}"
+                            rec["trailing_stop"] = f"{a['trail']:.1%}"
                             break
                         time.sleep(1)
                 rec.update(status="submitted", order_id=order.get("id"))
@@ -262,8 +291,10 @@ def main() -> int:
     # stock really trades and make the stop far too tight.
     for sym, qty in (protection_needed(positions, my_orders, watch) if clock["is_open"] else []):
         try:
-            alpaca.trailing_stop(sym, qty, risk["trailing_stop_pct"] * 100, books.cid("stock"))
-            print(f"[stock] PROTECT {sym}: trailing stop {risk['trailing_stop_pct']:.0%} on {qty} shares")
+            trail = entries.get(sym, {}).get("trail") or trail_pct(analysis.get("symbols", {}).get(sym), risk, mult)
+            entries.setdefault(sym, {})["trail"] = trail
+            alpaca.trailing_stop(sym, qty, trail * 100, books.cid("stock"))
+            print(f"[stock] PROTECT {sym}: trailing stop {trail:.1%} on {qty} shares")
         except Exception as e:
             alerts.append(f"Could not place trailing stop on {sym}: {str(e)[:120]}")
 
@@ -275,7 +306,9 @@ def main() -> int:
     buy_thr, exit_thr = thresholds(cfg, analysis)
     write_json("stock_status.json", {"time": now.isoformat(), "halts": halts, "alerts": alerts,
                                      "last_actions": results, "buy_threshold": buy_thr,
-                                     "exit_threshold": exit_thr, "trailing_stop_pct": risk["trailing_stop_pct"],
+                                     "exit_threshold": exit_thr, "trailing_stop_atr": mult,
+                                     "trailing_stop_range": [risk.get("trailing_stop_min_pct", 0.04),
+                                                             risk.get("trailing_stop_max_pct", 0.15)],
                                      "max_hold_days": risk["max_hold_days"]})
     for msg in halts + alerts:
         print("[stock] Note:", msg)

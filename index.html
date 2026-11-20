@@ -208,7 +208,7 @@ async function render() {
   // Strategy cards
   const BOOKNAME = {stock: "Stocks", frac: "Fractional", options: "Options"};
   const BOOKDESC = {
-    stock: "Whole shares on strong combined signals. 4% trailing stop at the broker.",
+    stock: "Whole shares on strong combined signals. Trailing stop at the broker, sized to each stock's normal daily move.",
     frac: "Dollar-sized fractional positions. Limit buys on dips, stop-limit exits that rise with the price.",
     options: "Calls on strong buy signals, puts on strong sell signals. Max loss per trade = premium paid."};
   const tag = b => `<span class="tag ${b}">${BOOKNAME[b] || b}</span>`;
@@ -254,11 +254,12 @@ async function render() {
     {h: "Entry", num: 1, f: p => money(p.avg_entry)},
     {h: "Price", num: 1, f: p => money(p.price)},
     {h: "P&L", num: 1, f: p => `<span class="${cls(p.pl)}">${signed(p.pl)} (${pct(p.pl_pct)})</span>`},
-    {h: "Stop", num: 1, f: p => p.book === "options" ? `<span class="meta">±50% / ${Math.max(p.dte - 7, 0)}d left</span>` : p.stop_price ? `${money(p.stop_price)}${p.high_water ? ` <span class="meta">(high ${money(p.high_water)})</span>` : ""}` : "–"},
+    {h: "Stop", num: 1, f: p => p.book === "options" ? `<span class="meta">±50% / ${Math.max(p.dte - 7, 0)}d left</span>` : p.stop_price ? `${money(p.stop_price)}${p.trail_pct ? ` <span class="meta">${(p.trail_pct * 100).toFixed(1)}% trail</span>` : ""}${p.high_water ? ` <span class="meta">(high ${money(p.high_water)})</span>` : ""}` : "–"},
     {h: "Held", num: 1, f: p => p.opened ? `${Math.floor((Date.now() - new Date(p.opened)) / 864e5)}d` : "–"},
   ], status.positions || [], "No open positions.");
-  $("posNote").textContent = status.trailing_stop_pct != null
-    ? `Stocks: ${Math.round(status.trailing_stop_pct * 100)}% trailing stop at the broker, checked continuously. Fractional: stop-limit order kept under the highest price, raised each run. Options: sold at +50%, −50%, a signal flip, or 7 days before expiry.`
+  const rng = status.trailing_stop_range;
+  $("posNote").textContent = status.trailing_stop_atr != null
+    ? `Stocks: trailing stop at the broker, ${status.trailing_stop_atr}× each stock's normal daily move below its high (${Math.round(rng[0] * 100)}–${Math.round(rng[1] * 100)}%), checked continuously; jumpier stocks get wider stops and smaller positions. Fractional: stop-limit order kept under the highest price, raised each run. Options: sold at +50%, −50%, a signal flip, or 7 days before expiry.`
     : "";
 
   // Factor scores per stock

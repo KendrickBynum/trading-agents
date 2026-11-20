@@ -312,3 +312,43 @@ def test_option_exits():
                                                          today, o)
     assert options_agent.exit_reason(p(0.1), {}, {"combined": 0.3}, today, o) is None
     assert options_agent.signal_side({"combined": -0.5, "agreeing": 0, "opposing": 4}, 0.4, -0.3, o) == "put"
+
+
+# ------------------------------------------------- volatility-sized stops
+from trader_agent import trail_pct, trail_mult  # noqa: E402
+
+
+def test_trailing_stop_scales_with_volatility():
+    risk = {"trailing_stop_min_pct": 0.04, "trailing_stop_max_pct": 0.15, "trailing_stop_pct": 0.04}
+    calm = {"price": 730.0, "levels": {"atr": 15.0}}       # SPY-like: ~2% daily move
+    jumpy = {"price": 384.0, "levels": {"atr": 18.8}}      # TSLA-like: ~4.9% daily move
+    wild = {"price": 100.0, "levels": {"atr": 8.0}}
+    assert trail_pct(calm, risk, 3.0) == round(3 * 15 / 730, 4)       # ~6.2%
+    assert trail_pct(jumpy, risk, 3.0) == round(3 * 18.8 / 384, 4)    # ~14.7%
+    assert trail_pct(wild, risk, 3.0) == 0.15                          # capped
+    assert trail_pct({"price": 100.0, "levels": {"atr": 0.5}}, risk, 3.0) == 0.04   # floor
+    assert trail_pct(None, risk, 3.0) == 0.04                          # no data: fallback
+    assert trail_mult({"risk": {"trailing_stop_atr": "auto"}}, {"frac": {"stop_atr": 2.5}}) == 2.5
+    assert trail_mult({"risk": {"trailing_stop_atr": "auto", "trailing_stop_atr_default": 3.0}}, {}) == 3.0
+
+
+def test_jumpy_stocks_get_smaller_positions_and_wider_stops():
+    cfg = {**CFG, "risk": {**CFG["risk"], "risk_per_trade_pct": 0.005, "trailing_stop_min_pct": 0.04,
+                           "trailing_stop_max_pct": 0.15}}
+    a = an(AAPL=(0.6, 4, 100.0), MSFT=(0.5, 4, 100.0))
+    a["symbols"]["AAPL"]["levels"] = {"atr": 1.5}   # calm: 3 x 1.5% = 4.5% stop -> $11.1k, capped at $10k
+    a["symbols"]["MSFT"]["levels"] = {"atr": 4.0}   # jumpy: 12% stop -> $4.2k
+    acts, _ = run(analysis=a, cfg=cfg)
+    by = {x["symbol"]: x for x in acts}
+    assert by["AAPL"]["qty"] == 100 and by["AAPL"]["trail"] == 0.045
+    assert by["MSFT"]["qty"] == 41 and by["MSFT"]["trail"] == 0.12
+    # a stop-out costs about the same either way (~$450-$500)
+    assert abs(by["MSFT"]["notional"] * by["MSFT"]["trail"] - 500) < 15
+
+
+def test_hard_stop_sits_beyond_wide_trailing_stop():
+    state = {"entries": {"TSLA": {"time": NOW.isoformat(), "trail": 0.12}}}
+    acts, _ = run([pos("TSLA", -0.08)], an(), state=state, cfg={**CFG, "watchlist": CFG["watchlist"] + ["TSLA"]})
+    assert acts == []        # -8% is inside TSLA's 12% stop: no early backup sell
+    acts, _ = run([pos("TSLA", -0.14)], an(), state=state, cfg={**CFG, "watchlist": CFG["watchlist"] + ["TSLA"]})
+    assert "stop loss" in acts[0]["reason"]

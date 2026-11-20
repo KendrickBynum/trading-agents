@@ -96,8 +96,14 @@ risk:
   min_agreeing_factors: 3   # at least this many factors must be positive
   min_articles: 2           # news needs this many articles Claude read to count
   # Selling
-  trailing_stop_pct: 0.04   # sell if price falls 4% from its high since buying (runs at the broker, minute by minute)
-  stop_loss_pct: 0.05       # backup hard stop from the purchase price
+  # Trailing stop (runs at the broker, minute by minute), sized to each stock:
+  trailing_stop_atr: auto   # stop sits this many "normal daily moves" (ATR) below the high; auto = learned weekly
+  trailing_stop_atr_default: 3.0
+  trailing_stop_min_pct: 0.04   # never tighter than 4% (e.g. SPY)
+  trailing_stop_max_pct: 0.15   # never wider than 15% (e.g. TSLA)
+  trailing_stop_pct: 0.04   # fallback if a stock's daily move can't be measured
+  risk_per_trade_pct: 0.005 # size positions so a stop-out costs about 0.5% of the account
+  stop_loss_pct: 0.05       # backup hard stop from the purchase price (always at least 1% beyond the trailing stop)
   take_profit_pct: null     # off: the trailing stop locks in gains instead of a fixed target
   news_sell_threshold: -0.30  # sell on clearly bad news
   exit_threshold: auto      # sell if the combined score falls this low (auto = bottom ~10%)
