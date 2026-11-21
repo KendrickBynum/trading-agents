@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T21:03:35.332080+00:00",
-  "market_risk": 0.061,
+  "generated_at": "2026-11-21T02:31:10.233434+00:00",
+  "market_risk": 0.056,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -15,9 +15,9 @@
       "headlines": []
     },
     "AAPL": {
-      "score": 0.097,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Apple Developing Autonomous AI Agent",
@@ -25,13 +25,6 @@
           "time": "2026-11-20T12:31:54Z",
           "sentiment": 0.2,
           "reason": "Reported autonomous AI agent development; early-stage and unconfirmed"
-        },
-        {
-          "headline": "U.K. Tribunal Orders Government to Confirm Secret Demand for Apple Customer Data",
-          "url": "https://newsfilter.io/articles/u-k-government-forced-to-disclose-secret-apple-backdoor-order-89f07cb47e5859b18ddafa5e02d91f83",
-          "time": "2026-11-19T22:31:27Z",
-          "sentiment": -0.2,
-          "reason": "Government encryption-access demand raises privacy and regulatory risk"
         }
       ]
     },
@@ -70,18 +63,10 @@
       ]
     },
     "AMZN": {
-      "score": 0.25,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Anthropic IPO Valuation and Amazon's Stake Disclosure",
-          "url": "https://newsfilter.io/articles/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test-a8f2d6fda3135f21896995b1454f23c1",
-          "time": "2026-11-19T21:31:33Z",
-          "sentiment": 0.25,
-          "reason": "Large Anthropic stake gains value after IPO; supportive for Amazon"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "GOOGL": {
       "score": 0.0,
@@ -120,9 +105,9 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.163,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.2,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "Tesla Plans Live Optimus Demonstration",
@@ -137,13 +122,6 @@
           "time": "2026-11-20T12:31:45Z",
           "sentiment": 0.2,
           "reason": "Italian approval of assisted driving; regional, small step toward EU rollout"
-        },
-        {
-          "headline": "ISS Recommends Shareholders Vote Against Tesla Chair Robyn Denholm",
-          "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lfula0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FENPH-US%22%7D",
-          "time": "2026-11-20T00:02:07Z",
-          "sentiment": -0.15,
-          "reason": "ISS vote-against recommendation signals governance concerns about chair"
         }
       ]
     },
