@@ -259,5 +259,56 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "128940231",
+    "created_at": "2026-11-23T16:01:35Z",
+    "headline": "Lam Research and University at Albany Announce Semiconductor Workforce Collaboration",
+    "url": "https://www.prnewswire.com/news-releases/lam-research-university-at-albany-partner-to-develop-future-semiconductor-engineers-302948338.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Routine university workforce partnership; minimal financial impact expected"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "128940230",
+    "created_at": "2026-11-23T16:01:33Z",
+    "headline": "ExxonMobil Announces Pricing Terms and Results of Cash Tender Offers",
+    "url": "https://www.businesswire.com/newsroom/industry/energy",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine debt tender offer results; no operational signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "128940226",
+    "created_at": "2026-11-23T16:01:17Z",
+    "headline": "V2X Expands Collaboration with Microsoft to Advance AI-Powered Mission Operations",
+    "url": "https://www.prnewswire.com/news-releases/v2x-expands-collaboration-with-microsoft-to-advance-the-next-generation-of-ai-powered-mission-operations-302947723.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Minor third-party defense AI partnership; immaterial to Microsoft"
+      }
+    ],
+    "scorer": "claude"
   }
 ]
