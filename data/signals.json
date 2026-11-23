@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T02:31:10.233434+00:00",
-  "market_risk": 0.056,
+  "generated_at": "2026-11-23T14:35:21.532101+00:00",
+  "market_risk": 0.06,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -15,18 +15,10 @@
       "headlines": []
     },
     "AAPL": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Apple Developing Autonomous AI Agent",
-          "url": "https://www.moomoo.com/stock/AAPL-US?chain_id=Name1K9-3FXPhg.1lg030g&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FPDD-US%22%7D",
-          "time": "2026-11-20T12:31:54Z",
-          "sentiment": 0.2,
-          "reason": "Reported autonomous AI agent development; early-stage and unconfirmed"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "MSFT": {
       "score": 0.0,
@@ -35,38 +27,46 @@
       "headlines": []
     },
     "NVDA": {
-      "score": -0.383,
+      "score": 0.074,
       "articles": 3,
       "ai_articles": 3,
       "headlines": [
         {
-          "headline": "NVIDIA Subject to Congressional Probe Regarding China Sales",
-          "url": "https://www.marketscreener.com/news/nvidia-subject-to-congressional-probe-over-ties-to-commerce-department-possible-china-sales-ce785ed3d888f620",
-          "time": "2026-11-20T19:01:43Z",
-          "sentiment": -0.4,
-          "reason": "Congressional probe over China chip sales adds regulatory and export risk"
+          "headline": "NVIDIA Reinstates Jensen Huang as President and CEO",
+          "url": "https://www.globenewswire.com/news-release/2026/11/23/3408381/0/en/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director.html",
+          "time": "2026-11-23T14:31:20Z",
+          "sentiment": 0.3,
+          "reason": "Board reinstates Huang as CEO, ending leadership uncertainty"
         },
         {
-          "headline": "California Attorney General Launches Investigation into NVIDIA",
-          "url": "https://www.manilatimes.net/2026/11/21/business/foreign-business/california-probes-nvidia-over-china-chips-access/2475093",
-          "time": "2026-11-20T19:01:43Z",
-          "sentiment": -0.4,
-          "reason": "California AG probe alleges misleading investors on China chip presence"
-        },
-        {
-          "headline": "Democrats Open Probe Into Nvidia Influence on US Megaspeed Investigation",
-          "url": "https://www.fidelity.com/news/article/technology/202611200600PR_NEWS_USPR_____SF03279",
-          "time": "2026-11-20T11:32:28Z",
+          "headline": "NVIDIA Former CEO Jensen Huang Agrees to Senate Testimony",
+          "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lg7sk0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFAZ-US%22%7D",
+          "time": "2026-11-23T12:32:04Z",
           "sentiment": -0.3,
-          "reason": "Congressional Democrats probe Nvidia's influence; regulatory and headline risk"
+          "reason": "Former CEO to testify before Senate on controversies; governance overhang"
+        },
+        {
+          "headline": "NVIDIA Launches Alpamayo 2 Edge Vision-Language-Action Model",
+          "url": "https://af.net/realtime/nvidia-launches-2b-parameter-alpamayo-2-edge-vla-for-drive-thor/",
+          "time": "2026-11-23T02:01:26Z",
+          "sentiment": 0.2,
+          "reason": "New autonomous driving model reinforces DRIVE Thor platform, incremental positive"
         }
       ]
     },
     "AMZN": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Amazon Kuiper Satellite Launch Status Update",
+          "url": "https://news.europawire.eu/arianespace-halts-ariane-6-va271-countdown-after-ground-systems-technical-event/eu-press-release/2026/11/23/11/59/05/189178/",
+          "time": "2026-11-23T11:31:23Z",
+          "sentiment": -0.2,
+          "reason": "Kuiper satellite launch delayed; modest negative for broadband rollout timing"
+        }
+      ]
     },
     "GOOGL": {
       "score": 0.0,
@@ -87,10 +87,18 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "ExxonMobil and Partners Approve $4 Billion Redevelopment for Kizomba A and B",
+          "url": "https://www.moomoo.com/stock/XOM-US?chain_id=Name1K9-3FXPhg.1lg6ie0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FUBS-US%22%7D",
+          "time": "2026-11-23T02:01:57Z",
+          "sentiment": 0.2,
+          "reason": "Multibillion-dollar Angola project FID adds long-term production growth"
+        }
+      ]
     },
     "MU": {
       "score": 0.0,
@@ -105,53 +113,30 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.2,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.3,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
-          "headline": "Tesla Plans Live Optimus Demonstration",
-          "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lg030g&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FSHOP-CA%22%7D",
-          "time": "2026-11-20T16:02:05Z",
-          "sentiment": 0.2,
-          "reason": "Planned Optimus demo could generate short-term AI/robotics enthusiasm"
-        },
-        {
-          "headline": "Tesla Receives Regulatory Approval for Assisted Driving in Italy",
-          "url": "https://www.marketscreener.com/news/tesla-secures-approval-for-assisted-driving-in-italy-ce785ed3d88ef127",
-          "time": "2026-11-20T12:31:45Z",
-          "sentiment": 0.2,
-          "reason": "Italian approval of assisted driving; regional, small step toward EU rollout"
+          "headline": "Tesla Announces December Rollout for FSD V15",
+          "url": "https://www.marketscreener.com/news/tesla-set-to-roll-out-fsd-v15-in-december-ce7851dad88af52c",
+          "time": "2026-11-23T11:32:22Z",
+          "sentiment": 0.3,
+          "reason": "FSD V15 December rollout is a product catalyst, timing beyond window"
         }
       ]
     },
     "ASML": {
-      "score": -0.5,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "ASML Faces Potential Revenue Risk from U.S. Export Policy",
-          "url": "https://www.moomoo.com/news/post/1005359134/asml-tumbles-on-us-china-export-fears-market-talk",
-          "time": "2026-11-20T21:01:34Z",
-          "sentiment": -0.5,
-          "reason": "Jefferies says possible U.S. export restrictions could put ~15% of revenue at risk"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "AMD": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Law Firms Announce Securities Investigations into Advanced Micro Devices, Inc.",
-          "url": "https://www.globenewswire.com/news-release/2026/11/20/3407759/0/en/amd-investors-have-opportunity-to-join-advanced-micro-devices-inc-fraud-investigation-with-sbs-law.html",
-          "time": "2026-11-20T19:01:32Z",
-          "sentiment": -0.3,
-          "reason": "Short-seller allegation on blacklisted Chinese entity; law firm probes are routine"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     }
   },
   "scorer": "claude",
