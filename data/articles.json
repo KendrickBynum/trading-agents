@@ -310,5 +310,39 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "129105168",
+    "created_at": "2026-11-23T19:01:29Z",
+    "headline": "Amazon Acquires AI Startup Decart",
+    "url": "https://www.pymnts.com/news/acquiring/2026/amazon-acquires-tech-and-staff-from-ai-startup-decart/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Small AI startup acquisition supporting custom silicon and inference; limited near-term impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129105167",
+    "created_at": "2026-11-23T19:01:29Z",
+    "headline": "Tesla Releases New FSD v15 Self-Driving Software",
+    "url": "https://www.morningstar.com/news/dow-jones/202611236261/tesla-shares-gain-on-new-self-driving-software-amid-broader-market-rally",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.2,
+        "confidence": 0.35,
+        "reason": "FSD v15 rollout with claimed safety gains; company-stated, not independently verified"
+      }
+    ],
+    "scorer": "claude"
   }
 ]
