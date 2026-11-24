@@ -344,5 +344,73 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "129445129",
+    "created_at": "2026-11-24T00:01:19Z",
+    "headline": "J.P. Morgan Asset Management Announces Listing Transfer for JPMorgan Active Bond ETF",
+    "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-to-transfer-jpmorgan-active-bond-etf-jbnd-to-nyse-arca-from-nyse-302948671.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine ETF exchange listing transfer; no material impact."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129331972",
+    "created_at": "2026-11-23T22:31:39Z",
+    "headline": "Apple TV Withdraws from FIFA World Cup Bidding",
+    "url": "https://www.mactech.com/2026/11/23/news-items-you-should-check-out-out-november-23/amp/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Withdrawal from World Cup rights bidding is minor, long-dated news."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129265588",
+    "created_at": "2026-11-23T21:31:33Z",
+    "headline": "Jury Reaches Verdict in Amazon's Lawsuit Against Northstar Commercial Partners",
+    "url": "https://markets.financialcontent.com/wral/article/lawfirmnewswire-2026-11-23-amazon-sought-40-million-from-brian-watson-and-northstar-commercial-partners-jury-awards-a-fraction-and-rejects-amazons-fraud-claim",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Small, unrelated lawsuit verdict; immaterial to Amazon's financials."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129265587",
+    "created_at": "2026-11-23T21:31:33Z",
+    "headline": "Amazon to Acquire AI Startup Decart",
+    "url": "https://www.pymnts.com/news/acquiring/2026/amazon-acquires-tech-and-staff-from-ai-startup-decart/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Acquisition of small AI startup; limited near-term financial impact."
+      }
+    ],
+    "scorer": "claude"
   }
 ]
