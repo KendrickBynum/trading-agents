@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T18:35:21.784296+00:00",
-  "market_risk": 0.076,
+  "generated_at": "2026-11-24T19:35:23.264758+00:00",
+  "market_risk": 0.072,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -33,18 +33,10 @@
       "headlines": []
     },
     "AMZN": {
-      "score": 0.15,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Amazon Acquires AI Startup Decart",
-          "url": "https://www.pymnts.com/news/acquiring/2026/amazon-acquires-tech-and-staff-from-ai-startup-decart/",
-          "time": "2026-11-23T19:01:29Z",
-          "sentiment": 0.15,
-          "reason": "Small AI startup acquisition supporting custom silicon and inference; limited near-term impact"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "GOOGL": {
       "score": 0.0,
@@ -107,9 +99,9 @@
       ]
     },
     "TSLA": {
-      "score": 0.286,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.3,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Seaport Initiates Coverage of Tesla with Buy Rating",
@@ -117,13 +109,6 @@
           "time": "2026-11-24T14:32:14Z",
           "sentiment": 0.3,
           "reason": "Fresh Buy initiation with $475 target supports sentiment"
-        },
-        {
-          "headline": "Tesla Releases New FSD v15 Self-Driving Software",
-          "url": "https://www.morningstar.com/news/dow-jones/202611236261/tesla-shares-gain-on-new-self-driving-software-amid-broader-market-rally",
-          "time": "2026-11-23T19:01:29Z",
-          "sentiment": 0.2,
-          "reason": "FSD v15 rollout with claimed safety gains; company-stated, not independently verified"
         }
       ]
     },
