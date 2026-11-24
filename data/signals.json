@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T05:22:20.898747+00:00",
-  "market_risk": 0.043,
+  "generated_at": "2026-11-24T14:35:21.632966+00:00",
+  "market_risk": 0.078,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -27,30 +27,15 @@
       "headlines": []
     },
     "NVDA": {
-      "score": 0.059,
-      "articles": 2,
-      "ai_articles": 2,
-      "headlines": [
-        {
-          "headline": "NVIDIA Reinstates Jensen Huang as President and CEO",
-          "url": "https://www.globenewswire.com/news-release/2026/11/23/3408381/0/en/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director.html",
-          "time": "2026-11-23T14:31:20Z",
-          "sentiment": 0.3,
-          "reason": "Board reinstates Huang as CEO, ending leadership uncertainty"
-        },
-        {
-          "headline": "NVIDIA Former CEO Jensen Huang Agrees to Senate Testimony",
-          "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lg7sk0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFAZ-US%22%7D",
-          "time": "2026-11-23T12:32:04Z",
-          "sentiment": -0.3,
-          "reason": "Former CEO to testify before Senate on controversies; governance overhang"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "AMZN": {
-      "score": 0.03,
-      "articles": 2,
-      "ai_articles": 2,
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
       "headlines": [
         {
           "headline": "Amazon Acquires AI Startup Decart",
@@ -58,13 +43,6 @@
           "time": "2026-11-23T19:01:29Z",
           "sentiment": 0.15,
           "reason": "Small AI startup acquisition supporting custom silicon and inference; limited near-term impact"
-        },
-        {
-          "headline": "Amazon Kuiper Satellite Launch Status Update",
-          "url": "https://news.europawire.eu/arianespace-halts-ariane-6-va271-countdown-after-ground-systems-technical-event/eu-press-release/2026/11/23/11/59/05/189178/",
-          "time": "2026-11-23T11:31:23Z",
-          "sentiment": -0.2,
-          "reason": "Kuiper satellite launch delayed; modest negative for broadband rollout timing"
         }
       ]
     },
@@ -93,35 +71,51 @@
       "headlines": []
     },
     "MU": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.5,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "BNP Paribas Downgrades Micron Technology to Neutral",
+          "url": "https://www.marketscreener.com/news/bnp-paribas-downgrades-micron-technology-to-neutral-price-target-is-775-ce7851dbd98aff20",
+          "time": "2026-11-24T11:32:00Z",
+          "sentiment": -0.5,
+          "reason": "Analyst downgrade to Neutral weighs on sentiment and near-term demand"
+        }
+      ]
     },
     "LRCX": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Lam Research Breaks Ground on New Taiwan Technology Center",
+          "url": "https://world.storm.mg/articles/1184121",
+          "time": "2026-11-24T14:32:47Z",
+          "sentiment": 0.2,
+          "reason": "New AI-focused R&D center expands capacity; incremental, largely expected growth"
+        }
+      ]
     },
     "TSLA": {
-      "score": 0.237,
+      "score": 0.286,
       "articles": 2,
       "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "Seaport Initiates Coverage of Tesla with Buy Rating",
+          "url": "https://www.marketscreener.com/news/seaport-initiates-tesla-at-buy-with-475-price-target-ce7851dbd88ef222",
+          "time": "2026-11-24T14:32:14Z",
+          "sentiment": 0.3,
+          "reason": "Fresh Buy initiation with $475 target supports sentiment"
+        },
         {
           "headline": "Tesla Releases New FSD v15 Self-Driving Software",
           "url": "https://www.morningstar.com/news/dow-jones/202611236261/tesla-shares-gain-on-new-self-driving-software-amid-broader-market-rally",
           "time": "2026-11-23T19:01:29Z",
           "sentiment": 0.2,
           "reason": "FSD v15 rollout with claimed safety gains; company-stated, not independently verified"
-        },
-        {
-          "headline": "Tesla Announces December Rollout for FSD V15",
-          "url": "https://www.marketscreener.com/news/tesla-set-to-roll-out-fsd-v15-in-december-ce7851dad88af52c",
-          "time": "2026-11-23T11:32:22Z",
-          "sentiment": 0.3,
-          "reason": "FSD V15 December rollout is a product catalyst, timing beyond window"
         }
       ]
     },
@@ -132,10 +126,32 @@
       "headlines": []
     },
     "AMD": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.105,
+      "articles": 3,
+      "ai_articles": 3,
+      "headlines": [
+        {
+          "headline": "BNP Paribas Adjusts Price Target for AMD",
+          "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-price-target-on-advanced-micro-devices-to-650-from-960-ce7851dbd98afe22",
+          "time": "2026-11-24T13:02:00Z",
+          "sentiment": -0.3,
+          "reason": "Sharp price target cut from $960 to $650 signals lower expectations"
+        },
+        {
+          "headline": "Bernstein Initiates Coverage on AMD with Buy Rating",
+          "url": "https://www.moomoo.com/stock/AMD-US?chain_id=Name1K9-3FXPhg.1lgakgg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FNEE-US%22%7D",
+          "time": "2026-11-24T12:31:58Z",
+          "sentiment": 0.35,
+          "reason": "Bernstein initiates with Buy and $650 target, a supportive view"
+        },
+        {
+          "headline": "TrendForce Reports Growing Demand for AMD Helios AI Server Systems",
+          "url": "https://sme.asia/global-ai-server-shipments-expected-to-jump-36/",
+          "time": "2026-11-24T11:31:38Z",
+          "sentiment": 0.3,
+          "reason": "Rising cloud demand for Helios servers, tempered by delivery risks"
+        }
+      ]
     }
   },
   "scorer": "claude",

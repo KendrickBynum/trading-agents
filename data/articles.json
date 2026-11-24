@@ -1,181 +1,5 @@
 [
   {
-    "id": "128867732",
-    "created_at": "2026-11-23T14:31:47Z",
-    "headline": "J.P. Morgan Private Bank Releases 2027 Global Investment Outlook",
-    "url": "https://www.prnewswire.com/news-releases/jp-morgan-nextlist-turns-10-the-books-stages-and-destinations-defining-whats-next-in-2027-302947579.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "128867728",
-    "created_at": "2026-11-23T14:31:47Z",
-    "headline": "J.P. Morgan Asset Management (Canada) Announces Estimated Annual Distributions",
-    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408222/0/fr/distributions-annuelles-estim%C3%A9es-des-gains-en-capital-r%C3%A9investis-des-fonds-n%C3%A9goci%C3%A9s-en-bourse-2026-de-jpmorgan-asset-management-canada-inc.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "128867706",
-    "created_at": "2026-11-23T14:31:20Z",
-    "headline": "NVIDIA Reinstates Jensen Huang as President and CEO",
-    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408381/0/en/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.3,
-        "confidence": 0.5,
-        "reason": "Board reinstates Huang as CEO, ending leadership uncertainty"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128821739",
-    "created_at": "2026-11-23T13:01:28Z",
-    "headline": "Microsoft UAE and Space42 Release Report on Geospatial Agentic AI",
-    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408140/0/en/from-data-to-decisions-space42-and-microsoft-uae-release-report-on-geospatial-agentic-ai-s-potential-to-help-governments-better-serve-society.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "128812382",
-    "created_at": "2026-11-23T12:32:04Z",
-    "headline": "NVIDIA Former CEO Jensen Huang Agrees to Senate Testimony",
-    "url": "https://www.moomoo.com/stock/NVDA-US?chain_id=Name1K9-3FXPhg.1lg7sk0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFAZ-US%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Former CEO to testify before Senate on controversies; governance overhang"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128812093",
-    "created_at": "2026-11-23T12:31:28Z",
-    "headline": "DXL Adopts Meta's Muse AI Agent for Customer Engagement",
-    "url": "https://www.prnewswire.com/news-releases/dxl-expands-customer-reach-through-metas-ai-agent-muse-with-commercetools-302948173.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Retailer adoption of Meta AI agent; minor, unlikely to move stock"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128798390",
-    "created_at": "2026-11-23T11:33:04Z",
-    "headline": "JPMorgan Chase Maintains Neutral Rating on Tesla",
-    "url": "https://www.finanzen.ch/analyse/tesla-neutral-1122624",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Neutral rating reiterated with $430 target; no change in view"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128798152",
-    "created_at": "2026-11-23T11:32:22Z",
-    "headline": "Tesla Announces December Rollout for FSD V15",
-    "url": "https://www.marketscreener.com/news/tesla-set-to-roll-out-fsd-v15-in-december-ce7851dad88af52c",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "FSD V15 December rollout is a product catalyst, timing beyond window"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128798145",
-    "created_at": "2026-11-23T11:32:01Z",
-    "headline": "Morgan Stanley and Loop Capital Adjust Price Targets for Meta Platforms",
-    "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-meta-platforms-to-720-from-820-ce7851dad88af427",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Price target revisions without stated direction; limited signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128797908",
-    "created_at": "2026-11-23T11:31:37Z",
-    "headline": "Trump Administration Pushes for Reinstatement of Jensen Huang as NVIDIA CEO",
-    "url": "https://www.morningstar.com/news/marketwatch/2026112333/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Political push for Huang's return; adds governance uncertainty, mixed signal"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128797899",
-    "created_at": "2026-11-23T11:31:23Z",
-    "headline": "Amazon Kuiper Satellite Launch Status Update",
-    "url": "https://news.europawire.eu/arianespace-halts-ariane-6-va271-countdown-after-ground-systems-technical-event/eu-press-release/2026/11/23/11/59/05/189178/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.2,
-        "confidence": 0.3,
-        "reason": "Kuiper satellite launch delayed; modest negative for broadband rollout timing"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128797898",
-    "created_at": "2026-11-23T11:31:23Z",
-    "headline": "Microsoft and Audi Launch Mobile Work Agent for In-Vehicle Productivity",
-    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408055/0/en/audi-debuts-cerence-ai-s-mobile-work-agent-bringing-enterprise-trusted-access-to-microsoft-365-to-the-car.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "128915732",
     "created_at": "2026-11-23T15:31:13Z",
     "headline": "ASML Reports Share Buyback Transactions",
@@ -358,6 +182,291 @@
         "sentiment": 0.05,
         "confidence": 0.15,
         "reason": "Routine product color variant; minimal expected price impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129601466",
+    "created_at": "2026-11-24T14:32:47Z",
+    "headline": "Lam Research Breaks Ground on New Taiwan Technology Center",
+    "url": "https://world.storm.mg/articles/1184121",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "LRCX",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "New AI-focused R&D center expands capacity; incremental, largely expected growth"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129601435",
+    "created_at": "2026-11-24T14:32:14Z",
+    "headline": "Seaport Initiates Coverage of Tesla with Buy Rating",
+    "url": "https://www.marketscreener.com/news/seaport-initiates-tesla-at-buy-with-475-price-target-ce7851dbd88ef222",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Fresh Buy initiation with $475 target supports sentiment"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129600587",
+    "created_at": "2026-11-24T14:31:54Z",
+    "headline": "J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple",
+    "url": "https://www.moomoo.com/stock/AAPL-US?chain_id=Name1K9-3FXPhg.1lgakgg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FPDD-US%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Routine reiteration of Buy rating; little new information"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129549058",
+    "created_at": "2026-11-24T13:03:23Z",
+    "headline": "Meta Abandons 2030 Net-Zero Emissions Goal",
+    "url": "https://wjno.iheart.com/content/2026-11-24-meta-drops-2030-net-zero-goal-amid-ai-expansion/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Dropped net-zero goal; reputational, minimal near-term financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129548539",
+    "created_at": "2026-11-24T13:02:00Z",
+    "headline": "BNP Paribas Adjusts Price Target for AMD",
+    "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-price-target-on-advanced-micro-devices-to-650-from-960-ce7851dbd98afe22",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Sharp price target cut from $960 to $650 signals lower expectations"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129548084",
+    "created_at": "2026-11-24T13:01:32Z",
+    "headline": "JPMorgan Chase Increases Stake in Intertek Group PLC",
+    "url": "https://www.investegate.co.uk/announcement/rns/intertek-group--itrk/holding-s-in-company/9891107",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "129548080",
+    "created_at": "2026-11-24T13:01:12Z",
+    "headline": "Apple Announces Fifth Season of 'Ted Lasso'",
+    "url": "https://www.finanzen.at/nachrichten/aktien/apple-aktie-gefragt-apple-tv-verlangert-comedy-erfolg-ted-lasso-erneut-1036795052",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "129536172",
+    "created_at": "2026-11-24T12:31:58Z",
+    "headline": "Bernstein Initiates Coverage on AMD with Buy Rating",
+    "url": "https://www.moomoo.com/stock/AMD-US?chain_id=Name1K9-3FXPhg.1lgakgg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FNEE-US%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.35,
+        "confidence": 0.4,
+        "reason": "Bernstein initiates with Buy and $650 target, a supportive view"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129536167",
+    "created_at": "2026-11-24T12:31:46Z",
+    "headline": "UBS Adjusts Price Target on Tesla to $430",
+    "url": "https://www.marketscreener.com/news/ubs-adjusts-price-target-on-tesla-to-430-from-425-ce7851dbd888fe27",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Modest $5 price target increase; minor positive revision"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129536164",
+    "created_at": "2026-11-24T12:31:32Z",
+    "headline": "J.P. Morgan Asset Management Announces November 2026 ETF Distributions",
+    "url": "https://www.globenewswire.com/news-release/2026/11/24/3409109/0/fr/jpmorgan-annonce-des-distributions-en-esp%C3%A8ces-pour-les-fnb-jpmorgan.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "129536161",
+    "created_at": "2026-11-24T12:31:27Z",
+    "headline": "AWS CEO Matt Garman Advocates for Architectural Containment in AI Security",
+    "url": "https://aimagazine.com/news/awss-matt-garman-ai-safety-needs-engineering-over-policy",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Executive commentary on AI safety; no direct financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129517818",
+    "created_at": "2026-11-24T11:33:16Z",
+    "headline": "Analysts Adjust Price Targets for Meta Platforms",
+    "url": "https://www.marketscreener.com/news/jpmorgan-adjusts-price-target-on-meta-platforms-to-775-from-940-ce7851dbd988fe2c",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Generic price target adjustments; direction and magnitude unspecified"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129517817",
+    "created_at": "2026-11-24T11:33:16Z",
+    "headline": "Meta Launches Muse AI in the UK",
+    "url": "https://retailtechinnovationhub.com/home/2026/11/24/ico-fires-warning-to-meta-as-muse-ai-product-launches-in-uk-with-argos-and-debenhams-onboard",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Routine UK AI agent launch; limited near-term financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129517499",
+    "created_at": "2026-11-24T11:32:00Z",
+    "headline": "BNP Paribas Downgrades Micron Technology to Neutral",
+    "url": "https://www.marketscreener.com/news/bnp-paribas-downgrades-micron-technology-to-neutral-price-target-is-775-ce7851dbd98aff20",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Analyst downgrade to Neutral weighs on sentiment and near-term demand"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129517184",
+    "created_at": "2026-11-24T11:31:38Z",
+    "headline": "TrendForce Reports Growing Demand for AMD Helios AI Server Systems",
+    "url": "https://sme.asia/global-ai-server-shipments-expected-to-jump-36/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMD",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Rising cloud demand for Helios servers, tempered by delivery risks"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129517179",
+    "created_at": "2026-11-24T11:31:24Z",
+    "headline": "JPMorgan Chase Completes First Legally Binding Digital Gold Transactions",
+    "url": "https://www.moomoo.com/hans/news/post/1005604174/hsbc-jpmorgan-chase-and-stonex-complete-first-legally-binding-digital",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Digital gold settlement milestone is incremental, not material to earnings"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129517177",
+    "created_at": "2026-11-24T11:31:22Z",
+    "headline": "Amazon Web Services Collaborates with Great Ormond Street Hospital on Agentic AI Programme",
+    "url": "https://www.prnewswire.com/news-releases/great-ormond-street-hospital-announces-first-of-its-kind-agentic-ai-programme-in-an-nhs-hospital-in-collaboration-with-hyland-and-amazon-web-services-302948750.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Small healthcare AI pilot with AWS; minimal revenue impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129517176",
+    "created_at": "2026-11-24T11:31:22Z",
+    "headline": "Atos and Microsoft Extend Partnership for Digital Sovereignty",
+    "url": "https://www.globenewswire.com/news-release/2026/11/24/3409038/0/en/atos-delivers-a-structured-journey-to-digital-sovereignty-leveraging-microsoft-technology.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Incremental partner expansion for sovereign cloud; largely expected"
       }
     ],
     "scorer": "claude"
