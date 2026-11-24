@@ -17,57 +17,6 @@
     "scorer": "claude"
   },
   {
-    "id": "129331972",
-    "created_at": "2026-11-23T22:31:39Z",
-    "headline": "Apple TV Withdraws from FIFA World Cup Bidding",
-    "url": "https://www.mactech.com/2026/11/23/news-items-you-should-check-out-out-november-23/amp/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Withdrawal from World Cup rights bidding is minor, long-dated news."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "129265588",
-    "created_at": "2026-11-23T21:31:33Z",
-    "headline": "Jury Reaches Verdict in Amazon's Lawsuit Against Northstar Commercial Partners",
-    "url": "https://markets.financialcontent.com/wral/article/lawfirmnewswire-2026-11-23-amazon-sought-40-million-from-brian-watson-and-northstar-commercial-partners-jury-awards-a-fraction-and-rejects-amazons-fraud-claim",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Small, unrelated lawsuit verdict; immaterial to Amazon's financials."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "129265587",
-    "created_at": "2026-11-23T21:31:33Z",
-    "headline": "Amazon to Acquire AI Startup Decart",
-    "url": "https://www.pymnts.com/news/acquiring/2026/amazon-acquires-tech-and-staff-from-ai-startup-decart/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Acquisition of small AI startup; limited near-term financial impact."
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "129445799",
     "created_at": "2026-11-24T01:01:29Z",
     "headline": "Apple Plans Return of (PRODUCT)RED Lineup",
@@ -416,6 +365,23 @@
         "sentiment": 0.02,
         "confidence": 0.1,
         "reason": "Routine marketing event for a (RED) anniversary; minimal financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "130145944",
+    "created_at": "2026-11-24T22:31:21Z",
+    "headline": "Amazon Teamsters in Chicago Rally for Delivery Protection Act",
+    "url": "https://www.moomoo.com/news/post/1005667173/amazon-teamsters-rally-on-cyber-monday-to-demand-passage-of",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.15,
+        "confidence": 0.3,
+        "reason": "Local labor rally for delivery regulation; minor, likely priced in"
       }
     ],
     "scorer": "claude"

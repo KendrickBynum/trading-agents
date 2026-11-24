@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T20:35:23.637527+00:00",
-  "market_risk": 0.072,
+  "generated_at": "2026-11-24T23:00:13.799458+00:00",
+  "market_risk": 0.071,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -33,10 +33,18 @@
       "headlines": []
     },
     "AMZN": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.15,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Amazon Teamsters in Chicago Rally for Delivery Protection Act",
+          "url": "https://www.moomoo.com/news/post/1005667173/amazon-teamsters-rally-on-cyber-monday-to-demand-passage-of",
+          "time": "2026-11-24T22:31:21Z",
+          "sentiment": -0.15,
+          "reason": "Local labor rally for delivery regulation; minor, likely priced in"
+        }
+      ]
     },
     "GOOGL": {
       "score": 0.0,
