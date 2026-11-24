@@ -176,74 +176,6 @@
     "scorer": "claude"
   },
   {
-    "id": "128740214",
-    "created_at": "2026-11-23T02:01:57Z",
-    "headline": "ExxonMobil and Partners Approve $4 Billion Redevelopment for Kizomba A and B",
-    "url": "https://www.moomoo.com/stock/XOM-US?chain_id=Name1K9-3FXPhg.1lg6ie0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FUBS-US%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Multibillion-dollar Angola project FID adds long-term production growth"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128740201",
-    "created_at": "2026-11-23T02:01:37Z",
-    "headline": "Taiwan Authorities Investigate Fake Threads Accounts for Alleged Election Interference",
-    "url": "https://www.marketscreener.com/news/taiwan-flags-fake-threads-accounts-over-alleged-election-interference-ce785ed3d18ff02d",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": -0.1,
-        "confidence": 0.2,
-        "reason": "Election interference probe on Threads is minor reputational risk"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128740199",
-    "created_at": "2026-11-23T02:01:29Z",
-    "headline": "Microsoft to Retire Microsoft To Do App in 2027",
-    "url": "https://infosertecla.com/2026/11/22/microsoft-cerrara-to-do-el-30-de-junio-de-2027/",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Routine product retirement with no material financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "128740198",
-    "created_at": "2026-11-23T02:01:26Z",
-    "headline": "NVIDIA Launches Alpamayo 2 Edge Vision-Language-Action Model",
-    "url": "https://af.net/realtime/nvidia-launches-2b-parameter-alpamayo-2-edge-vla-for-drive-thor/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "New autonomous driving model reinforces DRIVE Thor platform, incremental positive"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "128915732",
     "created_at": "2026-11-23T15:31:13Z",
     "headline": "ASML Reports Share Buyback Transactions",
@@ -409,6 +341,23 @@
         "sentiment": 0.1,
         "confidence": 0.2,
         "reason": "Acquisition of small AI startup; limited near-term financial impact."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "129445799",
+    "created_at": "2026-11-24T01:01:29Z",
+    "headline": "Apple Plans Return of (PRODUCT)RED Lineup",
+    "url": "https://appleosophy.com/2026/11/23/apple-to-bring-back-several-productred-products-including-a-red-homepod-mini-2/",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.05,
+        "confidence": 0.15,
+        "reason": "Routine product color variant; minimal expected price impact"
       }
     ],
     "scorer": "claude"
