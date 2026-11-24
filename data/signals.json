@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T15:35:18.949116+00:00",
-  "market_risk": 0.079,
+  "generated_at": "2026-11-24T16:35:28.511694+00:00",
+  "market_risk": 0.076,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -65,10 +65,18 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.3,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "ExxonMobil Guyana Oil Output Expected to Exceed 1 Million Barrels Per Day",
+          "url": "https://www.marketscreener.com/news/exxon-mobil-s-guyana-oil-output-to-surpass-1-million-barrels-per-day-in-coming-weeks-ce7851dbda8bf52d",
+          "time": "2026-11-24T16:01:57Z",
+          "sentiment": 0.3,
+          "reason": "Guyana output nearing 1M bpd adds production growth, though likely partly anticipated"
+        }
+      ]
     },
     "MU": {
       "score": -0.5,
