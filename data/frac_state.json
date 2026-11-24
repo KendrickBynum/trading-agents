@@ -8,6 +8,13 @@
       "avg": 348.14,
       "hwm": 354.34,
       "stop": 327.31
+    },
+    "TSLA": {
+      "time": "2026-11-24T15:35:20.865371+00:00",
+      "atr": 20.97,
+      "avg": 382.49,
+      "hwm": 382.49,
+      "stop": 319.58
     }
   },
   "exits": {
@@ -26,22 +33,22 @@
     "ae0ac3b4-6643-443e-a6a3-7f5e4a3b1f96": "limit buy 0.25 ATR below $269.09 (score +0.37, trend +0.39)",
     "79871d7a-3257-441c-b1bc-65aa7f42ef4b": "limit buy 0.25 ATR below $270.67 (score +0.40, trend +0.50)",
     "515e0b29-2ec6-4501-9a02-6b35f1469daf": "limit buy 0.25 ATR below $269.02 (score +0.35, trend +0.48)",
-    "c6dba128-7214-4de0-ad5c-e506e6e789cc": "limit buy 0.25 ATR below $392.40 (score +0.38, trend +0.35)",
-    "6cb976bf-4fa3-4fbb-9c66-beddbc0a3451": "limit buy 0.25 ATR below $387.76 (score +0.35, trend +0.15)"
+    "c6dba128-7214-4de0-ad5c-e506e6e789cc": "limit buy 0.25 ATR below $392.40 (score +0.38, trend +0.35)"
   },
   "logged_orders": [
-    "c4d2849d-9e5a-4b12-be38-418e53e4e6c0",
-    "46701c7e-cb97-42d1-9bb4-78427ea83397",
-    "7b1fd819-bf9b-4ec8-aa31-95ff34291e09",
-    "cdcc0197-18f8-4894-86f7-3872d9bd3662",
-    "661b63a3-fbd9-4914-9251-d35a25739414",
     "5324fcad-11f4-4740-a604-340cb1e87efe",
+    "661b63a3-fbd9-4914-9251-d35a25739414",
+    "46701c7e-cb97-42d1-9bb4-78427ea83397",
+    "c4d2849d-9e5a-4b12-be38-418e53e4e6c0",
+    "7b1fd819-bf9b-4ec8-aa31-95ff34291e09",
     "468a967d-ae91-417c-8d1a-542dd43ffd98",
-    "fbc8466a-1875-42ce-9b7b-8579de98803a",
     "2ac2c852-5ef6-4ac9-98b3-7cde2c7f275a",
-    "1915c28a-c730-41f7-9e46-3d26d847ab74"
+    "cdcc0197-18f8-4894-86f7-3872d9bd3662",
+    "6cb976bf-4fa3-4fbb-9c66-beddbc0a3451",
+    "1915c28a-c730-41f7-9e46-3d26d847ab74",
+    "fbc8466a-1875-42ce-9b7b-8579de98803a"
   ],
-  "last_order_check": "2026-11-24T14:35:34.866315+00:00",
+  "last_order_check": "2026-11-24T15:35:20.865371+00:00",
   "pending": {
     "MSFT": {
       "atr": 17.44,

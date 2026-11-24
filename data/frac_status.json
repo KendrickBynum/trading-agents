@@ -1,26 +1,19 @@
 {
-  "time": "2026-11-24T14:35:34.866315+00:00",
+  "time": "2026-11-24T15:35:20.865371+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
+      "time": "2026-11-24T15:11:18.820296Z",
+      "book": "frac",
       "symbol": "TSLA",
       "side": "buy",
-      "reason": "limit buy 0.25 ATR below $387.76 (score +0.35, trend +0.15)",
-      "qty": 10.5251,
-      "limit": 382.52,
-      "notional": 4026.06,
-      "score": 0.352,
-      "factors": {
-        "trend": 0.147,
-        "levels": 0.797,
-        "flow": 0.097,
-        "pattern": 0.086,
-        "news": 0.572
-      },
-      "status": "order placed",
+      "status": "filled",
       "order_id": "6cb976bf-4fa3-4fbb-9c66-beddbc0a3451",
-      "time": "2026-11-24T14:35:34.866315+00:00"
+      "qty": 10.5251,
+      "price": 382.49,
+      "notional": 4025.75,
+      "reason": "limit buy 0.25 ATR below $387.76 (score +0.35, trend +0.15)"
     }
   ],
   "settings": {

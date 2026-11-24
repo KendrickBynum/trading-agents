@@ -660,5 +660,17 @@
     "order_id": "5324fcad-11f4-4740-a604-340cb1e87efe",
     "book": "frac",
     "time": "2026-11-20T19:35:31.800005+00:00"
+  },
+  {
+    "time": "2026-11-24T15:11:18.820296Z",
+    "book": "frac",
+    "symbol": "TSLA",
+    "side": "buy",
+    "status": "filled",
+    "order_id": "6cb976bf-4fa3-4fbb-9c66-beddbc0a3451",
+    "qty": 10.5251,
+    "price": 382.49,
+    "notional": 4025.75,
+    "reason": "limit buy 0.25 ATR below $387.76 (score +0.35, trend +0.15)"
   }
 ]
