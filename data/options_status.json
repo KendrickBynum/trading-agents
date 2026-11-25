@@ -1,8 +1,29 @@
 {
-  "time": "2026-11-25T19:35:29.499790+00:00",
+  "time": "2026-11-25T20:35:21.384949+00:00",
   "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "AAPL261231C00355000",
+      "side": "buy",
+      "qty": 1,
+      "limit": 11.25,
+      "underlying": "AAPL",
+      "notional": 1125.0,
+      "score": 0.429,
+      "factors": {
+        "trend": 0.453,
+        "levels": 0.776,
+        "flow": 0.081,
+        "pattern": 0.405
+      },
+      "reason": "CALL AAPL $355 exp 2026-12-31 (36d, delta +0.52) on score +0.43; max loss $1,125",
+      "status": "order placed",
+      "order_id": "779382d0-000e-4950-88b9-26606287264e",
+      "book": "options",
+      "time": "2026-11-25T20:35:21.384949+00:00"
+    }
+  ],
   "options_level": 3,
   "learned": {
     "closed_trades": 9,
