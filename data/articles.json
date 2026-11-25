@@ -1,39 +1,5 @@
 [
   {
-    "id": "129685134",
-    "created_at": "2026-11-24T16:01:57Z",
-    "headline": "ExxonMobil Guyana Oil Output Expected to Exceed 1 Million Barrels Per Day",
-    "url": "https://www.marketscreener.com/news/exxon-mobil-s-guyana-oil-output-to-surpass-1-million-barrels-per-day-in-coming-weeks-ce7851dbda8bf52d",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.3,
-        "confidence": 0.5,
-        "reason": "Guyana output nearing 1M bpd adds production growth, though likely partly anticipated"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "129685113",
-    "created_at": "2026-11-24T16:01:22Z",
-    "headline": "Microsoft Secures 51MW Geothermal Energy Contract in New Zealand",
-    "url": "https://dealroom.co/news/175297-big-tech-has-now-contracted-more-next-gen-geothermal-than-utilities-even/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Routine geothermal power contract for data centers; minimal near-term price impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "129880938",
     "created_at": "2026-11-24T19:02:41Z",
     "headline": "Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership",
@@ -307,6 +273,40 @@
         "sentiment": 0.05,
         "confidence": 0.15,
         "reason": "Routine Apple attendance at AI policy roundtable; minimal impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "130584184",
+    "created_at": "2026-11-25T16:01:33Z",
+    "headline": "Tradr ETFs Announces Upcoming Launch of Leveraged ETF Featuring Micron Technology, Inc.",
+    "url": "https://www.prnewswire.com/news-releases/tradr-to-launch-six-new-leveraged-etfs-302949924.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "New leveraged ETF launch adds minor memory-sector exposure; not material"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "130584179",
+    "created_at": "2026-11-25T16:01:19Z",
+    "headline": "Duracell and Amazon Partner for 'Power Playland on the Pier' Holiday Event",
+    "url": "https://www.prnewswire.com/news-releases/in-partnership-with-amazon-duracell-brings-holiday-magic-to-chicago-with-power-playland-on-the-pier-302950562.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.0,
+        "confidence": 0.05,
+        "reason": "Routine holiday marketing partnership with Duracell; no financial impact"
       }
     ],
     "scorer": "claude"
