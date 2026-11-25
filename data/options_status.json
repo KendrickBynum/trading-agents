@@ -1,10 +1,22 @@
 {
-  "time": "2026-11-25T04:20:35.841098+00:00",
-  "halts": [
-    "Market closed"
-  ],
+  "time": "2026-11-25T14:35:32.714123+00:00",
+  "halts": [],
   "alerts": [],
-  "last_actions": [],
+  "last_actions": [
+    {
+      "symbol": "GOOGL261211P00280000",
+      "side": "sell",
+      "reason": "take profit (+63%)",
+      "qty": 1,
+      "underlying": "GOOGL",
+      "notional": 1905.0,
+      "status": "order placed",
+      "order_id": "47c37258-ff24-443c-9359-0e992286598e",
+      "limit": 18.9,
+      "book": "options",
+      "time": "2026-11-25T14:35:32.714123+00:00"
+    }
+  ],
   "options_level": 3,
   "learned": {
     "closed_trades": 8,
