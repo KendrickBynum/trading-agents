@@ -1,22 +1,5 @@
 [
   {
-    "id": "129880938",
-    "created_at": "2026-11-24T19:02:41Z",
-    "headline": "Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership",
-    "url": "https://appleosophy.com/wire/5vlet9t/",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.02,
-        "confidence": 0.1,
-        "reason": "Routine marketing event for a (RED) anniversary; minimal financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "130145944",
     "created_at": "2026-11-24T22:31:21Z",
     "headline": "Amazon Teamsters in Chicago Rally for Delivery Protection Act",
@@ -307,6 +290,23 @@
         "sentiment": 0.0,
         "confidence": 0.05,
         "reason": "Routine holiday marketing partnership with Duracell; no financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "130803080",
+    "created_at": "2026-11-25T19:01:38Z",
+    "headline": "J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility",
+    "url": "https://www.manilatimes.net/2026/11/26/business/foreign-business/possible-tesla-merger-could-aid-spacexs-sp-500-entry-jp-morgan-says/2478020",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Speculative merger analysis; index-eligibility effect for SpaceX is indirect and uncertain"
       }
     ],
     "scorer": "claude"
