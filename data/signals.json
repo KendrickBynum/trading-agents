@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T23:00:13.799458+00:00",
-  "market_risk": 0.071,
+  "generated_at": "2026-11-25T04:20:27.117609+00:00",
+  "market_risk": 0.068,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -21,10 +21,18 @@
       "headlines": []
     },
     "MSFT": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.3,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Microsoft Declares 'Code Red' Following Historic Outage",
+          "url": "https://www.pymnts.com/technology/2026/microsoft-sets-goal-of-one-hour-fixes-after-email-outage/",
+          "time": "2026-11-25T01:01:34Z",
+          "sentiment": -0.3,
+          "reason": "Code Red response signals reliability concerns after outage; partly known"
+        }
+      ]
     },
     "NVDA": {
       "score": 0.0,
@@ -108,9 +116,16 @@
     },
     "TSLA": {
       "score": 0.3,
-      "articles": 1,
-      "ai_articles": 1,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "RBC Capital and Seaport Initiate Coverage of Tesla",
+          "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lgbumg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FSNOW-US%2Fcommunity%22%7D",
+          "time": "2026-11-25T00:01:56Z",
+          "sentiment": 0.3,
+          "reason": "Two firms initiate Buy ratings; modest positive analyst sentiment"
+        },
         {
           "headline": "Seaport Initiates Coverage of Tesla with Buy Rating",
           "url": "https://www.marketscreener.com/news/seaport-initiates-tesla-at-buy-with-475-price-target-ce7851dbd88ef222",
