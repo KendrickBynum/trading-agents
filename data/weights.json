@@ -2,223 +2,223 @@
   "frac": {
     "limit_atr": 0.25,
     "stop_atr": 3.0,
-    "buy_threshold": 0.348,
+    "buy_threshold": 0.339,
     "adopted_learned": true,
-    "signals": 467,
+    "signals": 465,
     "best_on_train": {
       "limit_atr": 0.25,
       "stop_atr": 3.0,
-      "signals": 311,
-      "fill_rate": 0.598,
-      "avg_trade": 0.0112,
-      "win_rate": 0.522,
-      "per_signal": 0.00668
+      "signals": 310,
+      "fill_rate": 0.574,
+      "avg_trade": 0.0117,
+      "win_rate": 0.551,
+      "per_signal": 0.00674
     },
     "test_best": {
-      "signals": 156,
-      "fill_rate": 0.654,
-      "avg_trade": 0.0181,
-      "win_rate": 0.49,
-      "per_signal": 0.01184
+      "signals": 155,
+      "fill_rate": 0.652,
+      "avg_trade": 0.0164,
+      "win_rate": 0.475,
+      "per_signal": 0.01065
     },
     "test_default": {
-      "signals": 156,
-      "fill_rate": 0.654,
-      "avg_trade": 0.0123,
-      "win_rate": 0.451,
-      "per_signal": 0.00803
+      "signals": 155,
+      "fill_rate": 0.652,
+      "avg_trade": 0.0103,
+      "win_rate": 0.436,
+      "per_signal": 0.00672
     },
     "test_period": [
-      "2025-12-24",
+      "2026-01-09",
       "2026-11-10"
     ],
     "grid": [
       {
         "limit_atr": 0.0,
         "stop_atr": 1.5,
-        "signals": 311,
-        "fill_rate": 0.759,
-        "avg_trade": 0.0008,
-        "win_rate": 0.407,
-        "per_signal": 0.00062
+        "signals": 310,
+        "fill_rate": 0.752,
+        "avg_trade": 0.0022,
+        "win_rate": 0.429,
+        "per_signal": 0.00162
       },
       {
         "limit_atr": 0.0,
         "stop_atr": 2.0,
-        "signals": 311,
-        "fill_rate": 0.759,
-        "avg_trade": 0.0036,
-        "win_rate": 0.436,
-        "per_signal": 0.00272
+        "signals": 310,
+        "fill_rate": 0.752,
+        "avg_trade": 0.0046,
+        "win_rate": 0.438,
+        "per_signal": 0.00348
       },
       {
         "limit_atr": 0.0,
         "stop_atr": 2.5,
-        "signals": 311,
-        "fill_rate": 0.759,
-        "avg_trade": 0.0031,
-        "win_rate": 0.449,
-        "per_signal": 0.00234
+        "signals": 310,
+        "fill_rate": 0.752,
+        "avg_trade": 0.0045,
+        "win_rate": 0.468,
+        "per_signal": 0.00341
       },
       {
         "limit_atr": 0.0,
         "stop_atr": 3.0,
-        "signals": 311,
-        "fill_rate": 0.759,
-        "avg_trade": 0.0072,
-        "win_rate": 0.5,
-        "per_signal": 0.00548
+        "signals": 310,
+        "fill_rate": 0.752,
+        "avg_trade": 0.0084,
+        "win_rate": 0.524,
+        "per_signal": 0.00629
       },
       {
         "limit_atr": 0.25,
         "stop_atr": 1.5,
-        "signals": 311,
-        "fill_rate": 0.598,
-        "avg_trade": 0.0029,
-        "win_rate": 0.425,
-        "per_signal": 0.00171
+        "signals": 310,
+        "fill_rate": 0.574,
+        "avg_trade": 0.0035,
+        "win_rate": 0.438,
+        "per_signal": 0.00203
       },
       {
         "limit_atr": 0.25,
         "stop_atr": 2.0,
-        "signals": 311,
-        "fill_rate": 0.598,
-        "avg_trade": 0.0057,
-        "win_rate": 0.478,
-        "per_signal": 0.00342
+        "signals": 310,
+        "fill_rate": 0.574,
+        "avg_trade": 0.0058,
+        "win_rate": 0.489,
+        "per_signal": 0.00332
       },
       {
         "limit_atr": 0.25,
         "stop_atr": 2.5,
-        "signals": 311,
-        "fill_rate": 0.598,
-        "avg_trade": 0.006,
-        "win_rate": 0.452,
-        "per_signal": 0.00358
+        "signals": 310,
+        "fill_rate": 0.574,
+        "avg_trade": 0.0066,
+        "win_rate": 0.472,
+        "per_signal": 0.00381
       },
       {
         "limit_atr": 0.25,
         "stop_atr": 3.0,
-        "signals": 311,
-        "fill_rate": 0.598,
-        "avg_trade": 0.0112,
-        "win_rate": 0.522,
-        "per_signal": 0.00668
+        "signals": 310,
+        "fill_rate": 0.574,
+        "avg_trade": 0.0117,
+        "win_rate": 0.551,
+        "per_signal": 0.00674
       },
       {
         "limit_atr": 0.5,
         "stop_atr": 1.5,
-        "signals": 311,
-        "fill_rate": 0.421,
-        "avg_trade": 0.0016,
-        "win_rate": 0.427,
-        "per_signal": 0.00067
+        "signals": 310,
+        "fill_rate": 0.394,
+        "avg_trade": 0.0013,
+        "win_rate": 0.426,
+        "per_signal": 0.0005
       },
       {
         "limit_atr": 0.5,
         "stop_atr": 2.0,
-        "signals": 311,
-        "fill_rate": 0.421,
-        "avg_trade": 0.005,
-        "win_rate": 0.473,
-        "per_signal": 0.00212
+        "signals": 310,
+        "fill_rate": 0.394,
+        "avg_trade": 0.0046,
+        "win_rate": 0.475,
+        "per_signal": 0.00181
       },
       {
         "limit_atr": 0.5,
         "stop_atr": 2.5,
-        "signals": 311,
-        "fill_rate": 0.421,
-        "avg_trade": 0.0057,
-        "win_rate": 0.466,
-        "per_signal": 0.0024
+        "signals": 310,
+        "fill_rate": 0.394,
+        "avg_trade": 0.0061,
+        "win_rate": 0.475,
+        "per_signal": 0.00239
       },
       {
         "limit_atr": 0.5,
         "stop_atr": 3.0,
-        "signals": 311,
-        "fill_rate": 0.421,
+        "signals": 310,
+        "fill_rate": 0.394,
+        "avg_trade": 0.0134,
+        "win_rate": 0.566,
+        "per_signal": 0.00528
+      },
+      {
+        "limit_atr": 0.75,
+        "stop_atr": 1.5,
+        "signals": 310,
+        "fill_rate": 0.268,
+        "avg_trade": 0.0051,
+        "win_rate": 0.434,
+        "per_signal": 0.00137
+      },
+      {
+        "limit_atr": 0.75,
+        "stop_atr": 2.0,
+        "signals": 310,
+        "fill_rate": 0.268,
+        "avg_trade": 0.008,
+        "win_rate": 0.482,
+        "per_signal": 0.00214
+      },
+      {
+        "limit_atr": 0.75,
+        "stop_atr": 2.5,
+        "signals": 310,
+        "fill_rate": 0.268,
+        "avg_trade": 0.0087,
+        "win_rate": 0.518,
+        "per_signal": 0.00233
+      },
+      {
+        "limit_atr": 0.75,
+        "stop_atr": 3.0,
+        "signals": 310,
+        "fill_rate": 0.268,
+        "avg_trade": 0.0147,
+        "win_rate": 0.602,
+        "per_signal": 0.00394
+      },
+      {
+        "limit_atr": 1.0,
+        "stop_atr": 1.5,
+        "signals": 310,
+        "fill_rate": 0.161,
+        "avg_trade": 0.0065,
+        "win_rate": 0.36,
+        "per_signal": 0.00105
+      },
+      {
+        "limit_atr": 1.0,
+        "stop_atr": 2.0,
+        "signals": 310,
+        "fill_rate": 0.161,
+        "avg_trade": 0.0118,
+        "win_rate": 0.48,
+        "per_signal": 0.00191
+      },
+      {
+        "limit_atr": 1.0,
+        "stop_atr": 2.5,
+        "signals": 310,
+        "fill_rate": 0.161,
         "avg_trade": 0.0126,
-        "win_rate": 0.542,
-        "per_signal": 0.00533
-      },
-      {
-        "limit_atr": 0.75,
-        "stop_atr": 1.5,
-        "signals": 311,
-        "fill_rate": 0.289,
-        "avg_trade": 0.0039,
-        "win_rate": 0.4,
-        "per_signal": 0.00113
-      },
-      {
-        "limit_atr": 0.75,
-        "stop_atr": 2.0,
-        "signals": 311,
-        "fill_rate": 0.289,
-        "avg_trade": 0.007,
-        "win_rate": 0.467,
-        "per_signal": 0.00201
-      },
-      {
-        "limit_atr": 0.75,
-        "stop_atr": 2.5,
-        "signals": 311,
-        "fill_rate": 0.289,
-        "avg_trade": 0.0079,
-        "win_rate": 0.5,
-        "per_signal": 0.0023
-      },
-      {
-        "limit_atr": 0.75,
-        "stop_atr": 3.0,
-        "signals": 311,
-        "fill_rate": 0.289,
-        "avg_trade": 0.0128,
-        "win_rate": 0.578,
-        "per_signal": 0.00369
-      },
-      {
-        "limit_atr": 1.0,
-        "stop_atr": 1.5,
-        "signals": 311,
-        "fill_rate": 0.177,
-        "avg_trade": 0.0038,
-        "win_rate": 0.345,
-        "per_signal": 0.00066
-      },
-      {
-        "limit_atr": 1.0,
-        "stop_atr": 2.0,
-        "signals": 311,
-        "fill_rate": 0.177,
-        "avg_trade": 0.0097,
-        "win_rate": 0.473,
-        "per_signal": 0.00171
-      },
-      {
-        "limit_atr": 1.0,
-        "stop_atr": 2.5,
-        "signals": 311,
-        "fill_rate": 0.177,
-        "avg_trade": 0.0124,
-        "win_rate": 0.564,
-        "per_signal": 0.00219
+        "win_rate": 0.56,
+        "per_signal": 0.00204
       },
       {
         "limit_atr": 1.0,
         "stop_atr": 3.0,
-        "signals": 311,
-        "fill_rate": 0.177,
-        "avg_trade": 0.0139,
-        "win_rate": 0.6,
-        "per_signal": 0.00246
+        "signals": 310,
+        "fill_rate": 0.161,
+        "avg_trade": 0.0145,
+        "win_rate": 0.62,
+        "per_signal": 0.00233
       }
     ]
   },
-  "learned_at": "2026-11-19T15:35:19.692089+00:00",
+  "learned_at": "2026-11-26T15:35:23.656953+00:00",
   "horizon_days": 5,
-  "history_from": "2024-05-21",
-  "history_to": "2026-11-10",
+  "history_from": "2024-05-29",
+  "history_to": "2026-11-17",
   "samples": 1875,
   "weights": {
     "news": 0.3,
@@ -236,79 +236,79 @@
   },
   "factors": {
     "trend": {
-      "ic": -0.0405,
+      "ic": -0.0305,
       "n": 1875,
-      "bull_n": 1030,
-      "bull_up_rate": 0.552,
-      "bull_avg_return": 0.0061,
-      "bear_n": 567,
-      "bear_up_rate": 0.564,
-      "bear_avg_return": 0.0089,
-      "base_up_rate": 0.553,
-      "base_avg_return": 0.0065
+      "bull_n": 1022,
+      "bull_up_rate": 0.555,
+      "bull_avg_return": 0.006,
+      "bear_n": 576,
+      "bear_up_rate": 0.554,
+      "bear_avg_return": 0.0078,
+      "base_up_rate": 0.55,
+      "base_avg_return": 0.0061
     },
     "levels": {
-      "ic": -0.0205,
+      "ic": -0.0101,
       "n": 1875,
-      "bull_n": 756,
+      "bull_n": 749,
       "bull_up_rate": 0.53,
-      "bull_avg_return": 0.004,
-      "bear_n": 614,
-      "bear_up_rate": 0.542,
-      "bear_avg_return": 0.0055,
-      "base_up_rate": 0.553,
-      "base_avg_return": 0.0065
+      "bull_avg_return": 0.0039,
+      "bear_n": 623,
+      "bear_up_rate": 0.535,
+      "bear_avg_return": 0.0044,
+      "base_up_rate": 0.55,
+      "base_avg_return": 0.0061
     },
     "flow": {
-      "ic": -0.0096,
+      "ic": -0.002,
       "n": 1875,
-      "bull_n": 759,
-      "bull_up_rate": 0.565,
-      "bull_avg_return": 0.0058,
-      "bear_n": 399,
-      "bear_up_rate": 0.559,
-      "bear_avg_return": 0.0122,
-      "base_up_rate": 0.553,
-      "base_avg_return": 0.0065
+      "bull_n": 752,
+      "bull_up_rate": 0.564,
+      "bull_avg_return": 0.0055,
+      "bear_n": 408,
+      "bear_up_rate": 0.547,
+      "bear_avg_return": 0.011,
+      "base_up_rate": 0.55,
+      "base_avg_return": 0.0061
     },
     "pattern": {
-      "ic": -0.0402,
+      "ic": -0.0521,
       "n": 1875,
-      "bull_n": 821,
-      "bull_up_rate": 0.54,
-      "bull_avg_return": 0.0041,
-      "bear_n": 471,
-      "bear_up_rate": 0.584,
-      "bear_avg_return": 0.0119,
-      "base_up_rate": 0.553,
-      "base_avg_return": 0.0065
+      "bull_n": 781,
+      "bull_up_rate": 0.533,
+      "bull_avg_return": 0.0037,
+      "bear_n": 506,
+      "bear_up_rate": 0.585,
+      "bear_avg_return": 0.0114,
+      "base_up_rate": 0.55,
+      "base_avg_return": 0.0061
     },
     "news": {
-      "ic": -0.0242,
-      "n": 124,
-      "bull_n": 46,
-      "bull_up_rate": 0.348,
-      "bull_avg_return": -0.0184,
-      "bear_n": 37,
-      "bear_up_rate": 0.432,
-      "bear_avg_return": -0.0162,
-      "base_up_rate": 0.395,
-      "base_avg_return": -0.0158
+      "ic": 0.0281,
+      "n": 154,
+      "bull_n": 54,
+      "bull_up_rate": 0.315,
+      "bull_avg_return": -0.028,
+      "bear_n": 53,
+      "bear_up_rate": 0.321,
+      "bear_avg_return": -0.0321,
+      "base_up_rate": 0.344,
+      "base_avg_return": -0.0262
     }
   },
   "news_learned": true,
   "thresholds": {
-    "buy": 0.429,
-    "sell": -0.298
+    "buy": 0.413,
+    "sell": -0.304
   },
   "out_of_sample": {
-    "from": "2026-01-16",
-    "to": "2026-11-10",
+    "from": "2026-01-26",
+    "to": "2026-11-17",
     "n": 625,
-    "top_picks_avg_return": 0.0134,
-    "top_picks_up_rate": 0.606,
-    "all_avg_return": 0.0048,
-    "all_up_rate": 0.522,
-    "ic": -0.0203
+    "top_picks_avg_return": 0.0111,
+    "top_picks_up_rate": 0.596,
+    "all_avg_return": 0.0034,
+    "all_up_rate": 0.51,
+    "ic": -0.0096
   }
 }
