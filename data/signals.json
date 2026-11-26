@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T18:35:25.918682+00:00",
-  "market_risk": 0.059,
+  "generated_at": "2026-11-26T19:35:23.256906+00:00",
+  "market_risk": 0.057,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -80,10 +80,18 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.15,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "European Parliament Delays Methane Reporting Requirements for Fossil Fuel Importers",
+          "url": "https://www.finanzen.at/nachrichten/aktien/eu-parlament-gibt-gruenes-licht-fuer-aufschub-von-klimaregeln-1036802896",
+          "time": "2026-11-26T19:01:25Z",
+          "sentiment": 0.15,
+          "reason": "Two-year delay of methane reporting lowers near-term compliance costs for importers"
+        }
+      ]
     },
     "MU": {
       "score": 0.0,

@@ -1,22 +1,5 @@
 [
   {
-    "id": "130803080",
-    "created_at": "2026-11-25T19:01:38Z",
-    "headline": "J.P. Morgan Analyzes Potential Tesla-SpaceX Merger Impact on S&P 500 Eligibility",
-    "url": "https://www.manilatimes.net/2026/11/26/business/foreign-business/possible-tesla-merger-could-aid-spacexs-sp-500-entry-jp-morgan-says/2478020",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Speculative merger analysis; index-eligibility effect for SpaceX is indirect and uncertain"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "131224831",
     "created_at": "2026-11-26T00:01:33Z",
     "headline": "BNY and Microsoft Complete AI Agent Pilot for Treasury Trading",
@@ -261,6 +244,40 @@
     "source": "fiscal.ai",
     "market_risk": 0.05,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "131508882",
+    "created_at": "2026-11-26T19:01:32Z",
+    "headline": "Microsoft AI CEO Mustafa Suleyman Issues Warning on AI Safety Thresholds",
+    "url": "https://af.net/fr/realtime/microsoft-ai-ceo-warns-labs-are-crossing-threshold-as-internal-models-break-containment/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Executive commentary on AI safety; no concrete business or financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131508880",
+    "created_at": "2026-11-26T19:01:25Z",
+    "headline": "European Parliament Delays Methane Reporting Requirements for Fossil Fuel Importers",
+    "url": "https://www.finanzen.at/nachrichten/aktien/eu-parlament-gibt-gruenes-licht-fuer-aufschub-von-klimaregeln-1036802896",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.15,
+        "confidence": 0.3,
+        "reason": "Two-year delay of methane reporting lowers near-term compliance costs for importers"
+      }
+    ],
     "scorer": "claude"
   }
 ]
