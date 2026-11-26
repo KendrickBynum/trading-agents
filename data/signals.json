@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T22:29:36.207209+00:00",
-  "market_risk": 0.022,
+  "generated_at": "2026-11-26T03:39:13.610253+00:00",
+  "market_risk": 0.029,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -21,18 +21,10 @@
       "headlines": []
     },
     "MSFT": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Microsoft Declares 'Code Red' Following Historic Outage",
-          "url": "https://www.pymnts.com/technology/2026/microsoft-sets-goal-of-one-hour-fixes-after-email-outage/",
-          "time": "2026-11-25T01:01:34Z",
-          "sentiment": -0.3,
-          "reason": "Code Red response signals reliability concerns after outage; partly known"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "NVDA": {
       "score": 0.0,
@@ -41,16 +33,16 @@
       "headlines": []
     },
     "AMZN": {
-      "score": -0.15,
+      "score": -0.3,
       "articles": 1,
       "ai_articles": 1,
       "headlines": [
         {
-          "headline": "Amazon Teamsters in Chicago Rally for Delivery Protection Act",
-          "url": "https://www.moomoo.com/news/post/1005667173/amazon-teamsters-rally-on-cyber-monday-to-demand-passage-of",
-          "time": "2026-11-24T22:31:21Z",
-          "sentiment": -0.15,
-          "reason": "Local labor rally for delivery regulation; minor, likely priced in"
+          "headline": "Court Rules Against Amazon in Consumer Product Safety Act Litigation",
+          "url": "https://www.prnewswire.com/news-releases/federal-court-rules-in-favor-of-cpsc-in-landmark-e-commerce-product-safety-case-302950855.html",
+          "time": "2026-11-25T22:31:22Z",
+          "sentiment": -0.3,
+          "reason": "Court loss on CPSC challenge may raise product safety liability exposure"
         }
       ]
     },
@@ -107,9 +99,9 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.063,
-      "articles": 3,
-      "ai_articles": 3,
+      "score": 0.026,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
         {
           "headline": "General Motors Korea to Adopt Tesla's North American Charging Standard",
@@ -124,13 +116,6 @@
           "time": "2026-11-25T12:31:58Z",
           "sentiment": -0.3,
           "reason": "EU delays FSD approval discussion to December 7; regulatory timing setback"
-        },
-        {
-          "headline": "RBC Capital and Seaport Initiate Coverage of Tesla",
-          "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lgbumg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FSNOW-US%2Fcommunity%22%7D",
-          "time": "2026-11-25T00:01:56Z",
-          "sentiment": 0.3,
-          "reason": "Two firms initiate Buy ratings; modest positive analyst sentiment"
         }
       ]
     },

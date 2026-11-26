@@ -1,100 +1,5 @@
 [
   {
-    "id": "130145944",
-    "created_at": "2026-11-24T22:31:21Z",
-    "headline": "Amazon Teamsters in Chicago Rally for Delivery Protection Act",
-    "url": "https://www.moomoo.com/news/post/1005667173/amazon-teamsters-rally-on-cyber-monday-to-demand-passage-of",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.15,
-        "confidence": 0.3,
-        "reason": "Local labor rally for delivery regulation; minor, likely priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130284441",
-    "created_at": "2026-11-25T03:01:17Z",
-    "headline": "Meta Releases 2026 Sustainability Report",
-    "url": "https://sustainabilitymag.com/news/inside-metas-commitment-to-sustainable-data-centres",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "130277272",
-    "created_at": "2026-11-25T01:01:34Z",
-    "headline": "Maverick Medical AI Integrates CodeAgent with Microsoft Dragon Copilot",
-    "url": "https://www.globenewswire.com/news-release/2026/11/24/3409926/0/en/maverick-medical-ai-surfaces-codeagent-within-microsoft-radiology-reporting-solutions-to-reduce-physician-rework.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Minor partner showcase of third-party tool on Dragon Copilot"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130277271",
-    "created_at": "2026-11-25T01:01:34Z",
-    "headline": "Microsoft Declares 'Code Red' Following Historic Outage",
-    "url": "https://www.pymnts.com/technology/2026/microsoft-sets-goal-of-one-hour-fixes-after-email-outage/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Code Red response signals reliability concerns after outage; partly known"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130276663",
-    "created_at": "2026-11-25T00:01:56Z",
-    "headline": "RBC Capital and Seaport Initiate Coverage of Tesla",
-    "url": "https://www.moomoo.com/stock/TSLA-US?chain_id=Name1K9-3FXPhg.1lgbumg&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FSNOW-US%2Fcommunity%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "Two firms initiate Buy ratings; modest positive analyst sentiment"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130276658",
-    "created_at": "2026-11-25T00:01:35Z",
-    "headline": "Micron Discloses Increased Executive Security Expenses",
-    "url": "https://www.morningstar.com/news/marketwatch/20261124417/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2000-new-filing-shows",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MU",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Routine proxy disclosure of executive security costs; no operational impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "130486653",
     "created_at": "2026-11-25T14:32:39Z",
     "headline": "General Motors Korea to Adopt Tesla's North American Charging Standard",
@@ -307,6 +212,84 @@
         "sentiment": 0.1,
         "confidence": 0.3,
         "reason": "Speculative merger analysis; index-eligibility effect for SpaceX is indirect and uncertain"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131224831",
+    "created_at": "2026-11-26T00:01:33Z",
+    "headline": "BNY and Microsoft Complete AI Agent Pilot for Treasury Trading",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bny-and-microsoft-let-ai-agents-haggle-over-treasurys/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Successful AI agent pilot with BNY; modest enterprise AI validation"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131089519",
+    "created_at": "2026-11-25T22:32:02Z",
+    "headline": "Banks Arranging $4.5 Billion Loan for CoreWeave Secured by Meta-Linked GPUs",
+    "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lgefi0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFBL-US%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "CoreWeave financing is indirect; Meta is only collateral reference"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131089506",
+    "created_at": "2026-11-25T22:31:54Z",
+    "headline": "JPMorgan Chase Discloses Major Holding in Evotec SE",
+    "url": "https://www.eqs-news.com/news/voting-rights/jpmorgan-chase-co-wilmington-delaware-united-states-of-america-usa/03588f88-fe2d-4a37-a6c2-272051fe89ca_en",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "131089502",
+    "created_at": "2026-11-25T22:31:54Z",
+    "headline": "JPMorgan Projects $450 Billion in AI-Related High-Grade Debt Issuance for 2027",
+    "url": "https://www.marketscreener.com/news/jpmorgan-projects-450-billion-in-ai-high-grade-debt-issuance-for-2027-ce7851d8dd8aff20",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Forecast of AI debt issuance could boost underwriting fee outlook"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131089491",
+    "created_at": "2026-11-25T22:31:22Z",
+    "headline": "Court Rules Against Amazon in Consumer Product Safety Act Litigation",
+    "url": "https://www.prnewswire.com/news-releases/federal-court-rules-in-favor-of-cpsc-in-landmark-e-commerce-product-safety-case-302950855.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "Court loss on CPSC challenge may raise product safety liability exposure"
       }
     ],
     "scorer": "claude"
