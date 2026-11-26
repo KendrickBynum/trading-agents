@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:39:19.515915+00:00",
+  "generated_at": "2026-11-26T14:35:28.515893+00:00",
   "weights": {
     "news": 0.3,
     "trend": 0.2,
@@ -72,7 +72,7 @@
         "event": null
       },
       "flow": {
-        "money_flow": -0.25,
+        "money_flow": -0.251,
         "rel_volume": 1.31,
         "vwap": null
       },
@@ -154,17 +154,18 @@
     },
     "NVDA": {
       "price": 149.3,
-      "combined": -0.073,
+      "combined": -0.303,
       "factors": {
         "trend": -1.0,
         "levels": -0.194,
-        "flow": -0.14,
-        "pattern": 0.995
+        "flow": -0.141,
+        "pattern": 0.995,
+        "news": -0.84
       },
       "agreeing": 1,
-      "opposing": 3,
-      "news_score": 0.0,
-      "news_articles": 0,
+      "opposing": 4,
+      "news_score": -0.42,
+      "news_articles": 2,
       "trend": {
         "sma20": 172.48,
         "sma50": 203.65,
@@ -263,13 +264,13 @@
       "factors": {
         "trend": -0.956,
         "levels": 0.975,
-        "flow": -0.433,
+        "flow": -0.434,
         "pattern": -0.605
       },
       "agreeing": 1,
       "opposing": 3,
-      "news_score": 0.2,
-      "news_articles": 1,
+      "news_score": 0.0,
+      "news_articles": 0,
       "trend": {
         "sma20": 615.27,
         "sma50": 672.4,
@@ -303,8 +304,8 @@
       },
       "agreeing": 1,
       "opposing": 2,
-      "news_score": -0.3,
-      "news_articles": 1,
+      "news_score": 0.0,
+      "news_articles": 0,
       "trend": {
         "sma20": 333.66,
         "sma50": 334.89,
@@ -434,18 +435,17 @@
     },
     "TSLA": {
       "price": 380.14,
-      "combined": -0.015,
+      "combined": -0.044,
       "factors": {
         "trend": -0.068,
         "levels": -0.33,
         "flow": -0.084,
-        "pattern": 0.227,
-        "news": 0.052
+        "pattern": 0.227
       },
       "agreeing": 1,
       "opposing": 1,
-      "news_score": 0.026,
-      "news_articles": 2,
+      "news_score": 0.0,
+      "news_articles": 0,
       "trend": {
         "sma20": 382.15,
         "sma50": 377.17,
@@ -509,7 +509,7 @@
       "factors": {
         "trend": -0.999,
         "levels": -0.935,
-        "flow": -0.293,
+        "flow": -0.294,
         "pattern": 0.96
       },
       "agreeing": 1,

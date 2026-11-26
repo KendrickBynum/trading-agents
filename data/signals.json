@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T03:39:13.610253+00:00",
-  "market_risk": 0.029,
+  "generated_at": "2026-11-26T14:35:21.819850+00:00",
+  "market_risk": 0.062,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -27,10 +27,25 @@
       "headlines": []
     },
     "NVDA": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.42,
+      "articles": 2,
+      "ai_articles": 2,
+      "headlines": [
+        {
+          "headline": "NVIDIA Orders Partners to Stop Server Shipments to ASEAN States",
+          "url": "https://www.marketscreener.com/news/nvidia-orders-partners-to-stop-server-shipments-to-asean-states-ce7851d8de89f626",
+          "time": "2026-11-26T11:31:41Z",
+          "sentiment": -0.5,
+          "reason": "Halting server shipments to ASEAN threatens near-term revenue"
+        },
+        {
+          "headline": "S&P Global Ratings Places NVIDIA on CreditWatch Negative",
+          "url": "https://wjno.iheart.com/content/2026-11-26-sp-huang-drama-could-hurt-nvidias-credit-rating/",
+          "time": "2026-11-26T11:31:41Z",
+          "sentiment": -0.3,
+          "reason": "CreditWatch negative signals possible downgrade and governance concerns"
+        }
+      ]
     },
     "AMZN": {
       "score": -0.3,
@@ -53,32 +68,16 @@
       "headlines": []
     },
     "META": {
-      "score": 0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "Meta and Amazon Conclude Discussions to Lift Muse Shopping Robot Blockade",
-          "url": "https://www.rootdata.com/news/844573",
-          "time": "2026-11-25T14:31:49Z",
-          "sentiment": 0.2,
-          "reason": "Reported end to Muse robot blockade with Amazon; modest positive, details unclear"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "JPM": {
-      "score": -0.3,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "JPMorgan Chase Evaluates UK Investment Strategy Following Bank Tax Increase",
-          "url": "https://www.marketscreener.com/news/jpmorgan-weighs-scaling-back-uk-investments-after-bank-tax-increase-ce7851d8d98af721",
-          "time": "2026-11-25T12:32:11Z",
-          "sentiment": -0.3,
-          "reason": "Considering UK investment pullback after bank tax hike; modest negative"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "XOM": {
       "score": 0.0,
@@ -99,25 +98,10 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.026,
-      "articles": 2,
-      "ai_articles": 2,
-      "headlines": [
-        {
-          "headline": "General Motors Korea to Adopt Tesla's North American Charging Standard",
-          "url": "https://www.moomoo.com/stock/TSLA-CA?chain_id=Name1K9-3FXPhg.1l14fs0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A107,%22f%22%3A%22www.moomoo.com%2Fetfs%2FEMDV-US%2Fnews%22%7D",
-          "time": "2026-11-25T14:32:39Z",
-          "sentiment": 0.3,
-          "reason": "GM Korea adopting Tesla's NACS charging standard expands Tesla's standard's adoption"
-        },
-        {
-          "headline": "European Union Postpones Approval Discussion for Tesla's Self-Driving Technology",
-          "url": "https://www.marketscreener.com/news/tesla-faces-delay-to-secure-eu-wide-approval-for-assisted-self-driving-tech-ce7851dbd088f425",
-          "time": "2026-11-25T12:31:58Z",
-          "sentiment": -0.3,
-          "reason": "EU delays FSD approval discussion to December 7; regulatory timing setback"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "ASML": {
       "score": 0.0,

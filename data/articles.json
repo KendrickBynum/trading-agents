@@ -1,171 +1,5 @@
 [
   {
-    "id": "130486653",
-    "created_at": "2026-11-25T14:32:39Z",
-    "headline": "General Motors Korea to Adopt Tesla's North American Charging Standard",
-    "url": "https://www.moomoo.com/stock/TSLA-CA?chain_id=Name1K9-3FXPhg.1l14fs0&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A107,%22f%22%3A%22www.moomoo.com%2Fetfs%2FEMDV-US%2Fnews%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.3,
-        "confidence": 0.4,
-        "reason": "GM Korea adopting Tesla's NACS charging standard expands Tesla's standard's adoption"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130485585",
-    "created_at": "2026-11-25T14:31:49Z",
-    "headline": "Meta Deploys Autonomous Food Preparation System in London Office",
-    "url": "https://www.marketscreener.com/news/meta-deploys-autonomous-food-preparation-system-for-employees-in-london-office-ce7851d8d88ff725",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "130485583",
-    "created_at": "2026-11-25T14:31:49Z",
-    "headline": "Meta and Amazon Conclude Discussions to Lift Muse Shopping Robot Blockade",
-    "url": "https://www.rootdata.com/news/844573",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.2,
-        "confidence": 0.3,
-        "reason": "Reported end to Muse robot blockade with Amazon; modest positive, details unclear"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130485572",
-    "created_at": "2026-11-25T14:31:29Z",
-    "headline": "Schneider Electric Integrates Industrial Intelligence Solutions with AWS",
-    "url": "https://www.morningstar.com/news/globe-newswire/9884913/manufacturers-can-scale-industrial-intelligence-faster-with-schneider-electric-open-software-defined-automation-on-aws",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "130485570",
-    "created_at": "2026-11-25T14:31:27Z",
-    "headline": "The AA Deploys Microsoft Dynamics 365 and Azure for Digital Workflow",
-    "url": "https://aimagazine.com/news/why-the-aa-relies-on-microsoft-ai-for-vehicle-diagnostics",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "130408196",
-    "created_at": "2026-11-25T12:32:12Z",
-    "headline": "NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy",
-    "url": "https://www.marketscreener.com/news/nvidia-s-huang-reportedly-apologizes-to-staff-says-he-is-in-therapy-ce7851dbd088f321",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.0,
-        "confidence": 0.2,
-        "reason": "Executive personal news; unlikely to move fundamentals, possible headline noise"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130408195",
-    "created_at": "2026-11-25T12:32:11Z",
-    "headline": "JPMorgan Chase Evaluates UK Investment Strategy Following Bank Tax Increase",
-    "url": "https://www.marketscreener.com/news/jpmorgan-weighs-scaling-back-uk-investments-after-bank-tax-increase-ce7851d8d98af721",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": -0.3,
-        "confidence": 0.5,
-        "reason": "Considering UK investment pullback after bank tax hike; modest negative"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130408182",
-    "created_at": "2026-11-25T12:31:58Z",
-    "headline": "European Union Postpones Approval Discussion for Tesla's Self-Driving Technology",
-    "url": "https://www.marketscreener.com/news/tesla-faces-delay-to-secure-eu-wide-approval-for-assisted-self-driving-tech-ce7851dbd088f425",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "EU delays FSD approval discussion to December 7; regulatory timing setback"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130382034",
-    "created_at": "2026-11-25T11:31:43Z",
-    "headline": "Amazon to Launch Auto Marketplace in the UK",
-    "url": "https://www.fidelity.com/news/article/default/202611250330PRIMZONEFULLFEED9884845",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "UK auto marketplace launch is small, early-stage expansion"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130382033",
-    "created_at": "2026-11-25T11:31:43Z",
-    "headline": "AWS Representatives Participate in AI Infrastructure Roundtable in South Korea",
-    "url": "https://www.koreaherald.com/article/10949349",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Routine AWS policy roundtable participation; largely priced in"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "130382021",
-    "created_at": "2026-11-25T11:31:08Z",
-    "headline": "Apple Participates in Korea-US AI Infrastructure Roundtable",
-    "url": "https://www.koreaherald.com/article/10949349",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": 0.05,
-        "confidence": 0.15,
-        "reason": "Routine Apple attendance at AI policy roundtable; minimal impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "130584184",
     "created_at": "2026-11-25T16:01:33Z",
     "headline": "Tradr ETFs Announces Upcoming Launch of Leveraged ETF Featuring Micron Technology, Inc.",
@@ -290,6 +124,138 @@
         "sentiment": -0.3,
         "confidence": 0.4,
         "reason": "Court loss on CPSC challenge may raise product safety liability exposure"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131336288",
+    "created_at": "2026-11-26T14:31:24Z",
+    "headline": "Moloco Selects JPMorgan Chase and Goldman Sachs for IPO",
+    "url": "https://stockanalysis.com/private/moloco/",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.1,
+        "confidence": 0.3,
+        "reason": "Selected as IPO underwriter for Moloco; modest fee revenue"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131300029",
+    "created_at": "2026-11-26T13:01:32Z",
+    "headline": "NVIDIA and Kioxia Announce Collaboration to Extend GPU Memory Capacity",
+    "url": "https://natlawreview.com/press-releases/kioxia-and-nvidia-collaborate-expand-effective-high-bandwidth-memory",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Memory collaboration with Kioxia; incremental, mostly demonstration-stage"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131277935",
+    "created_at": "2026-11-26T11:32:14Z",
+    "headline": "Apple Removes Talkie AI App from App Store Worldwide",
+    "url": "https://www.marketscreener.com/news/minimax-s-talkie-removed-from-apple-app-store-worldwide-ce7851d8d18af721",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.05,
+        "confidence": 0.1,
+        "reason": "Third-party app removal; negligible financial impact on Apple"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131277934",
+    "created_at": "2026-11-26T11:32:14Z",
+    "headline": "Apple to Open New Retail Store in Hyderabad, India",
+    "url": "https://www.finanzen.ch/nachrichten/aktien/apple-to-open-new-store-in-hyderabad-expanding-indian-retail-business-1036802666",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "131277703",
+    "created_at": "2026-11-26T11:31:41Z",
+    "headline": "NVIDIA Orders Partners to Stop Server Shipments to ASEAN States",
+    "url": "https://www.marketscreener.com/news/nvidia-orders-partners-to-stop-server-shipments-to-asean-states-ce7851d8de89f626",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.5,
+        "confidence": 0.6,
+        "reason": "Halting server shipments to ASEAN threatens near-term revenue"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131277702",
+    "created_at": "2026-11-26T11:31:41Z",
+    "headline": "S&P Global Ratings Places NVIDIA on CreditWatch Negative",
+    "url": "https://wjno.iheart.com/content/2026-11-26-sp-huang-drama-could-hurt-nvidias-credit-rating/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.3,
+        "confidence": 0.4,
+        "reason": "CreditWatch negative signals possible downgrade and governance concerns"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131277697",
+    "created_at": "2026-11-26T11:31:24Z",
+    "headline": "Meta and Philippine DICT Sign Memorandum of Understanding",
+    "url": "https://www.pna.gov.ph/article/dict-meta-ink-pact-vs-online-scams-child-exploitation",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "131277695",
+    "created_at": "2026-11-26T11:31:23Z",
+    "headline": "AWS and Amazon CloudFront Support Global Launch of GTA VI",
+    "url": "https://money.udn.com/money/story/12987/9903872",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "131277694",
+    "created_at": "2026-11-26T11:31:23Z",
+    "headline": "Amazon Responds to FTC Allegations Regarding 'Project Nessie' Pricing Tool",
+    "url": "http://www.milwaukeeindependent.com/featured/u-s-retail-expansion-ai-assisted-pricing-tools-accelerates-consumer-alarm-price-gouging/",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": -0.1,
+        "confidence": 0.25,
+        "reason": "Renewed FTC pricing allegations; regulatory overhang largely known"
       }
     ],
     "scorer": "claude"
