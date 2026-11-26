@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T19:35:23.256906+00:00",
-  "market_risk": 0.057,
+  "generated_at": "2026-11-26T20:35:23.188400+00:00",
+  "market_risk": 0.056,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -106,10 +106,18 @@
       "headlines": []
     },
     "TSLA": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "EU Postpones Vote on Tesla Assisted Driving Approval",
+          "url": "https://www.finanzen.ch/nachrichten/aktien/eu-delays-vote-on-teslas-assisted-driving-system-to-december-15-reports-1036803762",
+          "time": "2026-11-26T20:01:30Z",
+          "sentiment": -0.2,
+          "reason": "EU delay on assisted driving approval pushes regulatory timeline out"
+        }
+      ]
     },
     "ASML": {
       "score": 0.0,

@@ -279,5 +279,39 @@
       }
     ],
     "scorer": "claude"
+  },
+  {
+    "id": "131556180",
+    "created_at": "2026-11-26T20:01:30Z",
+    "headline": "Tesla Deploys Manual Battery Preconditioning Feature",
+    "url": "https://www.frandroid.com/marques/tesla/3341437_tesla-lance-enfin-une-fonction-que-ses-rivaux-proposaient-deja-depuis-des-annees-le-prechauffage-manuel-de-la-batterie",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Minor software feature; routine update with little price relevance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131556179",
+    "created_at": "2026-11-26T20:01:30Z",
+    "headline": "EU Postpones Vote on Tesla Assisted Driving Approval",
+    "url": "https://www.finanzen.ch/nachrichten/aktien/eu-delays-vote-on-teslas-assisted-driving-system-to-december-15-reports-1036803762",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "EU delay on assisted driving approval pushes regulatory timeline out"
+      }
+    ],
+    "scorer": "claude"
   }
 ]
