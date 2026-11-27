@@ -1,83 +1,5 @@
 [
   {
-    "id": "131224831",
-    "created_at": "2026-11-26T00:01:33Z",
-    "headline": "BNY and Microsoft Complete AI Agent Pilot for Treasury Trading",
-    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bny-and-microsoft-let-ai-agents-haggle-over-treasurys/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Successful AI agent pilot with BNY; modest enterprise AI validation"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131089519",
-    "created_at": "2026-11-25T22:32:02Z",
-    "headline": "Banks Arranging $4.5 Billion Loan for CoreWeave Secured by Meta-Linked GPUs",
-    "url": "https://www.moomoo.com/stock/META-US?chain_id=Name1K9-3FXPhg.1lgefi0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A107%2C%22f%22%3A%22www.moomoo.com%2Fetfs%2FFBL-US%22%7D",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "META",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "CoreWeave financing is indirect; Meta is only collateral reference"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131089506",
-    "created_at": "2026-11-25T22:31:54Z",
-    "headline": "JPMorgan Chase Discloses Major Holding in Evotec SE",
-    "url": "https://www.eqs-news.com/news/voting-rights/jpmorgan-chase-co-wilmington-delaware-united-states-of-america-usa/03588f88-fe2d-4a37-a6c2-272051fe89ca_en",
-    "source": "fiscal.ai",
-    "market_risk": 0.02,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "131089502",
-    "created_at": "2026-11-25T22:31:54Z",
-    "headline": "JPMorgan Projects $450 Billion in AI-Related High-Grade Debt Issuance for 2027",
-    "url": "https://www.marketscreener.com/news/jpmorgan-projects-450-billion-in-ai-high-grade-debt-issuance-for-2027-ce7851d8dd8aff20",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Forecast of AI debt issuance could boost underwriting fee outlook"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131089491",
-    "created_at": "2026-11-25T22:31:22Z",
-    "headline": "Court Rules Against Amazon in Consumer Product Safety Act Litigation",
-    "url": "https://www.prnewswire.com/news-releases/federal-court-rules-in-favor-of-cpsc-in-landmark-e-commerce-product-safety-case-302950855.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "Court loss on CPSC challenge may raise product safety liability exposure"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "131336288",
     "created_at": "2026-11-26T14:31:24Z",
     "headline": "Moloco Selects JPMorgan Chase and Goldman Sachs for IPO",
@@ -322,6 +244,57 @@
     "source": "fiscal.ai",
     "market_risk": 0.05,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "131754015",
+    "created_at": "2026-11-27T01:01:26Z",
+    "headline": "ExxonMobil Files Disclosure Regarding Threshold Crossing in Esso S.A.F.",
+    "url": "https://www.globenewswire.com/news-release/2026/11/26/3411020/0/fr/communiqu%C3%A9-relatif-au-d%C3%A9p%C3%B4t-d-un-projet-d-offre-publique-d-achat-simplifi%C3%A9e.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "XOM",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine ownership-threshold disclosure for a French subsidiary; no material impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131754014",
+    "created_at": "2026-11-27T01:01:24Z",
+    "headline": "MegazoneCloud Launches Amazon Quick Center of Excellence",
+    "url": "https://aithority.com/machine-learning/megazonecloud-launches-its-amazon-quick-center-of-excellence-to-turn-enterprise-data-into-autonomous-action/",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.1,
+        "reason": "Third-party partner launch; minor, unlikely to move the stock"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131754013",
+    "created_at": "2026-11-27T01:01:20Z",
+    "headline": "JPMorgan Chase & Co. Discloses Holding in Vistry Group PLC",
+    "url": "https://www.investegate.co.uk/announcement/rns/vistry-group--vty/holding-s-in-company/9896431",
+    "source": "fiscal.ai",
+    "market_risk": 0.0,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.0,
+        "confidence": 0.1,
+        "reason": "Routine stake disclosure in a UK homebuilder; no material impact"
+      }
+    ],
     "scorer": "claude"
   }
 ]
