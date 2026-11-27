@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T20:35:27.150328+00:00",
+  "generated_at": "2026-11-27T21:57:40.385085+00:00",
   "weights": {
     "news": 0.3,
     "trend": 0.2,
@@ -84,17 +84,18 @@
     },
     "AAPL": {
       "price": 358.68,
-      "combined": 0.473,
+      "combined": 0.431,
       "factors": {
         "trend": 0.54,
         "levels": 0.576,
         "flow": 0.038,
-        "pattern": 0.655
+        "pattern": 0.655,
+        "news": 0.332
       },
-      "agreeing": 3,
+      "agreeing": 4,
       "opposing": 0,
-      "news_score": 0.5,
-      "news_articles": 1,
+      "news_score": 0.166,
+      "news_articles": 2,
       "trend": {
         "sma20": 349.03,
         "sma50": 343.27,
@@ -193,7 +194,7 @@
       "factors": {
         "trend": 0.108,
         "levels": -0.207,
-        "flow": -0.107,
+        "flow": -0.106,
         "pattern": 0.235
       },
       "agreeing": 2,
@@ -508,7 +509,7 @@
       "factors": {
         "trend": -1.0,
         "levels": -0.6,
-        "flow": 0.104,
+        "flow": 0.105,
         "pattern": 0.855
       },
       "agreeing": 2,

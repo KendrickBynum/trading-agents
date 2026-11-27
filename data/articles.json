@@ -1,15 +1,5 @@
 [
   {
-    "id": "131628652",
-    "created_at": "2026-11-26T21:32:33Z",
-    "headline": "JPMorgan Chase Lowers Price Target for Vodafone",
-    "url": "https://www.marketscreener.com/news/jpmorgan-lowers-vodafone-pt-maintains-underweight-rating-ce7851d8d08fff21",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
     "id": "131754015",
     "created_at": "2026-11-27T01:01:26Z",
     "headline": "ExxonMobil Files Disclosure Regarding Threshold Crossing in Esso S.A.F.",
@@ -280,6 +270,23 @@
         "sentiment": 0.5,
         "confidence": 0.5,
         "reason": "US smartphone share gain to 57% supports revenue outlook"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "132299991",
+    "created_at": "2026-11-27T21:31:20Z",
+    "headline": "OpenAI Files Counterclaims Against Apple in Trade Secret Dispute",
+    "url": "https://newsfilter.io/articles/openai-countersues-apple-for-stealing-trade-secrets-0d87ce11b27055aa8258a54eec95e532",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.2,
+        "confidence": 0.4,
+        "reason": "Trade secret litigation with OpenAI adds legal overhang, likely minor near-term impact."
       }
     ],
     "scorer": "claude"

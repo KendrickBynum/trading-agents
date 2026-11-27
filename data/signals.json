@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T20:35:23.363634+00:00",
-  "market_risk": 0.042,
+  "generated_at": "2026-11-27T21:57:37.000155+00:00",
+  "market_risk": 0.043,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -15,10 +15,17 @@
       "headlines": []
     },
     "AAPL": {
-      "score": 0.5,
-      "articles": 1,
-      "ai_articles": 1,
+      "score": 0.166,
+      "articles": 2,
+      "ai_articles": 2,
       "headlines": [
+        {
+          "headline": "OpenAI Files Counterclaims Against Apple in Trade Secret Dispute",
+          "url": "https://newsfilter.io/articles/openai-countersues-apple-for-stealing-trade-secrets-0d87ce11b27055aa8258a54eec95e532",
+          "time": "2026-11-27T21:31:20Z",
+          "sentiment": -0.2,
+          "reason": "Trade secret litigation with OpenAI adds legal overhang, likely minor near-term impact."
+        },
         {
           "headline": "Apple Increases US Smartphone Market Share to 57% in Q3 2026",
           "url": "https://telcomagazine.com/news/apple-hits-57-share-as-q3-us-smartphone-shipments-fall-9",
