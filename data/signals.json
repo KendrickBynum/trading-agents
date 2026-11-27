@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T19:35:22.844802+00:00",
-  "market_risk": 0.041,
+  "generated_at": "2026-11-27T20:35:23.363634+00:00",
+  "market_risk": 0.042,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -15,10 +15,18 @@
       "headlines": []
     },
     "AAPL": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.5,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Apple Increases US Smartphone Market Share to 57% in Q3 2026",
+          "url": "https://telcomagazine.com/news/apple-hits-57-share-as-q3-us-smartphone-shipments-fall-9",
+          "time": "2026-11-27T20:02:02Z",
+          "sentiment": 0.5,
+          "reason": "US smartphone share gain to 57% supports revenue outlook"
+        }
+      ]
     },
     "MSFT": {
       "score": 0.0,
@@ -99,18 +107,10 @@
       "headlines": []
     },
     "TSLA": {
-      "score": -0.2,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "EU Postpones Vote on Tesla Assisted Driving Approval",
-          "url": "https://www.finanzen.ch/nachrichten/aktien/eu-delays-vote-on-teslas-assisted-driving-system-to-december-15-reports-1036803762",
-          "time": "2026-11-26T20:01:30Z",
-          "sentiment": -0.2,
-          "reason": "EU delay on assisted driving approval pushes regulatory timeline out"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "ASML": {
       "score": 0.3,

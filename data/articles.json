@@ -1,39 +1,5 @@
 [
   {
-    "id": "131556180",
-    "created_at": "2026-11-26T20:01:30Z",
-    "headline": "Tesla Deploys Manual Battery Preconditioning Feature",
-    "url": "https://www.frandroid.com/marques/tesla/3341437_tesla-lance-enfin-une-fonction-que-ses-rivaux-proposaient-deja-depuis-des-annees-le-prechauffage-manuel-de-la-batterie",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": 0.05,
-        "confidence": 0.2,
-        "reason": "Minor software feature; routine update with little price relevance"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131556179",
-    "created_at": "2026-11-26T20:01:30Z",
-    "headline": "EU Postpones Vote on Tesla Assisted Driving Approval",
-    "url": "https://www.finanzen.ch/nachrichten/aktien/eu-delays-vote-on-teslas-assisted-driving-system-to-december-15-reports-1036803762",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "TSLA",
-        "sentiment": -0.2,
-        "confidence": 0.4,
-        "reason": "EU delay on assisted driving approval pushes regulatory timeline out"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "131628652",
     "created_at": "2026-11-26T21:32:33Z",
     "headline": "JPMorgan Chase Lowers Price Target for Vodafone",
@@ -282,6 +248,40 @@
     "source": "fiscal.ai",
     "market_risk": 0.02,
     "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "132215193",
+    "created_at": "2026-11-27T20:02:02Z",
+    "headline": "Apple Officer Discloses Sale of 55,000 Shares",
+    "url": "https://www.moomoo.com/stock/AAPL-US?chain_id=Name1K9-3FXPhg.1lgjh90&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fchris-strazzeri-151367145%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Officer share sale; routine insider selling, weak signal"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "132215192",
+    "created_at": "2026-11-27T20:02:02Z",
+    "headline": "Apple Increases US Smartphone Market Share to 57% in Q3 2026",
+    "url": "https://telcomagazine.com/news/apple-hits-57-share-as-q3-us-smartphone-shipments-fall-9",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.5,
+        "confidence": 0.5,
+        "reason": "US smartphone share gain to 57% supports revenue outlook"
+      }
+    ],
     "scorer": "claude"
   }
 ]
