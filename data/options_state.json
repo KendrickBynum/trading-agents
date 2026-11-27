@@ -32,7 +32,8 @@
       "delta": -0.5555,
       "iv": 0.3814,
       "dte": 27,
-      "limit": 14.4
+      "limit": 14.4,
+      "avg": 14.4
     }
   },
   "exits": {
@@ -52,30 +53,30 @@
     "b9c6793d-f37f-4d55-ab61-7d6c4c890e05": "CALL XOM $170 exp 2026-12-24 (42d, delta +0.54) on score +0.43; max loss $1,290",
     "f1d4687c-fcc6-4afa-9b34-a674269a67be": "signals turned against the call (-0.12)",
     "779382d0-000e-4950-88b9-26606287264e": "CALL AAPL $355 exp 2026-12-31 (36d, delta +0.52) on score +0.43; max loss $1,125",
-    "a9dec3f2-cac7-4700-8d42-a8cc14a01d67": "PUT GOOGL $280 exp 2026-12-18 (21d, delta -0.55) on score -0.78; max loss $1,245",
-    "8993ae6d-e6ba-444d-a486-d77e74469d6e": "PUT GOOGL $280 exp 2026-12-24 (27d, delta -0.56) on score -0.68; max loss $1,440"
+    "a9dec3f2-cac7-4700-8d42-a8cc14a01d67": "PUT GOOGL $280 exp 2026-12-18 (21d, delta -0.55) on score -0.78; max loss $1,245"
   },
   "logged_orders": [
-    "d67d5966-c817-4b8b-8a04-0fe0d9395767",
     "b8a27ab4-325c-4d9d-a3ce-d3ceaf3bfc20",
-    "c9b5b03b-cefa-41f5-85df-e249813cc1a0",
-    "47c37258-ff24-443c-9359-0e992286598e",
-    "a3f8a155-dcda-47e7-98f7-0824bfc6668b",
-    "e0e68159-512d-40bf-b8fc-eb0063a7bb9c",
-    "f952b0e8-6cfd-4a4a-b6e3-972eb4e8b632",
-    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
-    "2117be41-63d1-44c8-8469-c8267f8fd092",
-    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
-    "d4d6889e-22fd-46de-9a53-88417a40ec77",
-    "ec257555-2b15-444b-8320-1d402f0efcca",
-    "f2c0bcb0-32f7-4141-82e4-fbbff1093471",
-    "4fde783c-5790-4980-8b54-82b5bb8e20d5",
-    "64697f3e-dba8-46d6-b794-cb96f75543a5",
-    "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
     "82552973-390d-4301-a1b7-1e2420954f51",
-    "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
+    "a3f8a155-dcda-47e7-98f7-0824bfc6668b",
     "e10bbfc0-c09a-476f-b490-7e3d35fa0f31",
-    "ca0ec3dc-df70-4cb0-a480-e64fff2f273f"
+    "58e92b03-69a5-4dab-928d-2ab5ad9316f9",
+    "e0e68159-512d-40bf-b8fc-eb0063a7bb9c",
+    "2117be41-63d1-44c8-8469-c8267f8fd092",
+    "fea96f75-5b1f-4afe-9437-4e679fcff3e2",
+    "8993ae6d-e6ba-444d-a486-d77e74469d6e",
+    "4fde783c-5790-4980-8b54-82b5bb8e20d5",
+    "47c37258-ff24-443c-9359-0e992286598e",
+    "f952b0e8-6cfd-4a4a-b6e3-972eb4e8b632",
+    "ec257555-2b15-444b-8320-1d402f0efcca",
+    "ca0ec3dc-df70-4cb0-a480-e64fff2f273f",
+    "f2c0bcb0-32f7-4141-82e4-fbbff1093471",
+    "64697f3e-dba8-46d6-b794-cb96f75543a5",
+    "d67d5966-c817-4b8b-8a04-0fe0d9395767",
+    "c9b5b03b-cefa-41f5-85df-e249813cc1a0",
+    "702e6a4d-f753-4e8b-b55c-2d0f84c02d6c",
+    "ce8d07c3-dad3-47df-acf9-d1fb2c421287",
+    "d4d6889e-22fd-46de-9a53-88417a40ec77"
   ],
-  "last_order_check": "2026-11-27T16:35:23.503197+00:00"
+  "last_order_check": "2026-11-27T17:35:24.669305+00:00"
 }
