@@ -1,67 +1,33 @@
 {
-  "time": "2026-11-27T14:35:31.821809+00:00",
+  "time": "2026-11-27T15:35:23.541137+00:00",
   "halts": [],
   "alerts": [],
   "last_actions": [
     {
-      "symbol": "GOOGL261218P00280000",
-      "side": "buy",
-      "qty": 1,
-      "limit": 12.45,
-      "underlying": "GOOGL",
-      "notional": 1245.0,
-      "score": -0.783,
-      "factors": {
-        "trend": -0.995,
-        "levels": -0.937,
-        "flow": -0.636,
-        "pattern": -0.566
-      },
-      "reason": "PUT GOOGL $280 exp 2026-12-18 (21d, delta -0.55) on score -0.78; max loss $1,245",
-      "status": "order placed",
-      "order_id": "a9dec3f2-cac7-4700-8d42-a8cc14a01d67",
+      "time": "2026-11-27T15:18:19.379215Z",
       "book": "options",
-      "time": "2026-11-27T14:35:31.821809+00:00"
-    },
-    {
       "symbol": "JPM261218P00325000",
       "side": "buy",
-      "qty": 1,
-      "limit": 9.05,
-      "underlying": "JPM",
-      "notional": 905.0,
-      "score": -0.562,
-      "factors": {
-        "trend": -0.559,
-        "levels": -0.905,
-        "flow": -0.347,
-        "pattern": -0.468
-      },
-      "reason": "PUT JPM $325 exp 2026-12-18 (21d, delta -0.52) on score -0.56; max loss $905",
-      "status": "order placed",
+      "status": "filled",
       "order_id": "ca0ec3dc-df70-4cb0-a480-e64fff2f273f",
-      "book": "options",
-      "time": "2026-11-27T14:35:31.821809+00:00"
+      "qty": 1.0,
+      "price": 9.05,
+      "notional": 905.0,
+      "reason": "PUT JPM $325 exp 2026-12-18 (21d, delta -0.52) on score -0.56; max loss $905",
+      "underlying": "JPM"
     },
     {
+      "time": "2026-11-27T14:35:36.216824Z",
+      "book": "options",
       "symbol": "AAPL261218C00357500",
       "side": "buy",
-      "qty": 1,
-      "limit": 9.05,
-      "underlying": "AAPL",
-      "notional": 905.0,
-      "score": 0.433,
-      "factors": {
-        "trend": 0.53,
-        "levels": 0.602,
-        "flow": -0.12,
-        "pattern": 0.624
-      },
-      "reason": "CALL AAPL $357.5 exp 2026-12-18 (21d, delta +0.53) on score +0.43; max loss $905",
-      "status": "order placed",
+      "status": "filled",
       "order_id": "2117be41-63d1-44c8-8469-c8267f8fd092",
-      "book": "options",
-      "time": "2026-11-27T14:35:31.821809+00:00"
+      "qty": 1.0,
+      "price": 9.0,
+      "notional": 900.0,
+      "reason": "CALL AAPL $357.5 exp 2026-12-18 (21d, delta +0.53) on score +0.43; max loss $905",
+      "underlying": "AAPL"
     }
   ],
   "options_level": 3,
