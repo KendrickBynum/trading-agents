@@ -1,22 +1,10 @@
 {
-  "time": "2026-11-27T17:35:24.669305+00:00",
-  "halts": [],
-  "alerts": [],
-  "last_actions": [
-    {
-      "time": "2026-11-27T16:55:21.752937Z",
-      "book": "options",
-      "symbol": "GOOGL261224P00280000",
-      "side": "buy",
-      "status": "filled",
-      "order_id": "8993ae6d-e6ba-444d-a486-d77e74469d6e",
-      "qty": 1.0,
-      "price": 14.4,
-      "notional": 1440.0,
-      "reason": "PUT GOOGL $280 exp 2026-12-24 (27d, delta -0.56) on score -0.68; max loss $1,440",
-      "underlying": "GOOGL"
-    }
+  "time": "2026-11-27T18:35:26.257974+00:00",
+  "halts": [
+    "Market closed"
   ],
+  "alerts": [],
+  "last_actions": [],
   "options_level": 3,
   "learned": {
     "closed_trades": 9,
