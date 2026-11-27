@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:35:24.924713+00:00",
+  "generated_at": "2026-11-27T19:35:27.016055+00:00",
   "weights": {
     "news": 0.3,
     "trend": 0.2,
@@ -72,7 +72,7 @@
         "event": null
       },
       "flow": {
-        "money_flow": -0.23,
+        "money_flow": -0.229,
         "rel_volume": 0.97,
         "vwap": 644.24
       },
@@ -88,7 +88,7 @@
       "factors": {
         "trend": 0.54,
         "levels": 0.576,
-        "flow": 0.036,
+        "flow": 0.037,
         "pattern": 0.655
       },
       "agreeing": 3,
@@ -153,12 +153,12 @@
       }
     },
     "NVDA": {
-      "price": 150.42,
-      "combined": -0.035,
+      "price": 149.52,
+      "combined": -0.036,
       "factors": {
         "trend": -1.0,
         "levels": -0.193,
-        "flow": 0.04,
+        "flow": 0.035,
         "pattern": 0.994
       },
       "agreeing": 1,
@@ -268,8 +268,8 @@
       },
       "agreeing": 1,
       "opposing": 3,
-      "news_score": 0.0,
-      "news_articles": 0,
+      "news_score": 0.2,
+      "news_articles": 1,
       "trend": {
         "sma20": 615.49,
         "sma50": 671.34,
@@ -338,8 +338,8 @@
       },
       "agreeing": 2,
       "opposing": 2,
-      "news_score": 0.15,
-      "news_articles": 1,
+      "news_score": 0.0,
+      "news_articles": 0,
       "trend": {
         "sma20": 165.81,
         "sma50": 167.91,
@@ -363,7 +363,7 @@
       }
     },
     "MU": {
-      "price": 644.52,
+      "price": 645.16,
       "combined": -0.183,
       "factors": {
         "trend": -1.0,
@@ -388,7 +388,7 @@
       },
       "flow": {
         "money_flow": -0.121,
-        "rel_volume": 1.12,
+        "rel_volume": 1.13,
         "vwap": 632.25
       },
       "pattern": {
@@ -433,12 +433,12 @@
       }
     },
     "TSLA": {
-      "price": 400.11,
-      "combined": 0.254,
+      "price": 397.76,
+      "combined": 0.236,
       "factors": {
         "trend": 0.128,
         "levels": -0.046,
-        "flow": 0.245,
+        "flow": 0.159,
         "pattern": 0.612
       },
       "agreeing": 3,
@@ -468,12 +468,12 @@
       }
     },
     "ASML": {
-      "price": 1327.5,
-      "combined": -0.399,
+      "price": 1317.99,
+      "combined": -0.404,
       "factors": {
         "trend": -0.999,
         "levels": -0.133,
-        "flow": -0.16,
+        "flow": -0.185,
         "pattern": -0.178
       },
       "agreeing": 0,
@@ -503,7 +503,7 @@
       }
     },
     "AMD": {
-      "price": 422.04,
+      "price": 422.52,
       "combined": -0.148,
       "factors": {
         "trend": -1.0,
@@ -528,7 +528,7 @@
       },
       "flow": {
         "money_flow": -0.075,
-        "rel_volume": 0.9,
+        "rel_volume": 0.91,
         "vwap": 412.76
       },
       "pattern": {

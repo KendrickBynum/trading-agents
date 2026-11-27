@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T18:35:24.657155+00:00",
-  "market_risk": 0.044,
+  "generated_at": "2026-11-27T19:35:22.844802+00:00",
+  "market_risk": 0.041,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -53,10 +53,18 @@
       "headlines": []
     },
     "META": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": 0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Meta Platforms in Talks with JERA for Tokyo-Area Data Centers",
+          "url": "https://www.marketscreener.com/news/anthropic-meta-others-tech-giants-in-talks-with-jera-to-build-tokyo-area-data-centers-ce7851d9de8df422",
+          "time": "2026-11-27T19:02:03Z",
+          "sentiment": 0.2,
+          "reason": "Reported talks on Tokyo data centers are unconfirmed and small relative to Meta's scale."
+        }
+      ]
     },
     "JPM": {
       "score": 0.0,
@@ -65,18 +73,10 @@
       "headlines": []
     },
     "XOM": {
-      "score": 0.15,
-      "articles": 1,
-      "ai_articles": 1,
-      "headlines": [
-        {
-          "headline": "European Parliament Delays Methane Reporting Requirements for Fossil Fuel Importers",
-          "url": "https://www.finanzen.at/nachrichten/aktien/eu-parlament-gibt-gruenes-licht-fuer-aufschub-von-klimaregeln-1036802896",
-          "time": "2026-11-26T19:01:25Z",
-          "sentiment": 0.15,
-          "reason": "Two-year delay of methane reporting lowers near-term compliance costs for importers"
-        }
-      ]
+      "score": 0.0,
+      "articles": 0,
+      "ai_articles": 0,
+      "headlines": []
     },
     "MU": {
       "score": 0.6,

@@ -1,39 +1,5 @@
 [
   {
-    "id": "131508882",
-    "created_at": "2026-11-26T19:01:32Z",
-    "headline": "Microsoft AI CEO Mustafa Suleyman Issues Warning on AI Safety Thresholds",
-    "url": "https://af.net/fr/realtime/microsoft-ai-ceo-warns-labs-are-crossing-threshold-as-internal-models-break-containment/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "MSFT",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Executive commentary on AI safety; no concrete business or financial impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131508880",
-    "created_at": "2026-11-26T19:01:25Z",
-    "headline": "European Parliament Delays Methane Reporting Requirements for Fossil Fuel Importers",
-    "url": "https://www.finanzen.at/nachrichten/aktien/eu-parlament-gibt-gruenes-licht-fuer-aufschub-von-klimaregeln-1036802896",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.15,
-        "confidence": 0.3,
-        "reason": "Two-year delay of methane reporting lowers near-term compliance costs for importers"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "131556180",
     "created_at": "2026-11-26T20:01:30Z",
     "headline": "Tesla Deploys Manual Battery Preconditioning Feature",
@@ -272,6 +238,50 @@
         "reason": "Routine voting rights disclosure in a small UK company; immaterial to JPM."
       }
     ],
+    "scorer": "claude"
+  },
+  {
+    "id": "132158469",
+    "created_at": "2026-11-27T19:02:03Z",
+    "headline": "Meta Platforms in Talks with JERA for Tokyo-Area Data Centers",
+    "url": "https://www.marketscreener.com/news/anthropic-meta-others-tech-giants-in-talks-with-jera-to-build-tokyo-area-data-centers-ce7851d9de8df422",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.2,
+        "confidence": 0.3,
+        "reason": "Reported talks on Tokyo data centers are unconfirmed and small relative to Meta's scale."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "132157531",
+    "created_at": "2026-11-27T19:01:33Z",
+    "headline": "Unconfirmed Firmware Discovery Suggests Potential European Robotaxi Geofencing",
+    "url": "https://www.basenor.com/blogs/news/tesla-robotaxi-geofences-found-in-firmware-for-9-european-cities",
+    "source": "fiscal.ai",
+    "market_risk": 0.03,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Unconfirmed firmware geofence data suggests speculative European robotaxi plans."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "132157530",
+    "created_at": "2026-11-27T19:01:32Z",
+    "headline": "JPMorgan Chase Discloses 6.34% Stake in Sibanye-Stillwater",
+    "url": "https://irw-press.com/en/notification-of-an-acquisition-of-beneficial-interest-in-securities-by-jpmorgan-chase-co-4/",
+    "source": "fiscal.ai",
+    "market_risk": 0.02,
+    "impacts": [],
     "scorer": "claude"
   }
 ]
