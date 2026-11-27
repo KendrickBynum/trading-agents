@@ -1,137 +1,5 @@
 [
   {
-    "id": "131336288",
-    "created_at": "2026-11-26T14:31:24Z",
-    "headline": "Moloco Selects JPMorgan Chase and Goldman Sachs for IPO",
-    "url": "https://stockanalysis.com/private/moloco/",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.1,
-        "confidence": 0.3,
-        "reason": "Selected as IPO underwriter for Moloco; modest fee revenue"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131300029",
-    "created_at": "2026-11-26T13:01:32Z",
-    "headline": "NVIDIA and Kioxia Announce Collaboration to Extend GPU Memory Capacity",
-    "url": "https://natlawreview.com/press-releases/kioxia-and-nvidia-collaborate-expand-effective-high-bandwidth-memory",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": 0.1,
-        "confidence": 0.2,
-        "reason": "Memory collaboration with Kioxia; incremental, mostly demonstration-stage"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131277935",
-    "created_at": "2026-11-26T11:32:14Z",
-    "headline": "Apple Removes Talkie AI App from App Store Worldwide",
-    "url": "https://www.marketscreener.com/news/minimax-s-talkie-removed-from-apple-app-store-worldwide-ce7851d8d18af721",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [
-      {
-        "ticker": "AAPL",
-        "sentiment": -0.05,
-        "confidence": 0.1,
-        "reason": "Third-party app removal; negligible financial impact on Apple"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131277934",
-    "created_at": "2026-11-26T11:32:14Z",
-    "headline": "Apple to Open New Retail Store in Hyderabad, India",
-    "url": "https://www.finanzen.ch/nachrichten/aktien/apple-to-open-new-store-in-hyderabad-expanding-indian-retail-business-1036802666",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "131277703",
-    "created_at": "2026-11-26T11:31:41Z",
-    "headline": "NVIDIA Orders Partners to Stop Server Shipments to ASEAN States",
-    "url": "https://www.marketscreener.com/news/nvidia-orders-partners-to-stop-server-shipments-to-asean-states-ce7851d8de89f626",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.5,
-        "confidence": 0.6,
-        "reason": "Halting server shipments to ASEAN threatens near-term revenue"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131277702",
-    "created_at": "2026-11-26T11:31:41Z",
-    "headline": "S&P Global Ratings Places NVIDIA on CreditWatch Negative",
-    "url": "https://wjno.iheart.com/content/2026-11-26-sp-huang-drama-could-hurt-nvidias-credit-rating/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "NVDA",
-        "sentiment": -0.3,
-        "confidence": 0.4,
-        "reason": "CreditWatch negative signals possible downgrade and governance concerns"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131277697",
-    "created_at": "2026-11-26T11:31:24Z",
-    "headline": "Meta and Philippine DICT Sign Memorandum of Understanding",
-    "url": "https://www.pna.gov.ph/article/dict-meta-ink-pact-vs-online-scams-child-exploitation",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "131277695",
-    "created_at": "2026-11-26T11:31:23Z",
-    "headline": "AWS and Amazon CloudFront Support Global Launch of GTA VI",
-    "url": "https://money.udn.com/money/story/12987/9903872",
-    "source": "fiscal.ai",
-    "market_risk": 0.05,
-    "impacts": [],
-    "scorer": "claude"
-  },
-  {
-    "id": "131277694",
-    "created_at": "2026-11-26T11:31:23Z",
-    "headline": "Amazon Responds to FTC Allegations Regarding 'Project Nessie' Pricing Tool",
-    "url": "http://www.milwaukeeindependent.com/featured/u-s-retail-expansion-ai-assisted-pricing-tools-accelerates-consumer-alarm-price-gouging/",
-    "source": "fiscal.ai",
-    "market_risk": 0.1,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": -0.1,
-        "confidence": 0.25,
-        "reason": "Renewed FTC pricing allegations; regulatory overhang largely known"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "131386371",
     "created_at": "2026-11-26T16:01:46Z",
     "headline": "Amazon Announces Quick Sight Upgrade and Autonomous Workload Build Capabilities",
@@ -293,6 +161,135 @@
         "sentiment": 0.0,
         "confidence": 0.1,
         "reason": "Routine stake disclosure in a UK homebuilder; no material impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131930985",
+    "created_at": "2026-11-27T14:31:46Z",
+    "headline": "Meta Cited in South African High Court Ruling Regarding Pseudonymous Content",
+    "url": "https://www.einnews.com/pr_news/959345946/government-welcomes-high-court-ruling-against-pseudonymous-facebook-account",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": -0.05,
+        "confidence": 0.2,
+        "reason": "Routine court ruling over content removal; minimal financial impact"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131930984",
+    "created_at": "2026-11-27T14:31:46Z",
+    "headline": "Meta Launches Instagram for TV in India",
+    "url": "https://www.marketscreener.com/news/meta-platforms-brings-instagram-for-tv-to-india-ce7851d9df8df327",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "META",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "New Instagram TV product in India; modest growth optionality"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131930982",
+    "created_at": "2026-11-27T14:31:44Z",
+    "headline": "JPMorgan and BlackRock Contending to Manage Portion of Singapore's Public Pension Fund",
+    "url": "https://www.marketscreener.com/news/jpmorgan-blackrock-contending-to-manage-portion-of-singapore-s-543-62-billion-public-pension-fund-ce7851d9df8df324",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "JPM",
+        "sentiment": 0.1,
+        "confidence": 0.2,
+        "reason": "Reported competition for Singapore pension mandate; small, unconfirmed win"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131909034",
+    "created_at": "2026-11-27T14:01:24Z",
+    "headline": "Dutch Government to Request US Non-Enforcement of MATCH Act",
+    "url": "https://www.moomoo.com/ja/news/post/1005989189",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "ASML",
+        "sentiment": 0.3,
+        "confidence": 0.4,
+        "reason": "Dutch push to delay MATCH Act eases export restriction risk"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131879053",
+    "created_at": "2026-11-27T13:01:27Z",
+    "headline": "NVIDIA Faces New U.S. Export Controls and Regional Market Shifts",
+    "url": "https://world.storm.mg/articles/1184970",
+    "source": "fiscal.ai",
+    "market_risk": 0.1,
+    "impacts": [
+      {
+        "ticker": "NVDA",
+        "sentiment": -0.35,
+        "confidence": 0.5,
+        "reason": "New export licensing requirements restrict AI chip sales in key regions"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131842559",
+    "created_at": "2026-11-27T11:31:55Z",
+    "headline": "Tesla Files Plans to Acquire German Company Emag",
+    "url": "https://www.moomoo.com/stock/TSLA-US/news?chain_id=Name1K9-3FXPhg.1l60200&global_content=%7B%22promote_id%22%3A13764,%22sub_promote_id%22%3A57,%22f%22%3A%22www.moomoo.com%2Fstock%2FUROY-US%22%7D",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "TSLA",
+        "sentiment": 0.0,
+        "confidence": 0.2,
+        "reason": "Acquisition filing for Emag; size and impact unclear"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "131842542",
+    "created_at": "2026-11-27T11:31:28Z",
+    "headline": "ScitiX Launches Model Inference Services on AWS Marketplace",
+    "url": "https://www.prnewswire.com/apac/news-releases/scitix-model-inference-now-available-in-aws-marketplace-302951612.html",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [],
+    "scorer": "claude"
+  },
+  {
+    "id": "131842541",
+    "created_at": "2026-11-27T11:31:22Z",
+    "headline": "Micron Reports High Bandwidth Memory (HBM) Capacity Largely Booked for Upcoming Year",
+    "url": "https://www.moomoo.com/news/post/1005986341/where-is-the-memory-market-headed-analysts-debate-whether-dram",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MU",
+        "sentiment": 0.6,
+        "confidence": 0.6,
+        "reason": "Next-year HBM capacity largely booked; strong demand visibility"
       }
     ],
     "scorer": "claude"
