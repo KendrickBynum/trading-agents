@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T21:57:37.000155+00:00",
-  "market_risk": 0.043,
+  "generated_at": "2026-11-28T03:22:02.497533+00:00",
+  "market_risk": 0.047,
   "tickers": {
     "SPY": {
       "score": 0.0,
@@ -36,10 +36,18 @@
       ]
     },
     "MSFT": {
-      "score": 0.0,
-      "articles": 0,
-      "ai_articles": 0,
-      "headlines": []
+      "score": -0.2,
+      "articles": 1,
+      "ai_articles": 1,
+      "headlines": [
+        {
+          "headline": "Anthropic's Expansion in Enterprise AI Challenges Microsoft's Market Position",
+          "url": "https://www.varindia.com/news/microsoft-copilot-holds-ground-against-claude",
+          "time": "2026-11-28T01:01:26Z",
+          "sentiment": -0.2,
+          "reason": "Anthropic's enterprise push raises competitive pressure on Copilot"
+        }
+      ]
     },
     "NVDA": {
       "score": -0.35,

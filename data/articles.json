@@ -1,56 +1,5 @@
 [
   {
-    "id": "131754015",
-    "created_at": "2026-11-27T01:01:26Z",
-    "headline": "ExxonMobil Files Disclosure Regarding Threshold Crossing in Esso S.A.F.",
-    "url": "https://www.globenewswire.com/news-release/2026/11/26/3411020/0/fr/communiqu%C3%A9-relatif-au-d%C3%A9p%C3%B4t-d-un-projet-d-offre-publique-d-achat-simplifi%C3%A9e.html",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "XOM",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Routine ownership-threshold disclosure for a French subsidiary; no material impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131754014",
-    "created_at": "2026-11-27T01:01:24Z",
-    "headline": "MegazoneCloud Launches Amazon Quick Center of Excellence",
-    "url": "https://aithority.com/machine-learning/megazonecloud-launches-its-amazon-quick-center-of-excellence-to-turn-enterprise-data-into-autonomous-action/",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "AMZN",
-        "sentiment": 0.05,
-        "confidence": 0.1,
-        "reason": "Third-party partner launch; minor, unlikely to move the stock"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
-    "id": "131754013",
-    "created_at": "2026-11-27T01:01:20Z",
-    "headline": "JPMorgan Chase & Co. Discloses Holding in Vistry Group PLC",
-    "url": "https://www.investegate.co.uk/announcement/rns/vistry-group--vty/holding-s-in-company/9896431",
-    "source": "fiscal.ai",
-    "market_risk": 0.0,
-    "impacts": [
-      {
-        "ticker": "JPM",
-        "sentiment": 0.0,
-        "confidence": 0.1,
-        "reason": "Routine stake disclosure in a UK homebuilder; no material impact"
-      }
-    ],
-    "scorer": "claude"
-  },
-  {
     "id": "131930985",
     "created_at": "2026-11-27T14:31:46Z",
     "headline": "Meta Cited in South African High Court Ruling Regarding Pseudonymous Content",
@@ -287,6 +236,80 @@
         "sentiment": -0.2,
         "confidence": 0.4,
         "reason": "Trade secret litigation with OpenAI adds legal overhang, likely minor near-term impact."
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "132452792",
+    "created_at": "2026-11-28T03:01:29Z",
+    "headline": "Amazon and Globalstar File Opposition to License Transfer Challenge",
+    "url": "https://newsfilter.io/articles/response-by-globalstar-inc-amazon-com-inc-in-26-134-3f9b2ef147cb51e1b09733d1c163af88",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Routine regulatory filing on satellite license transfer; minimal price relevance"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "132448932",
+    "created_at": "2026-11-28T01:01:26Z",
+    "headline": "Anthropic's Expansion in Enterprise AI Challenges Microsoft's Market Position",
+    "url": "https://www.varindia.com/news/microsoft-copilot-holds-ground-against-claude",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "MSFT",
+        "sentiment": -0.2,
+        "confidence": 0.35,
+        "reason": "Anthropic's enterprise push raises competitive pressure on Copilot"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "132448931",
+    "created_at": "2026-11-28T01:01:25Z",
+    "headline": "Reports Suggest Apple Exploring Ceramic Components for 2027 iPhone",
+    "url": "https://www.finanzen.ch/nachrichten/aktien/apple-may-consider-ceramic-design-for-20th-anniversary-iphone-1036806444",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AAPL",
+        "sentiment": 0.0,
+        "confidence": 0.15,
+        "reason": "Speculative leak about future iPhone materials; not actionable"
+      }
+    ],
+    "scorer": "claude"
+  },
+  {
+    "id": "132448930",
+    "created_at": "2026-11-28T01:01:18Z",
+    "headline": "Amazon Blocks AI Shopping Agents from Its Platform",
+    "url": "https://newsfilter.io/articles/ai-shopping-agents-are-having-a-moment-but-amazon-and-a-growing-number-of-sites-797242a1e1cc57d9b4086f1febb2da9b",
+    "source": "fiscal.ai",
+    "market_risk": 0.05,
+    "impacts": [
+      {
+        "ticker": "AMZN",
+        "sentiment": 0.05,
+        "confidence": 0.2,
+        "reason": "Blocking rival AI agents may protect its commerce ecosystem; modest effect"
+      },
+      {
+        "ticker": "META",
+        "sentiment": -0.1,
+        "confidence": 0.2,
+        "reason": "Its Muse AI shopping agent was blocked from Amazon's platform"
       }
     ],
     "scorer": "claude"
